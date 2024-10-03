@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:cids="https://ontology.commonapproach.org/cids#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:org="http://www.w3.org/ns/org#"
+   xmlns:owl="http://www.w3.org/2002/07/owl#"
+   xmlns:prov="http://www.w3.org/ns/prov#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+   xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+   xmlns:vann="http://purl.org/vocab/vann/"
+   xml:base="https://codelist.commonapproach.org/codeLists/StatsCanSector#"
+   xmlns="https://codelist.commonapproach.org/codeLists/StatsCanSector#"
+>
+  <rdf:Description rdf:about="https://codelist.commonapproach.org/codeLists/StatsCanSector">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
+    <rdf:type rdf:resource="http://purl.org/vocommons/voafVocabulary"/>
+    <vann:preferredNamespacePrefix>StatsCanSector</vann:preferredNamespacePrefix>
+    <owl:versionInfo>1.0</owl:versionInfo>
+    <dcterms:date>03-10-2024</dcterms:date>
+    <vann:preferredNamespaceUri rdf:resource="https://codelist.commonapproach.org/codeLists/StatsCanSector#"/>
+    <owl:imports rdf:resource="https://ontology.commonapproach.org/owl/cids"/>
+    <owl:imports rdf:resource="http://www.w3.org/2006/time"/>
+    <cids:hasName>Statistics Canada Sectors</cids:hasName>
+    <dcterms:title xml:lang="en">Statistics Canada Sectors</dcterms:title>
+    <dcterms:description xml:lang="en">A codelist vocabulary of Sectors as defined by Statistics Canada.</dcterms:description>
+    <foaf:name>Statistics Canada Sectors</foaf:name>
+    <rdfs:label>Statistics Canada Sectors</rdfs:label>
+    <dcterms:creator rdf:resource="https://ontology.commonapproach.org/cids#ac"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://codelist.commonapproach.org/codeLists/StatsCanSector#dataset">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://codelist.commonapproach.org/codeLists/StatsCanSector#sec1">
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Sector"/>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#CODE"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://codelist.commonapproach.org/codeLists/StatsCanSector#dataset"/>
+    <rdfs:isDefinedBy rdf:resource="https://codelist.commonapproach.org/codeLists/StatsCanSector#"/>
+    <cids:hasName xml:lang="en">Agriculture, forestry, fishing and hunting</cids:hasName>
+    <rdfs:label xml:lang="en">Agriculture, forestry, fishing and hunting</rdfs:label>
+    <cids:definedBy rdf:resource="https://ontology.commonapproach.org/cids#statsCan"/>
+    <cids:hasIdentifier>11</cids:hasIdentifier>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://codelist.commonapproach.org/codeLists/StatsCanSector#sec2">
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Sector"/>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#CODE"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://codelist.commonapproach.org/codeLists/StatsCanSector#dataset"/>
+    <rdfs:isDefinedBy rdf:resource="https://codelist.commonapproach.org/codeLists/StatsCanSector#"/>
+    <cids:hasName xml:lang="en">Mining, quarrying, and oil and gas extraction</cids:hasName>
+    <rdfs:label xml:lang="en">Mining, quarrying, and oil and gas extraction</rdfs:label>
+    <cids:definedBy rdf:resource="https://ontology.commonapproach.org/cids#statsCan"/>
+    <cids:hasIdentifier>21</cids:hasIdentifier>
+  </rdf:Description>
+
+
+  <rdf:Description rdf:about="https://codelist.commonapproach.org/codeLists/StatsCanSector#sec3">
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Sector"/>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#CODE"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://codelist.commonapproach.org/codeLists/StatsCanSector#dataset"/>
+    <rdfs:isDefinedBy rdf:resource="https://codelist.commonapproach.org/codeLists/StatsCanSector#"/>
+    <cids:hasName xml:lang="en">Utilities</cids:hasName>
+    <rdfs:label xml:lang="en">Utilities</rdfs:label>
+    <cids:definedBy rdf:resource="https://ontology.commonapproach.org/cids#statsCan"/>
+    <cids:hasIdentifier>22</cids:hasIdentifier>
+  </rdf:Description>
+
+
+  <rdf:Description rdf:about="https://codelist.commonapproach.org/codeLists/StatsCanSector#sec4">
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Sector"/>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#CODE"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://codelist.commonapproach.org/codeLists/StatsCanSector#dataset"/>
+    <rdfs:isDefinedBy rdf:resource="https://codelist.commonapproach.org/codeLists/StatsCanSector#"/>
+    <cids:hasName xml:lang="en">Construction</cids:hasName>
+    <rdfs:label xml:lang="en">Construction</rdfs:label>
+    <cids:definedBy rdf:resource="https://ontology.commonapproach.org/cids#statsCan"/>
+    <cids:hasIdentifier>23</cids:hasIdentifier>
+  </rdf:Description>
+
+
+  <rdf:Description rdf:about="https://codelist.commonapproach.org/codeLists/StatsCanSector#sec5">
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Sector"/>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#CODE"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://codelist.commonapproach.org/codeLists/StatsCanSector#dataset"/>
+    <rdfs:isDefinedBy rdf:resource="https://codelist.commonapproach.org/codeLists/StatsCanSector#"/>
+    <cids:hasName xml:lang="en">Manufacturing</cids:hasName>
+    <rdfs:label xml:lang="en">Manufacturing</rdfs:label>
+    <cids:definedBy rdf:resource="https://ontology.commonapproach.org/cids#statsCan"/>
+    <cids:hasIdentifier>31</cids:hasIdentifier>
+    <cids:hasIdentifier>32</cids:hasIdentifier>
+    <cids:hasIdentifier>33</cids:hasIdentifier>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://codelist.commonapproach.org/codeLists/StatsCanSector#sec6">
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Sector"/>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#CODE"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://codelist.commonapproach.org/codeLists/StatsCanSector#dataset"/>
+    <rdfs:isDefinedBy rdf:resource="https://codelist.commonapproach.org/codeLists/StatsCanSector#"/>
+    <cids:hasName xml:lang="en">Wholesale trade</cids:hasName>
+    <rdfs:label xml:lang="en">Wholesale trade</rdfs:label>
+    <cids:definedBy rdf:resource="https://ontology.commonapproach.org/cids#statsCan"/>
+    <cids:hasIdentifier>41</cids:hasIdentifier>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://codelist.commonapproach.org/codeLists/StatsCanSector#sec7">
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Sector"/>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#CODE"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://codelist.commonapproach.org/codeLists/StatsCanSector#dataset"/>
+    <rdfs:isDefinedBy rdf:resource="https://codelist.commonapproach.org/codeLists/StatsCanSector#"/>
+    <cids:hasName xml:lang="en">Retail trade</cids:hasName>
+    <rdfs:label xml:lang="en">Retail trade</rdfs:label>
+    <cids:definedBy rdf:resource="https://ontology.commonapproach.org/cids#statsCan"/>
+    <cids:hasIdentifier>44</cids:hasIdentifier>
+    <cids:hasIdentifier>45</cids:hasIdentifier>
+  </rdf:Description>
+
+
+  <rdf:Description rdf:about="https://codelist.commonapproach.org/codeLists/StatsCanSector#sec8">
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Sector"/>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#CODE"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://codelist.commonapproach.org/codeLists/StatsCanSector#dataset"/>
+    <rdfs:isDefinedBy rdf:resource="https://codelist.commonapproach.org/codeLists/StatsCanSector#"/>
+    <cids:hasName xml:lang="en">Transportation and warehousing</cids:hasName>
+    <rdfs:label xml:lang="en">Transportation and warehousing</rdfs:label>
+    <cids:definedBy rdf:resource="https://ontology.commonapproach.org/cids#statsCan"/>
+    <cids:hasIdentifier>48</cids:hasIdentifier>
+    <cids:hasIdentifier>49</cids:hasIdentifier>
+  </rdf:Description>
+
+
+  <rdf:Description rdf:about="https://codelist.commonapproach.org/codeLists/StatsCanSector#sec9">
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Sector"/>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#CODE"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://codelist.commonapproach.org/codeLists/StatsCanSector#dataset"/>
+    <rdfs:isDefinedBy rdf:resource="https://codelist.commonapproach.org/codeLists/StatsCanSector#"/>
+    <cids:hasName xml:lang="en">Information and cultural industries</cids:hasName>
+    <rdfs:label xml:lang="en">Information and cultural industries</rdfs:label>
+    <cids:definedBy rdf:resource="https://ontology.commonapproach.org/cids#statsCan"/>
+    <cids:hasIdentifier>51</cids:hasIdentifier>
+  </rdf:Description>
+
+
+  <rdf:Description rdf:about="https://codelist.commonapproach.org/codeLists/StatsCanSector#sec10">
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Sector"/>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#CODE"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://codelist.commonapproach.org/codeLists/StatsCanSector#dataset"/>
+    <rdfs:isDefinedBy rdf:resource="https://codelist.commonapproach.org/codeLists/StatsCanSector#"/>
+    <cids:hasName xml:lang="en">Finance and insurance</cids:hasName>
+    <rdfs:label xml:lang="en">Finance and insurance</rdfs:label>
+    <cids:definedBy rdf:resource="https://ontology.commonapproach.org/cids#statsCan"/>
+    <cids:hasIdentifier>52</cids:hasIdentifier>
+  </rdf:Description>
+
+
+  <rdf:Description rdf:about="https://codelist.commonapproach.org/codeLists/StatsCanSector#sec11">
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Sector"/>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#CODE"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://codelist.commonapproach.org/codeLists/StatsCanSector#dataset"/>
+    <rdfs:isDefinedBy rdf:resource="https://codelist.commonapproach.org/codeLists/StatsCanSector#"/>
+    <cids:hasName xml:lang="en">Real estate and rental and leasing</cids:hasName>
+    <rdfs:label xml:lang="en">Real estate and rental and leasing</rdfs:label>
+    <cids:definedBy rdf:resource="https://ontology.commonapproach.org/cids#statsCan"/>
+    <cids:hasIdentifier>53</cids:hasIdentifier>
+  </rdf:Description>
+
+
+  <rdf:Description rdf:about="https://codelist.commonapproach.org/codeLists/StatsCanSector#sec12">
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Sector"/>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#CODE"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://codelist.commonapproach.org/codeLists/StatsCanSector#dataset"/>
+    <rdfs:isDefinedBy rdf:resource="https://codelist.commonapproach.org/codeLists/StatsCanSector#"/>
+    <cids:hasName xml:lang="en">Professional, scientific and technical services</cids:hasName>
+    <rdfs:label xml:lang="en">Professional, scientific and technical services</rdfs:label>
+    <cids:definedBy rdf:resource="https://ontology.commonapproach.org/cids#statsCan"/>
+    <cids:hasIdentifier>54</cids:hasIdentifier>
+  </rdf:Description>
+
+
+  <rdf:Description rdf:about="https://codelist.commonapproach.org/codeLists/StatsCanSector#sec13">
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Sector"/>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#CODE"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://codelist.commonapproach.org/codeLists/StatsCanSector#dataset"/>
+    <rdfs:isDefinedBy rdf:resource="https://codelist.commonapproach.org/codeLists/StatsCanSector#"/>
+    <cids:hasName xml:lang="en">Management of companies and enterprises</cids:hasName>
+    <rdfs:label xml:lang="en">Management of companies and enterprises</rdfs:label>
+    <cids:definedBy rdf:resource="https://ontology.commonapproach.org/cids#statsCan"/>
+    <cids:hasIdentifier>55</cids:hasIdentifier>
+  </rdf:Description>
+
+
+  <rdf:Description rdf:about="https://codelist.commonapproach.org/codeLists/StatsCanSector#sec14">
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Sector"/>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#CODE"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://codelist.commonapproach.org/codeLists/StatsCanSector#dataset"/>
+    <rdfs:isDefinedBy rdf:resource="https://codelist.commonapproach.org/codeLists/StatsCanSector#"/>
+    <cids:hasName xml:lang="en">Administrative and support, waste management and remediation services</cids:hasName>
+    <rdfs:label xml:lang="en">Administrative and support, waste management and remediation services</rdfs:label>
+    <cids:definedBy rdf:resource="https://ontology.commonapproach.org/cids#statsCan"/>
+    <cids:hasIdentifier>56</cids:hasIdentifier>
+  </rdf:Description>
+
+
+  <rdf:Description rdf:about="https://codelist.commonapproach.org/codeLists/StatsCanSector#sec15">
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Sector"/>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#CODE"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://codelist.commonapproach.org/codeLists/StatsCanSector#dataset"/>
+    <rdfs:isDefinedBy rdf:resource="https://codelist.commonapproach.org/codeLists/StatsCanSector#"/>
+    <cids:hasName xml:lang="en">Educational services</cids:hasName>
+    <rdfs:label xml:lang="en">Educational services</rdfs:label>
+    <cids:definedBy rdf:resource="https://ontology.commonapproach.org/cids#statsCan"/>
+    <cids:hasIdentifier>61</cids:hasIdentifier>
+  </rdf:Description>
+
+
+  <rdf:Description rdf:about="https://codelist.commonapproach.org/codeLists/StatsCanSector#sec16">
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Sector"/>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#CODE"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://codelist.commonapproach.org/codeLists/StatsCanSector#dataset"/>
+    <rdfs:isDefinedBy rdf:resource="https://codelist.commonapproach.org/codeLists/StatsCanSector#"/>
+    <cids:hasName xml:lang="en">Health care and social assistance</cids:hasName>
+    <rdfs:label xml:lang="en">Health care and social assistance</rdfs:label>
+    <cids:definedBy rdf:resource="https://ontology.commonapproach.org/cids#statsCan"/>
+    <cids:hasIdentifier>62</cids:hasIdentifier>
+  </rdf:Description>
+
+
+  <rdf:Description rdf:about="https://codelist.commonapproach.org/codeLists/StatsCanSector#sec17">
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Sector"/>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#CODE"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://codelist.commonapproach.org/codeLists/StatsCanSector#dataset"/>
+    <rdfs:isDefinedBy rdf:resource="https://codelist.commonapproach.org/codeLists/StatsCanSector#"/>
+    <cids:hasName xml:lang="en">Arts, entertainment and recreation</cids:hasName>
+    <rdfs:label xml:lang="en">Arts, entertainment and recreation</rdfs:label>
+    <cids:definedBy rdf:resource="https://ontology.commonapproach.org/cids#statsCan"/>
+    <cids:hasIdentifier>71</cids:hasIdentifier>
+  </rdf:Description>
+
+
+  <rdf:Description rdf:about="https://codelist.commonapproach.org/codeLists/StatsCanSector#sec18">
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Sector"/>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#CODE"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://codelist.commonapproach.org/codeLists/StatsCanSector#dataset"/>
+    <rdfs:isDefinedBy rdf:resource="https://codelist.commonapproach.org/codeLists/StatsCanSector#"/>
+    <cids:hasName xml:lang="en">Accommodation and food services</cids:hasName>
+    <rdfs:label xml:lang="en">Accommodation and food services</rdfs:label>
+    <cids:definedBy rdf:resource="https://ontology.commonapproach.org/cids#statsCan"/>
+    <cids:hasIdentifier>72</cids:hasIdentifier>
+  </rdf:Description>
+
+
+  <rdf:Description rdf:about="https://codelist.commonapproach.org/codeLists/StatsCanSector#sec19">
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Sector"/>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#CODE"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://codelist.commonapproach.org/codeLists/StatsCanSector#dataset"/>
+    <rdfs:isDefinedBy rdf:resource="https://codelist.commonapproach.org/codeLists/StatsCanSector#"/>
+    <cids:hasName xml:lang="en">Other services (except public administration)</cids:hasName>
+    <rdfs:label xml:lang="en">Other services (except public administration)</rdfs:label>
+    <cids:definedBy rdf:resource="https://ontology.commonapproach.org/cids#statsCan"/>
+    <cids:hasIdentifier>81</cids:hasIdentifier>
+  </rdf:Description>
+
+
+  <rdf:Description rdf:about="https://codelist.commonapproach.org/codeLists/StatsCanSector#sec20">
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Sector"/>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#CODE"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://codelist.commonapproach.org/codeLists/StatsCanSector#dataset"/>
+    <rdfs:isDefinedBy rdf:resource="https://codelist.commonapproach.org/codeLists/StatsCanSector#"/>
+    <cids:hasName xml:lang="en">Public administration</cids:hasName>
+    <rdfs:label xml:lang="en">Public administration</rdfs:label>
+    <cids:definedBy rdf:resource="https://ontology.commonapproach.org/cids#statsCan"/>
+    <cids:hasIdentifier>91</cids:hasIdentifier>
+  </rdf:Description>
+
+
+
+
+</rdf:RDF>
