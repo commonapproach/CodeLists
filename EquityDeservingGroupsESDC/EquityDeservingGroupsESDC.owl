@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:cids="https://ontology.commonapproach.org/cids#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:org="http://www.w3.org/ns/org#"
+   xmlns:owl="http://www.w3.org/2002/07/owl#"
+   xmlns:prov="http://www.w3.org/ns/prov#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+   xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+   xmlns:vann="http://purl.org/vocab/vann/"
+   xml:base="https://codelist.commonapproach.org/codeLists/EquityDeservingGroupsESDC#"
+   xmlns="https://codelist.commonapproach.org/codeLists/EquityDeservingGroupsESDC#"
+>
+  <rdf:Description rdf:about="https://codelist.commonapproach.org/codeLists/EquityDeservingGroupsESDC">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
+    <rdf:type rdf:resource="http://purl.org/vocommons/voafVocabulary"/>
+    <vann:preferredNamespacePrefix>EquityDeservingGroupsESDC</vann:preferredNamespacePrefix>
+    <owl:versionInfo>1.0</owl:versionInfo>
+    <dcterms:date>03-10-2024</dcterms:date>
+    <vann:preferredNamespaceUri rdf:resource="https://codelist.commonapproach.org/codeLists/EquityDeservingGroupsESDC#"/>
+    <owl:imports rdf:resource="https://ontology.commonapproach.org/owl/cids"/>
+    <owl:imports rdf:resource="http://www.w3.org/2006/time"/>
+    <cids:hasName>Equity Deserving Groups</cids:hasName>
+    <dcterms:title xml:lang="en">Equity Deserving Groups</dcterms:title>
+    <dcterms:description xml:lang="en">A codelist vocabulary of Equity Deserving Groups as defined by Ministry of Employment and Social Development of Canada.</dcterms:description>
+    <foaf:name>Equity Deserving Groups</foaf:name>
+    <rdfs:label>Equity Deserving Groups</rdfs:label>
+    <dcterms:creator rdf:resource="https://ontology.commonapproach.org/cids#ac"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://codelist.commonapproach.org/codeLists/EquityDeservingGroupsESDC#dataset">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+  </rdf:Description>
+
+
+
+
+  <rdf:Description rdf:about="edg1">
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#PopulationServed"/>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#CODE"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://codelist.commonapproach.org/codeLists/EquityDeservingGroupsESDC#dataset"/>
+    <rdfs:isDefinedBy rdf:resource="https://codelist.commonapproach.org/codeLists/EquityDeservingGroupsESDC#"/>
+    <cids:hasName xml:lang="en">2SLGBTQIA+</cids:hasName>
+    <rdfs:label xml:lang="en">2SLGBTQIA+</rdfs:label>
+    <skos:definition xml:lang="en">People who identify as being two-spirit, lesbian, gay, bisexual, transgender, queer, intersex, asexual and others (“+”).</skos:definition>
+    <cids:hasDefinition xml:lang="en">People who identify as being two-spirit, lesbian, gay, bisexual, transgender, queer, intersex, asexual and others (“+”).</cids:hasDefinition>
+    <cids:definedBy rdf:resource="https://ontology.commonapproach.org/cids#esdc"/>
+    <cids:hasIdentifier>edg1</cids:hasIdentifier>
+    <prov:hadPrimarySource rdf:resource="https://www.canada.ca/en/women-gender-equality/free-to-be-me/2slgbtqi-plus-glossary.html"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="edg2">
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#PopulationServed"/>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#CODE"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://codelist.commonapproach.org/codeLists/EquityDeservingGroupsESDC#dataset"/>
+    <rdfs:isDefinedBy rdf:resource="https://codelist.commonapproach.org/codeLists/EquityDeservingGroupsESDC#"/>
+    <cids:hasName xml:lang="en">Black People</cids:hasName>
+    <rdfs:label xml:lang="en">Black People</rdfs:label>
+    <skos:definition xml:lang="en">People belonging to any of various population groups of especially African ancestry often considered as having dark pigmentation of the skin but in fact having a wide range of skin colours.</skos:definition>
+    <cids:hasDefinition xml:lang="en">People belonging to any of various population groups of especially African ancestry often considered as having dark pigmentation of the skin but in fact having a wide range of skin colours.</cids:hasDefinition>
+    <cids:definedBy rdf:resource="https://ontology.commonapproach.org/cids#esdc"/>
+    <cids:hasIdentifier>edg2</cids:hasIdentifier>
+    <prov:hadPrimarySource rdf:resource="https://www.noslangues-ourlanguages.gc.ca/en/publications/equite-diversite-inclusion-equity-diversity-inclusion-eng#notion-69399"/>
+  </rdf:Description>
+
+
+  <rdf:Description rdf:about="edg3">
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#PopulationServed"/>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#CODE"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://codelist.commonapproach.org/codeLists/EquityDeservingGroupsESDC#dataset"/>
+    <rdfs:isDefinedBy rdf:resource="https://codelist.commonapproach.org/codeLists/EquityDeservingGroupsESDC#"/>
+    <cids:hasName xml:lang="en">First Generation Immigrants, Refugees &amp; Newcomers</cids:hasName>
+    <rdfs:label xml:lang="en">First Generation Immigrants, Refugees &amp; Newcomers</rdfs:label>
+    <skos:definition xml:lang="en">People who were born outside Canada. For the most part, these are people who are now, or once were, immigrants to Canada. People who were forced to flee from persecution in their home country. This includes Convention refugees (as defined by the Immigration and Refugee Protection Act (S.C. 2001, c. 27)) and asylum-seekers or refugee claimants. Immigrants and Refugees that have been in Canada for less than five years.</skos:definition>
+    <cids:hasDefinition xml:lang="en">People who were born outside Canada. For the most part, these are people who are now, or once were, immigrants to Canada. People who were forced to flee from persecution in their home country. This includes Convention refugees (as defined by the Immigration and Refugee Protection Act (S.C. 2001, c. 27)) and asylum-seekers or refugee claimants. Immigrants and Refugees that have been in Canada for less than five years.</cids:hasDefinition>
+    <cids:definedBy rdf:resource="https://ontology.commonapproach.org/cids#esdc"/>
+    <cids:hasIdentifier>edg3</cids:hasIdentifier>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="edg4">
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#PopulationServed"/>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#CODE"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://codelist.commonapproach.org/codeLists/EquityDeservingGroupsESDC#dataset"/>
+    <rdfs:isDefinedBy rdf:resource="https://codelist.commonapproach.org/codeLists/EquityDeservingGroupsESDC#"/>
+    <cids:hasName xml:lang="en">Indigenous Peoples: First Nations</cids:hasName>
+    <rdfs:label xml:lang="en">Indigenous Peoples: First Nations</rdfs:label>
+    <skos:definition xml:lang="en">In Canada, Indigenous people who are part of a First Nation or whose ancestors were part of a First Nation. A First Nation person can be a Status or Non-Status Indian.</skos:definition>
+    <cids:hasDefinition xml:lang="en">In Canada, Indigenous people who are part of a First Nation or whose ancestors were part of a First Nation. A First Nation person can be a Status or Non-Status Indian.</cids:hasDefinition>
+    <cids:definedBy rdf:resource="https://ontology.commonapproach.org/cids#esdc"/>
+    <cids:hasIdentifier>edg4</cids:hasIdentifier>
+    <prov:hadPrimarySource rdf:resource="https://www.noslangues-ourlanguages.gc.ca/en/publications/equite-diversite-inclusion-equity-diversity-inclusion-eng#notion-69399"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="edg5">
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#PopulationServed"/>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#CODE"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://codelist.commonapproach.org/codeLists/EquityDeservingGroupsESDC#dataset"/>
+    <rdfs:isDefinedBy rdf:resource="https://codelist.commonapproach.org/codeLists/EquityDeservingGroupsESDC#"/>
+    <cids:hasName xml:lang="en">Indigenous Peoples: Inuit</cids:hasName>
+    <rdfs:label xml:lang="en">Indigenous Peoples: Inuit</rdfs:label>
+    <skos:definition xml:lang="en">In Canada, Indigenous People that inhabit or that traditionally inhabited the northern regions and Arctic coasts of Canada known as Inuit Nunangat, and whose members are united by a common origin, history and culture.</skos:definition>
+    <cids:hasDefinition xml:lang="en">In Canada, Indigenous People that inhabit or that traditionally inhabited the northern regions and Arctic coasts of Canada known as Inuit Nunangat, and whose members are united by a common origin, history and culture.</cids:hasDefinition>
+    <cids:definedBy rdf:resource="https://ontology.commonapproach.org/cids#esdc"/>
+    <cids:hasIdentifier>edg5</cids:hasIdentifier>
+    <prov:hadPrimarySource rdf:resource="https://www.noslangues-ourlanguages.gc.ca/en/publications/equite-diversite-inclusion-equity-diversity-inclusion-eng#notion-69399"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="edg6">
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#PopulationServed"/>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#CODE"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://codelist.commonapproach.org/codeLists/EquityDeservingGroupsESDC#dataset"/>
+    <rdfs:isDefinedBy rdf:resource="https://codelist.commonapproach.org/codeLists/EquityDeservingGroupsESDC#"/>
+    <cids:hasName xml:lang="en">Indigenous Peoples: Métis</cids:hasName>
+    <rdfs:label xml:lang="en">Indigenous Peoples: Métis</rdfs:label>
+    <skos:definition xml:lang="en">In Canada, Indigenous People whose members are of mixed First Nations and European ancestry, are united by a common origin, history and culture, and are generally accepted by the Métis Nation.</skos:definition>
+    <cids:hasDefinition xml:lang="en">In Canada, Indigenous People whose members are of mixed First Nations and European ancestry, are united by a common origin, history and culture, and are generally accepted by the Métis Nation.</cids:hasDefinition>
+    <cids:definedBy rdf:resource="https://ontology.commonapproach.org/cids#esdc"/>
+    <cids:hasIdentifier>edg6</cids:hasIdentifier>
+    <prov:hadPrimarySource rdf:resource="https://www.noslangues-ourlanguages.gc.ca/en/publications/equite-diversite-inclusion-equity-diversity-inclusion-eng#notion-69399"/>
+  </rdf:Description>
+
+
+  <rdf:Description rdf:about="edg7">
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#PopulationServed"/>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#CODE"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://codelist.commonapproach.org/codeLists/EquityDeservingGroupsESDC#dataset"/>
+    <rdfs:isDefinedBy rdf:resource="https://codelist.commonapproach.org/codeLists/EquityDeservingGroupsESDC#"/>
+    <cids:hasName xml:lang="en">Official Languages Minority Communities</cids:hasName>
+    <rdfs:label xml:lang="en">Official Languages Minority Communities</rdfs:label>
+    <skos:definition xml:lang="en">In Canada, official-language minority communities are mainly French-speaking people living outside the province of Quebec and English-speaking people living in the province of Quebec.</skos:definition>
+    <cids:hasDefinition xml:lang="en">In Canada, official-language minority communities are mainly French-speaking people living outside the province of Quebec and English-speaking people living in the province of Quebec.</cids:hasDefinition>
+    <cids:definedBy rdf:resource="https://ontology.commonapproach.org/cids#esdc"/>
+    <cids:hasIdentifier>edg7</cids:hasIdentifier>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="edg8">
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#PopulationServed"/>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#CODE"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://codelist.commonapproach.org/codeLists/EquityDeservingGroupsESDC#dataset"/>
+    <rdfs:isDefinedBy rdf:resource="https://codelist.commonapproach.org/codeLists/EquityDeservingGroupsESDC#"/>
+    <cids:hasName xml:lang="en">Other Racialized Peoples</cids:hasName>
+    <rdfs:label xml:lang="en">Other Racialized Peoples</rdfs:label>
+    <skos:definition xml:lang="en">People other than Indigenous peoples or Black Canadians who are non-Caucasian in race or non-white in colour (refer to the Statistics Canada definition for “visible minorities”).</skos:definition>
+    <cids:hasDefinition xml:lang="en">People other than Indigenous peoples or Black Canadians who are non-Caucasian in race or non-white in colour (refer to the Statistics Canada definition for “visible minorities”).</cids:hasDefinition>
+    <cids:definedBy rdf:resource="https://ontology.commonapproach.org/cids#esdc"/>
+    <cids:hasIdentifier>edg8</cids:hasIdentifier>
+  </rdf:Description>
+
+
+  <rdf:Description rdf:about="edg9">
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#PopulationServed"/>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#CODE"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://codelist.commonapproach.org/codeLists/EquityDeservingGroupsESDC#dataset"/>
+    <rdfs:isDefinedBy rdf:resource="https://codelist.commonapproach.org/codeLists/EquityDeservingGroupsESDC#"/>
+    <cids:hasName xml:lang="en">People Living with a Disability (including invisible and episodic disabilities)</cids:hasName>
+    <rdfs:label xml:lang="en">People Living with a Disability (including invisible and episodic disabilities)</rdfs:label>
+    <cids:definedBy rdf:resource="https://ontology.commonapproach.org/cids#esdc"/>
+    <cids:hasIdentifier>edg9</cids:hasIdentifier>
+    <prov:hadPrimarySource rdf:resource=""/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="edg10">
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#PopulationServed"/>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#CODE"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://codelist.commonapproach.org/codeLists/EquityDeservingGroupsESDC#dataset"/>
+    <rdfs:isDefinedBy rdf:resource="https://codelist.commonapproach.org/codeLists/EquityDeservingGroupsESDC#"/>
+    <cids:hasName xml:lang="en">Women</cids:hasName>
+    <rdfs:label xml:lang="en">Women</rdfs:label>
+    <skos:definition xml:lang="en">All people who identify as women, whether they are cisgender or transgender women.</skos:definition>
+    <cids:hasDefinition xml:lang="en">All people who identify as women, whether they are cisgender or transgender women.</cids:hasDefinition>
+    <cids:definedBy rdf:resource="https://ontology.commonapproach.org/cids#esdc"/>
+    <cids:hasIdentifier>edg10</cids:hasIdentifier>
+  </rdf:Description>
+
+
+  <rdf:Description rdf:about="edg11">
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#PopulationServed"/>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#CODE"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://codelist.commonapproach.org/codeLists/EquityDeservingGroupsESDC#dataset"/>
+    <rdfs:isDefinedBy rdf:resource="https://codelist.commonapproach.org/codeLists/EquityDeservingGroupsESDC#"/>
+    <cids:hasName xml:lang="en">Gender Diverse People: Non-Binary</cids:hasName>
+    <rdfs:label xml:lang="en">Gender Diverse People: Non-Binary</rdfs:label>
+    <skos:definition xml:lang="en">People whose gender identity does not align with a binary understanding of gender such as man or woman. It is a gender identity which may include man and woman, androgynous, fluid, multiple, no gender, or a different gender outside of the “woman—man” spectrum.</skos:definition>
+    <cids:hasDefinition xml:lang="en">People whose gender identity does not align with a binary understanding of gender such as man or woman. It is a gender identity which may include man and woman, androgynous, fluid, multiple, no gender, or a different gender outside of the “woman—man” spectrum.</cids:hasDefinition>
+    <cids:definedBy rdf:resource="https://ontology.commonapproach.org/cids#esdc"/>
+    <cids:hasIdentifier>edg11</cids:hasIdentifier>
+    <prov:hadPrimarySource rdf:resource="https://www.canada.ca/en/women-gender-equality/free-to-be-me/2slgbtqi-plus-glossary.html"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="edg12">
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#PopulationServed"/>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#CODE"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://codelist.commonapproach.org/codeLists/EquityDeservingGroupsESDC#dataset"/>
+    <rdfs:isDefinedBy rdf:resource="https://codelist.commonapproach.org/codeLists/EquityDeservingGroupsESDC#"/>
+    <cids:hasName xml:lang="en">Gender Diverse People: Agender</cids:hasName>
+    <rdfs:label xml:lang="en">Gender Diverse People: Agender</rdfs:label>
+    <skos:definition xml:lang="en">People who do not identify as, or with, any particular gender.</skos:definition>
+    <cids:hasDefinition xml:lang="en">People who do not identify as, or with, any particular gender.</cids:hasDefinition>
+    <cids:definedBy rdf:resource="https://ontology.commonapproach.org/cids#esdc"/>
+    <cids:hasIdentifier>edg12</cids:hasIdentifier>
+    <prov:hadPrimarySource rdf:resource="https://dictionary.cambridge.org/dictionary/english/agender"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="edg13">
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#PopulationServed"/>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#CODE"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://codelist.commonapproach.org/codeLists/EquityDeservingGroupsESDC#dataset"/>
+    <rdfs:isDefinedBy rdf:resource="https://codelist.commonapproach.org/codeLists/EquityDeservingGroupsESDC#"/>
+    <cids:hasName xml:lang="en">Gender Diverse People: Other</cids:hasName>
+    <rdfs:label xml:lang="en">Gender Diverse People: Other</rdfs:label>
+    <skos:definition xml:lang="en">People whose gender identity does not align with any of the other options provided.</skos:definition>
+    <cids:hasDefinition xml:lang="en">People whose gender identity does not align with any of the other options provided.</cids:hasDefinition>
+    <cids:definedBy rdf:resource="https://ontology.commonapproach.org/cids#esdc"/>
+    <cids:hasIdentifier>edg13</cids:hasIdentifier>
+  </rdf:Description>
+
+
+</rdf:RDF>
