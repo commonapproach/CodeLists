@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:cids="https://ontology.commonapproach.org/cids#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:org="http://www.w3.org/ns/org#"
+   xmlns:owl="http://www.w3.org/2002/07/owl#"
+   xmlns:prov="http://www.w3.org/ns/prov#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+   xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+   xmlns:vann="http://purl.org/vocab/vann/"
+   xml:base="https://codelist.commonapproach.org/codeLists/SDGImpacts#"
+   xmlns="https://codelist.commonapproach.org/codeLists/SDGImpacts#"
+>
+  <rdf:Description rdf:about="https://codelist.commonapproach.org/codeLists/SDGImpacts">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
+    <rdf:type rdf:resource="http://purl.org/vocommons/voafVocabulary"/>
+    <vann:preferredNamespacePrefix>SDGImpacts</vann:preferredNamespacePrefix>
+    <owl:versionInfo>1.0</owl:versionInfo>
+    <dcterms:date>07-10-2024</dcterms:date>
+    <vann:preferredNamespaceUri rdf:resource="https://codelist.commonapproach.org/codeLists/SDGImpacts#"/>
+    <owl:imports rdf:resource="https://ontology.commonapproach.org/owl/cids"/>
+    <owl:imports rdf:resource="http://www.w3.org/2006/time"/>
+    <cids:hasName xml:lang="en">Sustainable Development Goals Impact Themes</cids:hasName>
+    <dcterms:title xml:lang="en">Sustainable Development Goals (SDGs) Taxonomy of Impact Themes</dcterms:title>
+    <dcterms:description xml:lang="en">A codelist vocabulary of Sustainable Development Goals (SDGs) Taxonomy of Impact Themes</dcterms:description>
+    <foaf:name xml:lang="en">Sustainable Development Goals Impact Themes</foaf:name>
+    <rdfs:label xml:lang="en">Sustainable Development Goals Impact Themes</rdfs:label>
+    <dcterms:creator rdf:resource="https://ontology.commonapproach.org/cids#ac"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://codelist.commonapproach.org/codeLists/SDGImpacts#dataset">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="#SDG1">
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Theme"/>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#CODE"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="#dataset"/>
+    <rdfs:isDefinedBy rdf:resource="https://codelist.commonapproach.org/codeLists/SDGImpacts#"/>
+    <cids:hasName xml:lang="en">End poverty in all its forms everywhere</cids:hasName>
+    <rdfs:label xml:lang="en">End poverty in all its forms everywhere</rdfs:label>
+    <cids:hasDescription xml:lang="en">Goal 1 calls for an end to poverty in all its manifestations by 2030. It also aims to ensure social protection for the poor and vulnerable, increase access to basic services and support people harmed by climate-related extreme events and other economic, social and environmental shocks and disasters.</cids:hasDescription>
+    <skos:definition xml:lang="en">Goal 1 calls for an end to poverty in all its manifestations by 2030. It also aims to ensure social protection for the poor and vulnerable, increase access to basic services and support people harmed by climate-related extreme events and other economic, social and environmental shocks and disasters.</skos:definition>
+    <cids:definedBy rdf:resource="https://ontology.commonapproach.org/cids#un"/>
+    <cids:hasIdentifier>1</cids:hasIdentifier>
+    <prov:hadPrimarySource rdf:resource="https://sdgs.un.org/goals/goal1"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="#SDG2">
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Theme"/>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#CODE"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="#dataset"/>
+    <rdfs:isDefinedBy rdf:resource="https://codelist.commonapproach.org/codeLists/SDGImpacts#"/>
+    <cids:hasName xml:lang="en">End hunger, achieve food security and improved nutrition and promote sustainable agriculture.</cids:hasName>
+    <rdfs:label xml:lang="en">End hunger, achieve food security and improved nutrition and promote sustainable agriculture.</rdfs:label>
+    <cids:hasDescription xml:lang="en">Goal 2 aims to end hunger and all forms of malnutrition by 2030. It also commits to universal access to safe, nutritious and sufficient food at all times of the year. This will require sustainable food production systems and resilient agricultural practices, equal access to land, technology and markets and international cooperation on investments in infrastructure and technology to boost agricultural productivity.</cids:hasDescription>
+    <skos:definition xml:lang="en">Goal 2 aims to end hunger and all forms of malnutrition by 2030. It also commits to universal access to safe, nutritious and sufficient food at all times of the year. This will require sustainable food production systems and resilient agricultural practices, equal access to land, technology and markets and international cooperation on investments in infrastructure and technology to boost agricultural productivity.</skos:definition>
+    <cids:definedBy rdf:resource="https://ontology.commonapproach.org/cids#un"/>
+    <cids:hasIdentifier>2</cids:hasIdentifier>
+    <prov:hadPrimarySource rdf:resource="https://sdgs.un.org/goals/goal2"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="#SDG3">
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Theme"/>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#CODE"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="#dataset"/>
+    <rdfs:isDefinedBy rdf:resource="https://codelist.commonapproach.org/codeLists/SDGImpacts#"/>
+    <cids:hasName xml:lang="en">Ensure healthy lives and promote well-being for all at all ages.</cids:hasName>
+    <rdfs:label xml:lang="en">Ensure healthy lives and promote well-being for all at all ages.</rdfs:label>
+    <cids:hasDescription xml:lang="en">Goal 3 seeks to ensure health and well-being for all, at every stage of life. The Goal addresses all major health priorities, including reproductive, maternal and child health; communicable, non-communicable and environmental diseases; universal health coverage; and access for all to safe, effective, quality and affordable medicines and vaccines. It also calls for more research and development, increased health financing, and strengthened capacity of all countries in health risk reduction and management.</cids:hasDescription>
+    <skos:definition xml:lang="en">Goal 3 seeks to ensure health and well-being for all, at every stage of life. The Goal addresses all major health priorities, including reproductive, maternal and child health; communicable, non-communicable and environmental diseases; universal health coverage; and access for all to safe, effective, quality and affordable medicines and vaccines. It also calls for more research and development, increased health financing, and strengthened capacity of all countries in health risk reduction and management.</skos:definition>
+    <cids:definedBy rdf:resource="https://ontology.commonapproach.org/cids#un"/>
+    <cids:hasIdentifier>3</cids:hasIdentifier>
+    <prov:hadPrimarySource rdf:resource="https://sdgs.un.org/goals/goal3"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="#SDG4">
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Theme"/>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#CODE"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="#dataset"/>
+    <rdfs:isDefinedBy rdf:resource="https://codelist.commonapproach.org/codeLists/SDGImpacts#"/>
+    <cids:hasName xml:lang="en">Ensure inclusive and equitable quality education and promote lifelong learning opportunities for all.</cids:hasName>
+    <rdfs:label xml:lang="en">Ensure inclusive and equitable quality education and promote lifelong learning opportunities for all.</rdfs:label>
+    <cids:hasDescription xml:lang="en">Despite progress, the world failed to meet the Millennium Development Goal of achieving universal primary education by 2015. In 2013, the latest year for which data are available, 59 million children of primary-school age were out of school. Estimates show that, among those 59 million children, 1 in 5 of those children had dropped out and recent trends suggest that 2 in 5 of out-of-school children will never set foot in a classroom. The Sustainable Development Goals clearly recognize that this gap must be closed, even as the international community more explicitly addresses the challenges of quality and equity.</cids:hasDescription>
+    <skos:definition xml:lang="en">Despite progress, the world failed to meet the Millennium Development Goal of achieving universal primary education by 2015. In 2013, the latest year for which data are available, 59 million children of primary-school age were out of school. Estimates show that, among those 59 million children, 1 in 5 of those children had dropped out and recent trends suggest that 2 in 5 of out-of-school children will never set foot in a classroom. The Sustainable Development Goals clearly recognize that this gap must be closed, even as the international community more explicitly addresses the challenges of quality and equity.</skos:definition>
+    <cids:definedBy rdf:resource="https://ontology.commonapproach.org/cids#un"/>
+    <cids:hasIdentifier>4</cids:hasIdentifier>
+    <prov:hadPrimarySource rdf:resource="https://sdgs.un.org/goals/goal4"/>
+  </rdf:Description>
+  
+  <rdf:Description rdf:about="#SDG5">
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Theme"/>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#CODE"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="#dataset"/>
+    <rdfs:isDefinedBy rdf:resource="https://codelist.commonapproach.org/codeLists/SDGImpacts#"/>
+    <cids:hasName xml:lang="en">Achieve gender equality and empower all women and girls.</cids:hasName>
+    <rdfs:label xml:lang="en">Achieve gender equality and empower all women and girls.</rdfs:label>
+    <cids:hasDescription xml:lang="en">Gender equality and women’s empowerment have advanced in recent decades. Girls’ access to education has improved, the rate of child marriage declined and progress was made in the area of sexual and reproductive health and reproductive rights, including fewer maternal deaths. Nevertheless, gender equality remains a persistent challenge for countries worldwide and the lack of such equality is a major obstacle to sustainable development.</cids:hasDescription>
+    <skos:definition xml:lang="en">Gender equality and women’s empowerment have advanced in recent decades. Girls’ access to education has improved, the rate of child marriage declined and progress was made in the area of sexual and reproductive health and reproductive rights, including fewer maternal deaths. Nevertheless, gender equality remains a persistent challenge for countries worldwide and the lack of such equality is a major obstacle to sustainable development.</skos:definition>
+    <cids:definedBy rdf:resource="https://ontology.commonapproach.org/cids#un"/>
+    <cids:hasIdentifier>5</cids:hasIdentifier>
+    <prov:hadPrimarySource rdf:resource="https://sdgs.un.org/goals/goal5"/>
+  </rdf:Description>
+  
+  <rdf:Description rdf:about="#SDG6">
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Theme"/>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#CODE"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="#dataset"/>
+    <rdfs:isDefinedBy rdf:resource="https://codelist.commonapproach.org/codeLists/SDGImpacts#"/>
+    <cids:hasName xml:lang="en">Ensure availability and sustainable management of water and sanitation for all.</cids:hasName>
+    <rdfs:label xml:lang="en">Ensure availability and sustainable management of water and sanitation for all.</rdfs:label>
+    <cids:hasDescription xml:lang="en">Water and sanitation are at the very core of sustainable development, critical to the survival of people and the planet. Goal 6 not only addresses the issues relating to drinking water, sanitation and hygiene, but also the quality and sustainability of water resources worldwide.</cids:hasDescription>
+    <skos:definition xml:lang="en">Water and sanitation are at the very core of sustainable development, critical to the survival of people and the planet. Goal 6 not only addresses the issues relating to drinking water, sanitation and hygiene, but also the quality and sustainability of water resources worldwide.</skos:definition>
+    <cids:definedBy rdf:resource="https://ontology.commonapproach.org/cids#un"/>
+    <cids:hasIdentifier>6</cids:hasIdentifier>
+    <prov:hadPrimarySource rdf:resource="https://sdgs.un.org/goals/goal6"/>
+  </rdf:Description>
+  
+  <rdf:Description rdf:about="#SDG7">
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Theme"/>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#CODE"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="#dataset"/>
+    <rdfs:isDefinedBy rdf:resource="https://codelist.commonapproach.org/codeLists/SDGImpacts#"/>
+    <cids:hasName xml:lang="en">Ensure access to affordable, reliable, sustainable and modern energy for all.</cids:hasName>
+    <rdfs:label xml:lang="en">Ensure access to affordable, reliable, sustainable and modern energy for all.</rdfs:label>
+    <cids:hasDescription xml:lang="en">Energy is crucial for achieving almost all of the Sustainable Development Goals, from its role in the eradication of poverty through advancements in health, education, water supply and industrialization, to combating climate change.</cids:hasDescription>
+    <skos:definition xml:lang="en">Energy is crucial for achieving almost all of the Sustainable Development Goals, from its role in the eradication of poverty through advancements in health, education, water supply and industrialization, to combating climate change.</skos:definition>
+    <cids:definedBy rdf:resource="https://ontology.commonapproach.org/cids#un"/>
+    <cids:hasIdentifier>7</cids:hasIdentifier>
+    <prov:hadPrimarySource rdf:resource="https://sdgs.un.org/goals/goal7"/>
+  </rdf:Description>
+  
+  <rdf:Description rdf:about="#SDG8">
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Theme"/>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#CODE"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="#dataset"/>
+    <rdfs:isDefinedBy rdf:resource="https://codelist.commonapproach.org/codeLists/SDGImpacts#"/>
+    <cids:hasName xml:lang="en">Promote sustained, inclusive and sustainable economic growth, full and productive employment and decent work for all.</cids:hasName>
+    <rdfs:label xml:lang="en">Promote sustained, inclusive and sustainable economic growth, full and productive employment and decent work for all.</rdfs:label>
+    <cids:hasDescription xml:lang="en">Sustained and inclusive economic growth is necessary for achieving sustainable development. The global annual growth rate of real GDP per capita increased by 1.3 per cent in 2014, a significant slowdown compared to 2010 (2.8 per cent growth) and 2000 (3.0 per cent growth). Developing regions grew far faster than developed regions, with average annual growth rates in 2014 of 3.1 per cent and 1.4 per cent, respectively.</cids:hasDescription>
+    <skos:definition xml:lang="en">Sustained and inclusive economic growth is necessary for achieving sustainable development. The global annual growth rate of real GDP per capita increased by 1.3 per cent in 2014, a significant slowdown compared to 2010 (2.8 per cent growth) and 2000 (3.0 per cent growth). Developing regions grew far faster than developed regions, with average annual growth rates in 2014 of 3.1 per cent and 1.4 per cent, respectively.</skos:definition>
+    <cids:definedBy rdf:resource="https://ontology.commonapproach.org/cids#un"/>
+    <cids:hasIdentifier>8</cids:hasIdentifier>
+    <prov:hadPrimarySource rdf:resource="https://sdgs.un.org/goals/goal8"/>
+  </rdf:Description>
+  
+  <rdf:Description rdf:about="#SDG9">
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Theme"/>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#CODE"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="#dataset"/>
+    <rdfs:isDefinedBy rdf:resource="https://codelist.commonapproach.org/codeLists/SDGImpacts#"/>
+    <cids:hasName xml:lang="en">Build resilient infrastructure, promote inclusive and sustainable industrialization and foster innovation.</cids:hasName>
+    <rdfs:label xml:lang="en">Build resilient infrastructure, promote inclusive and sustainable industrialization and foster innovation.</rdfs:label>
+    <cids:hasDescription xml:lang="en">Goal 9 encompasses three important aspects of sustainable development: infrastructure, industrialization and innovation. Infrastructure provides the basic physical systems and structures essential to the operation of a society or enterprise. Industrialization drives economic growth, creates job opportunities and thereby reduces income poverty. Innovation advances the technological capabilities of industrial sectors and prompts the development of new skills.</cids:hasDescription>
+    <skos:definition xml:lang="en">Goal 9 encompasses three important aspects of sustainable development: infrastructure, industrialization and innovation. Infrastructure provides the basic physical systems and structures essential to the operation of a society or enterprise. Industrialization drives economic growth, creates job opportunities and thereby reduces income poverty. Innovation advances the technological capabilities of industrial sectors and prompts the development of new skills.</skos:definition>
+    <cids:definedBy rdf:resource="https://ontology.commonapproach.org/cids#un"/>
+    <cids:hasIdentifier>9</cids:hasIdentifier>
+    <prov:hadPrimarySource rdf:resource="https://sdgs.un.org/goals/goal9"/>
+  </rdf:Description>
+
+
+  <rdf:Description rdf:about="#SDG10">
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Theme"/>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#CODE"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="#dataset"/>
+    <rdfs:isDefinedBy rdf:resource="https://codelist.commonapproach.org/codeLists/SDGImpacts#"/>
+    <cids:hasName xml:lang="en">Reduce inequality within and among countries.</cids:hasName>
+    <rdfs:label xml:lang="en">Reduce inequality within and among countries.</rdfs:label>
+    <cids:hasDescription xml:lang="en">Goal 10 calls for reducing inequalities in income as well as those based on age, sex, disability, race, ethnicity, origin, religion or economic or other status within a country. The Goal also addresses inequalities among countries, including those related to representation, migration and development assistance.</cids:hasDescription>
+    <skos:definition xml:lang="en">Goal 10 calls for reducing inequalities in income as well as those based on age, sex, disability, race, ethnicity, origin, religion or economic or other status within a country. The Goal also addresses inequalities among countries, including those related to representation, migration and development assistance.</skos:definition>
+    <cids:definedBy rdf:resource="https://ontology.commonapproach.org/cids#un"/>
+    <cids:hasIdentifier>10</cids:hasIdentifier>
+    <prov:hadPrimarySource rdf:resource="https://sdgs.un.org/goals/goal10"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="#SDG11">
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Theme"/>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#CODE"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="#dataset"/>
+    <rdfs:isDefinedBy rdf:resource="https://codelist.commonapproach.org/codeLists/SDGImpacts#"/>
+    <cids:hasName xml:lang="en">Make cities and human settlements inclusive, safe, resilient and sustainable.</cids:hasName>
+    <rdfs:label xml:lang="en">Make cities and human settlements inclusive, safe, resilient and sustainable.</rdfs:label>
+    <cids:hasDescription xml:lang="en">More than half the world’s population lives in cities. By 2030, it is projected that 6 out of 10 people will be urban dwellers. Despite numerous planning challenges, well-managed cities and other human settlements can be incubators for innovation and ingenuity and key drivers of sustainable development.</cids:hasDescription>
+    <skos:definition xml:lang="en">More than half the world’s population lives in cities. By 2030, it is projected that 6 out of 10 people will be urban dwellers. Despite numerous planning challenges, well-managed cities and other human settlements can be incubators for innovation and ingenuity and key drivers of sustainable development.</skos:definition>
+    <cids:definedBy rdf:resource="https://ontology.commonapproach.org/cids#un"/>
+    <cids:hasIdentifier>11</cids:hasIdentifier>
+    <prov:hadPrimarySource rdf:resource="https://sdgs.un.org/goals/goal11"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="#SDG12">
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Theme"/>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#CODE"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="#dataset"/>
+    <rdfs:isDefinedBy rdf:resource="https://codelist.commonapproach.org/codeLists/SDGImpacts#"/>
+    <cids:hasName xml:lang="en">Ensure sustainable consumption and production patterns.</cids:hasName>
+    <rdfs:label xml:lang="en">Ensure sustainable consumption and production patterns.</rdfs:label>
+    <cids:hasDescription xml:lang="en">Economic growth and development require the production of goods and services that improve the quality of life. Sustainable growth and development require minimizing the natural resources and toxic materials used, and the waste and pollutants generated, throughout the entire production and consumption process.</cids:hasDescription>
+    <skos:definition xml:lang="en">Economic growth and development require the production of goods and services that improve the quality of life. Sustainable growth and development require minimizing the natural resources and toxic materials used, and the waste and pollutants generated, throughout the entire production and consumption process.</skos:definition>
+    <cids:definedBy rdf:resource="https://ontology.commonapproach.org/cids#un"/>
+    <cids:hasIdentifier>12</cids:hasIdentifier>
+    <prov:hadPrimarySource rdf:resource="https://sdgs.un.org/goals/goal12"/>
+  </rdf:Description>
+ 
+  <rdf:Description rdf:about="#SDG13">
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Theme"/>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#CODE"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="#dataset"/>
+    <rdfs:isDefinedBy rdf:resource="https://codelist.commonapproach.org/codeLists/SDGImpacts#"/>
+    <cids:hasName xml:lang="en">Take urgent action to combat climate change and its impacts.</cids:hasName>
+    <rdfs:label xml:lang="en">Take urgent action to combat climate change and its impacts.</rdfs:label>
+    <cids:hasDescription xml:lang="en">Climate change presents the single biggest threat to development, and its widespread, unprecedented impacts disproportionately burden the poorest and most vulnerable. Urgent action to combat climate change and minimize its disruptions is integral to the successful implementation of the Sustainable Development Goals.</cids:hasDescription>
+    <skos:definition xml:lang="en">Climate change presents the single biggest threat to development, and its widespread, unprecedented impacts disproportionately burden the poorest and most vulnerable. Urgent action to combat climate change and minimize its disruptions is integral to the successful implementation of the Sustainable Development Goals.</skos:definition>
+    <cids:definedBy rdf:resource="https://ontology.commonapproach.org/cids#un"/>
+    <cids:hasIdentifier>13</cids:hasIdentifier>
+    <prov:hadPrimarySource rdf:resource="https://sdgs.un.org/goals/goal13"/>
+  </rdf:Description>
+  
+  <rdf:Description rdf:about="#SDG14">
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Theme"/>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#CODE"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="#dataset"/>
+    <rdfs:isDefinedBy rdf:resource="https://codelist.commonapproach.org/codeLists/SDGImpacts#"/>
+    <cids:hasName xml:lang="en">Conserve and sustainably use the oceans, seas and marine resources for sustainable development.</cids:hasName>
+    <rdfs:label xml:lang="en">Conserve and sustainably use the oceans, seas and marine resources for sustainable development.</rdfs:label>
+    <cids:hasDescription xml:lang="en">Oceans, along with coastal and marine resources, play an essential role in human well-being and social and economic development worldwide. They are particularly crucial for people living in coastal communities, who represented 37 per cent of the global population in 2010. Oceans provide livelihoods and tourism benefits, as well as subsistence and income. They also help regulate the global ecosystem by absorbing heat and carbon dioxide from the atmosphere and protecting coastal areas from flooding and erosion. In fact, coastal and marine resources contribute an estimated $28 trillion to the global economy each year through ecosystem services. However, those resources are extremely vulnerable to environmental degradation, overfishing, climate change and pollution. The sustainable use and preservation of marine and coastal ecosystems and their biological diversity is essential to achieving the 2030 Agenda, in particular for small island developing States.</cids:hasDescription>
+    <skos:definition xml:lang="en">Oceans, along with coastal and marine resources, play an essential role in human well-being and social and economic development worldwide. They are particularly crucial for people living in coastal communities, who represented 37 per cent of the global population in 2010. Oceans provide livelihoods and tourism benefits, as well as subsistence and income. They also help regulate the global ecosystem by absorbing heat and carbon dioxide from the atmosphere and protecting coastal areas from flooding and erosion. In fact, coastal and marine resources contribute an estimated $28 trillion to the global economy each year through ecosystem services. However, those resources are extremely vulnerable to environmental degradation, overfishing, climate change and pollution. The sustainable use and preservation of marine and coastal ecosystems and their biological diversity is essential to achieving the 2030 Agenda, in particular for small island developing States.</skos:definition>
+    <cids:definedBy rdf:resource="https://ontology.commonapproach.org/cids#un"/>
+    <cids:hasIdentifier>14</cids:hasIdentifier>
+    <prov:hadPrimarySource rdf:resource="https://sdgs.un.org/goals/goal14"/>
+  </rdf:Description>
+  
+  <rdf:Description rdf:about="#SDG15">
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Theme"/>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#CODE"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="#dataset"/>
+    <rdfs:isDefinedBy rdf:resource="https://codelist.commonapproach.org/codeLists/SDGImpacts#"/>
+    <cids:hasName xml:lang="en">Protect, restore and promote sustainable use of terrestrial ecosystems, sustainably manage forests, combat desertification, and halt and reverse land degradation and halt biodiversity loss.</cids:hasName>
+    <rdfs:label xml:lang="en">Protect, restore and promote sustainable use of terrestrial ecosystems, sustainably manage forests, combat desertification, and halt and reverse land degradation and halt biodiversity loss.</rdfs:label>
+    <cids:hasDescription xml:lang="en">Preserving diverse forms of life on land requires targeted efforts to protect, restore and promote the conservation and sustainable use of terrestrial and other ecosystems. Goal 15 focuses specifically on managing forests sustainably, restoring degraded lands and successfully combating desertification, reducing degraded natural habitats and ending biodiversity loss.</cids:hasDescription>
+    <skos:definition xml:lang="en">Preserving diverse forms of life on land requires targeted efforts to protect, restore and promote the conservation and sustainable use of terrestrial and other ecosystems. Goal 15 focuses specifically on managing forests sustainably, restoring degraded lands and successfully combating desertification, reducing degraded natural habitats and ending biodiversity loss.</skos:definition>
+    <cids:definedBy rdf:resource="https://ontology.commonapproach.org/cids#un"/>
+    <cids:hasIdentifier>15</cids:hasIdentifier>
+    <prov:hadPrimarySource rdf:resource="https://sdgs.un.org/goals/goal15"/>
+  </rdf:Description>
+  
+  <rdf:Description rdf:about="#SDG16">
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Theme"/>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#CODE"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="#dataset"/>
+    <rdfs:isDefinedBy rdf:resource="https://codelist.commonapproach.org/codeLists/SDGImpacts#"/>
+    <cids:hasName xml:lang="en">Promote peaceful and inclusive societies for sustainable development, provide access to justice for all and build effective, accountable and inclusive institutions at all levels.</cids:hasName>
+    <rdfs:label xml:lang="en">Promote peaceful and inclusive societies for sustainable development, provide access to justice for all and build effective, accountable and inclusive institutions at all levels.</rdfs:label>
+    <cids:hasDescription xml:lang="en">Peace, justice and effective, accountable and inclusive institutions are at the core of sustainable development. Several regions have enjoyed increased and sustained levels of peace and security in recent decades. But many countries still face protracted armed conflict and violence, and far too many people struggle as a result of weak institutions and the lack of access to justice, information and other fundamental freedoms.</cids:hasDescription>
+    <skos:definition xml:lang="en">Peace, justice and effective, accountable and inclusive institutions are at the core of sustainable development. Several regions have enjoyed increased and sustained levels of peace and security in recent decades. But many countries still face protracted armed conflict and violence, and far too many people struggle as a result of weak institutions and the lack of access to justice, information and other fundamental freedoms.</skos:definition>
+    <cids:definedBy rdf:resource="https://ontology.commonapproach.org/cids#un"/>
+    <cids:hasIdentifier>16</cids:hasIdentifier>
+    <prov:hadPrimarySource rdf:resource="https://sdgs.un.org/goals/goal16"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="#SDG17">
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Theme"/>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#CODE"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="#dataset"/>
+    <rdfs:isDefinedBy rdf:resource="https://codelist.commonapproach.org/codeLists/SDGImpacts#"/>
+    <cids:hasName xml:lang="en">Strengthen the means of implementation and revitalize the Global Partnership for Sustainable Development.</cids:hasName>
+    <rdfs:label xml:lang="en">Strengthen the means of implementation and revitalize the Global Partnership for Sustainable Development.</rdfs:label>
+    <cids:hasDescription xml:lang="en">Achieving the ambitious targets of the 2030 Agenda requires a revitalized and enhanced global partnership that brings together Governments, civil society, the private sector, the United Nations system and other actors and mobilizes all available resources. Enhancing support to developing countries, in particular the least developed countries and the small island developing States, is fundamental to equitable progress for all.</cids:hasDescription>
+    <skos:definition xml:lang="en">Achieving the ambitious targets of the 2030 Agenda requires a revitalized and enhanced global partnership that brings together Governments, civil society, the private sector, the United Nations system and other actors and mobilizes all available resources. Enhancing support to developing countries, in particular the least developed countries and the small island developing States, is fundamental to equitable progress for all.</skos:definition>
+    <cids:definedBy rdf:resource="https://ontology.commonapproach.org/cids#un"/>
+    <cids:hasIdentifier>17</cids:hasIdentifier>
+    <prov:hadPrimarySource rdf:resource="https://sdgs.un.org/goals/goal17"/>
+  </rdf:Description>
+
+</rdf:RDF>
