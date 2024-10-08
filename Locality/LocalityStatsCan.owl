@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:cids="https://ontology.commonapproach.org/cids#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:org="http://www.w3.org/ns/org#"
+   xmlns:owl="http://www.w3.org/2002/07/owl#"
+   xmlns:prov="http://www.w3.org/ns/prov#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+   xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+   xmlns:vann="http://purl.org/vocab/vann/"
+   xml:base="https://codelist.commonapproach.org/codeLists/LocalityStatsCan#"
+   xmlns="https://codelist.commonapproach.org/codeLists/LocalityStatsCan#"
+>
+  <rdf:Description rdf:about="https://codelist.commonapproach.org/codeLists/LocalityStatsCan">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
+    <rdf:type rdf:resource="http://purl.org/vocommons/voafVocabulary"/>
+    <vann:preferredNamespacePrefix>LocalityStatsCan</vann:preferredNamespacePrefix>
+    <owl:versionInfo>1.0</owl:versionInfo>
+    <dcterms:date>08-10-2024</dcterms:date>
+    <vann:preferredNamespaceUri rdf:resource="https://codelist.commonapproach.org/codeLists/LocalityStatsCan#"/>
+    <owl:imports rdf:resource="https://ontology.commonapproach.org/owl/cids"/>
+    <owl:imports rdf:resource="http://www.w3.org/2006/time"/>
+    <cids:hasName xml:lang="en">Locality Codelist</cids:hasName>
+    <dcterms:title xml:lang="en">Locality Codelist</dcterms:title>
+    <dcterms:description xml:lang="en">A codelist vocabulary of Locality Codelists according to Statistics Canada definitions.</dcterms:description>
+    <foaf:name xml:lang="en">Locality Codelist</foaf:name>
+    <rdfs:label xml:lang="en">Locality Codelist</rdfs:label>
+    <dcterms:creator rdf:resource="https://ontology.commonapproach.org/cids#ac"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://codelist.commonapproach.org/codeLists/LocalityStatsCan#dataset">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="#loc1">
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Locality"/>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#CODE"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://codelist.commonapproach.org/codeLists/LocalityStatsCan#dataset"/>
+    <rdfs:isDefinedBy rdf:resource="https://codelist.commonapproach.org/codeLists/LocalityStatsCan#"/>
+    <cids:hasName xml:lang="en">Large Urban Population Centre</cids:hasName>
+    <rdfs:label xml:lang="en">Large Urban Population Centre</rdfs:label>
+    <skos:definition xml:lang="en">A large urban population centres, with a population of 100,000 or more.</skos:definition>
+    <cids:hasDefinition xml:lang="en">A large urban population centres, with a population of 100,000 or more.</cids:hasDefinition>
+    <cids:definedBy rdf:resource="https://ontology.commonapproach.org/cids#statsCan"/>
+    <cids:hasIdentifier>loc1</cids:hasIdentifier>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="#loc2">
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Locality"/>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#CODE"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://codelist.commonapproach.org/codeLists/LocalityStatsCan#dataset"/>
+    <rdfs:isDefinedBy rdf:resource="https://codelist.commonapproach.org/codeLists/LocalityStatsCan#"/>
+    <cids:hasName xml:lang="en">Medium Population Centre</cids:hasName>
+    <rdfs:label xml:lang="en">Medium Population Centre</rdfs:label>
+    <skos:definition xml:lang="en">A medium population centres, with a population between 30,000 and 99,999.</skos:definition>
+    <cids:hasDefinition xml:lang="en">medium population centres, with a population between 30,000 and 99,999.</cids:hasDefinition>
+    <cids:definedBy rdf:resource="https://ontology.commonapproach.org/cids#statsCan"/>
+    <cids:hasIdentifier>loc2</cids:hasIdentifier>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="#loc3">
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Locality"/>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#CODE"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://codelist.commonapproach.org/codeLists/LocalityStatsCan#dataset"/>
+    <rdfs:isDefinedBy rdf:resource="https://codelist.commonapproach.org/codeLists/LocalityStatsCan#"/>
+    <cids:hasName xml:lang="en">Small Population Centre</cids:hasName>
+    <rdfs:label xml:lang="en">Small Population Centre</rdfs:label>
+    <skos:definition xml:lang="en">A small population centres, with a population between 1,000 and 29,999.</skos:definition>
+    <cids:hasDefinition xml:lang="en">A small population centres, with a population between 1,000 and 29,999.</cids:hasDefinition>
+    <cids:definedBy rdf:resource="https://ontology.commonapproach.org/cids#statsCan"/>
+    <cids:hasIdentifier>loc3</cids:hasIdentifier>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="#loc4">
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Locality"/>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#CODE"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://codelist.commonapproach.org/codeLists/LocalityStatsCan#dataset"/>
+    <rdfs:isDefinedBy rdf:resource="https://codelist.commonapproach.org/codeLists/LocalityStatsCan#"/>
+    <cids:hasName xml:lang="en">Rural Areas</cids:hasName>
+    <rdfs:label xml:lang="en">Rural Areas</rdfs:label>
+    <skos:definition xml:lang="en">All areas outside population centres are classified as rural areas.</skos:definition>
+    <cids:hasDefinition xml:lang="en">All areas outside population centres are classified as rural areas.</cids:hasDefinition>
+    <cids:definedBy rdf:resource="https://ontology.commonapproach.org/cids#statsCan"/>
+    <cids:hasIdentifier>loc4</cids:hasIdentifier>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="#loc5">
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Locality"/>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#CODE"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://codelist.commonapproach.org/codeLists/LocalityStatsCan#dataset"/>
+    <rdfs:isDefinedBy rdf:resource="https://codelist.commonapproach.org/codeLists/LocalityStatsCan#"/>
+    <cids:hasName xml:lang="en">Indigenous Communities and Lands</cids:hasName>
+    <rdfs:label xml:lang="en">Indigenous Communities and Lands</rdfs:label>
+    <skos:definition xml:lang="en"></skos:definition>
+    <cids:hasDefinition xml:lang="en"></cids:hasDefinition>
+    <cids:definedBy rdf:resource="https://ontology.commonapproach.org/cids#statsCan"/>
+    <cids:hasIdentifier>loc5</cids:hasIdentifier>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="#loc6">
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Locality"/>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#CODE"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://codelist.commonapproach.org/codeLists/LocalityStatsCan#dataset"/>
+    <rdfs:isDefinedBy rdf:resource="https://codelist.commonapproach.org/codeLists/LocalityStatsCan#"/>
+    <cids:hasName xml:lang="en">Northern Canada</cids:hasName>
+    <rdfs:label xml:lang="en">Northern Canada</rdfs:label>
+    <skos:definition xml:lang="en"></skos:definition>
+    <cids:hasDefinition xml:lang="en"></cids:hasDefinition>
+    <cids:definedBy rdf:resource="https://ontology.commonapproach.org/cids#statsCan"/>
+    <cids:hasIdentifier>loc6</cids:hasIdentifier>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="#loc7">
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Locality"/>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#CODE"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://codelist.commonapproach.org/codeLists/LocalityStatsCan#dataset"/>
+    <rdfs:isDefinedBy rdf:resource="https://codelist.commonapproach.org/codeLists/LocalityStatsCan#"/>
+    <cids:hasName xml:lang="en">All of Canada</cids:hasName>
+    <rdfs:label xml:lang="en">All of Canada</rdfs:label>
+    <skos:definition xml:lang="en"></skos:definition>
+    <cids:hasDefinition xml:lang="en"></cids:hasDefinition>
+    <cids:definedBy rdf:resource="https://ontology.commonapproach.org/cids#statsCan"/>
+    <cids:hasIdentifier>loc7</cids:hasIdentifier>
+  </rdf:Description>
+
+</rdf:RDF>
