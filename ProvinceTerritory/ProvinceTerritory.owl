@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:cids="https://ontology.commonapproach.org/cids#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:org="http://www.w3.org/ns/org#"
+   xmlns:owl="http://www.w3.org/2002/07/owl#"
+   xmlns:prov="http://www.w3.org/ns/prov#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+   xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+   xmlns:vann="http://purl.org/vocab/vann/"
+   xml:base="https://codelist.commonapproach.org/codeLists/ProvinceTerritory#"
+   xmlns="https://codelist.commonapproach.org/codeLists/ProvinceTerritory#"
+>
+  <rdf:Description rdf:about="https://codelist.commonapproach.org/codeLists/ProvinceTerritory">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
+    <rdf:type rdf:resource="http://purl.org/vocommons/voafVocabulary"/>
+    <vann:preferredNamespacePrefix>ProvinceTerritory</vann:preferredNamespacePrefix>
+    <owl:versionInfo>1.0</owl:versionInfo>
+    <dcterms:date>08-10-2024</dcterms:date>
+    <vann:preferredNamespaceUri rdf:resource="https://codelist.commonapproach.org/codeLists/ProvinceTerritory#"/>
+    <owl:imports rdf:resource="https://ontology.commonapproach.org/owl/cids"/>
+    <owl:imports rdf:resource="http://www.w3.org/2006/time"/>
+    <cids:hasName xml:lang="en">Province and Territory Codelist</cids:hasName>
+    <dcterms:title xml:lang="en">Province and Territory Codelist</dcterms:title>
+    <dcterms:description xml:lang="en">A codelist vocabulary of Province and Territory Codelists according to Statistics Canada definitions.</dcterms:description>
+    <foaf:name xml:lang="en">Province and Territory Codelist</foaf:name>
+    <rdfs:label xml:lang="en">Province and Territory Codelist</rdfs:label>
+    <dcterms:creator rdf:resource="https://ontology.commonapproach.org/cids#ac"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://codelist.commonapproach.org/codeLists/ProvinceTerritory#dataset">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="#AB">
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Locality"/>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#CODE"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://codelist.commonapproach.org/codeLists/ProvinceTerritory#dataset"/>
+    <rdfs:isDefinedBy rdf:resource="https://codelist.commonapproach.org/codeLists/ProvinceTerritory#"/>
+    <cids:hasName xml:lang="en">Alberta</cids:hasName>
+    <rdfs:label xml:lang="en">Alberta</rdfs:label>
+    <cids:definedBy rdf:resource="https://ontology.commonapproach.org/cids#statsCan"/>
+    <cids:hasIdentifier>AB</cids:hasIdentifier>
+    <prov:hadPrimarySource rdf:resource="https://www12.statcan.gc.ca/census-recensement/2021/ref/dict/tab/index-eng.cfm?ID=t1_8"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="#BC">
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Locality"/>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#CODE"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://codelist.commonapproach.org/codeLists/ProvinceTerritory#dataset"/>
+    <rdfs:isDefinedBy rdf:resource="https://codelist.commonapproach.org/codeLists/ProvinceTerritory#"/>
+    <cids:hasName xml:lang="en">British Columbia</cids:hasName>
+    <rdfs:label xml:lang="en">British Columbia</rdfs:label>
+    <cids:definedBy rdf:resource="https://ontology.commonapproach.org/cids#statsCan"/>
+    <cids:hasIdentifier>BC</cids:hasIdentifier>
+    <prov:hadPrimarySource rdf:resource="https://www12.statcan.gc.ca/census-recensement/2021/ref/dict/tab/index-eng.cfm?ID=t1_8"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="#MB">
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Locality"/>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#CODE"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://codelist.commonapproach.org/codeLists/ProvinceTerritory#dataset"/>
+    <rdfs:isDefinedBy rdf:resource="https://codelist.commonapproach.org/codeLists/ProvinceTerritory#"/>
+    <cids:hasName xml:lang="en">Manitoba</cids:hasName>
+    <rdfs:label xml:lang="en">Manitoba</rdfs:label>
+    <cids:definedBy rdf:resource="https://ontology.commonapproach.org/cids#statsCan"/>
+    <cids:hasIdentifier>MB</cids:hasIdentifier>
+    <prov:hadPrimarySource rdf:resource="https://www12.statcan.gc.ca/census-recensement/2021/ref/dict/tab/index-eng.cfm?ID=t1_8"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="#NB">
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Locality"/>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#CODE"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://codelist.commonapproach.org/codeLists/ProvinceTerritory#dataset"/>
+    <rdfs:isDefinedBy rdf:resource="https://codelist.commonapproach.org/codeLists/ProvinceTerritory#"/>
+    <cids:hasName xml:lang="en">New Brunswick</cids:hasName>
+    <rdfs:label xml:lang="en">New Brunswick</rdfs:label>
+    <cids:definedBy rdf:resource="https://ontology.commonapproach.org/cids#statsCan"/>
+    <cids:hasIdentifier>NB</cids:hasIdentifier>
+    <prov:hadPrimarySource rdf:resource="https://www12.statcan.gc.ca/census-recensement/2021/ref/dict/tab/index-eng.cfm?ID=t1_8"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="#NL">
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Locality"/>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#CODE"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://codelist.commonapproach.org/codeLists/ProvinceTerritory#dataset"/>
+    <rdfs:isDefinedBy rdf:resource="https://codelist.commonapproach.org/codeLists/ProvinceTerritory#"/>
+    <cids:hasName xml:lang="en">Newfoundland and Labrador</cids:hasName>
+    <rdfs:label xml:lang="en">Newfoundland and Labrador</rdfs:label>
+    <cids:definedBy rdf:resource="https://ontology.commonapproach.org/cids#statsCan"/>
+    <cids:hasIdentifier>NL</cids:hasIdentifier>
+    <prov:hadPrimarySource rdf:resource="https://www12.statcan.gc.ca/census-recensement/2021/ref/dict/tab/index-eng.cfm?ID=t1_8"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="#NS">
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Locality"/>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#CODE"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://codelist.commonapproach.org/codeLists/ProvinceTerritory#dataset"/>
+    <rdfs:isDefinedBy rdf:resource="https://codelist.commonapproach.org/codeLists/ProvinceTerritory#"/>
+    <cids:hasName xml:lang="en">Nova Scotia</cids:hasName>
+    <rdfs:label xml:lang="en">Nova Scotia</rdfs:label>
+    <cids:definedBy rdf:resource="https://ontology.commonapproach.org/cids#statsCan"/>
+    <cids:hasIdentifier>NS</cids:hasIdentifier>
+    <prov:hadPrimarySource rdf:resource="https://www12.statcan.gc.ca/census-recensement/2021/ref/dict/tab/index-eng.cfm?ID=t1_8"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="#NT">
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Locality"/>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#CODE"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://codelist.commonapproach.org/codeLists/ProvinceTerritory#dataset"/>
+    <rdfs:isDefinedBy rdf:resource="https://codelist.commonapproach.org/codeLists/ProvinceTerritory#"/>
+    <cids:hasName xml:lang="en">Northwest Territories</cids:hasName>
+    <rdfs:label xml:lang="en">Northwest Territories</rdfs:label>
+    <cids:definedBy rdf:resource="https://ontology.commonapproach.org/cids#statsCan"/>
+    <cids:hasIdentifier>NT</cids:hasIdentifier>
+    <prov:hadPrimarySource rdf:resource="https://www12.statcan.gc.ca/census-recensement/2021/ref/dict/tab/index-eng.cfm?ID=t1_8"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="#NU">
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Locality"/>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#CODE"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://codelist.commonapproach.org/codeLists/ProvinceTerritory#dataset"/>
+    <rdfs:isDefinedBy rdf:resource="https://codelist.commonapproach.org/codeLists/ProvinceTerritory#"/>
+    <cids:hasName xml:lang="en">Nunavut</cids:hasName>
+    <rdfs:label xml:lang="en">Nunavut</rdfs:label>
+    <cids:definedBy rdf:resource="https://ontology.commonapproach.org/cids#statsCan"/>
+    <cids:hasIdentifier>NU</cids:hasIdentifier>
+    <prov:hadPrimarySource rdf:resource="https://www12.statcan.gc.ca/census-recensement/2021/ref/dict/tab/index-eng.cfm?ID=t1_8"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="#ON">
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Locality"/>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#CODE"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://codelist.commonapproach.org/codeLists/ProvinceTerritory#dataset"/>
+    <rdfs:isDefinedBy rdf:resource="https://codelist.commonapproach.org/codeLists/ProvinceTerritory#"/>
+    <cids:hasName xml:lang="en">Ontario</cids:hasName>
+    <rdfs:label xml:lang="en">Ontario</rdfs:label>
+    <cids:definedBy rdf:resource="https://ontology.commonapproach.org/cids#statsCan"/>
+    <cids:hasIdentifier>ON</cids:hasIdentifier>
+    <prov:hadPrimarySource rdf:resource="https://www12.statcan.gc.ca/census-recensement/2021/ref/dict/tab/index-eng.cfm?ID=t1_8"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="#PE">
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Locality"/>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#CODE"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://codelist.commonapproach.org/codeLists/ProvinceTerritory#dataset"/>
+    <rdfs:isDefinedBy rdf:resource="https://codelist.commonapproach.org/codeLists/ProvinceTerritory#"/>
+    <cids:hasName xml:lang="en">Prince Edward Island</cids:hasName>
+    <rdfs:label xml:lang="en">Prince Edward Island</rdfs:label>
+    <cids:definedBy rdf:resource="https://ontology.commonapproach.org/cids#statsCan"/>
+    <cids:hasIdentifier>PE</cids:hasIdentifier>
+    <prov:hadPrimarySource rdf:resource="https://www12.statcan.gc.ca/census-recensement/2021/ref/dict/tab/index-eng.cfm?ID=t1_8"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="#QC">
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Locality"/>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#CODE"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://codelist.commonapproach.org/codeLists/ProvinceTerritory#dataset"/>
+    <rdfs:isDefinedBy rdf:resource="https://codelist.commonapproach.org/codeLists/ProvinceTerritory#"/>
+    <cids:hasName xml:lang="en">Quebec</cids:hasName>
+    <rdfs:label xml:lang="en">Quebec</rdfs:label>
+    <cids:definedBy rdf:resource="https://ontology.commonapproach.org/cids#statsCan"/>
+    <cids:hasIdentifier>QC</cids:hasIdentifier>
+    <prov:hadPrimarySource rdf:resource="https://www12.statcan.gc.ca/census-recensement/2021/ref/dict/tab/index-eng.cfm?ID=t1_8"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="#SK">
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Locality"/>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#CODE"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://codelist.commonapproach.org/codeLists/ProvinceTerritory#dataset"/>
+    <rdfs:isDefinedBy rdf:resource="https://codelist.commonapproach.org/codeLists/ProvinceTerritory#"/>
+    <cids:hasName xml:lang="en">Saskatchewan</cids:hasName>
+    <rdfs:label xml:lang="en">Saskatchewan</rdfs:label>
+    <cids:definedBy rdf:resource="https://ontology.commonapproach.org/cids#statsCan"/>
+    <cids:hasIdentifier>SK</cids:hasIdentifier>
+    <prov:hadPrimarySource rdf:resource="https://www12.statcan.gc.ca/census-recensement/2021/ref/dict/tab/index-eng.cfm?ID=t1_8"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="#YT">
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Locality"/>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#CODE"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://codelist.commonapproach.org/codeLists/ProvinceTerritory#dataset"/>
+    <rdfs:isDefinedBy rdf:resource="https://codelist.commonapproach.org/codeLists/ProvinceTerritory#"/>
+    <cids:hasName xml:lang="en">Yukon</cids:hasName>
+    <rdfs:label xml:lang="en">Yukon</rdfs:label>
+    <cids:definedBy rdf:resource="https://ontology.commonapproach.org/cids#statsCan"/>
+    <cids:hasIdentifier>YT</cids:hasIdentifier>
+    <prov:hadPrimarySource rdf:resource="https://www12.statcan.gc.ca/census-recensement/2021/ref/dict/tab/index-eng.cfm?ID=t1_8"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="#CAN">
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Locality"/>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#CODE"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://codelist.commonapproach.org/codeLists/ProvinceTerritory#dataset"/>
+    <rdfs:isDefinedBy rdf:resource="https://codelist.commonapproach.org/codeLists/ProvinceTerritory#"/>
+    <cids:hasName xml:lang="en">All of Canada</cids:hasName>
+    <rdfs:label xml:lang="en">All of CanadaYukon</rdfs:label>
+    <cids:definedBy rdf:resource="https://ontology.commonapproach.org/cids#statsCan"/>
+    <cids:hasIdentifier>CAN</cids:hasIdentifier>
+    <prov:hadPrimarySource rdf:resource="https://www12.statcan.gc.ca/census-recensement/2021/ref/dict/tab/index-eng.cfm?ID=t1_8"/>
+  </rdf:Description>
+
+
+
+
+</rdf:RDF>
