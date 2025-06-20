@@ -1,0 +1,123 @@
+<https://codelist.commonapproach.org/codeLists/ICNPOsector> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<https://codelist.commonapproach.org/codeLists/ICNPOsector> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocommons/voafVocabulary> .
+<https://codelist.commonapproach.org/codeLists/ICNPOsector> <http://purl.org/vocab/vann/preferredNamespacePrefix> "ICNOPsector" .
+<https://codelist.commonapproach.org/codeLists/ICNPOsector> <http://www.w3.org/2002/07/owl#versionInfo> "1.0" .
+<https://codelist.commonapproach.org/codeLists/ICNPOsector> <http://purl.org/dc/terms/date> "02-10-2024" .
+<https://codelist.commonapproach.org/codeLists/ICNPOsector> <http://purl.org/vocab/vann/preferredNamespaceUri> <https://codelist.commonapproach.org/codeLists/ICNPOsector#> .
+<https://codelist.commonapproach.org/codeLists/ICNPOsector> <http://www.w3.org/2002/07/owl#imports> <https://ontology.commonapproach.org/owl/cids> .
+<https://codelist.commonapproach.org/codeLists/ICNPOsector> <http://www.w3.org/2002/07/owl#imports> <http://www.w3.org/2006/time> .
+<https://codelist.commonapproach.org/codeLists/ICNPOsector> <https://ontology.commonapproach.org/cids#hasName> "ICNPO Sector" .
+<https://codelist.commonapproach.org/codeLists/ICNPOsector> <http://purl.org/dc/terms/title> "ICNPO Sector"@en .
+<https://codelist.commonapproach.org/codeLists/ICNPOsector> <http://purl.org/dc/terms/description> "A codelist vocabulary of ICNPO Sector"@en .
+<https://codelist.commonapproach.org/codeLists/ICNPOsector> <http://xmlns.com/foaf/0.1/name> "ICNPO Sector" .
+<https://codelist.commonapproach.org/codeLists/ICNPOsector> <http://www.w3.org/2000/01/rdf-schema#label> "ICNPO Sector" .
+<https://codelist.commonapproach.org/codeLists/ICNPOsector> <http://purl.org/dc/terms/creator> <https://ontology.commonapproach.org/cids#ac> .
+<https://codelist.commonapproach.org/codeLists/ICNPOsector#dataset> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
+<https://codelist.commonapproach.org/codeLists/ICNPOsector#sec1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#Sector> .
+<https://codelist.commonapproach.org/codeLists/ICNPOsector#sec1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#CODE> .
+<https://codelist.commonapproach.org/codeLists/ICNPOsector#sec1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://codelist.commonapproach.org/codeLists/ICNPOsector#sec1> <http://www.w3.org/2004/02/skos/core#inScheme> <https://codelist.commonapproach.org/codeLists/ICNPOsector#dataset> .
+<https://codelist.commonapproach.org/codeLists/ICNPOsector#sec1> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://codelist.commonapproach.org/codeLists/ICNPOsector#> .
+<https://codelist.commonapproach.org/codeLists/ICNPOsector#sec1> <https://ontology.commonapproach.org/cids#hasName> "Culture and Recreation"@en .
+<https://codelist.commonapproach.org/codeLists/ICNPOsector#sec1> <http://www.w3.org/2000/01/rdf-schema#label> "Culture and Recreation"@en .
+<https://codelist.commonapproach.org/codeLists/ICNPOsector#sec1> <https://ontology.commonapproach.org/cids#definedBy> <https://ontology.commonapproach.org/cids#icnpo> .
+<https://codelist.commonapproach.org/codeLists/ICNPOsector#sec1> <https://ontology.commonapproach.org/cids#hasIdentifier> "1" .
+<https://codelist.commonapproach.org/codeLists/ICNPOsector#sec2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#CODE> .
+<https://codelist.commonapproach.org/codeLists/ICNPOsector#sec2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#Sector> .
+<https://codelist.commonapproach.org/codeLists/ICNPOsector#sec2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://codelist.commonapproach.org/codeLists/ICNPOsector#sec2> <http://www.w3.org/2004/02/skos/core#inScheme> <https://codelist.commonapproach.org/codeLists/ICNPOsector#dataset> .
+<https://codelist.commonapproach.org/codeLists/ICNPOsector#sec2> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://codelist.commonapproach.org/codeLists/ICNPOsector#> .
+<https://codelist.commonapproach.org/codeLists/ICNPOsector#sec2> <https://ontology.commonapproach.org/cids#hasName> "Education and Research"@en .
+<https://codelist.commonapproach.org/codeLists/ICNPOsector#sec2> <http://www.w3.org/2000/01/rdf-schema#label> "Education and Research"@en .
+<https://codelist.commonapproach.org/codeLists/ICNPOsector#sec2> <https://ontology.commonapproach.org/cids#definedBy> <https://ontology.commonapproach.org/cids#icnpo> .
+<https://codelist.commonapproach.org/codeLists/ICNPOsector#sec2> <https://ontology.commonapproach.org/cids#hasIdentifier> "2" .
+<https://codelist.commonapproach.org/codeLists/ICNPOsector#sec3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#CODE> .
+<https://codelist.commonapproach.org/codeLists/ICNPOsector#sec3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#Sector> .
+<https://codelist.commonapproach.org/codeLists/ICNPOsector#sec3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://codelist.commonapproach.org/codeLists/ICNPOsector#sec3> <http://www.w3.org/2004/02/skos/core#inScheme> <https://codelist.commonapproach.org/codeLists/ICNPOsector#dataset> .
+<https://codelist.commonapproach.org/codeLists/ICNPOsector#sec3> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://codelist.commonapproach.org/codeLists/ICNPOsector#> .
+<https://codelist.commonapproach.org/codeLists/ICNPOsector#sec3> <https://ontology.commonapproach.org/cids#hasName> "Health"@en .
+<https://codelist.commonapproach.org/codeLists/ICNPOsector#sec3> <http://www.w3.org/2000/01/rdf-schema#label> "Health"@en .
+<https://codelist.commonapproach.org/codeLists/ICNPOsector#sec3> <https://ontology.commonapproach.org/cids#definedBy> <https://ontology.commonapproach.org/cids#icnpo> .
+<https://codelist.commonapproach.org/codeLists/ICNPOsector#sec3> <https://ontology.commonapproach.org/cids#hasIdentifier> "3" .
+<https://codelist.commonapproach.org/codeLists/ICNPOsector#sec4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#CODE> .
+<https://codelist.commonapproach.org/codeLists/ICNPOsector#sec4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#Sector> .
+<https://codelist.commonapproach.org/codeLists/ICNPOsector#sec4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://codelist.commonapproach.org/codeLists/ICNPOsector#sec4> <http://www.w3.org/2004/02/skos/core#inScheme> <https://codelist.commonapproach.org/codeLists/ICNPOsector#dataset> .
+<https://codelist.commonapproach.org/codeLists/ICNPOsector#sec4> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://codelist.commonapproach.org/codeLists/ICNPOsector#> .
+<https://codelist.commonapproach.org/codeLists/ICNPOsector#sec4> <https://ontology.commonapproach.org/cids#hasName> "Social Services"@en .
+<https://codelist.commonapproach.org/codeLists/ICNPOsector#sec4> <http://www.w3.org/2000/01/rdf-schema#label> "Social Services"@en .
+<https://codelist.commonapproach.org/codeLists/ICNPOsector#sec4> <https://ontology.commonapproach.org/cids#definedBy> <https://ontology.commonapproach.org/cids#icnpo> .
+<https://codelist.commonapproach.org/codeLists/ICNPOsector#sec4> <https://ontology.commonapproach.org/cids#hasIdentifier> "4" .
+<https://codelist.commonapproach.org/codeLists/ICNPOsector#sec5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#CODE> .
+<https://codelist.commonapproach.org/codeLists/ICNPOsector#sec5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#Sector> .
+<https://codelist.commonapproach.org/codeLists/ICNPOsector#sec5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://codelist.commonapproach.org/codeLists/ICNPOsector#sec5> <http://www.w3.org/2004/02/skos/core#inScheme> <https://codelist.commonapproach.org/codeLists/ICNPOsector#dataset> .
+<https://codelist.commonapproach.org/codeLists/ICNPOsector#sec5> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://codelist.commonapproach.org/codeLists/ICNPOsector#> .
+<https://codelist.commonapproach.org/codeLists/ICNPOsector#sec5> <https://ontology.commonapproach.org/cids#hasName> "Environment"@en .
+<https://codelist.commonapproach.org/codeLists/ICNPOsector#sec5> <http://www.w3.org/2000/01/rdf-schema#label> "Environment"@en .
+<https://codelist.commonapproach.org/codeLists/ICNPOsector#sec5> <https://ontology.commonapproach.org/cids#definedBy> <https://ontology.commonapproach.org/cids#icnpo> .
+<https://codelist.commonapproach.org/codeLists/ICNPOsector#sec5> <https://ontology.commonapproach.org/cids#hasIdentifier> "5" .
+<https://codelist.commonapproach.org/codeLists/ICNPOsector#sec6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#CODE> .
+<https://codelist.commonapproach.org/codeLists/ICNPOsector#sec6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#Sector> .
+<https://codelist.commonapproach.org/codeLists/ICNPOsector#sec6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://codelist.commonapproach.org/codeLists/ICNPOsector#sec6> <http://www.w3.org/2004/02/skos/core#inScheme> <https://codelist.commonapproach.org/codeLists/ICNPOsector#dataset> .
+<https://codelist.commonapproach.org/codeLists/ICNPOsector#sec6> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://codelist.commonapproach.org/codeLists/ICNPOsector#> .
+<https://codelist.commonapproach.org/codeLists/ICNPOsector#sec6> <https://ontology.commonapproach.org/cids#hasName> "Development and Housing"@en .
+<https://codelist.commonapproach.org/codeLists/ICNPOsector#sec6> <http://www.w3.org/2000/01/rdf-schema#label> "Development and Housing"@en .
+<https://codelist.commonapproach.org/codeLists/ICNPOsector#sec6> <https://ontology.commonapproach.org/cids#definedBy> <https://ontology.commonapproach.org/cids#icnpo> .
+<https://codelist.commonapproach.org/codeLists/ICNPOsector#sec6> <https://ontology.commonapproach.org/cids#hasIdentifier> "6" .
+<https://codelist.commonapproach.org/codeLists/ICNPOsector#sec7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#CODE> .
+<https://codelist.commonapproach.org/codeLists/ICNPOsector#sec7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#Sector> .
+<https://codelist.commonapproach.org/codeLists/ICNPOsector#sec7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://codelist.commonapproach.org/codeLists/ICNPOsector#sec7> <http://www.w3.org/2004/02/skos/core#inScheme> <https://codelist.commonapproach.org/codeLists/ICNPOsector#dataset> .
+<https://codelist.commonapproach.org/codeLists/ICNPOsector#sec7> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://codelist.commonapproach.org/codeLists/ICNPOsector#> .
+<https://codelist.commonapproach.org/codeLists/ICNPOsector#sec7> <https://ontology.commonapproach.org/cids#hasName> "Law, Advocacy, and Politics"@en .
+<https://codelist.commonapproach.org/codeLists/ICNPOsector#sec7> <http://www.w3.org/2000/01/rdf-schema#label> "Law, Advocacy, and Politics"@en .
+<https://codelist.commonapproach.org/codeLists/ICNPOsector#sec7> <https://ontology.commonapproach.org/cids#definedBy> <https://ontology.commonapproach.org/cids#icnpo> .
+<https://codelist.commonapproach.org/codeLists/ICNPOsector#sec7> <https://ontology.commonapproach.org/cids#hasIdentifier> "7" .
+<https://codelist.commonapproach.org/codeLists/ICNPOsector#sec8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#CODE> .
+<https://codelist.commonapproach.org/codeLists/ICNPOsector#sec8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#Sector> .
+<https://codelist.commonapproach.org/codeLists/ICNPOsector#sec8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://codelist.commonapproach.org/codeLists/ICNPOsector#sec8> <http://www.w3.org/2004/02/skos/core#inScheme> <https://codelist.commonapproach.org/codeLists/ICNPOsector#dataset> .
+<https://codelist.commonapproach.org/codeLists/ICNPOsector#sec8> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://codelist.commonapproach.org/codeLists/ICNPOsector#> .
+<https://codelist.commonapproach.org/codeLists/ICNPOsector#sec8> <https://ontology.commonapproach.org/cids#hasName> "Philanthropic Intermediaries and Voluntarism Promotion"@en .
+<https://codelist.commonapproach.org/codeLists/ICNPOsector#sec8> <http://www.w3.org/2000/01/rdf-schema#label> "Philanthropic Intermediaries and Voluntarism Promotion"@en .
+<https://codelist.commonapproach.org/codeLists/ICNPOsector#sec8> <https://ontology.commonapproach.org/cids#definedBy> <https://ontology.commonapproach.org/cids#icnpo> .
+<https://codelist.commonapproach.org/codeLists/ICNPOsector#sec8> <https://ontology.commonapproach.org/cids#hasIdentifier> "8" .
+<https://codelist.commonapproach.org/codeLists/ICNPOsector#sec9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#CODE> .
+<https://codelist.commonapproach.org/codeLists/ICNPOsector#sec9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#Sector> .
+<https://codelist.commonapproach.org/codeLists/ICNPOsector#sec9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://codelist.commonapproach.org/codeLists/ICNPOsector#sec9> <http://www.w3.org/2004/02/skos/core#inScheme> <https://codelist.commonapproach.org/codeLists/ICNPOsector#dataset> .
+<https://codelist.commonapproach.org/codeLists/ICNPOsector#sec9> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://codelist.commonapproach.org/codeLists/ICNPOsector#> .
+<https://codelist.commonapproach.org/codeLists/ICNPOsector#sec9> <https://ontology.commonapproach.org/cids#hasName> "International"@en .
+<https://codelist.commonapproach.org/codeLists/ICNPOsector#sec9> <http://www.w3.org/2000/01/rdf-schema#label> "International"@en .
+<https://codelist.commonapproach.org/codeLists/ICNPOsector#sec9> <https://ontology.commonapproach.org/cids#definedBy> <https://ontology.commonapproach.org/cids#icnpo> .
+<https://codelist.commonapproach.org/codeLists/ICNPOsector#sec9> <https://ontology.commonapproach.org/cids#hasIdentifier> "9" .
+<https://codelist.commonapproach.org/codeLists/ICNPOsector#sec10> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#CODE> .
+<https://codelist.commonapproach.org/codeLists/ICNPOsector#sec10> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#Sector> .
+<https://codelist.commonapproach.org/codeLists/ICNPOsector#sec10> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://codelist.commonapproach.org/codeLists/ICNPOsector#sec10> <http://www.w3.org/2004/02/skos/core#inScheme> <https://codelist.commonapproach.org/codeLists/ICNPOsector#dataset> .
+<https://codelist.commonapproach.org/codeLists/ICNPOsector#sec10> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://codelist.commonapproach.org/codeLists/ICNPOsector#> .
+<https://codelist.commonapproach.org/codeLists/ICNPOsector#sec10> <https://ontology.commonapproach.org/cids#hasName> "Religion"@en .
+<https://codelist.commonapproach.org/codeLists/ICNPOsector#sec10> <http://www.w3.org/2000/01/rdf-schema#label> "Religion"@en .
+<https://codelist.commonapproach.org/codeLists/ICNPOsector#sec10> <https://ontology.commonapproach.org/cids#definedBy> <https://ontology.commonapproach.org/cids#icnpo> .
+<https://codelist.commonapproach.org/codeLists/ICNPOsector#sec10> <https://ontology.commonapproach.org/cids#hasIdentifier> "10" .
+<https://codelist.commonapproach.org/codeLists/ICNPOsector#sec11> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#CODE> .
+<https://codelist.commonapproach.org/codeLists/ICNPOsector#sec11> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#Sector> .
+<https://codelist.commonapproach.org/codeLists/ICNPOsector#sec11> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://codelist.commonapproach.org/codeLists/ICNPOsector#sec11> <http://www.w3.org/2004/02/skos/core#inScheme> <https://codelist.commonapproach.org/codeLists/ICNPOsector#dataset> .
+<https://codelist.commonapproach.org/codeLists/ICNPOsector#sec11> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://codelist.commonapproach.org/codeLists/ICNPOsector#> .
+<https://codelist.commonapproach.org/codeLists/ICNPOsector#sec11> <https://ontology.commonapproach.org/cids#hasName> "Business and Professional Associations, Unions"@en .
+<https://codelist.commonapproach.org/codeLists/ICNPOsector#sec11> <http://www.w3.org/2000/01/rdf-schema#label> "Business and Professional Associations, Unions"@en .
+<https://codelist.commonapproach.org/codeLists/ICNPOsector#sec11> <https://ontology.commonapproach.org/cids#definedBy> <https://ontology.commonapproach.org/cids#icnpo> .
+<https://codelist.commonapproach.org/codeLists/ICNPOsector#sec11> <https://ontology.commonapproach.org/cids#hasIdentifier> "11" .
+<https://codelist.commonapproach.org/codeLists/ICNPOsector#sec12> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#CODE> .
+<https://codelist.commonapproach.org/codeLists/ICNPOsector#sec12> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#Sector> .
+<https://codelist.commonapproach.org/codeLists/ICNPOsector#sec12> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://codelist.commonapproach.org/codeLists/ICNPOsector#sec12> <http://www.w3.org/2004/02/skos/core#inScheme> <https://codelist.commonapproach.org/codeLists/ICNPOsector#dataset> .
+<https://codelist.commonapproach.org/codeLists/ICNPOsector#sec12> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://codelist.commonapproach.org/codeLists/ICNPOsector#> .
+<https://codelist.commonapproach.org/codeLists/ICNPOsector#sec12> <https://ontology.commonapproach.org/cids#hasName> "Not Elsewhere Classified"@en .
+<https://codelist.commonapproach.org/codeLists/ICNPOsector#sec12> <http://www.w3.org/2000/01/rdf-schema#label> "Not Elsewhere Classified"@en .
+<https://codelist.commonapproach.org/codeLists/ICNPOsector#sec12> <https://ontology.commonapproach.org/cids#definedBy> <https://ontology.commonapproach.org/cids#icnpo> .
+<https://codelist.commonapproach.org/codeLists/ICNPOsector#sec12> <https://ontology.commonapproach.org/cids#hasIdentifier> "12" .

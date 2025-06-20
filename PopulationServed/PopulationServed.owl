@@ -402,6 +402,19 @@
     <cids:hasIdentifier>ps25</cids:hasIdentifier>
   </rdf:Description>
 
-
+  <rdf:Description rdf:about="#ps26">
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#PopulationServed"/>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#CODE"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://codelist.commonapproach.org/codeLists/PopulationServed#dataset"/>
+    <rdfs:isDefinedBy rdf:resource="https://codelist.commonapproach.org/codeLists/PopulationServed#"/>
+    <cids:hasName xml:lang="en">Indigenous Peoples: Not Otherwise Specified</cids:hasName>
+    <rdfs:label xml:lang="en">Indigenous Peoples: Not Otherwise Specified</rdfs:label>
+    <skos:definition xml:lang="en">In Canada, individuals who self-identify as Indigenous (First Nations, Inuit, or Métis) but do not specify their group affiliation, are unsure of their specific ancestry, or identify with another Indigenous community not listed separately.</skos:definition>
+    <cids:hasDefinition xml:lang="en">In Canada, individuals who self-identify as Indigenous (First Nations, Inuit, or Métis) but do not specify their group affiliation, are unsure of their specific ancestry, or identify with another Indigenous community not listed separately.</cids:hasDefinition>
+    <cids:definedBy rdf:resource="https://ontology.commonapproach.org/cids#ac"/>
+    <cids:hasIdentifier>ps26</cids:hasIdentifier>
+    <prov:hadPrimarySource rdf:resource="https://www.noslangues-ourlanguages.gc.ca/en/publications/equite-diversite-inclusion-equity-diversity-inclusion-eng#notion-69399"/>
+  </rdf:Description>
 
 </rdf:RDF>

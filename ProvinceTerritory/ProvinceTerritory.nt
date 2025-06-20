@@ -1,0 +1,155 @@
+<https://codelist.commonapproach.org/codeLists/ProvinceTerritory> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<https://codelist.commonapproach.org/codeLists/ProvinceTerritory> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocommons/voafVocabulary> .
+<https://codelist.commonapproach.org/codeLists/ProvinceTerritory> <http://purl.org/vocab/vann/preferredNamespacePrefix> "ProvinceTerritory" .
+<https://codelist.commonapproach.org/codeLists/ProvinceTerritory> <http://www.w3.org/2002/07/owl#versionInfo> "1.0" .
+<https://codelist.commonapproach.org/codeLists/ProvinceTerritory> <http://purl.org/dc/terms/date> "08-10-2024" .
+<https://codelist.commonapproach.org/codeLists/ProvinceTerritory> <http://purl.org/vocab/vann/preferredNamespaceUri> <https://codelist.commonapproach.org/codeLists/ProvinceTerritory#> .
+<https://codelist.commonapproach.org/codeLists/ProvinceTerritory> <http://www.w3.org/2002/07/owl#imports> <https://ontology.commonapproach.org/owl/cids> .
+<https://codelist.commonapproach.org/codeLists/ProvinceTerritory> <http://www.w3.org/2002/07/owl#imports> <http://www.w3.org/2006/time> .
+<https://codelist.commonapproach.org/codeLists/ProvinceTerritory> <https://ontology.commonapproach.org/cids#hasName> "Province and Territory Codelist"@en .
+<https://codelist.commonapproach.org/codeLists/ProvinceTerritory> <http://purl.org/dc/terms/title> "Province and Territory Codelist"@en .
+<https://codelist.commonapproach.org/codeLists/ProvinceTerritory> <http://purl.org/dc/terms/description> "A codelist vocabulary of Province and Territory Codelists according to Statistics Canada definitions."@en .
+<https://codelist.commonapproach.org/codeLists/ProvinceTerritory> <http://xmlns.com/foaf/0.1/name> "Province and Territory Codelist"@en .
+<https://codelist.commonapproach.org/codeLists/ProvinceTerritory> <http://www.w3.org/2000/01/rdf-schema#label> "Province and Territory Codelist"@en .
+<https://codelist.commonapproach.org/codeLists/ProvinceTerritory> <http://purl.org/dc/terms/creator> <https://ontology.commonapproach.org/cids#ac> .
+<https://codelist.commonapproach.org/codeLists/ProvinceTerritory#dataset> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
+<https://codelist.commonapproach.org/codeLists/ProvinceTerritory#AB> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#Locality> .
+<https://codelist.commonapproach.org/codeLists/ProvinceTerritory#AB> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#CODE> .
+<https://codelist.commonapproach.org/codeLists/ProvinceTerritory#AB> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://codelist.commonapproach.org/codeLists/ProvinceTerritory#AB> <http://www.w3.org/2004/02/skos/core#inScheme> <https://codelist.commonapproach.org/codeLists/ProvinceTerritory#dataset> .
+<https://codelist.commonapproach.org/codeLists/ProvinceTerritory#AB> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://codelist.commonapproach.org/codeLists/ProvinceTerritory#> .
+<https://codelist.commonapproach.org/codeLists/ProvinceTerritory#AB> <https://ontology.commonapproach.org/cids#hasName> "Alberta"@en .
+<https://codelist.commonapproach.org/codeLists/ProvinceTerritory#AB> <http://www.w3.org/2000/01/rdf-schema#label> "Alberta"@en .
+<https://codelist.commonapproach.org/codeLists/ProvinceTerritory#AB> <https://ontology.commonapproach.org/cids#definedBy> <https://ontology.commonapproach.org/cids#statsCan> .
+<https://codelist.commonapproach.org/codeLists/ProvinceTerritory#AB> <https://ontology.commonapproach.org/cids#hasIdentifier> "AB" .
+<https://codelist.commonapproach.org/codeLists/ProvinceTerritory#AB> <http://www.w3.org/ns/prov#hadPrimarySource> <https://www12.statcan.gc.ca/census-recensement/2021/ref/dict/tab/index-eng.cfm?ID=t1_8> .
+<https://codelist.commonapproach.org/codeLists/ProvinceTerritory#BC> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#Locality> .
+<https://codelist.commonapproach.org/codeLists/ProvinceTerritory#BC> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#CODE> .
+<https://codelist.commonapproach.org/codeLists/ProvinceTerritory#BC> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://codelist.commonapproach.org/codeLists/ProvinceTerritory#BC> <http://www.w3.org/2004/02/skos/core#inScheme> <https://codelist.commonapproach.org/codeLists/ProvinceTerritory#dataset> .
+<https://codelist.commonapproach.org/codeLists/ProvinceTerritory#BC> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://codelist.commonapproach.org/codeLists/ProvinceTerritory#> .
+<https://codelist.commonapproach.org/codeLists/ProvinceTerritory#BC> <https://ontology.commonapproach.org/cids#hasName> "British Columbia"@en .
+<https://codelist.commonapproach.org/codeLists/ProvinceTerritory#BC> <http://www.w3.org/2000/01/rdf-schema#label> "British Columbia"@en .
+<https://codelist.commonapproach.org/codeLists/ProvinceTerritory#BC> <https://ontology.commonapproach.org/cids#definedBy> <https://ontology.commonapproach.org/cids#statsCan> .
+<https://codelist.commonapproach.org/codeLists/ProvinceTerritory#BC> <https://ontology.commonapproach.org/cids#hasIdentifier> "BC" .
+<https://codelist.commonapproach.org/codeLists/ProvinceTerritory#BC> <http://www.w3.org/ns/prov#hadPrimarySource> <https://www12.statcan.gc.ca/census-recensement/2021/ref/dict/tab/index-eng.cfm?ID=t1_8> .
+<https://codelist.commonapproach.org/codeLists/ProvinceTerritory#MB> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#Locality> .
+<https://codelist.commonapproach.org/codeLists/ProvinceTerritory#MB> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#CODE> .
+<https://codelist.commonapproach.org/codeLists/ProvinceTerritory#MB> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://codelist.commonapproach.org/codeLists/ProvinceTerritory#MB> <http://www.w3.org/2004/02/skos/core#inScheme> <https://codelist.commonapproach.org/codeLists/ProvinceTerritory#dataset> .
+<https://codelist.commonapproach.org/codeLists/ProvinceTerritory#MB> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://codelist.commonapproach.org/codeLists/ProvinceTerritory#> .
+<https://codelist.commonapproach.org/codeLists/ProvinceTerritory#MB> <https://ontology.commonapproach.org/cids#hasName> "Manitoba"@en .
+<https://codelist.commonapproach.org/codeLists/ProvinceTerritory#MB> <http://www.w3.org/2000/01/rdf-schema#label> "Manitoba"@en .
+<https://codelist.commonapproach.org/codeLists/ProvinceTerritory#MB> <https://ontology.commonapproach.org/cids#definedBy> <https://ontology.commonapproach.org/cids#statsCan> .
+<https://codelist.commonapproach.org/codeLists/ProvinceTerritory#MB> <https://ontology.commonapproach.org/cids#hasIdentifier> "MB" .
+<https://codelist.commonapproach.org/codeLists/ProvinceTerritory#MB> <http://www.w3.org/ns/prov#hadPrimarySource> <https://www12.statcan.gc.ca/census-recensement/2021/ref/dict/tab/index-eng.cfm?ID=t1_8> .
+<https://codelist.commonapproach.org/codeLists/ProvinceTerritory#NB> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#Locality> .
+<https://codelist.commonapproach.org/codeLists/ProvinceTerritory#NB> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#CODE> .
+<https://codelist.commonapproach.org/codeLists/ProvinceTerritory#NB> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://codelist.commonapproach.org/codeLists/ProvinceTerritory#NB> <http://www.w3.org/2004/02/skos/core#inScheme> <https://codelist.commonapproach.org/codeLists/ProvinceTerritory#dataset> .
+<https://codelist.commonapproach.org/codeLists/ProvinceTerritory#NB> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://codelist.commonapproach.org/codeLists/ProvinceTerritory#> .
+<https://codelist.commonapproach.org/codeLists/ProvinceTerritory#NB> <https://ontology.commonapproach.org/cids#hasName> "New Brunswick"@en .
+<https://codelist.commonapproach.org/codeLists/ProvinceTerritory#NB> <http://www.w3.org/2000/01/rdf-schema#label> "New Brunswick"@en .
+<https://codelist.commonapproach.org/codeLists/ProvinceTerritory#NB> <https://ontology.commonapproach.org/cids#definedBy> <https://ontology.commonapproach.org/cids#statsCan> .
+<https://codelist.commonapproach.org/codeLists/ProvinceTerritory#NB> <https://ontology.commonapproach.org/cids#hasIdentifier> "NB" .
+<https://codelist.commonapproach.org/codeLists/ProvinceTerritory#NB> <http://www.w3.org/ns/prov#hadPrimarySource> <https://www12.statcan.gc.ca/census-recensement/2021/ref/dict/tab/index-eng.cfm?ID=t1_8> .
+<https://codelist.commonapproach.org/codeLists/ProvinceTerritory#NL> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#Locality> .
+<https://codelist.commonapproach.org/codeLists/ProvinceTerritory#NL> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#CODE> .
+<https://codelist.commonapproach.org/codeLists/ProvinceTerritory#NL> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://codelist.commonapproach.org/codeLists/ProvinceTerritory#NL> <http://www.w3.org/2004/02/skos/core#inScheme> <https://codelist.commonapproach.org/codeLists/ProvinceTerritory#dataset> .
+<https://codelist.commonapproach.org/codeLists/ProvinceTerritory#NL> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://codelist.commonapproach.org/codeLists/ProvinceTerritory#> .
+<https://codelist.commonapproach.org/codeLists/ProvinceTerritory#NL> <https://ontology.commonapproach.org/cids#hasName> "Newfoundland and Labrador"@en .
+<https://codelist.commonapproach.org/codeLists/ProvinceTerritory#NL> <http://www.w3.org/2000/01/rdf-schema#label> "Newfoundland and Labrador"@en .
+<https://codelist.commonapproach.org/codeLists/ProvinceTerritory#NL> <https://ontology.commonapproach.org/cids#definedBy> <https://ontology.commonapproach.org/cids#statsCan> .
+<https://codelist.commonapproach.org/codeLists/ProvinceTerritory#NL> <https://ontology.commonapproach.org/cids#hasIdentifier> "NL" .
+<https://codelist.commonapproach.org/codeLists/ProvinceTerritory#NL> <http://www.w3.org/ns/prov#hadPrimarySource> <https://www12.statcan.gc.ca/census-recensement/2021/ref/dict/tab/index-eng.cfm?ID=t1_8> .
+<https://codelist.commonapproach.org/codeLists/ProvinceTerritory#NS> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#Locality> .
+<https://codelist.commonapproach.org/codeLists/ProvinceTerritory#NS> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#CODE> .
+<https://codelist.commonapproach.org/codeLists/ProvinceTerritory#NS> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://codelist.commonapproach.org/codeLists/ProvinceTerritory#NS> <http://www.w3.org/2004/02/skos/core#inScheme> <https://codelist.commonapproach.org/codeLists/ProvinceTerritory#dataset> .
+<https://codelist.commonapproach.org/codeLists/ProvinceTerritory#NS> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://codelist.commonapproach.org/codeLists/ProvinceTerritory#> .
+<https://codelist.commonapproach.org/codeLists/ProvinceTerritory#NS> <https://ontology.commonapproach.org/cids#hasName> "Nova Scotia"@en .
+<https://codelist.commonapproach.org/codeLists/ProvinceTerritory#NS> <http://www.w3.org/2000/01/rdf-schema#label> "Nova Scotia"@en .
+<https://codelist.commonapproach.org/codeLists/ProvinceTerritory#NS> <https://ontology.commonapproach.org/cids#definedBy> <https://ontology.commonapproach.org/cids#statsCan> .
+<https://codelist.commonapproach.org/codeLists/ProvinceTerritory#NS> <https://ontology.commonapproach.org/cids#hasIdentifier> "NS" .
+<https://codelist.commonapproach.org/codeLists/ProvinceTerritory#NS> <http://www.w3.org/ns/prov#hadPrimarySource> <https://www12.statcan.gc.ca/census-recensement/2021/ref/dict/tab/index-eng.cfm?ID=t1_8> .
+<https://codelist.commonapproach.org/codeLists/ProvinceTerritory#NT> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#Locality> .
+<https://codelist.commonapproach.org/codeLists/ProvinceTerritory#NT> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#CODE> .
+<https://codelist.commonapproach.org/codeLists/ProvinceTerritory#NT> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://codelist.commonapproach.org/codeLists/ProvinceTerritory#NT> <http://www.w3.org/2004/02/skos/core#inScheme> <https://codelist.commonapproach.org/codeLists/ProvinceTerritory#dataset> .
+<https://codelist.commonapproach.org/codeLists/ProvinceTerritory#NT> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://codelist.commonapproach.org/codeLists/ProvinceTerritory#> .
+<https://codelist.commonapproach.org/codeLists/ProvinceTerritory#NT> <https://ontology.commonapproach.org/cids#hasName> "Northwest Territories"@en .
+<https://codelist.commonapproach.org/codeLists/ProvinceTerritory#NT> <http://www.w3.org/2000/01/rdf-schema#label> "Northwest Territories"@en .
+<https://codelist.commonapproach.org/codeLists/ProvinceTerritory#NT> <https://ontology.commonapproach.org/cids#definedBy> <https://ontology.commonapproach.org/cids#statsCan> .
+<https://codelist.commonapproach.org/codeLists/ProvinceTerritory#NT> <https://ontology.commonapproach.org/cids#hasIdentifier> "NT" .
+<https://codelist.commonapproach.org/codeLists/ProvinceTerritory#NT> <http://www.w3.org/ns/prov#hadPrimarySource> <https://www12.statcan.gc.ca/census-recensement/2021/ref/dict/tab/index-eng.cfm?ID=t1_8> .
+<https://codelist.commonapproach.org/codeLists/ProvinceTerritory#NU> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#Locality> .
+<https://codelist.commonapproach.org/codeLists/ProvinceTerritory#NU> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#CODE> .
+<https://codelist.commonapproach.org/codeLists/ProvinceTerritory#NU> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://codelist.commonapproach.org/codeLists/ProvinceTerritory#NU> <http://www.w3.org/2004/02/skos/core#inScheme> <https://codelist.commonapproach.org/codeLists/ProvinceTerritory#dataset> .
+<https://codelist.commonapproach.org/codeLists/ProvinceTerritory#NU> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://codelist.commonapproach.org/codeLists/ProvinceTerritory#> .
+<https://codelist.commonapproach.org/codeLists/ProvinceTerritory#NU> <https://ontology.commonapproach.org/cids#hasName> "Nunavut"@en .
+<https://codelist.commonapproach.org/codeLists/ProvinceTerritory#NU> <http://www.w3.org/2000/01/rdf-schema#label> "Nunavut"@en .
+<https://codelist.commonapproach.org/codeLists/ProvinceTerritory#NU> <https://ontology.commonapproach.org/cids#definedBy> <https://ontology.commonapproach.org/cids#statsCan> .
+<https://codelist.commonapproach.org/codeLists/ProvinceTerritory#NU> <https://ontology.commonapproach.org/cids#hasIdentifier> "NU" .
+<https://codelist.commonapproach.org/codeLists/ProvinceTerritory#NU> <http://www.w3.org/ns/prov#hadPrimarySource> <https://www12.statcan.gc.ca/census-recensement/2021/ref/dict/tab/index-eng.cfm?ID=t1_8> .
+<https://codelist.commonapproach.org/codeLists/ProvinceTerritory#ON> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#Locality> .
+<https://codelist.commonapproach.org/codeLists/ProvinceTerritory#ON> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#CODE> .
+<https://codelist.commonapproach.org/codeLists/ProvinceTerritory#ON> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://codelist.commonapproach.org/codeLists/ProvinceTerritory#ON> <http://www.w3.org/2004/02/skos/core#inScheme> <https://codelist.commonapproach.org/codeLists/ProvinceTerritory#dataset> .
+<https://codelist.commonapproach.org/codeLists/ProvinceTerritory#ON> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://codelist.commonapproach.org/codeLists/ProvinceTerritory#> .
+<https://codelist.commonapproach.org/codeLists/ProvinceTerritory#ON> <https://ontology.commonapproach.org/cids#hasName> "Ontario"@en .
+<https://codelist.commonapproach.org/codeLists/ProvinceTerritory#ON> <http://www.w3.org/2000/01/rdf-schema#label> "Ontario"@en .
+<https://codelist.commonapproach.org/codeLists/ProvinceTerritory#ON> <https://ontology.commonapproach.org/cids#definedBy> <https://ontology.commonapproach.org/cids#statsCan> .
+<https://codelist.commonapproach.org/codeLists/ProvinceTerritory#ON> <https://ontology.commonapproach.org/cids#hasIdentifier> "ON" .
+<https://codelist.commonapproach.org/codeLists/ProvinceTerritory#ON> <http://www.w3.org/ns/prov#hadPrimarySource> <https://www12.statcan.gc.ca/census-recensement/2021/ref/dict/tab/index-eng.cfm?ID=t1_8> .
+<https://codelist.commonapproach.org/codeLists/ProvinceTerritory#PE> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#Locality> .
+<https://codelist.commonapproach.org/codeLists/ProvinceTerritory#PE> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#CODE> .
+<https://codelist.commonapproach.org/codeLists/ProvinceTerritory#PE> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://codelist.commonapproach.org/codeLists/ProvinceTerritory#PE> <http://www.w3.org/2004/02/skos/core#inScheme> <https://codelist.commonapproach.org/codeLists/ProvinceTerritory#dataset> .
+<https://codelist.commonapproach.org/codeLists/ProvinceTerritory#PE> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://codelist.commonapproach.org/codeLists/ProvinceTerritory#> .
+<https://codelist.commonapproach.org/codeLists/ProvinceTerritory#PE> <https://ontology.commonapproach.org/cids#hasName> "Prince Edward Island"@en .
+<https://codelist.commonapproach.org/codeLists/ProvinceTerritory#PE> <http://www.w3.org/2000/01/rdf-schema#label> "Prince Edward Island"@en .
+<https://codelist.commonapproach.org/codeLists/ProvinceTerritory#PE> <https://ontology.commonapproach.org/cids#definedBy> <https://ontology.commonapproach.org/cids#statsCan> .
+<https://codelist.commonapproach.org/codeLists/ProvinceTerritory#PE> <https://ontology.commonapproach.org/cids#hasIdentifier> "PE" .
+<https://codelist.commonapproach.org/codeLists/ProvinceTerritory#PE> <http://www.w3.org/ns/prov#hadPrimarySource> <https://www12.statcan.gc.ca/census-recensement/2021/ref/dict/tab/index-eng.cfm?ID=t1_8> .
+<https://codelist.commonapproach.org/codeLists/ProvinceTerritory#QC> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#Locality> .
+<https://codelist.commonapproach.org/codeLists/ProvinceTerritory#QC> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#CODE> .
+<https://codelist.commonapproach.org/codeLists/ProvinceTerritory#QC> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://codelist.commonapproach.org/codeLists/ProvinceTerritory#QC> <http://www.w3.org/2004/02/skos/core#inScheme> <https://codelist.commonapproach.org/codeLists/ProvinceTerritory#dataset> .
+<https://codelist.commonapproach.org/codeLists/ProvinceTerritory#QC> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://codelist.commonapproach.org/codeLists/ProvinceTerritory#> .
+<https://codelist.commonapproach.org/codeLists/ProvinceTerritory#QC> <https://ontology.commonapproach.org/cids#hasName> "Quebec"@en .
+<https://codelist.commonapproach.org/codeLists/ProvinceTerritory#QC> <http://www.w3.org/2000/01/rdf-schema#label> "Quebec"@en .
+<https://codelist.commonapproach.org/codeLists/ProvinceTerritory#QC> <https://ontology.commonapproach.org/cids#definedBy> <https://ontology.commonapproach.org/cids#statsCan> .
+<https://codelist.commonapproach.org/codeLists/ProvinceTerritory#QC> <https://ontology.commonapproach.org/cids#hasIdentifier> "QC" .
+<https://codelist.commonapproach.org/codeLists/ProvinceTerritory#QC> <http://www.w3.org/ns/prov#hadPrimarySource> <https://www12.statcan.gc.ca/census-recensement/2021/ref/dict/tab/index-eng.cfm?ID=t1_8> .
+<https://codelist.commonapproach.org/codeLists/ProvinceTerritory#SK> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#Locality> .
+<https://codelist.commonapproach.org/codeLists/ProvinceTerritory#SK> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#CODE> .
+<https://codelist.commonapproach.org/codeLists/ProvinceTerritory#SK> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://codelist.commonapproach.org/codeLists/ProvinceTerritory#SK> <http://www.w3.org/2004/02/skos/core#inScheme> <https://codelist.commonapproach.org/codeLists/ProvinceTerritory#dataset> .
+<https://codelist.commonapproach.org/codeLists/ProvinceTerritory#SK> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://codelist.commonapproach.org/codeLists/ProvinceTerritory#> .
+<https://codelist.commonapproach.org/codeLists/ProvinceTerritory#SK> <https://ontology.commonapproach.org/cids#hasName> "Saskatchewan"@en .
+<https://codelist.commonapproach.org/codeLists/ProvinceTerritory#SK> <http://www.w3.org/2000/01/rdf-schema#label> "Saskatchewan"@en .
+<https://codelist.commonapproach.org/codeLists/ProvinceTerritory#SK> <https://ontology.commonapproach.org/cids#definedBy> <https://ontology.commonapproach.org/cids#statsCan> .
+<https://codelist.commonapproach.org/codeLists/ProvinceTerritory#SK> <https://ontology.commonapproach.org/cids#hasIdentifier> "SK" .
+<https://codelist.commonapproach.org/codeLists/ProvinceTerritory#SK> <http://www.w3.org/ns/prov#hadPrimarySource> <https://www12.statcan.gc.ca/census-recensement/2021/ref/dict/tab/index-eng.cfm?ID=t1_8> .
+<https://codelist.commonapproach.org/codeLists/ProvinceTerritory#YT> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#Locality> .
+<https://codelist.commonapproach.org/codeLists/ProvinceTerritory#YT> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#CODE> .
+<https://codelist.commonapproach.org/codeLists/ProvinceTerritory#YT> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://codelist.commonapproach.org/codeLists/ProvinceTerritory#YT> <http://www.w3.org/2004/02/skos/core#inScheme> <https://codelist.commonapproach.org/codeLists/ProvinceTerritory#dataset> .
+<https://codelist.commonapproach.org/codeLists/ProvinceTerritory#YT> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://codelist.commonapproach.org/codeLists/ProvinceTerritory#> .
+<https://codelist.commonapproach.org/codeLists/ProvinceTerritory#YT> <https://ontology.commonapproach.org/cids#hasName> "Yukon"@en .
+<https://codelist.commonapproach.org/codeLists/ProvinceTerritory#YT> <http://www.w3.org/2000/01/rdf-schema#label> "Yukon"@en .
+<https://codelist.commonapproach.org/codeLists/ProvinceTerritory#YT> <https://ontology.commonapproach.org/cids#definedBy> <https://ontology.commonapproach.org/cids#statsCan> .
+<https://codelist.commonapproach.org/codeLists/ProvinceTerritory#YT> <https://ontology.commonapproach.org/cids#hasIdentifier> "YT" .
+<https://codelist.commonapproach.org/codeLists/ProvinceTerritory#YT> <http://www.w3.org/ns/prov#hadPrimarySource> <https://www12.statcan.gc.ca/census-recensement/2021/ref/dict/tab/index-eng.cfm?ID=t1_8> .
+<https://codelist.commonapproach.org/codeLists/ProvinceTerritory#CAN> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#Locality> .
+<https://codelist.commonapproach.org/codeLists/ProvinceTerritory#CAN> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#CODE> .
+<https://codelist.commonapproach.org/codeLists/ProvinceTerritory#CAN> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://codelist.commonapproach.org/codeLists/ProvinceTerritory#CAN> <http://www.w3.org/2004/02/skos/core#inScheme> <https://codelist.commonapproach.org/codeLists/ProvinceTerritory#dataset> .
+<https://codelist.commonapproach.org/codeLists/ProvinceTerritory#CAN> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://codelist.commonapproach.org/codeLists/ProvinceTerritory#> .
+<https://codelist.commonapproach.org/codeLists/ProvinceTerritory#CAN> <https://ontology.commonapproach.org/cids#hasName> "All of Canada"@en .
+<https://codelist.commonapproach.org/codeLists/ProvinceTerritory#CAN> <http://www.w3.org/2000/01/rdf-schema#label> "All of CanadaYukon"@en .
+<https://codelist.commonapproach.org/codeLists/ProvinceTerritory#CAN> <https://ontology.commonapproach.org/cids#definedBy> <https://ontology.commonapproach.org/cids#statsCan> .
+<https://codelist.commonapproach.org/codeLists/ProvinceTerritory#CAN> <https://ontology.commonapproach.org/cids#hasIdentifier> "CAN" .
+<https://codelist.commonapproach.org/codeLists/ProvinceTerritory#CAN> <http://www.w3.org/ns/prov#hadPrimarySource> <https://www12.statcan.gc.ca/census-recensement/2021/ref/dict/tab/index-eng.cfm?ID=t1_8> .

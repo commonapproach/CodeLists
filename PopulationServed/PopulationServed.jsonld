@@ -1,0 +1,1485 @@
+[
+  {
+    "@id": "https://codelist.commonapproach.org/codeLists/PopulationServed#ps8",
+    "@type": [
+      "https://ontology.commonapproach.org/cids#PopulationServed",
+      "https://ontology.commonapproach.org/cids#CODE",
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "https://codelist.commonapproach.org/codeLists/PopulationServed#"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "Indigenous Peoples: Métis"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "In Canada, Indigenous People whose members are of mixed First Nations and European ancestry, are united by a common origin, history and culture, and are generally accepted by the Métis Nation."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://codelist.commonapproach.org/codeLists/PopulationServed#dataset"
+      }
+    ],
+    "http://www.w3.org/ns/prov#hadPrimarySource": [
+      {
+        "@id": "https://www.noslangues-ourlanguages.gc.ca/en/publications/equite-diversite-inclusion-equity-diversity-inclusion-eng#notion-69399"
+      }
+    ],
+    "https://ontology.commonapproach.org/cids#definedBy": [
+      {
+        "@id": "https://ontology.commonapproach.org/cids#ac"
+      }
+    ],
+    "https://ontology.commonapproach.org/cids#hasDefinition": [
+      {
+        "@language": "en",
+        "@value": "In Canada, Indigenous People whose members are of mixed First Nations and European ancestry, are united by a common origin, history and culture, and are generally accepted by the Métis Nation."
+      }
+    ],
+    "https://ontology.commonapproach.org/cids#hasIdentifier": [
+      {
+        "@value": "ps8"
+      }
+    ],
+    "https://ontology.commonapproach.org/cids#hasName": [
+      {
+        "@language": "en",
+        "@value": "Indigenous Peoples: Métis"
+      }
+    ]
+  },
+
+  {
+    "@id": "https://codelist.commonapproach.org/codeLists/PopulationServed#ps26",
+    "@type": [
+      "https://ontology.commonapproach.org/cids#PopulationServed",
+      "https://ontology.commonapproach.org/cids#CODE",
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "https://codelist.commonapproach.org/codeLists/PopulationServed#"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "Indigenous Peoples: Not Otherwise Specified"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "In Canada, individuals who self-identify as Indigenous (First Nations, Inuit, or Métis) but do not specify their group affiliation, are unsure of their specific ancestry, or identify with another Indigenous community not listed separately."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://codelist.commonapproach.org/codeLists/PopulationServed#dataset"
+      }
+    ],
+    "http://www.w3.org/ns/prov#hadPrimarySource": [
+      {
+        "@id": "https://www.noslangues-ourlanguages.gc.ca/en/publications/equite-diversite-inclusion-equity-diversity-inclusion-eng#notion-69399"
+      }
+    ],
+    "https://ontology.commonapproach.org/cids#definedBy": [
+      {
+        "@id": "https://ontology.commonapproach.org/cids#ac"
+      }
+    ],
+    "https://ontology.commonapproach.org/cids#hasDefinition": [
+      {
+        "@language": "en",
+        "@value": "In Canada, individuals who self-identify as Indigenous (First Nations, Inuit, or Métis) but do not specify their group affiliation, are unsure of their specific ancestry, or identify with another Indigenous community not listed separately."
+      }
+    ],
+    "https://ontology.commonapproach.org/cids#hasIdentifier": [
+      {
+        "@value": "ps26"
+      }
+    ],
+    "https://ontology.commonapproach.org/cids#hasName": [
+      {
+        "@language": "en",
+        "@value": "Indigenous Peoples: Not Otherwise Specified"
+      }
+    ]
+  },
+
+  {
+    "@id": "https://codelist.commonapproach.org/codeLists/PopulationServed#ps16",
+    "@type": [
+      "https://ontology.commonapproach.org/cids#PopulationServed",
+      "https://ontology.commonapproach.org/cids#CODE",
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "https://codelist.commonapproach.org/codeLists/PopulationServed#"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "People Living with Cognitive or Mental Health Related Issues"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "People living with disabilities, impairments, and/or functional limitations related to cognitive, learning, communication or mental health related issues, whether apparent or not, and permanent, temporary or episodic in nature, that hinders their full and equal participation in society when they face a barrier."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://codelist.commonapproach.org/codeLists/PopulationServed#dataset"
+      }
+    ],
+    "http://www.w3.org/ns/prov#hadPrimarySource": [
+      {
+        "@id": "https://laws-lois.justice.gc.ca/eng/acts/A-0.6/"
+      }
+    ],
+    "https://ontology.commonapproach.org/cids#definedBy": [
+      {
+        "@id": "https://ontology.commonapproach.org/cids#ac"
+      }
+    ],
+    "https://ontology.commonapproach.org/cids#hasDefinition": [
+      {
+        "@language": "en",
+        "@value": "People living with disabilities, impairments, and/or functional limitations related to cognitive, learning, communication or mental health related issues, whether apparent or not, and permanent, temporary or episodic in nature, that hinders their full and equal participation in society when they face a barrier."
+      }
+    ],
+    "https://ontology.commonapproach.org/cids#hasIdentifier": [
+      {
+        "@value": "ps16"
+      }
+    ],
+    "https://ontology.commonapproach.org/cids#hasName": [
+      {
+        "@language": "en",
+        "@value": "People Living with Cognitive or Mental Health Related Issues"
+      }
+    ]
+  },
+  {
+    "@id": "https://codelist.commonapproach.org/codeLists/PopulationServed#ps17",
+    "@type": [
+      "https://ontology.commonapproach.org/cids#PopulationServed",
+      "https://ontology.commonapproach.org/cids#CODE",
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "https://codelist.commonapproach.org/codeLists/PopulationServed#"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "People Living with Physical,Sensory or Pain Related Disabilities"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "People living with disabilities, impairments, and/or functional limitations related to physical, sensory, or pain, whether apparent or not, and permanent, temporary or episodic in nature, that hinders their full and equal participation in society when they face a barrier."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://codelist.commonapproach.org/codeLists/PopulationServed#dataset"
+      }
+    ],
+    "http://www.w3.org/ns/prov#hadPrimarySource": [
+      {
+        "@id": "https://laws-lois.justice.gc.ca/eng/acts/A-0.6/"
+      }
+    ],
+    "https://ontology.commonapproach.org/cids#definedBy": [
+      {
+        "@id": "https://ontology.commonapproach.org/cids#ac"
+      }
+    ],
+    "https://ontology.commonapproach.org/cids#hasDefinition": [
+      {
+        "@language": "en",
+        "@value": "People living with disabilities, impairments, and/or functional limitations related to physical, sensory, or pain, whether apparent or not, and permanent, temporary or episodic in nature, that hinders their full and equal participation in society when they face a barrier."
+      }
+    ],
+    "https://ontology.commonapproach.org/cids#hasIdentifier": [
+      {
+        "@value": "ps17"
+      }
+    ],
+    "https://ontology.commonapproach.org/cids#hasName": [
+      {
+        "@language": "en",
+        "@value": "People Living with Physical,Sensory or Pain Related Disabilities"
+      }
+    ]
+  },
+  {
+    "@id": "https://codelist.commonapproach.org/codeLists/PopulationServed#ps23",
+    "@type": [
+      "https://ontology.commonapproach.org/cids#PopulationServed",
+      "https://ontology.commonapproach.org/cids#CODE",
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "https://codelist.commonapproach.org/codeLists/PopulationServed#"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "Children (Ages 0-15)"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "Any person aged 0-15."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://codelist.commonapproach.org/codeLists/PopulationServed#dataset"
+      }
+    ],
+    "https://ontology.commonapproach.org/cids#definedBy": [
+      {
+        "@id": "https://ontology.commonapproach.org/cids#ac"
+      }
+    ],
+    "https://ontology.commonapproach.org/cids#hasDefinition": [
+      {
+        "@language": "en",
+        "@value": "Any person aged 0-15."
+      }
+    ],
+    "https://ontology.commonapproach.org/cids#hasIdentifier": [
+      {
+        "@value": "ps23"
+      }
+    ],
+    "https://ontology.commonapproach.org/cids#hasName": [
+      {
+        "@language": "en",
+        "@value": "Children (Ages 0-15)"
+      }
+    ]
+  },
+  {
+    "@id": "https://codelist.commonapproach.org/codeLists/PopulationServed#ps25",
+    "@type": [
+      "https://ontology.commonapproach.org/cids#PopulationServed",
+      "https://ontology.commonapproach.org/cids#CODE",
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "https://codelist.commonapproach.org/codeLists/PopulationServed#"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "General Population"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://codelist.commonapproach.org/codeLists/PopulationServed#dataset"
+      }
+    ],
+    "https://ontology.commonapproach.org/cids#definedBy": [
+      {
+        "@id": "https://ontology.commonapproach.org/cids#ac"
+      }
+    ],
+    "https://ontology.commonapproach.org/cids#hasIdentifier": [
+      {
+        "@value": "ps25"
+      }
+    ],
+    "https://ontology.commonapproach.org/cids#hasName": [
+      {
+        "@language": "en",
+        "@value": "General Population"
+      }
+    ]
+  },
+  {
+    "@id": "https://codelist.commonapproach.org/codeLists/PopulationServed#ps9",
+    "@type": [
+      "https://ontology.commonapproach.org/cids#PopulationServed",
+      "https://ontology.commonapproach.org/cids#CODE",
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "https://codelist.commonapproach.org/codeLists/PopulationServed#"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "Other Racialized Peoples"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "People other than Indigenous peoples or Black Canadians who are non-Caucasian in race or non-white in colour (refer to the Statistics Canada definition for “visible minorities”)."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://codelist.commonapproach.org/codeLists/PopulationServed#dataset"
+      }
+    ],
+    "https://ontology.commonapproach.org/cids#definedBy": [
+      {
+        "@id": "https://ontology.commonapproach.org/cids#ac"
+      }
+    ],
+    "https://ontology.commonapproach.org/cids#hasDefinition": [
+      {
+        "@language": "en",
+        "@value": "People other than Indigenous peoples or Black Canadians who are non-Caucasian in race or non-white in colour (refer to the Statistics Canada definition for “visible minorities”)."
+      }
+    ],
+    "https://ontology.commonapproach.org/cids#hasIdentifier": [
+      {
+        "@value": "ps9"
+      }
+    ],
+    "https://ontology.commonapproach.org/cids#hasName": [
+      {
+        "@language": "en",
+        "@value": "Other Racialized Peoples"
+      }
+    ]
+  },
+  {
+    "@id": "https://codelist.commonapproach.org/codeLists/PopulationServed#ps21",
+    "@type": [
+      "https://ontology.commonapproach.org/cids#PopulationServed",
+      "https://ontology.commonapproach.org/cids#CODE",
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "https://codelist.commonapproach.org/codeLists/PopulationServed#"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "Survivors of Domestic Violence, Sexual assault, Abuse or Stalking"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "People who identify as being survivors of domestic violence, including intimate partner violence, sexual assault, stalking and/or harassment."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://codelist.commonapproach.org/codeLists/PopulationServed#dataset"
+      }
+    ],
+    "https://ontology.commonapproach.org/cids#definedBy": [
+      {
+        "@id": "https://ontology.commonapproach.org/cids#ac"
+      }
+    ],
+    "https://ontology.commonapproach.org/cids#hasDefinition": [
+      {
+        "@language": "en",
+        "@value": "People who identify as being survivors of domestic violence, including intimate partner violence, sexual assault, stalking and/or harassment."
+      }
+    ],
+    "https://ontology.commonapproach.org/cids#hasIdentifier": [
+      {
+        "@value": "ps21"
+      }
+    ],
+    "https://ontology.commonapproach.org/cids#hasName": [
+      {
+        "@language": "en",
+        "@value": "Survivors of Domestic Violence, Sexual assault, Abuse or Stalking"
+      }
+    ]
+  },
+  {
+    "@id": "https://codelist.commonapproach.org/codeLists/PopulationServed#ps7",
+    "@type": [
+      "https://ontology.commonapproach.org/cids#PopulationServed",
+      "https://ontology.commonapproach.org/cids#CODE",
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "https://codelist.commonapproach.org/codeLists/PopulationServed#"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "Indigenous Peoples: Inuit"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "In Canada, Indigenous People that inhabit or that traditionally inhabited the northern regions and Arctic coasts of Canada known as Inuit Nunangat, and whose members are united by a common origin, history and culture."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://codelist.commonapproach.org/codeLists/PopulationServed#dataset"
+      }
+    ],
+    "http://www.w3.org/ns/prov#hadPrimarySource": [
+      {
+        "@id": "https://www.noslangues-ourlanguages.gc.ca/en/publications/equite-diversite-inclusion-equity-diversity-inclusion-eng#notion-69399"
+      }
+    ],
+    "https://ontology.commonapproach.org/cids#definedBy": [
+      {
+        "@id": "https://ontology.commonapproach.org/cids#ac"
+      }
+    ],
+    "https://ontology.commonapproach.org/cids#hasDefinition": [
+      {
+        "@language": "en",
+        "@value": "In Canada, Indigenous People that inhabit or that traditionally inhabited the northern regions and Arctic coasts of Canada known as Inuit Nunangat, and whose members are united by a common origin, history and culture."
+      }
+    ],
+    "https://ontology.commonapproach.org/cids#hasIdentifier": [
+      {
+        "@value": "ps7"
+      }
+    ],
+    "https://ontology.commonapproach.org/cids#hasName": [
+      {
+        "@language": "en",
+        "@value": "Indigenous Peoples: Inuit"
+      }
+    ]
+  },
+  {
+    "@id": "https://codelist.commonapproach.org/codeLists/PopulationServed#ps19",
+    "@type": [
+      "https://ontology.commonapproach.org/cids#PopulationServed",
+      "https://ontology.commonapproach.org/cids#CODE",
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "https://codelist.commonapproach.org/codeLists/PopulationServed#"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "People of Advanced Age (65+)"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "People who are 65 and older."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://codelist.commonapproach.org/codeLists/PopulationServed#dataset"
+      }
+    ],
+    "https://ontology.commonapproach.org/cids#definedBy": [
+      {
+        "@id": "https://ontology.commonapproach.org/cids#ac"
+      }
+    ],
+    "https://ontology.commonapproach.org/cids#hasDefinition": [
+      {
+        "@language": "en",
+        "@value": "People who are 65 and older."
+      }
+    ],
+    "https://ontology.commonapproach.org/cids#hasIdentifier": [
+      {
+        "@value": "ps19"
+      }
+    ],
+    "https://ontology.commonapproach.org/cids#hasName": [
+      {
+        "@language": "en",
+        "@value": "People of Advanced Age (65+)"
+      }
+    ]
+  },
+  {
+    "@id": "https://codelist.commonapproach.org/codeLists/PopulationServed#ps24",
+    "@type": [
+      "https://ontology.commonapproach.org/cids#PopulationServed",
+      "https://ontology.commonapproach.org/cids#CODE",
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "https://codelist.commonapproach.org/codeLists/PopulationServed#"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "Youth (Ages 15-24)"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "Any person aged 15-24."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://codelist.commonapproach.org/codeLists/PopulationServed#dataset"
+      }
+    ],
+    "https://ontology.commonapproach.org/cids#definedBy": [
+      {
+        "@id": "https://ontology.commonapproach.org/cids#ac"
+      }
+    ],
+    "https://ontology.commonapproach.org/cids#hasDefinition": [
+      {
+        "@language": "en",
+        "@value": "Any person aged 15-24."
+      }
+    ],
+    "https://ontology.commonapproach.org/cids#hasIdentifier": [
+      {
+        "@value": "ps24"
+      }
+    ],
+    "https://ontology.commonapproach.org/cids#hasName": [
+      {
+        "@language": "en",
+        "@value": "Youth (Ages 15-24)"
+      }
+    ]
+  },
+  {
+    "@id": "https://codelist.commonapproach.org/codeLists/PopulationServed#ps1",
+    "@type": [
+      "https://ontology.commonapproach.org/cids#PopulationServed",
+      "https://ontology.commonapproach.org/cids#CODE",
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "https://codelist.commonapproach.org/codeLists/PopulationServed#"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "2SLGBTQIA+"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "People who identify as being two-spirit, lesbian, gay, bisexual, transgender, queer, intersex, asexual and others (“+”)."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://codelist.commonapproach.org/codeLists/PopulationServed#dataset"
+      }
+    ],
+    "http://www.w3.org/ns/prov#hadPrimarySource": [
+      {
+        "@id": "https://www.canada.ca/en/women-gender-equality/free-to-be-me/2slgbtqi-plus-glossary.html"
+      }
+    ],
+    "https://ontology.commonapproach.org/cids#definedBy": [
+      {
+        "@id": "https://ontology.commonapproach.org/cids#ac"
+      }
+    ],
+    "https://ontology.commonapproach.org/cids#hasDefinition": [
+      {
+        "@language": "en",
+        "@value": "People who identify as being two-spirit, lesbian, gay, bisexual, transgender, queer, intersex, asexual and others (“+”)."
+      }
+    ],
+    "https://ontology.commonapproach.org/cids#hasIdentifier": [
+      {
+        "@value": "ps1"
+      }
+    ],
+    "https://ontology.commonapproach.org/cids#hasName": [
+      {
+        "@language": "en",
+        "@value": "2SLGBTQIA+"
+      }
+    ]
+  },
+  {
+    "@id": "https://codelist.commonapproach.org/codeLists/PopulationServed#ps6",
+    "@type": [
+      "https://ontology.commonapproach.org/cids#PopulationServed",
+      "https://ontology.commonapproach.org/cids#CODE",
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "https://codelist.commonapproach.org/codeLists/PopulationServed#"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "Indigenous Peoples: First Nations"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "In Canada, Indigenous people who are part of a First Nation or whose ancestors were part of a First Nation. A First Nation person can be a Status or Non-Status Indian."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://codelist.commonapproach.org/codeLists/PopulationServed#dataset"
+      }
+    ],
+    "http://www.w3.org/ns/prov#hadPrimarySource": [
+      {
+        "@id": "https://www.noslangues-ourlanguages.gc.ca/en/publications/equite-diversite-inclusion-equity-diversity-inclusion-eng#notion-69399"
+      }
+    ],
+    "https://ontology.commonapproach.org/cids#definedBy": [
+      {
+        "@id": "https://ontology.commonapproach.org/cids#ac"
+      }
+    ],
+    "https://ontology.commonapproach.org/cids#hasDefinition": [
+      {
+        "@language": "en",
+        "@value": "In Canada, Indigenous people who are part of a First Nation or whose ancestors were part of a First Nation. A First Nation person can be a Status or Non-Status Indian."
+      }
+    ],
+    "https://ontology.commonapproach.org/cids#hasIdentifier": [
+      {
+        "@value": "ps6"
+      }
+    ],
+    "https://ontology.commonapproach.org/cids#hasName": [
+      {
+        "@language": "en",
+        "@value": "Indigenous Peoples: First Nations"
+      }
+    ]
+  },
+  {
+    "@id": "https://codelist.commonapproach.org/codeLists/PopulationServed#ps12",
+    "@type": [
+      "https://ontology.commonapproach.org/cids#PopulationServed",
+      "https://ontology.commonapproach.org/cids#CODE",
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "https://codelist.commonapproach.org/codeLists/PopulationServed#"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "Northern Canadian Communities"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "Communities located, and people living, in Northern Canada, which is defined as: The three Canadian territories (Yukon, Northwest Territories, and Nunavut), and the northern extent of Newfoundland and Labrador, Quebec, Ontario, Manitoba, Saskatchewan, Alberta and British Columbia. North is based on provincially determined definitions that generally reflect administrative regions."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://codelist.commonapproach.org/codeLists/PopulationServed#dataset"
+      }
+    ],
+    "https://ontology.commonapproach.org/cids#definedBy": [
+      {
+        "@id": "https://ontology.commonapproach.org/cids#ac"
+      }
+    ],
+    "https://ontology.commonapproach.org/cids#hasDefinition": [
+      {
+        "@language": "en",
+        "@value": "Communities located, and people living, in Northern Canada, which is defined as: The three Canadian territories (Yukon, Northwest Territories, and Nunavut), and the northern extent of Newfoundland and Labrador, Quebec, Ontario, Manitoba, Saskatchewan, Alberta and British Columbia. North is based on provincially determined definitions that generally reflect administrative regions."
+      }
+    ],
+    "https://ontology.commonapproach.org/cids#hasIdentifier": [
+      {
+        "@value": "ps12"
+      }
+    ],
+    "https://ontology.commonapproach.org/cids#hasName": [
+      {
+        "@language": "en",
+        "@value": "Northern Canadian Communities"
+      }
+    ]
+  },
+  {
+    "@id": "https://codelist.commonapproach.org/codeLists/PopulationServed#ps20",
+    "@type": [
+      "https://ontology.commonapproach.org/cids#PopulationServed",
+      "https://ontology.commonapproach.org/cids#CODE",
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "https://codelist.commonapproach.org/codeLists/PopulationServed#"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "People without Advanced Educational Qualification"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "People that have not completed any university, college or other post-secondary qualification."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://codelist.commonapproach.org/codeLists/PopulationServed#dataset"
+      }
+    ],
+    "https://ontology.commonapproach.org/cids#definedBy": [
+      {
+        "@id": "https://ontology.commonapproach.org/cids#ac"
+      }
+    ],
+    "https://ontology.commonapproach.org/cids#hasDefinition": [
+      {
+        "@language": "en",
+        "@value": "People that have not completed any university, college or other post-secondary qualification."
+      }
+    ],
+    "https://ontology.commonapproach.org/cids#hasIdentifier": [
+      {
+        "@value": "ps20"
+      }
+    ],
+    "https://ontology.commonapproach.org/cids#hasName": [
+      {
+        "@language": "en",
+        "@value": "People without Advanced Educational Qualification"
+      }
+    ]
+  },
+  {
+    "@id": "https://codelist.commonapproach.org/codeLists/PopulationServed#ps2",
+    "@type": [
+      "https://ontology.commonapproach.org/cids#PopulationServed",
+      "https://ontology.commonapproach.org/cids#CODE",
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "https://codelist.commonapproach.org/codeLists/PopulationServed#"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "Gender Diverse People: Agender"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "People who do not identify as, or with, any particular gender."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://codelist.commonapproach.org/codeLists/PopulationServed#dataset"
+      }
+    ],
+    "http://www.w3.org/ns/prov#hadPrimarySource": [
+      {
+        "@id": "https://dictionary.cambridge.org/dictionary/english/agender"
+      }
+    ],
+    "https://ontology.commonapproach.org/cids#definedBy": [
+      {
+        "@id": "https://ontology.commonapproach.org/cids#ac"
+      }
+    ],
+    "https://ontology.commonapproach.org/cids#hasDefinition": [
+      {
+        "@language": "en",
+        "@value": "People who do not identify as, or with, any particular gender."
+      }
+    ],
+    "https://ontology.commonapproach.org/cids#hasIdentifier": [
+      {
+        "@value": "ps2"
+      }
+    ],
+    "https://ontology.commonapproach.org/cids#hasName": [
+      {
+        "@language": "en",
+        "@value": "Gender Diverse People: Agender"
+      }
+    ]
+  },
+  {
+    "@id": "https://codelist.commonapproach.org/codeLists/PopulationServed#ps22",
+    "@type": [
+      "https://ontology.commonapproach.org/cids#PopulationServed",
+      "https://ontology.commonapproach.org/cids#CODE",
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "https://codelist.commonapproach.org/codeLists/PopulationServed#"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "Women"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "All people who identify as women, whether they are cisgender or transgender women."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://codelist.commonapproach.org/codeLists/PopulationServed#dataset"
+      }
+    ],
+    "https://ontology.commonapproach.org/cids#definedBy": [
+      {
+        "@id": "https://ontology.commonapproach.org/cids#ac"
+      }
+    ],
+    "https://ontology.commonapproach.org/cids#hasDefinition": [
+      {
+        "@language": "en",
+        "@value": "All people who identify as women, whether they are cisgender or transgender women."
+      }
+    ],
+    "https://ontology.commonapproach.org/cids#hasIdentifier": [
+      {
+        "@value": "ps22"
+      }
+    ],
+    "https://ontology.commonapproach.org/cids#hasName": [
+      {
+        "@language": "en",
+        "@value": "Women"
+      }
+    ]
+  },
+  {
+    "@id": "https://codelist.commonapproach.org/codeLists/PopulationServed#ps11",
+    "@type": [
+      "https://ontology.commonapproach.org/cids#PopulationServed",
+      "https://ontology.commonapproach.org/cids#CODE",
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "https://codelist.commonapproach.org/codeLists/PopulationServed#"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "Lone Parent Families"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "Families or homes where there is one parent present or living there. The lone, or single, parent can be any sex or gender, any ethnicity, and any sexuality. They do not have to be blood-related parents either to be classed as a parent."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://codelist.commonapproach.org/codeLists/PopulationServed#dataset"
+      }
+    ],
+    "https://ontology.commonapproach.org/cids#definedBy": [
+      {
+        "@id": "https://ontology.commonapproach.org/cids#ac"
+      }
+    ],
+    "https://ontology.commonapproach.org/cids#hasDefinition": [
+      {
+        "@language": "en",
+        "@value": "Families or homes where there is one parent present or living there. The lone, or single, parent can be any sex or gender, any ethnicity, and any sexuality. They do not have to be blood-related parents either to be classed as a parent."
+      }
+    ],
+    "https://ontology.commonapproach.org/cids#hasIdentifier": [
+      {
+        "@value": "ps11"
+      }
+    ],
+    "https://ontology.commonapproach.org/cids#hasName": [
+      {
+        "@language": "en",
+        "@value": "Lone Parent Families"
+      }
+    ]
+  },
+  {
+    "@id": "https://codelist.commonapproach.org/codeLists/PopulationServed#ps5",
+    "@type": [
+      "https://ontology.commonapproach.org/cids#PopulationServed",
+      "https://ontology.commonapproach.org/cids#CODE",
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "https://codelist.commonapproach.org/codeLists/PopulationServed#"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "Black People"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "People belonging to any of various population groups of especially African ancestry often considered as having dark pigmentation of the skin but in fact having a wide range of skin colours."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://codelist.commonapproach.org/codeLists/PopulationServed#dataset"
+      }
+    ],
+    "http://www.w3.org/ns/prov#hadPrimarySource": [
+      {
+        "@id": "https://www.noslangues-ourlanguages.gc.ca/en/publications/equite-diversite-inclusion-equity-diversity-inclusion-eng#notion-69399"
+      }
+    ],
+    "https://ontology.commonapproach.org/cids#definedBy": [
+      {
+        "@id": "https://ontology.commonapproach.org/cids#ac"
+      }
+    ],
+    "https://ontology.commonapproach.org/cids#hasDefinition": [
+      {
+        "@language": "en",
+        "@value": "People belonging to any of various population groups of especially African ancestry often considered as having dark pigmentation of the skin but in fact having a wide range of skin colours."
+      }
+    ],
+    "https://ontology.commonapproach.org/cids#hasIdentifier": [
+      {
+        "@value": "ps5"
+      }
+    ],
+    "https://ontology.commonapproach.org/cids#hasName": [
+      {
+        "@language": "en",
+        "@value": "Black People"
+      }
+    ]
+  },
+  {
+    "@id": "https://codelist.commonapproach.org/codeLists/PopulationServed",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Ontology",
+      "http://purl.org/vocommons/voafVocabulary"
+    ],
+    "http://purl.org/dc/terms/creator": [
+      {
+        "@id": "https://ontology.commonapproach.org/cids#ac"
+      }
+    ],
+    "http://purl.org/dc/terms/date": [
+      {
+        "@value": "08-10-2024"
+      }
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@language": "en",
+        "@value": "A codelist vocabulary of Populations Served."
+      }
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@language": "en",
+        "@value": "Equity Deserving Groups"
+      }
+    ],
+    "http://purl.org/vocab/vann/preferredNamespacePrefix": [
+      {
+        "@value": "PopulationServed"
+      }
+    ],
+    "http://purl.org/vocab/vann/preferredNamespaceUri": [
+      {
+        "@id": "https://codelist.commonapproach.org/codeLists/PopulationServed#"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "Population Served Codelist"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#imports": [
+      {
+        "@id": "https://ontology.commonapproach.org/owl/cids"
+      },
+      {
+        "@id": "http://www.w3.org/2006/time"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#versionInfo": [
+      {
+        "@value": "1.0"
+      }
+    ],
+    "http://xmlns.com/foaf/0.1/name": [
+      {
+        "@language": "en",
+        "@value": "Population Served Codelist"
+      }
+    ],
+    "https://ontology.commonapproach.org/cids#hasName": [
+      {
+        "@language": "en",
+        "@value": "Population Served Codelist"
+      }
+    ]
+  },
+  {
+    "@id": "https://codelist.commonapproach.org/codeLists/PopulationServed#ps15",
+    "@type": [
+      "https://ontology.commonapproach.org/cids#PopulationServed",
+      "https://ontology.commonapproach.org/cids#CODE",
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "https://codelist.commonapproach.org/codeLists/PopulationServed#"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "People Living on Low Income"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "People living on low income as defined by any of several relative indicators/thresholds used by the Government of Canada to measure low income: low income cut-offs (LICOs), market basket measure (MBM), and/or low income measure (LIM)."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://codelist.commonapproach.org/codeLists/PopulationServed#dataset"
+      }
+    ],
+    "http://www.w3.org/ns/prov#hadPrimarySource": [
+      {
+        "@id": "https://www.canada.ca/en/employment-social-development/programs/poverty-reduction/backgrounder.html"
+      }
+    ],
+    "https://ontology.commonapproach.org/cids#definedBy": [
+      {
+        "@id": "https://ontology.commonapproach.org/cids#ac"
+      }
+    ],
+    "https://ontology.commonapproach.org/cids#hasDefinition": [
+      {
+        "@language": "en",
+        "@value": "People living on low income as defined by any of several relative indicators/thresholds used by the Government of Canada to measure low income: low income cut-offs (LICOs), market basket measure (MBM), and/or low income measure (LIM)."
+      }
+    ],
+    "https://ontology.commonapproach.org/cids#hasIdentifier": [
+      {
+        "@value": "ps15"
+      }
+    ],
+    "https://ontology.commonapproach.org/cids#hasName": [
+      {
+        "@language": "en",
+        "@value": "People Living on Low Income"
+      }
+    ]
+  },
+  {
+    "@id": "https://codelist.commonapproach.org/codeLists/PopulationServed#ps3",
+    "@type": [
+      "https://ontology.commonapproach.org/cids#PopulationServed",
+      "https://ontology.commonapproach.org/cids#CODE",
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "https://codelist.commonapproach.org/codeLists/PopulationServed#"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "Gender Diverse People: Non-Binary"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "People whose gender identity does not align with a binary understanding of gender such as man or woman. It is a gender identity which may include man and woman, androgynous, fluid, multiple, no gender, or a different gender outside of the “woman—man” spectrum."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://codelist.commonapproach.org/codeLists/PopulationServed#dataset"
+      }
+    ],
+    "http://www.w3.org/ns/prov#hadPrimarySource": [
+      {
+        "@id": "https://www.canada.ca/en/women-gender-equality/free-to-be-me/2slgbtqi-plus-glossary.html"
+      }
+    ],
+    "https://ontology.commonapproach.org/cids#definedBy": [
+      {
+        "@id": "https://ontology.commonapproach.org/cids#ac"
+      }
+    ],
+    "https://ontology.commonapproach.org/cids#hasDefinition": [
+      {
+        "@language": "en",
+        "@value": "People whose gender identity does not align with a binary understanding of gender such as man or woman. It is a gender identity which may include man and woman, androgynous, fluid, multiple, no gender, or a different gender outside of the “woman—man” spectrum."
+      }
+    ],
+    "https://ontology.commonapproach.org/cids#hasIdentifier": [
+      {
+        "@value": "ps3"
+      }
+    ],
+    "https://ontology.commonapproach.org/cids#hasName": [
+      {
+        "@language": "en",
+        "@value": "Gender Diverse People: Non-Binary"
+      }
+    ]
+  },
+  {
+    "@id": "https://codelist.commonapproach.org/codeLists/PopulationServed#ps14",
+    "@type": [
+      "https://ontology.commonapproach.org/cids#PopulationServed",
+      "https://ontology.commonapproach.org/cids#CODE",
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "https://codelist.commonapproach.org/codeLists/PopulationServed#"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "People Experiencing Homelessness or Housing Insecurities"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "People without stable, safe, permanent, appropriate housing, or the immediate prospect, means, and ability of acquiring it."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://codelist.commonapproach.org/codeLists/PopulationServed#dataset"
+      }
+    ],
+    "http://www.w3.org/ns/prov#hadPrimarySource": [
+      {
+        "@id": "https://www.homelesshub.ca/sites/default/files/COHhomelessdefinition.pdf"
+      }
+    ],
+    "https://ontology.commonapproach.org/cids#definedBy": [
+      {
+        "@id": "https://ontology.commonapproach.org/cids#ac"
+      }
+    ],
+    "https://ontology.commonapproach.org/cids#hasDefinition": [
+      {
+        "@language": "en",
+        "@value": "People without stable, safe, permanent, appropriate housing, or the immediate prospect, means, and ability of acquiring it."
+      }
+    ],
+    "https://ontology.commonapproach.org/cids#hasIdentifier": [
+      {
+        "@value": "ps14"
+      }
+    ],
+    "https://ontology.commonapproach.org/cids#hasName": [
+      {
+        "@language": "en",
+        "@value": "People Experiencing Homelessness or Housing Insecurities"
+      }
+    ]
+  },
+  {
+    "@id": "https://codelist.commonapproach.org/codeLists/PopulationServed#ps4",
+    "@type": [
+      "https://ontology.commonapproach.org/cids#PopulationServed",
+      "https://ontology.commonapproach.org/cids#CODE",
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "https://codelist.commonapproach.org/codeLists/PopulationServed#"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "Gender Diverse People: Other"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "People whose gender identity does not align with any of the other options provided."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://codelist.commonapproach.org/codeLists/PopulationServed#dataset"
+      }
+    ],
+    "https://ontology.commonapproach.org/cids#definedBy": [
+      {
+        "@id": "https://ontology.commonapproach.org/cids#ac"
+      }
+    ],
+    "https://ontology.commonapproach.org/cids#hasDefinition": [
+      {
+        "@language": "en",
+        "@value": "People whose gender identity does not align with any of the other options provided."
+      }
+    ],
+    "https://ontology.commonapproach.org/cids#hasIdentifier": [
+      {
+        "@value": "ps4"
+      }
+    ],
+    "https://ontology.commonapproach.org/cids#hasName": [
+      {
+        "@language": "en",
+        "@value": "Gender Diverse People: Other"
+      }
+    ]
+  },
+  {
+    "@id": "https://codelist.commonapproach.org/codeLists/PopulationServed#ps18",
+    "@type": [
+      "https://ontology.commonapproach.org/cids#PopulationServed",
+      "https://ontology.commonapproach.org/cids#CODE",
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "https://codelist.commonapproach.org/codeLists/PopulationServed#"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "People Living with Terminal or Chronic Illness/Diseases"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "People living with disabilities, impairments, and/or functional limitations related to terminal or chronic illness/disease, whether apparent or not, and permanent, temporary or episodic in nature, that hinders their full and equal participation in society when they face a barrier."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://codelist.commonapproach.org/codeLists/PopulationServed#dataset"
+      }
+    ],
+    "http://www.w3.org/ns/prov#hadPrimarySource": [
+      {
+        "@id": "https://laws-lois.justice.gc.ca/eng/acts/A-0.6/"
+      }
+    ],
+    "https://ontology.commonapproach.org/cids#definedBy": [
+      {
+        "@id": "https://ontology.commonapproach.org/cids#ac"
+      }
+    ],
+    "https://ontology.commonapproach.org/cids#hasDefinition": [
+      {
+        "@language": "en",
+        "@value": "People living with disabilities, impairments, and/or functional limitations related to terminal or chronic illness/disease, whether apparent or not, and permanent, temporary or episodic in nature, that hinders their full and equal participation in society when they face a barrier."
+      }
+    ],
+    "https://ontology.commonapproach.org/cids#hasIdentifier": [
+      {
+        "@value": "ps18"
+      }
+    ],
+    "https://ontology.commonapproach.org/cids#hasName": [
+      {
+        "@language": "en",
+        "@value": "People Living with Terminal or Chronic Illness/Diseases"
+      }
+    ]
+  },
+  {
+    "@id": "https://codelist.commonapproach.org/codeLists/PopulationServed#ps10",
+    "@type": [
+      "https://ontology.commonapproach.org/cids#PopulationServed",
+      "https://ontology.commonapproach.org/cids#CODE",
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "https://codelist.commonapproach.org/codeLists/PopulationServed#"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "First Generation Immigrants, Refugees & Newcomers"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "People who were born outside Canada. For the most part, these are people who are now, or once were, immigrants to Canada. People who were forced to flee from persecution in their home country. This includes Convention refugees (as defined by the Immigration and Refugee Protection Act (S.C. 2001, c. 27)) and asylum-seekers or refugee claimants. Immigrants and Refugees that have been in Canada for less than five years."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://codelist.commonapproach.org/codeLists/PopulationServed#dataset"
+      }
+    ],
+    "https://ontology.commonapproach.org/cids#definedBy": [
+      {
+        "@id": "https://ontology.commonapproach.org/cids#ac"
+      }
+    ],
+    "https://ontology.commonapproach.org/cids#hasDefinition": [
+      {
+        "@language": "en",
+        "@value": "People who were born outside Canada. For the most part, these are people who are now, or once were, immigrants to Canada. People who were forced to flee from persecution in their home country. This includes Convention refugees (as defined by the Immigration and Refugee Protection Act (S.C. 2001, c. 27)) and asylum-seekers or refugee claimants. Immigrants and Refugees that have been in Canada for less than five years."
+      }
+    ],
+    "https://ontology.commonapproach.org/cids#hasIdentifier": [
+      {
+        "@value": "ps10"
+      }
+    ],
+    "https://ontology.commonapproach.org/cids#hasName": [
+      {
+        "@language": "en",
+        "@value": "First Generation Immigrants, Refugees & Newcomers"
+      }
+    ]
+  },
+  {
+    "@id": "https://codelist.commonapproach.org/codeLists/PopulationServed#dataset",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme"
+    ]
+  },
+  {
+    "@id": "https://codelist.commonapproach.org/codeLists/PopulationServed#ps13",
+    "@type": [
+      "https://ontology.commonapproach.org/cids#PopulationServed",
+      "https://ontology.commonapproach.org/cids#CODE",
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "https://codelist.commonapproach.org/codeLists/PopulationServed#"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "Official Languages Minority Communities"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "In Canada, official-language minority communities are mainly French-speaking people living outside the province of Quebec and English-speaking people living in the province of Quebec."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://codelist.commonapproach.org/codeLists/PopulationServed#dataset"
+      }
+    ],
+    "https://ontology.commonapproach.org/cids#definedBy": [
+      {
+        "@id": "https://ontology.commonapproach.org/cids#ac"
+      }
+    ],
+    "https://ontology.commonapproach.org/cids#hasDefinition": [
+      {
+        "@language": "en",
+        "@value": "In Canada, official-language minority communities are mainly French-speaking people living outside the province of Quebec and English-speaking people living in the province of Quebec."
+      }
+    ],
+    "https://ontology.commonapproach.org/cids#hasIdentifier": [
+      {
+        "@value": "ps13"
+      }
+    ],
+    "https://ontology.commonapproach.org/cids#hasName": [
+      {
+        "@language": "en",
+        "@value": "Official Languages Minority Communities"
+      }
+    ]
+  }
+]

@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+    <meta http-equiv="content-type" content="text/xhtml+xml; charset=utf-8" />
+    <title>Sustainable Development Goals Impact Themes</title>
+    <!-- Basic styling for readability -->
+    <style>
+        body { font-family: sans-serif; line-height: 1.6; color: #333; max-width: 960px; margin: 2rem auto; padding: 0 1rem; }
+        h1, h2, h3 { color: #005a9c; }
+        h1 { font-size: 2em; }
+        h2 { border-bottom: 2px solid #eee; padding-bottom: 0.5em; margin-top: 2em;}
+        h3 { font-size: 1.2em; }
+        a { color: #007bff; text-decoration: none; }
+        a:hover { text-decoration: underline; }
+        dl { border-left: 3px solid #eee; padding-left: 1em; }
+        dt { font-weight: bold; }
+        dd { margin-left: 0; margin-bottom: 1em; }
+        .specterm { border: 1px solid #ccc; border-radius: 8px; padding: 1em; margin-bottom: 1.5em; background-color: #f9f9f9; }
+        .specterm .uri { font-family: monospace; background-color: #e9e9e9; padding: 0.2em 0.4em; border-radius: 4px; word-break: break-all; }
+        .deprecated_term { border: 1px solid #e57373; background-color: #ffebee; padding: 1em; margin-bottom: 1.5em; border-radius: 8px;}
+        .deprecated_term .uri { font-family: monospace; background-color: #f8bbd0; padding: 0.2em 0.4em; border-radius: 4px; word-break: break-all; }
+        .term_extra dl { margin-top: 1em; }
+        .term_extra dd { margin-bottom: 0.5em; }
+        .az_list span { margin-right: 5px; }
+    </style>
+</head>
+<body vocab="http://www.w3.org/ns/rdfa#" prefix="
+    rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#
+    cids: https://ontology.commonapproach.org/cids#
+    dcterms: http://purl.org/dc/terms/
+    foaf: http://xmlns.com/foaf/0.1/
+    owl: http://www.w3.org/2002/07/owl#
+    prov: http://www.w3.org/ns/prov#
+    rdfs: http://www.w3.org/2000/01/rdf-schema#
+    skos: http://www.w3.org/2004/02/skos/core#
+    vann: http://purl.org/vocab/vann/
+    xsd: http://www.w3.org/2001/XMLSchema#
+">
+
+<div typeof="owl:Ontology" about="https://codelist.commonapproach.org/codeLists/SDGImpacts">
+    <h1 property="dcterms:title" xml:lang="en">Sustainable Development Goals Impact Themes</h1>
+    <h2 property="dcterms:description" xml:lang="en">A mirror of the official UN Sustainable Development Goals (SDGs) Taxonomy.</h2>
+    <p> This vocabulary uses the UN's official IRIs as the primary identifiers for each goal. It retains the original commonapproach.org IRIs, which are now marked as deprecated, for backward compatibility.</p>
+    <h3>Working Draft &mdash; <span property="dcterms:date">13 June 2025</span></h3>
+    <dl>
+        <dt>This Version:</dt>
+        <dd><a href="https://codelist.commonapproach.org/codeLists/SDGImpacts.html">https://codelist.commonapproach.org/codeLists/SDGImpacts.html</a>
+            (<a href="https://codelist.commonapproach.org/codeLists/SDGImpacts.owl">rdf/xml</a>,
+            <a href="https://codelist.commonapproach.org/codeLists/SDGImpacts.ttl">ttl</a>,
+            <a href="https://codelist.commonapproach.org/codeLists/SDGImpacts.nt">nt</a>, 
+            <a href="https://codelist.commonapproach.org/codeLists/SDGImpacts.jsonld">json-ld</a>)
+        </dd>
+        <dt>Latest Version:</dt>
+        <dd><a href="https://codelist.commonapproach.org/codeLists/SDGImpacts.html">https://codelist.commonapproach.org/codeLists/SDGImpacts.html</a></dd>
+        <dt>Version:</dt>
+        <dd property="owl:versionInfo">1.1</dd>
+    </dl>
+</div>
+<hr />
+
+<h2 id="abstract">Abstract</h2>
+<p>This Sustainable Development Goals Impact Themes codelist is based on
+    the UN <a href="https://sdgs.un.org">Sustainable Development Goals</a> and republished by Common Approach to Impact Measurement as an RDF
+    codelist. The primary identifiers for goals are the official UN IRIs (e.g., <code>http://metadata.un.org/sdg/1</code>). Legacy IRIs (e.g., <code>https://codelist.commonapproach.org/codeLists/SDGImpacts#SDG1</code>) are retained for backward compatibility but are deprecated.</p>
+            
+<h2 id="toc">Table of Contents</h2>
+<ul>
+    <li><a href="#cross-reference">Cross-Reference of Terms</a></li>
+    <li><a href="#terms">Detailed Term Reference</a></li>
+    <li><a href="#deprecated">Deprecated Terms</a></li>
+</ul>
+
+
+<h2 id="cross-reference">Cross-Reference of Terms</h2>
+<div class="az_list">
+    <p>Instances:
+        <span class="list-item"><a href="#sdg1">Goal 1</a>,</span>
+        <span class="list-item"><a href="#sdg2">Goal 2</a>,</span>
+        <span class="list-item"><a href="#sdg3">Goal 3</a>,</span>
+        <span class="list-item"><a href="#sdg4">Goal 4</a>,</span>
+        <span class="list-item"><a href="#sdg5">Goal 5</a>,</span>
+        <span class="list-item"><a href="#sdg6">Goal 6</a>,</span>
+        <span class="list-item"><a href="#sdg7">Goal 7</a>,</span>
+        <span class="list-item"><a href="#sdg8">Goal 8</a>,</span>
+        <span class="list-item"><a href="#sdg9">Goal 9</a>,</span>
+        <span class="list-item"><a href="#sdg10">Goal 10</a>,</span>
+        <span class="list-item"><a href="#sdg11">Goal 11</a>,</span>
+        <span class="list-item"><a href="#sdg12">Goal 12</a>,</span>
+        <span class="list-item"><a href="#sdg13">Goal 13</a>,</span>
+        <span class="list-item"><a href="#sdg14">Goal 14</a>,</span>
+        <span class="list-item"><a href="#sdg15">Goal 15</a>,</span>
+        <span class="list-item"><a href="#sdg16">Goal 16</a>,</span>
+        <span class="list-item"><a href="#sdg17">Goal 17</a></span>
+    </p>
+</div>
+
+<h2 id="terms">Detailed Term Reference</h2>
+
+<div class="specterm" id="sdg1" resource="http://metadata.un.org/sdg/1" typeof="skos:Concept cids:Theme">
+    <h3>Instance: <span property="skos:prefLabel" xml:lang="en">Goal 1: No poverty</span></h3>
+    <p>URI: <a href="http://metadata.un.org/sdg/1"><code class="uri">http://metadata.un.org/sdg/1</code></a></p>
+    <p><em><span property="rdfs:label" xml:lang="en">End poverty in all its forms everywhere</span></em></p>
+    <div class="defn" property="skos:definition" xml:lang="en">End poverty in all its forms everywhere</div>
+    <div class="term_extra">
+        <dl>
+            <dt>in Scheme:</dt>
+            <dd><a property="skos:inScheme" href="http://metadata.un.org/sdg">http://metadata.un.org/sdg</a></dd>
+            <dt>Primary Source:</dt>
+            <dd><a property="prov:hadPrimarySource" href="https://sdgs.un.org/goals/goal1">https://sdgs.un.org/goals/goal1</a></dd>
+            <dt>Identifier:</dt>
+            <dd property="cids:hasIdentifier">1</dd>
+        </dl>
+    </div>
+</div>
+<div class="specterm" id="sdg2" resource="http://metadata.un.org/sdg/2" typeof="skos:Concept cids:Theme">
+    <h3>Instance: <span property="skos:prefLabel" xml:lang="en">Goal 2: Zero hunger</span></h3>
+    <p>URI: <a href="http://metadata.un.org/sdg/2"><code class="uri">http://metadata.un.org/sdg/2</code></a></p>
+    <p><em><span property="rdfs:label" xml:lang="en">End hunger, achieve food security and improved nutrition and promote sustainable agriculture.</span></em></p>
+    <div class="defn" property="skos:definition" xml:lang="en">End hunger, achieve food security and improved nutrition and promote sustainable agriculture</div>
+    <div class="term_extra">
+        <dl>
+            <dt>in Scheme:</dt>
+            <dd><a property="skos:inScheme" href="http://metadata.un.org/sdg">http://metadata.un.org/sdg</a></dd>
+            <dt>Primary Source:</dt>
+            <dd><a property="prov:hadPrimarySource" href="https://sdgs.un.org/goals/goal2">https://sdgs.un.org/goals/goal2</a></dd>
+            <dt>Identifier:</dt>
+            <dd property="cids:hasIdentifier">2</dd>
+        </dl>
+    </div>
+</div>
+<div class="specterm" id="sdg3" resource="http://metadata.un.org/sdg/3" typeof="skos:Concept cids:Theme">
+    <h3>Instance: <span property="skos:prefLabel" xml:lang="en">Goal 3: Good health and well-being</span></h3>
+    <p>URI: <a href="http://metadata.un.org/sdg/3"><code class="uri">http://metadata.un.org/sdg/3</code></a></p>
+    <p><em><span property="rdfs:label" xml:lang="en">Ensure healthy lives and promote well-being for all at all ages.</span></em></p>
+    <div class="defn" property="skos:definition" xml:lang="en">Ensure healthy lives and promote well-being for all at all ages</div>
+    <div class="term_extra">
+        <dl>
+            <dt>in Scheme:</dt>
+            <dd><a property="skos:inScheme" href="http://metadata.un.org/sdg">http://metadata.un.org/sdg</a></dd>
+            <dt>Primary Source:</dt>
+            <dd><a property="prov:hadPrimarySource" href="https://sdgs.un.org/goals/goal3">https://sdgs.un.org/goals/goal3</a></dd>
+            <dt>Identifier:</dt>
+            <dd property="cids:hasIdentifier">3</dd>
+        </dl>
+    </div>
+</div>
+<div class="specterm" id="sdg4" resource="http://metadata.un.org/sdg/4" typeof="skos:Concept cids:Theme">
+    <h3>Instance: <span property="skos:prefLabel" xml:lang="en">Goal 4: Quality education</span></h3>
+    <p>URI: <a href="http://metadata.un.org/sdg/4"><code class="uri">http://metadata.un.org/sdg/4</code></a></p>
+    <p><em><span property="rdfs:label" xml:lang="en">Ensure inclusive and equitable quality education and promote lifelong learning opportunities for all.</span></em></p>
+    <div class="defn" property="skos:definition" xml:lang="en">Ensure inclusive and equitable quality education and promote lifelong learning opportunities for all</div>
+    <div class="term_extra">
+        <dl>
+            <dt>in Scheme:</dt>
+            <dd><a property="skos:inScheme" href="http://metadata.un.org/sdg">http://metadata.un.org/sdg</a></dd>
+            <dt>Primary Source:</dt>
+            <dd><a property="prov:hadPrimarySource" href="https://sdgs.un.org/goals/goal4">https://sdgs.un.org/goals/goal4</a></dd>
+            <dt>Identifier:</dt>
+            <dd property="cids:hasIdentifier">4</dd>
+        </dl>
+    </div>
+</div>
+<div class="specterm" id="sdg5" resource="http://metadata.un.org/sdg/5" typeof="skos:Concept cids:Theme">
+    <h3>Instance: <span property="skos:prefLabel" xml:lang="en">Goal 5: Gender equality</span></h3>
+    <p>URI: <a href="http://metadata.un.org/sdg/5"><code class="uri">http://metadata.un.org/sdg/5</code></a></p>
+    <p><em><span property="rdfs:label" xml:lang="en">Achieve gender equality and empower all women and girls.</span></em></p>
+    <div class="defn" property="skos:definition" xml:lang="en">Achieve gender equality and empower all women and girls</div>
+    <div class="term_extra">
+        <dl>
+            <dt>in Scheme:</dt>
+            <dd><a property="skos:inScheme" href="http://metadata.un.org/sdg">http://metadata.un.org/sdg</a></dd>
+            <dt>Primary Source:</dt>
+            <dd><a property="prov:hadPrimarySource" href="https://sdgs.un.org/goals/goal5">https://sdgs.un.org/goals/goal5</a></dd>
+            <dt>Identifier:</dt>
+            <dd property="cids:hasIdentifier">5</dd>
+        </dl>
+    </div>
+</div>
+<div class="specterm" id="sdg6" resource="http://metadata.un.org/sdg/6" typeof="skos:Concept cids:Theme">
+    <h3>Instance: <span property="skos:prefLabel" xml:lang="en">Goal 6: Clean water and sanitation</span></h3>
+    <p>URI: <a href="http://metadata.un.org/sdg/6"><code class="uri">http://metadata.un.org/sdg/6</code></a></p>
+    <p><em><span property="rdfs:label" xml:lang="en">Ensure availability and sustainable management of water and sanitation for all.</span></em></p>
+    <div class="defn" property="skos:definition" xml:lang="en">Ensure availability and sustainable management of water and sanitation for all</div>
+    <div class="term_extra">
+        <dl>
+            <dt>in Scheme:</dt>
+            <dd><a property="skos:inScheme" href="http://metadata.un.org/sdg">http://metadata.un.org/sdg</a></dd>
+            <dt>Primary Source:</dt>
+            <dd><a property="prov:hadPrimarySource" href="https://sdgs.un.org/goals/goal6">https://sdgs.un.org/goals/goal6</a></dd>
+            <dt>Identifier:</dt>
+            <dd property="cids:hasIdentifier">6</dd>
+        </dl>
+    </div>
+</div>
+<div class="specterm" id="sdg7" resource="http://metadata.un.org/sdg/7" typeof="skos:Concept cids:Theme">
+    <h3>Instance: <span property="skos:prefLabel" xml:lang="en">Goal 7: Affordable and clean energy</span></h3>
+    <p>URI: <a href="http://metadata.un.org/sdg/7"><code class="uri">http://metadata.un.org/sdg/7</code></a></p>
+    <p><em><span property="rdfs:label" xml:lang="en">Ensure access to affordable, reliable, sustainable and modern energy for all.</span></em></p>
+    <div class="defn" property="skos:definition" xml:lang="en">Ensure access to affordable, reliable, sustainable and modern energy for all</div>
+    <div class="term_extra">
+        <dl>
+            <dt>in Scheme:</dt>
+            <dd><a property="skos:inScheme" href="http://metadata.un.org/sdg">http://metadata.un.org/sdg</a></dd>
+            <dt>Primary Source:</dt>
+            <dd><a property="prov:hadPrimarySource" href="https://sdgs.un.org/goals/goal7">https://sdgs.un.org/goals/goal7</a></dd>
+            <dt>Identifier:</dt>
+            <dd property="cids:hasIdentifier">7</dd>
+        </dl>
+    </div>
+</div>
+<div class="specterm" id="sdg8" resource="http://metadata.un.org/sdg/8" typeof="skos:Concept cids:Theme">
+    <h3>Instance: <span property="skos:prefLabel" xml:lang="en">Goal 8: Decent work and economic growth</span></h3>
+    <p>URI: <a href="http://metadata.un.org/sdg/8"><code class="uri">http://metadata.un.org/sdg/8</code></a></p>
+    <p><em><span property="rdfs:label" xml:lang="en">Promote sustained, inclusive and sustainable economic growth, full and productive employment and decent work for all.</span></em></p>
+    <div class="defn" property="skos:definition" xml:lang="en">Promote sustained, inclusive and sustainable economic growth, full and productive employment and decent work for all</div>
+    <div class="term_extra">
+        <dl>
+            <dt>in Scheme:</dt>
+            <dd><a property="skos:inScheme" href="http://metadata.un.org/sdg">http://metadata.un.org/sdg</a></dd>
+            <dt>Primary Source:</dt>
+            <dd><a property="prov:hadPrimarySource" href="https://sdgs.un.org/goals/goal8">https://sdgs.un.org/goals/goal8</a></dd>
+            <dt>Identifier:</dt>
+            <dd property="cids:hasIdentifier">8</dd>
+        </dl>
+    </div>
+</div>
+<div class="specterm" id="sdg9" resource="http://metadata.un.org/sdg/9" typeof="skos:Concept cids:Theme">
+    <h3>Instance: <span property="skos:prefLabel" xml:lang="en">Goal 9: Industry, innovation and infrastructure</span></h3>
+    <p>URI: <a href="http://metadata.un.org/sdg/9"><code class="uri">http://metadata.un.org/sdg/9</code></a></p>
+    <p><em><span property="rdfs:label" xml:lang="en">Build resilient infrastructure, promote inclusive and sustainable industrialization and foster innovation.</span></em></p>
+    <div class="defn" property="skos:definition" xml:lang="en">Build resilient infrastructure, promote inclusive and sustainable industrialization and foster innovation</div>
+    <div class="term_extra">
+        <dl>
+            <dt>in Scheme:</dt>
+            <dd><a property="skos:inScheme" href="http://metadata.un.org/sdg">http://metadata.un.org/sdg</a></dd>
+            <dt>Primary Source:</dt>
+            <dd><a property="prov:hadPrimarySource" href="https://sdgs.un.org/goals/goal9">https://sdgs.un.org/goals/goal9</a></dd>
+            <dt>Identifier:</dt>
+            <dd property="cids:hasIdentifier">9</dd>
+        </dl>
+    </div>
+</div>
+<div class="specterm" id="sdg10" resource="http://metadata.un.org/sdg/10" typeof="skos:Concept cids:Theme">
+    <h3>Instance: <span property="skos:prefLabel" xml:lang="en">Goal 10: Reduced inequalities</span></h3>
+    <p>URI: <a href="http://metadata.un.org/sdg/10"><code class="uri">http://metadata.un.org/sdg/10</code></a></p>
+    <p><em><span property="rdfs:label" xml:lang="en">Reduce inequality within and among countries.</span></em></p>
+    <div class="defn" property="skos:definition" xml:lang="en">Reduce inequality within and among countries</div>
+    <div class="term_extra">
+        <dl>
+            <dt>in Scheme:</dt>
+            <dd><a property="skos:inScheme" href="http://metadata.un.org/sdg">http://metadata.un.org/sdg</a></dd>
+            <dt>Primary Source:</dt>
+            <dd><a property="prov:hadPrimarySource" href="https://sdgs.un.org/goals/goal10">https://sdgs.un.org/goals/goal10</a></dd>
+            <dt>Identifier:</dt>
+            <dd property="cids:hasIdentifier">10</dd>
+        </dl>
+    </div>
+</div>
+<div class="specterm" id="sdg11" resource="http://metadata.un.org/sdg/11" typeof="skos:Concept cids:Theme">
+    <h3>Instance: <span property="skos:prefLabel" xml:lang="en">Goal 11: Sustainable cities and communities</span></h3>
+    <p>URI: <a href="http://metadata.un.org/sdg/11"><code class="uri">http://metadata.un.org/sdg/11</code></a></p>
+    <p><em><span property="rdfs:label" xml:lang="en">Make cities and human settlements inclusive, safe, resilient and sustainable.</span></em></p>
+    <div class="defn" property="skos:definition" xml:lang="en">Make cities and human settlements inclusive, safe, resilient and sustainable</div>
+    <div class="term_extra">
+        <dl>
+            <dt>in Scheme:</dt>
+            <dd><a property="skos:inScheme" href="http://metadata.un.org/sdg">http://metadata.un.org/sdg</a></dd>
+            <dt>Primary Source:</dt>
+            <dd><a property="prov:hadPrimarySource" href="https://sdgs.un.org/goals/goal11">https://sdgs.un.org/goals/goal11</a></dd>
+            <dt>Identifier:</dt>
+            <dd property="cids:hasIdentifier">11</dd>
+        </dl>
+    </div>
+</div>
+<div class="specterm" id="sdg12" resource="http://metadata.un.org/sdg/12" typeof="skos:Concept cids:Theme">
+    <h3>Instance: <span property="skos:prefLabel" xml:lang="en">Goal 12: Responsible consumption and production</span></h3>
+    <p>URI: <a href="http://metadata.un.org/sdg/12"><code class="uri">http://metadata.un.org/sdg/12</code></a></p>
+    <p><em><span property="rdfs:label" xml:lang="en">Ensure sustainable consumption and production patterns.</span></em></p>
+    <div class="defn" property="skos:definition" xml:lang="en">Ensure sustainable consumption and production patterns</div>
+    <div class="term_extra">
+        <dl>
+            <dt>in Scheme:</dt>
+            <dd><a property="skos:inScheme" href="http://metadata.un.org/sdg">http://metadata.un.org/sdg</a></dd>
+            <dt>Primary Source:</dt>
+            <dd><a property="prov:hadPrimarySource" href="https://sdgs.un.org/goals/goal12">https://sdgs.un.org/goals/goal12</a></dd>
+            <dt>Identifier:</dt>
+            <dd property="cids:hasIdentifier">12</dd>
+        </dl>
+    </div>
+</div>
+<div class="specterm" id="sdg13" resource="http://metadata.un.org/sdg/13" typeof="skos:Concept cids:Theme">
+    <h3>Instance: <span property="skos:prefLabel" xml:lang="en">Goal 13: Climate action</span></h3>
+    <p>URI: <a href="http://metadata.un.org/sdg/13"><code class="uri">http://metadata.un.org/sdg/13</code></a></p>
+    <p><em><span property="rdfs:label" xml:lang="en">Take urgent action to combat climate change and its impacts.</span></em></p>
+    <div class="defn" property="skos:definition" xml:lang="en">Take urgent action to combat climate change and its impacts</div>
+    <div class="term_extra">
+        <dl>
+            <dt>in Scheme:</dt>
+            <dd><a property="skos:inScheme" href="http://metadata.un.org/sdg">http://metadata.un.org/sdg</a></dd>
+            <dt>Primary Source:</dt>
+            <dd><a property="prov:hadPrimarySource" href="https://sdgs.un.org/goals/goal13">https://sdgs.un.org/goals/goal13</a></dd>
+            <dt>Identifier:</dt>
+            <dd property="cids:hasIdentifier">13</dd>
+        </dl>
+    </div>
+</div>
+<div class="specterm" id="sdg14" resource="http://metadata.un.org/sdg/14" typeof="skos:Concept cids:Theme">
+    <h3>Instance: <span property="skos:prefLabel" xml:lang="en">Goal 14: Life below water</span></h3>
+    <p>URI: <a href="http://metadata.un.org/sdg/14"><code class="uri">http://metadata.un.org/sdg/14</code></a></p>
+    <p><em><span property="rdfs:label" xml:lang="en">Conserve and sustainably use the oceans, seas and marine resources for sustainable development.</span></em></p>
+    <div class="defn" property="skos:definition" xml:lang="en">Conserve and sustainably use the oceans, seas and marine resources for sustainable development</div>
+    <div class="term_extra">
+        <dl>
+            <dt>in Scheme:</dt>
+            <dd><a property="skos:inScheme" href="http://metadata.un.org/sdg">http://metadata.un.org/sdg</a></dd>
+            <dt>Primary Source:</dt>
+            <dd><a property="prov:hadPrimarySource" href="https://sdgs.un.org/goals/goal14">https://sdgs.un.org/goals/goal14</a></dd>
+            <dt>Identifier:</dt>
+            <dd property="cids:hasIdentifier">14</dd>
+        </dl>
+    </div>
+</div>
+<div class="specterm" id="sdg15" resource="http://metadata.un.org/sdg/15" typeof="skos:Concept cids:Theme">
+    <h3>Instance: <span property="skos:prefLabel" xml:lang="en">Goal 15: Life on land</span></h3>
+    <p>URI: <a href="http://metadata.un.org/sdg/15"><code class="uri">http://metadata.un.org/sdg/15</code></a></p>
+    <p><em><span property="rdfs:label" xml:lang="en">Protect, restore and promote sustainable use of terrestrial ecosystems, sustainably manage forests, combat desertification, and halt and reverse land degradation and halt biodiversity loss.</span></em></p>
+    <div class="defn" property="skos:definition" xml:lang="en">Protect, restore and promote sustainable use of terrestrial ecosystems, sustainably manage forests, combat desertification, and halt and reverse land degradation and halt biodiversity loss</div>
+    <div class="term_extra">
+        <dl>
+            <dt>in Scheme:</dt>
+            <dd><a property="skos:inScheme" href="http://metadata.un.org/sdg">http://metadata.un.org/sdg</a></dd>
+            <dt>Primary Source:</dt>
+            <dd><a property="prov:hadPrimarySource" href="https://sdgs.un.org/goals/goal15">https://sdgs.un.org/goals/goal15</a></dd>
+            <dt>Identifier:</dt>
+            <dd property="cids:hasIdentifier">15</dd>
+        </dl>
+    </div>
+</div>
+<div class="specterm" id="sdg16" resource="http://metadata.un.org/sdg/16" typeof="skos:Concept cids:Theme">
+    <h3>Instance: <span property="skos:prefLabel" xml:lang="en">Goal 16: Peace, justice and strong institutions</span></h3>
+    <p>URI: <a href="http://metadata.un.org/sdg/16"><code class="uri">http://metadata.un.org/sdg/16</code></a></p>
+    <p><em><span property="rdfs:label" xml:lang="en">Promote peaceful and inclusive societies for sustainable development, provide access to justice for all and build effective, accountable and inclusive institutions at all levels.</span></em></p>
+    <div class="defn" property="skos:definition" xml:lang="en">Promote peaceful and inclusive societies for sustainable development, provide access to justice for all and build effective, accountable and inclusive institutions at all levels</div>
+    <div class="term_extra">
+        <dl>
+            <dt>in Scheme:</dt>
+            <dd><a property="skos:inScheme" href="http://metadata.un.org/sdg">http://metadata.un.org/sdg</a></dd>
+            <dt>Primary Source:</dt>
+            <dd><a property="prov:hadPrimarySource" href="https://sdgs.un.org/goals/goal16">https://sdgs.un.org/goals/goal16</a></dd>
+            <dt>Identifier:</dt>
+            <dd property="cids:hasIdentifier">16</dd>
+        </dl>
+    </div>
+</div>
+<div class="specterm" id="sdg17" resource="http://metadata.un.org/sdg/17" typeof="skos:Concept cids:Theme">
+    <h3>Instance: <span property="skos:prefLabel" xml:lang="en">Goal 17: Partnerships for the goals</span></h3>
+    <p>URI: <a href="http://metadata.un.org/sdg/17"><code class="uri">http://metadata.un.org/sdg/17</code></a></p>
+    <p><em><span property="rdfs:label" xml:lang="en">Strengthen the means of implementation and revitalize the Global Partnership for Sustainable Development.</span></em></p>
+    <div class="defn" property="skos:definition" xml:lang="en">Strengthen the means of implementation and revitalize the Global Partnership for Sustainable Development</div>
+    <div class="term_extra">
+        <dl>
+            <dt>in Scheme:</dt>
+            <dd><a property="skos:inScheme" href="http://metadata.un.org/sdg">http://metadata.un.org/sdg</a></dd>
+            <dt>Primary Source:</dt>
+            <dd><a property="prov:hadPrimarySource" href="https://sdgs.un.org/goals/goal17">https://sdgs.un.org/goals/goal17</a></dd>
+            <dt>Identifier:</dt>
+            <dd property="cids:hasIdentifier">17</dd>
+        </dl>
+    </div>
+</div>
+
+<h2 id="deprecated">Deprecated Terms</h2>
+<!-- Deprecated terms for backward compatibility -->
+<div class="deprecated_term" id="deprecated-sdg1" resource="https://codelist.commonapproach.org/codeLists/SDGImpacts#SDG1" typeof="owl:Thing">
+   <h3>Deprecated Term: <span property="rdfs:label" xml:lang="en">Legacy IRI for SDG 1</span></h3>
+   <p>URI: <code class="uri">https://codelist.commonapproach.org/codeLists/SDGImpacts#SDG1</code></p>
+   <p property="rdfs:comment" xml:lang="en">This IRI is deprecated and has been replaced by http://metadata.un.org/sdg/1. It is retained for backward compatibility.</p>
+   <dl>
+       <dt>Same As:</dt>
+       <dd><a property="owl:sameAs" href="http://metadata.un.org/sdg/1">http://metadata.un.org/sdg/1</a></dd>
+   </dl>
+</div>
+<div class="deprecated_term" id="deprecated-sdg2" resource="https://codelist.commonapproach.org/codeLists/SDGImpacts#SDG2" typeof="owl:Thing">
+   <h3>Deprecated Term: <span property="rdfs:label" xml:lang="en">Legacy IRI for SDG 2</span></h3>
+   <p>URI: <code class="uri">https://codelist.commonapproach.org/codeLists/SDGImpacts#SDG2</code></p>
+   <p property="rdfs:comment" xml:lang="en">This IRI is deprecated and has been replaced by http://metadata.un.org/sdg/2. It is retained for backward compatibility.</p>
+   <dl>
+       <dt>Same As:</dt>
+       <dd><a property="owl:sameAs" href="http://metadata.un.org/sdg/2">http://metadata.un.org/sdg/2</a></dd>
+   </dl>
+</div>
+<div class="deprecated_term" id="deprecated-sdg3" resource="https://codelist.commonapproach.org/codeLists/SDGImpacts#SDG3" typeof="owl:Thing">
+   <h3>Deprecated Term: <span property="rdfs:label" xml:lang="en">Legacy IRI for SDG 3</span></h3>
+   <p>URI: <code class="uri">https://codelist.commonapproach.org/codeLists/SDGImpacts#SDG3</code></p>
+   <p property="rdfs:comment" xml:lang="en">This IRI is deprecated and has been replaced by http://metadata.un.org/sdg/3. It is retained for backward compatibility.</p>
+   <dl>
+       <dt>Same As:</dt>
+       <dd><a property="owl:sameAs" href="http://metadata.un.org/sdg/3">http://metadata.un.org/sdg/3</a></dd>
+   </dl>
+</div>
+<div class="deprecated_term" id="deprecated-sdg4" resource="https://codelist.commonapproach.org/codeLists/SDGImpacts#SDG4" typeof="owl:Thing">
+   <h3>Deprecated Term: <span property="rdfs:label" xml:lang="en">Legacy IRI for SDG 4</span></h3>
+   <p>URI: <code class="uri">https://codelist.commonapproach.org/codeLists/SDGImpacts#SDG4</code></p>
+   <p property="rdfs:comment" xml:lang="en">This IRI is deprecated and has been replaced by http://metadata.un.org/sdg/4. It is retained for backward compatibility.</p>
+   <dl>
+       <dt>Same As:</dt>
+       <dd><a property="owl:sameAs" href="http://metadata.un.org/sdg/4">http://metadata.un.org/sdg/4</a></dd>
+   </dl>
+</div>
+<div class="deprecated_term" id="deprecated-sdg5" resource="https://codelist.commonapproach.org/codeLists/SDGImpacts#SDG5" typeof="owl:Thing">
+   <h3>Deprecated Term: <span property="rdfs:label" xml:lang="en">Legacy IRI for SDG 5</span></h3>
+   <p>URI: <code class="uri">https://codelist.commonapproach.org/codeLists/SDGImpacts#SDG5</code></p>
+   <p property="rdfs:comment" xml:lang="en">This IRI is deprecated and has been replaced by http://metadata.un.org/sdg/5. It is retained for backward compatibility.</p>
+   <dl>
+       <dt>Same As:</dt>
+       <dd><a property="owl:sameAs" href="http://metadata.un.org/sdg/5">http://metadata.un.org/sdg/5</a></dd>
+   </dl>
+</div>
+<div class="deprecated_term" id="deprecated-sdg6" resource="https://codelist.commonapproach.org/codeLists/SDGImpacts#SDG6" typeof="owl:Thing">
+   <h3>Deprecated Term: <span property="rdfs:label" xml:lang="en">Legacy IRI for SDG 6</span></h3>
+   <p>URI: <code class="uri">https://codelist.commonapproach.org/codeLists/SDGImpacts#SDG6</code></p>
+   <p property="rdfs:comment" xml:lang="en">This IRI is deprecated and has been replaced by http://metadata.un.org/sdg/6. It is retained for backward compatibility.</p>
+   <dl>
+       <dt>Same As:</dt>
+       <dd><a property="owl:sameAs" href="http://metadata.un.org/sdg/6">http://metadata.un.org/sdg/6</a></dd>
+   </dl>
+</div>
+<div class="deprecated_term" id="deprecated-sdg7" resource="https://codelist.commonapproach.org/codeLists/SDGImpacts#SDG7" typeof="owl:Thing">
+   <h3>Deprecated Term: <span property="rdfs:label" xml:lang="en">Legacy IRI for SDG 7</span></h3>
+   <p>URI: <code class="uri">https://codelist.commonapproach.org/codeLists/SDGImpacts#SDG7</code></p>
+   <p property="rdfs:comment" xml:lang="en">This IRI is deprecated and has been replaced by http://metadata.un.org/sdg/7. It is retained for backward compatibility.</p>
+   <dl>
+       <dt>Same As:</dt>
+       <dd><a property="owl:sameAs" href="http://metadata.un.org/sdg/7">http://metadata.un.org/sdg/7</a></dd>
+   </dl>
+</div>
+<div class="deprecated_term" id="deprecated-sdg8" resource="https://codelist.commonapproach.org/codeLists/SDGImpacts#SDG8" typeof="owl:Thing">
+   <h3>Deprecated Term: <span property="rdfs:label" xml:lang="en">Legacy IRI for SDG 8</span></h3>
+   <p>URI: <code class="uri">https://codelist.commonapproach.org/codeLists/SDGImpacts#SDG8</code></p>
+   <p property="rdfs:comment" xml:lang="en">This IRI is deprecated and has been replaced by http://metadata.un.org/sdg/8. It is retained for backward compatibility.</p>
+   <dl>
+       <dt>Same As:</dt>
+       <dd><a property="owl:sameAs" href="http://metadata.un.org/sdg/8">http://metadata.un.org/sdg/8</a></dd>
+   </dl>
+</div>
+<div class="deprecated_term" id="deprecated-sdg9" resource="https://codelist.commonapproach.org/codeLists/SDGImpacts#SDG9" typeof="owl:Thing">
+   <h3>Deprecated Term: <span property="rdfs:label" xml:lang="en">Legacy IRI for SDG 9</span></h3>
+   <p>URI: <code class="uri">https://codelist.commonapproach.org/codeLists/SDGImpacts#SDG9</code></p>
+   <p property="rdfs:comment" xml:lang="en">This IRI is deprecated and has been replaced by http://metadata.un.org/sdg/9. It is retained for backward compatibility.</p>
+   <dl>
+       <dt>Same As:</dt>
+       <dd><a property="owl:sameAs" href="http://metadata.un.org/sdg/9">http://metadata.un.org/sdg/9</a></dd>
+   </dl>
+</div>
+<div class="deprecated_term" id="deprecated-sdg10" resource="https://codelist.commonapproach.org/codeLists/SDGImpacts#SDG10" typeof="owl:Thing">
+   <h3>Deprecated Term: <span property="rdfs:label" xml:lang="en">Legacy IRI for SDG 10</span></h3>
+   <p>URI: <code class="uri">https://codelist.commonapproach.org/codeLists/SDGImpacts#SDG10</code></p>
+   <p property="rdfs:comment" xml:lang="en">This IRI is deprecated and has been replaced by http://metadata.un.org/sdg/10. It is retained for backward compatibility.</p>
+   <dl>
+       <dt>Same As:</dt>
+       <dd><a property="owl:sameAs" href="http://metadata.un.org/sdg/10">http://metadata.un.org/sdg/10</a></dd>
+   </dl>
+</div>
+<div class="deprecated_term" id="deprecated-sdg11" resource="https://codelist.commonapproach.org/codeLists/SDGImpacts#SDG11" typeof="owl:Thing">
+   <h3>Deprecated Term: <span property="rdfs:label" xml:lang="en">Legacy IRI for SDG 11</span></h3>
+   <p>URI: <code class="uri">https://codelist.commonapproach.org/codeLists/SDGImpacts#SDG11</code></p>
+   <p property="rdfs:comment" xml:lang="en">This IRI is deprecated and has been replaced by http://metadata.un.org/sdg/11. It is retained for backward compatibility.</p>
+   <dl>
+       <dt>Same As:</dt>
+       <dd><a property="owl:sameAs" href="http://metadata.un.org/sdg/11">http://metadata.un.org/sdg/11</a></dd>
+   </dl>
+</div>
+<div class="deprecated_term" id="deprecated-sdg12" resource="https://codelist.commonapproach.org/codeLists/SDGImpacts#SDG12" typeof="owl:Thing">
+   <h3>Deprecated Term: <span property="rdfs:label" xml:lang="en">Legacy IRI for SDG 12</span></h3>
+   <p>URI: <code class="uri">https://codelist.commonapproach.org/codeLists/SDGImpacts#SDG12</code></p>
+   <p property="rdfs:comment" xml:lang="en">This IRI is deprecated and has been replaced by http://metadata.un.org/sdg/12. It is retained for backward compatibility.</p>
+   <dl>
+       <dt>Same As:</dt>
+       <dd><a property="owl:sameAs" href="http://metadata.un.org/sdg/12">http://metadata.un.org/sdg/12</a></dd>
+   </dl>
+</div>
+<div class="deprecated_term" id="deprecated-sdg13" resource="https://codelist.commonapproach.org/codeLists/SDGImpacts#SDG13" typeof="owl:Thing">
+   <h3>Deprecated Term: <span property="rdfs:label" xml:lang="en">Legacy IRI for SDG 13</span></h3>
+   <p>URI: <code class="uri">https://codelist.commonapproach.org/codeLists/SDGImpacts#SDG13</code></p>
+   <p property="rdfs:comment" xml:lang="en">This IRI is deprecated and has been replaced by http://metadata.un.org/sdg/13. It is retained for backward compatibility.</p>
+   <dl>
+       <dt>Same As:</dt>
+       <dd><a property="owl:sameAs" href="http://metadata.un.org/sdg/13">http://metadata.un.org/sdg/13</a></dd>
+   </dl>
+</div>
+<div class="deprecated_term" id="deprecated-sdg14" resource="https://codelist.commonapproach.org/codeLists/SDGImpacts#SDG14" typeof="owl:Thing">
+   <h3>Deprecated Term: <span property="rdfs:label" xml:lang="en">Legacy IRI for SDG 14</span></h3>
+   <p>URI: <code class="uri">https://codelist.commonapproach.org/codeLists/SDGImpacts#SDG14</code></p>
+   <p property="rdfs:comment" xml:lang="en">This IRI is deprecated and has been replaced by http://metadata.un.org/sdg/14. It is retained for backward compatibility.</p>
+   <dl>
+       <dt>Same As:</dt>
+       <dd><a property="owl:sameAs" href="http://metadata.un.org/sdg/14">http://metadata.un.org/sdg/14</a></dd>
+   </dl>
+</div>
+<div class="deprecated_term" id="deprecated-sdg15" resource="https://codelist.commonapproach.org/codeLists/SDGImpacts#SDG15" typeof="owl:Thing">
+   <h3>Deprecated Term: <span property="rdfs:label" xml:lang="en">Legacy IRI for SDG 15</span></h3>
+   <p>URI: <code class="uri">https://codelist.commonapproach.org/codeLists/SDGImpacts#SDG15</code></p>
+   <p property="rdfs:comment" xml:lang="en">This IRI is deprecated and has been replaced by http://metadata.un.org/sdg/15. It is retained for backward compatibility.</p>
+   <dl>
+       <dt>Same As:</dt>
+       <dd><a property="owl:sameAs" href="http://metadata.un.org/sdg/15">http://metadata.un.org/sdg/15</a></dd>
+   </dl>
+</div>
+<div class="deprecated_term" id="deprecated-sdg16" resource="https://codelist.commonapproach.org/codeLists/SDGImpacts#SDG16" typeof="owl:Thing">
+   <h3>Deprecated Term: <span property="rdfs:label" xml:lang="en">Legacy IRI for SDG 16</span></h3>
+   <p>URI: <code class="uri">https://codelist.commonapproach.org/codeLists/SDGImpacts#SDG16</code></p>
+   <p property="rdfs:comment" xml:lang="en">This IRI is deprecated and has been replaced by http://metadata.un.org/sdg/16. It is retained for backward compatibility.</p>
+   <dl>
+       <dt>Same As:</dt>
+       <dd><a property="owl:sameAs" href="http://metadata.un.org/sdg/16">http://metadata.un.org/sdg/16</a></dd>
+   </dl>
+</div>
+<div class="deprecated_term" id="deprecated-sdg17" resource="https://codelist.commonapproach.org/codeLists/SDGImpacts#SDG17" typeof="owl:Thing">
+   <h3>Deprecated Term: <span property="rdfs:label" xml:lang="en">Legacy IRI for SDG 17</span></h3>
+   <p>URI: <code class="uri">https://codelist.commonapproach.org/codeLists/SDGImpacts#SDG17</code></p>
+   <p property="rdfs:comment" xml:lang="en">This IRI is deprecated and has been replaced by http://metadata.un.org/sdg/17. It is retained for backward compatibility.</p>
+   <dl>
+       <dt>Same As:</dt>
+       <dd><a property="owl:sameAs" href="http://metadata.un.org/sdg/17">http://metadata.un.org/sdg/17</a></dd>
+   </dl>
+</div>
+
+</body>
+</html>

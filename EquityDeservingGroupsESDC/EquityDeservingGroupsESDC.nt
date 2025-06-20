@@ -1,0 +1,176 @@
+<https://codelist.commonapproach.org/codeLists/EquityDeservingGroupsESDC> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<https://codelist.commonapproach.org/codeLists/EquityDeservingGroupsESDC> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocommons/voafVocabulary> .
+<https://codelist.commonapproach.org/codeLists/EquityDeservingGroupsESDC> <http://purl.org/vocab/vann/preferredNamespacePrefix> "EquityDeservingGroupsESDC" .
+<https://codelist.commonapproach.org/codeLists/EquityDeservingGroupsESDC> <http://www.w3.org/2002/07/owl#versionInfo> "1.0" .
+<https://codelist.commonapproach.org/codeLists/EquityDeservingGroupsESDC> <http://purl.org/dc/terms/date> "03-10-2024" .
+<https://codelist.commonapproach.org/codeLists/EquityDeservingGroupsESDC> <http://purl.org/vocab/vann/preferredNamespaceUri> <https://codelist.commonapproach.org/codeLists/EquityDeservingGroupsESDC#> .
+<https://codelist.commonapproach.org/codeLists/EquityDeservingGroupsESDC> <http://www.w3.org/2002/07/owl#imports> <https://ontology.commonapproach.org/owl/cids> .
+<https://codelist.commonapproach.org/codeLists/EquityDeservingGroupsESDC> <http://www.w3.org/2002/07/owl#imports> <http://www.w3.org/2006/time> .
+<https://codelist.commonapproach.org/codeLists/EquityDeservingGroupsESDC> <https://ontology.commonapproach.org/cids#hasName> "Equity Deserving Groups" .
+<https://codelist.commonapproach.org/codeLists/EquityDeservingGroupsESDC> <http://purl.org/dc/terms/title> "Equity Deserving Groups"@en .
+<https://codelist.commonapproach.org/codeLists/EquityDeservingGroupsESDC> <http://purl.org/dc/terms/description> "A codelist vocabulary of Equity Deserving Groups as defined by Ministry of Employment and Social Development of Canada."@en .
+<https://codelist.commonapproach.org/codeLists/EquityDeservingGroupsESDC> <http://xmlns.com/foaf/0.1/name> "Equity Deserving Groups" .
+<https://codelist.commonapproach.org/codeLists/EquityDeservingGroupsESDC> <http://www.w3.org/2000/01/rdf-schema#label> "Equity Deserving Groups" .
+<https://codelist.commonapproach.org/codeLists/EquityDeservingGroupsESDC> <http://purl.org/dc/terms/creator> <https://ontology.commonapproach.org/cids#ac> .
+<https://codelist.commonapproach.org/codeLists/EquityDeservingGroupsESDC#dataset> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
+<https://codelist.commonapproach.org/codeLists/edg1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#PopulationServed> .
+<https://codelist.commonapproach.org/codeLists/edg1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#CODE> .
+<https://codelist.commonapproach.org/codeLists/edg1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://codelist.commonapproach.org/codeLists/edg1> <http://www.w3.org/2004/02/skos/core#inScheme> <https://codelist.commonapproach.org/codeLists/EquityDeservingGroupsESDC#dataset> .
+<https://codelist.commonapproach.org/codeLists/edg1> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://codelist.commonapproach.org/codeLists/EquityDeservingGroupsESDC#> .
+<https://codelist.commonapproach.org/codeLists/edg1> <https://ontology.commonapproach.org/cids#hasName> "2SLGBTQIA+"@en .
+<https://codelist.commonapproach.org/codeLists/edg1> <http://www.w3.org/2000/01/rdf-schema#label> "2SLGBTQIA+"@en .
+<https://codelist.commonapproach.org/codeLists/edg1> <http://www.w3.org/2004/02/skos/core#definition> "People who identify as being two-spirit, lesbian, gay, bisexual, transgender, queer, intersex, asexual and others (\u201C+\u201D)."@en .
+<https://codelist.commonapproach.org/codeLists/edg1> <https://ontology.commonapproach.org/cids#hasDefinition> "People who identify as being two-spirit, lesbian, gay, bisexual, transgender, queer, intersex, asexual and others (\u201C+\u201D)."@en .
+<https://codelist.commonapproach.org/codeLists/edg1> <https://ontology.commonapproach.org/cids#definedBy> <https://ontology.commonapproach.org/cids#esdc> .
+<https://codelist.commonapproach.org/codeLists/edg1> <https://ontology.commonapproach.org/cids#hasIdentifier> "edg1" .
+<https://codelist.commonapproach.org/codeLists/edg1> <http://www.w3.org/ns/prov#hadPrimarySource> <https://www.canada.ca/en/women-gender-equality/free-to-be-me/2slgbtqi-plus-glossary.html> .
+<https://codelist.commonapproach.org/codeLists/edg2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#PopulationServed> .
+<https://codelist.commonapproach.org/codeLists/edg2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#CODE> .
+<https://codelist.commonapproach.org/codeLists/edg2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://codelist.commonapproach.org/codeLists/edg2> <http://www.w3.org/2004/02/skos/core#inScheme> <https://codelist.commonapproach.org/codeLists/EquityDeservingGroupsESDC#dataset> .
+<https://codelist.commonapproach.org/codeLists/edg2> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://codelist.commonapproach.org/codeLists/EquityDeservingGroupsESDC#> .
+<https://codelist.commonapproach.org/codeLists/edg2> <https://ontology.commonapproach.org/cids#hasName> "Black People"@en .
+<https://codelist.commonapproach.org/codeLists/edg2> <http://www.w3.org/2000/01/rdf-schema#label> "Black People"@en .
+<https://codelist.commonapproach.org/codeLists/edg2> <http://www.w3.org/2004/02/skos/core#definition> "People belonging to any of various population groups of especially African ancestry often considered as having dark pigmentation of the skin but in fact having a wide range of skin colours."@en .
+<https://codelist.commonapproach.org/codeLists/edg2> <https://ontology.commonapproach.org/cids#hasDefinition> "People belonging to any of various population groups of especially African ancestry often considered as having dark pigmentation of the skin but in fact having a wide range of skin colours."@en .
+<https://codelist.commonapproach.org/codeLists/edg2> <https://ontology.commonapproach.org/cids#definedBy> <https://ontology.commonapproach.org/cids#esdc> .
+<https://codelist.commonapproach.org/codeLists/edg2> <https://ontology.commonapproach.org/cids#hasIdentifier> "edg2" .
+<https://codelist.commonapproach.org/codeLists/edg2> <http://www.w3.org/ns/prov#hadPrimarySource> <https://www.noslangues-ourlanguages.gc.ca/en/publications/equite-diversite-inclusion-equity-diversity-inclusion-eng#notion-69399> .
+<https://codelist.commonapproach.org/codeLists/edg3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#PopulationServed> .
+<https://codelist.commonapproach.org/codeLists/edg3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#CODE> .
+<https://codelist.commonapproach.org/codeLists/edg3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://codelist.commonapproach.org/codeLists/edg3> <http://www.w3.org/2004/02/skos/core#inScheme> <https://codelist.commonapproach.org/codeLists/EquityDeservingGroupsESDC#dataset> .
+<https://codelist.commonapproach.org/codeLists/edg3> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://codelist.commonapproach.org/codeLists/EquityDeservingGroupsESDC#> .
+<https://codelist.commonapproach.org/codeLists/edg3> <https://ontology.commonapproach.org/cids#hasName> "First Generation Immigrants, Refugees & Newcomers"@en .
+<https://codelist.commonapproach.org/codeLists/edg3> <http://www.w3.org/2000/01/rdf-schema#label> "First Generation Immigrants, Refugees & Newcomers"@en .
+<https://codelist.commonapproach.org/codeLists/edg3> <http://www.w3.org/2004/02/skos/core#definition> "People who were born outside Canada. For the most part, these are people who are now, or once were, immigrants to Canada. People who were forced to flee from persecution in their home country. This includes Convention refugees (as defined by the Immigration and Refugee Protection Act (S.C. 2001, c. 27)) and asylum-seekers or refugee claimants. Immigrants and Refugees that have been in Canada for less than five years."@en .
+<https://codelist.commonapproach.org/codeLists/edg3> <https://ontology.commonapproach.org/cids#hasDefinition> "People who were born outside Canada. For the most part, these are people who are now, or once were, immigrants to Canada. People who were forced to flee from persecution in their home country. This includes Convention refugees (as defined by the Immigration and Refugee Protection Act (S.C. 2001, c. 27)) and asylum-seekers or refugee claimants. Immigrants and Refugees that have been in Canada for less than five years."@en .
+<https://codelist.commonapproach.org/codeLists/edg3> <https://ontology.commonapproach.org/cids#definedBy> <https://ontology.commonapproach.org/cids#esdc> .
+<https://codelist.commonapproach.org/codeLists/edg3> <https://ontology.commonapproach.org/cids#hasIdentifier> "edg3" .
+<https://codelist.commonapproach.org/codeLists/edg4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#PopulationServed> .
+<https://codelist.commonapproach.org/codeLists/edg4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#CODE> .
+<https://codelist.commonapproach.org/codeLists/edg4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://codelist.commonapproach.org/codeLists/edg4> <http://www.w3.org/2004/02/skos/core#inScheme> <https://codelist.commonapproach.org/codeLists/EquityDeservingGroupsESDC#dataset> .
+<https://codelist.commonapproach.org/codeLists/edg4> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://codelist.commonapproach.org/codeLists/EquityDeservingGroupsESDC#> .
+<https://codelist.commonapproach.org/codeLists/edg4> <https://ontology.commonapproach.org/cids#hasName> "Indigenous Peoples: First Nations"@en .
+<https://codelist.commonapproach.org/codeLists/edg4> <http://www.w3.org/2000/01/rdf-schema#label> "Indigenous Peoples: First Nations"@en .
+<https://codelist.commonapproach.org/codeLists/edg4> <http://www.w3.org/2004/02/skos/core#definition> "In Canada, Indigenous people who are part of a First Nation or whose ancestors were part of a First Nation. A First Nation person can be a Status or Non-Status Indian."@en .
+<https://codelist.commonapproach.org/codeLists/edg4> <https://ontology.commonapproach.org/cids#hasDefinition> "In Canada, Indigenous people who are part of a First Nation or whose ancestors were part of a First Nation. A First Nation person can be a Status or Non-Status Indian."@en .
+<https://codelist.commonapproach.org/codeLists/edg4> <https://ontology.commonapproach.org/cids#definedBy> <https://ontology.commonapproach.org/cids#esdc> .
+<https://codelist.commonapproach.org/codeLists/edg4> <https://ontology.commonapproach.org/cids#hasIdentifier> "edg4" .
+<https://codelist.commonapproach.org/codeLists/edg4> <http://www.w3.org/ns/prov#hadPrimarySource> <https://www.noslangues-ourlanguages.gc.ca/en/publications/equite-diversite-inclusion-equity-diversity-inclusion-eng#notion-69399> .
+<https://codelist.commonapproach.org/codeLists/edg5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#PopulationServed> .
+<https://codelist.commonapproach.org/codeLists/edg5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#CODE> .
+<https://codelist.commonapproach.org/codeLists/edg5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://codelist.commonapproach.org/codeLists/edg5> <http://www.w3.org/2004/02/skos/core#inScheme> <https://codelist.commonapproach.org/codeLists/EquityDeservingGroupsESDC#dataset> .
+<https://codelist.commonapproach.org/codeLists/edg5> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://codelist.commonapproach.org/codeLists/EquityDeservingGroupsESDC#> .
+<https://codelist.commonapproach.org/codeLists/edg5> <https://ontology.commonapproach.org/cids#hasName> "Indigenous Peoples: Inuit"@en .
+<https://codelist.commonapproach.org/codeLists/edg5> <http://www.w3.org/2000/01/rdf-schema#label> "Indigenous Peoples: Inuit"@en .
+<https://codelist.commonapproach.org/codeLists/edg5> <http://www.w3.org/2004/02/skos/core#definition> "In Canada, Indigenous People that inhabit or that traditionally inhabited the northern regions and Arctic coasts of Canada known as Inuit Nunangat, and whose members are united by a common origin, history and culture."@en .
+<https://codelist.commonapproach.org/codeLists/edg5> <https://ontology.commonapproach.org/cids#hasDefinition> "In Canada, Indigenous People that inhabit or that traditionally inhabited the northern regions and Arctic coasts of Canada known as Inuit Nunangat, and whose members are united by a common origin, history and culture."@en .
+<https://codelist.commonapproach.org/codeLists/edg5> <https://ontology.commonapproach.org/cids#definedBy> <https://ontology.commonapproach.org/cids#esdc> .
+<https://codelist.commonapproach.org/codeLists/edg5> <https://ontology.commonapproach.org/cids#hasIdentifier> "edg5" .
+<https://codelist.commonapproach.org/codeLists/edg5> <http://www.w3.org/ns/prov#hadPrimarySource> <https://www.noslangues-ourlanguages.gc.ca/en/publications/equite-diversite-inclusion-equity-diversity-inclusion-eng#notion-69399> .
+<https://codelist.commonapproach.org/codeLists/edg6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#PopulationServed> .
+<https://codelist.commonapproach.org/codeLists/edg6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#CODE> .
+<https://codelist.commonapproach.org/codeLists/edg6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://codelist.commonapproach.org/codeLists/edg6> <http://www.w3.org/2004/02/skos/core#inScheme> <https://codelist.commonapproach.org/codeLists/EquityDeservingGroupsESDC#dataset> .
+<https://codelist.commonapproach.org/codeLists/edg6> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://codelist.commonapproach.org/codeLists/EquityDeservingGroupsESDC#> .
+<https://codelist.commonapproach.org/codeLists/edg6> <https://ontology.commonapproach.org/cids#hasName> "Indigenous Peoples: M\u00E9tis"@en .
+<https://codelist.commonapproach.org/codeLists/edg6> <http://www.w3.org/2000/01/rdf-schema#label> "Indigenous Peoples: M\u00E9tis"@en .
+<https://codelist.commonapproach.org/codeLists/edg6> <http://www.w3.org/2004/02/skos/core#definition> "In Canada, Indigenous People whose members are of mixed First Nations and European ancestry, are united by a common origin, history and culture, and are generally accepted by the M\u00E9tis Nation."@en .
+<https://codelist.commonapproach.org/codeLists/edg6> <https://ontology.commonapproach.org/cids#hasDefinition> "In Canada, Indigenous People whose members are of mixed First Nations and European ancestry, are united by a common origin, history and culture, and are generally accepted by the M\u00E9tis Nation."@en .
+<https://codelist.commonapproach.org/codeLists/edg6> <https://ontology.commonapproach.org/cids#definedBy> <https://ontology.commonapproach.org/cids#esdc> .
+<https://codelist.commonapproach.org/codeLists/edg6> <https://ontology.commonapproach.org/cids#hasIdentifier> "edg6" .
+<https://codelist.commonapproach.org/codeLists/edg6> <http://www.w3.org/ns/prov#hadPrimarySource> <https://www.noslangues-ourlanguages.gc.ca/en/publications/equite-diversite-inclusion-equity-diversity-inclusion-eng#notion-69399> .
+<https://codelist.commonapproach.org/codeLists/edg7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#PopulationServed> .
+<https://codelist.commonapproach.org/codeLists/edg7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#CODE> .
+<https://codelist.commonapproach.org/codeLists/edg7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://codelist.commonapproach.org/codeLists/edg7> <http://www.w3.org/2004/02/skos/core#inScheme> <https://codelist.commonapproach.org/codeLists/EquityDeservingGroupsESDC#dataset> .
+<https://codelist.commonapproach.org/codeLists/edg7> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://codelist.commonapproach.org/codeLists/EquityDeservingGroupsESDC#> .
+<https://codelist.commonapproach.org/codeLists/edg7> <https://ontology.commonapproach.org/cids#hasName> "Official Languages Minority Communities"@en .
+<https://codelist.commonapproach.org/codeLists/edg7> <http://www.w3.org/2000/01/rdf-schema#label> "Official Languages Minority Communities"@en .
+<https://codelist.commonapproach.org/codeLists/edg7> <http://www.w3.org/2004/02/skos/core#definition> "In Canada, official-language minority communities are mainly French-speaking people living outside the province of Quebec and English-speaking people living in the province of Quebec."@en .
+<https://codelist.commonapproach.org/codeLists/edg7> <https://ontology.commonapproach.org/cids#hasDefinition> "In Canada, official-language minority communities are mainly French-speaking people living outside the province of Quebec and English-speaking people living in the province of Quebec."@en .
+<https://codelist.commonapproach.org/codeLists/edg7> <https://ontology.commonapproach.org/cids#definedBy> <https://ontology.commonapproach.org/cids#esdc> .
+<https://codelist.commonapproach.org/codeLists/edg7> <https://ontology.commonapproach.org/cids#hasIdentifier> "edg7" .
+<https://codelist.commonapproach.org/codeLists/edg8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#PopulationServed> .
+<https://codelist.commonapproach.org/codeLists/edg8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#CODE> .
+<https://codelist.commonapproach.org/codeLists/edg8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://codelist.commonapproach.org/codeLists/edg8> <http://www.w3.org/2004/02/skos/core#inScheme> <https://codelist.commonapproach.org/codeLists/EquityDeservingGroupsESDC#dataset> .
+<https://codelist.commonapproach.org/codeLists/edg8> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://codelist.commonapproach.org/codeLists/EquityDeservingGroupsESDC#> .
+<https://codelist.commonapproach.org/codeLists/edg8> <https://ontology.commonapproach.org/cids#hasName> "Other Racialized Peoples"@en .
+<https://codelist.commonapproach.org/codeLists/edg8> <http://www.w3.org/2000/01/rdf-schema#label> "Other Racialized Peoples"@en .
+<https://codelist.commonapproach.org/codeLists/edg8> <http://www.w3.org/2004/02/skos/core#definition> "People other than Indigenous peoples or Black Canadians who are non-Caucasian in race or non-white in colour (refer to the Statistics Canada definition for \u201Cvisible minorities\u201D)."@en .
+<https://codelist.commonapproach.org/codeLists/edg8> <https://ontology.commonapproach.org/cids#hasDefinition> "People other than Indigenous peoples or Black Canadians who are non-Caucasian in race or non-white in colour (refer to the Statistics Canada definition for \u201Cvisible minorities\u201D)."@en .
+<https://codelist.commonapproach.org/codeLists/edg8> <https://ontology.commonapproach.org/cids#definedBy> <https://ontology.commonapproach.org/cids#esdc> .
+<https://codelist.commonapproach.org/codeLists/edg8> <https://ontology.commonapproach.org/cids#hasIdentifier> "edg8" .
+<https://codelist.commonapproach.org/codeLists/edg9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#PopulationServed> .
+<https://codelist.commonapproach.org/codeLists/edg9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#CODE> .
+<https://codelist.commonapproach.org/codeLists/edg9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://codelist.commonapproach.org/codeLists/edg9> <http://www.w3.org/2004/02/skos/core#inScheme> <https://codelist.commonapproach.org/codeLists/EquityDeservingGroupsESDC#dataset> .
+<https://codelist.commonapproach.org/codeLists/edg9> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://codelist.commonapproach.org/codeLists/EquityDeservingGroupsESDC#> .
+<https://codelist.commonapproach.org/codeLists/edg9> <https://ontology.commonapproach.org/cids#hasName> "People Living with a Disability (including invisible and episodic disabilities)"@en .
+<https://codelist.commonapproach.org/codeLists/edg9> <http://www.w3.org/2000/01/rdf-schema#label> "People Living with a Disability (including invisible and episodic disabilities)"@en .
+<https://codelist.commonapproach.org/codeLists/edg9> <https://ontology.commonapproach.org/cids#definedBy> <https://ontology.commonapproach.org/cids#esdc> .
+<https://codelist.commonapproach.org/codeLists/edg9> <https://ontology.commonapproach.org/cids#hasIdentifier> "edg9" .
+<https://codelist.commonapproach.org/codeLists/edg9> <http://www.w3.org/ns/prov#hadPrimarySource> <https://codelist.commonapproach.org/codeLists/EquityDeservingGroupsESDC> .
+<https://codelist.commonapproach.org/codeLists/edg10> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#PopulationServed> .
+<https://codelist.commonapproach.org/codeLists/edg10> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#CODE> .
+<https://codelist.commonapproach.org/codeLists/edg10> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://codelist.commonapproach.org/codeLists/edg10> <http://www.w3.org/2004/02/skos/core#inScheme> <https://codelist.commonapproach.org/codeLists/EquityDeservingGroupsESDC#dataset> .
+<https://codelist.commonapproach.org/codeLists/edg10> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://codelist.commonapproach.org/codeLists/EquityDeservingGroupsESDC#> .
+<https://codelist.commonapproach.org/codeLists/edg10> <https://ontology.commonapproach.org/cids#hasName> "Women"@en .
+<https://codelist.commonapproach.org/codeLists/edg10> <http://www.w3.org/2000/01/rdf-schema#label> "Women"@en .
+<https://codelist.commonapproach.org/codeLists/edg10> <http://www.w3.org/2004/02/skos/core#definition> "All people who identify as women, whether they are cisgender or transgender women."@en .
+<https://codelist.commonapproach.org/codeLists/edg10> <https://ontology.commonapproach.org/cids#hasDefinition> "All people who identify as women, whether they are cisgender or transgender women."@en .
+<https://codelist.commonapproach.org/codeLists/edg10> <https://ontology.commonapproach.org/cids#definedBy> <https://ontology.commonapproach.org/cids#esdc> .
+<https://codelist.commonapproach.org/codeLists/edg10> <https://ontology.commonapproach.org/cids#hasIdentifier> "edg10" .
+<https://codelist.commonapproach.org/codeLists/edg11> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#PopulationServed> .
+<https://codelist.commonapproach.org/codeLists/edg11> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#CODE> .
+<https://codelist.commonapproach.org/codeLists/edg11> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://codelist.commonapproach.org/codeLists/edg11> <http://www.w3.org/2004/02/skos/core#inScheme> <https://codelist.commonapproach.org/codeLists/EquityDeservingGroupsESDC#dataset> .
+<https://codelist.commonapproach.org/codeLists/edg11> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://codelist.commonapproach.org/codeLists/EquityDeservingGroupsESDC#> .
+<https://codelist.commonapproach.org/codeLists/edg11> <https://ontology.commonapproach.org/cids#hasName> "Gender Diverse People: Non-Binary"@en .
+<https://codelist.commonapproach.org/codeLists/edg11> <http://www.w3.org/2000/01/rdf-schema#label> "Gender Diverse People: Non-Binary"@en .
+<https://codelist.commonapproach.org/codeLists/edg11> <http://www.w3.org/2004/02/skos/core#definition> "People whose gender identity does not align with a binary understanding of gender such as man or woman. It is a gender identity which may include man and woman, androgynous, fluid, multiple, no gender, or a different gender outside of the \u201Cwoman\u2014man\u201D spectrum."@en .
+<https://codelist.commonapproach.org/codeLists/edg11> <https://ontology.commonapproach.org/cids#hasDefinition> "People whose gender identity does not align with a binary understanding of gender such as man or woman. It is a gender identity which may include man and woman, androgynous, fluid, multiple, no gender, or a different gender outside of the \u201Cwoman\u2014man\u201D spectrum."@en .
+<https://codelist.commonapproach.org/codeLists/edg11> <https://ontology.commonapproach.org/cids#definedBy> <https://ontology.commonapproach.org/cids#esdc> .
+<https://codelist.commonapproach.org/codeLists/edg11> <https://ontology.commonapproach.org/cids#hasIdentifier> "edg11" .
+<https://codelist.commonapproach.org/codeLists/edg11> <http://www.w3.org/ns/prov#hadPrimarySource> <https://www.canada.ca/en/women-gender-equality/free-to-be-me/2slgbtqi-plus-glossary.html> .
+<https://codelist.commonapproach.org/codeLists/edg12> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#PopulationServed> .
+<https://codelist.commonapproach.org/codeLists/edg12> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#CODE> .
+<https://codelist.commonapproach.org/codeLists/edg12> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://codelist.commonapproach.org/codeLists/edg12> <http://www.w3.org/2004/02/skos/core#inScheme> <https://codelist.commonapproach.org/codeLists/EquityDeservingGroupsESDC#dataset> .
+<https://codelist.commonapproach.org/codeLists/edg12> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://codelist.commonapproach.org/codeLists/EquityDeservingGroupsESDC#> .
+<https://codelist.commonapproach.org/codeLists/edg12> <https://ontology.commonapproach.org/cids#hasName> "Gender Diverse People: Agender"@en .
+<https://codelist.commonapproach.org/codeLists/edg12> <http://www.w3.org/2000/01/rdf-schema#label> "Gender Diverse People: Agender"@en .
+<https://codelist.commonapproach.org/codeLists/edg12> <http://www.w3.org/2004/02/skos/core#definition> "People who do not identify as, or with, any particular gender."@en .
+<https://codelist.commonapproach.org/codeLists/edg12> <https://ontology.commonapproach.org/cids#hasDefinition> "People who do not identify as, or with, any particular gender."@en .
+<https://codelist.commonapproach.org/codeLists/edg12> <https://ontology.commonapproach.org/cids#definedBy> <https://ontology.commonapproach.org/cids#esdc> .
+<https://codelist.commonapproach.org/codeLists/edg12> <https://ontology.commonapproach.org/cids#hasIdentifier> "edg12" .
+<https://codelist.commonapproach.org/codeLists/edg12> <http://www.w3.org/ns/prov#hadPrimarySource> <https://dictionary.cambridge.org/dictionary/english/agender> .
+<https://codelist.commonapproach.org/codeLists/edg13> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#PopulationServed> .
+<https://codelist.commonapproach.org/codeLists/edg13> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#CODE> .
+<https://codelist.commonapproach.org/codeLists/edg13> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://codelist.commonapproach.org/codeLists/edg13> <http://www.w3.org/2004/02/skos/core#inScheme> <https://codelist.commonapproach.org/codeLists/EquityDeservingGroupsESDC#dataset> .
+<https://codelist.commonapproach.org/codeLists/edg13> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://codelist.commonapproach.org/codeLists/EquityDeservingGroupsESDC#> .
+<https://codelist.commonapproach.org/codeLists/edg13> <https://ontology.commonapproach.org/cids#hasName> "Gender Diverse People: Other"@en .
+<https://codelist.commonapproach.org/codeLists/edg13> <http://www.w3.org/2000/01/rdf-schema#label> "Gender Diverse People: Other"@en .
+<https://codelist.commonapproach.org/codeLists/edg13> <http://www.w3.org/2004/02/skos/core#definition> "People whose gender identity does not align with any of the other options provided."@en .
+<https://codelist.commonapproach.org/codeLists/edg13> <https://ontology.commonapproach.org/cids#hasDefinition> "People whose gender identity does not align with any of the other options provided."@en .
+<https://codelist.commonapproach.org/codeLists/edg13> <https://ontology.commonapproach.org/cids#definedBy> <https://ontology.commonapproach.org/cids#esdc> .
+<https://codelist.commonapproach.org/codeLists/edg13> <https://ontology.commonapproach.org/cids#hasIdentifier> "edg13" .
+<https://codelist.commonapproach.org/codeLists/edg14> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#PopulationServed> .
+<https://codelist.commonapproach.org/codeLists/edg14> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#CODE> .
+<https://codelist.commonapproach.org/codeLists/edg14> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://codelist.commonapproach.org/codeLists/edg14> <http://www.w3.org/2004/02/skos/core#inScheme> <https://codelist.commonapproach.org/codeLists/EquityDeservingGroupsESDC#dataset> .
+<https://codelist.commonapproach.org/codeLists/edg14> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://codelist.commonapproach.org/codeLists/EquityDeservingGroupsESDC#> .
+<https://codelist.commonapproach.org/codeLists/edg14> <https://ontology.commonapproach.org/cids#hasName> "Indigenous Peoples: Not Otherwise Specified"@en .
+<https://codelist.commonapproach.org/codeLists/edg14> <http://www.w3.org/2000/01/rdf-schema#label> "Indigenous Peoples: Not Otherwise Specified"@en .
+<https://codelist.commonapproach.org/codeLists/edg14> <http://www.w3.org/2004/02/skos/core#definition> "In Canada, individuals who self-identify as Indigenous (First Nations, Inuit, or Métis) but do not specify their group affiliation, are unsure of their specific ancestry, or identify with another Indigenous community not listed separately."@en .
+<https://codelist.commonapproach.org/codeLists/edg14> <https://ontology.commonapproach.org/cids#hasDefinition> "In Canada, individuals who self-identify as Indigenous (First Nations, Inuit, or Métis) but do not specify their group affiliation, are unsure of their specific ancestry, or identify with another Indigenous community not listed separately."@en .
+<https://codelist.commonapproach.org/codeLists/edg14> <https://ontology.commonapproach.org/cids#definedBy> <https://ontology.commonapproach.org/cids#esdc> .
+<https://codelist.commonapproach.org/codeLists/edg14> <https://ontology.commonapproach.org/cids#hasIdentifier> "edg14" .
+<https://codelist.commonapproach.org/codeLists/edg14> <http://www.w3.org/ns/prov#hadPrimarySource> <https://www.noslangues-ourlanguages.gc.ca/en/publications/equite-diversite-inclusion-equity-diversity-inclusion-eng#notion-69399> .

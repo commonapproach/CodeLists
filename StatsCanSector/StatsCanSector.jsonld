@@ -1,0 +1,887 @@
+[
+  {
+    "@id": "https://codelist.commonapproach.org/codeLists/StatsCanSector#sec19",
+    "@type": [
+      "https://ontology.commonapproach.org/cids#Sector",
+      "https://ontology.commonapproach.org/cids#CODE",
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "https://codelist.commonapproach.org/codeLists/StatsCanSector#"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "Other services (except public administration)"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://codelist.commonapproach.org/codeLists/StatsCanSector#dataset"
+      }
+    ],
+    "https://ontology.commonapproach.org/cids#definedBy": [
+      {
+        "@id": "https://ontology.commonapproach.org/cids#statsCan"
+      }
+    ],
+    "https://ontology.commonapproach.org/cids#hasIdentifier": [
+      {
+        "@value": "81"
+      }
+    ],
+    "https://ontology.commonapproach.org/cids#hasName": [
+      {
+        "@language": "en",
+        "@value": "Other services (except public administration)"
+      }
+    ]
+  },
+  {
+    "@id": "https://codelist.commonapproach.org/codeLists/StatsCanSector#sec2",
+    "@type": [
+      "https://ontology.commonapproach.org/cids#Sector",
+      "https://ontology.commonapproach.org/cids#CODE",
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "https://codelist.commonapproach.org/codeLists/StatsCanSector#"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "Mining, quarrying, and oil and gas extraction"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://codelist.commonapproach.org/codeLists/StatsCanSector#dataset"
+      }
+    ],
+    "https://ontology.commonapproach.org/cids#definedBy": [
+      {
+        "@id": "https://ontology.commonapproach.org/cids#statsCan"
+      }
+    ],
+    "https://ontology.commonapproach.org/cids#hasIdentifier": [
+      {
+        "@value": "21"
+      }
+    ],
+    "https://ontology.commonapproach.org/cids#hasName": [
+      {
+        "@language": "en",
+        "@value": "Mining, quarrying, and oil and gas extraction"
+      }
+    ]
+  },
+  {
+    "@id": "https://codelist.commonapproach.org/codeLists/StatsCanSector#dataset",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme"
+    ]
+  },
+  {
+    "@id": "https://codelist.commonapproach.org/codeLists/StatsCanSector#sec9",
+    "@type": [
+      "https://ontology.commonapproach.org/cids#Sector",
+      "https://ontology.commonapproach.org/cids#CODE",
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "https://codelist.commonapproach.org/codeLists/StatsCanSector#"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "Information and cultural industries"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://codelist.commonapproach.org/codeLists/StatsCanSector#dataset"
+      }
+    ],
+    "https://ontology.commonapproach.org/cids#definedBy": [
+      {
+        "@id": "https://ontology.commonapproach.org/cids#statsCan"
+      }
+    ],
+    "https://ontology.commonapproach.org/cids#hasIdentifier": [
+      {
+        "@value": "51"
+      }
+    ],
+    "https://ontology.commonapproach.org/cids#hasName": [
+      {
+        "@language": "en",
+        "@value": "Information and cultural industries"
+      }
+    ]
+  },
+  {
+    "@id": "https://codelist.commonapproach.org/codeLists/StatsCanSector#sec5",
+    "@type": [
+      "https://ontology.commonapproach.org/cids#Sector",
+      "https://ontology.commonapproach.org/cids#CODE",
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "https://codelist.commonapproach.org/codeLists/StatsCanSector#"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "Manufacturing"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://codelist.commonapproach.org/codeLists/StatsCanSector#dataset"
+      }
+    ],
+    "https://ontology.commonapproach.org/cids#definedBy": [
+      {
+        "@id": "https://ontology.commonapproach.org/cids#statsCan"
+      }
+    ],
+    "https://ontology.commonapproach.org/cids#hasIdentifier": [
+      {
+        "@value": "31"
+      },
+      {
+        "@value": "32"
+      },
+      {
+        "@value": "33"
+      }
+    ],
+    "https://ontology.commonapproach.org/cids#hasName": [
+      {
+        "@language": "en",
+        "@value": "Manufacturing"
+      }
+    ]
+  },
+  {
+    "@id": "https://codelist.commonapproach.org/codeLists/StatsCanSector#sec16",
+    "@type": [
+      "https://ontology.commonapproach.org/cids#Sector",
+      "https://ontology.commonapproach.org/cids#CODE",
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "https://codelist.commonapproach.org/codeLists/StatsCanSector#"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "Health care and social assistance"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://codelist.commonapproach.org/codeLists/StatsCanSector#dataset"
+      }
+    ],
+    "https://ontology.commonapproach.org/cids#definedBy": [
+      {
+        "@id": "https://ontology.commonapproach.org/cids#statsCan"
+      }
+    ],
+    "https://ontology.commonapproach.org/cids#hasIdentifier": [
+      {
+        "@value": "62"
+      }
+    ],
+    "https://ontology.commonapproach.org/cids#hasName": [
+      {
+        "@language": "en",
+        "@value": "Health care and social assistance"
+      }
+    ]
+  },
+  {
+    "@id": "https://codelist.commonapproach.org/codeLists/StatsCanSector#sec6",
+    "@type": [
+      "https://ontology.commonapproach.org/cids#Sector",
+      "https://ontology.commonapproach.org/cids#CODE",
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "https://codelist.commonapproach.org/codeLists/StatsCanSector#"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "Wholesale trade"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://codelist.commonapproach.org/codeLists/StatsCanSector#dataset"
+      }
+    ],
+    "https://ontology.commonapproach.org/cids#definedBy": [
+      {
+        "@id": "https://ontology.commonapproach.org/cids#statsCan"
+      }
+    ],
+    "https://ontology.commonapproach.org/cids#hasIdentifier": [
+      {
+        "@value": "41"
+      }
+    ],
+    "https://ontology.commonapproach.org/cids#hasName": [
+      {
+        "@language": "en",
+        "@value": "Wholesale trade"
+      }
+    ]
+  },
+  {
+    "@id": "https://codelist.commonapproach.org/codeLists/StatsCanSector#sec15",
+    "@type": [
+      "https://ontology.commonapproach.org/cids#Sector",
+      "https://ontology.commonapproach.org/cids#CODE",
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "https://codelist.commonapproach.org/codeLists/StatsCanSector#"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "Educational services"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://codelist.commonapproach.org/codeLists/StatsCanSector#dataset"
+      }
+    ],
+    "https://ontology.commonapproach.org/cids#definedBy": [
+      {
+        "@id": "https://ontology.commonapproach.org/cids#statsCan"
+      }
+    ],
+    "https://ontology.commonapproach.org/cids#hasIdentifier": [
+      {
+        "@value": "61"
+      }
+    ],
+    "https://ontology.commonapproach.org/cids#hasName": [
+      {
+        "@language": "en",
+        "@value": "Educational services"
+      }
+    ]
+  },
+  {
+    "@id": "https://codelist.commonapproach.org/codeLists/StatsCanSector#sec4",
+    "@type": [
+      "https://ontology.commonapproach.org/cids#Sector",
+      "https://ontology.commonapproach.org/cids#CODE",
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "https://codelist.commonapproach.org/codeLists/StatsCanSector#"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "Construction"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://codelist.commonapproach.org/codeLists/StatsCanSector#dataset"
+      }
+    ],
+    "https://ontology.commonapproach.org/cids#definedBy": [
+      {
+        "@id": "https://ontology.commonapproach.org/cids#statsCan"
+      }
+    ],
+    "https://ontology.commonapproach.org/cids#hasIdentifier": [
+      {
+        "@value": "23"
+      }
+    ],
+    "https://ontology.commonapproach.org/cids#hasName": [
+      {
+        "@language": "en",
+        "@value": "Construction"
+      }
+    ]
+  },
+  {
+    "@id": "https://codelist.commonapproach.org/codeLists/StatsCanSector#sec11",
+    "@type": [
+      "https://ontology.commonapproach.org/cids#Sector",
+      "https://ontology.commonapproach.org/cids#CODE",
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "https://codelist.commonapproach.org/codeLists/StatsCanSector#"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "Real estate and rental and leasing"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://codelist.commonapproach.org/codeLists/StatsCanSector#dataset"
+      }
+    ],
+    "https://ontology.commonapproach.org/cids#definedBy": [
+      {
+        "@id": "https://ontology.commonapproach.org/cids#statsCan"
+      }
+    ],
+    "https://ontology.commonapproach.org/cids#hasIdentifier": [
+      {
+        "@value": "53"
+      }
+    ],
+    "https://ontology.commonapproach.org/cids#hasName": [
+      {
+        "@language": "en",
+        "@value": "Real estate and rental and leasing"
+      }
+    ]
+  },
+  {
+    "@id": "https://codelist.commonapproach.org/codeLists/StatsCanSector#sec20",
+    "@type": [
+      "https://ontology.commonapproach.org/cids#Sector",
+      "https://ontology.commonapproach.org/cids#CODE",
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "https://codelist.commonapproach.org/codeLists/StatsCanSector#"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "Public administration"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://codelist.commonapproach.org/codeLists/StatsCanSector#dataset"
+      }
+    ],
+    "https://ontology.commonapproach.org/cids#definedBy": [
+      {
+        "@id": "https://ontology.commonapproach.org/cids#statsCan"
+      }
+    ],
+    "https://ontology.commonapproach.org/cids#hasIdentifier": [
+      {
+        "@value": "91"
+      }
+    ],
+    "https://ontology.commonapproach.org/cids#hasName": [
+      {
+        "@language": "en",
+        "@value": "Public administration"
+      }
+    ]
+  },
+  {
+    "@id": "https://codelist.commonapproach.org/codeLists/StatsCanSector#sec8",
+    "@type": [
+      "https://ontology.commonapproach.org/cids#Sector",
+      "https://ontology.commonapproach.org/cids#CODE",
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "https://codelist.commonapproach.org/codeLists/StatsCanSector#"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "Transportation and warehousing"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://codelist.commonapproach.org/codeLists/StatsCanSector#dataset"
+      }
+    ],
+    "https://ontology.commonapproach.org/cids#definedBy": [
+      {
+        "@id": "https://ontology.commonapproach.org/cids#statsCan"
+      }
+    ],
+    "https://ontology.commonapproach.org/cids#hasIdentifier": [
+      {
+        "@value": "48"
+      },
+      {
+        "@value": "49"
+      }
+    ],
+    "https://ontology.commonapproach.org/cids#hasName": [
+      {
+        "@language": "en",
+        "@value": "Transportation and warehousing"
+      }
+    ]
+  },
+  {
+    "@id": "https://codelist.commonapproach.org/codeLists/StatsCanSector#sec17",
+    "@type": [
+      "https://ontology.commonapproach.org/cids#Sector",
+      "https://ontology.commonapproach.org/cids#CODE",
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "https://codelist.commonapproach.org/codeLists/StatsCanSector#"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "Arts, entertainment and recreation"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://codelist.commonapproach.org/codeLists/StatsCanSector#dataset"
+      }
+    ],
+    "https://ontology.commonapproach.org/cids#definedBy": [
+      {
+        "@id": "https://ontology.commonapproach.org/cids#statsCan"
+      }
+    ],
+    "https://ontology.commonapproach.org/cids#hasIdentifier": [
+      {
+        "@value": "71"
+      }
+    ],
+    "https://ontology.commonapproach.org/cids#hasName": [
+      {
+        "@language": "en",
+        "@value": "Arts, entertainment and recreation"
+      }
+    ]
+  },
+  {
+    "@id": "https://codelist.commonapproach.org/codeLists/StatsCanSector",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Ontology",
+      "http://purl.org/vocommons/voafVocabulary"
+    ],
+    "http://purl.org/dc/terms/creator": [
+      {
+        "@id": "https://ontology.commonapproach.org/cids#ac"
+      }
+    ],
+    "http://purl.org/dc/terms/date": [
+      {
+        "@value": "03-10-2024"
+      }
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@language": "en",
+        "@value": "A codelist vocabulary of Sectors as defined by Statistics Canada."
+      }
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@language": "en",
+        "@value": "Statistics Canada Sectors"
+      }
+    ],
+    "http://purl.org/vocab/vann/preferredNamespacePrefix": [
+      {
+        "@value": "StatsCanSector"
+      }
+    ],
+    "http://purl.org/vocab/vann/preferredNamespaceUri": [
+      {
+        "@id": "https://codelist.commonapproach.org/codeLists/StatsCanSector#"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Statistics Canada Sectors"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#imports": [
+      {
+        "@id": "https://ontology.commonapproach.org/owl/cids"
+      },
+      {
+        "@id": "http://www.w3.org/2006/time"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#versionInfo": [
+      {
+        "@value": "1.0"
+      }
+    ],
+    "http://xmlns.com/foaf/0.1/name": [
+      {
+        "@value": "Statistics Canada Sectors"
+      }
+    ],
+    "https://ontology.commonapproach.org/cids#hasName": [
+      {
+        "@value": "Statistics Canada Sectors"
+      }
+    ]
+  },
+  {
+    "@id": "https://codelist.commonapproach.org/codeLists/StatsCanSector#sec18",
+    "@type": [
+      "https://ontology.commonapproach.org/cids#Sector",
+      "https://ontology.commonapproach.org/cids#CODE",
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "https://codelist.commonapproach.org/codeLists/StatsCanSector#"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "Accommodation and food services"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://codelist.commonapproach.org/codeLists/StatsCanSector#dataset"
+      }
+    ],
+    "https://ontology.commonapproach.org/cids#definedBy": [
+      {
+        "@id": "https://ontology.commonapproach.org/cids#statsCan"
+      }
+    ],
+    "https://ontology.commonapproach.org/cids#hasIdentifier": [
+      {
+        "@value": "72"
+      }
+    ],
+    "https://ontology.commonapproach.org/cids#hasName": [
+      {
+        "@language": "en",
+        "@value": "Accommodation and food services"
+      }
+    ]
+  },
+  {
+    "@id": "https://codelist.commonapproach.org/codeLists/StatsCanSector#sec13",
+    "@type": [
+      "https://ontology.commonapproach.org/cids#Sector",
+      "https://ontology.commonapproach.org/cids#CODE",
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "https://codelist.commonapproach.org/codeLists/StatsCanSector#"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "Management of companies and enterprises"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://codelist.commonapproach.org/codeLists/StatsCanSector#dataset"
+      }
+    ],
+    "https://ontology.commonapproach.org/cids#definedBy": [
+      {
+        "@id": "https://ontology.commonapproach.org/cids#statsCan"
+      }
+    ],
+    "https://ontology.commonapproach.org/cids#hasIdentifier": [
+      {
+        "@value": "55"
+      }
+    ],
+    "https://ontology.commonapproach.org/cids#hasName": [
+      {
+        "@language": "en",
+        "@value": "Management of companies and enterprises"
+      }
+    ]
+  },
+  {
+    "@id": "https://codelist.commonapproach.org/codeLists/StatsCanSector#sec10",
+    "@type": [
+      "https://ontology.commonapproach.org/cids#Sector",
+      "https://ontology.commonapproach.org/cids#CODE",
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "https://codelist.commonapproach.org/codeLists/StatsCanSector#"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "Finance and insurance"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://codelist.commonapproach.org/codeLists/StatsCanSector#dataset"
+      }
+    ],
+    "https://ontology.commonapproach.org/cids#definedBy": [
+      {
+        "@id": "https://ontology.commonapproach.org/cids#statsCan"
+      }
+    ],
+    "https://ontology.commonapproach.org/cids#hasIdentifier": [
+      {
+        "@value": "52"
+      }
+    ],
+    "https://ontology.commonapproach.org/cids#hasName": [
+      {
+        "@language": "en",
+        "@value": "Finance and insurance"
+      }
+    ]
+  },
+  {
+    "@id": "https://codelist.commonapproach.org/codeLists/StatsCanSector#sec12",
+    "@type": [
+      "https://ontology.commonapproach.org/cids#Sector",
+      "https://ontology.commonapproach.org/cids#CODE",
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "https://codelist.commonapproach.org/codeLists/StatsCanSector#"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "Professional, scientific and technical services"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://codelist.commonapproach.org/codeLists/StatsCanSector#dataset"
+      }
+    ],
+    "https://ontology.commonapproach.org/cids#definedBy": [
+      {
+        "@id": "https://ontology.commonapproach.org/cids#statsCan"
+      }
+    ],
+    "https://ontology.commonapproach.org/cids#hasIdentifier": [
+      {
+        "@value": "54"
+      }
+    ],
+    "https://ontology.commonapproach.org/cids#hasName": [
+      {
+        "@language": "en",
+        "@value": "Professional, scientific and technical services"
+      }
+    ]
+  },
+  {
+    "@id": "https://codelist.commonapproach.org/codeLists/StatsCanSector#sec1",
+    "@type": [
+      "https://ontology.commonapproach.org/cids#Sector",
+      "https://ontology.commonapproach.org/cids#CODE",
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "https://codelist.commonapproach.org/codeLists/StatsCanSector#"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "Agriculture, forestry, fishing and hunting"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://codelist.commonapproach.org/codeLists/StatsCanSector#dataset"
+      }
+    ],
+    "https://ontology.commonapproach.org/cids#definedBy": [
+      {
+        "@id": "https://ontology.commonapproach.org/cids#statsCan"
+      }
+    ],
+    "https://ontology.commonapproach.org/cids#hasIdentifier": [
+      {
+        "@value": "11"
+      }
+    ],
+    "https://ontology.commonapproach.org/cids#hasName": [
+      {
+        "@language": "en",
+        "@value": "Agriculture, forestry, fishing and hunting"
+      }
+    ]
+  },
+  {
+    "@id": "https://codelist.commonapproach.org/codeLists/StatsCanSector#sec3",
+    "@type": [
+      "https://ontology.commonapproach.org/cids#Sector",
+      "https://ontology.commonapproach.org/cids#CODE",
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "https://codelist.commonapproach.org/codeLists/StatsCanSector#"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "Utilities"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://codelist.commonapproach.org/codeLists/StatsCanSector#dataset"
+      }
+    ],
+    "https://ontology.commonapproach.org/cids#definedBy": [
+      {
+        "@id": "https://ontology.commonapproach.org/cids#statsCan"
+      }
+    ],
+    "https://ontology.commonapproach.org/cids#hasIdentifier": [
+      {
+        "@value": "22"
+      }
+    ],
+    "https://ontology.commonapproach.org/cids#hasName": [
+      {
+        "@language": "en",
+        "@value": "Utilities"
+      }
+    ]
+  },
+  {
+    "@id": "https://codelist.commonapproach.org/codeLists/StatsCanSector#sec14",
+    "@type": [
+      "https://ontology.commonapproach.org/cids#Sector",
+      "https://ontology.commonapproach.org/cids#CODE",
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "https://codelist.commonapproach.org/codeLists/StatsCanSector#"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "Administrative and support, waste management and remediation services"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://codelist.commonapproach.org/codeLists/StatsCanSector#dataset"
+      }
+    ],
+    "https://ontology.commonapproach.org/cids#definedBy": [
+      {
+        "@id": "https://ontology.commonapproach.org/cids#statsCan"
+      }
+    ],
+    "https://ontology.commonapproach.org/cids#hasIdentifier": [
+      {
+        "@value": "56"
+      }
+    ],
+    "https://ontology.commonapproach.org/cids#hasName": [
+      {
+        "@language": "en",
+        "@value": "Administrative and support, waste management and remediation services"
+      }
+    ]
+  },
+  {
+    "@id": "https://codelist.commonapproach.org/codeLists/StatsCanSector#sec7",
+    "@type": [
+      "https://ontology.commonapproach.org/cids#Sector",
+      "https://ontology.commonapproach.org/cids#CODE",
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "https://codelist.commonapproach.org/codeLists/StatsCanSector#"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "Retail trade"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://codelist.commonapproach.org/codeLists/StatsCanSector#dataset"
+      }
+    ],
+    "https://ontology.commonapproach.org/cids#definedBy": [
+      {
+        "@id": "https://ontology.commonapproach.org/cids#statsCan"
+      }
+    ],
+    "https://ontology.commonapproach.org/cids#hasIdentifier": [
+      {
+        "@value": "44"
+      },
+      {
+        "@value": "45"
+      }
+    ],
+    "https://ontology.commonapproach.org/cids#hasName": [
+      {
+        "@language": "en",
+        "@value": "Retail trade"
+      }
+    ]
+  }
+]

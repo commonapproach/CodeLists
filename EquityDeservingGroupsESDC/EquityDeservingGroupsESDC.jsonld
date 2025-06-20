@@ -1,0 +1,836 @@
+[
+  {
+    "@id": "https://codelist.commonapproach.org/codeLists/edg9",
+    "@type": [
+      "https://ontology.commonapproach.org/cids#PopulationServed",
+      "https://ontology.commonapproach.org/cids#CODE",
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "https://codelist.commonapproach.org/codeLists/EquityDeservingGroupsESDC#"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "People Living with a Disability (including invisible and episodic disabilities)"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://codelist.commonapproach.org/codeLists/EquityDeservingGroupsESDC#dataset"
+      }
+    ],
+    "http://www.w3.org/ns/prov#hadPrimarySource": [
+      {
+        "@id": "https://codelist.commonapproach.org/codeLists/EquityDeservingGroupsESDC"
+      }
+    ],
+    "https://ontology.commonapproach.org/cids#definedBy": [
+      {
+        "@id": "https://ontology.commonapproach.org/cids#esdc"
+      }
+    ],
+    "https://ontology.commonapproach.org/cids#hasIdentifier": [
+      {
+        "@value": "edg9"
+      }
+    ],
+    "https://ontology.commonapproach.org/cids#hasName": [
+      {
+        "@language": "en",
+        "@value": "People Living with a Disability (including invisible and episodic disabilities)"
+      }
+    ]
+  },
+  {
+    "@id": "https://codelist.commonapproach.org/codeLists/edg11",
+    "@type": [
+      "https://ontology.commonapproach.org/cids#PopulationServed",
+      "https://ontology.commonapproach.org/cids#CODE",
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "https://codelist.commonapproach.org/codeLists/EquityDeservingGroupsESDC#"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "Gender Diverse People: Non-Binary"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "People whose gender identity does not align with a binary understanding of gender such as man or woman. It is a gender identity which may include man and woman, androgynous, fluid, multiple, no gender, or a different gender outside of the “woman—man” spectrum."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://codelist.commonapproach.org/codeLists/EquityDeservingGroupsESDC#dataset"
+      }
+    ],
+    "http://www.w3.org/ns/prov#hadPrimarySource": [
+      {
+        "@id": "https://www.canada.ca/en/women-gender-equality/free-to-be-me/2slgbtqi-plus-glossary.html"
+      }
+    ],
+    "https://ontology.commonapproach.org/cids#definedBy": [
+      {
+        "@id": "https://ontology.commonapproach.org/cids#esdc"
+      }
+    ],
+    "https://ontology.commonapproach.org/cids#hasDefinition": [
+      {
+        "@language": "en",
+        "@value": "People whose gender identity does not align with a binary understanding of gender such as man or woman. It is a gender identity which may include man and woman, androgynous, fluid, multiple, no gender, or a different gender outside of the “woman—man” spectrum."
+      }
+    ],
+    "https://ontology.commonapproach.org/cids#hasIdentifier": [
+      {
+        "@value": "edg11"
+      }
+    ],
+    "https://ontology.commonapproach.org/cids#hasName": [
+      {
+        "@language": "en",
+        "@value": "Gender Diverse People: Non-Binary"
+      }
+    ]
+  },
+  {
+    "@id": "https://codelist.commonapproach.org/codeLists/edg6",
+    "@type": [
+      "https://ontology.commonapproach.org/cids#PopulationServed",
+      "https://ontology.commonapproach.org/cids#CODE",
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "https://codelist.commonapproach.org/codeLists/EquityDeservingGroupsESDC#"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "Indigenous Peoples: Métis"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "In Canada, Indigenous People whose members are of mixed First Nations and European ancestry, are united by a common origin, history and culture, and are generally accepted by the Métis Nation."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://codelist.commonapproach.org/codeLists/EquityDeservingGroupsESDC#dataset"
+      }
+    ],
+    "http://www.w3.org/ns/prov#hadPrimarySource": [
+      {
+        "@id": "https://www.noslangues-ourlanguages.gc.ca/en/publications/equite-diversite-inclusion-equity-diversity-inclusion-eng#notion-69399"
+      }
+    ],
+    "https://ontology.commonapproach.org/cids#definedBy": [
+      {
+        "@id": "https://ontology.commonapproach.org/cids#esdc"
+      }
+    ],
+    "https://ontology.commonapproach.org/cids#hasDefinition": [
+      {
+        "@language": "en",
+        "@value": "In Canada, Indigenous People whose members are of mixed First Nations and European ancestry, are united by a common origin, history and culture, and are generally accepted by the Métis Nation."
+      }
+    ],
+    "https://ontology.commonapproach.org/cids#hasIdentifier": [
+      {
+        "@value": "edg6"
+      }
+    ],
+    "https://ontology.commonapproach.org/cids#hasName": [
+      {
+        "@language": "en",
+        "@value": "Indigenous Peoples: Métis"
+      }
+    ]
+  },
+  {
+    "@id": "https://codelist.commonapproach.org/codeLists/edg3",
+    "@type": [
+      "https://ontology.commonapproach.org/cids#PopulationServed",
+      "https://ontology.commonapproach.org/cids#CODE",
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "https://codelist.commonapproach.org/codeLists/EquityDeservingGroupsESDC#"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "First Generation Immigrants, Refugees & Newcomers"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "People who were born outside Canada. For the most part, these are people who are now, or once were, immigrants to Canada. People who were forced to flee from persecution in their home country. This includes Convention refugees (as defined by the Immigration and Refugee Protection Act (S.C. 2001, c. 27)) and asylum-seekers or refugee claimants. Immigrants and Refugees that have been in Canada for less than five years."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://codelist.commonapproach.org/codeLists/EquityDeservingGroupsESDC#dataset"
+      }
+    ],
+    "https://ontology.commonapproach.org/cids#definedBy": [
+      {
+        "@id": "https://ontology.commonapproach.org/cids#esdc"
+      }
+    ],
+    "https://ontology.commonapproach.org/cids#hasDefinition": [
+      {
+        "@language": "en",
+        "@value": "People who were born outside Canada. For the most part, these are people who are now, or once were, immigrants to Canada. People who were forced to flee from persecution in their home country. This includes Convention refugees (as defined by the Immigration and Refugee Protection Act (S.C. 2001, c. 27)) and asylum-seekers or refugee claimants. Immigrants and Refugees that have been in Canada for less than five years."
+      }
+    ],
+    "https://ontology.commonapproach.org/cids#hasIdentifier": [
+      {
+        "@value": "edg3"
+      }
+    ],
+    "https://ontology.commonapproach.org/cids#hasName": [
+      {
+        "@language": "en",
+        "@value": "First Generation Immigrants, Refugees & Newcomers"
+      }
+    ]
+  },
+  {
+    "@id": "https://codelist.commonapproach.org/codeLists/EquityDeservingGroupsESDC#dataset",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme"
+    ]
+  },
+  {
+    "@id": "https://codelist.commonapproach.org/codeLists/edg4",
+    "@type": [
+      "https://ontology.commonapproach.org/cids#PopulationServed",
+      "https://ontology.commonapproach.org/cids#CODE",
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "https://codelist.commonapproach.org/codeLists/EquityDeservingGroupsESDC#"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "Indigenous Peoples: First Nations"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "In Canada, Indigenous people who are part of a First Nation or whose ancestors were part of a First Nation. A First Nation person can be a Status or Non-Status Indian."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://codelist.commonapproach.org/codeLists/EquityDeservingGroupsESDC#dataset"
+      }
+    ],
+    "http://www.w3.org/ns/prov#hadPrimarySource": [
+      {
+        "@id": "https://www.noslangues-ourlanguages.gc.ca/en/publications/equite-diversite-inclusion-equity-diversity-inclusion-eng#notion-69399"
+      }
+    ],
+    "https://ontology.commonapproach.org/cids#definedBy": [
+      {
+        "@id": "https://ontology.commonapproach.org/cids#esdc"
+      }
+    ],
+    "https://ontology.commonapproach.org/cids#hasDefinition": [
+      {
+        "@language": "en",
+        "@value": "In Canada, Indigenous people who are part of a First Nation or whose ancestors were part of a First Nation. A First Nation person can be a Status or Non-Status Indian."
+      }
+    ],
+    "https://ontology.commonapproach.org/cids#hasIdentifier": [
+      {
+        "@value": "edg4"
+      }
+    ],
+    "https://ontology.commonapproach.org/cids#hasName": [
+      {
+        "@language": "en",
+        "@value": "Indigenous Peoples: First Nations"
+      }
+    ]
+  },
+  {
+    "@id": "https://codelist.commonapproach.org/codeLists/edg2",
+    "@type": [
+      "https://ontology.commonapproach.org/cids#PopulationServed",
+      "https://ontology.commonapproach.org/cids#CODE",
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "https://codelist.commonapproach.org/codeLists/EquityDeservingGroupsESDC#"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "Black People"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "People belonging to any of various population groups of especially African ancestry often considered as having dark pigmentation of the skin but in fact having a wide range of skin colours."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://codelist.commonapproach.org/codeLists/EquityDeservingGroupsESDC#dataset"
+      }
+    ],
+    "http://www.w3.org/ns/prov#hadPrimarySource": [
+      {
+        "@id": "https://www.noslangues-ourlanguages.gc.ca/en/publications/equite-diversite-inclusion-equity-diversity-inclusion-eng#notion-69399"
+      }
+    ],
+    "https://ontology.commonapproach.org/cids#definedBy": [
+      {
+        "@id": "https://ontology.commonapproach.org/cids#esdc"
+      }
+    ],
+    "https://ontology.commonapproach.org/cids#hasDefinition": [
+      {
+        "@language": "en",
+        "@value": "People belonging to any of various population groups of especially African ancestry often considered as having dark pigmentation of the skin but in fact having a wide range of skin colours."
+      }
+    ],
+    "https://ontology.commonapproach.org/cids#hasIdentifier": [
+      {
+        "@value": "edg2"
+      }
+    ],
+    "https://ontology.commonapproach.org/cids#hasName": [
+      {
+        "@language": "en",
+        "@value": "Black People"
+      }
+    ]
+  },
+  {
+    "@id": "https://codelist.commonapproach.org/codeLists/edg10",
+    "@type": [
+      "https://ontology.commonapproach.org/cids#PopulationServed",
+      "https://ontology.commonapproach.org/cids#CODE",
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "https://codelist.commonapproach.org/codeLists/EquityDeservingGroupsESDC#"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "Women"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "All people who identify as women, whether they are cisgender or transgender women."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://codelist.commonapproach.org/codeLists/EquityDeservingGroupsESDC#dataset"
+      }
+    ],
+    "https://ontology.commonapproach.org/cids#definedBy": [
+      {
+        "@id": "https://ontology.commonapproach.org/cids#esdc"
+      }
+    ],
+    "https://ontology.commonapproach.org/cids#hasDefinition": [
+      {
+        "@language": "en",
+        "@value": "All people who identify as women, whether they are cisgender or transgender women."
+      }
+    ],
+    "https://ontology.commonapproach.org/cids#hasIdentifier": [
+      {
+        "@value": "edg10"
+      }
+    ],
+    "https://ontology.commonapproach.org/cids#hasName": [
+      {
+        "@language": "en",
+        "@value": "Women"
+      }
+    ]
+  },
+  {
+    "@id": "https://codelist.commonapproach.org/codeLists/edg7",
+    "@type": [
+      "https://ontology.commonapproach.org/cids#PopulationServed",
+      "https://ontology.commonapproach.org/cids#CODE",
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "https://codelist.commonapproach.org/codeLists/EquityDeservingGroupsESDC#"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "Official Languages Minority Communities"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "In Canada, official-language minority communities are mainly French-speaking people living outside the province of Quebec and English-speaking people living in the province of Quebec."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://codelist.commonapproach.org/codeLists/EquityDeservingGroupsESDC#dataset"
+      }
+    ],
+    "https://ontology.commonapproach.org/cids#definedBy": [
+      {
+        "@id": "https://ontology.commonapproach.org/cids#esdc"
+      }
+    ],
+    "https://ontology.commonapproach.org/cids#hasDefinition": [
+      {
+        "@language": "en",
+        "@value": "In Canada, official-language minority communities are mainly French-speaking people living outside the province of Quebec and English-speaking people living in the province of Quebec."
+      }
+    ],
+    "https://ontology.commonapproach.org/cids#hasIdentifier": [
+      {
+        "@value": "edg7"
+      }
+    ],
+    "https://ontology.commonapproach.org/cids#hasName": [
+      {
+        "@language": "en",
+        "@value": "Official Languages Minority Communities"
+      }
+    ]
+  },
+  {
+    "@id": "https://codelist.commonapproach.org/codeLists/edg12",
+    "@type": [
+      "https://ontology.commonapproach.org/cids#PopulationServed",
+      "https://ontology.commonapproach.org/cids#CODE",
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "https://codelist.commonapproach.org/codeLists/EquityDeservingGroupsESDC#"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "Gender Diverse People: Agender"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "People who do not identify as, or with, any particular gender."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://codelist.commonapproach.org/codeLists/EquityDeservingGroupsESDC#dataset"
+      }
+    ],
+    "http://www.w3.org/ns/prov#hadPrimarySource": [
+      {
+        "@id": "https://dictionary.cambridge.org/dictionary/english/agender"
+      }
+    ],
+    "https://ontology.commonapproach.org/cids#definedBy": [
+      {
+        "@id": "https://ontology.commonapproach.org/cids#esdc"
+      }
+    ],
+    "https://ontology.commonapproach.org/cids#hasDefinition": [
+      {
+        "@language": "en",
+        "@value": "People who do not identify as, or with, any particular gender."
+      }
+    ],
+    "https://ontology.commonapproach.org/cids#hasIdentifier": [
+      {
+        "@value": "edg12"
+      }
+    ],
+    "https://ontology.commonapproach.org/cids#hasName": [
+      {
+        "@language": "en",
+        "@value": "Gender Diverse People: Agender"
+      }
+    ]
+  },
+  {
+    "@id": "https://codelist.commonapproach.org/codeLists/edg8",
+    "@type": [
+      "https://ontology.commonapproach.org/cids#PopulationServed",
+      "https://ontology.commonapproach.org/cids#CODE",
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "https://codelist.commonapproach.org/codeLists/EquityDeservingGroupsESDC#"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "Other Racialized Peoples"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "People other than Indigenous peoples or Black Canadians who are non-Caucasian in race or non-white in colour (refer to the Statistics Canada definition for “visible minorities”)."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://codelist.commonapproach.org/codeLists/EquityDeservingGroupsESDC#dataset"
+      }
+    ],
+    "https://ontology.commonapproach.org/cids#definedBy": [
+      {
+        "@id": "https://ontology.commonapproach.org/cids#esdc"
+      }
+    ],
+    "https://ontology.commonapproach.org/cids#hasDefinition": [
+      {
+        "@language": "en",
+        "@value": "People other than Indigenous peoples or Black Canadians who are non-Caucasian in race or non-white in colour (refer to the Statistics Canada definition for “visible minorities”)."
+      }
+    ],
+    "https://ontology.commonapproach.org/cids#hasIdentifier": [
+      {
+        "@value": "edg8"
+      }
+    ],
+    "https://ontology.commonapproach.org/cids#hasName": [
+      {
+        "@language": "en",
+        "@value": "Other Racialized Peoples"
+      }
+    ]
+  },
+  {
+    "@id": "https://codelist.commonapproach.org/codeLists/edg13",
+    "@type": [
+      "https://ontology.commonapproach.org/cids#PopulationServed",
+      "https://ontology.commonapproach.org/cids#CODE",
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "https://codelist.commonapproach.org/codeLists/EquityDeservingGroupsESDC#"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "Gender Diverse People: Other"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "People whose gender identity does not align with any of the other options provided."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://codelist.commonapproach.org/codeLists/EquityDeservingGroupsESDC#dataset"
+      }
+    ],
+    "https://ontology.commonapproach.org/cids#definedBy": [
+      {
+        "@id": "https://ontology.commonapproach.org/cids#esdc"
+      }
+    ],
+    "https://ontology.commonapproach.org/cids#hasDefinition": [
+      {
+        "@language": "en",
+        "@value": "People whose gender identity does not align with any of the other options provided."
+      }
+    ],
+    "https://ontology.commonapproach.org/cids#hasIdentifier": [
+      {
+        "@value": "edg13"
+      }
+    ],
+    "https://ontology.commonapproach.org/cids#hasName": [
+      {
+        "@language": "en",
+        "@value": "Gender Diverse People: Other"
+      }
+    ]
+  },
+  {
+    "@id": "https://codelist.commonapproach.org/codeLists/edg1",
+    "@type": [
+      "https://ontology.commonapproach.org/cids#PopulationServed",
+      "https://ontology.commonapproach.org/cids#CODE",
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "https://codelist.commonapproach.org/codeLists/EquityDeservingGroupsESDC#"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "2SLGBTQIA+"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "People who identify as being two-spirit, lesbian, gay, bisexual, transgender, queer, intersex, asexual and others (“+”)."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://codelist.commonapproach.org/codeLists/EquityDeservingGroupsESDC#dataset"
+      }
+    ],
+    "http://www.w3.org/ns/prov#hadPrimarySource": [
+      {
+        "@id": "https://www.canada.ca/en/women-gender-equality/free-to-be-me/2slgbtqi-plus-glossary.html"
+      }
+    ],
+    "https://ontology.commonapproach.org/cids#definedBy": [
+      {
+        "@id": "https://ontology.commonapproach.org/cids#esdc"
+      }
+    ],
+    "https://ontology.commonapproach.org/cids#hasDefinition": [
+      {
+        "@language": "en",
+        "@value": "People who identify as being two-spirit, lesbian, gay, bisexual, transgender, queer, intersex, asexual and others (“+”)."
+      }
+    ],
+    "https://ontology.commonapproach.org/cids#hasIdentifier": [
+      {
+        "@value": "edg1"
+      }
+    ],
+    "https://ontology.commonapproach.org/cids#hasName": [
+      {
+        "@language": "en",
+        "@value": "2SLGBTQIA+"
+      }
+    ]
+  },
+  {
+    "@id": "https://codelist.commonapproach.org/codeLists/edg14",
+    "@type": [
+      "https://ontology.commonapproach.org/cids#PopulationServed",
+      "https://ontology.commonapproach.org/cids#CODE",
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "https://codelist.commonapproach.org/codeLists/EquityDeservingGroupsESDC#"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "Indigenous Peoples: Not Otherwise Specified"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "In Canada, individuals who self-identify as Indigenous (First Nations, Inuit, or Métis) but do not specify their group affiliation, are unsure of their specific ancestry, or identify with another Indigenous community not listed separately."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://codelist.commonapproach.org/codeLists/EquityDeservingGroupsESDC#dataset"
+      }
+    ],
+    "http://www.w3.org/ns/prov#hadPrimarySource": [
+      {
+        "@id": "https://www.noslangues-ourlanguages.gc.ca/en/publications/equite-diversite-inclusion-equity-diversity-inclusion-eng#notion-69399"
+      }
+    ],
+    "https://ontology.commonapproach.org/cids#definedBy": [
+      {
+        "@id": "https://ontology.commonapproach.org/cids#esdc"
+      }
+    ],
+    "https://ontology.commonapproach.org/cids#hasDefinition": [
+      {
+        "@language": "en",
+        "@value": "In Canada, individuals who self-identify as Indigenous (First Nations, Inuit, or Métis) but do not specify their group affiliation, are unsure of their specific ancestry, or identify with another Indigenous community not listed separately."
+      }
+    ],
+    "https://ontology.commonapproach.org/cids#hasIdentifier": [
+      {
+        "@value": "edg14"
+      }
+    ],
+    "https://ontology.commonapproach.org/cids#hasName": [
+      {
+        "@language": "en",
+        "@value": "Indigenous Peoples: Not Otherwise Specified"
+      }
+    ]
+  },
+  {
+    "@id": "https://codelist.commonapproach.org/codeLists/edg5",
+    "@type": [
+      "https://ontology.commonapproach.org/cids#PopulationServed",
+      "https://ontology.commonapproach.org/cids#CODE",
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "https://codelist.commonapproach.org/codeLists/EquityDeservingGroupsESDC#"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "Indigenous Peoples: Inuit"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "In Canada, Indigenous People that inhabit or that traditionally inhabited the northern regions and Arctic coasts of Canada known as Inuit Nunangat, and whose members are united by a common origin, history and culture."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://codelist.commonapproach.org/codeLists/EquityDeservingGroupsESDC#dataset"
+      }
+    ],
+    "http://www.w3.org/ns/prov#hadPrimarySource": [
+      {
+        "@id": "https://www.noslangues-ourlanguages.gc.ca/en/publications/equite-diversite-inclusion-equity-diversity-inclusion-eng#notion-69399"
+      }
+    ],
+    "https://ontology.commonapproach.org/cids#definedBy": [
+      {
+        "@id": "https://ontology.commonapproach.org/cids#esdc"
+      }
+    ],
+    "https://ontology.commonapproach.org/cids#hasDefinition": [
+      {
+        "@language": "en",
+        "@value": "In Canada, Indigenous People that inhabit or that traditionally inhabited the northern regions and Arctic coasts of Canada known as Inuit Nunangat, and whose members are united by a common origin, history and culture."
+      }
+    ],
+    "https://ontology.commonapproach.org/cids#hasIdentifier": [
+      {
+        "@value": "edg5"
+      }
+    ],
+    "https://ontology.commonapproach.org/cids#hasName": [
+      {
+        "@language": "en",
+        "@value": "Indigenous Peoples: Inuit"
+      }
+    ]
+  },
+  {
+    "@id": "https://codelist.commonapproach.org/codeLists/EquityDeservingGroupsESDC",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Ontology",
+      "http://purl.org/vocommons/voafVocabulary"
+    ],
+    "http://purl.org/dc/terms/creator": [
+      {
+        "@id": "https://ontology.commonapproach.org/cids#ac"
+      }
+    ],
+    "http://purl.org/dc/terms/date": [
+      {
+        "@value": "03-10-2024"
+      }
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@language": "en",
+        "@value": "A codelist vocabulary of Equity Deserving Groups as defined by Ministry of Employment and Social Development of Canada."
+      }
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@language": "en",
+        "@value": "Equity Deserving Groups"
+      }
+    ],
+    "http://purl.org/vocab/vann/preferredNamespacePrefix": [
+      {
+        "@value": "EquityDeservingGroupsESDC"
+      }
+    ],
+    "http://purl.org/vocab/vann/preferredNamespaceUri": [
+      {
+        "@id": "https://codelist.commonapproach.org/codeLists/EquityDeservingGroupsESDC#"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Equity Deserving Groups"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#imports": [
+      {
+        "@id": "https://ontology.commonapproach.org/owl/cids"
+      },
+      {
+        "@id": "http://www.w3.org/2006/time"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#versionInfo": [
+      {
+        "@value": "1.0"
+      }
+    ],
+    "http://xmlns.com/foaf/0.1/name": [
+      {
+        "@value": "Equity Deserving Groups"
+      }
+    ],
+    "https://ontology.commonapproach.org/cids#hasName": [
+      {
+        "@value": "Equity Deserving Groups"
+      }
+    ]
+  }
+]
