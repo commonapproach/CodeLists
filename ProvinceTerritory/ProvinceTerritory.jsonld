@@ -245,7 +245,7 @@
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
         "@language": "en",
-        "@value": "All of CanadaYukon"
+        "@value": "All of Canada"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#inScheme": [

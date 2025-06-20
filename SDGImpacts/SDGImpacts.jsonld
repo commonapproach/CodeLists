@@ -11,7 +11,7 @@
     "vann": "http://purl.org/vocab/vann/",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "SDGImpacts": "https://codelist.commonapproach.org/codeLists/SDGImpacts#",
-    "sdg": "http://metadata.un.org/sdg/"
+    "sdg": "https://metadata.un.org/sdg/"
   },
   "@graph": [
     {
@@ -51,7 +51,7 @@
       }
     },
     {
-      "@id": "http://metadata.un.org/sdg",
+      "@id": "https://metadata.un.org/sdg",
       "@type": "skos:ConceptScheme",
       "dcterms:title": {
         "@language": "en",
@@ -59,7 +59,7 @@
       }
     },
     {
-      "@id": "http://metadata.un.org/sdg/1",
+      "@id": "https://metadata.un.org/sdg/1",
       "@type": ["skos:Concept", "cids:Code", "cids:Theme"],
       "rdfs:isDefinedBy": { "@id": "https://codelist.commonapproach.org/codeLists/SDGImpacts" },
       "rdfs:label": {
@@ -74,12 +74,12 @@
         "@language": "en",
         "@value": "End poverty in all its forms everywhere"
       },
-      "skos:inScheme": { "@id": "http://metadata.un.org/sdg" },
+      "skos:inScheme": { "@id": "https://metadata.un.org/sdg" },
       "prov:hadPrimarySource": { "@id": "https://sdgs.un.org/goals/goal1" },
       "cids:hasIdentifier": "1"
     },
     {
-      "@id": "http://metadata.un.org/sdg/2",
+      "@id": "https://metadata.un.org/sdg/2",
       "@type": ["skos:Concept", "cids:Code", "cids:Theme"],
       "rdfs:isDefinedBy": { "@id": "https://codelist.commonapproach.org/codeLists/SDGImpacts" },
       "rdfs:label": {
@@ -94,12 +94,12 @@
         "@language": "en",
         "@value": "End hunger, achieve food security and improved nutrition and promote sustainable agriculture"
       },
-      "skos:inScheme": { "@id": "http://metadata.un.org/sdg" },
+      "skos:inScheme": { "@id": "https://metadata.un.org/sdg" },
       "prov:hadPrimarySource": { "@id": "https://sdgs.un.org/goals/goal2" },
       "cids:hasIdentifier": "2"
     },
     {
-      "@id": "http://metadata.un.org/sdg/3",
+      "@id": "https://metadata.un.org/sdg/3",
       "@type": ["skos:Concept", "cids:Code", "cids:Theme"],
       "rdfs:isDefinedBy": { "@id": "https://codelist.commonapproach.org/codeLists/SDGImpacts" },
       "rdfs:label": {
@@ -114,12 +114,12 @@
           "@language": "en",
           "@value": "Ensure healthy lives and promote well-being for all at all ages"
       },
-      "skos:inScheme": { "@id": "http://metadata.un.org/sdg" },
+      "skos:inScheme": { "@id": "https://metadata.un.org/sdg" },
       "prov:hadPrimarySource": { "@id": "https://sdgs.un.org/goals/goal3" },
       "cids:hasIdentifier": "3"
     },
     {
-      "@id": "http://metadata.un.org/sdg/4",
+      "@id": "https://metadata.un.org/sdg/4",
       "@type": ["skos:Concept", "cids:Code", "cids:Theme"],
       "rdfs:isDefinedBy": { "@id": "https://codelist.commonapproach.org/codeLists/SDGImpacts" },
       "rdfs:label": {
@@ -134,12 +134,12 @@
           "@language": "en",
           "@value": "Ensure inclusive and equitable quality education and promote lifelong learning opportunities for all"
       },
-      "skos:inScheme": { "@id": "http://metadata.un.org/sdg" },
+      "skos:inScheme": { "@id": "https://metadata.un.org/sdg" },
       "prov:hadPrimarySource": { "@id": "https://sdgs.un.org/goals/goal4" },
       "cids:hasIdentifier": "4"
     },
     {
-      "@id": "http://metadata.un.org/sdg/5",
+      "@id": "https://metadata.un.org/sdg/5",
       "@type": ["skos:Concept", "cids:Code", "cids:Theme"],
       "rdfs:isDefinedBy": { "@id": "https://codelist.commonapproach.org/codeLists/SDGImpacts" },
       "rdfs:label": {
@@ -154,12 +154,12 @@
           "@language": "en",
           "@value": "Achieve gender equality and empower all women and girls"
       },
-      "skos:inScheme": { "@id": "http://metadata.un.org/sdg" },
+      "skos:inScheme": { "@id": "https://metadata.un.org/sdg" },
       "prov:hadPrimarySource": { "@id": "https://sdgs.un.org/goals/goal5" },
       "cids:hasIdentifier": "5"
     },
     {
-      "@id": "http://metadata.un.org/sdg/6",
+      "@id": "https://metadata.un.org/sdg/6",
       "@type": ["skos:Concept", "cids:Code", "cids:Theme"],
       "rdfs:isDefinedBy": { "@id": "https://codelist.commonapproach.org/codeLists/SDGImpacts" },
       "rdfs:label": {
@@ -174,12 +174,12 @@
           "@language": "en",
           "@value": "Ensure availability and sustainable management of water and sanitation for all"
       },
-      "skos:inScheme": { "@id": "http://metadata.un.org/sdg" },
+      "skos:inScheme": { "@id": "https://metadata.un.org/sdg" },
       "prov:hadPrimarySource": { "@id": "https://sdgs.un.org/goals/goal6" },
       "cids:hasIdentifier": "6"
     },
     {
-      "@id": "http://metadata.un.org/sdg/7",
+      "@id": "https://metadata.un.org/sdg/7",
       "@type": ["skos:Concept", "cids:Code", "cids:Theme"],
       "rdfs:isDefinedBy": { "@id": "https://codelist.commonapproach.org/codeLists/SDGImpacts" },
       "rdfs:label": {
@@ -194,12 +194,12 @@
           "@language": "en",
           "@value": "Ensure access to affordable, reliable, sustainable and modern energy for all"
       },
-      "skos:inScheme": { "@id": "http://metadata.un.org/sdg" },
+      "skos:inScheme": { "@id": "https://metadata.un.org/sdg" },
       "prov:hadPrimarySource": { "@id": "https://sdgs.un.org/goals/goal7" },
       "cids:hasIdentifier": "7"
     },
     {
-      "@id": "http://metadata.un.org/sdg/8",
+      "@id": "https://metadata.un.org/sdg/8",
       "@type": ["skos:Concept", "cids:Code", "cids:Theme"],
       "rdfs:isDefinedBy": { "@id": "https://codelist.commonapproach.org/codeLists/SDGImpacts" },
       "rdfs:label": {
@@ -214,12 +214,12 @@
           "@language": "en",
           "@value": "Promote sustained, inclusive and sustainable economic growth, full and productive employment and decent work for all"
       },
-      "skos:inScheme": { "@id": "http://metadata.un.org/sdg" },
+      "skos:inScheme": { "@id": "https://metadata.un.org/sdg" },
       "prov:hadPrimarySource": { "@id": "https://sdgs.un.org/goals/goal8" },
       "cids:hasIdentifier": "8"
     },
     {
-      "@id": "http://metadata.un.org/sdg/9",
+      "@id": "https://metadata.un.org/sdg/9",
       "@type": ["skos:Concept", "cids:Code", "cids:Theme"],
       "rdfs:isDefinedBy": { "@id": "https://codelist.commonapproach.org/codeLists/SDGImpacts" },
       "rdfs:label": {
@@ -234,12 +234,12 @@
           "@language": "en",
           "@value": "Build resilient infrastructure, promote inclusive and sustainable industrialization and foster innovation"
       },
-      "skos:inScheme": { "@id": "http://metadata.un.org/sdg" },
+      "skos:inScheme": { "@id": "https://metadata.un.org/sdg" },
       "prov:hadPrimarySource": { "@id": "https://sdgs.un.org/goals/goal9" },
       "cids:hasIdentifier": "9"
     },
     {
-      "@id": "http://metadata.un.org/sdg/10",
+      "@id": "https://metadata.un.org/sdg/10",
       "@type": ["skos:Concept", "cids:Code", "cids:Theme"],
       "rdfs:isDefinedBy": { "@id": "https://codelist.commonapproach.org/codeLists/SDGImpacts" },
       "rdfs:label": {
@@ -254,12 +254,12 @@
           "@language": "en",
           "@value": "Reduce inequality within and among countries"
       },
-      "skos:inScheme": { "@id": "http://metadata.un.org/sdg" },
+      "skos:inScheme": { "@id": "https://metadata.un.org/sdg" },
       "prov:hadPrimarySource": { "@id": "https://sdgs.un.org/goals/goal10" },
       "cids:hasIdentifier": "10"
     },
     {
-      "@id": "http://metadata.un.org/sdg/11",
+      "@id": "https://metadata.un.org/sdg/11",
       "@type": ["skos:Concept", "cids:Code", "cids:Theme"],
       "rdfs:isDefinedBy": { "@id": "https://codelist.commonapproach.org/codeLists/SDGImpacts" },
       "rdfs:label": {
@@ -274,12 +274,12 @@
           "@language": "en",
           "@value": "Make cities and human settlements inclusive, safe, resilient and sustainable"
       },
-      "skos:inScheme": { "@id": "http://metadata.un.org/sdg" },
+      "skos:inScheme": { "@id": "https://metadata.un.org/sdg" },
       "prov:hadPrimarySource": { "@id": "https://sdgs.un.org/goals/goal11" },
       "cids:hasIdentifier": "11"
     },
     {
-      "@id": "http://metadata.un.org/sdg/12",
+      "@id": "https://metadata.un.org/sdg/12",
       "@type": ["skos:Concept", "cids:Code", "cids:Theme"],
       "rdfs:isDefinedBy": { "@id": "https://codelist.commonapproach.org/codeLists/SDGImpacts" },
       "rdfs:label": {
@@ -294,12 +294,12 @@
           "@language": "en",
           "@value": "Ensure sustainable consumption and production patterns"
       },
-      "skos:inScheme": { "@id": "http://metadata.un.org/sdg" },
+      "skos:inScheme": { "@id": "https://metadata.un.org/sdg" },
       "prov:hadPrimarySource": { "@id": "https://sdgs.un.org/goals/goal12" },
       "cids:hasIdentifier": "12"
     },
     {
-      "@id": "http://metadata.un.org/sdg/13",
+      "@id": "https://metadata.un.org/sdg/13",
       "@type": ["skos:Concept", "cids:Code", "cids:Theme"],
       "rdfs:isDefinedBy": { "@id": "https://codelist.commonapproach.org/codeLists/SDGImpacts" },
       "rdfs:label": {
@@ -314,12 +314,12 @@
           "@language": "en",
           "@value": "Take urgent action to combat climate change and its impacts"
       },
-      "skos:inScheme": { "@id": "http://metadata.un.org/sdg" },
+      "skos:inScheme": { "@id": "https://metadata.un.org/sdg" },
       "prov:hadPrimarySource": { "@id": "https://sdgs.un.org/goals/goal13" },
       "cids:hasIdentifier": "13"
     },
     {
-      "@id": "http://metadata.un.org/sdg/14",
+      "@id": "https://metadata.un.org/sdg/14",
       "@type": ["skos:Concept", "cids:Code", "cids:Theme"],
       "rdfs:isDefinedBy": { "@id": "https://codelist.commonapproach.org/codeLists/SDGImpacts" },
       "rdfs:label": {
@@ -334,12 +334,12 @@
           "@language": "en",
           "@value": "Conserve and sustainably use the oceans, seas and marine resources for sustainable development"
       },
-      "skos:inScheme": { "@id": "http://metadata.un.org/sdg" },
+      "skos:inScheme": { "@id": "https://metadata.un.org/sdg" },
       "prov:hadPrimarySource": { "@id": "https://sdgs.un.org/goals/goal14" },
       "cids:hasIdentifier": "14"
     },
     {
-      "@id": "http://metadata.un.org/sdg/15",
+      "@id": "https://metadata.un.org/sdg/15",
       "@type": ["skos:Concept", "cids:Code", "cids:Theme"],
       "rdfs:isDefinedBy": { "@id": "https://codelist.commonapproach.org/codeLists/SDGImpacts" },
       "rdfs:label": {
@@ -354,12 +354,12 @@
           "@language": "en",
           "@value": "Protect, restore and promote sustainable use of terrestrial ecosystems, sustainably manage forests, combat desertification, and halt and reverse land degradation and halt biodiversity loss"
       },
-      "skos:inScheme": { "@id": "http://metadata.un.org/sdg" },
+      "skos:inScheme": { "@id": "https://metadata.un.org/sdg" },
       "prov:hadPrimarySource": { "@id": "https://sdgs.un.org/goals/goal15" },
       "cids:hasIdentifier": "15"
     },
     {
-      "@id": "http://metadata.un.org/sdg/16",
+      "@id": "https://metadata.un.org/sdg/16",
       "@type": ["skos:Concept", "cids:Code", "cids:Theme"],
       "rdfs:isDefinedBy": { "@id": "https://codelist.commonapproach.org/codeLists/SDGImpacts" },
       "rdfs:label": {
@@ -374,12 +374,12 @@
           "@language": "en",
           "@value": "Promote peaceful and inclusive societies for sustainable development, provide access to justice for all and build effective, accountable and inclusive institutions at all levels"
       },
-      "skos:inScheme": { "@id": "http://metadata.un.org/sdg" },
+      "skos:inScheme": { "@id": "https://metadata.un.org/sdg" },
       "prov:hadPrimarySource": { "@id": "https://sdgs.un.org/goals/goal16" },
       "cids:hasIdentifier": "16"
     },
     {
-      "@id": "http://metadata.un.org/sdg/17",
+      "@id": "https://metadata.un.org/sdg/17",
       "@type": ["skos:Concept", "cids:Code", "cids:Theme"],
       "rdfs:isDefinedBy": { "@id": "https://codelist.commonapproach.org/codeLists/SDGImpacts" },
       "rdfs:label": {
@@ -394,128 +394,128 @@
           "@language": "en",
           "@value": "Strengthen the means of implementation and revitalize the Global Partnership for Sustainable Development"
       },
-      "skos:inScheme": { "@id": "http://metadata.un.org/sdg" },
+      "skos:inScheme": { "@id": "https://metadata.un.org/sdg" },
       "prov:hadPrimarySource": { "@id": "https://sdgs.un.org/goals/goal17" },
       "cids:hasIdentifier": "17"
     },
     {
       "@id": "SDGImpacts:SDG1",
-      "owl:sameAs": { "@id": "http://metadata.un.org/sdg/1" },
+      "owl:sameAs": { "@id": "https://metadata.un.org/sdg/1" },
       "owl:deprecated": { "@type": "xsd:boolean", "@value": "true" },
       "rdfs:label": { "@language": "en", "@value": "Legacy IRI for SDG 1" },
-      "rdfs:comment": { "@language": "en", "@value": "This IRI is deprecated and has been replaced by http://metadata.un.org/sdg/1. It is retained for backward compatibility." }
+      "rdfs:comment": { "@language": "en", "@value": "This IRI is deprecated and has been replaced by https://metadata.un.org/sdg/1. It is retained for backward compatibility." }
     },
     {
       "@id": "SDGImpacts:SDG2",
-      "owl:sameAs": { "@id": "http://metadata.un.org/sdg/2" },
+      "owl:sameAs": { "@id": "https://metadata.un.org/sdg/2" },
       "owl:deprecated": { "@type": "xsd:boolean", "@value": "true" },
       "rdfs:label": { "@language": "en", "@value": "Legacy IRI for SDG 2" },
-      "rdfs:comment": { "@language": "en", "@value": "This IRI is deprecated and has been replaced by http://metadata.un.org/sdg/2. It is retained for backward compatibility." }
+      "rdfs:comment": { "@language": "en", "@value": "This IRI is deprecated and has been replaced by https://metadata.un.org/sdg/2. It is retained for backward compatibility." }
     },
     {
       "@id": "SDGImpacts:SDG3",
-      "owl:sameAs": { "@id": "http://metadata.un.org/sdg/3" },
+      "owl:sameAs": { "@id": "https://metadata.un.org/sdg/3" },
       "owl:deprecated": { "@type": "xsd:boolean", "@value": "true" },
       "rdfs:label": { "@language": "en", "@value": "Legacy IRI for SDG 3" },
-      "rdfs:comment": { "@language": "en", "@value": "This IRI is deprecated and has been replaced by http://metadata.un.org/sdg/3. It is retained for backward compatibility." }
+      "rdfs:comment": { "@language": "en", "@value": "This IRI is deprecated and has been replaced by https://metadata.un.org/sdg/3. It is retained for backward compatibility." }
     },
     {
       "@id": "SDGImpacts:SDG4",
-      "owl:sameAs": { "@id": "http://metadata.un.org/sdg/4" },
+      "owl:sameAs": { "@id": "https://metadata.un.org/sdg/4" },
       "owl:deprecated": { "@type": "xsd:boolean", "@value": "true" },
       "rdfs:label": { "@language": "en", "@value": "Legacy IRI for SDG 4" },
-      "rdfs:comment": { "@language": "en", "@value": "This IRI is deprecated and has been replaced by http://metadata.un.org/sdg/4. It is retained for backward compatibility." }
+      "rdfs:comment": { "@language": "en", "@value": "This IRI is deprecated and has been replaced by https://metadata.un.org/sdg/4. It is retained for backward compatibility." }
     },
     {
       "@id": "SDGImpacts:SDG5",
-      "owl:sameAs": { "@id": "http://metadata.un.org/sdg/5" },
+      "owl:sameAs": { "@id": "https://metadata.un.org/sdg/5" },
       "owl:deprecated": { "@type": "xsd:boolean", "@value": "true" },
       "rdfs:label": { "@language": "en", "@value": "Legacy IRI for SDG 5" },
-      "rdfs:comment": { "@language": "en", "@value": "This IRI is deprecated and has been replaced by http://metadata.un.org/sdg/5. It is retained for backward compatibility." }
+      "rdfs:comment": { "@language": "en", "@value": "This IRI is deprecated and has been replaced by https://metadata.un.org/sdg/5. It is retained for backward compatibility." }
     },
     {
       "@id": "SDGImpacts:SDG6",
-      "owl:sameAs": { "@id": "http://metadata.un.org/sdg/6" },
+      "owl:sameAs": { "@id": "https://metadata.un.org/sdg/6" },
       "owl:deprecated": { "@type": "xsd:boolean", "@value": "true" },
       "rdfs:label": { "@language": "en", "@value": "Legacy IRI for SDG 6" },
-      "rdfs:comment": { "@language": "en", "@value": "This IRI is deprecated and has been replaced by http://metadata.un.org/sdg/6. It is retained for backward compatibility." }
+      "rdfs:comment": { "@language": "en", "@value": "This IRI is deprecated and has been replaced by https://metadata.un.org/sdg/6. It is retained for backward compatibility." }
     },
     {
       "@id": "SDGImpacts:SDG7",
-      "owl:sameAs": { "@id": "http://metadata.un.org/sdg/7" },
+      "owl:sameAs": { "@id": "https://metadata.un.org/sdg/7" },
       "owl:deprecated": { "@type": "xsd:boolean", "@value": "true" },
       "rdfs:label": { "@language": "en", "@value": "Legacy IRI for SDG 7" },
-      "rdfs:comment": { "@language": "en", "@value": "This IRI is deprecated and has been replaced by http://metadata.un.org/sdg/7. It is retained for backward compatibility." }
+      "rdfs:comment": { "@language": "en", "@value": "This IRI is deprecated and has been replaced by https://metadata.un.org/sdg/7. It is retained for backward compatibility." }
     },
     {
       "@id": "SDGImpacts:SDG8",
-      "owl:sameAs": { "@id": "http://metadata.un.org/sdg/8" },
+      "owl:sameAs": { "@id": "https://metadata.un.org/sdg/8" },
       "owl:deprecated": { "@type": "xsd:boolean", "@value": "true" },
       "rdfs:label": { "@language": "en", "@value": "Legacy IRI for SDG 8" },
-      "rdfs:comment": { "@language": "en", "@value": "This IRI is deprecated and has been replaced by http://metadata.un.org/sdg/8. It is retained for backward compatibility." }
+      "rdfs:comment": { "@language": "en", "@value": "This IRI is deprecated and has been replaced by https://metadata.un.org/sdg/8. It is retained for backward compatibility." }
     },
     {
       "@id": "SDGImpacts:SDG9",
-      "owl:sameAs": { "@id": "http://metadata.un.org/sdg/9" },
+      "owl:sameAs": { "@id": "https://metadata.un.org/sdg/9" },
       "owl:deprecated": { "@type": "xsd:boolean", "@value": "true" },
       "rdfs:label": { "@language": "en", "@value": "Legacy IRI for SDG 9" },
-      "rdfs:comment": { "@language": "en", "@value": "This IRI is deprecated and has been replaced by http://metadata.un.org/sdg/9. It is retained for backward compatibility." }
+      "rdfs:comment": { "@language": "en", "@value": "This IRI is deprecated and has been replaced by https://metadata.un.org/sdg/9. It is retained for backward compatibility." }
     },
     {
       "@id": "SDGImpacts:SDG10",
-      "owl:sameAs": { "@id": "http://metadata.un.org/sdg/10" },
+      "owl:sameAs": { "@id": "https://metadata.un.org/sdg/10" },
       "owl:deprecated": { "@type": "xsd:boolean", "@value": "true" },
       "rdfs:label": { "@language": "en", "@value": "Legacy IRI for SDG 10" },
-      "rdfs:comment": { "@language": "en", "@value": "This IRI is deprecated and has been replaced by http://metadata.un.org/sdg/10. It is retained for backward compatibility." }
+      "rdfs:comment": { "@language": "en", "@value": "This IRI is deprecated and has been replaced by https://metadata.un.org/sdg/10. It is retained for backward compatibility." }
     },
     {
       "@id": "SDGImpacts:SDG11",
-      "owl:sameAs": { "@id": "http://metadata.un.org/sdg/11" },
+      "owl:sameAs": { "@id": "https://metadata.un.org/sdg/11" },
       "owl:deprecated": { "@type": "xsd:boolean", "@value": "true" },
       "rdfs:label": { "@language": "en", "@value": "Legacy IRI for SDG 11" },
-      "rdfs:comment": { "@language": "en", "@value": "This IRI is deprecated and has been replaced by http://metadata.un.org/sdg/11. It is retained for backward compatibility." }
+      "rdfs:comment": { "@language": "en", "@value": "This IRI is deprecated and has been replaced by https://metadata.un.org/sdg/11. It is retained for backward compatibility." }
     },
     {
       "@id": "SDGImpacts:SDG12",
-      "owl:sameAs": { "@id": "http://metadata.un.org/sdg/12" },
+      "owl:sameAs": { "@id": "https://metadata.un.org/sdg/12" },
       "owl:deprecated": { "@type": "xsd:boolean", "@value": "true" },
       "rdfs:label": { "@language": "en", "@value": "Legacy IRI for SDG 12" },
-      "rdfs:comment": { "@language": "en", "@value": "This IRI is deprecated and has been replaced by http://metadata.un.org/sdg/12. It is retained for backward compatibility." }
+      "rdfs:comment": { "@language": "en", "@value": "This IRI is deprecated and has been replaced by https://metadata.un.org/sdg/12. It is retained for backward compatibility." }
     },
     {
       "@id": "SDGImpacts:SDG13",
-      "owl:sameAs": { "@id": "http://metadata.un.org/sdg/13" },
+      "owl:sameAs": { "@id": "https://metadata.un.org/sdg/13" },
       "owl:deprecated": { "@type": "xsd:boolean", "@value": "true" },
       "rdfs:label": { "@language": "en", "@value": "Legacy IRI for SDG 13" },
-      "rdfs:comment": { "@language": "en", "@value": "This IRI is deprecated and has been replaced by http://metadata.un.org/sdg/13. It is retained for backward compatibility." }
+      "rdfs:comment": { "@language": "en", "@value": "This IRI is deprecated and has been replaced by https://metadata.un.org/sdg/13. It is retained for backward compatibility." }
     },
     {
       "@id": "SDGImpacts:SDG14",
-      "owl:sameAs": { "@id": "http://metadata.un.org/sdg/14" },
+      "owl:sameAs": { "@id": "https://metadata.un.org/sdg/14" },
       "owl:deprecated": { "@type": "xsd:boolean", "@value": "true" },
       "rdfs:label": { "@language": "en", "@value": "Legacy IRI for SDG 14" },
-      "rdfs:comment": { "@language": "en", "@value": "This IRI is deprecated and has been replaced by http://metadata.un.org/sdg/14. It is retained for backward compatibility." }
+      "rdfs:comment": { "@language": "en", "@value": "This IRI is deprecated and has been replaced by https://metadata.un.org/sdg/14. It is retained for backward compatibility." }
     },
     {
       "@id": "SDGImpacts:SDG15",
-      "owl:sameAs": { "@id": "http://metadata.un.org/sdg/15" },
+      "owl:sameAs": { "@id": "https://metadata.un.org/sdg/15" },
       "owl:deprecated": { "@type": "xsd:boolean", "@value": "true" },
       "rdfs:label": { "@language": "en", "@value": "Legacy IRI for SDG 15" },
-      "rdfs:comment": { "@language": "en", "@value": "This IRI is deprecated and has been replaced by http://metadata.un.org/sdg/15. It is retained for backward compatibility." }
+      "rdfs:comment": { "@language": "en", "@value": "This IRI is deprecated and has been replaced by https://metadata.un.org/sdg/15. It is retained for backward compatibility." }
     },
     {
       "@id": "SDGImpacts:SDG16",
-      "owl:sameAs": { "@id": "http://metadata.un.org/sdg/16" },
+      "owl:sameAs": { "@id": "https://metadata.un.org/sdg/16" },
       "owl:deprecated": { "@type": "xsd:boolean", "@value": "true" },
       "rdfs:label": { "@language": "en", "@value": "Legacy IRI for SDG 16" },
-      "rdfs:comment": { "@language": "en", "@value": "This IRI is deprecated and has been replaced by http://metadata.un.org/sdg/16. It is retained for backward compatibility." }
+      "rdfs:comment": { "@language": "en", "@value": "This IRI is deprecated and has been replaced by https://metadata.un.org/sdg/16. It is retained for backward compatibility." }
     },
     {
       "@id": "SDGImpacts:SDG17",
-      "owl:sameAs": { "@id": "http://metadata.un.org/sdg/17" },
+      "owl:sameAs": { "@id": "https://metadata.un.org/sdg/17" },
       "owl:deprecated": { "@type": "xsd:boolean", "@value": "true" },
       "rdfs:label": { "@language": "en", "@value": "Legacy IRI for SDG 17" },
-      "rdfs:comment": { "@language": "en", "@value": "This IRI is deprecated and has been replaced by http://metadata.un.org/sdg/17. It is retained for backward compatibility." }
+      "rdfs:comment": { "@language": "en", "@value": "This IRI is deprecated and has been replaced by https://metadata.un.org/sdg/17. It is retained for backward compatibility." }
     }
   ]
 }

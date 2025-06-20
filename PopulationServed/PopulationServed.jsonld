@@ -876,7 +876,7 @@
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
         "@language": "en",
-        "@value": "Women"
+        "@value": "Women (Cisgender and Transgender)"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#definition": [
@@ -898,7 +898,7 @@
     "https://ontology.commonapproach.org/cids#hasDefinition": [
       {
         "@language": "en",
-        "@value": "All people who identify as women, whether they are cisgender or transgender women."
+        "@value": "All people who identify as Women (Cisgender and Transgender), whether they are cisgender or transgender women."
       }
     ],
     "https://ontology.commonapproach.org/cids#hasIdentifier": [
@@ -909,7 +909,7 @@
     "https://ontology.commonapproach.org/cids#hasName": [
       {
         "@language": "en",
-        "@value": "Women"
+        "@value": "Women (Cisgender and Transgender)"
       }
     ]
   },

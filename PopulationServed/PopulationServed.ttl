@@ -191,13 +191,13 @@
 :ps22
     a skos:Concept, cids:CODE, cids:PopulationServed ;
     rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/PopulationServed#> ;
-    rdfs:label "Women"@en ;
+    rdfs:label "Women (Cisgender and Transgender)"@en ;
     skos:definition "All people who identify as women, whether they are cisgender or transgender women."@en ;
     skos:inScheme :dataset ;
     cids:definedBy cids:ac ;
     cids:hasDefinition "All people who identify as women, whether they are cisgender or transgender women."@en ;
     cids:hasIdentifier "ps22" ;
-    cids:hasName "Women"@en .
+    cids:hasName "Women (Cisgender and Transgender)"@en .
 
 :ps23
     a skos:Concept, cids:CODE, cids:PopulationServed ;

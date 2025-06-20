@@ -353,8 +353,8 @@
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:inScheme rdf:resource="https://codelist.commonapproach.org/codeLists/PopulationServed#dataset"/>
     <rdfs:isDefinedBy rdf:resource="https://codelist.commonapproach.org/codeLists/PopulationServed#"/>
-    <cids:hasName xml:lang="en">Women</cids:hasName>
-    <rdfs:label xml:lang="en">Women</rdfs:label>
+    <cids:hasName xml:lang="en">Women (Cisgender and Transgender)</cids:hasName>
+    <rdfs:label xml:lang="en">Women (Cisgender and Transgender)</rdfs:label>
     <skos:definition xml:lang="en">All people who identify as women, whether they are cisgender or transgender women.</skos:definition>
     <cids:hasDefinition xml:lang="en">All people who identify as women, whether they are cisgender or transgender women.</cids:hasDefinition>
     <cids:definedBy rdf:resource="https://ontology.commonapproach.org/cids#ac"/>

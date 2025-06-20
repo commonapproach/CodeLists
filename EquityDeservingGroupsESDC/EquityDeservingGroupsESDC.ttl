@@ -42,13 +42,13 @@
 <https://codelist.commonapproach.org/codeLists/edg10>
     a skos:Concept, cids:CODE, cids:PopulationServed ;
     rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/EquityDeservingGroupsESDC#> ;
-    rdfs:label "Women"@en ;
+    rdfs:label "Women (Cisgender and Transgender)"@en ;
     skos:definition "All people who identify as women, whether they are cisgender or transgender women."@en ;
     skos:inScheme :dataset ;
     cids:definedBy cids:esdc ;
     cids:hasDefinition "All people who identify as women, whether they are cisgender or transgender women."@en ;
     cids:hasIdentifier "edg10" ;
-    cids:hasName "Women"@en .
+    cids:hasName "Women (Cisgender and Transgender)"@en .
 
 <https://codelist.commonapproach.org/codeLists/edg11>
     a skos:Concept, cids:CODE, cids:PopulationServed ;

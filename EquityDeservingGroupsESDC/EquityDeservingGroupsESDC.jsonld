@@ -345,7 +345,7 @@
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
         "@language": "en",
-        "@value": "Women"
+        "@value": "Women (Cisgender and Transgender)"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#definition": [
@@ -378,7 +378,7 @@
     "https://ontology.commonapproach.org/cids#hasName": [
       {
         "@language": "en",
-        "@value": "Women"
+        "@value": "Women (Cisgender and Transgender)"
       }
     ]
   },

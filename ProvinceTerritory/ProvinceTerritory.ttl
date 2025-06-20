@@ -47,7 +47,7 @@
 :CAN
     a skos:Concept, cids:CODE, cids:Locality ;
     rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/ProvinceTerritory#> ;
-    rdfs:label "All of CanadaYukon"@en ;
+    rdfs:label "All of Canada"@en ;
     skos:inScheme :dataset ;
     prov:hadPrimarySource <https://www12.statcan.gc.ca/census-recensement/2021/ref/dict/tab/index-eng.cfm?ID=t1_8> ;
     cids:definedBy cids:statsCan ;
