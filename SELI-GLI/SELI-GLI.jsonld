@@ -143,6 +143,20 @@
       "hasIndicator": "https://codelist.commonapproach.org/codeLists/SELI/Indicator9"
     },
     {
+      "@id": "https://codelist.commonapproach.org/codeLists/SELI/Outcome5",
+      "@type": "cids:Outcome",
+      "hasName": "Aggregate SELI and GLI classification",
+      "label": {
+          "en": "Aggregate SELI and GLI classification",
+          "fr": "Critères IOES et IOG agrégées"
+      },
+      "forTheme": "https://codelist.commonapproach.org/codeLists/SELI/Theme1",
+      "hasIndicator": [
+          "https://codelist.commonapproach.org/codeLists/SELI/Indicator10",
+          "https://codelist.commonapproach.org/codeLists/SELI/Indicator11"
+      ]
+    },
+    {
       "@id": "https://codelist.commonapproach.org/codeLists/SELI/Indicator1",
       "@type": "cids:Indicator",
       "hasName": "Are your products/services designed to support equity-deserving groups, and promote social equity?",
@@ -271,6 +285,26 @@
         "fr": "Comment votre organisation fait-elle progresser la Réconciliation avec les Peuples Autochtones dans le cadre de son travail ? (Non évalué dans le cadre des seuils de l'IOES et de l'IOG)"
       },
       "forOutcome": "https://codelist.commonapproach.org/codeLists/SELI/Outcome4"
+    },
+    {
+      "@id": "https://codelist.commonapproach.org/codeLists/SELI/Indicator10",
+      "@type": "cids:Indicator",
+      "hasName": "Social Equity Lens Investment Assessment",
+      "label": {
+          "en": "Social Equity Lens Investment Assessment",
+          "fr": "Évaluation de l'investissement dans une Optique d'Équité Sociale"
+      },
+      "forOutcome": "https://codelist.commonapproach.org/codeLists/SELI/Outcome5"
+    },
+    {
+      "@id": "https://codelist.commonapproach.org/codeLists/SELI/Indicator11",
+      "@type": "cids:Indicator",
+      "hasName": "Gender Lens Investment Assessment",
+      "label": {
+          "en": "Gender Lens Investment Assessment",
+          "fr": "Évaluation de l'Investissement dans une Optique de Genre"
+      },
+      "forOutcome": "https://codelist.commonapproach.org/codeLists/SELI/Outcome5"
     }
   ]
 }
