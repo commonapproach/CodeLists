@@ -73,7 +73,7 @@
     a cids:Outcome ;
     cids:hasName "Aggregate SELI and GLI classification" ;
     rdfs:label "Aggregate SELI and GLI classification"@en ;
-    rdfs:label "Critères IOES et IOG agrégées"@fr ;
+    rdfs:label "Classification globale SELI et GLI"@fr ;
     cids:forTheme :Theme1 ;
     cids:hasIndicator :Indicator10, :Indicator11 .
 

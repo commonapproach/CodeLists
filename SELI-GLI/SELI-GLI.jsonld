@@ -148,7 +148,7 @@
       "hasName": "Aggregate SELI and GLI classification",
       "label": {
           "en": "Aggregate SELI and GLI classification",
-          "fr": "Critères IOES et IOG agrégées"
+          "fr": "Classification globale SELI et GLI"
       },
       "forTheme": "https://codelist.commonapproach.org/codeLists/SELI/Theme1",
       "hasIndicator": [
