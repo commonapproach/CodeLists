@@ -69,6 +69,14 @@
     cids:forTheme :Theme1 ;
     cids:hasIndicator :Indicator9 .
 
+:Outcome5
+    a cids:Outcome ;
+    cids:hasName "Aggregate SELI and GLI classification" ;
+    rdfs:label "Aggregate SELI and GLI classification"@en ;
+    rdfs:label "Critères IOES et IOG agrégées"@fr ;
+    cids:forTheme :Theme1 ;
+    cids:hasIndicator :Indicator10, :Indicator11 .
+
 # -- Indicators --
 
 :Indicator1
@@ -157,3 +165,17 @@
     rdfs:label "How do you advance Indigenous Reconciliation within your work? (Not for assessment as part of SELI/GLI Thresholds)"@en ;
     rdfs:label "Comment votre organisation fait-elle progresser la Réconciliation avec les Peuples Autochtones dans le cadre de son travail ? (Non évalué dans le cadre des seuils de l'IOES et de l'IOG)"@fr ;
     cids:forOutcome :Outcome4 .
+
+:Indicator10
+    a cids:Indicator ;
+    cids:hasName "Social Equity Lens Investment Assessment" ;
+    rdfs:label "Social Equity Lens Investment Assessment"@en ;
+    rdfs:label "Évaluation de l'investissement dans une Optique d'Équité Sociale"@fr ;
+    cids:forOutcome :Outcome5 .
+
+:Indicator11
+    a cids:Indicator ;
+    cids:hasName "Gender Lens Investment Assessment" ;
+    rdfs:label "Gender Lens Investment Assessment"@en ;
+    rdfs:label "Évaluation de l'Investissement dans une Optique de Genre"@fr ;
+    cids:forOutcome :Outcome5 .
