@@ -128,7 +128,7 @@ td {
  </tr>
 
  <tr>
-  <td><a href="EquityDeservingGroupsESDC/EquityDeservingGroupsESDC-en.html">EquityDeservingGroupsESDC</a> (<a href="EquityDeservingGroupsESDC/EquityDeservingGroupsESDC.owl">rdf/xml</a> / <a href="EquityDeservingGroupsESDC/EquityDeservingGroupsESDC.ttl">turtle</a> / <a href="EquityDeservingGroupsESDC/EquityDeservingGroupsESDC.jsonld">json-ld</a> / <a href="EquityDeservingGroupsESDC/EquityDeservingGroupsESDC.nt">triples</a> / <a href="EquityDeservingGroupsESDC/EquityDeservingGroupsESDC.csv">csv</a>)</td>
+  <td><a href="EquityDeservingGroupsESDC/EquityDeservingGroupsESDC.html">EquityDeservingGroupsESDC</a> (<a href="EquityDeservingGroupsESDC/EquityDeservingGroupsESDC.owl">rdf/xml</a> / <a href="EquityDeservingGroupsESDC/EquityDeservingGroupsESDC.ttl">turtle</a> / <a href="EquityDeservingGroupsESDC/EquityDeservingGroupsESDC.jsonld">json-ld</a> / <a href="EquityDeservingGroupsESDC/EquityDeservingGroupsESDC.nt">triples</a> / <a href="EquityDeservingGroupsESDC/EquityDeservingGroupsESDC.csv">csv</a>)</td>
   <td>A codelist vocabulary of Equity Deserving Groups as defined by Ministry of Employment and Social Development of Canada.</td>
   <td style="text-align: center;">Oct 3, 2024</td>
   <td style="text-align: center;">0</td>
