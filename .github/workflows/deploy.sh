@@ -14,6 +14,5 @@ chmod 600 "$SSHDIR/key"
 # includes the DOCROOT path to the public-facing web directory.
 export SERVER_DEPLOY_STRING="$SSH_USERNAME@$SSH_SERVER:$SSH_DOCROOT"
 
-# Change to the public directory and rsync everything to the documents location for the web server on my server 
-cd "$GITHUB_WORKSPACE/public" || exit 1
+# rsync everything to the documents location for the web server on my server 
 /usr/bin/rsync -hlvcr --progress --delete --no-o --no-g -e "ssh -i $SSHDIR/key -o StrictHostKeyChecking=no" . "$SERVER_DEPLOY_STRING"
