@@ -15,4 +15,4 @@ chmod 600 "$SSHDIR/key"
 export SERVER_DEPLOY_STRING="$SSH_USERNAME@$SSH_SERVER:$SSH_DOCROOT"
 
 # rsync everything to the documents location for the web server on my server 
-/usr/bin/rsync --human-readable --verbose --links --checksum --recursive --progress --delete --no-o --no-g --exclude=.git -e "ssh -i $SSHDIR/key -o StrictHostKeyChecking=no" . "$SERVER_DEPLOY_STRING"
+/usr/bin/rsync --human-readable --verbose --links --checksum --recursive --progress --delete --no-o --no-g --exclude=.git --exclude=.github -e "ssh -i $SSHDIR/key -o StrictHostKeyChecking=no" . "$SERVER_DEPLOY_STRING"
