@@ -3,7 +3,7 @@
     "@id": "https://codelist.commonapproach.org/codeLists/OrgTypeGOC#nonProfit",
     "@type": [
       "https://ontology.commonapproach.org/cids#OrganizationType",
-      "https://ontology.commonapproach.org/cids#CODE",
+      "https://ontology.commonapproach.org/cids#Code",
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
     "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
@@ -51,7 +51,7 @@
     "@id": "https://codelist.commonapproach.org/codeLists/OrgTypeGOC#forProfit",
     "@type": [
       "https://ontology.commonapproach.org/cids#OrganizationType",
-      "https://ontology.commonapproach.org/cids#CODE",
+      "https://ontology.commonapproach.org/cids#Code",
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
     "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
@@ -93,7 +93,7 @@
     "@id": "https://codelist.commonapproach.org/codeLists/OrgTypeGOC#Charitable",
     "@type": [
       "https://ontology.commonapproach.org/cids#OrganizationType",
-      "https://ontology.commonapproach.org/cids#CODE",
+      "https://ontology.commonapproach.org/cids#Code",
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
     "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
@@ -202,7 +202,7 @@
     "@id": "https://codelist.commonapproach.org/codeLists/OrgTypeGOC#Cooperative",
     "@type": [
       "https://ontology.commonapproach.org/cids#OrganizationType",
-      "https://ontology.commonapproach.org/cids#CODE",
+      "https://ontology.commonapproach.org/cids#Code",
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
     "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [

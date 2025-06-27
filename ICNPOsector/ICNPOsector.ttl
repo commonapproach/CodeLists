@@ -28,7 +28,7 @@
     a skos:ConceptScheme .
 
 :sec1
-    a skos:Concept, cids:CODE, cids:Sector ;
+    a skos:Concept, cids:Code, cids:Sector ;
     rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/ICNPOsector#> ;
     rdfs:label "Culture and Recreation"@en ;
     skos:inScheme :dataset ;
@@ -37,7 +37,7 @@
     cids:hasName "Culture and Recreation"@en .
 
 :sec10
-    a skos:Concept, cids:CODE, cids:Sector ;
+    a skos:Concept, cids:Code, cids:Sector ;
     rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/ICNPOsector#> ;
     rdfs:label "Religion"@en ;
     skos:inScheme :dataset ;
@@ -46,7 +46,7 @@
     cids:hasName "Religion"@en .
 
 :sec11
-    a skos:Concept, cids:CODE, cids:Sector ;
+    a skos:Concept, cids:Code, cids:Sector ;
     rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/ICNPOsector#> ;
     rdfs:label "Business and Professional Associations, Unions"@en ;
     skos:inScheme :dataset ;
@@ -55,7 +55,7 @@
     cids:hasName "Business and Professional Associations, Unions"@en .
 
 :sec12
-    a skos:Concept, cids:CODE, cids:Sector ;
+    a skos:Concept, cids:Code, cids:Sector ;
     rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/ICNPOsector#> ;
     rdfs:label "Not Elsewhere Classified"@en ;
     skos:inScheme :dataset ;
@@ -64,7 +64,7 @@
     cids:hasName "Not Elsewhere Classified"@en .
 
 :sec2
-    a skos:Concept, cids:CODE, cids:Sector ;
+    a skos:Concept, cids:Code, cids:Sector ;
     rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/ICNPOsector#> ;
     rdfs:label "Education and Research"@en ;
     skos:inScheme :dataset ;
@@ -73,7 +73,7 @@
     cids:hasName "Education and Research"@en .
 
 :sec3
-    a skos:Concept, cids:CODE, cids:Sector ;
+    a skos:Concept, cids:Code, cids:Sector ;
     rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/ICNPOsector#> ;
     rdfs:label "Health"@en ;
     skos:inScheme :dataset ;
@@ -82,7 +82,7 @@
     cids:hasName "Health"@en .
 
 :sec4
-    a skos:Concept, cids:CODE, cids:Sector ;
+    a skos:Concept, cids:Code, cids:Sector ;
     rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/ICNPOsector#> ;
     rdfs:label "Social Services"@en ;
     skos:inScheme :dataset ;
@@ -91,7 +91,7 @@
     cids:hasName "Social Services"@en .
 
 :sec5
-    a skos:Concept, cids:CODE, cids:Sector ;
+    a skos:Concept, cids:Code, cids:Sector ;
     rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/ICNPOsector#> ;
     rdfs:label "Environment"@en ;
     skos:inScheme :dataset ;
@@ -100,7 +100,7 @@
     cids:hasName "Environment"@en .
 
 :sec6
-    a skos:Concept, cids:CODE, cids:Sector ;
+    a skos:Concept, cids:Code, cids:Sector ;
     rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/ICNPOsector#> ;
     rdfs:label "Development and Housing"@en ;
     skos:inScheme :dataset ;
@@ -109,7 +109,7 @@
     cids:hasName "Development and Housing"@en .
 
 :sec7
-    a skos:Concept, cids:CODE, cids:Sector ;
+    a skos:Concept, cids:Code, cids:Sector ;
     rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/ICNPOsector#> ;
     rdfs:label "Law, Advocacy, and Politics"@en ;
     skos:inScheme :dataset ;
@@ -118,7 +118,7 @@
     cids:hasName "Law, Advocacy, and Politics"@en .
 
 :sec8
-    a skos:Concept, cids:CODE, cids:Sector ;
+    a skos:Concept, cids:Code, cids:Sector ;
     rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/ICNPOsector#> ;
     rdfs:label "Philanthropic Intermediaries and Voluntarism Promotion"@en ;
     skos:inScheme :dataset ;
@@ -127,7 +127,7 @@
     cids:hasName "Philanthropic Intermediaries and Voluntarism Promotion"@en .
 
 :sec9
-    a skos:Concept, cids:CODE, cids:Sector ;
+    a skos:Concept, cids:Code, cids:Sector ;
     rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/ICNPOsector#> ;
     rdfs:label "International"@en ;
     skos:inScheme :dataset ;

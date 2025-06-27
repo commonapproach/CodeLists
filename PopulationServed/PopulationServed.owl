@@ -36,7 +36,7 @@
 
   <rdf:Description rdf:about="#ps1">
     <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#PopulationServed"/>
-    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#CODE"/>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:inScheme rdf:resource="https://codelist.commonapproach.org/codeLists/PopulationServed#dataset"/>
     <rdfs:isDefinedBy rdf:resource="https://codelist.commonapproach.org/codeLists/PopulationServed#"/>
@@ -51,7 +51,7 @@
 
   <rdf:Description rdf:about="#ps2">
     <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#PopulationServed"/>
-    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#CODE"/>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:inScheme rdf:resource="https://codelist.commonapproach.org/codeLists/PopulationServed#dataset"/>
     <rdfs:isDefinedBy rdf:resource="https://codelist.commonapproach.org/codeLists/PopulationServed#"/>
@@ -67,7 +67,7 @@
 
   <rdf:Description rdf:about="#ps3">
     <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#PopulationServed"/>
-    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#CODE"/>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:inScheme rdf:resource="https://codelist.commonapproach.org/codeLists/PopulationServed#dataset"/>
     <rdfs:isDefinedBy rdf:resource="https://codelist.commonapproach.org/codeLists/PopulationServed#"/>
@@ -82,7 +82,7 @@
 
   <rdf:Description rdf:about="#ps4">
     <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#PopulationServed"/>
-    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#CODE"/>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:inScheme rdf:resource="https://codelist.commonapproach.org/codeLists/PopulationServed#dataset"/>
     <rdfs:isDefinedBy rdf:resource="https://codelist.commonapproach.org/codeLists/PopulationServed#"/>
@@ -96,7 +96,7 @@
 
   <rdf:Description rdf:about="#ps5">
     <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#PopulationServed"/>
-    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#CODE"/>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:inScheme rdf:resource="https://codelist.commonapproach.org/codeLists/PopulationServed#dataset"/>
     <rdfs:isDefinedBy rdf:resource="https://codelist.commonapproach.org/codeLists/PopulationServed#"/>
@@ -112,7 +112,7 @@
 
   <rdf:Description rdf:about="#ps6">
     <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#PopulationServed"/>
-    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#CODE"/>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:inScheme rdf:resource="https://codelist.commonapproach.org/codeLists/PopulationServed#dataset"/>
     <rdfs:isDefinedBy rdf:resource="https://codelist.commonapproach.org/codeLists/PopulationServed#"/>
@@ -128,7 +128,7 @@
 
   <rdf:Description rdf:about="#ps7">
     <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#PopulationServed"/>
-    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#CODE"/>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:inScheme rdf:resource="https://codelist.commonapproach.org/codeLists/PopulationServed#dataset"/>
     <rdfs:isDefinedBy rdf:resource="https://codelist.commonapproach.org/codeLists/PopulationServed#"/>
@@ -143,7 +143,7 @@
 
   <rdf:Description rdf:about="#ps8">
     <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#PopulationServed"/>
-    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#CODE"/>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:inScheme rdf:resource="https://codelist.commonapproach.org/codeLists/PopulationServed#dataset"/>
     <rdfs:isDefinedBy rdf:resource="https://codelist.commonapproach.org/codeLists/PopulationServed#"/>
@@ -158,7 +158,7 @@
 
   <rdf:Description rdf:about="#ps9">
     <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#PopulationServed"/>
-    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#CODE"/>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:inScheme rdf:resource="https://codelist.commonapproach.org/codeLists/PopulationServed#dataset"/>
     <rdfs:isDefinedBy rdf:resource="https://codelist.commonapproach.org/codeLists/PopulationServed#"/>
@@ -172,7 +172,7 @@
 
   <rdf:Description rdf:about="#ps10">
     <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#PopulationServed"/>
-    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#CODE"/>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:inScheme rdf:resource="https://codelist.commonapproach.org/codeLists/PopulationServed#dataset"/>
     <rdfs:isDefinedBy rdf:resource="https://codelist.commonapproach.org/codeLists/PopulationServed#"/>
@@ -186,7 +186,7 @@
 
   <rdf:Description rdf:about="#ps11">
     <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#PopulationServed"/>
-    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#CODE"/>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:inScheme rdf:resource="https://codelist.commonapproach.org/codeLists/PopulationServed#dataset"/>
     <rdfs:isDefinedBy rdf:resource="https://codelist.commonapproach.org/codeLists/PopulationServed#"/>
@@ -200,7 +200,7 @@
 
   <rdf:Description rdf:about="#ps12">
     <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#PopulationServed"/>
-    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#CODE"/>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:inScheme rdf:resource="https://codelist.commonapproach.org/codeLists/PopulationServed#dataset"/>
     <rdfs:isDefinedBy rdf:resource="https://codelist.commonapproach.org/codeLists/PopulationServed#"/>
@@ -214,7 +214,7 @@
 
   <rdf:Description rdf:about="#ps13">
     <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#PopulationServed"/>
-    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#CODE"/>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:inScheme rdf:resource="https://codelist.commonapproach.org/codeLists/PopulationServed#dataset"/>
     <rdfs:isDefinedBy rdf:resource="https://codelist.commonapproach.org/codeLists/PopulationServed#"/>
@@ -230,7 +230,7 @@
 
   <rdf:Description rdf:about="#ps14">
     <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#PopulationServed"/>
-    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#CODE"/>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:inScheme rdf:resource="https://codelist.commonapproach.org/codeLists/PopulationServed#dataset"/>
     <rdfs:isDefinedBy rdf:resource="https://codelist.commonapproach.org/codeLists/PopulationServed#"/>
@@ -245,7 +245,7 @@
 
   <rdf:Description rdf:about="#ps15">
     <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#PopulationServed"/>
-    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#CODE"/>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:inScheme rdf:resource="https://codelist.commonapproach.org/codeLists/PopulationServed#dataset"/>
     <rdfs:isDefinedBy rdf:resource="https://codelist.commonapproach.org/codeLists/PopulationServed#"/>
@@ -261,7 +261,7 @@
 
   <rdf:Description rdf:about="#ps16">
     <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#PopulationServed"/>
-    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#CODE"/>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:inScheme rdf:resource="https://codelist.commonapproach.org/codeLists/PopulationServed#dataset"/>
     <rdfs:isDefinedBy rdf:resource="https://codelist.commonapproach.org/codeLists/PopulationServed#"/>
@@ -277,7 +277,7 @@
 
   <rdf:Description rdf:about="#ps17">
     <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#PopulationServed"/>
-    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#CODE"/>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:inScheme rdf:resource="https://codelist.commonapproach.org/codeLists/PopulationServed#dataset"/>
     <rdfs:isDefinedBy rdf:resource="https://codelist.commonapproach.org/codeLists/PopulationServed#"/>
@@ -292,7 +292,7 @@
 
   <rdf:Description rdf:about="#ps18">
     <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#PopulationServed"/>
-    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#CODE"/>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:inScheme rdf:resource="https://codelist.commonapproach.org/codeLists/PopulationServed#dataset"/>
     <rdfs:isDefinedBy rdf:resource="https://codelist.commonapproach.org/codeLists/PopulationServed#"/>
@@ -307,7 +307,7 @@
 
   <rdf:Description rdf:about="#ps19">
     <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#PopulationServed"/>
-    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#CODE"/>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:inScheme rdf:resource="https://codelist.commonapproach.org/codeLists/PopulationServed#dataset"/>
     <rdfs:isDefinedBy rdf:resource="https://codelist.commonapproach.org/codeLists/PopulationServed#"/>
@@ -321,7 +321,7 @@
 
   <rdf:Description rdf:about="#ps20">
     <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#PopulationServed"/>
-    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#CODE"/>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:inScheme rdf:resource="https://codelist.commonapproach.org/codeLists/PopulationServed#dataset"/>
     <rdfs:isDefinedBy rdf:resource="https://codelist.commonapproach.org/codeLists/PopulationServed#"/>
@@ -335,7 +335,7 @@
 
   <rdf:Description rdf:about="#ps21">
     <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#PopulationServed"/>
-    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#CODE"/>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:inScheme rdf:resource="https://codelist.commonapproach.org/codeLists/PopulationServed#dataset"/>
     <rdfs:isDefinedBy rdf:resource="https://codelist.commonapproach.org/codeLists/PopulationServed#"/>
@@ -349,7 +349,7 @@
 
   <rdf:Description rdf:about="#ps22">
     <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#PopulationServed"/>
-    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#CODE"/>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:inScheme rdf:resource="https://codelist.commonapproach.org/codeLists/PopulationServed#dataset"/>
     <rdfs:isDefinedBy rdf:resource="https://codelist.commonapproach.org/codeLists/PopulationServed#"/>
@@ -363,7 +363,7 @@
   
   <rdf:Description rdf:about="#ps23">
     <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#PopulationServed"/>
-    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#CODE"/>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:inScheme rdf:resource="https://codelist.commonapproach.org/codeLists/PopulationServed#dataset"/>
     <rdfs:isDefinedBy rdf:resource="https://codelist.commonapproach.org/codeLists/PopulationServed#"/>
@@ -377,7 +377,7 @@
 
   <rdf:Description rdf:about="#ps24">
     <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#PopulationServed"/>
-    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#CODE"/>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:inScheme rdf:resource="https://codelist.commonapproach.org/codeLists/PopulationServed#dataset"/>
     <rdfs:isDefinedBy rdf:resource="https://codelist.commonapproach.org/codeLists/PopulationServed#"/>
@@ -392,7 +392,7 @@
 
   <rdf:Description rdf:about="#ps25">
     <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#PopulationServed"/>
-    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#CODE"/>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:inScheme rdf:resource="https://codelist.commonapproach.org/codeLists/PopulationServed#dataset"/>
     <rdfs:isDefinedBy rdf:resource="https://codelist.commonapproach.org/codeLists/PopulationServed#"/>
@@ -404,7 +404,7 @@
 
   <rdf:Description rdf:about="#ps26">
     <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#PopulationServed"/>
-    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#CODE"/>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:inScheme rdf:resource="https://codelist.commonapproach.org/codeLists/PopulationServed#dataset"/>
     <rdfs:isDefinedBy rdf:resource="https://codelist.commonapproach.org/codeLists/PopulationServed#"/>

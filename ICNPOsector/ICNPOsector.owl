@@ -35,7 +35,7 @@
 
   <rdf:Description rdf:about="https://codelist.commonapproach.org/codeLists/ICNPOsector#sec1">
     <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Sector"/>
-    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#CODE"/>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:inScheme rdf:resource="https://codelist.commonapproach.org/codeLists/ICNPOsector#dataset"/>
     <rdfs:isDefinedBy rdf:resource="https://codelist.commonapproach.org/codeLists/ICNPOsector#"/>
@@ -47,7 +47,7 @@
 
 
   <rdf:Description rdf:about="https://codelist.commonapproach.org/codeLists/ICNPOsector#sec2">
-    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#CODE"/>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
     <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Sector"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:inScheme rdf:resource="https://codelist.commonapproach.org/codeLists/ICNPOsector#dataset"/>
@@ -60,7 +60,7 @@
 
 
   <rdf:Description rdf:about="https://codelist.commonapproach.org/codeLists/ICNPOsector#sec3">
-    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#CODE"/>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
     <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Sector"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:inScheme rdf:resource="https://codelist.commonapproach.org/codeLists/ICNPOsector#dataset"/>
@@ -73,7 +73,7 @@
 
 
   <rdf:Description rdf:about="https://codelist.commonapproach.org/codeLists/ICNPOsector#sec4">
-    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#CODE"/>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
     <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Sector"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:inScheme rdf:resource="https://codelist.commonapproach.org/codeLists/ICNPOsector#dataset"/>
@@ -86,7 +86,7 @@
 
 
   <rdf:Description rdf:about="https://codelist.commonapproach.org/codeLists/ICNPOsector#sec5">
-    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#CODE"/>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
     <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Sector"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:inScheme rdf:resource="https://codelist.commonapproach.org/codeLists/ICNPOsector#dataset"/>
@@ -99,7 +99,7 @@
 
 
   <rdf:Description rdf:about="https://codelist.commonapproach.org/codeLists/ICNPOsector#sec6">
-    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#CODE"/>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
     <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Sector"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:inScheme rdf:resource="https://codelist.commonapproach.org/codeLists/ICNPOsector#dataset"/>
@@ -112,7 +112,7 @@
 
 
   <rdf:Description rdf:about="https://codelist.commonapproach.org/codeLists/ICNPOsector#sec7">
-    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#CODE"/>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
     <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Sector"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:inScheme rdf:resource="https://codelist.commonapproach.org/codeLists/ICNPOsector#dataset"/>
@@ -125,7 +125,7 @@
 
 
   <rdf:Description rdf:about="https://codelist.commonapproach.org/codeLists/ICNPOsector#sec8">
-    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#CODE"/>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
     <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Sector"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:inScheme rdf:resource="https://codelist.commonapproach.org/codeLists/ICNPOsector#dataset"/>
@@ -138,7 +138,7 @@
 
 
   <rdf:Description rdf:about="https://codelist.commonapproach.org/codeLists/ICNPOsector#sec9">
-    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#CODE"/>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
     <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Sector"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:inScheme rdf:resource="https://codelist.commonapproach.org/codeLists/ICNPOsector#dataset"/>
@@ -151,7 +151,7 @@
 
 
   <rdf:Description rdf:about="https://codelist.commonapproach.org/codeLists/ICNPOsector#sec10">
-    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#CODE"/>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
     <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Sector"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:inScheme rdf:resource="https://codelist.commonapproach.org/codeLists/ICNPOsector#dataset"/>
@@ -164,7 +164,7 @@
 
 
   <rdf:Description rdf:about="https://codelist.commonapproach.org/codeLists/ICNPOsector#sec11">
-    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#CODE"/>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
     <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Sector"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:inScheme rdf:resource="https://codelist.commonapproach.org/codeLists/ICNPOsector#dataset"/>
@@ -177,7 +177,7 @@
 
 
   <rdf:Description rdf:about="https://codelist.commonapproach.org/codeLists/ICNPOsector#sec12">
-    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#CODE"/>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
     <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Sector"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:inScheme rdf:resource="https://codelist.commonapproach.org/codeLists/ICNPOsector#dataset"/>

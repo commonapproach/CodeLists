@@ -30,7 +30,7 @@
 # =================================
 
 <https://metadata.un.org/sdg/1>
-    a skos:Concept, cids:Theme ;
+    a skos:Concept, cids:Code,  cids:Theme ;
     rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/SDGImpacts> ;
     rdfs:label "End poverty in all its forms everywhere"@en ;
     skos:prefLabel "Goal 1: No poverty"@en ;
@@ -40,7 +40,7 @@
     cids:hasIdentifier "1" .
 
 <https://metadata.un.org/sdg/2>
-    a skos:Concept, cids:Theme ;
+    a skos:Concept, cids:Code,  cids:Theme ;
     rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/SDGImpacts> ;
     rdfs:label "End hunger, achieve food security and improved nutrition and promote sustainable agriculture."@en ;
     skos:prefLabel "Goal 2: Zero hunger"@en ;
@@ -50,7 +50,7 @@
     cids:hasIdentifier "2" .
 
 <https://metadata.un.org/sdg/3>
-    a skos:Concept, cids:Theme ;
+    a skos:Concept, cids:Code,  cids:Theme ;
     rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/SDGImpacts> ;
     rdfs:label "Ensure healthy lives and promote well-being for all at all ages."@en ;
     skos:prefLabel "Goal 3: Good health and well-being"@en ;
@@ -60,7 +60,7 @@
     cids:hasIdentifier "3" .
 
 <https://metadata.un.org/sdg/4>
-    a skos:Concept, cids:Theme ;
+    a skos:Concept, cids:Code,  cids:Theme ;
     rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/SDGImpacts> ;
     rdfs:label "Ensure inclusive and equitable quality education and promote lifelong learning opportunities for all."@en ;
     skos:prefLabel "Goal 4: Quality education"@en ;
@@ -70,7 +70,7 @@
     cids:hasIdentifier "4" .
 
 <https://metadata.un.org/sdg/5>
-    a skos:Concept, cids:Theme ;
+    a skos:Concept, cids:Code,  cids:Theme ;
     rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/SDGImpacts> ;
     rdfs:label "Achieve gender equality and empower all women and girls."@en ;
     skos:prefLabel "Goal 5: Gender equality"@en ;
@@ -80,7 +80,7 @@
     cids:hasIdentifier "5" .
 
 <https://metadata.un.org/sdg/6>
-    a skos:Concept, cids:Theme ;
+    a skos:Concept, cids:Code,  cids:Theme ;
     rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/SDGImpacts> ;
     rdfs:label "Ensure availability and sustainable management of water and sanitation for all."@en ;
     skos:prefLabel "Goal 6: Clean water and sanitation"@en ;
@@ -90,7 +90,7 @@
     cids:hasIdentifier "6" .
 
 <https://metadata.un.org/sdg/7>
-    a skos:Concept, cids:Theme ;
+    a skos:Concept, cids:Code,  cids:Theme ;
     rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/SDGImpacts> ;
     rdfs:label "Ensure access to affordable, reliable, sustainable and modern energy for all."@en ;
     skos:prefLabel "Goal 7: Affordable and clean energy"@en ;
@@ -100,7 +100,7 @@
     cids:hasIdentifier "7" .
 
 <https://metadata.un.org/sdg/8>
-    a skos:Concept, cids:Theme ;
+    a skos:Concept, cids:Code,  cids:Theme ;
     rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/SDGImpacts> ;
     rdfs:label "Promote sustained, inclusive and sustainable economic growth, full and productive employment and decent work for all."@en ;
     skos:prefLabel "Goal 8: Decent work and economic growth"@en ;
@@ -110,7 +110,7 @@
     cids:hasIdentifier "8" .
 
 <https://metadata.un.org/sdg/9>
-    a skos:Concept, cids:Theme ;
+    a skos:Concept, cids:Code,  cids:Theme ;
     rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/SDGImpacts> ;
     rdfs:label "Build resilient infrastructure, promote inclusive and sustainable industrialization and foster innovation."@en ;
     skos:prefLabel "Goal 9: Industry, innovation and infrastructure"@en ;
@@ -120,7 +120,7 @@
     cids:hasIdentifier "9" .
 
 <https://metadata.un.org/sdg/10>
-    a skos:Concept, cids:Theme ;
+    a skos:Concept, cids:Code,  cids:Theme ;
     rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/SDGImpacts> ;
     rdfs:label "Reduce inequality within and among countries."@en ;
     skos:prefLabel "Goal 10: Reduced inequalities"@en ;
@@ -130,7 +130,7 @@
     cids:hasIdentifier "10" .
 
 <https://metadata.un.org/sdg/11>
-    a skos:Concept, cids:Theme ;
+    a skos:Concept, cids:Code,  cids:Theme ;
     rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/SDGImpacts> ;
     rdfs:label "Make cities and human settlements inclusive, safe, resilient and sustainable."@en ;
     skos:prefLabel "Goal 11: Sustainable cities and communities"@en ;
@@ -140,7 +140,7 @@
     cids:hasIdentifier "11" .
 
 <https://metadata.un.org/sdg/12>
-    a skos:Concept, cids:Theme ;
+    a skos:Concept, cids:Code,  cids:Theme ;
     rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/SDGImpacts> ;
     rdfs:label "Ensure sustainable consumption and production patterns."@en ;
     skos:prefLabel "Goal 12: Responsible consumption and production"@en ;
@@ -150,7 +150,7 @@
     cids:hasIdentifier "12" .
 
 <https://metadata.un.org/sdg/13>
-    a skos:Concept, cids:Theme ;
+    a skos:Concept, cids:Code,  cids:Theme ;
     rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/SDGImpacts> ;
     rdfs:label "Take urgent action to combat climate change and its impacts."@en ;
     skos:prefLabel "Goal 13: Climate action"@en ;
@@ -160,7 +160,7 @@
     cids:hasIdentifier "13" .
 
 <https://metadata.un.org/sdg/14>
-    a skos:Concept, cids:Theme ;
+    a skos:Concept, cids:Code,  cids:Theme ;
     rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/SDGImpacts> ;
     rdfs:label "Conserve and sustainably use the oceans, seas and marine resources for sustainable development."@en ;
     skos:prefLabel "Goal 14: Life below water"@en ;
@@ -170,7 +170,7 @@
     cids:hasIdentifier "14" .
 
 <https://metadata.un.org/sdg/15>
-    a skos:Concept, cids:Theme ;
+    a skos:Concept, cids:Code,  cids:Theme ;
     rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/SDGImpacts> ;
     rdfs:label "Protect, restore and promote sustainable use of terrestrial ecosystems, sustainably manage forests, combat desertification, and halt and reverse land degradation and halt biodiversity loss."@en ;
     skos:prefLabel "Goal 15: Life on land"@en ;
@@ -180,7 +180,7 @@
     cids:hasIdentifier "15" .
 
 <https://metadata.un.org/sdg/16>
-    a skos:Concept, cids:Theme ;
+    a skos:Concept, cids:Code,  cids:Theme ;
     rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/SDGImpacts> ;
     rdfs:label "Promote peaceful and inclusive societies for sustainable development, provide access to justice for all and build effective, accountable and inclusive institutions at all levels."@en ;
     skos:prefLabel "Goal 16: Peace, justice and strong institutions"@en ;
@@ -190,7 +190,7 @@
     cids:hasIdentifier "16" .
 
 <https://metadata.un.org/sdg/17>
-    a skos:Concept, cids:Theme ;
+    a skos:Concept, cids:Code,  cids:Theme ;
     rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/SDGImpacts> ;
     rdfs:label "Strengthen the means of implementation and revitalize the Global Partnership for Sustainable Development."@en ;
     skos:prefLabel "Goal 17: Partnerships for the goals"@en ;

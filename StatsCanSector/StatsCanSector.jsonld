@@ -3,7 +3,7 @@
     "@id": "https://codelist.commonapproach.org/codeLists/StatsCanSector#sec19",
     "@type": [
       "https://ontology.commonapproach.org/cids#Sector",
-      "https://ontology.commonapproach.org/cids#CODE",
+      "https://ontology.commonapproach.org/cids#Code",
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
     "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
@@ -43,7 +43,7 @@
     "@id": "https://codelist.commonapproach.org/codeLists/StatsCanSector#sec2",
     "@type": [
       "https://ontology.commonapproach.org/cids#Sector",
-      "https://ontology.commonapproach.org/cids#CODE",
+      "https://ontology.commonapproach.org/cids#Code",
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
     "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
@@ -89,7 +89,7 @@
     "@id": "https://codelist.commonapproach.org/codeLists/StatsCanSector#sec9",
     "@type": [
       "https://ontology.commonapproach.org/cids#Sector",
-      "https://ontology.commonapproach.org/cids#CODE",
+      "https://ontology.commonapproach.org/cids#Code",
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
     "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
@@ -129,7 +129,7 @@
     "@id": "https://codelist.commonapproach.org/codeLists/StatsCanSector#sec5",
     "@type": [
       "https://ontology.commonapproach.org/cids#Sector",
-      "https://ontology.commonapproach.org/cids#CODE",
+      "https://ontology.commonapproach.org/cids#Code",
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
     "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
@@ -175,7 +175,7 @@
     "@id": "https://codelist.commonapproach.org/codeLists/StatsCanSector#sec16",
     "@type": [
       "https://ontology.commonapproach.org/cids#Sector",
-      "https://ontology.commonapproach.org/cids#CODE",
+      "https://ontology.commonapproach.org/cids#Code",
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
     "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
@@ -215,7 +215,7 @@
     "@id": "https://codelist.commonapproach.org/codeLists/StatsCanSector#sec6",
     "@type": [
       "https://ontology.commonapproach.org/cids#Sector",
-      "https://ontology.commonapproach.org/cids#CODE",
+      "https://ontology.commonapproach.org/cids#Code",
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
     "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
@@ -255,7 +255,7 @@
     "@id": "https://codelist.commonapproach.org/codeLists/StatsCanSector#sec15",
     "@type": [
       "https://ontology.commonapproach.org/cids#Sector",
-      "https://ontology.commonapproach.org/cids#CODE",
+      "https://ontology.commonapproach.org/cids#Code",
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
     "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
@@ -295,7 +295,7 @@
     "@id": "https://codelist.commonapproach.org/codeLists/StatsCanSector#sec4",
     "@type": [
       "https://ontology.commonapproach.org/cids#Sector",
-      "https://ontology.commonapproach.org/cids#CODE",
+      "https://ontology.commonapproach.org/cids#Code",
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
     "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
@@ -335,7 +335,7 @@
     "@id": "https://codelist.commonapproach.org/codeLists/StatsCanSector#sec11",
     "@type": [
       "https://ontology.commonapproach.org/cids#Sector",
-      "https://ontology.commonapproach.org/cids#CODE",
+      "https://ontology.commonapproach.org/cids#Code",
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
     "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
@@ -375,7 +375,7 @@
     "@id": "https://codelist.commonapproach.org/codeLists/StatsCanSector#sec20",
     "@type": [
       "https://ontology.commonapproach.org/cids#Sector",
-      "https://ontology.commonapproach.org/cids#CODE",
+      "https://ontology.commonapproach.org/cids#Code",
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
     "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
@@ -415,7 +415,7 @@
     "@id": "https://codelist.commonapproach.org/codeLists/StatsCanSector#sec8",
     "@type": [
       "https://ontology.commonapproach.org/cids#Sector",
-      "https://ontology.commonapproach.org/cids#CODE",
+      "https://ontology.commonapproach.org/cids#Code",
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
     "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
@@ -458,7 +458,7 @@
     "@id": "https://codelist.commonapproach.org/codeLists/StatsCanSector#sec17",
     "@type": [
       "https://ontology.commonapproach.org/cids#Sector",
-      "https://ontology.commonapproach.org/cids#CODE",
+      "https://ontology.commonapproach.org/cids#Code",
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
     "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
@@ -565,7 +565,7 @@
     "@id": "https://codelist.commonapproach.org/codeLists/StatsCanSector#sec18",
     "@type": [
       "https://ontology.commonapproach.org/cids#Sector",
-      "https://ontology.commonapproach.org/cids#CODE",
+      "https://ontology.commonapproach.org/cids#Code",
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
     "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
@@ -605,7 +605,7 @@
     "@id": "https://codelist.commonapproach.org/codeLists/StatsCanSector#sec13",
     "@type": [
       "https://ontology.commonapproach.org/cids#Sector",
-      "https://ontology.commonapproach.org/cids#CODE",
+      "https://ontology.commonapproach.org/cids#Code",
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
     "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
@@ -645,7 +645,7 @@
     "@id": "https://codelist.commonapproach.org/codeLists/StatsCanSector#sec10",
     "@type": [
       "https://ontology.commonapproach.org/cids#Sector",
-      "https://ontology.commonapproach.org/cids#CODE",
+      "https://ontology.commonapproach.org/cids#Code",
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
     "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
@@ -685,7 +685,7 @@
     "@id": "https://codelist.commonapproach.org/codeLists/StatsCanSector#sec12",
     "@type": [
       "https://ontology.commonapproach.org/cids#Sector",
-      "https://ontology.commonapproach.org/cids#CODE",
+      "https://ontology.commonapproach.org/cids#Code",
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
     "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
@@ -725,7 +725,7 @@
     "@id": "https://codelist.commonapproach.org/codeLists/StatsCanSector#sec1",
     "@type": [
       "https://ontology.commonapproach.org/cids#Sector",
-      "https://ontology.commonapproach.org/cids#CODE",
+      "https://ontology.commonapproach.org/cids#Code",
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
     "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
@@ -765,7 +765,7 @@
     "@id": "https://codelist.commonapproach.org/codeLists/StatsCanSector#sec3",
     "@type": [
       "https://ontology.commonapproach.org/cids#Sector",
-      "https://ontology.commonapproach.org/cids#CODE",
+      "https://ontology.commonapproach.org/cids#Code",
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
     "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
@@ -805,7 +805,7 @@
     "@id": "https://codelist.commonapproach.org/codeLists/StatsCanSector#sec14",
     "@type": [
       "https://ontology.commonapproach.org/cids#Sector",
-      "https://ontology.commonapproach.org/cids#CODE",
+      "https://ontology.commonapproach.org/cids#Code",
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
     "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
@@ -845,7 +845,7 @@
     "@id": "https://codelist.commonapproach.org/codeLists/StatsCanSector#sec7",
     "@type": [
       "https://ontology.commonapproach.org/cids#Sector",
-      "https://ontology.commonapproach.org/cids#CODE",
+      "https://ontology.commonapproach.org/cids#Code",
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
     "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [

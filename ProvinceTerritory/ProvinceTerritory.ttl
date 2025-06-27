@@ -25,7 +25,7 @@
     cids:hasName "Province and Territory Codelist"@en .
 
 :AB
-    a skos:Concept, cids:CODE, cids:Locality ;
+    a skos:Concept, cids:Code, cids:Locality ;
     rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/ProvinceTerritory#> ;
     rdfs:label "Alberta"@en ;
     skos:inScheme :dataset ;
@@ -35,7 +35,7 @@
     cids:hasName "Alberta"@en .
 
 :BC
-    a skos:Concept, cids:CODE, cids:Locality ;
+    a skos:Concept, cids:Code, cids:Locality ;
     rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/ProvinceTerritory#> ;
     rdfs:label "British Columbia"@en ;
     skos:inScheme :dataset ;
@@ -45,7 +45,7 @@
     cids:hasName "British Columbia"@en .
 
 :CAN
-    a skos:Concept, cids:CODE, cids:Locality ;
+    a skos:Concept, cids:Code, cids:Locality ;
     rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/ProvinceTerritory#> ;
     rdfs:label "All of Canada"@en ;
     skos:inScheme :dataset ;
@@ -55,7 +55,7 @@
     cids:hasName "All of Canada"@en .
 
 :MB
-    a skos:Concept, cids:CODE, cids:Locality ;
+    a skos:Concept, cids:Code, cids:Locality ;
     rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/ProvinceTerritory#> ;
     rdfs:label "Manitoba"@en ;
     skos:inScheme :dataset ;
@@ -65,7 +65,7 @@
     cids:hasName "Manitoba"@en .
 
 :NB
-    a skos:Concept, cids:CODE, cids:Locality ;
+    a skos:Concept, cids:Code, cids:Locality ;
     rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/ProvinceTerritory#> ;
     rdfs:label "New Brunswick"@en ;
     skos:inScheme :dataset ;
@@ -75,7 +75,7 @@
     cids:hasName "New Brunswick"@en .
 
 :NL
-    a skos:Concept, cids:CODE, cids:Locality ;
+    a skos:Concept, cids:Code, cids:Locality ;
     rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/ProvinceTerritory#> ;
     rdfs:label "Newfoundland and Labrador"@en ;
     skos:inScheme :dataset ;
@@ -85,7 +85,7 @@
     cids:hasName "Newfoundland and Labrador"@en .
 
 :NS
-    a skos:Concept, cids:CODE, cids:Locality ;
+    a skos:Concept, cids:Code, cids:Locality ;
     rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/ProvinceTerritory#> ;
     rdfs:label "Nova Scotia"@en ;
     skos:inScheme :dataset ;
@@ -95,7 +95,7 @@
     cids:hasName "Nova Scotia"@en .
 
 :NT
-    a skos:Concept, cids:CODE, cids:Locality ;
+    a skos:Concept, cids:Code, cids:Locality ;
     rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/ProvinceTerritory#> ;
     rdfs:label "Northwest Territories"@en ;
     skos:inScheme :dataset ;
@@ -105,7 +105,7 @@
     cids:hasName "Northwest Territories"@en .
 
 :NU
-    a skos:Concept, cids:CODE, cids:Locality ;
+    a skos:Concept, cids:Code, cids:Locality ;
     rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/ProvinceTerritory#> ;
     rdfs:label "Nunavut"@en ;
     skos:inScheme :dataset ;
@@ -115,7 +115,7 @@
     cids:hasName "Nunavut"@en .
 
 :ON
-    a skos:Concept, cids:CODE, cids:Locality ;
+    a skos:Concept, cids:Code, cids:Locality ;
     rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/ProvinceTerritory#> ;
     rdfs:label "Ontario"@en ;
     skos:inScheme :dataset ;
@@ -125,7 +125,7 @@
     cids:hasName "Ontario"@en .
 
 :PE
-    a skos:Concept, cids:CODE, cids:Locality ;
+    a skos:Concept, cids:Code, cids:Locality ;
     rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/ProvinceTerritory#> ;
     rdfs:label "Prince Edward Island"@en ;
     skos:inScheme :dataset ;
@@ -135,7 +135,7 @@
     cids:hasName "Prince Edward Island"@en .
 
 :QC
-    a skos:Concept, cids:CODE, cids:Locality ;
+    a skos:Concept, cids:Code, cids:Locality ;
     rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/ProvinceTerritory#> ;
     rdfs:label "Quebec"@en ;
     skos:inScheme :dataset ;
@@ -145,7 +145,7 @@
     cids:hasName "Quebec"@en .
 
 :SK
-    a skos:Concept, cids:CODE, cids:Locality ;
+    a skos:Concept, cids:Code, cids:Locality ;
     rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/ProvinceTerritory#> ;
     rdfs:label "Saskatchewan"@en ;
     skos:inScheme :dataset ;
@@ -155,7 +155,7 @@
     cids:hasName "Saskatchewan"@en .
 
 :YT
-    a skos:Concept, cids:CODE, cids:Locality ;
+    a skos:Concept, cids:Code, cids:Locality ;
     rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/ProvinceTerritory#> ;
     rdfs:label "Yukon"@en ;
     skos:inScheme :dataset ;

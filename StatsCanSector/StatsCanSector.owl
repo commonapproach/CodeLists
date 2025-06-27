@@ -35,7 +35,7 @@
 
   <rdf:Description rdf:about="https://codelist.commonapproach.org/codeLists/StatsCanSector#sec1">
     <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Sector"/>
-    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#CODE"/>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:inScheme rdf:resource="https://codelist.commonapproach.org/codeLists/StatsCanSector#dataset"/>
     <rdfs:isDefinedBy rdf:resource="https://codelist.commonapproach.org/codeLists/StatsCanSector#"/>
@@ -47,7 +47,7 @@
 
   <rdf:Description rdf:about="https://codelist.commonapproach.org/codeLists/StatsCanSector#sec2">
     <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Sector"/>
-    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#CODE"/>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:inScheme rdf:resource="https://codelist.commonapproach.org/codeLists/StatsCanSector#dataset"/>
     <rdfs:isDefinedBy rdf:resource="https://codelist.commonapproach.org/codeLists/StatsCanSector#"/>
@@ -60,7 +60,7 @@
 
   <rdf:Description rdf:about="https://codelist.commonapproach.org/codeLists/StatsCanSector#sec3">
     <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Sector"/>
-    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#CODE"/>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:inScheme rdf:resource="https://codelist.commonapproach.org/codeLists/StatsCanSector#dataset"/>
     <rdfs:isDefinedBy rdf:resource="https://codelist.commonapproach.org/codeLists/StatsCanSector#"/>
@@ -73,7 +73,7 @@
 
   <rdf:Description rdf:about="https://codelist.commonapproach.org/codeLists/StatsCanSector#sec4">
     <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Sector"/>
-    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#CODE"/>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:inScheme rdf:resource="https://codelist.commonapproach.org/codeLists/StatsCanSector#dataset"/>
     <rdfs:isDefinedBy rdf:resource="https://codelist.commonapproach.org/codeLists/StatsCanSector#"/>
@@ -86,7 +86,7 @@
 
   <rdf:Description rdf:about="https://codelist.commonapproach.org/codeLists/StatsCanSector#sec5">
     <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Sector"/>
-    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#CODE"/>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:inScheme rdf:resource="https://codelist.commonapproach.org/codeLists/StatsCanSector#dataset"/>
     <rdfs:isDefinedBy rdf:resource="https://codelist.commonapproach.org/codeLists/StatsCanSector#"/>
@@ -100,7 +100,7 @@
 
   <rdf:Description rdf:about="https://codelist.commonapproach.org/codeLists/StatsCanSector#sec6">
     <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Sector"/>
-    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#CODE"/>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:inScheme rdf:resource="https://codelist.commonapproach.org/codeLists/StatsCanSector#dataset"/>
     <rdfs:isDefinedBy rdf:resource="https://codelist.commonapproach.org/codeLists/StatsCanSector#"/>
@@ -112,7 +112,7 @@
 
   <rdf:Description rdf:about="https://codelist.commonapproach.org/codeLists/StatsCanSector#sec7">
     <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Sector"/>
-    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#CODE"/>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:inScheme rdf:resource="https://codelist.commonapproach.org/codeLists/StatsCanSector#dataset"/>
     <rdfs:isDefinedBy rdf:resource="https://codelist.commonapproach.org/codeLists/StatsCanSector#"/>
@@ -126,7 +126,7 @@
 
   <rdf:Description rdf:about="https://codelist.commonapproach.org/codeLists/StatsCanSector#sec8">
     <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Sector"/>
-    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#CODE"/>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:inScheme rdf:resource="https://codelist.commonapproach.org/codeLists/StatsCanSector#dataset"/>
     <rdfs:isDefinedBy rdf:resource="https://codelist.commonapproach.org/codeLists/StatsCanSector#"/>
@@ -140,7 +140,7 @@
 
   <rdf:Description rdf:about="https://codelist.commonapproach.org/codeLists/StatsCanSector#sec9">
     <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Sector"/>
-    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#CODE"/>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:inScheme rdf:resource="https://codelist.commonapproach.org/codeLists/StatsCanSector#dataset"/>
     <rdfs:isDefinedBy rdf:resource="https://codelist.commonapproach.org/codeLists/StatsCanSector#"/>
@@ -153,7 +153,7 @@
 
   <rdf:Description rdf:about="https://codelist.commonapproach.org/codeLists/StatsCanSector#sec10">
     <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Sector"/>
-    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#CODE"/>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:inScheme rdf:resource="https://codelist.commonapproach.org/codeLists/StatsCanSector#dataset"/>
     <rdfs:isDefinedBy rdf:resource="https://codelist.commonapproach.org/codeLists/StatsCanSector#"/>
@@ -166,7 +166,7 @@
 
   <rdf:Description rdf:about="https://codelist.commonapproach.org/codeLists/StatsCanSector#sec11">
     <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Sector"/>
-    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#CODE"/>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:inScheme rdf:resource="https://codelist.commonapproach.org/codeLists/StatsCanSector#dataset"/>
     <rdfs:isDefinedBy rdf:resource="https://codelist.commonapproach.org/codeLists/StatsCanSector#"/>
@@ -179,7 +179,7 @@
 
   <rdf:Description rdf:about="https://codelist.commonapproach.org/codeLists/StatsCanSector#sec12">
     <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Sector"/>
-    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#CODE"/>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:inScheme rdf:resource="https://codelist.commonapproach.org/codeLists/StatsCanSector#dataset"/>
     <rdfs:isDefinedBy rdf:resource="https://codelist.commonapproach.org/codeLists/StatsCanSector#"/>
@@ -192,7 +192,7 @@
 
   <rdf:Description rdf:about="https://codelist.commonapproach.org/codeLists/StatsCanSector#sec13">
     <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Sector"/>
-    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#CODE"/>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:inScheme rdf:resource="https://codelist.commonapproach.org/codeLists/StatsCanSector#dataset"/>
     <rdfs:isDefinedBy rdf:resource="https://codelist.commonapproach.org/codeLists/StatsCanSector#"/>
@@ -205,7 +205,7 @@
 
   <rdf:Description rdf:about="https://codelist.commonapproach.org/codeLists/StatsCanSector#sec14">
     <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Sector"/>
-    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#CODE"/>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:inScheme rdf:resource="https://codelist.commonapproach.org/codeLists/StatsCanSector#dataset"/>
     <rdfs:isDefinedBy rdf:resource="https://codelist.commonapproach.org/codeLists/StatsCanSector#"/>
@@ -218,7 +218,7 @@
 
   <rdf:Description rdf:about="https://codelist.commonapproach.org/codeLists/StatsCanSector#sec15">
     <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Sector"/>
-    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#CODE"/>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:inScheme rdf:resource="https://codelist.commonapproach.org/codeLists/StatsCanSector#dataset"/>
     <rdfs:isDefinedBy rdf:resource="https://codelist.commonapproach.org/codeLists/StatsCanSector#"/>
@@ -231,7 +231,7 @@
 
   <rdf:Description rdf:about="https://codelist.commonapproach.org/codeLists/StatsCanSector#sec16">
     <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Sector"/>
-    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#CODE"/>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:inScheme rdf:resource="https://codelist.commonapproach.org/codeLists/StatsCanSector#dataset"/>
     <rdfs:isDefinedBy rdf:resource="https://codelist.commonapproach.org/codeLists/StatsCanSector#"/>
@@ -244,7 +244,7 @@
 
   <rdf:Description rdf:about="https://codelist.commonapproach.org/codeLists/StatsCanSector#sec17">
     <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Sector"/>
-    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#CODE"/>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:inScheme rdf:resource="https://codelist.commonapproach.org/codeLists/StatsCanSector#dataset"/>
     <rdfs:isDefinedBy rdf:resource="https://codelist.commonapproach.org/codeLists/StatsCanSector#"/>
@@ -257,7 +257,7 @@
 
   <rdf:Description rdf:about="https://codelist.commonapproach.org/codeLists/StatsCanSector#sec18">
     <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Sector"/>
-    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#CODE"/>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:inScheme rdf:resource="https://codelist.commonapproach.org/codeLists/StatsCanSector#dataset"/>
     <rdfs:isDefinedBy rdf:resource="https://codelist.commonapproach.org/codeLists/StatsCanSector#"/>
@@ -270,7 +270,7 @@
 
   <rdf:Description rdf:about="https://codelist.commonapproach.org/codeLists/StatsCanSector#sec19">
     <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Sector"/>
-    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#CODE"/>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:inScheme rdf:resource="https://codelist.commonapproach.org/codeLists/StatsCanSector#dataset"/>
     <rdfs:isDefinedBy rdf:resource="https://codelist.commonapproach.org/codeLists/StatsCanSector#"/>
@@ -283,7 +283,7 @@
 
   <rdf:Description rdf:about="https://codelist.commonapproach.org/codeLists/StatsCanSector#sec20">
     <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Sector"/>
-    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#CODE"/>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:inScheme rdf:resource="https://codelist.commonapproach.org/codeLists/StatsCanSector#dataset"/>
     <rdfs:isDefinedBy rdf:resource="https://codelist.commonapproach.org/codeLists/StatsCanSector#"/>

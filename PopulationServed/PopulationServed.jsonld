@@ -3,7 +3,7 @@
     "@id": "https://codelist.commonapproach.org/codeLists/PopulationServed#ps8",
     "@type": [
       "https://ontology.commonapproach.org/cids#PopulationServed",
-      "https://ontology.commonapproach.org/cids#CODE",
+      "https://ontology.commonapproach.org/cids#Code",
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
     "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
@@ -61,7 +61,7 @@
     "@id": "https://codelist.commonapproach.org/codeLists/PopulationServed#ps26",
     "@type": [
       "https://ontology.commonapproach.org/cids#PopulationServed",
-      "https://ontology.commonapproach.org/cids#CODE",
+      "https://ontology.commonapproach.org/cids#Code",
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
     "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
@@ -119,7 +119,7 @@
     "@id": "https://codelist.commonapproach.org/codeLists/PopulationServed#ps16",
     "@type": [
       "https://ontology.commonapproach.org/cids#PopulationServed",
-      "https://ontology.commonapproach.org/cids#CODE",
+      "https://ontology.commonapproach.org/cids#Code",
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
     "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
@@ -176,7 +176,7 @@
     "@id": "https://codelist.commonapproach.org/codeLists/PopulationServed#ps17",
     "@type": [
       "https://ontology.commonapproach.org/cids#PopulationServed",
-      "https://ontology.commonapproach.org/cids#CODE",
+      "https://ontology.commonapproach.org/cids#Code",
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
     "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
@@ -233,7 +233,7 @@
     "@id": "https://codelist.commonapproach.org/codeLists/PopulationServed#ps23",
     "@type": [
       "https://ontology.commonapproach.org/cids#PopulationServed",
-      "https://ontology.commonapproach.org/cids#CODE",
+      "https://ontology.commonapproach.org/cids#Code",
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
     "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
@@ -285,7 +285,7 @@
     "@id": "https://codelist.commonapproach.org/codeLists/PopulationServed#ps25",
     "@type": [
       "https://ontology.commonapproach.org/cids#PopulationServed",
-      "https://ontology.commonapproach.org/cids#CODE",
+      "https://ontology.commonapproach.org/cids#Code",
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
     "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
@@ -325,7 +325,7 @@
     "@id": "https://codelist.commonapproach.org/codeLists/PopulationServed#ps9",
     "@type": [
       "https://ontology.commonapproach.org/cids#PopulationServed",
-      "https://ontology.commonapproach.org/cids#CODE",
+      "https://ontology.commonapproach.org/cids#Code",
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
     "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
@@ -377,7 +377,7 @@
     "@id": "https://codelist.commonapproach.org/codeLists/PopulationServed#ps21",
     "@type": [
       "https://ontology.commonapproach.org/cids#PopulationServed",
-      "https://ontology.commonapproach.org/cids#CODE",
+      "https://ontology.commonapproach.org/cids#Code",
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
     "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
@@ -429,7 +429,7 @@
     "@id": "https://codelist.commonapproach.org/codeLists/PopulationServed#ps7",
     "@type": [
       "https://ontology.commonapproach.org/cids#PopulationServed",
-      "https://ontology.commonapproach.org/cids#CODE",
+      "https://ontology.commonapproach.org/cids#Code",
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
     "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
@@ -486,7 +486,7 @@
     "@id": "https://codelist.commonapproach.org/codeLists/PopulationServed#ps19",
     "@type": [
       "https://ontology.commonapproach.org/cids#PopulationServed",
-      "https://ontology.commonapproach.org/cids#CODE",
+      "https://ontology.commonapproach.org/cids#Code",
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
     "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
@@ -538,7 +538,7 @@
     "@id": "https://codelist.commonapproach.org/codeLists/PopulationServed#ps24",
     "@type": [
       "https://ontology.commonapproach.org/cids#PopulationServed",
-      "https://ontology.commonapproach.org/cids#CODE",
+      "https://ontology.commonapproach.org/cids#Code",
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
     "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
@@ -590,7 +590,7 @@
     "@id": "https://codelist.commonapproach.org/codeLists/PopulationServed#ps1",
     "@type": [
       "https://ontology.commonapproach.org/cids#PopulationServed",
-      "https://ontology.commonapproach.org/cids#CODE",
+      "https://ontology.commonapproach.org/cids#Code",
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
     "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
@@ -647,7 +647,7 @@
     "@id": "https://codelist.commonapproach.org/codeLists/PopulationServed#ps6",
     "@type": [
       "https://ontology.commonapproach.org/cids#PopulationServed",
-      "https://ontology.commonapproach.org/cids#CODE",
+      "https://ontology.commonapproach.org/cids#Code",
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
     "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
@@ -704,7 +704,7 @@
     "@id": "https://codelist.commonapproach.org/codeLists/PopulationServed#ps12",
     "@type": [
       "https://ontology.commonapproach.org/cids#PopulationServed",
-      "https://ontology.commonapproach.org/cids#CODE",
+      "https://ontology.commonapproach.org/cids#Code",
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
     "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
@@ -756,7 +756,7 @@
     "@id": "https://codelist.commonapproach.org/codeLists/PopulationServed#ps20",
     "@type": [
       "https://ontology.commonapproach.org/cids#PopulationServed",
-      "https://ontology.commonapproach.org/cids#CODE",
+      "https://ontology.commonapproach.org/cids#Code",
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
     "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
@@ -808,7 +808,7 @@
     "@id": "https://codelist.commonapproach.org/codeLists/PopulationServed#ps2",
     "@type": [
       "https://ontology.commonapproach.org/cids#PopulationServed",
-      "https://ontology.commonapproach.org/cids#CODE",
+      "https://ontology.commonapproach.org/cids#Code",
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
     "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
@@ -865,7 +865,7 @@
     "@id": "https://codelist.commonapproach.org/codeLists/PopulationServed#ps22",
     "@type": [
       "https://ontology.commonapproach.org/cids#PopulationServed",
-      "https://ontology.commonapproach.org/cids#CODE",
+      "https://ontology.commonapproach.org/cids#Code",
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
     "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
@@ -917,7 +917,7 @@
     "@id": "https://codelist.commonapproach.org/codeLists/PopulationServed#ps11",
     "@type": [
       "https://ontology.commonapproach.org/cids#PopulationServed",
-      "https://ontology.commonapproach.org/cids#CODE",
+      "https://ontology.commonapproach.org/cids#Code",
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
     "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
@@ -969,7 +969,7 @@
     "@id": "https://codelist.commonapproach.org/codeLists/PopulationServed#ps5",
     "@type": [
       "https://ontology.commonapproach.org/cids#PopulationServed",
-      "https://ontology.commonapproach.org/cids#CODE",
+      "https://ontology.commonapproach.org/cids#Code",
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
     "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
@@ -1096,7 +1096,7 @@
     "@id": "https://codelist.commonapproach.org/codeLists/PopulationServed#ps15",
     "@type": [
       "https://ontology.commonapproach.org/cids#PopulationServed",
-      "https://ontology.commonapproach.org/cids#CODE",
+      "https://ontology.commonapproach.org/cids#Code",
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
     "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
@@ -1153,7 +1153,7 @@
     "@id": "https://codelist.commonapproach.org/codeLists/PopulationServed#ps3",
     "@type": [
       "https://ontology.commonapproach.org/cids#PopulationServed",
-      "https://ontology.commonapproach.org/cids#CODE",
+      "https://ontology.commonapproach.org/cids#Code",
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
     "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
@@ -1210,7 +1210,7 @@
     "@id": "https://codelist.commonapproach.org/codeLists/PopulationServed#ps14",
     "@type": [
       "https://ontology.commonapproach.org/cids#PopulationServed",
-      "https://ontology.commonapproach.org/cids#CODE",
+      "https://ontology.commonapproach.org/cids#Code",
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
     "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
@@ -1267,7 +1267,7 @@
     "@id": "https://codelist.commonapproach.org/codeLists/PopulationServed#ps4",
     "@type": [
       "https://ontology.commonapproach.org/cids#PopulationServed",
-      "https://ontology.commonapproach.org/cids#CODE",
+      "https://ontology.commonapproach.org/cids#Code",
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
     "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
@@ -1319,7 +1319,7 @@
     "@id": "https://codelist.commonapproach.org/codeLists/PopulationServed#ps18",
     "@type": [
       "https://ontology.commonapproach.org/cids#PopulationServed",
-      "https://ontology.commonapproach.org/cids#CODE",
+      "https://ontology.commonapproach.org/cids#Code",
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
     "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
@@ -1376,7 +1376,7 @@
     "@id": "https://codelist.commonapproach.org/codeLists/PopulationServed#ps10",
     "@type": [
       "https://ontology.commonapproach.org/cids#PopulationServed",
-      "https://ontology.commonapproach.org/cids#CODE",
+      "https://ontology.commonapproach.org/cids#Code",
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
     "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
@@ -1434,7 +1434,7 @@
     "@id": "https://codelist.commonapproach.org/codeLists/PopulationServed#ps13",
     "@type": [
       "https://ontology.commonapproach.org/cids#PopulationServed",
-      "https://ontology.commonapproach.org/cids#CODE",
+      "https://ontology.commonapproach.org/cids#Code",
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
     "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [

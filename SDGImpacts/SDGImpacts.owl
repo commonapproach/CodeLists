@@ -35,7 +35,7 @@
 
   <rdf:Description rdf:about="#SDG1">
     <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Theme"/>
-    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#CODE"/>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:inScheme rdf:resource="#dataset"/>
     <rdfs:isDefinedBy rdf:resource="https://codelist.commonapproach.org/codeLists/SDGImpacts#"/>
@@ -50,7 +50,7 @@
 
   <rdf:Description rdf:about="#SDG2">
     <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Theme"/>
-    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#CODE"/>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:inScheme rdf:resource="#dataset"/>
     <rdfs:isDefinedBy rdf:resource="https://codelist.commonapproach.org/codeLists/SDGImpacts#"/>
@@ -65,7 +65,7 @@
 
   <rdf:Description rdf:about="#SDG3">
     <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Theme"/>
-    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#CODE"/>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:inScheme rdf:resource="#dataset"/>
     <rdfs:isDefinedBy rdf:resource="https://codelist.commonapproach.org/codeLists/SDGImpacts#"/>
@@ -80,7 +80,7 @@
 
   <rdf:Description rdf:about="#SDG4">
     <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Theme"/>
-    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#CODE"/>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:inScheme rdf:resource="#dataset"/>
     <rdfs:isDefinedBy rdf:resource="https://codelist.commonapproach.org/codeLists/SDGImpacts#"/>
@@ -95,7 +95,7 @@
   
   <rdf:Description rdf:about="#SDG5">
     <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Theme"/>
-    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#CODE"/>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:inScheme rdf:resource="#dataset"/>
     <rdfs:isDefinedBy rdf:resource="https://codelist.commonapproach.org/codeLists/SDGImpacts#"/>
@@ -110,7 +110,7 @@
   
   <rdf:Description rdf:about="#SDG6">
     <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Theme"/>
-    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#CODE"/>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:inScheme rdf:resource="#dataset"/>
     <rdfs:isDefinedBy rdf:resource="https://codelist.commonapproach.org/codeLists/SDGImpacts#"/>
@@ -125,7 +125,7 @@
   
   <rdf:Description rdf:about="#SDG7">
     <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Theme"/>
-    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#CODE"/>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:inScheme rdf:resource="#dataset"/>
     <rdfs:isDefinedBy rdf:resource="https://codelist.commonapproach.org/codeLists/SDGImpacts#"/>
@@ -140,7 +140,7 @@
   
   <rdf:Description rdf:about="#SDG8">
     <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Theme"/>
-    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#CODE"/>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:inScheme rdf:resource="#dataset"/>
     <rdfs:isDefinedBy rdf:resource="https://codelist.commonapproach.org/codeLists/SDGImpacts#"/>
@@ -155,7 +155,7 @@
   
   <rdf:Description rdf:about="#SDG9">
     <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Theme"/>
-    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#CODE"/>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:inScheme rdf:resource="#dataset"/>
     <rdfs:isDefinedBy rdf:resource="https://codelist.commonapproach.org/codeLists/SDGImpacts#"/>
@@ -171,7 +171,7 @@
 
   <rdf:Description rdf:about="#SDG10">
     <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Theme"/>
-    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#CODE"/>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:inScheme rdf:resource="#dataset"/>
     <rdfs:isDefinedBy rdf:resource="https://codelist.commonapproach.org/codeLists/SDGImpacts#"/>
@@ -186,7 +186,7 @@
 
   <rdf:Description rdf:about="#SDG11">
     <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Theme"/>
-    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#CODE"/>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:inScheme rdf:resource="#dataset"/>
     <rdfs:isDefinedBy rdf:resource="https://codelist.commonapproach.org/codeLists/SDGImpacts#"/>
@@ -201,7 +201,7 @@
 
   <rdf:Description rdf:about="#SDG12">
     <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Theme"/>
-    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#CODE"/>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:inScheme rdf:resource="#dataset"/>
     <rdfs:isDefinedBy rdf:resource="https://codelist.commonapproach.org/codeLists/SDGImpacts#"/>
@@ -216,7 +216,7 @@
  
   <rdf:Description rdf:about="#SDG13">
     <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Theme"/>
-    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#CODE"/>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:inScheme rdf:resource="#dataset"/>
     <rdfs:isDefinedBy rdf:resource="https://codelist.commonapproach.org/codeLists/SDGImpacts#"/>
@@ -231,7 +231,7 @@
   
   <rdf:Description rdf:about="#SDG14">
     <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Theme"/>
-    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#CODE"/>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:inScheme rdf:resource="#dataset"/>
     <rdfs:isDefinedBy rdf:resource="https://codelist.commonapproach.org/codeLists/SDGImpacts#"/>
@@ -246,7 +246,7 @@
   
   <rdf:Description rdf:about="#SDG15">
     <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Theme"/>
-    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#CODE"/>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:inScheme rdf:resource="#dataset"/>
     <rdfs:isDefinedBy rdf:resource="https://codelist.commonapproach.org/codeLists/SDGImpacts#"/>
@@ -261,7 +261,7 @@
   
   <rdf:Description rdf:about="#SDG16">
     <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Theme"/>
-    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#CODE"/>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:inScheme rdf:resource="#dataset"/>
     <rdfs:isDefinedBy rdf:resource="https://codelist.commonapproach.org/codeLists/SDGImpacts#"/>
@@ -276,7 +276,7 @@
 
   <rdf:Description rdf:about="#SDG17">
     <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Theme"/>
-    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#CODE"/>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:inScheme rdf:resource="#dataset"/>
     <rdfs:isDefinedBy rdf:resource="https://codelist.commonapproach.org/codeLists/SDGImpacts#"/>

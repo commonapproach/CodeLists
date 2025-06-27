@@ -35,7 +35,7 @@
 
   <rdf:Description rdf:about="#AB">
     <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Locality"/>
-    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#CODE"/>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:inScheme rdf:resource="https://codelist.commonapproach.org/codeLists/ProvinceTerritory#dataset"/>
     <rdfs:isDefinedBy rdf:resource="https://codelist.commonapproach.org/codeLists/ProvinceTerritory#"/>
@@ -48,7 +48,7 @@
 
   <rdf:Description rdf:about="#BC">
     <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Locality"/>
-    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#CODE"/>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:inScheme rdf:resource="https://codelist.commonapproach.org/codeLists/ProvinceTerritory#dataset"/>
     <rdfs:isDefinedBy rdf:resource="https://codelist.commonapproach.org/codeLists/ProvinceTerritory#"/>
@@ -61,7 +61,7 @@
 
   <rdf:Description rdf:about="#MB">
     <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Locality"/>
-    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#CODE"/>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:inScheme rdf:resource="https://codelist.commonapproach.org/codeLists/ProvinceTerritory#dataset"/>
     <rdfs:isDefinedBy rdf:resource="https://codelist.commonapproach.org/codeLists/ProvinceTerritory#"/>
@@ -74,7 +74,7 @@
 
   <rdf:Description rdf:about="#NB">
     <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Locality"/>
-    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#CODE"/>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:inScheme rdf:resource="https://codelist.commonapproach.org/codeLists/ProvinceTerritory#dataset"/>
     <rdfs:isDefinedBy rdf:resource="https://codelist.commonapproach.org/codeLists/ProvinceTerritory#"/>
@@ -87,7 +87,7 @@
 
   <rdf:Description rdf:about="#NL">
     <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Locality"/>
-    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#CODE"/>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:inScheme rdf:resource="https://codelist.commonapproach.org/codeLists/ProvinceTerritory#dataset"/>
     <rdfs:isDefinedBy rdf:resource="https://codelist.commonapproach.org/codeLists/ProvinceTerritory#"/>
@@ -100,7 +100,7 @@
 
   <rdf:Description rdf:about="#NS">
     <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Locality"/>
-    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#CODE"/>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:inScheme rdf:resource="https://codelist.commonapproach.org/codeLists/ProvinceTerritory#dataset"/>
     <rdfs:isDefinedBy rdf:resource="https://codelist.commonapproach.org/codeLists/ProvinceTerritory#"/>
@@ -113,7 +113,7 @@
 
   <rdf:Description rdf:about="#NT">
     <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Locality"/>
-    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#CODE"/>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:inScheme rdf:resource="https://codelist.commonapproach.org/codeLists/ProvinceTerritory#dataset"/>
     <rdfs:isDefinedBy rdf:resource="https://codelist.commonapproach.org/codeLists/ProvinceTerritory#"/>
@@ -126,7 +126,7 @@
 
   <rdf:Description rdf:about="#NU">
     <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Locality"/>
-    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#CODE"/>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:inScheme rdf:resource="https://codelist.commonapproach.org/codeLists/ProvinceTerritory#dataset"/>
     <rdfs:isDefinedBy rdf:resource="https://codelist.commonapproach.org/codeLists/ProvinceTerritory#"/>
@@ -139,7 +139,7 @@
 
   <rdf:Description rdf:about="#ON">
     <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Locality"/>
-    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#CODE"/>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:inScheme rdf:resource="https://codelist.commonapproach.org/codeLists/ProvinceTerritory#dataset"/>
     <rdfs:isDefinedBy rdf:resource="https://codelist.commonapproach.org/codeLists/ProvinceTerritory#"/>
@@ -152,7 +152,7 @@
 
   <rdf:Description rdf:about="#PE">
     <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Locality"/>
-    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#CODE"/>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:inScheme rdf:resource="https://codelist.commonapproach.org/codeLists/ProvinceTerritory#dataset"/>
     <rdfs:isDefinedBy rdf:resource="https://codelist.commonapproach.org/codeLists/ProvinceTerritory#"/>
@@ -165,7 +165,7 @@
 
   <rdf:Description rdf:about="#QC">
     <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Locality"/>
-    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#CODE"/>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:inScheme rdf:resource="https://codelist.commonapproach.org/codeLists/ProvinceTerritory#dataset"/>
     <rdfs:isDefinedBy rdf:resource="https://codelist.commonapproach.org/codeLists/ProvinceTerritory#"/>
@@ -178,7 +178,7 @@
 
   <rdf:Description rdf:about="#SK">
     <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Locality"/>
-    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#CODE"/>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:inScheme rdf:resource="https://codelist.commonapproach.org/codeLists/ProvinceTerritory#dataset"/>
     <rdfs:isDefinedBy rdf:resource="https://codelist.commonapproach.org/codeLists/ProvinceTerritory#"/>
@@ -191,7 +191,7 @@
 
   <rdf:Description rdf:about="#YT">
     <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Locality"/>
-    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#CODE"/>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:inScheme rdf:resource="https://codelist.commonapproach.org/codeLists/ProvinceTerritory#dataset"/>
     <rdfs:isDefinedBy rdf:resource="https://codelist.commonapproach.org/codeLists/ProvinceTerritory#"/>
@@ -204,7 +204,7 @@
 
   <rdf:Description rdf:about="#CAN">
     <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Locality"/>
-    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#CODE"/>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:inScheme rdf:resource="https://codelist.commonapproach.org/codeLists/ProvinceTerritory#dataset"/>
     <rdfs:isDefinedBy rdf:resource="https://codelist.commonapproach.org/codeLists/ProvinceTerritory#"/>

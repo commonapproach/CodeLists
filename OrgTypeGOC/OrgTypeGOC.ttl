@@ -25,7 +25,7 @@
     cids:hasName "Organization Type" .
 
 :Charitable
-    a skos:Concept, cids:CODE, cids:OrganizationType ;
+    a skos:Concept, cids:Code, cids:OrganizationType ;
     rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/OrgTypeGOC#> ;
     rdfs:label "Charitable"@en ;
     skos:definition "Charitable organizations are registered as such with the Canada Revenue Agency and have a charitable Registration Number."@en ;
@@ -34,7 +34,7 @@
     cids:hasName "Charitable"@en .
 
 :Cooperative
-    a skos:Concept, cids:CODE, cids:OrganizationType ;
+    a skos:Concept, cids:Code, cids:OrganizationType ;
     rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/OrgTypeGOC#> ;
     rdfs:label "Cooperative"@en ;
     skos:definition "A cooperative is an association of persons united voluntarily to meet their common economic, social, and cultural needs and aspirations through a jointly owned and democratically controlled enterprise incorporated under specific legislation (e.g., the Canada Cooperatives Act) at the provincial, territorial, or federal level. Depending on the governing legislation, cooperatives may be for-profit or non-profit entities."@en ;
@@ -47,7 +47,7 @@
     a skos:ConceptScheme .
 
 :forProfit
-    a skos:Concept, cids:CODE, cids:OrganizationType ;
+    a skos:Concept, cids:Code, cids:OrganizationType ;
     rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/OrgTypeGOC#> ;
     rdfs:label "For-Profit"@en ;
     skos:definition "For-profit organizations are businesses or corporations that are organized and operated for the purpose of generating profit."@en ;
@@ -56,7 +56,7 @@
     cids:hasName "For-Profit"@en .
 
 :nonProfit
-    a skos:Concept, cids:CODE, cids:OrganizationType ;
+    a skos:Concept, cids:Code, cids:OrganizationType ;
     rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/OrgTypeGOC#> ;
     rdfs:label "Non-Profit"@en ;
     skos:definition "Non-profit organizations are associations, clubs, or societies that are not registered charities or individuals, but are organized and operated exclusively for social welfare, civic improvement, pleasure, recreation, or any other purpose except profit. Non-profit organizations may be incorporated or unincorporated."@en ;

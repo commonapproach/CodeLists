@@ -2,7 +2,7 @@
   {
     "@id": "https://codelist.commonapproach.org/codeLists/ICNPOsector#sec3",
     "@type": [
-      "https://ontology.commonapproach.org/cids#CODE",
+      "https://ontology.commonapproach.org/cids#Code",
       "https://ontology.commonapproach.org/cids#Sector",
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
@@ -42,7 +42,7 @@
   {
     "@id": "https://codelist.commonapproach.org/codeLists/ICNPOsector#sec2",
     "@type": [
-      "https://ontology.commonapproach.org/cids#CODE",
+      "https://ontology.commonapproach.org/cids#Code",
       "https://ontology.commonapproach.org/cids#Sector",
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
@@ -83,7 +83,7 @@
     "@id": "https://codelist.commonapproach.org/codeLists/ICNPOsector#sec1",
     "@type": [
       "https://ontology.commonapproach.org/cids#Sector",
-      "https://ontology.commonapproach.org/cids#CODE",
+      "https://ontology.commonapproach.org/cids#Code",
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
     "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
@@ -122,7 +122,7 @@
   {
     "@id": "https://codelist.commonapproach.org/codeLists/ICNPOsector#sec5",
     "@type": [
-      "https://ontology.commonapproach.org/cids#CODE",
+      "https://ontology.commonapproach.org/cids#Code",
       "https://ontology.commonapproach.org/cids#Sector",
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
@@ -162,7 +162,7 @@
   {
     "@id": "https://codelist.commonapproach.org/codeLists/ICNPOsector#sec12",
     "@type": [
-      "https://ontology.commonapproach.org/cids#CODE",
+      "https://ontology.commonapproach.org/cids#Code",
       "https://ontology.commonapproach.org/cids#Sector",
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
@@ -202,7 +202,7 @@
   {
     "@id": "https://codelist.commonapproach.org/codeLists/ICNPOsector#sec10",
     "@type": [
-      "https://ontology.commonapproach.org/cids#CODE",
+      "https://ontology.commonapproach.org/cids#Code",
       "https://ontology.commonapproach.org/cids#Sector",
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
@@ -248,7 +248,7 @@
   {
     "@id": "https://codelist.commonapproach.org/codeLists/ICNPOsector#sec8",
     "@type": [
-      "https://ontology.commonapproach.org/cids#CODE",
+      "https://ontology.commonapproach.org/cids#Code",
       "https://ontology.commonapproach.org/cids#Sector",
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
@@ -288,7 +288,7 @@
   {
     "@id": "https://codelist.commonapproach.org/codeLists/ICNPOsector#sec11",
     "@type": [
-      "https://ontology.commonapproach.org/cids#CODE",
+      "https://ontology.commonapproach.org/cids#Code",
       "https://ontology.commonapproach.org/cids#Sector",
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
@@ -328,7 +328,7 @@
   {
     "@id": "https://codelist.commonapproach.org/codeLists/ICNPOsector#sec9",
     "@type": [
-      "https://ontology.commonapproach.org/cids#CODE",
+      "https://ontology.commonapproach.org/cids#Code",
       "https://ontology.commonapproach.org/cids#Sector",
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
@@ -368,7 +368,7 @@
   {
     "@id": "https://codelist.commonapproach.org/codeLists/ICNPOsector#sec4",
     "@type": [
-      "https://ontology.commonapproach.org/cids#CODE",
+      "https://ontology.commonapproach.org/cids#Code",
       "https://ontology.commonapproach.org/cids#Sector",
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
@@ -408,7 +408,7 @@
   {
     "@id": "https://codelist.commonapproach.org/codeLists/ICNPOsector#sec7",
     "@type": [
-      "https://ontology.commonapproach.org/cids#CODE",
+      "https://ontology.commonapproach.org/cids#Code",
       "https://ontology.commonapproach.org/cids#Sector",
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
@@ -448,7 +448,7 @@
   {
     "@id": "https://codelist.commonapproach.org/codeLists/ICNPOsector#sec6",
     "@type": [
-      "https://ontology.commonapproach.org/cids#CODE",
+      "https://ontology.commonapproach.org/cids#Code",
       "https://ontology.commonapproach.org/cids#Sector",
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],

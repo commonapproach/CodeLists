@@ -73,7 +73,7 @@
     "@id": "https://codelist.commonapproach.org/codeLists/LocalityStatsCan#loc7",
     "@type": [
       "https://ontology.commonapproach.org/cids#Locality",
-      "https://ontology.commonapproach.org/cids#CODE",
+      "https://ontology.commonapproach.org/cids#Code",
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
     "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
@@ -125,7 +125,7 @@
     "@id": "https://codelist.commonapproach.org/codeLists/LocalityStatsCan#loc4",
     "@type": [
       "https://ontology.commonapproach.org/cids#Locality",
-      "https://ontology.commonapproach.org/cids#CODE",
+      "https://ontology.commonapproach.org/cids#Code",
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
     "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
@@ -177,7 +177,7 @@
     "@id": "https://codelist.commonapproach.org/codeLists/LocalityStatsCan#loc6",
     "@type": [
       "https://ontology.commonapproach.org/cids#Locality",
-      "https://ontology.commonapproach.org/cids#CODE",
+      "https://ontology.commonapproach.org/cids#Code",
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
     "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
@@ -229,7 +229,7 @@
     "@id": "https://codelist.commonapproach.org/codeLists/LocalityStatsCan#loc3",
     "@type": [
       "https://ontology.commonapproach.org/cids#Locality",
-      "https://ontology.commonapproach.org/cids#CODE",
+      "https://ontology.commonapproach.org/cids#Code",
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
     "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
@@ -281,7 +281,7 @@
     "@id": "https://codelist.commonapproach.org/codeLists/LocalityStatsCan#loc2",
     "@type": [
       "https://ontology.commonapproach.org/cids#Locality",
-      "https://ontology.commonapproach.org/cids#CODE",
+      "https://ontology.commonapproach.org/cids#Code",
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
     "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
@@ -333,7 +333,7 @@
     "@id": "https://codelist.commonapproach.org/codeLists/LocalityStatsCan#loc1",
     "@type": [
       "https://ontology.commonapproach.org/cids#Locality",
-      "https://ontology.commonapproach.org/cids#CODE",
+      "https://ontology.commonapproach.org/cids#Code",
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
     "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
@@ -391,7 +391,7 @@
     "@id": "https://codelist.commonapproach.org/codeLists/LocalityStatsCan#loc5",
     "@type": [
       "https://ontology.commonapproach.org/cids#Locality",
-      "https://ontology.commonapproach.org/cids#CODE",
+      "https://ontology.commonapproach.org/cids#Code",
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
     "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [

@@ -36,7 +36,7 @@
 
   <rdf:Description rdf:about="edg1">
     <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#PopulationServed"/>
-    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#CODE"/>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:inScheme rdf:resource="https://codelist.commonapproach.org/codeLists/EquityDeservingGroupsESDC#dataset"/>
     <rdfs:isDefinedBy rdf:resource="https://codelist.commonapproach.org/codeLists/EquityDeservingGroupsESDC#"/>
@@ -51,7 +51,7 @@
 
   <rdf:Description rdf:about="edg2">
     <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#PopulationServed"/>
-    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#CODE"/>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:inScheme rdf:resource="https://codelist.commonapproach.org/codeLists/EquityDeservingGroupsESDC#dataset"/>
     <rdfs:isDefinedBy rdf:resource="https://codelist.commonapproach.org/codeLists/EquityDeservingGroupsESDC#"/>
@@ -67,7 +67,7 @@
 
   <rdf:Description rdf:about="edg3">
     <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#PopulationServed"/>
-    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#CODE"/>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:inScheme rdf:resource="https://codelist.commonapproach.org/codeLists/EquityDeservingGroupsESDC#dataset"/>
     <rdfs:isDefinedBy rdf:resource="https://codelist.commonapproach.org/codeLists/EquityDeservingGroupsESDC#"/>
@@ -81,7 +81,7 @@
 
   <rdf:Description rdf:about="edg4">
     <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#PopulationServed"/>
-    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#CODE"/>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:inScheme rdf:resource="https://codelist.commonapproach.org/codeLists/EquityDeservingGroupsESDC#dataset"/>
     <rdfs:isDefinedBy rdf:resource="https://codelist.commonapproach.org/codeLists/EquityDeservingGroupsESDC#"/>
@@ -96,7 +96,7 @@
 
   <rdf:Description rdf:about="edg5">
     <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#PopulationServed"/>
-    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#CODE"/>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:inScheme rdf:resource="https://codelist.commonapproach.org/codeLists/EquityDeservingGroupsESDC#dataset"/>
     <rdfs:isDefinedBy rdf:resource="https://codelist.commonapproach.org/codeLists/EquityDeservingGroupsESDC#"/>
@@ -111,7 +111,7 @@
 
   <rdf:Description rdf:about="edg6">
     <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#PopulationServed"/>
-    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#CODE"/>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:inScheme rdf:resource="https://codelist.commonapproach.org/codeLists/EquityDeservingGroupsESDC#dataset"/>
     <rdfs:isDefinedBy rdf:resource="https://codelist.commonapproach.org/codeLists/EquityDeservingGroupsESDC#"/>
@@ -127,7 +127,7 @@
 
   <rdf:Description rdf:about="edg7">
     <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#PopulationServed"/>
-    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#CODE"/>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:inScheme rdf:resource="https://codelist.commonapproach.org/codeLists/EquityDeservingGroupsESDC#dataset"/>
     <rdfs:isDefinedBy rdf:resource="https://codelist.commonapproach.org/codeLists/EquityDeservingGroupsESDC#"/>
@@ -141,7 +141,7 @@
 
   <rdf:Description rdf:about="edg8">
     <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#PopulationServed"/>
-    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#CODE"/>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:inScheme rdf:resource="https://codelist.commonapproach.org/codeLists/EquityDeservingGroupsESDC#dataset"/>
     <rdfs:isDefinedBy rdf:resource="https://codelist.commonapproach.org/codeLists/EquityDeservingGroupsESDC#"/>
@@ -156,7 +156,7 @@
 
   <rdf:Description rdf:about="edg9">
     <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#PopulationServed"/>
-    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#CODE"/>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:inScheme rdf:resource="https://codelist.commonapproach.org/codeLists/EquityDeservingGroupsESDC#dataset"/>
     <rdfs:isDefinedBy rdf:resource="https://codelist.commonapproach.org/codeLists/EquityDeservingGroupsESDC#"/>
@@ -169,7 +169,7 @@
 
   <rdf:Description rdf:about="edg10">
     <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#PopulationServed"/>
-    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#CODE"/>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:inScheme rdf:resource="https://codelist.commonapproach.org/codeLists/EquityDeservingGroupsESDC#dataset"/>
     <rdfs:isDefinedBy rdf:resource="https://codelist.commonapproach.org/codeLists/EquityDeservingGroupsESDC#"/>
@@ -184,7 +184,7 @@
 
   <rdf:Description rdf:about="edg11">
     <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#PopulationServed"/>
-    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#CODE"/>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:inScheme rdf:resource="https://codelist.commonapproach.org/codeLists/EquityDeservingGroupsESDC#dataset"/>
     <rdfs:isDefinedBy rdf:resource="https://codelist.commonapproach.org/codeLists/EquityDeservingGroupsESDC#"/>
@@ -199,7 +199,7 @@
 
   <rdf:Description rdf:about="edg12">
     <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#PopulationServed"/>
-    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#CODE"/>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:inScheme rdf:resource="https://codelist.commonapproach.org/codeLists/EquityDeservingGroupsESDC#dataset"/>
     <rdfs:isDefinedBy rdf:resource="https://codelist.commonapproach.org/codeLists/EquityDeservingGroupsESDC#"/>
@@ -214,7 +214,7 @@
 
   <rdf:Description rdf:about="edg13">
     <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#PopulationServed"/>
-    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#CODE"/>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:inScheme rdf:resource="https://codelist.commonapproach.org/codeLists/EquityDeservingGroupsESDC#dataset"/>
     <rdfs:isDefinedBy rdf:resource="https://codelist.commonapproach.org/codeLists/EquityDeservingGroupsESDC#"/>
@@ -227,7 +227,7 @@
   </rdf:Description>
   <rdf:Description rdf:about="edg14">
     <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#PopulationServed"/>
-    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#CODE"/>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:inScheme rdf:resource="https://codelist.commonapproach.org/codeLists/EquityDeservingGroupsESDC#dataset"/>
     <rdfs:isDefinedBy rdf:resource="https://codelist.commonapproach.org/codeLists/EquityDeservingGroupsESDC#"/>

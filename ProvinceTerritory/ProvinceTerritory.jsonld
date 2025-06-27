@@ -3,7 +3,7 @@
     "@id": "https://codelist.commonapproach.org/codeLists/ProvinceTerritory#PE",
     "@type": [
       "https://ontology.commonapproach.org/cids#Locality",
-      "https://ontology.commonapproach.org/cids#CODE",
+      "https://ontology.commonapproach.org/cids#Code",
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
     "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
@@ -48,7 +48,7 @@
     "@id": "https://codelist.commonapproach.org/codeLists/ProvinceTerritory#NU",
     "@type": [
       "https://ontology.commonapproach.org/cids#Locality",
-      "https://ontology.commonapproach.org/cids#CODE",
+      "https://ontology.commonapproach.org/cids#Code",
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
     "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
@@ -93,7 +93,7 @@
     "@id": "https://codelist.commonapproach.org/codeLists/ProvinceTerritory#SK",
     "@type": [
       "https://ontology.commonapproach.org/cids#Locality",
-      "https://ontology.commonapproach.org/cids#CODE",
+      "https://ontology.commonapproach.org/cids#Code",
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
     "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
@@ -138,7 +138,7 @@
     "@id": "https://codelist.commonapproach.org/codeLists/ProvinceTerritory#BC",
     "@type": [
       "https://ontology.commonapproach.org/cids#Locality",
-      "https://ontology.commonapproach.org/cids#CODE",
+      "https://ontology.commonapproach.org/cids#Code",
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
     "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
@@ -183,7 +183,7 @@
     "@id": "https://codelist.commonapproach.org/codeLists/ProvinceTerritory#ON",
     "@type": [
       "https://ontology.commonapproach.org/cids#Locality",
-      "https://ontology.commonapproach.org/cids#CODE",
+      "https://ontology.commonapproach.org/cids#Code",
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
     "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
@@ -234,7 +234,7 @@
     "@id": "https://codelist.commonapproach.org/codeLists/ProvinceTerritory#CAN",
     "@type": [
       "https://ontology.commonapproach.org/cids#Locality",
-      "https://ontology.commonapproach.org/cids#CODE",
+      "https://ontology.commonapproach.org/cids#Code",
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
     "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
@@ -279,7 +279,7 @@
     "@id": "https://codelist.commonapproach.org/codeLists/ProvinceTerritory#YT",
     "@type": [
       "https://ontology.commonapproach.org/cids#Locality",
-      "https://ontology.commonapproach.org/cids#CODE",
+      "https://ontology.commonapproach.org/cids#Code",
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
     "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
@@ -324,7 +324,7 @@
     "@id": "https://codelist.commonapproach.org/codeLists/ProvinceTerritory#NS",
     "@type": [
       "https://ontology.commonapproach.org/cids#Locality",
-      "https://ontology.commonapproach.org/cids#CODE",
+      "https://ontology.commonapproach.org/cids#Code",
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
     "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
@@ -369,7 +369,7 @@
     "@id": "https://codelist.commonapproach.org/codeLists/ProvinceTerritory#NL",
     "@type": [
       "https://ontology.commonapproach.org/cids#Locality",
-      "https://ontology.commonapproach.org/cids#CODE",
+      "https://ontology.commonapproach.org/cids#Code",
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
     "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
@@ -414,7 +414,7 @@
     "@id": "https://codelist.commonapproach.org/codeLists/ProvinceTerritory#NT",
     "@type": [
       "https://ontology.commonapproach.org/cids#Locality",
-      "https://ontology.commonapproach.org/cids#CODE",
+      "https://ontology.commonapproach.org/cids#Code",
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
     "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
@@ -459,7 +459,7 @@
     "@id": "https://codelist.commonapproach.org/codeLists/ProvinceTerritory#MB",
     "@type": [
       "https://ontology.commonapproach.org/cids#Locality",
-      "https://ontology.commonapproach.org/cids#CODE",
+      "https://ontology.commonapproach.org/cids#Code",
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
     "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
@@ -504,7 +504,7 @@
     "@id": "https://codelist.commonapproach.org/codeLists/ProvinceTerritory#QC",
     "@type": [
       "https://ontology.commonapproach.org/cids#Locality",
-      "https://ontology.commonapproach.org/cids#CODE",
+      "https://ontology.commonapproach.org/cids#Code",
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
     "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
@@ -549,7 +549,7 @@
     "@id": "https://codelist.commonapproach.org/codeLists/ProvinceTerritory#NB",
     "@type": [
       "https://ontology.commonapproach.org/cids#Locality",
-      "https://ontology.commonapproach.org/cids#CODE",
+      "https://ontology.commonapproach.org/cids#Code",
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
     "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
@@ -664,7 +664,7 @@
     "@id": "https://codelist.commonapproach.org/codeLists/ProvinceTerritory#AB",
     "@type": [
       "https://ontology.commonapproach.org/cids#Locality",
-      "https://ontology.commonapproach.org/cids#CODE",
+      "https://ontology.commonapproach.org/cids#Code",
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
     "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [

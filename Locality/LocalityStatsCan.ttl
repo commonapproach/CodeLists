@@ -28,7 +28,7 @@
     a skos:ConceptScheme .
 
 :loc1
-    a skos:Concept, cids:CODE, cids:Locality ;
+    a skos:Concept, cids:Code, cids:Locality ;
     rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/LocalityStatsCan#> ;
     rdfs:label "Large Urban Population Centre"@en ;
     skos:definition "A large urban population centres, with a population of 100,000 or more."@en ;
@@ -39,7 +39,7 @@
     cids:hasName "Large Urban Population Centre"@en .
 
 :loc2
-    a skos:Concept, cids:CODE, cids:Locality ;
+    a skos:Concept, cids:Code, cids:Locality ;
     rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/LocalityStatsCan#> ;
     rdfs:label "Medium Population Centre"@en ;
     skos:definition "A medium population centres, with a population between 30,000 and 99,999."@en ;
@@ -50,7 +50,7 @@
     cids:hasName "Medium Population Centre"@en .
 
 :loc3
-    a skos:Concept, cids:CODE, cids:Locality ;
+    a skos:Concept, cids:Code, cids:Locality ;
     rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/LocalityStatsCan#> ;
     rdfs:label "Small Population Centre"@en ;
     skos:definition "A small population centres, with a population between 1,000 and 29,999."@en ;
@@ -61,7 +61,7 @@
     cids:hasName "Small Population Centre"@en .
 
 :loc4
-    a skos:Concept, cids:CODE, cids:Locality ;
+    a skos:Concept, cids:Code, cids:Locality ;
     rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/LocalityStatsCan#> ;
     rdfs:label "Rural Areas"@en ;
     skos:definition "All areas outside population centres are classified as rural areas."@en ;
@@ -72,7 +72,7 @@
     cids:hasName "Rural Areas"@en .
 
 :loc5
-    a skos:Concept, cids:CODE, cids:Locality ;
+    a skos:Concept, cids:Code, cids:Locality ;
     rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/LocalityStatsCan#> ;
     rdfs:label "Indigenous Communities and Lands"@en ;
     skos:definition ""@en ;
@@ -83,7 +83,7 @@
     cids:hasName "Indigenous Communities and Lands"@en .
 
 :loc6
-    a skos:Concept, cids:CODE, cids:Locality ;
+    a skos:Concept, cids:Code, cids:Locality ;
     rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/LocalityStatsCan#> ;
     rdfs:label "Northern Canada"@en ;
     skos:definition ""@en ;
@@ -94,7 +94,7 @@
     cids:hasName "Northern Canada"@en .
 
 :loc7
-    a skos:Concept, cids:CODE, cids:Locality ;
+    a skos:Concept, cids:Code, cids:Locality ;
     rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/LocalityStatsCan#> ;
     rdfs:label "All of Canada"@en ;
     skos:definition ""@en ;

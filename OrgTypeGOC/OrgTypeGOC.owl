@@ -35,7 +35,7 @@
 
   <rdf:Description rdf:about="#nonProfit">
     <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#OrganizationType"/>
-    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#CODE"/>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:inScheme rdf:resource="https://codelist.commonapproach.org/codeLists/OrgTypeGOC#dataset"/>
     <rdfs:isDefinedBy rdf:resource="https://codelist.commonapproach.org/codeLists/OrgTypeGOC#"/>
@@ -47,7 +47,7 @@
 
   <rdf:Description rdf:about="#Charitable">
     <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#OrganizationType"/>
-    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#CODE"/>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:inScheme rdf:resource="https://codelist.commonapproach.org/codeLists/OrgTypeGOC#dataset"/>
     <rdfs:isDefinedBy rdf:resource="https://codelist.commonapproach.org/codeLists/OrgTypeGOC#"/>
@@ -61,7 +61,7 @@
 
   <rdf:Description rdf:about="#forProfit">
     <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#OrganizationType"/>
-    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#CODE"/>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:inScheme rdf:resource="https://codelist.commonapproach.org/codeLists/OrgTypeGOC#dataset"/>
     <rdfs:isDefinedBy rdf:resource="https://codelist.commonapproach.org/codeLists/OrgTypeGOC#"/>
@@ -72,7 +72,7 @@
   </rdf:Description>
   <rdf:Description rdf:about="#Cooperative">
     <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#OrganizationType"/>
-    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#CODE"/>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:inScheme rdf:resource="https://codelist.commonapproach.org/codeLists/OrgTypeGOC#dataset"/>
     <rdfs:isDefinedBy rdf:resource="https://codelist.commonapproach.org/codeLists/OrgTypeGOC#"/>
