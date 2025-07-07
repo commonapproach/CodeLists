@@ -39,6 +39,102 @@
     cids:hasIdentifier "ps1" ;
     cids:hasName "2SLGBTQIA+"@en .
 
+
+:ps2
+    a skos:Concept, cids:Code, cids:PopulationServed ;
+    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/PopulationServed#> ;
+    rdfs:label "Gender Diverse People: Agender"@en ;
+    skos:definition "People who do not identify as, or with, any particular gender."@en ;
+    skos:inScheme :dataset ;
+    prov:hadPrimarySource <https://dictionary.cambridge.org/dictionary/english/agender> ;
+    cids:definedBy cids:ac ;
+    cids:hasDefinition "People who do not identify as, or with, any particular gender."@en ;
+    cids:hasIdentifier "ps2" ;
+    cids:hasName "Gender Diverse People: Agender"@en .
+
+:ps3
+    a skos:Concept, cids:Code, cids:PopulationServed ;
+    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/PopulationServed#> ;
+    rdfs:label "Gender Diverse People: Non-Binary"@en ;
+    skos:definition "People whose gender identity does not align with a binary understanding of gender such as man or woman. It is a gender identity which may include man and woman, androgynous, fluid, multiple, no gender, or a different gender outside of the “woman—man” spectrum."@en ;
+    skos:inScheme :dataset ;
+    prov:hadPrimarySource <https://www.canada.ca/en/women-gender-equality/free-to-be-me/2slgbtqi-plus-glossary.html> ;
+    cids:definedBy cids:ac ;
+    cids:hasDefinition "People whose gender identity does not align with a binary understanding of gender such as man or woman. It is a gender identity which may include man and woman, androgynous, fluid, multiple, no gender, or a different gender outside of the “woman—man” spectrum."@en ;
+    cids:hasIdentifier "ps3" ;
+    cids:hasName "Gender Diverse People: Non-Binary"@en .
+
+:ps4
+    a skos:Concept, cids:Code, cids:PopulationServed ;
+    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/PopulationServed#> ;
+    rdfs:label "Gender Diverse People: Other"@en ;
+    skos:definition "People whose gender identity does not align with any of the other options provided."@en ;
+    skos:inScheme :dataset ;
+    cids:definedBy cids:ac ;
+    cids:hasDefinition "People whose gender identity does not align with any of the other options provided."@en ;
+    cids:hasIdentifier "ps4" ;
+    cids:hasName "Gender Diverse People: Other"@en .
+
+:ps5
+    a skos:Concept, cids:Code, cids:PopulationServed ;
+    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/PopulationServed#> ;
+    rdfs:label "Black People"@en ;
+    skos:definition "People belonging to any of various population groups of especially African ancestry often considered as having dark pigmentation of the skin but in fact having a wide range of skin colours."@en ;
+    skos:inScheme :dataset ;
+    prov:hadPrimarySource <https://www.noslangues-ourlanguages.gc.ca/en/publications/equite-diversite-inclusion-equity-diversity-inclusion-eng#notion-69399> ;
+    cids:definedBy cids:ac ;
+    cids:hasDefinition "People belonging to any of various population groups of especially African ancestry often considered as having dark pigmentation of the skin but in fact having a wide range of skin colours."@en ;
+    cids:hasIdentifier "ps5" ;
+    cids:hasName "Black People"@en .
+
+:ps6
+    a skos:Concept, cids:Code, cids:PopulationServed ;
+    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/PopulationServed#> ;
+    rdfs:label "Indigenous Peoples: First Nations"@en ;
+    skos:definition "In Canada, Indigenous people who are part of a First Nation or whose ancestors were part of a First Nation. A First Nation person can be a Status or Non-Status Indian."@en ;
+    skos:inScheme :dataset ;
+    prov:hadPrimarySource <https://www.noslangues-ourlanguages.gc.ca/en/publications/equite-diversite-inclusion-equity-diversity-inclusion-eng#notion-69399> ;
+    cids:definedBy cids:ac ;
+    cids:hasDefinition "In Canada, Indigenous people who are part of a First Nation or whose ancestors were part of a First Nation. A First Nation person can be a Status or Non-Status Indian."@en ;
+    cids:hasIdentifier "ps6" ;
+    cids:hasName "Indigenous Peoples: First Nations"@en .
+
+:ps7
+    a skos:Concept, cids:Code, cids:PopulationServed ;
+    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/PopulationServed#> ;
+    rdfs:label "Indigenous Peoples: Inuit"@en ;
+    skos:definition "In Canada, Indigenous People that inhabit or that traditionally inhabited the northern regions and Arctic coasts of Canada known as Inuit Nunangat, and whose members are united by a common origin, history and culture."@en ;
+    skos:inScheme :dataset ;
+    prov:hadPrimarySource <https://www.noslangues-ourlanguages.gc.ca/en/publications/equite-diversite-inclusion-equity-diversity-inclusion-eng#notion-69399> ;
+    cids:definedBy cids:ac ;
+    cids:hasDefinition "In Canada, Indigenous People that inhabit or that traditionally inhabited the northern regions and Arctic coasts of Canada known as Inuit Nunangat, and whose members are united by a common origin, history and culture."@en ;
+    cids:hasIdentifier "ps7" ;
+    cids:hasName "Indigenous Peoples: Inuit"@en .
+
+:ps8
+    a skos:Concept, cids:Code, cids:PopulationServed ;
+    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/PopulationServed#> ;
+    rdfs:label "Indigenous Peoples: Métis"@en ;
+    skos:definition "In Canada, Indigenous People whose members are of mixed First Nations and European ancestry, are united by a common origin, history and culture, and are generally accepted by the Métis Nation."@en ;
+    skos:inScheme :dataset ;
+    prov:hadPrimarySource <https://www.noslangues-ourlanguages.gc.ca/en/publications/equite-diversite-inclusion-equity-diversity-inclusion-eng#notion-69399> ;
+    cids:definedBy cids:ac ;
+    cids:hasDefinition "In Canada, Indigenous People whose members are of mixed First Nations and European ancestry, are united by a common origin, history and culture, and are generally accepted by the Métis Nation."@en ;
+    cids:hasIdentifier "ps8" ;
+    cids:hasName "Indigenous Peoples: Métis"@en .
+
+:ps9
+    a skos:Concept, cids:Code, cids:PopulationServed ;
+    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/PopulationServed#> ;
+    rdfs:label "Other Racialized Peoples"@en ;
+    skos:definition "People other than Indigenous peoples or Black Canadians who are non-Caucasian in race or non-white in colour (refer to the Statistics Canada definition for “visible minorities”)."@en ;
+    skos:inScheme :dataset ;
+    cids:definedBy cids:ac ;
+    cids:hasDefinition "People other than Indigenous peoples or Black Canadians who are non-Caucasian in race or non-white in colour (refer to the Statistics Canada definition for “visible minorities”)."@en ;
+    cids:hasIdentifier "ps9" ;
+    cids:hasName "Other Racialized Peoples"@en .
+
+
 :ps10
     a skos:Concept, cids:Code, cids:PopulationServed ;
     rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/PopulationServed#> ;
@@ -154,18 +250,6 @@
     cids:hasIdentifier "ps19" ;
     cids:hasName "People of Advanced Age (65+)"@en .
 
-:ps2
-    a skos:Concept, cids:Code, cids:PopulationServed ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/PopulationServed#> ;
-    rdfs:label "Gender Diverse People: Agender"@en ;
-    skos:definition "People who do not identify as, or with, any particular gender."@en ;
-    skos:inScheme :dataset ;
-    prov:hadPrimarySource <https://dictionary.cambridge.org/dictionary/english/agender> ;
-    cids:definedBy cids:ac ;
-    cids:hasDefinition "People who do not identify as, or with, any particular gender."@en ;
-    cids:hasIdentifier "ps2" ;
-    cids:hasName "Gender Diverse People: Agender"@en .
-
 :ps20
     a skos:Concept, cids:Code, cids:PopulationServed ;
     rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/PopulationServed#> ;
@@ -240,86 +324,4 @@
     cids:hasDefinition "In Canada, individuals who self-identify as Indigenous (First Nations, Inuit, or Métis) but do not specify their group affiliation, are unsure of their specific ancestry, or identify with another Indigenous community not listed separately."@en ;
     cids:hasIdentifier "ps26" ;
     cids:hasName "Indigenous Peoples: Not Otherwise Specified"@en .
-
-:ps3
-    a skos:Concept, cids:Code, cids:PopulationServed ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/PopulationServed#> ;
-    rdfs:label "Gender Diverse People: Non-Binary"@en ;
-    skos:definition "People whose gender identity does not align with a binary understanding of gender such as man or woman. It is a gender identity which may include man and woman, androgynous, fluid, multiple, no gender, or a different gender outside of the “woman—man” spectrum."@en ;
-    skos:inScheme :dataset ;
-    prov:hadPrimarySource <https://www.canada.ca/en/women-gender-equality/free-to-be-me/2slgbtqi-plus-glossary.html> ;
-    cids:definedBy cids:ac ;
-    cids:hasDefinition "People whose gender identity does not align with a binary understanding of gender such as man or woman. It is a gender identity which may include man and woman, androgynous, fluid, multiple, no gender, or a different gender outside of the “woman—man” spectrum."@en ;
-    cids:hasIdentifier "ps3" ;
-    cids:hasName "Gender Diverse People: Non-Binary"@en .
-
-:ps4
-    a skos:Concept, cids:Code, cids:PopulationServed ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/PopulationServed#> ;
-    rdfs:label "Gender Diverse People: Other"@en ;
-    skos:definition "People whose gender identity does not align with any of the other options provided."@en ;
-    skos:inScheme :dataset ;
-    cids:definedBy cids:ac ;
-    cids:hasDefinition "People whose gender identity does not align with any of the other options provided."@en ;
-    cids:hasIdentifier "ps4" ;
-    cids:hasName "Gender Diverse People: Other"@en .
-
-:ps5
-    a skos:Concept, cids:Code, cids:PopulationServed ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/PopulationServed#> ;
-    rdfs:label "Black People"@en ;
-    skos:definition "People belonging to any of various population groups of especially African ancestry often considered as having dark pigmentation of the skin but in fact having a wide range of skin colours."@en ;
-    skos:inScheme :dataset ;
-    prov:hadPrimarySource <https://www.noslangues-ourlanguages.gc.ca/en/publications/equite-diversite-inclusion-equity-diversity-inclusion-eng#notion-69399> ;
-    cids:definedBy cids:ac ;
-    cids:hasDefinition "People belonging to any of various population groups of especially African ancestry often considered as having dark pigmentation of the skin but in fact having a wide range of skin colours."@en ;
-    cids:hasIdentifier "ps5" ;
-    cids:hasName "Black People"@en .
-
-:ps6
-    a skos:Concept, cids:Code, cids:PopulationServed ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/PopulationServed#> ;
-    rdfs:label "Indigenous Peoples: First Nations"@en ;
-    skos:definition "In Canada, Indigenous people who are part of a First Nation or whose ancestors were part of a First Nation. A First Nation person can be a Status or Non-Status Indian."@en ;
-    skos:inScheme :dataset ;
-    prov:hadPrimarySource <https://www.noslangues-ourlanguages.gc.ca/en/publications/equite-diversite-inclusion-equity-diversity-inclusion-eng#notion-69399> ;
-    cids:definedBy cids:ac ;
-    cids:hasDefinition "In Canada, Indigenous people who are part of a First Nation or whose ancestors were part of a First Nation. A First Nation person can be a Status or Non-Status Indian."@en ;
-    cids:hasIdentifier "ps6" ;
-    cids:hasName "Indigenous Peoples: First Nations"@en .
-
-:ps7
-    a skos:Concept, cids:Code, cids:PopulationServed ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/PopulationServed#> ;
-    rdfs:label "Indigenous Peoples: Inuit"@en ;
-    skos:definition "In Canada, Indigenous People that inhabit or that traditionally inhabited the northern regions and Arctic coasts of Canada known as Inuit Nunangat, and whose members are united by a common origin, history and culture."@en ;
-    skos:inScheme :dataset ;
-    prov:hadPrimarySource <https://www.noslangues-ourlanguages.gc.ca/en/publications/equite-diversite-inclusion-equity-diversity-inclusion-eng#notion-69399> ;
-    cids:definedBy cids:ac ;
-    cids:hasDefinition "In Canada, Indigenous People that inhabit or that traditionally inhabited the northern regions and Arctic coasts of Canada known as Inuit Nunangat, and whose members are united by a common origin, history and culture."@en ;
-    cids:hasIdentifier "ps7" ;
-    cids:hasName "Indigenous Peoples: Inuit"@en .
-
-:ps8
-    a skos:Concept, cids:Code, cids:PopulationServed ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/PopulationServed#> ;
-    rdfs:label "Indigenous Peoples: Métis"@en ;
-    skos:definition "In Canada, Indigenous People whose members are of mixed First Nations and European ancestry, are united by a common origin, history and culture, and are generally accepted by the Métis Nation."@en ;
-    skos:inScheme :dataset ;
-    prov:hadPrimarySource <https://www.noslangues-ourlanguages.gc.ca/en/publications/equite-diversite-inclusion-equity-diversity-inclusion-eng#notion-69399> ;
-    cids:definedBy cids:ac ;
-    cids:hasDefinition "In Canada, Indigenous People whose members are of mixed First Nations and European ancestry, are united by a common origin, history and culture, and are generally accepted by the Métis Nation."@en ;
-    cids:hasIdentifier "ps8" ;
-    cids:hasName "Indigenous Peoples: Métis"@en .
-
-:ps9
-    a skos:Concept, cids:Code, cids:PopulationServed ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/PopulationServed#> ;
-    rdfs:label "Other Racialized Peoples"@en ;
-    skos:definition "People other than Indigenous peoples or Black Canadians who are non-Caucasian in race or non-white in colour (refer to the Statistics Canada definition for “visible minorities”)."@en ;
-    skos:inScheme :dataset ;
-    cids:definedBy cids:ac ;
-    cids:hasDefinition "People other than Indigenous peoples or Black Canadians who are non-Caucasian in race or non-white in colour (refer to the Statistics Canada definition for “visible minorities”)."@en ;
-    cids:hasIdentifier "ps9" ;
-    cids:hasName "Other Racialized Peoples"@en .
 
