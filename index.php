@@ -155,6 +155,12 @@ td {
   <td style="text-align: center;">0</td>
  </tr>
 
+ <tr>
+  <td>SELI-GLI (<a href="SELI-GLI/SELI-GLI.ttl">turtle</a> / <a href="SELI_GLI/SELI-GLI.jsonld">jsonld</a> )</td>
+  <td>Social Equity and Gender-Lens Investment Assessment</td>
+  <td style="text-align: center;">June 18, 2025</td>
+  <td style="text-align: center;">0</td>
+ </tr>
 
 </table>
 <div style="margin-bottom:10px;"></div>
