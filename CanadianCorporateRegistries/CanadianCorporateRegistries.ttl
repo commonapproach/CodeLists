@@ -28,13 +28,22 @@
 :ca
     a skos:Concept, cids:Code ;
     rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/CanadianCorporateRegistries#> ;
-    rdfs:label "Federal"@en ;
+    rdfs:label "Corporations Canada"@en ;
     skos:inScheme :dataset ;
     prov:hadPrimarySource <https://ised-isde.canada.ca/cbr-rec/> ;
     cids:hasDescription "Corporations Canada"@en ;
     cids:hasIdentifier "ca" ;
-    cids:hasName "Federal"@en .
+    cids:hasName "Corporations Canada"@en .
 
+:cra
+    a skos:Concept, cids:Code ;
+    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/CanadianCorporateRegistries#> ;
+    rdfs:label "Canada Revenue Agency"@en ;
+    skos:inScheme :dataset ;
+    prov:hadPrimarySource <https://www.canada.ca/en/revenue-agency/> ;
+    cids:hasDescription "Canada Revenue Agency"@en ;
+    cids:hasIdentifier "cra" ;
+    cids:hasName "Canada Revenue Agency"@en .
 :ab
     a skos:Concept, cids:Code ;
     rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/CanadianCorporateRegistries#> ;
