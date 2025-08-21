@@ -1,0 +1,154 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix cids: <https://ontology.commonapproach.org/cids#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+@prefix : <https://codelist.commonapproach.org/codeLists/IRISImpactCategories#> .
+
+<https://codelist.commonapproach.org/codeLists/IRISImpactCategories>
+    dcterms:creator cids:ac ;
+    dcterms:date "21-08-2025" ;
+    dcterms:description "An RDF vocabulary of IRIS+ Impact Categories."@en ;
+    dcterms:title "IRIS+ Impact Categories"@en ;
+    vann:preferredNamespacePrefix "IRISImpactCategories" ;
+    vann:preferredNamespaceUri <https://codelist.commonapproach.org/codeLists/IRISImpactCategories#> ;
+    a <http://purl.org/vocommons/voafVocabulary>, owl:Ontology ;
+    rdfs:label "IRIS+ Impact Categories"@en ;
+    owl:imports <http://www.w3.org/2006/time>, <https://ontology.commonapproach.org/cids> ;
+    owl:versionInfo "1.0" ;
+    foaf:name "IRIS+ Impact Categories"@en ;
+    cids:hasName "IRIS+ Impact Categories"@en .
+
+:dataset
+    a skos:ConceptScheme .
+
+<https://iris.thegiin.org/theme/5.3/Agriculture/>
+    a skos:Concept, cids:Code ;
+    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IRISImpactCategories#> ;
+    rdfs:label "Agriculture"@en ;
+    skos:inScheme :dataset ;
+    cids:hasName "Agriculture"@en .
+
+<https://iris.thegiin.org/theme/5.3/Air/>
+    a skos:Concept, cids:Code ;
+    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IRISImpactCategories#> ;
+    rdfs:label "Air"@en ;
+    skos:inScheme :dataset ;
+    cids:hasName "Air"@en .
+
+<https://iris.thegiin.org/theme/5.3/BiodiversityandEcosystems/>
+    a skos:Concept, cids:Code ;
+    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IRISImpactCategories#> ;
+    rdfs:label "Biodiversity and Ecosystems"@en ;
+    skos:inScheme :dataset ;
+    cids:hasName "Biodiversity and Ecosystems"@en .
+
+<https://iris.thegiin.org/theme/5.3/Climate/>
+    a skos:Concept, cids:Code ;
+    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IRISImpactCategories#> ;
+    rdfs:label "Climate"@en ;
+    skos:inScheme :dataset ;
+    cids:hasName "Climate"@en .
+
+<https://iris.thegiin.org/theme/5.3/DiversityandInclusion/>
+    a skos:Concept, cids:Code ;
+    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IRISImpactCategories#> ;
+    rdfs:label "Diversity and Inclusion"@en ;
+    skos:inScheme :dataset ;
+    cids:hasName "Diversity and Inclusion"@en .
+
+<https://iris.thegiin.org/theme/5.3/Education/>
+    a skos:Concept, cids:Code ;
+    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IRISImpactCategories#> ;
+    rdfs:label "Education"@en ;
+    skos:inScheme :dataset ;
+    cids:hasName "Education"@en .
+
+<https://iris.thegiin.org/theme/5.3/Employment/>
+    a skos:Concept, cids:Code ;
+    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IRISImpactCategories#> ;
+    rdfs:label "Employment"@en ;
+    skos:inScheme :dataset ;
+    cids:hasName "Employment"@en .
+
+<https://iris.thegiin.org/theme/5.3/Energy/>
+    a skos:Concept, cids:Code ;
+    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IRISImpactCategories#> ;
+    rdfs:label "Energy"@en ;
+    skos:inScheme :dataset ;
+    cids:hasName "Energy"@en .
+
+<https://iris.thegiin.org/theme/5.3/FinancialServices/>
+    a skos:Concept, cids:Code ;
+    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IRISImpactCategories#> ;
+    rdfs:label "Financial Services"@en ;
+    skos:inScheme :dataset ;
+    cids:hasName "Financial Services"@en .
+
+<https://iris.thegiin.org/theme/5.3/Health/>
+    a skos:Concept, cids:Code ;
+    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IRISImpactCategories#> ;
+    rdfs:label "Health"@en ;
+    skos:inScheme :dataset ;
+    cids:hasName "Health"@en .
+
+<https://iris.thegiin.org/theme/5.3/Infrastructure/>
+    a skos:Concept, cids:Code ;
+    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IRISImpactCategories#> ;
+    rdfs:label "Infrastructure"@en ;
+    skos:inScheme :dataset ;
+    cids:hasName "Infrastructure"@en .
+
+<https://iris.thegiin.org/theme/5.3/Land/>
+    a skos:Concept, cids:Code ;
+    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IRISImpactCategories#> ;
+    rdfs:label "Land"@en ;
+    skos:inScheme :dataset ;
+    cids:hasName "Land"@en .
+
+<https://iris.thegiin.org/theme/5.3/OceansandCoastalZones/>
+    a skos:Concept, cids:Code ;
+    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IRISImpactCategories#> ;
+    rdfs:label "Oceans and Coastal Zones"@en ;
+    skos:inScheme :dataset ;
+    cids:hasName "Oceans and Coastal Zones"@en .
+
+<https://iris.thegiin.org/theme/5.3/Pollution/>
+    a skos:Concept, cids:Code ;
+    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IRISImpactCategories#> ;
+    rdfs:label "Pollution"@en ;
+    skos:inScheme :dataset ;
+    cids:hasName "Pollution"@en .
+
+<https://iris.thegiin.org/theme/5.3/RealEstate/>
+    a skos:Concept, cids:Code ;
+    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IRISImpactCategories#> ;
+    rdfs:label "Real Estate"@en ;
+    skos:inScheme :dataset ;
+    cids:hasName "Real Estate"@en .
+
+<https://iris.thegiin.org/theme/5.3/Waste/>
+    a skos:Concept, cids:Code ;
+    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IRISImpactCategories#> ;
+    rdfs:label "Waste"@en ;
+    skos:inScheme :dataset ;
+    cids:hasName "Waste"@en .
+
+<https://iris.thegiin.org/theme/5.3/Water/>
+    a skos:Concept, cids:Code ;
+    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IRISImpactCategories#> ;
+    rdfs:label "Water"@en ;
+    skos:inScheme :dataset ;
+    cids:hasName "Water"@en .
+
+<https://iris.thegiin.org/theme/5.3/CrossCategory/>
+    a skos:Concept, cids:Code ;
+    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IRISImpactCategories#> ;
+    rdfs:label "Cross Category"@en ;
+    skos:inScheme :dataset ;
+    cids:hasName "Cross Category"@en .

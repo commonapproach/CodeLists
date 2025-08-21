@@ -19,7 +19,7 @@
     vann:preferredNamespaceUri <https://codelist.commonapproach.org/codeLists/PopulationServed#> ;
     a <http://purl.org/vocommons/voafVocabulary>, owl:Ontology ;
     rdfs:label "Population Served Codelist"@en ;
-    owl:imports <http://www.w3.org/2006/time>, <https://ontology.commonapproach.org/owl/cids> ;
+    owl:imports <http://www.w3.org/2006/time>, <https://ontology.commonapproach.org/cids> ;
     owl:versionInfo "1.0" ;
     foaf:name "Population Served Codelist"@en ;
     cids:hasName "Population Served Codelist"@en .

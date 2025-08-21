@@ -20,7 +20,7 @@
     vann:preferredNamespacePrefix "SDGImpacts" ;
     vann:preferredNamespaceUri <https://codelist.commonapproach.org/codeLists/SDGImpacts#> ;
     rdfs:label "Sustainable Development Goals Impact Themes"@en ;
-    owl:imports <http://www.w3.org/2006/time>, <https://ontology.commonapproach.org/owl/cids> ;
+    owl:imports <http://www.w3.org/2006/time>, <https://ontology.commonapproach.org/cids> ;
     owl:versionInfo "1.1" ; # Updated version
     foaf:name "Sustainable Development Goals Impact Themes"@en ;
     cids:hasName "Sustainable Development Goals Impact Themes"@en .
