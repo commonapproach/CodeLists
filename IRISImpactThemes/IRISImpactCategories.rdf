@@ -1,0 +1,177 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:j.0="http://purl.org/vocommons/"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:prov="http://www.w3.org/ns/prov#"
+    xmlns="https://codelist.commonapproach.org/codeLists/IRISImpactCategories#"
+    xmlns:cids="https://ontology.commonapproach.org/cids#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:org="http://www.w3.org/ns/org#"
+    xmlns:vann="http://purl.org/vocab/vann/"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/" > 
+  <rdf:Description rdf:about="https://iris.thegiin.org/theme/5.3/OceansandCoastalZones/">
+    <cids:hasName xml:lang="en">Oceans and Coastal Zones</cids:hasName>
+    <skos:inScheme rdf:resource="https://codelist.commonapproach.org/codeLists/IRISImpactCategories#dataset"/>
+    <rdfs:label xml:lang="en">Oceans and Coastal Zones</rdfs:label>
+    <rdfs:isDefinedBy rdf:resource="https://codelist.commonapproach.org/codeLists/IRISImpactCategories#"/>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://codelist.commonapproach.org/codeLists/IRISImpactCategories">
+    <cids:hasName xml:lang="en">IRIS+ Impact Categories</cids:hasName>
+    <foaf:name xml:lang="en">IRIS+ Impact Categories</foaf:name>
+    <owl:versionInfo>1.0</owl:versionInfo>
+    <owl:imports rdf:resource="https://ontology.commonapproach.org/cids"/>
+    <owl:imports rdf:resource="http://www.w3.org/2006/time"/>
+    <rdfs:label xml:lang="en">IRIS+ Impact Categories</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
+    <rdf:type rdf:resource="http://purl.org/vocommons/voafVocabulary"/>
+    <vann:preferredNamespaceUri rdf:resource="https://codelist.commonapproach.org/codeLists/IRISImpactCategories#"/>
+    <vann:preferredNamespacePrefix>IRISImpactCategories</vann:preferredNamespacePrefix>
+    <dcterms:title xml:lang="en">IRIS+ Impact Categories</dcterms:title>
+    <dcterms:description xml:lang="en">An RDF vocabulary of IRIS+ Impact Categories.</dcterms:description>
+    <dcterms:date>21-08-2025</dcterms:date>
+    <dcterms:creator rdf:resource="https://ontology.commonapproach.org/cids#ac"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://iris.thegiin.org/theme/5.3/Education/">
+    <cids:hasName xml:lang="en">Education</cids:hasName>
+    <skos:inScheme rdf:resource="https://codelist.commonapproach.org/codeLists/IRISImpactCategories#dataset"/>
+    <rdfs:label xml:lang="en">Education</rdfs:label>
+    <rdfs:isDefinedBy rdf:resource="https://codelist.commonapproach.org/codeLists/IRISImpactCategories#"/>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://iris.thegiin.org/theme/5.3/BiodiversityandEcosystems/">
+    <cids:hasName xml:lang="en">Biodiversity and Ecosystems</cids:hasName>
+    <skos:inScheme rdf:resource="https://codelist.commonapproach.org/codeLists/IRISImpactCategories#dataset"/>
+    <rdfs:label xml:lang="en">Biodiversity and Ecosystems</rdfs:label>
+    <rdfs:isDefinedBy rdf:resource="https://codelist.commonapproach.org/codeLists/IRISImpactCategories#"/>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://iris.thegiin.org/theme/5.3/DiversityandInclusion/">
+    <cids:hasName xml:lang="en">Diversity and Inclusion</cids:hasName>
+    <skos:inScheme rdf:resource="https://codelist.commonapproach.org/codeLists/IRISImpactCategories#dataset"/>
+    <rdfs:label xml:lang="en">Diversity and Inclusion</rdfs:label>
+    <rdfs:isDefinedBy rdf:resource="https://codelist.commonapproach.org/codeLists/IRISImpactCategories#"/>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://iris.thegiin.org/theme/5.3/Energy/">
+    <cids:hasName xml:lang="en">Energy</cids:hasName>
+    <skos:inScheme rdf:resource="https://codelist.commonapproach.org/codeLists/IRISImpactCategories#dataset"/>
+    <rdfs:label xml:lang="en">Energy</rdfs:label>
+    <rdfs:isDefinedBy rdf:resource="https://codelist.commonapproach.org/codeLists/IRISImpactCategories#"/>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://iris.thegiin.org/theme/5.3/RealEstate/">
+    <cids:hasName xml:lang="en">Real Estate</cids:hasName>
+    <skos:inScheme rdf:resource="https://codelist.commonapproach.org/codeLists/IRISImpactCategories#dataset"/>
+    <rdfs:label xml:lang="en">Real Estate</rdfs:label>
+    <rdfs:isDefinedBy rdf:resource="https://codelist.commonapproach.org/codeLists/IRISImpactCategories#"/>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://iris.thegiin.org/theme/5.3/CrossCategory/">
+    <cids:hasName xml:lang="en">Cross Category</cids:hasName>
+    <skos:inScheme rdf:resource="https://codelist.commonapproach.org/codeLists/IRISImpactCategories#dataset"/>
+    <rdfs:label xml:lang="en">Cross Category</rdfs:label>
+    <rdfs:isDefinedBy rdf:resource="https://codelist.commonapproach.org/codeLists/IRISImpactCategories#"/>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://iris.thegiin.org/theme/5.3/FinancialServices/">
+    <cids:hasName xml:lang="en">Financial Services</cids:hasName>
+    <skos:inScheme rdf:resource="https://codelist.commonapproach.org/codeLists/IRISImpactCategories#dataset"/>
+    <rdfs:label xml:lang="en">Financial Services</rdfs:label>
+    <rdfs:isDefinedBy rdf:resource="https://codelist.commonapproach.org/codeLists/IRISImpactCategories#"/>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://iris.thegiin.org/theme/5.3/Water/">
+    <cids:hasName xml:lang="en">Water</cids:hasName>
+    <skos:inScheme rdf:resource="https://codelist.commonapproach.org/codeLists/IRISImpactCategories#dataset"/>
+    <rdfs:label xml:lang="en">Water</rdfs:label>
+    <rdfs:isDefinedBy rdf:resource="https://codelist.commonapproach.org/codeLists/IRISImpactCategories#"/>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://iris.thegiin.org/theme/5.3/Waste/">
+    <cids:hasName xml:lang="en">Waste</cids:hasName>
+    <skos:inScheme rdf:resource="https://codelist.commonapproach.org/codeLists/IRISImpactCategories#dataset"/>
+    <rdfs:label xml:lang="en">Waste</rdfs:label>
+    <rdfs:isDefinedBy rdf:resource="https://codelist.commonapproach.org/codeLists/IRISImpactCategories#"/>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://iris.thegiin.org/theme/5.3/Air/">
+    <cids:hasName xml:lang="en">Air</cids:hasName>
+    <skos:inScheme rdf:resource="https://codelist.commonapproach.org/codeLists/IRISImpactCategories#dataset"/>
+    <rdfs:label xml:lang="en">Air</rdfs:label>
+    <rdfs:isDefinedBy rdf:resource="https://codelist.commonapproach.org/codeLists/IRISImpactCategories#"/>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://iris.thegiin.org/theme/5.3/Agriculture/">
+    <cids:hasName xml:lang="en">Agriculture</cids:hasName>
+    <skos:inScheme rdf:resource="https://codelist.commonapproach.org/codeLists/IRISImpactCategories#dataset"/>
+    <rdfs:label xml:lang="en">Agriculture</rdfs:label>
+    <rdfs:isDefinedBy rdf:resource="https://codelist.commonapproach.org/codeLists/IRISImpactCategories#"/>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://iris.thegiin.org/theme/5.3/Land/">
+    <cids:hasName xml:lang="en">Land</cids:hasName>
+    <skos:inScheme rdf:resource="https://codelist.commonapproach.org/codeLists/IRISImpactCategories#dataset"/>
+    <rdfs:label xml:lang="en">Land</rdfs:label>
+    <rdfs:isDefinedBy rdf:resource="https://codelist.commonapproach.org/codeLists/IRISImpactCategories#"/>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://iris.thegiin.org/theme/5.3/Employment/">
+    <cids:hasName xml:lang="en">Employment</cids:hasName>
+    <skos:inScheme rdf:resource="https://codelist.commonapproach.org/codeLists/IRISImpactCategories#dataset"/>
+    <rdfs:label xml:lang="en">Employment</rdfs:label>
+    <rdfs:isDefinedBy rdf:resource="https://codelist.commonapproach.org/codeLists/IRISImpactCategories#"/>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://iris.thegiin.org/theme/5.3/Climate/">
+    <cids:hasName xml:lang="en">Climate</cids:hasName>
+    <skos:inScheme rdf:resource="https://codelist.commonapproach.org/codeLists/IRISImpactCategories#dataset"/>
+    <rdfs:label xml:lang="en">Climate</rdfs:label>
+    <rdfs:isDefinedBy rdf:resource="https://codelist.commonapproach.org/codeLists/IRISImpactCategories#"/>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://codelist.commonapproach.org/codeLists/IRISImpactCategories#dataset">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://iris.thegiin.org/theme/5.3/Infrastructure/">
+    <cids:hasName xml:lang="en">Infrastructure</cids:hasName>
+    <skos:inScheme rdf:resource="https://codelist.commonapproach.org/codeLists/IRISImpactCategories#dataset"/>
+    <rdfs:label xml:lang="en">Infrastructure</rdfs:label>
+    <rdfs:isDefinedBy rdf:resource="https://codelist.commonapproach.org/codeLists/IRISImpactCategories#"/>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://iris.thegiin.org/theme/5.3/Pollution/">
+    <cids:hasName xml:lang="en">Pollution</cids:hasName>
+    <skos:inScheme rdf:resource="https://codelist.commonapproach.org/codeLists/IRISImpactCategories#dataset"/>
+    <rdfs:label xml:lang="en">Pollution</rdfs:label>
+    <rdfs:isDefinedBy rdf:resource="https://codelist.commonapproach.org/codeLists/IRISImpactCategories#"/>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://iris.thegiin.org/theme/5.3/Health/">
+    <cids:hasName xml:lang="en">Health</cids:hasName>
+    <skos:inScheme rdf:resource="https://codelist.commonapproach.org/codeLists/IRISImpactCategories#dataset"/>
+    <rdfs:label xml:lang="en">Health</rdfs:label>
+    <rdfs:isDefinedBy rdf:resource="https://codelist.commonapproach.org/codeLists/IRISImpactCategories#"/>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+</rdf:RDF>
