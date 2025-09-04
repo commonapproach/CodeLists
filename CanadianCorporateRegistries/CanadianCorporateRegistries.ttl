@@ -140,7 +140,7 @@
     rdfs:label "Prince Edward Island"@en ;
     skos:inScheme :dataset ;
     prov:hadPrimarySource <https://www.princeedwardisland.ca/en/feature/pei-business-corporate-registry/> ;
-    cids:hasDescription "Corporate/Business Names Registry"@en ;
+    cids:hasDescription "Corporate Business Names Registry"@en ;
     cids:hasIdentifier "pe" ;
     cids:hasName "Prince Edward Island"@en .
 
