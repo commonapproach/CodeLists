@@ -27,7 +27,7 @@
 :dataset
     a skos:ConceptScheme .
 
-<https://codelist.commonapproach.org/codeLists/edg1>
+:edg1
     a skos:Concept, cids:Code,  cids:PopulationServed ;
     rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/EquityDeservingGroupsESDC#> ;
     rdfs:label "2SLGBTQIA+"@en ;
@@ -39,7 +39,7 @@
     cids:hasIdentifier "edg1" ;
     cids:hasName "2SLGBTQIA+"@en .
 
-<https://codelist.commonapproach.org/codeLists/edg10>
+:edg10
     a skos:Concept, cids:Code,  cids:PopulationServed ;
     rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/EquityDeservingGroupsESDC#> ;
     rdfs:label "Women (Cisgender and Transgender)"@en ;
@@ -50,7 +50,7 @@
     cids:hasIdentifier "edg10" ;
     cids:hasName "Women (Cisgender and Transgender)"@en .
 
-<https://codelist.commonapproach.org/codeLists/edg11>
+:edg11
     a skos:Concept, cids:Code,  cids:PopulationServed ;
     rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/EquityDeservingGroupsESDC#> ;
     rdfs:label "Gender Diverse People: Non-Binary"@en ;
@@ -62,7 +62,7 @@
     cids:hasIdentifier "edg11" ;
     cids:hasName "Gender Diverse People: Non-Binary"@en .
 
-<https://codelist.commonapproach.org/codeLists/edg12>
+:edg12
     a skos:Concept, cids:Code,  cids:PopulationServed ;
     rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/EquityDeservingGroupsESDC#> ;
     rdfs:label "Gender Diverse People: Agender"@en ;
@@ -74,7 +74,7 @@
     cids:hasIdentifier "edg12" ;
     cids:hasName "Gender Diverse People: Agender"@en .
 
-<https://codelist.commonapproach.org/codeLists/edg13>
+:edg13
     a skos:Concept, cids:Code,  cids:PopulationServed ;
     rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/EquityDeservingGroupsESDC#> ;
     rdfs:label "Gender Diverse People: Other"@en ;
@@ -85,7 +85,7 @@
     cids:hasIdentifier "edg13" ;
     cids:hasName "Gender Diverse People: Other"@en .
 
-<https://codelist.commonapproach.org/codeLists/edg2>
+:edg2
     a skos:Concept, cids:Code,  cids:PopulationServed ;
     rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/EquityDeservingGroupsESDC#> ;
     rdfs:label "Black People"@en ;
@@ -97,7 +97,7 @@
     cids:hasIdentifier "edg2" ;
     cids:hasName "Black People"@en .
 
-<https://codelist.commonapproach.org/codeLists/edg3>
+:edg3
     a skos:Concept, cids:Code,  cids:PopulationServed ;
     rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/EquityDeservingGroupsESDC#> ;
     rdfs:label "First Generation Immigrants, Refugees & Newcomers"@en ;
@@ -108,7 +108,7 @@
     cids:hasIdentifier "edg3" ;
     cids:hasName "First Generation Immigrants, Refugees & Newcomers"@en .
 
-<https://codelist.commonapproach.org/codeLists/edg4>
+:edg4
     a skos:Concept, cids:Code,  cids:PopulationServed ;
     rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/EquityDeservingGroupsESDC#> ;
     rdfs:label "Indigenous Peoples: First Nations"@en ;
@@ -120,7 +120,7 @@
     cids:hasIdentifier "edg4" ;
     cids:hasName "Indigenous Peoples: First Nations"@en .
 
-<https://codelist.commonapproach.org/codeLists/edg5>
+:edg5
     a skos:Concept, cids:Code,  cids:PopulationServed ;
     rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/EquityDeservingGroupsESDC#> ;
     rdfs:label "Indigenous Peoples: Inuit"@en ;
@@ -132,7 +132,7 @@
     cids:hasIdentifier "edg5" ;
     cids:hasName "Indigenous Peoples: Inuit"@en .
 
-<https://codelist.commonapproach.org/codeLists/edg6>
+:edg6
     a skos:Concept, cids:Code,  cids:PopulationServed ;
     rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/EquityDeservingGroupsESDC#> ;
     rdfs:label "Indigenous Peoples: Métis"@en ;
@@ -144,7 +144,7 @@
     cids:hasIdentifier "edg6" ;
     cids:hasName "Indigenous Peoples: Métis"@en .
 
-<https://codelist.commonapproach.org/codeLists/edg7>
+:edg7
     a skos:Concept, cids:Code,  cids:PopulationServed ;
     rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/EquityDeservingGroupsESDC#> ;
     rdfs:label "Official Languages Minority Communities"@en ;
@@ -155,7 +155,7 @@
     cids:hasIdentifier "edg7" ;
     cids:hasName "Official Languages Minority Communities"@en .
 
-<https://codelist.commonapproach.org/codeLists/edg8>
+:edg8
     a skos:Concept, cids:Code,  cids:PopulationServed ;
     rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/EquityDeservingGroupsESDC#> ;
     rdfs:label "Other Racialized Peoples"@en ;
@@ -166,7 +166,7 @@
     cids:hasIdentifier "edg8" ;
     cids:hasName "Other Racialized Peoples"@en .
 
-<https://codelist.commonapproach.org/codeLists/edg9>
+:edg9
     a skos:Concept, cids:Code,  cids:PopulationServed ;
     rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/EquityDeservingGroupsESDC#> ;
     rdfs:label "People Living with a Disability (including invisible and episodic disabilities)"@en ;
