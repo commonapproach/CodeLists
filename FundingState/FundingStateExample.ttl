@@ -1,0 +1,76 @@
+# This is an example of how an organization (i.e. a funder) would share their own custom list of cids:FundingState instances.
+
+@base <https://www.example-funder.org/FundingStateExample> . # this is the URL and filename (without suffix) where this list file would be stored on the organization's own web server.
+@prefix : <#> .
+
+@prefix cids: <https://ontology.commonapproach.org/cids#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix fstate: <https://codelist.commonapproach.org/FundingState#> . # added prefix for the Common Approach funding state list, per the vann: recommended prefix in that file. 
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix voaf: <http://purl.org/vocommons/voaf#> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+
+<>
+    a voaf:Vocabulary, owl:Ontology, skos:ConceptScheme ;
+    owl:imports <https://ontology.commonapproach.org/cids> ;
+    
+    vann:preferredNamespacePrefix "exfs" ; # the funder recommended a prefix for their list items, for use by others (as the fstate: prefix is used here, recommended by the Common Approach list)
+    vann:preferredNamespaceUri <> ;
+
+    dcterms:creator <https://www.example-funder.org/Organization/Organization1> ; # this is the URI the funder uses to identify their own organization
+    dcterms:date "2025-11-05"^^xsd:date ; # the date that the list is published
+    owl:versionInfo "1.0" ; # the version of the list
+    
+    skos:prefLabel "FundingState Codelist by Example Funder"@en ;
+    dcterms:title "FundingState Codelist by Example Funder"@en ;
+    dcterms:description "A codelist vocabulary of funding states to describe funding applications to Example Funder."@en .
+
+:expressedinterest
+    a cids:FundingState ;
+    org:hasName "Expressed Interest" ;
+    skos:prefLabel "Expressed Interest"@en ;
+    cids:hasDefinition "The organization has applied to the funder for funding"@en ;
+    skos:definition "The organization has applied to the funder for funding"@en ;
+    org:hasIdentifier "applied" ;
+    skos:notation "applied" ;
+    cids:definedBy cids:ac ;
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> ;
+    skos:broader fstate:applied # if applicable, different skos: terms (narrower, exactMatch broader) can be used to show how this list item is conceptually related to the "applied" item in the Common Approach list of terms. 
+    .
+
+:duediligence
+    a cids:FundingState ;
+    org:hasName "Due Diligence" ;
+    skos:prefLabel "Due Diligence"@en ;
+    cids:hasDefinition "The organization's application is in due diligence review"@en ;
+    skos:definition "The organization's application is in due diligence review"@en ;
+    org:hasIdentifier "duediligence" ;
+    skos:notation "duediligence" ;
+    cids:definedBy cids:ac ;
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> ;
+    skos:broader fstate:applied # if applicable, different skos: terms (narrower, exactMatch broader) can be used to show how this list item is conceptually related to the "applied" item in the Common Approach list of terms.
+    .
+
+:exited
+    a cids:FundingState ;
+    org:hasName "Exited" ;
+    skos:prefLabel "Exited"@en ;
+    cids:hasDefinition "The funder has exited investment in the applicant organization"@en ;
+    skos:definition "The funder has exited investment in the applicant organization"@en ;
+    org:hasIdentifier "exited" ;
+    skos:notation "exited" ;
+    cids:definedBy cids:ac ;
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> ;
+    skos:broader fstate:invested # if applicable, different skos: terms (narrower, exactMatch broader) can be used to show how this list item is conceptually related to the "applied" item in the Common Approach list of terms.    
+    .

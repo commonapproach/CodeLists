@@ -1,0 +1,70 @@
+@base <https://codelist.commonapproach.org/FundingState> .
+@prefix : <#> .
+
+@prefix cids: <https://ontology.commonapproach.org/cids#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix voaf: <http://purl.org/vocommons/voaf#> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+
+<>
+    a voaf:Vocabulary, owl:Ontology, skos:ConceptScheme ;
+    owl:imports <https://ontology.commonapproach.org/cids> ;
+    
+    vann:preferredNamespacePrefix "fstate" ;
+    vann:preferredNamespaceUri <> ;
+
+    dcterms:creator cids:ac ;
+    dcterms:date "2025-11-05"^^xsd:date ;
+    owl:versionInfo "1.0" ;
+    
+    skos:prefLabel "FundingState Codelist"@en ;
+    dcterms:title "FundingState Codelist"@en ;
+    dcterms:description "A codelist vocabulary of funding states to describe funding applications to funders or investors. The list items convey whether the organization is an applicant, rejected, or invested in."@en .
+
+:applied
+    a cids:FundingState ;
+    org:hasName "Applied" ;
+    skos:prefLabel "Applied"@en ;
+    cids:hasDefinition "The organization has applied to the funder for funding"@en ;
+    skos:definition "The organization has applied to the funder for funding"@en ;
+    org:hasIdentifier "applied" ;
+    skos:notation "applied" ;
+    cids:definedBy cids:ac ;
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> ;
+    .
+
+:rejected
+    a cids:FundingState ;
+    org:hasName "Rejected" ;
+    skos:prefLabel "Rejected"@en ;
+    cids:hasDefinition "The organization's application to the funder for funding has been rejected"@en ;
+    skos:definition "The organization's application to the funder for funding has been rejected"@en ;
+    org:hasIdentifier "rejected" ;
+    skos:notation "rejected" ;
+    cids:definedBy cids:ac ;
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> ;
+    .
+
+:invested
+    a cids:FundingState ;
+    org:hasName "Invested" ;
+    skos:prefLabel "Invested"@en ;
+    cids:hasDefinition "The organization has received investment from the funder"@en ;
+    skos:definition "The organization has received investment from the funder"@en ;
+    org:hasIdentifier "invested" ;
+    skos:notation "invested" ;
+    cids:definedBy cids:ac ;
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> ;
+    .
