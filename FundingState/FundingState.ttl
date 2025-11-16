@@ -30,9 +30,9 @@
 :applied
     a cids:FundingState ;
     org:hasName "Applied" ;
-    skos:prefLabel "Applied"@en ;
-    cids:hasDefinition "The organization has applied to the funder for funding"@en ;
-    skos:definition "The organization has applied to the funder for funding"@en ;
+    skos:prefLabel "Applied"@en, "Appliqué"@fr ;
+    cids:hasDescription "The funding proposal has been submitted." ;
+    skos:definition "The funding proposal has been submitted."@en, "La proposition de financement a été soumise."@fr ;
     org:hasIdentifier "applied" ;
     skos:notation "applied" ;
     cids:definedBy cids:ac ;
@@ -44,9 +44,9 @@
 :rejected
     a cids:FundingState ;
     org:hasName "Rejected" ;
-    skos:prefLabel "Rejected"@en ;
-    cids:hasDefinition "The organization's application to the funder for funding has been rejected"@en ;
-    skos:definition "The organization's application to the funder for funding has been rejected"@en ;
+    skos:prefLabel "Rejected"@en, "Rejetée"@fr ;
+    cids:hasDescription "The funding proposal has been rejected." ;
+    skos:definition "The funding proposal has been rejected."@en, "La proposition de financement a été rejetée."@fr ;
     org:hasIdentifier "rejected" ;
     skos:notation "rejected" ;
     cids:definedBy cids:ac ;
@@ -55,14 +55,28 @@
     skos:inScheme <> ;
     .
 
-:invested
+:funded
     a cids:FundingState ;
-    org:hasName "Invested" ;
-    skos:prefLabel "Invested"@en ;
-    cids:hasDefinition "The organization has received investment from the funder"@en ;
-    skos:definition "The organization has received investment from the funder"@en ;
+    org:hasName "Funded" ;
+    skos:prefLabel "Funded"@en, "Alloué"@fr ;
+    cids:hasDescription "The funding proposal has been accepted and funding has been allocated." ;
+    skos:definition "The funding proposal has been accepted and funding has been allocated."@en, "La proposition de financement a été acceptée et le financement a été alloué."@fr ;
     org:hasIdentifier "invested" ;
     skos:notation "invested" ;
+    cids:definedBy cids:ac ;
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> ;
+    .
+
+:inReview
+    a cids:FundingState ;
+    org:hasName "In Review" ;
+    skos:prefLabel "In Review"@en, "Sous-évaluation"@fr ;
+    cids:hasDescription "The funding proposal is being processed by the evaluating organization and is under review." ;
+    skos:definition "The funding proposal is being processed by the evaluating organization and is under review."@en, "La proposition de financement est en cours de traitement par l’organisme évaluateur et est en cours d’examen."@fr ;
+    org:hasIdentifier "inReview" ;
+    skos:notation "inReview" ;
     cids:definedBy cids:ac ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
