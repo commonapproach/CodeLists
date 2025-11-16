@@ -34,10 +34,10 @@
     a cids:FundingState ;
     org:hasName "Expressed Interest" ;
     skos:prefLabel "Expressed Interest"@en ;
-    cids:hasDefinition "The organization has applied to the funder for funding"@en ;
-    skos:definition "The organization has applied to the funder for funding"@en ;
-    org:hasIdentifier "applied" ;
-    skos:notation "applied" ;
+    cids:hasDescription "The organization has expressed interest to the funder for funding" ;
+    skos:definition "The organization has expressed interest to the funder for funding"@en ;
+    org:hasIdentifier "eoi" ;
+    skos:notation "eoi" ;
     cids:definedBy cids:ac ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
@@ -49,10 +49,10 @@
     a cids:FundingState ;
     org:hasName "Due Diligence" ;
     skos:prefLabel "Due Diligence"@en ;
-    cids:hasDefinition "The organization's application is in due diligence review"@en ;
+    cids:hasDescription "The organization's application is in due diligence review" ;
     skos:definition "The organization's application is in due diligence review"@en ;
-    org:hasIdentifier "duediligence" ;
-    skos:notation "duediligence" ;
+    org:hasIdentifier "diligence" ;
+    skos:notation "diligence" ;
     cids:definedBy cids:ac ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
@@ -64,7 +64,7 @@
     a cids:FundingState ;
     org:hasName "Exited" ;
     skos:prefLabel "Exited"@en ;
-    cids:hasDefinition "The funder has exited investment in the applicant organization"@en ;
+    cids:hasDescription "The funder has exited investment in the applicant organization" ;
     skos:definition "The funder has exited investment in the applicant organization"@en ;
     org:hasIdentifier "exited" ;
     skos:notation "exited" ;
