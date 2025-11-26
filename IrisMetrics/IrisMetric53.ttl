@@ -1,258 +1,365 @@
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@base <https://codelist.commonapproach.org/IrisMetric53> .
+@prefix : <#> .
+
 @prefix cids: <https://ontology.commonapproach.org/cids#> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix org: <http://www.w3.org/ns/org#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix vann: <http://purl.org/vocab/vann/> .
-@prefix : <https://codelist.commonapproach.org/codeLists/IrisMetric53#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://codelist.commonapproach.org/codeLists/IrisMetric53>
+<>
+    a voaf:Vocabulary, owl:Ontology, skos:ConceptScheme ;
+    owl:imports <https://ontology.commonapproach.org/cids> ;
+
+    vann:preferredNamespacePrefix "im" ;
+    vann:preferredNamespaceUri <> ;
+
     dcterms:creator cids:ac ;
-    dcterms:date "02-10-2024" ;
-    dcterms:description "An codelist vocabulary of IRIS+ Metrics"@en ;
-    dcterms:title "IRIS+ Metrics"@en ;
-    vann:preferredNamespacePrefix "IrisMetric53" ;
-    vann:preferredNamespaceUri <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    a <http://purl.org/vocommons/voafVocabulary>, owl:Ontology ;
-    rdfs:label "IRIS+ Metrics" ;
-    owl:imports <http://www.w3.org/2006/time>, <https://ontology.commonapproach.org/owl/cids> ;
+    dcterms:date "02-10-2024"^^xsd:date ;
     owl:versionInfo "0.9" ;
-    foaf:name "IRIS+ Metrics" ;
-    cids:hasName "IRIS+ Metrics" .
+
+    skos:prefLabel "IRIS+ Metrics"@en ;
+    dcterms:title "IRIS+ Metrics"@en ;
+    dcterms:description "An codelist vocabulary of IRIS+ Metrics"@en ;
 
 :FP1001
     a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
-    skos:scopeNote "This metric is intended to capture the organization’s operating expenses. For financial services organizations, this metric should not include Financial Expenses (FP2553) or provisions for loan losses, which should be reported under Impairment Loss Allowance (FP2392)."@en ;
+    org:hasName "Operating Expenses" ;
+    skos:prefLabel "Operating Expenses"@en ;
+    cids:hasDescription "Value of expenditures incurred by the organization as a result of performing its normal business operations during the reporting period." ;
+    skos:definition "Value of expenditures incurred by the organization as a result of performing its normal business operations during the reporting period."@en ;
     org:hasIdentifier "FP1001" ;
+    skos:notation "FP1001" ;
     prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/FP1001/> ;
+    skos:scopeNote "This metric is intended to capture the organization’s operating expenses. For financial services organizations, this metric should not include Financial Expenses (FP2553) or provisions for loan losses, which should be reported under Impairment Loss Allowance (FP2392)."@en ;
+
     cids:definedBy cids:giin ;
-    cids:hasDescription "Value of expenditures incurred by the organization as a result of performing its normal business operations during the reporting period."@en ;
-    cids:hasName "Operating Expenses"@en .
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> ;
 
 :FP1012
     a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
-    skos:scopeNote "This metric is intended to capture the amount of interest paid by the organization on all liabilities during the reporting period."@en ;
-    org:hasIdentifier "FP1012" ;
+    org:hasName "Interest Expenses" .
+    skos:prefLabel "Interest Expenses"@en .
+    cids:hasDescription "Value of expenditures incurred by the organization during the reporting period as a result of interest incurred on all liabilities, including any client deposit accounts held by the organization, borrowings, and subordinated debt." ;
+    skos:definition "Value of expenditures incurred by the organization during the reporting period as a result of interest incurred on all liabilities, including any client deposit accounts held by the organization, borrowings, and subordinated debt."@en ;
+    org:hasIdentifier "FP1012"
+    skos:notation "FP1012"
     prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/FP1012/> ;
+    skos:scopeNote "This metric is intended to capture the amount of interest paid by the organization on all liabilities during the reporting period."@en ;
+
     cids:definedBy cids:giin ;
-    cids:hasDescription "Value of expenditures incurred by the organization during the reporting period as a result of interest incurred on all liabilities, including any client deposit accounts held by the organization, borrowings, and subordinated debt."@en ;
-    cids:hasName "Interest Expenses"@en .
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> ;
 
 :FP1129
     a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
-    skos:scopeNote "This metric is intended to capture the value, as of the end of the reporting period, of loans receivable held by the organization net of loans written down in value."@en ;
-    org:hasIdentifier "FP1129" ;
+    org:hasName "Loans Receivable Net" .
+    skos:prefLabel "Loans Receivable Net"@en .
+    cids:hasDescription "Net value of the organization's loans receivable as of the end of the reporting period." ;
+    skos:definition "Net value of the organization's loans receivable as of the end of the reporting period."@en ;
+    org:hasIdentifier "FP1129"
+    skos:notation "FP1129"
     prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/FP1129/> ;
+    skos:scopeNote "This metric is intended to capture the value, as of the end of the reporting period, of loans receivable held by the organization net of loans written down in value."@en ;
+
     cids:definedBy cids:giin ;
-    cids:hasDescription "Net value of the organization's loans receivable as of the end of the reporting period."@en ;
-    cids:hasName "Loans Receivable Net"@en .
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> ;
 
 :FP1192
     a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
-    skos:scopeNote "This metric is intended to capture a measure of a bank or other financial institution’s liquidity: the ratio of loans granted (receivable) to deposits held."@en ;
+    org:hasName "Loan to Deposit (LTD) Ratio" .
+    skos:prefLabel "Loan to Deposit (LTD) Ratio"@en .
+    cids:hasDescription "Ratio between the organization's loans receivable gross and its total deposits as of the end of the reporting period, used to assess an organization's liquidity." ;
+    skos:definition "Ratio between the organization's loans receivable gross and its total deposits as of the end of the reporting period, used to assess an organization's liquidity."@en ;
     org:hasIdentifier "FP1192" ;
+    skos:notation "FP1192" ;
     prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/FP1192/> ;
+    skos:scopeNote "This metric is intended to capture a measure of a bank or other financial institution’s liquidity: the ratio of loans granted (receivable) to deposits held."@en ;
+
     cids:definedBy cids:giin ;
-    cids:hasDescription "Ratio between the organization's loans receivable gross and its total deposits as of the end of the reporting period, used to assess an organization's liquidity."@en ;
-    cids:hasName "Loan to Deposit (LTD) Ratio"@en .
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> ;
 
 :FP1301
     a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
-    skos:scopeNote "This metric is intended to capture the organization’s net profit, also sometimes termed bottom line or net earnings."@en ;
-    org:hasIdentifier "FP1301" ;
-    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/FP1301/> ;
-    cids:definedBy cids:giin ;
+    org:hasName "Net Income" .
+    skos:prefLabel "Net Income"@en .
     cids:hasDescription "Value of the organization's net profit, calculated as total income minus total expenses, taxes, and cost of goods sold during the reporting period."@en ;
-    cids:hasName "Net Income"@en .
+    skos:definition "Value of the organization's net profit, calculated as total income minus total expenses, taxes, and cost of goods sold during the reporting period."@en ;
+    org:hasIdentifier "FP1301" ;
+    skos:notation "FP1301" ;
+    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/FP1301/> ;
+    skos:scopeNote "This metric is intended to capture the organization’s net profit, also sometimes termed bottom line or net earnings."@en ;
+    
+    cids:definedBy cids:giin ;
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> ;
 
 :FP1307
     a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
-    skos:scopeNote "This metric is intended to capture the amount of capital the organization can deploy as of the end of the reporting period. This capital can come from debt or equity investments in the organization."@en ;
+    org:hasName "Capital Available: Total" .
+    skos:prefLabel "Capital Available: Total"@en .
+    cids:hasDescription "Value of capital available to the organization for lending and investing as of the end of the reporting period." ;
+    skos:definition "Value of capital available to the organization for lending and investing as of the end of the reporting period."@en ;
     org:hasIdentifier "FP1307" ;
+    skos:notation "FP1307" ;
     prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/FP1307/> ;
+    skos:scopeNote "This metric is intended to capture the amount of capital the organization can deploy as of the end of the reporting period. This capital can come from debt or equity investments in the organization."@en ;
+
     cids:definedBy cids:giin ;
-    cids:hasDescription "Value of capital available to the organization for lending and investing as of the end of the reporting period."@en ;
-    cids:hasName "Capital Available: Total"@en .
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> ;
 
 :FP1657
     a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
-    skos:scopeNote "This metric is intended to capture the organization’s net income before interest, taxes, depreciation, and amortization during the reporting period, a common measure of business health that normalizes for capital structure (that is, independent of the ratio of debt to equity)."@en ;
-    org:hasIdentifier "FP1657" ;
-    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/FP1657/> ;
-    cids:definedBy cids:giin ;
+    org:hasName "EBITDA" .
+    skos:prefLabel "EBITDA"@en .
     cids:hasDescription """Value of the organization's net income before interest, taxes, depreciation, and amortization during the reporting period.
 
+EBITDA signifies Earnings Before Interest, Taxes, Depreciation, and Amortization.""" ;
+    skos:definition """Value of the organization's net income before interest, taxes, depreciation, and amortization during the reporting period.
+
 EBITDA signifies Earnings Before Interest, Taxes, Depreciation, and Amortization."""@en ;
-    cids:hasName "EBITDA"@en .
+    org:hasIdentifier "FP1657" ;
+    skos:notation "FP1657" ;
+    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/FP1657/> ;
+    skos:scopeNote "This metric is intended to capture the organization’s net income before interest, taxes, depreciation, and amortization during the reporting period, a common measure of business health that normalizes for capital structure (that is, independent of the ratio of debt to equity)."@en ;
+
+    cids:definedBy cids:giin ;
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> ;
 
 :FP1717
     a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
-    skos:note "Organizations should footnote the relevant details about their traceability system. See usage guidance for further information."@en ;
-    skos:scopeNote "This metric is intended to capture an organization’s impaired assets, which have market value below their carrying cost and are not expected to recover."@en ;
+    org:hasName "Impaired Assets" .
+    skos:prefLabel "Impaired Assets"@en .
+    cids:hasDescription "Value of assets classified as impaired under regulatory or accounting rules and recorded by the organization during the reporting period." ;
+    skos:definition "Value of assets classified as impaired under regulatory or accounting rules and recorded by the organization during the reporting period."@en ;
     org:hasIdentifier "FP1717" ;
+    skos:notation "FP1717" ;
     prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/FP1717/> ;
+    skos:scopeNote "This metric is intended to capture an organization’s impaired assets, which have market value below their carrying cost and are not expected to recover."@en ;
+
     cids:definedBy cids:giin ;
-    cids:hasDescription "Value of assets classified as impaired under regulatory or accounting rules and recorded by the organization during the reporting period."@en ;
-    cids:hasName "Impaired Assets"@en .
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> ;
 
 :FP1996
     a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
-    skos:scopeNote "This metric is intended to capture the value of the organization’s total liabilities, which include all debts and other obligations regardless of expected time of settlement."@en ;
+    org:hasName "Total Liabilities" .
+    skos:prefLabel "Total Liabilities"@en .
+    cids:hasDescription "Value of the organization’s liabilities as of the end of the reporting period." ;
+    skos:definition "Value of the organization’s liabilities as of the end of the reporting period."@en ;
     org:hasIdentifier "FP1996" ;
+    skos:notation "FP1996" ;
     prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/FP1996/> ;
+    skos:scopeNote "This metric is intended to capture the value of the organization’s total liabilities, which include all debts and other obligations regardless of expected time of settlement."@en ;
+
     cids:definedBy cids:giin ;
-    cids:hasDescription "Value of the organization’s liabilities as of the end of the reporting period."@en ;
-    cids:hasName "Total Liabilities"@en .
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> ;
 
 :FP2213
     a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
-    skos:scopeNote "This metric is intended to capture the value of accounts receivable by the organization, which are debts clients owe the organization for goods or services provided that the organization expects to receive in the future according to negotiated terms."@en ;
+    org:hasName "Accounts Receivable" .
+    skos:prefLabel "Accounts Receivable"@en .
+    cids:hasDescription "Value, as of the end of the reporting period, of the organization’s outstanding debts from clients who received goods or services on credit." ;
+    skos:definition "Value, as of the end of the reporting period, of the organization’s outstanding debts from clients who received goods or services on credit."@en ;
     org:hasIdentifier "FP2213" ;
+    skos:notation "FP2213" ;
     prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/FP2213/> ;
+    skos:scopeNote "This metric is intended to capture the value of accounts receivable by the organization, which are debts clients owe the organization for goods or services provided that the organization expects to receive in the future according to negotiated terms."@en ;
+
     cids:definedBy cids:giin ;
-    cids:hasDescription "Value, as of the end of the reporting period, of the organization’s outstanding debts from clients who received goods or services on credit."@en ;
-    cids:hasName "Accounts Receivable"@en .
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> ;
 
 :FP2269
     a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
-    skos:scopeNote "This metric is intended to capture the organization’s current liabilities, which include accounts payable, lines of credit, and other short-term debts expected to settle within one year."@en ;
+    org:hasName "Current Liabilities" .
+    skos:prefLabel "Current Liabilities"@en .
+    cids:hasDescription "Value, as of the end of the reporting period, of all liabilities that are expected to be settled within one year in the normal course of business." ;
+    skos:definition "Value, as of the end of the reporting period, of all liabilities that are expected to be settled within one year in the normal course of business."@en ;
     org:hasIdentifier "FP2269" ;
+    skos:notation "FP2269" ;
     prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/FP2269/> ;
+    skos:scopeNote "This metric is intended to capture the organization’s current liabilities, which include accounts payable, lines of credit, and other short-term debts expected to settle within one year."@en ;
+
     cids:definedBy cids:giin ;
-    cids:hasDescription "Value, as of the end of the reporting period, of all liabilities that are expected to be settled within one year in the normal course of business."@en ;
-    cids:hasName "Current Liabilities"@en .
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> ;
 
 :FP2321
     a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
-    skos:scopeNote "This metric is intended to capture all expenses incurred by the organization. For insurance providers, this metric excludes claims payments."@en ;
+    org:hasName "Total Expenses" .
+    skos:prefLabel "Total Expenses"@en .
+    cids:hasDescription "Value of all expenditures incurred by the organization during the reporting period." ;
+    skos:definition "Value of all expenditures incurred by the organization during the reporting period."@en ;
     org:hasIdentifier "FP2321" ;
+    skos:notation "FP2321" ;
     prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/FP2321/> ;
+    skos:scopeNote "This metric is intended to capture all expenses incurred by the organization. For insurance providers, this metric excludes claims payments."@en ;
+
     cids:definedBy cids:giin ;
-    cids:hasDescription "Value of all expenditures incurred by the organization during the reporting period."@en ;
-    cids:hasName "Total Expenses"@en .
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> ;
 
 :FP2392
     a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
-    skos:scopeNote "This metric is intended to capture the reduction in the recoverable amount of a fixed asset below its book value."@en ;
+    org:hasName "Impairment Loss Allowance" .
+    skos:prefLabel "Impairment Loss Allowance"@en .
+    cids:hasDescription "Value of the organization’s contra asset account set up as a provision for a potential future loss of capital that has been lent out by the organization as of the end of the reporting period." ;
+    skos:definition "Value of the organization’s contra asset account set up as a provision for a potential future loss of capital that has been lent out by the organization as of the end of the reporting period."@en ;
     org:hasIdentifier "FP2392" ;
+    skos:notation "FP2392" ;
     prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/FP2392/> ;
+    skos:scopeNote "This metric is intended to capture the reduction in the recoverable amount of a fixed asset below its book value."@en ;
+
     cids:definedBy cids:giin ;
-    cids:hasDescription "Value of the organization’s contra asset account set up as a provision for a potential future loss of capital that has been lent out by the organization as of the end of the reporting period."@en ;
-    cids:hasName "Impairment Loss Allowance"@en .
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> ;
 
 :FP2460
     a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
-    skos:note "Organizations should footnote all assumptions used. See usage guidance for further information."@en ;
+    org:hasName "Gross Incurred Claims" .
+    skos:prefLabel "Gross Incurred Claims"@en .
+    cids:hasDescription "Value of the organization’s gross incurred claims as of the end of the reporting period." ;
+    skos:definition "Value of the organization’s gross incurred claims as of the end of the reporting period."@en ;
+    org:hasIdentifier "FP2460" ;
+    skos:notation "FP2460" ;
+    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/FP2460/> ;
     skos:scopeNote """This metric is intended to capture incurred claims, which occur when an insured event has happened for which the insurer may be liable if a claim is made. An insurer is usually not aware of all incurred claims in real time or for a current accounting period.
 
 Incurred claims include all gross paid claims during the period, plus a reasonable estimate of unpaid liabilities. Unpaid liabilities can be calculated as a sum of the change in reserves (including the reserve of claims incurred but not reported), course of settlement reserve, and accrued liabilities reserve.
 
 This metric is used in calculating Incurred Claims Ratio (FP8478), which helps assess the value of an insurance product per premium paid."""@en ;
-    org:hasIdentifier "FP2460" ;
-    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/FP2460/> ;
+    skos:note "Organizations should footnote all assumptions used. See usage guidance for further information."@en ;
+
     cids:definedBy cids:giin ;
-    cids:hasDescription "Value of the organization’s gross incurred claims as of the end of the reporting period."@en ;
-    cids:hasName "Gross Incurred Claims"@en .
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> ;
 
 :FP2553
     a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
-    skos:scopeNote "This metric is intended to capture all costs incurred by the organization during the reporting period that are associated with its financial liabilities, such as interest, fees, and commissions."@en ;
+    org:hasName "Financial Expenses" .
+    skos:prefLabel "Financial Expenses"@en .
+    cids:hasDescription "Value of expenditures incurred by the organization during the reporting period to settle interest, fees, and commissions incurred on the organization’s financial liabilities—including, among others, any client deposit accounts held by the organization, borrowings, and subordinated debt." ;
+    skos:definition "Value of expenditures incurred by the organization during the reporting period to settle interest, fees, and commissions incurred on the organization’s financial liabilities—including, among others, any client deposit accounts held by the organization, borrowings, and subordinated debt."@en ;
     org:hasIdentifier "FP2553" ;
+    skos:notation "FP2553" ;
     prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/FP2553/> ;
+    skos:scopeNote "This metric is intended to capture all costs incurred by the organization during the reporting period that are associated with its financial liabilities, such as interest, fees, and commissions."@en ;
+
     cids:definedBy cids:giin ;
-    cids:hasDescription "Value of expenditures incurred by the organization during the reporting period to settle interest, fees, and commissions incurred on the organization’s financial liabilities—including, among others, any client deposit accounts held by the organization, borrowings, and subordinated debt."@en ;
-    cids:hasName "Financial Expenses"@en .
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> ;
 
 :FP2630
     a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
-    skos:scopeNote "This metric is intended to capture principal outstanding owed by clients as of the end of the reporting period. It should include current, delinquent, and renegotiated loans, but not loans that have been written off. It should not include interest receivable."@en ;
+    org:hasName "Loans Receivable Gross" .
+    skos:prefLabel "Loans Receivable Gross"@en .
+    cids:hasDescription "Value of outstanding principal for all of the organization’s outstanding loans due from clients as of the end of the reporting period." ;
+    skos:definition "Value of outstanding principal for all of the organization’s outstanding loans due from clients as of the end of the reporting period."@en ;
     org:hasIdentifier "FP2630" ;
+    skos:notation "FP2630" ;
     prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/FP2630/> ;
+    skos:scopeNote "This metric is intended to capture principal outstanding owed by clients as of the end of the reporting period. It should include current, delinquent, and renegotiated loans, but not loans that have been written off. It should not include interest receivable."@en ;
+
     cids:definedBy cids:giin ;
-    cids:hasDescription "Value of outstanding principal for all of the organization’s outstanding loans due from clients as of the end of the reporting period."@en ;
-    cids:hasName "Loans Receivable Gross"@en .
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> ;
 
 :FP2635
     a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
-    skos:scopeNote "This metric is intended to capture total principal past due by 30 days as of the end of the reporting period. Organizations should report the entire unpaid principal balance, including both past due and future installments, but they should not report accrued interest. This metric should also include loans that have been restructured or rescheduled."@en ;
+    org:hasName "Non-Performing Loans (Portfolio at Risk): 30 Days" .
+    skos:prefLabel "Non-Performing Loans (Portfolio at Risk): 30 Days"@en .
+    cids:hasDescription "Value of the organization’s loans outstanding, as of the end of the reporting period, with one or more installments of principal past due for more than 30 days." ;
+    skos:definition "Value of the organization’s loans outstanding, as of the end of the reporting period, with one or more installments of principal past due for more than 30 days."@en ;
     org:hasIdentifier "FP2635" ;
+    skos:notation "FP2635" ;
     prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/FP2635/> ;
+    skos:scopeNote "This metric is intended to capture total principal past due by 30 days as of the end of the reporting period. Organizations should report the entire unpaid principal balance, including both past due and future installments, but they should not report accrued interest. This metric should also include loans that have been restructured or rescheduled."@en ;
+
     cids:definedBy cids:giin ;
-    cids:hasDescription "Value of the organization’s loans outstanding, as of the end of the reporting period, with one or more installments of principal past due for more than 30 days."@en ;
-    cids:hasName "Non-Performing Loans (Portfolio at Risk): 30 Days"@en .
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> ;
 
 :FP2638
     a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
-    skos:scopeNote "This metric is intended to capture borrowed capital available to the organization for deployment as of the end of the reporting period. This metric should include debt obligations with equity characteristics."@en ;
+    org:hasName "Capital Available: Borrowed Funds" .
+    skos:prefLabel "Capital Available: Borrowed Funds"@en .
+    cids:hasDescription "Value of capital available to the organization for lending and investing as of the end of the reporting period that is attributed to debt obligations on the organization’s balance sheet." ;
+    skos:definition "Value of capital available to the organization for lending and investing as of the end of the reporting period that is attributed to debt obligations on the organization’s balance sheet."@en ;
     org:hasIdentifier "FP2638" ;
+    skos:notation "FP2638" ;
     prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/FP2638/> ;
+    skos:scopeNote "This metric is intended to capture borrowed capital available to the organization for deployment as of the end of the reporting period. This metric should include debt obligations with equity characteristics."@en ;
+
     cids:definedBy cids:giin ;
-    cids:hasDescription "Value of capital available to the organization for lending and investing as of the end of the reporting period that is attributed to debt obligations on the organization’s balance sheet."@en ;
-    cids:hasName "Capital Available: Borrowed Funds"@en .
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> ;
 
 :FP2651
     a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
-    skos:scopeNote "This metric is intended to capture the profit the organization generated on shareholder’s equity during the reporting period."@en ;
-    org:hasIdentifier "FP2651" ;
-    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/FP2651/> ;
-    cids:definedBy cids:giin ;
+    org:hasName "Return on Equity (ROE)" .
+    skos:prefLabel "Return on Equity (ROE)"@en .
     cids:hasDescription """Value of an organization’s net profit generated per dollar of shareholders’ equity during the reporting period.
 
+This is a profitability ratio calculated as net income divided by average total equity or net assets.""" ;
+    skos:definition """Value of an organization’s net profit generated per dollar of shareholders’ equity during the reporting period.
+
 This is a profitability ratio calculated as net income divided by average total equity or net assets."""@en ;
-    cids:hasName "Return on Equity (ROE)"@en .
+    org:hasIdentifier "FP2651" ;
+    skos:notation "FP2651" ;
+    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/FP2651/> ;
+    skos:scopeNote "This metric is intended to capture the profit the organization generated on shareholder’s equity during the reporting period."@en ;
+
+    cids:definedBy cids:giin ;
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> ;
 
 :FP2852
     a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
-    skos:scopeNote "This metric is intended to capture the value of accounts payable by the organization, which are debts the organization owes that will be paid in the future according to negotiated terms."@en ;
+    org:hasName "Accounts Payable" .
+    skos:prefLabel "Accounts Payable"@en .
+    cids:hasDescription "Value, as of the end of the reporting period, of all outstanding debts that must be paid by the organization within a given period of time in order to avoid default." ;
+    skos:definition "Value, as of the end of the reporting period, of all outstanding debts that must be paid by the organization within a given period of time in order to avoid default."@en ;
     org:hasIdentifier "FP2852" ;
+    skos:notation "FP2852" ;
     prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/FP2852/> ;
+    skos:scopeNote "This metric is intended to capture the value of accounts payable by the organization, which are debts the organization owes that will be paid in the future according to negotiated terms."@en ;
+
     cids:definedBy cids:giin ;
-    cids:hasDescription "Value, as of the end of the reporting period, of all outstanding debts that must be paid by the organization within a given period of time in order to avoid default."@en ;
-    cids:hasName "Accounts Payable"@en .
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> ;
 
 :FP3021
     a skos:Concept, cids:Code ;
