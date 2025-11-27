@@ -1501,8 +1501,13 @@ This metric aligns with the Corporate Racial Equity Alliance’s (https://corpor
 
 :OD0482
     a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
+    org:hasName "Racial Equity Transparency Practice" .
+    skos:prefLabel "Racial Equity Transparency Practice"@en .
+    cids:hasDescription "Indicates whether the organization has a formalized and ongoing practice of sharing publicly its positions, practices, progress, and advocacy related to racial equity as a mechanism to build trust and ensure adherence." ;
+    skos:definition "Indicates whether the organization has a formalized and ongoing practice of sharing publicly its positions, practices, progress, and advocacy related to racial equity as a mechanism to build trust and ensure adherence."@en ;
+    org:hasIdentifier "OD0482" ;
+    skos:notation "OD0482" ;
+    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/OD0482/> ;
     skos:note "Organizations should footnote all assumptions used, including locally relevant definitions of equity, equitable practices, and historically marginalized groups due to race and/or ethnicity."@en ;
     skos:scopeNote """This metric is intended to capture whether the organization works to share its positions, practices, and progress on racial equity in its external communications, including advocating for others to join in doing so. Such organizations are showing more authentic transparency and supporting broader change.
 
@@ -1511,22 +1516,37 @@ Communications captured under this metric may include a public statement in supp
 For further guidance on racial equity statements, see the Resources section within the IRIS+ Racial Equity theme.
 
 This metric aligns with the Corporate Racial Equity Alliance’s (https://corporateracialequityalliance.org/) Investor Blueprint for Racial Equity and CEO Blueprint for Racial Equity (https://corporateracialequityalliance.org/2021-blueprint)."""@en ;
-    org:hasIdentifier "OD0482" ;
-    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/OD0482/> ;
+
     cids:definedBy cids:giin ;
-    cids:hasDescription "Indicates whether the organization has a formalized and ongoing practice of sharing publicly its positions, practices, progress, and advocacy related to racial equity as a mechanism to build trust and ensure adherence."@en ;
-    cids:hasName "Racial Equity Transparency Practice"@en .
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> ;
 
 :OD0660
     a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
-    skos:note "Organizations should footnote all assumptions used."@en ;
-    skos:scopeNote "This metric is intended to capture how to distinguish and disaggregate jobs directly or indirectly supported by the investment."@en ;
-    org:hasIdentifier "OD0660" ;
-    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/OD0660/> ;
-    cids:definedBy cids:giin ;
-    cids:hasDescription """Describes the type of jobs supported, created, maintained, or lost during the reporting period.
+    org:hasName "Jobs Type" .
+    skos:prefLabel "Jobs Type"@en .
+    cids:hasDescription"""Describes the type of jobs supported, created, maintained, or lost during the reporting period.
+
+Choose all that apply:
+
+Permanence:
+- Permanent
+- Temporary (seasonal or repeated)
+- Temporary (one-time)
+- Other
+
+Hiring:
+- Jobs hired through organization itself
+- Jobs hired/supported through a third-party and directly related to the organization’s operations and maintenance
+- Jobs hired/supported through a third-party but not directly related to the organization’s operations and maintenance
+- Other
+
+Full-Time/Part-Time:
+- Full-time
+- Part-time
+- Other""" ;
+    skos:definition """Describes the type of jobs supported, created, maintained, or lost during the reporting period.
 
 Choose all that apply:
 
@@ -1546,25 +1566,43 @@ Full-Time/Part-Time:
 - Full-time
 - Part-time
 - Other"""@en ;
-    cids:hasName "Jobs Type"@en .
+    org:hasIdentifier "OD0660" ;
+    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/OD0660/> ;
+    skos:note "Organizations should footnote all assumptions used."@en ;
+    skos:scopeNote "This metric is intended to capture how to distinguish and disaggregate jobs directly or indirectly supported by the investment."@en ;
+
+    cids:definedBy cids:giin ;
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> ;
 
 :OD1777
     a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
+    org:hasName "Location of Organization's Operating Facilities" .
+    skos:prefLabel "Location of Organization's Operating Facilities"@en .
+    cids:hasDescription "Address of the organization's operating facilities." ;
+    skos:definition "Address of the organization's operating facilities."@en ;
+    org:hasIdentifier "OD1777" ;
+    skos:notation "OD1777" ;
+    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/OD1777/> ;
     skos:scopeNote """This metric is intended to capture the organization’s operational location. Operating facilities can include manufacturing, distribution, or other operating functions.
 
 Organizations are encouraged to include the full address of the facilities, including Street Name and Number, District/City, Postal Code, and Country."""@en ;
-    org:hasIdentifier "OD1777" ;
-    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/OD1777/> ;
+
     cids:definedBy cids:giin ;
-    cids:hasDescription "Address of the organization's operating facilities."@en ;
-    cids:hasName "Location of Organization's Operating Facilities"@en .
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> ;
 
 :OD2311
     a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
+    org:hasName "Racial Equity Advocacy Strategy" .
+    skos:prefLabel "Racial Equity Advocacy Strategy"@en .
+    cids:hasDescription "Indicates whether the organization has an advocacy strategy in place to support racial equity and justice efforts at local and national levels as of the end of the reporting period." ;
+    skos:definition "Indicates whether the organization has an advocacy strategy in place to support racial equity and justice efforts at local and national levels as of the end of the reporting period."@en ;
+    org:hasIdentifier "OD2311" ;
+    skos:notation "OD2311" ;
+    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/OD2311/> ;
     skos:note "Organizations should footnote all assumptions used, including locally relevant definitions of equity, equitable policies, and historically marginalized groups due to race and/or ethnicity."@en ;
     skos:scopeNote """This metric is intended to capture whether the organization works to share its positions, practices, and progress on racial equity in its external communications, including advocating for others to join in doing so. Such organizations are showing more authentic transparency and supporting broader change.
 
@@ -1573,36 +1611,36 @@ Communications captured under this metric may include a public statement in supp
 For further guidance on racial equity statements, see the Resources section within the IRIS+ Racial Equity theme.
 
 This metric aligns with the Corporate Racial Equity Alliance’s (https://corporateracialequityalliance.org/) Investor Blueprint for Racial Equity and CEO Blueprint for Racial Equity (https://corporateracialequityalliance.org/2021-blueprint)."""@en ;
-    org:hasIdentifier "OD2311" ;
-    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/OD2311/> ;
+
     cids:definedBy cids:giin ;
-    cids:hasDescription "Indicates whether the organization has an advocacy strategy in place to support racial equity and justice efforts at local and national levels as of the end of the reporting period."@en ;
-    cids:hasName "Racial Equity Advocacy Strategy"@en .
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> ;
 
 :OD2735
     a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
+    org:hasName "Mission Statement" .
+    skos:prefLabel "Mission Statement"@en .
+    cids:hasDescription "Describes the mission statement of the organization." ;
+    skos:definition "Describes the mission statement of the organization."@en ;
+    org:hasIdentifier "OD2735" ;
+    skos:notation "OD2735" ;
+    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/OD2735/> ;
     skos:scopeNote """This metric is intended to capture the organization’s mission statement, which expresses its reason for existence or core purpose. Mission statements establish the long-term direction and goals that guide an organization's daily operations, providing a foundation for an organization's activities, communications, organizational structure, and culture.
 
 Internally, mission statements are often used to inspire employees, board members, and volunteers; guide leaders' decision-making; support the organization's theory of change (see Theory of Change [OD6350]); and help set goals (see Social and Environmental Targets [OD4091]). Externally, mission statements are often used to generate external support and communicate goals and aspirations to stakeholders.
 
 Organizations can refer to the SPI4 (http://cerise-spi4.squarespace.com/), specifically Essential Practice 1a1, for additional indicators related to well-crafted mission statements. SPI4 is a social audit tool, developed for financial service providers, which can apply to any organization with both social and financial objectives."""@en ;
-    org:hasIdentifier "OD2735" ;
-    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/OD2735/> ;
+
     cids:definedBy cids:giin ;
-    cids:hasDescription "Describes the mission statement of the organization."@en ;
-    cids:hasName "Mission Statement"@en .
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> ;
 
 :OD2999
     a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
-    skos:note "Organizations should footnote details in cases with related organizations, hybrids, or spinoffs reporting as a single organization."@en ;
-    skos:scopeNote "This metric is intended to capture the organization’s legal structure. Organizations can refer to the glossary for additional information on these various legal structures."@en ;
-    org:hasIdentifier "OD2999" ;
-    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/OD2999/> ;
-    cids:definedBy cids:giin ;
+    org:hasName "Legal Structure" .
+    skos:prefLabel "Legal Structure"@en .
     cids:hasDescription """Describes the legal structure of the organization. Select one:
 
 - Benefit Corporation
@@ -1612,73 +1650,112 @@ Organizations can refer to the SPI4 (http://cerise-spi4.squarespace.com/), speci
 - Nonprofit/Non-Governmental Organization
 - Partnership
 - Sole-proprietorship
+- Other""" ;
+    skos:definition """Describes the legal structure of the organization. Select one:
+
+- Benefit Corporation
+- Co-op
+- Corporation
+- Limited Liability Company
+- Nonprofit/Non-Governmental Organization
+- Partnership
+- Sole-proprietorship
 - Other"""@en ;
-    cids:hasName "Legal Structure"@en .
+    org:hasIdentifier "OD2999" ;
+    skos:notation "OD2999" ;
+    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/OD2999/> ;
+    skos:note "Organizations should footnote details in cases with related organizations, hybrids, or spinoffs reporting as a single organization."@en ;
+    skos:scopeNote "This metric is intended to capture the organization’s legal structure. Organizations can refer to the glossary for additional information on these various legal structures."@en ;
+
+    cids:definedBy cids:giin ;
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> ;
 
 :OD3292
     a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
+    org:hasName "Board of Directors Remuneration" .
+    skos:prefLabel "Board of Directors Remuneration"@en .
+    cids:hasDescription "Describes the compensation practices for members of the board of directors or other governing body of the reporting organization." ;
+    skos:definition "Describes the compensation practices for members of the board of directors or other governing body of the reporting organization."@en ;
+    org:hasIdentifier "OD3292" ;
+    skos:notation "OD3292" ;
+    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/OD3292/> ;
     skos:note "Organizations should footnote details on the remuneration provided. See usage guidance for further information."@en ;
     skos:scopeNote """This metric is intended to capture the compensation paid to members of the organization’s board of directors, a group of individuals legally responsible to govern a corporation and responsible to the shareholders and other relevant stakeholders. A governing body with a different name (e.g., \"advisory body\") may be considered a Board of Directors provided it has a fiduciary and/or social responsibility to shareholders and/or other relevant stakeholders.
 
 Organizations should only report remuneration provided to members of the Board of Directors who are not paid employees of the reporting organization.
 
 Examples of details to footnote on the type of remuneration provided include: yearly or monthly salaries, additional compensation for meetings attended, stock options, insurance, and other benefits."""@en ;
-    org:hasIdentifier "OD3292" ;
-    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/OD3292/> ;
+
     cids:definedBy cids:giin ;
-    cids:hasDescription "Describes the compensation practices for members of the board of directors or other governing body of the reporting organization."@en ;
-    cids:hasName "Board of Directors Remuneration"@en .
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> ;
 
 :OD3520
     a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
+    org:hasName "Year Founded" .
+    skos:prefLabel "Year Founded"@en .
+    cids:hasDescription "Year the organization was founded." ;
+    skos:definition "Year the organization was founded."@en ;
+    org:hasIdentifier "OD3520" ;
+    skos:notation "OD3520" ;
+    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/OD3520/> ;
     skos:note "Organizations should footnote all assumptions used."@en ;
     skos:scopeNote "This metric is intended to capture the year the organization began operations."@en ;
-    org:hasIdentifier "OD3520" ;
-    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/OD3520/> ;
+
     cids:definedBy cids:giin ;
-    cids:hasDescription "Year the organization was founded."@en ;
-    cids:hasName "Year Founded"@en .
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> ;
 
 :OD3725
     a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
-    skos:scopeNote "This metric is intended to capture the organization’s IRIS ID. The metric only applies to organizations submitting data to the IRIS data project as part of a voluntary data contribution process."@en ;
+    org:hasName "IRIS ID" .
+    skos:prefLabel "IRIS ID"@en .
+    cids:hasDescription "IRIS ID of the organization reporting data." ;
+    skos:definition "IRIS ID of the organization reporting data."@en ;
     org:hasIdentifier "OD3725" ;
+    skos:notation "OD3725" ;
     prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/OD3725/> ;
+    skos:scopeNote "This metric is intended to capture the organization’s IRIS ID. The metric only applies to organizations submitting data to the IRIS data project as part of a voluntary data contribution process."@en ;
+
     cids:definedBy cids:giin ;
-    cids:hasDescription "IRIS ID of the organization reporting data."@en ;
-    cids:hasName "IRIS ID"@en .
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> ;
 
 :OD4091
     a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
+    org:hasName "Social and Environmental Targets" .
+    skos:prefLabel "Social and Environmental Targets"@en .
+    cids:hasDescription "Describes the quantifiable social and environmental targets set by the organization." ;
+    skos:definition "Describes the quantifiable social and environmental targets set by the organization."@en ;
+    org:hasIdentifier "OD4091" ;
+    skos:notation "OD4091" ;
+    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/OD4091/> ;
     skos:note "Organizations should footnote details on specific targets, timeframes for accomplishing these targets, and how results will be measured for these targets. See usage guidance for further information."@en ;
     skos:scopeNote """This metric is intended to capture the organization’s social and/or environmental targets. Typically consistent with the organization's mission, these targets should be specific, measurable, attainable, relevant, and time bound. Other IRIS metrics can be used to measure progress towards these goals.
 
 This metric may be used in conjunction with Social Impact Objectives (OD6247) and/or Environmental Impact Objectives (OD4108). For example, an organization can have a Social Impact Objective of providing access to clean water and sanitation, with specific targets regarding the total amount of clean water provided and the number of individuals to which it is provided.
 
 Organizations are also encouraged to report this metric in conjunction with Social and Environmental Performance Reporting (OI4732) and Social and Environmental Performance Risk Assessment (OI9106)."""@en ;
-    org:hasIdentifier "OD4091" ;
-    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/OD4091/> ;
+
     cids:definedBy cids:giin ;
-    cids:hasDescription "Describes the quantifiable social and environmental targets set by the organization."@en ;
-    cids:hasName "Social and Environmental Targets"@en .
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> ;
 
 :OD4108
     a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
+    org:hasName "Environmental Impact Objectives" .
+    skos:prefLabel "Environmental Impact Objectives"@en .
+    org:hasIdentifier "OD4108" ;
+    skos:notation "OD4108" ;
+    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/OD4108/> ;
     skos:note "Organizations should footnote how their operations and/or products/services pursue the selected objectives. See usage guidance for further information."@en ;
     skos:scopeNote "This metric is intended to capture an organization’s environmental impact objectives in the standardized format of the IRIS+ thematic taxonomy. It does not capture how well organizations achieve or manage these impact objectives. Organizations are encouraged to report this metric in conjunction with Theory of Change (OD6350) and Social and Environmental Targets (OD4091) in order to provide supporting details on their activities, inputs, outputs, outcomes, and impacts in pursuit of these objectives. Organizations pursuing social impact objectives as well are encouraged to report Social Impact Objectives (OD6247)."@en ;
-    org:hasIdentifier "OD4108" ;
-    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/OD4108/> ;
-    cids:definedBy cids:giin ;
     cids:hasDescription """Describes the environmental impact objectives pursued by the organization. Select all that apply:
 
 Agriculture—Food Security:
@@ -1937,57 +2014,8 @@ Water—Water, Sanitation, and Hygiene (WASH):
 - Increasing Access to Non-Sewered Sanitation Services
 - Increasing Access to Sewered Sanitation Services
 
-Water—Other (describe)"""@en ;
-    cids:hasName "Environmental Impact Objectives"@en .
-
-:OD4232
-    a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
-    skos:note "Organizations should footnote all assumptions used."@en ;
-    skos:scopeNote "This metric is intended to capture whether or not the organization specifically works to advance women’s careers. To report against 2X Challenge requirements, organizations must report this metric in combination with one or more of the following metrics that detail which initiatives are in place: Diverse Representation Policy (OI9485), Flexible Work Arrangements (OI7983), Sexual Harassment Policy (OI9088), Employment Benefits (OI2742), Fair Compensation Policy (OI3819), Fair Career Advancement Policy (OI4884), or Anti-Discrimination Policy (OI9331). To qualify under the 2X criteria, additional metric(s) must have specific benefits for women and must exceed compliance with local regulations and standards in the local context."@en ;
-    org:hasIdentifier "OD4232" ;
-    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/OD4232/> ;
-    cids:definedBy cids:giin ;
-    cids:hasDescription "Indicates whether the organization has an initiative in place to advance women in their workforce."@en ;
-    cids:hasName "Women's Career Advancement Initiative"@en .
-
-:OD5828
-    a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
-    skos:note "Organizations should footnote all assumptions used."@en ;
-    skos:scopeNote "This metric is intended to capture a widely recognized name for the organization, such as its legal name."@en ;
-    org:hasIdentifier "OD5828" ;
-    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/OD5828/> ;
-    cids:definedBy cids:giin ;
-    cids:hasDescription "Name of the organization."@en ;
-    cids:hasName "Name of Organization"@en .
-
-:OD5990
-    a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
-    skos:note "Organizations should footnote the currency or currencies for each product/service for which data is being reported. See usage guidance for further information."@en ;
-    skos:scopeNote "This metric is intended to capture the currency in which the organization makes a report. For example, if reporting Sales Revenue (PI1775) for two crops in different countries, one measured in West African CFA Franc and the other measured in USD, the organization should report this metric separately for each crop."@en ;
-    org:hasIdentifier "OD5990" ;
-    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/OD5990/> ;
-    cids:definedBy cids:giin ;
-    cids:hasDescription """The national currency used to report currency figures in this IRIS report.
-
-Indicate based on the International Organization for Standardization (ISO) Currency List. Select from the options in the Reference List tab."""@en ;
-    cids:hasName "Reporting Currency"@en .
-
-:OD6247
-    a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
-    skos:note "Organizations should footnote how their operations and/or products/services pursue the selected objectives. See usage guidance for further information."@en ;
-    skos:scopeNote "This metric is intended to capture an organization’s social impact objectives in the standardized format of the IRIS+ thematic taxonomy. It does not capture how well organizations achieve or manage against these impact objectives. Organizations are encouraged to report this metric in conjunction with Theory of Change (OD6350) and Social and Environmental Targets (OD4091) in order to provide supporting details on their activities, inputs, outputs, outcomes, and impacts in pursuit of these objectives. Organizations pursuing environmental impact objectives as well are encouraged to report Environmental Impact Objectives (OD4108)."@en ;
-    org:hasIdentifier "OD6247" ;
-    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/OD6247/> ;
-    cids:definedBy cids:giin ;
-    cids:hasDescription """Describes the social impact objectives pursued by the organization. Select all that apply:
+Water—Other (describe)""" ;
+    skos:definition """Describes the environmental impact objectives pursued by the organization. Select all that apply:
 
 Agriculture—Food Security:
 
@@ -2246,17 +2274,604 @@ Water—Water, Sanitation, and Hygiene (WASH):
 - Increasing Access to Sewered Sanitation Services
 
 Water—Other (describe)"""@en ;
-    cids:hasName "Social Impact Objectives"@en .
+
+    cids:definedBy cids:giin ;
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> ;
+
+:OD4232
+    a skos:Concept, cids:Code ;
+    org:hasName "Women's Career Advancement Initiative" .
+    skos:prefLabel "Women's Career Advancement Initiative"@en .
+    cids:hasDescription "Indicates whether the organization has an initiative in place to advance women in their workforce." ;
+    skos:definition "Indicates whether the organization has an initiative in place to advance women in their workforce."@en ;
+    org:hasIdentifier "OD4232" ;
+    skos:notation "OD4232" ;
+    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/OD4232/> ;
+    skos:note "Organizations should footnote all assumptions used."@en ;
+    skos:scopeNote "This metric is intended to capture whether or not the organization specifically works to advance women’s careers. To report against 2X Challenge requirements, organizations must report this metric in combination with one or more of the following metrics that detail which initiatives are in place: Diverse Representation Policy (OI9485), Flexible Work Arrangements (OI7983), Sexual Harassment Policy (OI9088), Employment Benefits (OI2742), Fair Compensation Policy (OI3819), Fair Career Advancement Policy (OI4884), or Anti-Discrimination Policy (OI9331). To qualify under the 2X criteria, additional metric(s) must have specific benefits for women and must exceed compliance with local regulations and standards in the local context."@en ;
+
+    cids:definedBy cids:giin ;
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> ;
+
+:OD5828
+    a skos:Concept, cids:Code ;
+    org:hasName "Name of Organization" .
+    skos:prefLabel "Name of Organization"@en .
+    cids:hasDescription "Name of the organization." ;
+    skos:definition "Name of the organization."@en ;
+    org:hasIdentifier "OD5828" ;
+    skos:notation "OD5828" ;
+    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/OD5828/> ;
+    skos:note "Organizations should footnote all assumptions used."@en ;
+    skos:scopeNote "This metric is intended to capture a widely recognized name for the organization, such as its legal name."@en ;
+
+    cids:definedBy cids:giin ;
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> ;
+
+:OD5990
+    a skos:Concept, cids:Code ;
+    org:hasName "Reporting Currency" .
+    skos:prefLabel "Reporting Currency"@en .
+    cids:hasDescription """The national currency used to report currency figures in this IRIS report.
+
+Indicate based on the International Organization for Standardization (ISO) Currency List. Select from the options in the Reference List tab.""" ;
+    skos:definition """The national currency used to report currency figures in this IRIS report.
+
+Indicate based on the International Organization for Standardization (ISO) Currency List. Select from the options in the Reference List tab."""@en ;
+    org:hasIdentifier "OD5990" ;
+    skos:notation "OD5990" ;
+    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/OD5990/> ;
+    skos:note "Organizations should footnote the currency or currencies for each product/service for which data is being reported. See usage guidance for further information."@en ;
+    skos:scopeNote "This metric is intended to capture the currency in which the organization makes a report. For example, if reporting Sales Revenue (PI1775) for two crops in different countries, one measured in West African CFA Franc and the other measured in USD, the organization should report this metric separately for each crop."@en ;
+
+    cids:definedBy cids:giin ;
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> ;
+
+:OD6247
+    a skos:Concept, cids:Code ;
+    org:hasName "Social Impact Objectives" .
+    skos:prefLabel "Social Impact Objectives"@en .
+    org:hasIdentifier "OD6247" ;
+    skos:notation "OD6247" ;
+    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/OD6247/> ;
+    skos:note "Organizations should footnote how their operations and/or products/services pursue the selected objectives. See usage guidance for further information."@en ;
+    skos:scopeNote "This metric is intended to capture an organization’s social impact objectives in the standardized format of the IRIS+ thematic taxonomy. It does not capture how well organizations achieve or manage against these impact objectives. Organizations are encouraged to report this metric in conjunction with Theory of Change (OD6350) and Social and Environmental Targets (OD4091) in order to provide supporting details on their activities, inputs, outputs, outcomes, and impacts in pursuit of these objectives. Organizations pursuing environmental impact objectives as well are encouraged to report Environmental Impact Objectives (OD4108)."@en ;
+    cids:hasDescription """Describes the social impact objectives pursued by the organization. Select all that apply:
+
+Agriculture—Food Security:
+
+- Increasing Access to Agricultural Training and Information
+- Increasing Access to and Use of Products and Services for Agricultural Risk Mitigation
+- Increasing Access to Better, Stable Pricing of Agricultural Products
+- Increasing Farm Profitability
+- Increasing Financial Health of Farmers
+- Increasing Food Security through Smallholder Farms
+- Mitigating Climate Change through Sustainable Agriculture
+
+Agriculture—Smallholder Agriculture:
+
+- Improving Agricultural Water Use Practices
+- Improving Rural Economies through Financial Inclusion
+- Increasing Access to Agricultural Training and Information
+- Increasing Access to and Use of Products and Services for Agricultural Risk Mitigation
+- Increasing Access to and Use of Quality Agricultural Inputs
+- Increasing Access to Better, Stable Pricing of Agricultural Products
+- Increasing Farm Profitability
+- Increasing Financial Health of Farmers
+- Increasing Food Security through Smallholder Farms
+- Increasing the Sustainability of Non-Wood Forest Products
+- Mitigating Climate Change through Sustainable Agriculture
+
+Agriculture—Sustainable Agriculture:
+
+- Conserving River Flows for Nature and People
+- Improving Agricultural Water Use Practices
+- Mitigating Climate Change through Sustainable Agriculture
+
+Agriculture—Other (describe)
+
+Air—Clean Air:
+
+- Mitigating Carbon Emissions from Forestry and Land Use
+- Mitigating Climate Change through Carbon Capture and Sequestration
+- Mitigating Climate Change through Clean Electricity and Heat Production
+- Mitigating Climate Change through Clean Mobility
+- Mitigating Climate Change through Sustainable Manufacturing
+
+Air—Other (describe)
+
+Biodiversity and Ecosystems—Biodiversity & Ecosystem Conservation:
+
+- Conserving River Flows for Nature and People
+- Improving Agricultural Water Use Practices
+- Improving Biodiversity by Reducing Impacts from Salt- and Freshwater Aquaculture and Fisheries
+- Improving Biodiversity through Marine Ecosystem Conservation and Restoration
+- Improving Biodiversity through Nature-Based Solutions and Green Infrastructure
+- Improving Biodiversity through Terrestrial Ecosystem Protection and Restoration
+- Improving Water Quality Through Source Water Protection
+- Increasing the Sustainability of Wood and Wood-Based Products
+
+Biodiversity and Ecosystems—Other (describe)
+
+Climate—Climate Change Mitigation:
+
+- Improving Sustainability of Industrial and Municipal Water Practices
+- Improving WASH through Water Infrastructure and Management
+- Increasing the Sustainability of Wood and Wood-Based Products
+- Mitigating Carbon Emissions from Forestry and Land Use
+- Mitigating Climate Change through Carbon Capture and Sequestration
+-  Mitigating Climate Change through Clean Electricity and Heat Production
+- Mitigating Climate Change through Clean Mobility
+- Mitigating Climate Change through Sustainable Agriculture
+- Mitigating Climate Change through Sustainable Manufacturing
+
+Climate—Climate Resilience and Adaptation:
+
+- Improving Job Skills for the Future
+- Improving WASH through Water Infrastructure and Management
+
+Climate—Other (describe)
+
+Diversity and Inclusion—Gender Lens:
+
+- Improving Earnings and Wealth Through Employment and Entrepreneurship (Particularly for Disadvantaged and Excluded Groups)
+- Improving Equitable Access to Education and Learning for All
+- Improving Rights, Respect, and Cooperation in the Workplace
+- Increasing Gender Equality through Financial Inclusion
+- Increasing Job Security and Stability for Workers in Precarious Employment
+- Reducing Gender Inequities in Governance, Leadership, and Ownership
+- Reducing Gender Inequities in Pay
+- Reducing Gender Inequities in Workplace Conditions
+- Reducing Gender Inequities through Tailored Products and Services
+
+Diversity and Inclusion—Racial Equity:
+
+- Improving Earnings and Wealth Through Employment and Entrepreneurship (Particularly for Disadvantaged and Excluded Groups)
+- Improving Rights, Respect, and Cooperation in the Workplace
+- Increasing Inclusive Capital to Create Equitable Outcomes for Communities of Color (Justice)
+- Increasing Job Security and Stability for Workers in Precarious Employment
+- Shifting Power by Addressing Racial Bias and Ensuring Equitable Representation and Decision-Making
+- Shifting the Perception of Risk through Equitable Deal Sourcing, Due Diligence, and Terms
+
+Diversity and Inclusion—Other (describe)
+
+Education—Access to Quality Education:
+
+- Improving Access to Education for Children in Crisis and Conflict-Affected Environments
+- Improving Early Childhood Care and Education
+- Improving Equitable Access to Education and Learning for All
+- Improving Job Skills for the Future
+- Improving the Quality of Teaching and Learning Environments
+- Improving The Successful Transition of Youth into the Workforce and Society
+- Improving the Transparency and Accountability of Education Management Systems
+
+Education—Other (describe)
+
+Employment—Quality Jobs:
+
+- Improving Earnings and Wealth Through Employment and Entrepreneurship (Particularly for Disadvantaged and Excluded Groups)
+- Improving Health and Well-Being Across the Workforce
+- Improving Job Skills for the Future
+- Improving Rights, Respect, and Cooperation in the Workplace
+- Increasing Job Security and Stability for Workers in Precarious Employment
+
+Employment—Other (describe)
+
+Energy—Clean Energy:
+
+- Improving Access to Clean Energy for Underserved Communities
+- Increasing Availability of Clean Energy through Improved Transmission and Distribution Infrastructure
+- Increasing Clean Energy Generation through Low- and Zero-Carbon Alternatives
+- Increasing Clean Energy Storage Capacity through Improved Batteries and Other Technologies
+- Mitigating Climate Change through Clean Electricity and Heat Production
+- Mitigating Climate Change through Clean Mobility
+
+Energy—Energy Access:
+
+- Improving Energy Alternatives for Cooking
+- Improving Energy Alternatives for Healthcare
+- Improving Energy for Connectivity
+- Improving Lighting for Business
+- Improving Lighting for Homes
+- Mitigating Climate Change through Clean Electricity and Heat Production - Reducing Harmful Emissions from Small-Scale Energy Sources
+
+Energy—Energy Efficiency:
+
+- Improving Sustainability of Industrial and Municipal Water Practices
+- Mitigating Climate Change through Clean Electricity and Heat Production
+- Mitigating Climate Change through Clean Mobility
+- Mitigating Climate Change through Sustainable Manufacturing
+
+Energy—Other (describe)
+
+Financial Services—Financial Inclusion:
+
+- Improving Access to and Use of Responsible Financial Services for Historically Underserved Populations
+- Improving Access to WASH Through Affordable Household Financing
+- Improving Earnings and Wealth Through Employment and Entrepreneurship (Particularly for Disadvantaged and Excluded Groups)
+- Improving Financial Health
+- Improving Rural Economies through Financial Inclusion
+- Increasing Access to and Use of Products and Services for Agricultural Risk Mitigation
+- Increasing Access to Non-Sewered Sanitation Services
+- Increasing Access to Sewered Sanitation Services
+- Increasing Farm Profitability
+- Increasing Financial Health of Farmers
+- Increasing Gender Equality through Financial Inclusion
+- Supporting Decent Jobs and Fostering Economic Development
+
+Financial Services—Other (describe)
+
+Health—Access to Quality Health Care:
+
+- Improving Data for Health Systems Policy and Decision-Making
+- Improving Early Childhood Care and Education
+- Improving Energy Alternatives for Healthcare
+- Improving Health and Well-Being Across the Workforce
+- Improving WASH through Water Infrastructure and Management
+- Increasing Access to Essential Medicines, Medical Supplies, and Devices
+- Increasing Access to Medical Diagnostics
+- Increasing Consistent Supply of Essential Services and Products
+- Reducing Financial Barriers to Health Services
+
+Health—Nutrition
+
+Health—Other (describe)
+
+Infrastructure—Resilient Infrastructure:
+
+- Reducing Flood Risk and Stormwater Impacts through Green Infrastructure
+
+Infrastructure—Other (describe)
+
+Land—Natural Resources Conservation:
+
+- Improving Agricultural Water Use Practices
+- Improving Water Quality Through Source Water Protection
+
+Land—Sustainable Forestry:
+
+- Increasing the Sustainability of Local Economies and Communities through Forestry and Land Use
+- Increasing the Sustainability of Non-Wood Forest Products
+- Increasing the Sustainability of Wood and Wood-Based Products
+- Mitigating Carbon Emissions from Forestry and Land Use
+
+Land—Sustainable Land Management:
+
+- Improving Sustainability of Industrial and Municipal Water Practices
+
+Land—Other (describe)
+
+Oceans & Coastal Zones—Marine Resource Conservation and Management:
+
+- Improving Water Quality Through Source Water Protection
+
+Oceans & Coastal Zones—Other (describe)
+
+Pollution—Pollution Prevention:
+
+- Improving Sustainability of Industrial and Municipal Water Practices
+- Mitigating Carbon Emissions from Forestry and Land Use
+- Reducing Harmful Emissions from Small-Scale Energy Sources
+
+Pollution—Other (describe)
+
+Real Estate—Affordable Quality Housing:
+
+- Improving Housing Quality
+- Increasing Residential Stability
+- Increasing Housing Affordability
+- Increasing Access to Supportive Services through Housing
+
+Real Estate—Green Buildings
+
+Real Estate—Other (describe)
+
+Waste—Waste Management:
+
+- Improving Sustainability of Industrial and Municipal Water Practices
+
+Waste—Other (describe)
+
+Water—Sustainable Water Management:
+
+- Conserving River Flows for Nature and People
+- Improving Access to WASH Through Affordable Household Financing
+- Improving Agricultural Water Use Practices
+- Improving Sustainability of Industrial and Municipal Water Practices
+- Improving WASH through Water Infrastructure and Management
+- Improving Water Quality Through Source Water Protection
+- Increasing Access to Non-Sewered Sanitation Services
+- Increasing Access to Sewered Sanitation Services
+- Reducing Flood Risk and Stormwater Impacts Through Green Infrastructure
+
+Water—Water, Sanitation, and Hygiene (WASH):
+
+- Conserving River Flows for Nature and People
+- Improving Access to WASH in Schools and Healthcare Centers
+- Improving Access to WASH Through Affordable Household Financing
+- Improving Sustainability of Industrial and Municipal Water Practices
+- Improving WASH through Water Infrastructure and Management
+- Increasing Access to Non-Sewered Sanitation Services
+- Increasing Access to Sewered Sanitation Services
+
+Water—Other (describe)""" ;
+    skos:definition """Describes the social impact objectives pursued by the organization. Select all that apply:
+
+Agriculture—Food Security:
+
+- Increasing Access to Agricultural Training and Information
+- Increasing Access to and Use of Products and Services for Agricultural Risk Mitigation
+- Increasing Access to Better, Stable Pricing of Agricultural Products
+- Increasing Farm Profitability
+- Increasing Financial Health of Farmers
+- Increasing Food Security through Smallholder Farms
+- Mitigating Climate Change through Sustainable Agriculture
+
+Agriculture—Smallholder Agriculture:
+
+- Improving Agricultural Water Use Practices
+- Improving Rural Economies through Financial Inclusion
+- Increasing Access to Agricultural Training and Information
+- Increasing Access to and Use of Products and Services for Agricultural Risk Mitigation
+- Increasing Access to and Use of Quality Agricultural Inputs
+- Increasing Access to Better, Stable Pricing of Agricultural Products
+- Increasing Farm Profitability
+- Increasing Financial Health of Farmers
+- Increasing Food Security through Smallholder Farms
+- Increasing the Sustainability of Non-Wood Forest Products
+- Mitigating Climate Change through Sustainable Agriculture
+
+Agriculture—Sustainable Agriculture:
+
+- Conserving River Flows for Nature and People
+- Improving Agricultural Water Use Practices
+- Mitigating Climate Change through Sustainable Agriculture
+
+Agriculture—Other (describe)
+
+Air—Clean Air:
+
+- Mitigating Carbon Emissions from Forestry and Land Use
+- Mitigating Climate Change through Carbon Capture and Sequestration
+- Mitigating Climate Change through Clean Electricity and Heat Production
+- Mitigating Climate Change through Clean Mobility
+- Mitigating Climate Change through Sustainable Manufacturing
+
+Air—Other (describe)
+
+Biodiversity and Ecosystems—Biodiversity & Ecosystem Conservation:
+
+- Conserving River Flows for Nature and People
+- Improving Agricultural Water Use Practices
+- Improving Biodiversity by Reducing Impacts from Salt- and Freshwater Aquaculture and Fisheries
+- Improving Biodiversity through Marine Ecosystem Conservation and Restoration
+- Improving Biodiversity through Nature-Based Solutions and Green Infrastructure
+- Improving Biodiversity through Terrestrial Ecosystem Protection and Restoration
+- Improving Water Quality Through Source Water Protection
+- Increasing the Sustainability of Wood and Wood-Based Products
+
+Biodiversity and Ecosystems—Other (describe)
+
+Climate—Climate Change Mitigation:
+
+- Improving Sustainability of Industrial and Municipal Water Practices
+- Improving WASH through Water Infrastructure and Management
+- Increasing the Sustainability of Wood and Wood-Based Products
+- Mitigating Carbon Emissions from Forestry and Land Use
+- Mitigating Climate Change through Carbon Capture and Sequestration
+-  Mitigating Climate Change through Clean Electricity and Heat Production
+- Mitigating Climate Change through Clean Mobility
+- Mitigating Climate Change through Sustainable Agriculture
+- Mitigating Climate Change through Sustainable Manufacturing
+
+Climate—Climate Resilience and Adaptation:
+
+- Improving Job Skills for the Future
+- Improving WASH through Water Infrastructure and Management
+
+Climate—Other (describe)
+
+Diversity and Inclusion—Gender Lens:
+
+- Improving Earnings and Wealth Through Employment and Entrepreneurship (Particularly for Disadvantaged and Excluded Groups)
+- Improving Equitable Access to Education and Learning for All
+- Improving Rights, Respect, and Cooperation in the Workplace
+- Increasing Gender Equality through Financial Inclusion
+- Increasing Job Security and Stability for Workers in Precarious Employment
+- Reducing Gender Inequities in Governance, Leadership, and Ownership
+- Reducing Gender Inequities in Pay
+- Reducing Gender Inequities in Workplace Conditions
+- Reducing Gender Inequities through Tailored Products and Services
+
+Diversity and Inclusion—Racial Equity:
+
+- Improving Earnings and Wealth Through Employment and Entrepreneurship (Particularly for Disadvantaged and Excluded Groups)
+- Improving Rights, Respect, and Cooperation in the Workplace
+- Increasing Inclusive Capital to Create Equitable Outcomes for Communities of Color (Justice)
+- Increasing Job Security and Stability for Workers in Precarious Employment
+- Shifting Power by Addressing Racial Bias and Ensuring Equitable Representation and Decision-Making
+- Shifting the Perception of Risk through Equitable Deal Sourcing, Due Diligence, and Terms
+
+Diversity and Inclusion—Other (describe)
+
+Education—Access to Quality Education:
+
+- Improving Access to Education for Children in Crisis and Conflict-Affected Environments
+- Improving Early Childhood Care and Education
+- Improving Equitable Access to Education and Learning for All
+- Improving Job Skills for the Future
+- Improving the Quality of Teaching and Learning Environments
+- Improving The Successful Transition of Youth into the Workforce and Society
+- Improving the Transparency and Accountability of Education Management Systems
+
+Education—Other (describe)
+
+Employment—Quality Jobs:
+
+- Improving Earnings and Wealth Through Employment and Entrepreneurship (Particularly for Disadvantaged and Excluded Groups)
+- Improving Health and Well-Being Across the Workforce
+- Improving Job Skills for the Future
+- Improving Rights, Respect, and Cooperation in the Workplace
+- Increasing Job Security and Stability for Workers in Precarious Employment
+
+Employment—Other (describe)
+
+Energy—Clean Energy:
+
+- Improving Access to Clean Energy for Underserved Communities
+- Increasing Availability of Clean Energy through Improved Transmission and Distribution Infrastructure
+- Increasing Clean Energy Generation through Low- and Zero-Carbon Alternatives
+- Increasing Clean Energy Storage Capacity through Improved Batteries and Other Technologies
+- Mitigating Climate Change through Clean Electricity and Heat Production
+- Mitigating Climate Change through Clean Mobility
+
+Energy—Energy Access:
+
+- Improving Energy Alternatives for Cooking
+- Improving Energy Alternatives for Healthcare
+- Improving Energy for Connectivity
+- Improving Lighting for Business
+- Improving Lighting for Homes
+- Mitigating Climate Change through Clean Electricity and Heat Production - Reducing Harmful Emissions from Small-Scale Energy Sources
+
+Energy—Energy Efficiency:
+
+- Improving Sustainability of Industrial and Municipal Water Practices
+- Mitigating Climate Change through Clean Electricity and Heat Production
+- Mitigating Climate Change through Clean Mobility
+- Mitigating Climate Change through Sustainable Manufacturing
+
+Energy—Other (describe)
+
+Financial Services—Financial Inclusion:
+
+- Improving Access to and Use of Responsible Financial Services for Historically Underserved Populations
+- Improving Access to WASH Through Affordable Household Financing
+- Improving Earnings and Wealth Through Employment and Entrepreneurship (Particularly for Disadvantaged and Excluded Groups)
+- Improving Financial Health
+- Improving Rural Economies through Financial Inclusion
+- Increasing Access to and Use of Products and Services for Agricultural Risk Mitigation
+- Increasing Access to Non-Sewered Sanitation Services
+- Increasing Access to Sewered Sanitation Services
+- Increasing Farm Profitability
+- Increasing Financial Health of Farmers
+- Increasing Gender Equality through Financial Inclusion
+- Supporting Decent Jobs and Fostering Economic Development
+
+Financial Services—Other (describe)
+
+Health—Access to Quality Health Care:
+
+- Improving Data for Health Systems Policy and Decision-Making
+- Improving Early Childhood Care and Education
+- Improving Energy Alternatives for Healthcare
+- Improving Health and Well-Being Across the Workforce
+- Improving WASH through Water Infrastructure and Management
+- Increasing Access to Essential Medicines, Medical Supplies, and Devices
+- Increasing Access to Medical Diagnostics
+- Increasing Consistent Supply of Essential Services and Products
+- Reducing Financial Barriers to Health Services
+
+Health—Nutrition
+
+Health—Other (describe)
+
+Infrastructure—Resilient Infrastructure:
+
+- Reducing Flood Risk and Stormwater Impacts through Green Infrastructure
+
+Infrastructure—Other (describe)
+
+Land—Natural Resources Conservation:
+
+- Improving Agricultural Water Use Practices
+- Improving Water Quality Through Source Water Protection
+
+Land—Sustainable Forestry:
+
+- Increasing the Sustainability of Local Economies and Communities through Forestry and Land Use
+- Increasing the Sustainability of Non-Wood Forest Products
+- Increasing the Sustainability of Wood and Wood-Based Products
+- Mitigating Carbon Emissions from Forestry and Land Use
+
+Land—Sustainable Land Management:
+
+- Improving Sustainability of Industrial and Municipal Water Practices
+
+Land—Other (describe)
+
+Oceans & Coastal Zones—Marine Resource Conservation and Management:
+
+- Improving Water Quality Through Source Water Protection
+
+Oceans & Coastal Zones—Other (describe)
+
+Pollution—Pollution Prevention:
+
+- Improving Sustainability of Industrial and Municipal Water Practices
+- Mitigating Carbon Emissions from Forestry and Land Use
+- Reducing Harmful Emissions from Small-Scale Energy Sources
+
+Pollution—Other (describe)
+
+Real Estate—Affordable Quality Housing:
+
+- Improving Housing Quality
+- Increasing Residential Stability
+- Increasing Housing Affordability
+- Increasing Access to Supportive Services through Housing
+
+Real Estate—Green Buildings
+
+Real Estate—Other (describe)
+
+Waste—Waste Management:
+
+- Improving Sustainability of Industrial and Municipal Water Practices
+
+Waste—Other (describe)
+
+Water—Sustainable Water Management:
+
+- Conserving River Flows for Nature and People
+- Improving Access to WASH Through Affordable Household Financing
+- Improving Agricultural Water Use Practices
+- Improving Sustainability of Industrial and Municipal Water Practices
+- Improving WASH through Water Infrastructure and Management
+- Improving Water Quality Through Source Water Protection
+- Increasing Access to Non-Sewered Sanitation Services
+- Increasing Access to Sewered Sanitation Services
+- Reducing Flood Risk and Stormwater Impacts Through Green Infrastructure
+
+Water—Water, Sanitation, and Hygiene (WASH):
+
+- Conserving River Flows for Nature and People
+- Improving Access to WASH in Schools and Healthcare Centers
+- Improving Access to WASH Through Affordable Household Financing
+- Improving Sustainability of Industrial and Municipal Water Practices
+- Improving WASH through Water Infrastructure and Management
+- Increasing Access to Non-Sewered Sanitation Services
+- Increasing Access to Sewered Sanitation Services
+
+Water—Other (describe)"""@en ;
+
+    cids:definedBy cids:giin ;
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> ;
 
 :OD6306
     a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
-    skos:note "Organizations should footnote a detailed description of their operational model."@en ;
-    skos:scopeNote "This metric is intended to capture the organization’s general categories of business operations."@en ;
-    org:hasIdentifier "OD6306" ;
-    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/OD6306/> ;
-    cids:definedBy cids:giin ;
+    org:hasName "Operational Model" .
+    skos:prefLabel "Operational Model"@en .
     cids:hasDescription """Describes the operational model of the organization. Select all that apply:
 
 - Production/Manufacturing: Production and/or manufacturing of goods (e.g., farming, construction, manufacturing)
@@ -2265,13 +2880,36 @@ Water—Other (describe)"""@en ;
 - Wholesale/Retail: Intermediary organization that purchases goods and sells them to new target customers
 - Services: Services such as education, health, communications, transportation, and social services, excluding financial services
 - Financial Services: Financial products and services
+- Other (write-in)""" ;
+    skos:definition """Describes the operational model of the organization. Select all that apply:
+
+- Production/Manufacturing: Production and/or manufacturing of goods (e.g., farming, construction, manufacturing)
+- Processing/Packaging: Processing and/or packaging of goods (can include both raw materials, such as wheat, and secondary materials/goods, such as baked bread)
+- Distribution: Delivery of goods or services to target customers, whether by traditional transport (e.g., vehicle, rail, air) or infrastructure (e.g., electric grid operator)
+- Wholesale/Retail: Intermediary organization that purchases goods and sells them to new target customers
+- Services: Services such as education, health, communications, transportation, and social services, excluding financial services
+- Financial Services: Financial products and services
 - Other (write-in)"""@en ;
-    cids:hasName "Operational Model"@en .
+    org:hasIdentifier "OD6306" ;
+    skos:notation "OD6306" ;
+    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/OD6306/> ;
+    skos:note "Organizations should footnote a detailed description of their operational model."@en ;
+    skos:scopeNote "This metric is intended to capture the organization’s general categories of business operations."@en ;
+
+    cids:definedBy cids:giin ;
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> ;
 
 :OD6350
     a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
+    org:hasName "Theory of Change" .
+    skos:prefLabel "Theory of Change"@en .
+    cids:hasDescription "Describes the theory of change of the organization." ;
+    skos:definition "Describes the theory of change of the organization."@en ;
+    org:hasIdentifier "OD6350" ;
+    skos:notation "OD6350" ;
+    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/OD6350/> ;
     skos:note "Organizations should footnote relevant details about their theory of change and whether it is publicly disseminated. See usage guidance for further information."@en ;
     skos:scopeNote """This metric is intended to capture the organization’s theory of change. A theory of change (also referred to as a Theory of Value Creation or Logic Model) expresses the sequence of cause-and-effect actions or occurrences by which organizational and financial resources are hypothesized to convert into the desired social and environmental results. It provides a conceptual roadmap for how an organization expects to achieve its intended impact. Often displayed in a diagram, many theories of change can be expressed as a series of if–then statements, specifying what the organization does and the expected results of each activity. A framework built around the concepts of activities, inputs, outputs, outcomes, and impacts is called a Logic Model or Impact Value Chain. Organizations can refer to the glossary for additional information and resources.
 
@@ -2280,65 +2918,88 @@ Wherever possible, organizations’ theories of change should refer to relevant 
 Organizations are encouraged to footnote information on the defined outcomes they seek to achieve for their targeted stakeholders (e.g., clients, employees, distributors, suppliers, and/or the environment). Defined outcomes include specific targets that can be measured. Many are based on existing literature. Organizations are encouraged to footnote information on the evidence base that substantiates the logic chain linking outputs to defined outcomes. This evidence base might include credible secondary research, randomized control trials (RCT), longitudinal studies, primary research (such as customer surveys or stakeholder feedback forums), and qualitative interviews or case studies.
 
 For example, an organization that provides training to and sources from smallholder farmers might only report on the number of farmers trained (Individuals Trained: Total [PI2998]), the number of smallholder farmers sourced from (Supplier Individuals: Smallholder [PI9991]), and the total payments made to those farmers (Payments to Supplier Individuals: Smallholder [PI7852]). However, its theory of change might describe how these outputs lead to outcomes, such as helping farmers build larger and more productive farms, and impacts, such as improved livelihoods, pointing to external research that supports this connection."""@en ;
-    org:hasIdentifier "OD6350" ;
-    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/OD6350/> ;
+
     cids:definedBy cids:giin ;
-    cids:hasDescription "Describes the theory of change of the organization."@en ;
-    cids:hasName "Theory of Change"@en .
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> ;
 
 :OD6737
     a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
+    org:hasName "Stormwater Runoff" .
+    skos:prefLabel "Stormwater Runoff"@en .
+    cids:hasDescription "Volume of water generated from rain and snowmelt flowing over (that is, without soaking into the ground) land indirectly or directly controlled by the organization during the reporting period." ;
+    skos:definition "Volume of water generated from rain and snowmelt flowing over (that is, without soaking into the ground) land indirectly or directly controlled by the organization during the reporting period."@en ;
+    org:hasIdentifier "OD6737" ;
+    skos:notation "OD6737" ;
+    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/OD6737/> ;
     skos:note "Organizations should footnote all assumptions used, including which tools or methodologies were used to measure stormwater runoff."@en ;
     skos:scopeNote """This metric is intended to capture the volume of water that runs off (flows over without being absorbed by) land indirectly or directly controlled by the organization during the reporting period.
 
 Organizations may use modeling tools to calculate the volume of stormwater runoff. For small sites, the U.S. EPA's National Stormwater Calculator (https://www.epa.gov/water-research/national-stormwater-calculator) and the Green Values National Stormwater Management Calculator (https://greenvalues.cnt.org/national/calculator.php) may be useful. For larger sites, the U.S. EPA's Storm Water Management Model (SWMM; https://www.epa.gov/water-research/storm-water-management-model-swmm) or HydroCAD (https://www.hydrocad.net) may be useful."""@en ;
-    org:hasIdentifier "OD6737" ;
-    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/OD6737/> ;
+
     cids:definedBy cids:giin ;
-    cids:hasDescription "Volume of water generated from rain and snowmelt flowing over (that is, without soaking into the ground) land indirectly or directly controlled by the organization during the reporting period."@en ;
-    cids:hasName "Stormwater Runoff"@en .
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> ;
 
 :OD6855
     a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
-    skos:scopeNote "This metric is intended to capture the organization’s headquarters location. The term “headquarters” denotes the location where most, if not all, of the important functions of an organization are coordinated. Organizations are encouraged to include the full address of the headquarters including Street Name and Number, District/City, Postal Code, and Country."@en ;
+    org:hasName "Location of Organization's Headquarters" .
+    skos:prefLabel "Location of Organization's Headquarters"@en .
+    cids:hasDescription "Address of the organization's legally incorporated headquarters." ;
+    skos:definition "Address of the organization's legally incorporated headquarters."@en ;
     org:hasIdentifier "OD6855" ;
+    skos:notation "OD6855" ;
     prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/OD6855/> ;
+    skos:scopeNote "This metric is intended to capture the organization’s headquarters location. The term “headquarters” denotes the location where most, if not all, of the important functions of an organization are coordinated. Organizations are encouraged to include the full address of the headquarters including Street Name and Number, District/City, Postal Code, and Country."@en ;
+
     cids:definedBy cids:giin ;
-    cids:hasDescription "Address of the organization's legally incorporated headquarters."@en ;
-    cids:hasName "Location of Organization's Headquarters"@en .
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> ;
 
 :OD6951
     a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
+    org:hasName "Report Start Date" .
+    skos:prefLabel "Report Start Date"@en .
+    cids:hasDescription "Start date of the reporting period for which the organization is providing data." ;
+    skos:definition "Start date of the reporting period for which the organization is providing data."@en ;
+    org:hasIdentifier "OD6951" ;
+    skos:notation "OD6951" ;
+    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/OD6951/> ;
     skos:note "Organizations should separately footnote the day, month, and year of the reporting period start date."@en ;
     skos:scopeNote "This metric is intended to capture the starting point of the time period for which reported data applies. This metric should be used in conjunction with Report End Date (OD7111)."@en ;
-    org:hasIdentifier "OD6951" ;
-    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/OD6951/> ;
+
     cids:definedBy cids:giin ;
-    cids:hasDescription "Start date of the reporting period for which the organization is providing data."@en ;
-    cids:hasName "Report Start Date"@en .
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> ;
 
 :OD7111
     a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
+    org:hasName "Report End Date" .
+    skos:prefLabel "Report End Date"@en .
+    cids:hasDescription "End date of the reporting period for which the organization is providing data." ;
+    skos:definition "End date of the reporting period for which the organization is providing data."@en ;
+    org:hasIdentifier "OD7111" ;
+    skos:notation "OD7111" ;
+    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/OD7111/> ;
     skos:note "Organizations should separately footnote the day, month, and year of the reporting period end date."@en ;
     skos:scopeNote "This metric is intended to capture the end point of the time period for which reported data applies. This metric should be used in conjunction with Report Start Date (OD6951)."@en ;
-    org:hasIdentifier "OD7111" ;
-    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/OD7111/> ;
+
     cids:definedBy cids:giin ;
-    cids:hasDescription "End date of the reporting period for which the organization is providing data."@en ;
-    cids:hasName "Report End Date"@en .
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> ;
 
 :OD7212
     a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
+    org:hasName "Target Stakeholders" .
+    skos:prefLabel "Target Stakeholders"@en .
+    org:hasIdentifier "OD7212" ;
+    skos:notation "OD7212" ;
+    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/OD7212/> ;
     skos:note "Organizations should footnote all assumptions used."@en ;
     skos:scopeNote """This metric is intended to capture the target stakeholders of the organization's activities, including the intended recipients of the organization's products, services, and operations.
 
@@ -2356,9 +3017,6 @@ Organizations are also encouraged to report this metric in conjunction with Rela
 For planet-related stakeholders, organizations are encouraged to use this metric in conjunction with Target Stakeholder Ecoregion (PD2854), Target Stakeholder Setting (PD6384), Target Area Protected Status (PD1676), and Target Stakeholder Geography (PD6424).
 
 This metric may help describe the WHO dimension of impact, which details which stakeholders the investment or enterprise aims to reach with the outcome. This metric may also help clarify how underserved they were prior to the investment. For more on the alignment of IRIS metrics to the five dimensions of impact, refer to the IRIS+ guidance document: IRIS+ and the Five Dimensions of Impact. No single metric is sufficient to understand an impact; rather, metrics are selected as a set across all dimensions of impact. When possible, the selection of metrics to measure and describe the five dimensions should be based on best practice and evidence."""@en ;
-    org:hasIdentifier "OD7212" ;
-    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/OD7212/> ;
-    cids:definedBy cids:giin ;
     cids:hasDescription """Describes which entities the organization seeks to benefit through its products, services, and operations as of the end of the reporting period.
 
 Choose all that apply:
@@ -2369,20 +3027,35 @@ Choose all that apply:
 - Clients (for example, students, patients, residents, or smallholders)
 - Microenterprises
 - Small and medium-sized enterprises (SMEs)
+- Other""" ;
+    skos:definition """Describes which entities the organization seeks to benefit through its products, services, and operations as of the end of the reporting period.
+
+Choose all that apply:
+- Planet
+- Suppliers
+- Employees
+- Distributors
+- Clients (for example, students, patients, residents, or smallholders)
+- Microenterprises
+- Small and medium-sized enterprises (SMEs)
 - Other"""@en ;
-    cids:hasName "Target Stakeholders"@en .
+
+    cids:definedBy cids:giin ;
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> ;
 
 :OD7536
     a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
+    org:hasName "Water Type" .
+    skos:prefLabel "Water Type"@en .
+    org:hasIdentifier "OD7536" ;
+    skos:notation "OD7536" ;
+    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/OD7536/> ;
     skos:note "Organizations should footnote all assumptions used."@en ;
     skos:scopeNote """This metric is intended to capture the type of water (for example, groundwater, industrial water, or surface water) withdrawn, consumed, or discharged during the reporting period. Specifically, this metric is intended to support the disaggregation of Water Withdrawn (OI0263), Water Discharged (OI0386), and Water Consumed: Total (OI1697) by type of water.
 
 For further guidance on water types, see the IRIS+ glossary."""@en ;
-    org:hasIdentifier "OD7536" ;
-    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/OD7536/> ;
-    cids:definedBy cids:giin ;
     cids:hasDescription """Describes the type of water withdrawn, consumed, or discharged as a result of investments made by the organization during the reporting period.
 
 Choose all that apply:
@@ -2393,25 +3066,50 @@ Choose all that apply:
 - Seawater
 - Third Party: Municipal
 - Third Party: Wastewater
+- Other (describe)""" ;
+    skos:definition """Describes the type of water withdrawn, consumed, or discharged as a result of investments made by the organization during the reporting period.
+
+Choose all that apply:
+- Rainwater
+- Recycled Water
+- Groundwater
+- Surface Water
+- Seawater
+- Third Party: Municipal
+- Third Party: Wastewater
 - Other (describe)"""@en ;
-    cids:hasName "Water Type"@en .
+
+    cids:definedBy cids:giin ;
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> ;
 
 :OD7796
     a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
+    org:hasName "Organization Web Address" .
+    skos:prefLabel "Organization Web Address"@en .
+    cids:hasDescription "Web address (URL) of the organization." ;
+    skos:definition "Web address (URL) of the organization."@en ;
+    org:hasIdentifier "OD7796" ;
+    skos:notation "OD7796" ;
+    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/OD7796/> ;
     skos:note "Organizations should footnote all assumptions used."@en ;
     skos:scopeNote "This metric is intended to capture the primary website address (URL) where the organization offers public-facing information about itself."@en ;
-    org:hasIdentifier "OD7796" ;
-    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/OD7796/> ;
+
     cids:definedBy cids:giin ;
-    cids:hasDescription "Web address (URL) of the organization."@en ;
-    cids:hasName "Organization Web Address"@en .
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> ;
 
 :OD7900
     a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
+    org:hasName "Relationship to Target Stakeholders" .
+    skos:prefLabel "Relationship to Target Stakeholders"@en .
+    cids:hasDescription "Describes the relationship between the organization and its target stakeholders." ;
+    skos:definition "Describes the relationship between the organization and its target stakeholders."@en ;
+    org:hasIdentifier "OD7900" ;
+    skos:notation "OD7900" ;
+    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/OD7900/> ;
     skos:note "Organizations should footnote all assumptions used."@en ;
     skos:scopeNote """This metric is intended to capture the relationships that link the organization to its intended stakeholders. Organizations are encouraged to report on this metric in conjunction with Target Stakeholders (OD7212).
 
@@ -2420,16 +3118,19 @@ When reporting against this metric, organizations should qualitatively describe 
 For example, an organization manufacturing solar lanterns and distributing them through a network of distributors might respond: \"We target clients and distributors as our stakeholders. The end users of the solar lanterns (clients) benefit from gaining access to clean electricity and light, and the distributors/retailers of the solar lanterns benefit by having jobs and income.\"
 
 An organization that procures produce from farmers might respond: \"The smallholder farmers that supply the mangoes to the organization to produce mango juice are our target stakeholders. A portion of the mangoes are purchased directly from farmers, and the remaining mangoes are purchased from a local cooperative which purchases directly from farmers.\""""@en ;
-    org:hasIdentifier "OD7900" ;
-    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/OD7900/> ;
+
     cids:definedBy cids:giin ;
-    cids:hasDescription "Describes the relationship between the organization and its target stakeholders."@en ;
-    cids:hasName "Relationship to Target Stakeholders"@en .
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> ;
 
 :OD8350
     a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
+    org:hasName "Client Model" .
+    skos:prefLabel "Client Model"@en .
+    org:hasIdentifier "OD8350" ;
+    skos:notation "OD8350" ;
+    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/OD8350/> ;
     skos:note "Organizations should footnote a detailed description about how it reaches its clients."@en ;
     skos:scopeNote """This metric is intended to capture the type of relationship between the organization and its clients.
 
@@ -2440,26 +3141,33 @@ In a Business-to-Consumer client model, the organization sells its goods or serv
 In a Business-to-Government client model, the organization sells or provides its goods or services to government agencies.
 
 In a Peer-to-Peer client model, the organization matches client individuals with services to offer to other client individuals who could use that service. For example, the organization may provide an online platform or other means of facilitating such transactions between clients."""@en ;
-    org:hasIdentifier "OD8350" ;
-    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/OD8350/> ;
-    cids:definedBy cids:giin ;
     cids:hasDescription """Describes the client model of the organization. Select all that apply:
 
 - Business-to-Business (B2B)
 - Business-to-Consumer (B2C)
 - Business-to-Government (B2G)
+- Peer-to-Peer (P2P)""" ;
+    skos:definition """Describes the client model of the organization. Select all that apply:
+
+- Business-to-Business (B2B)
+- Business-to-Consumer (B2C)
+- Business-to-Government (B2G)
 - Peer-to-Peer (P2P)"""@en ;
-    cids:hasName "Client Model"@en .
+
+    cids:definedBy cids:giin ;
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> ;
 
 :OD9109
     a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
+    org:hasName "Type of Financial Institution" .
+    skos:prefLabel "Type of Financial Institution"@en .
+    org:hasIdentifier "OD9109" ;
+    skos:notation "OD9109" ;
+    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/OD9109/> ;
     skos:note "Organizations should footnote their type of financial institution if they select “Other.”"@en ;
     skos:scopeNote "This metric is intended to capture organizations’ type(s) of financial institution in a standardized format. Organizations fitting more than one category should select multiple response options."@en ;
-    org:hasIdentifier "OD9109" ;
-    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/OD9109/> ;
-    cids:definedBy cids:giin ;
     cids:hasDescription """Describes what type of financial institution the organization is, if applicable. Select all that apply:
 
 - Community Action Agency (CAA)
@@ -2471,8 +3179,24 @@ In a Peer-to-Peer client model, the organization matches client individuals with
 - Rural Bank
 - Thrift, Bank, Bank Holding Company
 - Venture Capital Fund
+- Other""" ;
+    skos:definition """Describes what type of financial institution the organization is, if applicable. Select all that apply:
+
+- Community Action Agency (CAA)
+- Community Development Financial Institution (CDFI)
+- Credit Union/Cooperative
+- Loan Fund, including microenterprise fund or Multibank Community Development Corporation (CDC)
+- Non-Banking Financial Institution/Non-Banking Financial Corporation (NBFI/NBFC)
+- Non-Profit/Non-Governmental Organization, including Community Development Corporation (CDCs)
+- Rural Bank
+- Thrift, Bank, Bank Holding Company
+- Venture Capital Fund
 - Other"""@en ;
-    cids:hasName "Type of Financial Institution"@en .
+
+    cids:definedBy cids:giin ;
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> ;
 
 :OI0112
     a skos:Concept, cids:Code ;
