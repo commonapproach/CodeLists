@@ -11376,8 +11376,13 @@ Choose all that apply:
 
 :PI0478
     a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
+    org:hasName "Water Quality Standards Pass Rate" ;
+    skos:prefLabel "Water Quality Standards Pass Rate"@en ;
+    cids:hasDescription "Percent of water samples at distribution or network sampling points that meet national standards for chemical water quality, residual chlorine, and microbiological contamination during the reporting period." ;
+    skos:definition "Percent of water samples at distribution or network sampling points that meet national standards for chemical water quality, residual chlorine, and microbiological contamination during the reporting period."@en ;
+    org:hasIdentifier "PI0478" ;
+    skos:notation "PI0478" ;
+    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/PI0478/> ;
     skos:note "Organizations should footnote all assumptions, including details on national standards for water quality. See usage guidance for further information."@en ;
     skos:scopeNote """This metric is intended to capture the percent of samples passing quality standards according to national or regional norms. Water quality affects many social and environmental outcomes, including human and ecological health. In the United States, organizations may seek further guidance on water quality standards from the Environmental Protection Agency (https://www.epa.gov/wqc/basic-information-water-quality-criteria). The World Health Organization provides additional drinking water quality standards (https://www.who.int/teams/environment-climate-change-and-health/water-sanitation-and-health/water-safety-and-quality/drinking-water-quality-guidelines).
 
@@ -11386,16 +11391,21 @@ These are administrative data and should come from the service provider (for exa
 This indicator aligns with IBNET 15.3-15.4 (https://www.ib-net.org/toolkit/ibnet-indicators/quality-of-service/).
 
 In some contexts, this metric can serve as an indicator of whether the outcome being sought by an investor or organization is occurring (the WHAT dimension of impact). For more on the alignment of IRIS metrics to the five dimensions of impact, see IRIS+ and the Five Dimensions of Impact (https://iris.thegiin.org/document/iris-and-the-five-dimensions/). No single metric is sufficient to understand an impact; rather, metrics are selected as a set across all dimensions of impact. The selection of metrics to measure and describe the five dimensions should be based on best practice and evidence."""@en ;
-    org:hasIdentifier "PI0478" ;
-    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/PI0478/> ;
+
     cids:definedBy cids:giin ;
-    cids:hasDescription "Percent of water samples at distribution or network sampling points that meet national standards for chemical water quality, residual chlorine, and microbiological contamination during the reporting period."@en ;
-    cids:hasName "Water Quality Standards Pass Rate"@en .
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> .
 
 :PI0617
     a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
+    org:hasName "Availability of Basic Services/Facilities" ;
+    skos:prefLabel "Availability of Basic Services/Facilities"@en ;
+    cids:hasDescription "Indicates whether basic services are present onsite, along with a system in place to maintain them, as of the end of the reporting period." ;
+    skos:definition "Indicates whether basic services are present onsite, along with a system in place to maintain them, as of the end of the reporting period."@en ;
+    org:hasIdentifier "PI0617" ;
+    skos:notation "PI0617" ;
+    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/PI0617/> ;
     skos:note "Organizations should footnote all assumptions used, including what type of basic services are available."@en ;
     skos:scopeNote """This metric is intended to capture whether the organization has basic services provided on premises along with a system in place to maintain them. Organizations in the WASH sector should report this metric in combination with WASH Facilities Type (PD3668).
 
@@ -11406,166 +11416,226 @@ For other impact goals and sectors, organizations should provide services and fa
 These data are often most easily collected through site visits or surveys, with visual confirmation that improvement projects have been completed.
 
 In some contexts, this metric can serve as an indicator of whether the outcome being sought by an investor or organization is occurring (the WHAT dimension of impact). For more on the alignment of IRIS metrics to the five dimensions of impact, see IRIS+ and the Five Dimensions of Impact (https://iris.thegiin.org/document/iris-and-the-five-dimensions/). No single metric is sufficient to understand an impact; rather, metrics are selected as a set across all dimensions of impact. The selection of metrics to measure and describe the five dimensions should be based on best practice and evidence."""@en ;
-    org:hasIdentifier "PI0617" ;
-    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/PI0617/> ;
+
     cids:definedBy cids:giin ;
-    cids:hasDescription "Indicates whether basic services are present onsite, along with a system in place to maintain them, as of the end of the reporting period."@en ;
-    cids:hasName "Availability of Basic Services/Facilities"@en .
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> .
 
 :PI0915
     a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
+    org:hasName "Energy Storage Capacity" ;
+    skos:prefLabel "Energy Storage Capacity"@en ;
+    cids:hasDescription "Maximum amount of energy that can be stored in the organization’s energy storage product (in MWh or MJ) as of the end of the reporting period." ;
+    skos:definition "Maximum amount of energy that can be stored in the organization’s energy storage product (in MWh or MJ) as of the end of the reporting period."@en ;
+    org:hasIdentifier "PI0915" ;
+    skos:notation "PI0915" ;
+    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/PI0915/> ;
     skos:note "Organizations should footnote all assumptions used, including the scope of technology to which this metric applies."@en ;
     skos:scopeNote "This metric is intended to capture the maximum potential benefit of an energy storage technology developed or deployed by the organization in terms of maximum potential energy stored without accounting for actual usage or loss rates. Reference: SASB RR-FC-410a.1."@en ;
-    org:hasIdentifier "PI0915" ;
-    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/PI0915/> ;
+
     cids:definedBy cids:giin ;
-    cids:hasDescription "Maximum amount of energy that can be stored in the organization’s energy storage product (in MWh or MJ) as of the end of the reporting period."@en ;
-    cids:hasName "Energy Storage Capacity"@en .
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> .
 
 :PI1017
     a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
+    org:hasName "Healthcare Facilities" ;
+    skos:prefLabel "Healthcare Facilities"@en ;
+    cids:hasDescription "Number of healthcare units/facilities under the organization's management as of the end of the reporting period." ;
+    skos:definition "Number of healthcare units/facilities under the organization's management as of the end of the reporting period."@en ;
+    org:hasIdentifier "PI1017" ;
+    skos:notation "PI1017" ;
+    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/PI1017/> ;
     skos:note "Organizations should footnote all assumptions used."@en ;
     skos:scopeNote """This metric is intended to capture the number of healthcare facilities managed by the organization. Organizations are encouraged to report the number and design of facilities built in their operations manual or impact report.
 
 Organizations should also align their facility counts with state or international standards."""@en ;
-    org:hasIdentifier "PI1017" ;
-    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/PI1017/> ;
+
     cids:definedBy cids:giin ;
-    cids:hasDescription "Number of healthcare units/facilities under the organization's management as of the end of the reporting period."@en ;
-    cids:hasName "Healthcare Facilities"@en .
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> .
 
 :PI1022
     a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
+    org:hasName "Energy Discharge Rate" ;
+    skos:prefLabel "Energy Discharge Rate"@en ;
+    cids:hasDescription "Average discharge rate of the organization’s storage product , measured as the energy storage capacity divided by the discharge time, during the reporting period." ;
+    skos:definition "Average discharge rate of the organization’s storage product , measured as the energy storage capacity divided by the discharge time, during the reporting period."@en ;
+    org:hasIdentifier "PI1022" ;
+    skos:notation "PI1022" ;
+    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/PI1022/> ;
     skos:note "Organizations should footnote all assumptions used, including the scope of technology to which this metric applies."@en ;
     skos:scopeNote "This metric is intended to capture the speed of discharge for an energy storage technology developed or deployed by the organization, a proxy for energy availability."@en ;
-    org:hasIdentifier "PI1022" ;
-    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/PI1022/> ;
+
     cids:definedBy cids:giin ;
-    cids:hasDescription "Average discharge rate of the organization’s storage product , measured as the energy storage capacity divided by the discharge time, during the reporting period."@en ;
-    cids:hasName "Energy Discharge Rate"@en .
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> .
 
 :PI1060
     a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
+    org:hasName "Distributor Organizations: Total" ;
+    skos:prefLabel "Distributor Organizations: Total"@en ;
+    cids:hasDescription "Number of enterprises that served as distributors of the organization's products/services during the reporting period." ;
+    skos:definition "Number of enterprises that served as distributors of the organization's products/services during the reporting period."@en ;
+    org:hasIdentifier "PI1060" ;
+    skos:notation "PI1060" ;
+    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/PI1060/> ;
     skos:note "Organizations should footnote all assumptions used."@en ;
     skos:scopeNote """This metric is intended to capture how many organizations sold the organization's products or services during the reporting period, either to other distributors (wholesale) or to ultimate consumers (retail). Distributors counted under this metric need not exclusively sell the organization’s products or services.
 
 Organizations wishing to report on individuals who are distributors should instead use Distributor Individuals: Total (PI2758) and its associated submetrics.
 
 This metric is multi-dimensional with regard to the five dimensions of impact: it may help describe the WHO dimension when the stakeholder group represented by the metric is the stakeholder group targeted by the investment or organization. It may also help measure the HOW MUCH Scale dimension, which helps estimate the number of the targeted stakeholders experiencing the outcome. For more on the alignment of IRIS metrics to the five dimensions of impact, see IRIS+ and the Five Dimensions of Impact (https://iris.thegiin.org/document/iris-and-the-five-dimensions/). No single metric is sufficient to understand an impact; rather, metrics are selected as a set across all dimensions of impact. When possible, the selection of metrics to measure and describe the five dimensions should be based on best practice and evidence."""@en ;
-    org:hasIdentifier "PI1060" ;
-    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/PI1060/> ;
+
     cids:definedBy cids:giin ;
-    cids:hasDescription "Number of enterprises that served as distributors of the organization's products/services during the reporting period."@en ;
-    cids:hasName "Distributor Organizations: Total"@en .
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> .
 
 :PI1081
     a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
+    org:hasName "School Enrollment: Female" ;
+    skos:prefLabel "School Enrollment: Female"@en ;
+    cids:hasDescription "Number of female students enrolled as of the end of the reporting period, both full- and part-time, with each discrete student counted once regardless of their number of courses." ;
+    skos:definition "Number of female students enrolled as of the end of the reporting period, both full- and part-time, with each discrete student counted once regardless of their number of courses."@en ;
+    org:hasIdentifier "PI1081" ;
+    skos:notation "PI1081" ;
+    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/PI1081/> ;
     skos:note "Organizations should footnote all assumptions used, as well as a breakdown of full- and part-time female students."@en ;
     skos:scopeNote """This metric is intended to capture the number of female students enrolled at the school as of the end of the reporting period, including both full- and part-time students. Each discrete student is counted once, regardless of the number of courses taken.
 
 These data may be most effectively collected through either school reporting (for private schools) or government reporting (for public schools).
 
 This metric is multi-dimensional with regard to the five dimensions of impact. It may help describe the WHO dimension when the stakeholder group represented by the metric is the stakeholder group targeted by the investment or organization. It may also help measure the HOW MUCH Scale dimension, which helps estimate the number of the targeted stakeholders experiencing the outcome. For more on the alignment of IRIS metrics to the five dimensions of impact, see IRIS+ and the Five Dimensions of Impact (https://iris.thegiin.org/document/iris-and-the-five-dimensions/). No single metric is sufficient to understand an impact; rather, metrics are selected as a set across all dimensions of impact. When possible, the selection of metrics to measure and describe the five dimensions should be based on best practice and evidence."""@en ;
-    org:hasIdentifier "PI1081" ;
-    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/PI1081/> ;
+
     cids:definedBy cids:giin ;
-    cids:hasDescription "Number of female students enrolled as of the end of the reporting period, both full- and part-time, with each discrete student counted once regardless of their number of courses."@en ;
-    cids:hasName "School Enrollment: Female"@en .
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> .
 
 :PI1136
     a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
+    org:hasName "Student Transportation" ;
+    skos:prefLabel "Student Transportation"@en ;
+    cids:hasDescription "Indicates if the organization provided transportation to students that needed or requested it during the reporting period." ;
+    skos:definition "Indicates if the organization provided transportation to students that needed or requested it during the reporting period."@en ;
+    org:hasIdentifier "PI1136" ;
+    skos:notation "PI1136" ;
+    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/PI1136/> ;
     skos:note "Organizations should footnote the type of transportation provided and the percentage of students that use it."@en ;
     skos:scopeNote "This metric is intended to capture whether the organization provided transportation to students who requested or needed it. Organizations are also encouraged to footnote details on the service provided, such as the number of students who were provided transportation, eligibility criteria, bus capacity and ridership, and safety details."@en ;
-    org:hasIdentifier "PI1136" ;
-    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/PI1136/> ;
+
     cids:definedBy cids:giin ;
-    cids:hasDescription "Indicates if the organization provided transportation to students that needed or requested it during the reporting period."@en ;
-    cids:hasName "Student Transportation"@en .
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> .
 
 :PI1160
     a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
+    org:hasName "Distributor Individuals: Disabilities" ;
+    skos:prefLabel "Distributor Individuals: Disabilities"@en ;
+    cids:hasDescription "Number of individuals with disabilities who served as distributors of the organization’s products/services during the reporting period." ;
+    skos:definition "Number of individuals with disabilities who served as distributors of the organization’s products/services during the reporting period."@en ;
+    org:hasIdentifier "PI1160" ;
+    skos:notation "PI1160" ;
+    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/PI1160/> ;
     skos:note "Organizations should footnote all assumptions used, as well as any specific focus on stakeholders with particular disabilities."@en ;
     skos:scopeNote """This metric is intended to capture how many self-employed individuals with disabilities sold the organization's products or services during the reporting period, either to other distributors (wholesale) or to ultimate consumers (retail).
 
 Distributors counted under this metric need not exclusively sell the organization's products or services. Direct employees who distribute the organization's goods or services should be considered employees, not distributors.
 
 This metric is multi-dimensional with regard to the five dimensions of impact: it may help describe the WHO dimension when the stakeholder group represented by the metric is the stakeholder group targeted by the investment or organization. It may also help measure the HOW MUCH Scale dimension, which helps estimate the number of the targeted stakeholders experiencing the outcome. For more on the alignment of IRIS metrics to the five dimensions of impact, see IRIS+ and the Five Dimensions of Impact (https://iris.thegiin.org/document/iris-and-the-five-dimensions/). No single metric is sufficient to understand an impact; rather, metrics are selected as a set across all dimensions of impact. When possible, the selection of metrics to measure and describe the five dimensions should be based on best practice and evidence."""@en ;
-    org:hasIdentifier "PI1160" ;
-    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/PI1160/> ;
+
     cids:definedBy cids:giin ;
-    cids:hasDescription "Number of individuals with disabilities who served as distributors of the organization’s products/services during the reporting period."@en ;
-    cids:hasName "Distributor Individuals: Disabilities"@en .
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> .
 
 :PI1209
     a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
+    org:hasName "Responsible Financial Products/Services Offered" ;
+    skos:prefLabel "Responsible Financial Products/Services Offered"@en ;
+    cids:hasDescription "Indicates whether the organization offers responsible financial products and services. See usage guidance for further information." ;
+    skos:definition "Indicates whether the organization offers responsible financial products and services. See usage guidance for further information."@en ;
+    org:hasIdentifier "PI1209" ;
+    skos:notation "PI1209" ;
+    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/PI1209/> ;
     skos:note "Organizations should footnote details regarding the policies in place that make the offered financial products and services responsible. Organizations may refer to footnotes under other reported metrics."@en ;
     skos:scopeNote "This metric is intended to capture whether the organization offers responsible financial products and services, as defined by their implementation of the following: Client Protection Policy (OI4753), Repayment Capacity Analysis (PI4733), and Non-Financial Support Offered (PD9681). While organizations should consider a broader scope of concerns around responsible financial services, organizations implementing these three policies and procedures are often presumed to be \"responsible\" as a working definition for the purpose of comparative analysis."@en ;
-    org:hasIdentifier "PI1209" ;
-    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/PI1209/> ;
+
     cids:definedBy cids:giin ;
-    cids:hasDescription "Indicates whether the organization offers responsible financial products and services. See usage guidance for further information."@en ;
-    cids:hasName "Responsible Financial Products/Services Offered"@en .
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> .
 
 :PI1263
     a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
+    org:hasName "Units/Volume Sold: Total" ;
+    skos:prefLabel "Units/Volume Sold: Total"@en ;
+    cids:hasDescription "Amount of the product/service sold by the organization during the reporting period." ;
+    skos:definition "Amount of the product/service sold by the organization during the reporting period."@en ;
+    org:hasIdentifier "PI1263" ;
+    skos:notation "PI1263" ;
+    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/PI1263/> ;
     skos:note "Organizations should footnote all assumptions used."@en ;
     skos:scopeNote "This metric is intended to capture the sales volume of a product or service. Organizations that sell different types of products/services should consider reporting separately against each different product/service."@en ;
-    org:hasIdentifier "PI1263" ;
-    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/PI1263/> ;
+
     cids:definedBy cids:giin ;
-    cids:hasDescription "Amount of the product/service sold by the organization during the reporting period."@en ;
-    cids:hasName "Units/Volume Sold: Total"@en .
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> .
 
 :PI1275
     a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
+    org:hasName "Renewal Ratio" ;
+    skos:prefLabel "Renewal Ratio"@en ;
+    cids:hasDescription "Percentage of the organization’s clients that stay enrolled in policies after their coverage term expires during the reporting period." ;
+    skos:definition "Percentage of the organization’s clients that stay enrolled in policies after their coverage term expires during the reporting period."@en ;
+    org:hasIdentifier "PI1275" ;
+    skos:notation "PI1275" ;
+    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/PI1275/> ;
     skos:note "Organizations should footnote all assumptions used."@en ;
     skos:scopeNote """This metric is intended to capture the ratio at which clients renew their insurance. As an example, a 90% renewal ratio means that for every 100 insured, 90 renew, while 10 do not.
 
 For more detail on the ratio and for guidance on its interpretation, see the Microinsurance Network’s Social Performance Indicators for Microinsurance, p. 18 (https://www.social-protection.org/gimi/ShowRessource.action?id=5270/)."""@en ;
-    org:hasIdentifier "PI1275" ;
-    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/PI1275/> ;
+
     cids:definedBy cids:giin ;
-    cids:hasDescription "Percentage of the organization’s clients that stay enrolled in policies after their coverage term expires during the reporting period."@en ;
-    cids:hasName "Renewal Ratio"@en .
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> .
 
 :PI1290
     a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
+    org:hasName "Units/Volume Produced" ;
+    skos:prefLabel "Units/Volume Produced"@en ;
+    cids:hasDescription "Amount of the product/service produced by the organization during the reporting period." ;
+    skos:definition "Amount of the product/service produced by the organization during the reporting period."@en ;
+    org:hasIdentifier "PI1290" ;
+    skos:notation "PI1290" ;
+    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/PI1290/> ;
     skos:note "Organizations should footnote all assumptions used."@en ;
     skos:scopeNote """This metric is intended to capture the amount of a product that has been manufactured or cultivated by the organization during the reporting period.
 
 Organizations that sell different types of products/services should consider reporting separately against each different product/service."""@en ;
-    org:hasIdentifier "PI1290" ;
-    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/PI1290/> ;
+
     cids:definedBy cids:giin ;
-    cids:hasDescription "Amount of the product/service produced by the organization during the reporting period."@en ;
-    cids:hasName "Units/Volume Produced"@en .
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> .
 
 :PI1297
     a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
+    org:hasName "Individuals Displaced: Total" ;
+    skos:prefLabel "Individuals Displaced: Total"@en ;
+    cids:hasDescription "Number of individuals displaced as a result of projects supported/financed by the organization during the reporting period." ;
+    skos:definition "Number of individuals displaced as a result of projects supported/financed by the organization during the reporting period."@en ;
+    org:hasIdentifier "PI1297" ;
+    skos:notation "PI1297" ;
+    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/PI1297/> ;
     skos:note "Organizations should footnote all assumptions used."@en ;
     skos:scopeNote """This metric is intended to capture the number of individuals (whether clients of the organization or not) displaced from their homes as a result of projects funded by the organization. For example, if the organization constructs a new road and, in the process, displaces 50 people, the value of this metric would be 50. Organizations should footnote details of the displacement.
 
@@ -11576,16 +11646,21 @@ This metric may most apply to projects involving the construction or renovation 
 This metric is often used by International Finance Institutions (IFIs) as part of infrastructure analysis.
 
 This metric is multidimensional with regard to the five dimensions of impact. It may help describe the WHO dimension of impact, which details which stakeholders the investment or enterprise aims to reach with the outcome, and may also describe the HOW MUCH Scale dimension, which helps estimate the number of the targeted stakeholders experiencing the outcome. For more on the alignment of IRIS metrics to the five dimensions of impact, see IRIS+ and the Five Dimensions of Impact (https://iris.thegiin.org/document/iris-and-the-five-dimensions/). No single metric is sufficient to understand an impact; rather, metrics are selected as a set across all dimensions of impact. The selection of metrics to measure and describe the five dimensions should be based on best practice and evidence."""@en ;
-    org:hasIdentifier "PI1297" ;
-    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/PI1297/> ;
+
     cids:definedBy cids:giin ;
-    cids:hasDescription "Number of individuals displaced as a result of projects supported/financed by the organization during the reporting period."@en ;
-    cids:hasName "Individuals Displaced: Total"@en .
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> .
 
 :PI1405
     a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
+    org:hasName "Average Supplier Agricultural Yield: Smallholder" ;
+    skos:prefLabel "Average Supplier Agricultural Yield: Smallholder"@en ;
+    cids:hasDescription "Average agricultural yield per hectare of smallholder farmers who sold to the organization during the reporting period." ;
+    skos:definition "Average agricultural yield per hectare of smallholder farmers who sold to the organization during the reporting period."@en ;
+    org:hasIdentifier "PI1405" ;
+    skos:notation "PI1405" ;
+    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/PI1405/> ;
     skos:note "Organizations should footnote all assumptions used, including source of data, details on the group, and unit of measure reporting against (such as kilograms or bushels per hectare) using Unit of Measure (PD1602). See usage guidance for further information."@en ;
     skos:scopeNote """NOTE: This metric will be deprecated in a forthcoming update to the IRIS Catalog of Metrics. Users are advised to instead report Average Agricultural Yield (PI5935), applied to Supplier Individuals: Smallholder (PI9991).
 
@@ -11598,88 +11673,118 @@ This metric could be valuable for organizations that procure from farmers and pr
 Organizations interested in reporting the yields of their client farmers should report Average Client Agricultural Yield: Smallholder (PI9421).
 
 This metric is multi-dimensional with regard to the five dimensions of impact. In specific contexts, and based on evidence, this metric may serve as a proxy indicator of whether the outcome being sought by an investor or organization is occurring (the WHAT dimension of impact). This metric may also identify a specific the WHO dimension of impact, which details which stakeholders the investment or enterprise aims to reach with the outcome. This metric may also help clarify how underserved they were prior to the investment. For more on the alignment of IRIS metrics to the five dimensions of impact, see IRIS+ and the Five Dimensions of Impact (https://iris.thegiin.org/document/iris-and-the-five-dimensions/). No single metric is sufficient to understand an impact; rather, metrics are selected as a set across all dimensions of impact. When possible, the selection of metrics to measure and describe the five dimensions should be based on best practice and evidence."""@en ;
-    org:hasIdentifier "PI1405" ;
-    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/PI1405/> ;
+
     cids:definedBy cids:giin ;
-    cids:hasDescription "Average agricultural yield per hectare of smallholder farmers who sold to the organization during the reporting period."@en ;
-    cids:hasName "Average Supplier Agricultural Yield: Smallholder"@en .
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> .
 
 :PI1409
     a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
+    org:hasName "Target Stakeholder Spending: Housing" ;
+    skos:prefLabel "Target Stakeholder Spending: Housing"@en ;
+    cids:hasDescription "Amount of money spent by the average target stakeholder on housing costs during the reporting period." ;
+    skos:definition "Amount of money spent by the average target stakeholder on housing costs during the reporting period."@en ;
+    org:hasIdentifier "PI1409" ;
+    skos:notation "PI1409" ;
+    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/PI1409/> ;
     skos:note "Organizations should footnote the type of expenditures made, including whether payments are for rent or ownership of housing, as well as all assumptions used and source of data."@en ;
     skos:scopeNote """This metric is intended to capture target stakeholder spending on housing. These data can be collected directly from target stakeholders (residents) or through a housing management company. If collected directly from target stakeholders through a survey, organizations should footnote details on the sample size and survey instrument used, as well as details on who administered the survey and who aggregated the resulting data. Target stakeholders are sometimes referred to as “beneficiaries” in other frameworks.
 
 In some contexts, this metric can serve as an indicator of whether the outcome being sought by an investor or organization is occurring (the WHAT dimension of impact). For more on the alignment of IRIS metrics to the five dimensions of impact, see IRIS+ and the Five Dimensions of Impact (https://iris.thegiin.org/document/iris-and-the-five-dimensions/). No single metric is sufficient to understand an impact; rather, metrics are selected as a set across all dimensions of impact. When possible, the selection of metrics to measure and describe the five dimensions should be based on best practice and evidence."""@en ;
-    org:hasIdentifier "PI1409" ;
-    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/PI1409/> ;
+
     cids:definedBy cids:giin ;
-    cids:hasDescription "Amount of money spent by the average target stakeholder on housing costs during the reporting period."@en ;
-    cids:hasName "Target Stakeholder Spending: Housing"@en .
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> .
 
 :PI1417
     a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
+    org:hasName "Client Households: Urban" ;
+    skos:prefLabel "Client Households: Urban"@en ;
+    cids:hasDescription "Number of unique households in urban areas that were clients of the organization during the reporting period." ;
+    skos:definition "Number of unique households in urban areas that were clients of the organization during the reporting period."@en ;
+    org:hasIdentifier "PI1417" ;
+    skos:notation "PI1417" ;
+    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/PI1417/> ;
     skos:note "Organizations should footnote all assumptions used, including source of data. See usage guidance for further information."@en ;
     skos:scopeNote """This metric is intended to capture the number of unique urban households that received the organization's products or services during the reporting period. Examples of organizations that might report against this metric include those that provide products such as clean cookstoves or water purification systems and those that provide services such as home weatherization. Organizations that provide goods and services at the individual level, such as vaccines or school lunches, may find it more appropriate to report against Client Individuals: Total (PI4060) and related submetrics.
 
 Many organizations may not be able to report on the number of client households using direct data. For example, organizations that sell water purification systems through a series of local network distributors might estimate the number of client households reached based on the number of units sold. Organizations should footnote details on how and why these assumptions were made.
 
 This metric is multi-dimensional with regard to the five dimensions of impact. It may help describe the WHO dimension when the stakeholder group represented by the metric is the stakeholder group targeted by the investment or organization. It may also help measure the HOW MUCH Scale dimension, which helps estimate the number of the targeted stakeholders experiencing the outcome. For more on the alignment of IRIS metrics to the five dimensions of impact, see IRIS+ and the Five Dimensions of Impact (https://iris.thegiin.org/document/iris-and-the-five-dimensions/). No single metric is sufficient to understand an impact; rather, metrics are selected as a set across all dimensions of impact. When possible, the selection of metrics to measure and describe the five dimensions should be based on best practice and evidence."""@en ;
-    org:hasIdentifier "PI1417" ;
-    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/PI1417/> ;
+
     cids:definedBy cids:giin ;
-    cids:hasDescription "Number of unique households in urban areas that were clients of the organization during the reporting period."@en ;
-    cids:hasName "Client Households: Urban"@en .
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> .
 
 :PI1422
     a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
+    org:hasName "Packaging Weight" ;
+    skos:prefLabel "Packaging Weight"@en ;
+    cids:hasDescription "Weight of packaging used by the organization during the reporting period." ;
+    skos:definition "Weight of packaging used by the organization during the reporting period."@en ;
+    org:hasIdentifier "PI1422" ;
+    skos:notation "PI1422" ;
+    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/PI1422/> ;
     skos:note "Organizations should footnote all assumptions used."@en ;
     skos:scopeNote """This metric is intended to capture the weight of packaging used by the organization. Organizations may also wish to report Packaging Type (PD2285). Weight of packaging is a common way to measure how much packaging is used, which is relevant in assessing the environmental implications of an organization's products.
 
 This metric is based on SASB CG-HP-410a.1."""@en ;
-    org:hasIdentifier "PI1422" ;
-    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/PI1422/> ;
+
     cids:definedBy cids:giin ;
-    cids:hasDescription "Weight of packaging used by the organization during the reporting period."@en ;
-    cids:hasName "Packaging Weight"@en .
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> .
 
 :PI1435
     a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
+    org:hasName "Energy Stored" ;
+    skos:prefLabel "Energy Stored"@en ;
+    cids:hasDescription "Amount of energy stored by the organization during the reporting period." ;
+    skos:definition "Amount of energy stored by the organization during the reporting period."@en ;
+    org:hasIdentifier "PI1435" ;
+    skos:notation "PI1435" ;
+    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/PI1435/> ;
     skos:note "Organizations should footnote all assumptions used."@en ;
     skos:scopeNote "This metric is intended to capture actual energy stored, not battery nameplate capacity, generally measured annually as MWh/year or MJ/year. Organizations should footnote whether the storage capacity is targeted at reducing wasted energy from existing generation or at creating storage capacity to enable new generation."@en ;
-    org:hasIdentifier "PI1435" ;
-    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/PI1435/> ;
+
     cids:definedBy cids:giin ;
-    cids:hasDescription "Amount of energy stored by the organization during the reporting period."@en ;
-    cids:hasName "Energy Stored"@en .
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> .
 
 :PI1478
     a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
+    org:hasName "Number of Loans Outstanding" ;
+    skos:prefLabel "Number of Loans Outstanding"@en ;
+    cids:hasDescription "Number of disbursed loans remaining on the organization’s balance sheet as of the end of the reporting period." ;
+    skos:definition "Number of disbursed loans remaining on the organization’s balance sheet as of the end of the reporting period."@en ;
+    org:hasIdentifier "PI1478" ;
+    skos:notation "PI1478" ;
+    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/PI1478/> ;
     skos:note "Organizations should footnote all assumptions used."@en ;
     skos:scopeNote """This metric is intended to capture the number of loans on an organization’s balance sheet as of the end of the reporting period. Microfinance institutions (MFIs) using a group-lending methodology should count separately under this metric one loan for every individual who is responsible for repaying a portion of a group loan, unless another definition is footnoted.
 
 Organizations should report all loans disbursed to clients that have neither been fully repaid nor written off as of the end of the reporting period.
 
 For financial organizations, loans disbursed are considered Financial Assets (FP4649) listed on the organization’s balance sheet."""@en ;
-    org:hasIdentifier "PI1478" ;
-    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/PI1478/> ;
+
     cids:definedBy cids:giin ;
-    cids:hasDescription "Number of disbursed loans remaining on the organization’s balance sheet as of the end of the reporting period."@en ;
-    cids:hasName "Number of Loans Outstanding"@en .
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> .
 
 :PI1489
     a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
+    org:hasName "Area of Land Deforested" ;
+    skos:prefLabel "Area of Land Deforested"@en ;
+    cids:hasDescription "Area of land deforested by the organization during the reporting period." ;
+    skos:definition "Area of land deforested by the organization during the reporting period."@en ;
+    org:hasIdentifier "PI1489" ;
+    skos:notation "PI1489" ;
+    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/PI1489/> ;
     skos:note "Organizations should footnote the reasons and methods for deforestation, as well as all assumptions used. See usage guidance for further information."@en ;
     skos:scopeNote """This metric is intended to capture the area of land controlled or monitored by the organization that has been deforested. Above- and below-ground food networks in forests have developed over hundreds of years. Forests provide habitats for species and provide a range of ecosystem services. Their disappearance leads to loss in biodiversity, decline in soil quality (for example, erosion and nutrients), and intensification of climate change.
 
@@ -11688,28 +11793,38 @@ Land may be deforested for multiple reasons and using multiple methods (e.g., cl
 Organizations can report this metric in conjunction with Area of Land Reforested (PI4907).
 
 Organizations are encouraged to closely monitor deforestation and its causes through remote sensing data, tracking the evolution and speed of deforestation over time. Organizations should also track the consequences for forests of natural disasters, harvesting, illegal logging, and other negative outcomes."""@en ;
-    org:hasIdentifier "PI1489" ;
-    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/PI1489/> ;
+
     cids:definedBy cids:giin ;
-    cids:hasDescription "Area of land deforested by the organization during the reporting period."@en ;
-    cids:hasName "Area of Land Deforested"@en .
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> .
 
 :PI1492
     a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
+    org:hasName "Payments to Supplier Individuals: Total" ;
+    skos:prefLabel "Payments to Supplier Individuals: Total"@en ;
+    cids:hasDescription "Value of payments made by the organization to individuals who sold to the organization during the reporting period." ;
+    skos:definition "Value of payments made by the organization to individuals who sold to the organization during the reporting period."@en ;
+    org:hasIdentifier "PI1492" ;
+    skos:notation "PI1492" ;
+    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/PI1492/> ;
     skos:note "Organizations should footnote all assumptions used."@en ;
     skos:scopeNote "This metric is intended to capture how organizations support livelihoods through their supply chains."@en ;
-    org:hasIdentifier "PI1492" ;
-    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/PI1492/> ;
+
     cids:definedBy cids:giin ;
-    cids:hasDescription "Value of payments made by the organization to individuals who sold to the organization during the reporting period."@en ;
-    cids:hasName "Payments to Supplier Individuals: Total"@en .
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> .
 
 :PI1509
     a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
+    org:hasName "Units/Volume Sold: Lost/Leaked" ;
+    skos:prefLabel "Units/Volume Sold: Lost/Leaked"@en ;
+    cids:hasDescription "Amount of the product/service provided by the organization for free as a result of loss or leakage during the reporting period." ;
+    skos:definition "Amount of the product/service provided by the organization for free as a result of loss or leakage during the reporting period."@en ;
+    org:hasIdentifier "PI1509" ;
+    skos:notation "PI1509" ;
+    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/PI1509/> ;
     skos:note "Organizations should footnote all assumptions used."@en ;
     skos:scopeNote """This metric is intended to capture the number of units or volume provided for sale—for example, of piped water or energy—that were lost, leaked, or for which no payment was received (\"non-revenue\") during the reporting period.
 
@@ -11720,25 +11835,27 @@ This metric, in combination with Water Provided for Sale: Total (PI9468), aligns
 This metric also aligns with HIPSO (Harmonized Indicators for Private Sector Operations) indicators for water and energy. To meet HIPSO specifications for water, users should disaggregate this metric by commercial and technical losses.
 
 This metric may help describe the HOW MUCH Scale dimension, which helps estimate the number of the targeted stakeholders experiencing the outcome. For more on the alignment of IRIS metrics to the five dimensions of impact, see IRIS+ and the Five Dimensions of Impact (https://iris.thegiin.org/document/iris-and-the-five-dimensions/). No single metric is sufficient to understand an impact; rather, metrics are selected as a set across all dimensions of impact. The selection of metrics to measure and describe the five dimensions should be based on best practice and evidence."""@en ;
-    org:hasIdentifier "PI1509" ;
-    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/PI1509/> ;
+
     cids:definedBy cids:giin ;
-    cids:hasDescription "Amount of the product/service provided by the organization for free as a result of loss or leakage during the reporting period."@en ;
-    cids:hasName "Units/Volume Sold: Lost/Leaked"@en .
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> .
 
 :PI1533
     a skos:Concept, cids:Code ;
+    org:hasName "Disease/Condition Addressed" ;
+    skos:prefLabel "Disease/Condition Addressed"@en ;
     rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
     skos:inScheme :dataset ;
+    org:hasIdentifier "PI1533" ;
+    skos:notation "PI1533" ;
+    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/PI1533/> ;
     skos:note "Organizations should footnote details about how their products and services address the selected diseases or conditions. See usage guidance for further information."@en ;
     skos:scopeNote """This metric is intended to capture the types of diseases and conditions addressed by organizations operating in health services. The options align with top-level ICD-11 codes from the World Health Organization (https://icd.who.int/browse11/l-m/en).
 
 Organizations that do not provide direct treatment should select the diseases or conditions that their products or services address. For example, an organization that produces and sells vaccines should choose the diseases or conditions those vaccines address.
 
 Organizations can report this metric at an organizational level (selecting all relevant answer options) or for a specific product/service (selecting only one disease or condition addressed by the product or service for which the organization is reporting)."""@en ;
-    org:hasIdentifier "PI1533" ;
-    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/PI1533/> ;
-    cids:definedBy cids:giin ;
     cids:hasDescription """Describes the diseases or conditions addressed by the organization's products or services provided during the reporting period. Select all that apply:
 
 - 01 Certain infectious or parasitic diseases
@@ -11766,29 +11883,71 @@ Organizations can report this metric at an organizational level (selecting all r
 - 23 External causes of morbidity or mortality
 - 24 Factors influencing health status or contact with health services
 - 25 Codes for special purposes
+- 26 Supplementary Chapter Traditional Medicine Conditions - Module I""" ;
+    skos:definition """Describes the diseases or conditions addressed by the organization's products or services provided during the reporting period. Select all that apply:
+
+- 01 Certain infectious or parasitic diseases
+- 02 Neoplasms
+- 03 Diseases of the blood or blood-forming organs
+- 04 Diseases of the immune system
+- 05 Endocrine, nutritional, or metabolic diseases
+- 06 Mental, behavioural or neurodevelopmental disorders
+- 07 Sleep-wake disorders
+- 08 Diseases of the nervous system
+- 09 Diseases of the visual system
+- 10 Diseases of the ear or mastoid process
+- 11 Diseases of the circulatory system
+- 12 Diseases of the respiratory system
+- 13 Diseases of the digestive system
+- 14 Diseases of the skin
+- 15 Diseases of the musculoskeletal system or connective tissue
+- 16 Diseases of the genitourinary system
+- 17 Conditions related to sexual health
+- 18 Pregnancy, childbirth, or the puerperium
+- 19 Certain conditions originating in the perinatal period
+- 20 Developmental anomalies
+- 21 Symptoms, signs or clinical findings, not elsewhere classified
+- 22 Injury, poisoning or certain other consequences of external causes
+- 23 External causes of morbidity or mortality
+- 24 Factors influencing health status or contact with health services
+- 25 Codes for special purposes
 - 26 Supplementary Chapter Traditional Medicine Conditions - Module I"""@en ;
-    cids:hasName "Disease/Condition Addressed"@en .
+
+    cids:definedBy cids:giin ;
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> .
 
 :PI1568
     a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
+    org:hasName "Producer Price Premium" ;
+    skos:prefLabel "Producer Price Premium"@en ;
+    cids:hasDescription "Price premium percentage that the producer (supplier) selling to the organization obtains from the organization for its goods or services during the reporting period." ;
+    skos:definition "Price premium percentage that the producer (supplier) selling to the organization obtains from the organization for its goods or services during the reporting period."@en ;
+    org:hasIdentifier "PI1568" ;
+    skos:notation "PI1568" ;
+    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/PI1568/> ;
     skos:note "Organizations should footnote all assumptions used, including the source for the benchmark product/service rate and source of data. See usage guidance for further information."@en ;
     skos:scopeNote """This metric is intended to capture the price premium a producer or supplier to the organization earns, which is the percentage by which a product/service's selling price exceeds a benchmark price. The benchmark price is the average price that can be obtained for a similar product/service in the local area.
 
 An example of how this metric might be calculated follows. By selling to the organization, farmers get USD 2 per pound for a good (such as apples) compared to only USD 1 per pound for selling the same good in the local market. The reporting organization would report this as (USD 2 – USD 1) / USD 1 x 100 = 100% and would footnote assumptions with regard to how they derived the local market rate (that is, the benchmark).
 
 In some circumstances, this metric can help describe the CONTRIBUTION an organization likely had to the degree of change (depth) in outcome that the stakeholders experienced, relative to what the market or social system would have done anyway. For more on the alignment of IRIS metrics to the five dimensions of impact, see IRIS+ and the Five Dimensions of Impact (https://iris.thegiin.org/document/iris-and-the-five-dimensions/). No single metric is sufficient to understand an impact; rather, metrics are selected as a set across all dimensions of impact. When possible, the selection of metrics to measure and describe the five dimensions should be based on best practice and evidence."""@en ;
-    org:hasIdentifier "PI1568" ;
-    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/PI1568/> ;
+
     cids:definedBy cids:giin ;
-    cids:hasDescription "Price premium percentage that the producer (supplier) selling to the organization obtains from the organization for its goods or services during the reporting period."@en ;
-    cids:hasName "Producer Price Premium"@en .
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> .
 
 :PI1583
     a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
+    org:hasName "Client Households: Receiving Free Products/Services" ;
+    skos:prefLabel "Client Households: Receiving Free Products/Services"@en ;
+    cids:hasDescription "Number of unique client households who received free products/services from the organization during the reporting period." ;
+    skos:definition "Number of unique client households who received free products/services from the organization during the reporting period."@en ;
+    org:hasIdentifier "PI1583" ;
+    skos:notation "PI1583" ;
+    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/PI1583/> ;
     skos:note "Organizations should footnote all assumptions used, including source of data. See usage guidance for further information."@en ;
     skos:scopeNote """This metric is intended to capture the number of unique client households that received products or services provided by the organization for which it did not request payment and for which it does not expect reimbursement. If the organization expects or receives payment from someone other than the client household, these households should be reported against Client Households: No Direct Payment (PI2180).
 
@@ -11797,61 +11956,86 @@ Organizations should include the unique number of client households that receive
 Many organizations may not be able to report on the number of client households using direct data. For example, organizations that sell water purification systems through a series of local network distributors might estimate the number of client households reached based on the number of units sold. Organizations should footnote details on how and why these assumptions were made.
 
 This metric is multi-dimensional with regard to the five dimensions of impact. It may help describe the WHO dimension when the stakeholder group represented by the metric is the stakeholder group targeted by the investment or organization. It may also help measure the HOW MUCH Scale dimension, which helps estimate the number of the targeted stakeholders experiencing the outcome. For more on the alignment of IRIS metrics to the five dimensions of impact, see IRIS+ and the Five Dimensions of Impact (https://iris.thegiin.org/document/iris-and-the-five-dimensions/). No single metric is sufficient to understand an impact; rather, metrics are selected as a set across all dimensions of impact. When possible, the selection of metrics to measure and describe the five dimensions should be based on best practice and evidence."""@en ;
-    org:hasIdentifier "PI1583" ;
-    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/PI1583/> ;
+
     cids:definedBy cids:giin ;
-    cids:hasDescription "Number of unique client households who received free products/services from the organization during the reporting period."@en ;
-    cids:hasName "Client Households: Receiving Free Products/Services"@en .
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> .
 
 :PI1586
     a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
+    org:hasName "Building Area of Energy Efficiency Improvements" ;
+    skos:prefLabel "Building Area of Energy Efficiency Improvements"@en ;
+    cids:hasDescription "Area of buildings projected to receive energy-efficiency improvements as a result of investments made by the organization during the reporting period." ;
+    skos:definition "Area of buildings projected to receive energy-efficiency improvements as a result of investments made by the organization during the reporting period."@en ;
+    org:hasIdentifier "PI1586" ;
+    skos:notation "PI1586" ;
+    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/PI1586/> ;
     skos:note "Organizations should footnote details on the types of energy efficiency improvements planned, as well as all assumptions used. See usage guidance for further information."@en ;
     skos:scopeNote """This metric is intended to capture the gross floor area of the building(s) where the organization plans to implement energy-efficiency improvements. Such projects can include efficiency improvements to lighting (lower-usage or fewer fixtures), increased building performance through improved insulation, installation of energy-efficient windows, and increased heating/cooling or appliance efficiency.
 
 Organizations are encouraged to report this metric in conjunction with the Energy Conserved (OI6697) as a result of these improvements. Organizations wishing to report on the amount of money spent on renewable energy infrastructure and technology, which may lead to the energy-efficiency improvements reported here, can use Renewable Energy Capital Expenditures (OI9206). If the energy-efficiency improvements are part of a wider energy conservation strategy or as otherwise applicable, organizations are also encouraged to report Energy Conservation Strategy (OI4531)."""@en ;
-    org:hasIdentifier "PI1586" ;
-    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/PI1586/> ;
+
     cids:definedBy cids:giin ;
-    cids:hasDescription "Area of buildings projected to receive energy-efficiency improvements as a result of investments made by the organization during the reporting period."@en ;
-    cids:hasName "Building Area of Energy Efficiency Improvements"@en .
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> .
 
 :PI1595
     a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
+    org:hasName "Energy Discharged" ;
+    skos:prefLabel "Energy Discharged"@en ;
+    cids:hasDescription "Amount of energy discharged (MWh or MJ) from the organization’s energy storage product during the reporting period." ;
+    skos:definition "Amount of energy discharged (MWh or MJ) from the organization’s energy storage product during the reporting period."@en ;
+    org:hasIdentifier "PI1595" ;
+    skos:notation "PI1595" ;
+    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/PI1595/> ;
     skos:note "Organizations should footnote all assumptions used, including the scope of technology to which this metric applies."@en ;
     skos:scopeNote "This metric is intended to capture the beneficial impact of the organization’s storage technology (whether developed or deployed) in terms of units of energy delivered during the reporting period and therefore made available to recipients."@en ;
-    org:hasIdentifier "PI1595" ;
-    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/PI1595/> ;
+
     cids:definedBy cids:giin ;
-    cids:hasDescription "Amount of energy discharged (MWh or MJ) from the organization’s energy storage product during the reporting period."@en ;
-    cids:hasName "Energy Discharged"@en .
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> .
 
 :PI1653
     a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
+    org:hasName "Account Value" ;
+    skos:prefLabel "Account Value"@en ;
+    org:hasIdentifier "PI1653" ;
+    skos:notation "PI1653" ;
+    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/PI1653/> ;
     skos:note "Organizations should footnote all assumptions used, including source of data or disaggregation and any other disaggregations applied."@en ;
     skos:scopeNote """This disaggregation, applied to another metric, is intended to capture the share of that metric in which the account value changed in the direction of the selected options. For example, when applied to Number of Voluntary Savings Accounts (PI6439) with the option \"Increased in value during the reporting period,\" this disaggregation would capture the number of savings accounts which increased in value during the reporting period.
 
 Organizations should include accounts opened during the reporting period: if they have a positive balance, the account has increased in value; if they have a negative or zero balance, the account has decreased in value."""@en ;
-    org:hasIdentifier "PI1653" ;
-    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/PI1653/> ;
-    cids:definedBy cids:giin ;
     cids:hasDescription """Disaggregates a metric representing accounts in terms of the direction of their change in value during the reporting period.
 
 Select any that apply:
 - Increased in value during the reporting period
 - Decreased in value or stayed the same value during the reporting period
+- Other (write-in)""" ;
+    skos:definition """Disaggregates a metric representing accounts in terms of the direction of their change in value during the reporting period.
+
+Select any that apply:
+- Increased in value during the reporting period
+- Decreased in value or stayed the same value during the reporting period
 - Other (write-in)"""@en ;
-    cids:hasName "Account Value"@en .
+
+    cids:definedBy cids:giin ;
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> .
 
 :PI1726
     a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
+    org:hasName "Client Households: Poor" ;
+    skos:prefLabel "Client Households: Poor"@en ;
+    cids:hasDescription "Number of unique poor households that were clients of the organization during the reporting period." ;
+    skos:definition "Number of unique poor households that were clients of the organization during the reporting period."@en ;
+    org:hasIdentifier "PI1726" ;
+    skos:notation "PI1726" ;
+    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/PI1726/> ;
     skos:note "Organizations should footnote all assumptions used, including source of data, as well as details on the assessment tools used to identify the poverty level of client households. See usage guidance for further information."@en ;
     skos:scopeNote """This metric is intended to capture the number of unique poor households that received the organization’s products or services during the reporting period. Examples of organizations that might report against this metric include those that provide products such as clean cookstoves or water purification systems and those that provide services such as home weatherization. Organizations that provide goods and services at the individual level, such as vaccines or school lunches, may find it more appropriate to report against Client Individuals: Total (PI4060) and related submetrics.
 
@@ -11860,59 +12044,79 @@ Because assessing the poverty level of client households is complex, organizatio
 Many organizations may not be able to report on the number of client households using direct data. For example, organizations that sell water purification systems through a series of local network distributors might estimate the number of client households reached based on the number of units sold. Organizations should footnote details on how and why these assumptions were made.
 
 This metric is multi-dimensional with regard to the five dimensions of impact. It may help describe the WHO dimension when the stakeholder group represented by the metric is the stakeholder group targeted by the investment or organization. It may also help measure the HOW MUCH Scale dimension, which helps estimate the number of the targeted stakeholders experiencing the outcome. For more on the alignment of IRIS metrics to the five dimensions of impact, see IRIS+ and the Five Dimensions of Impact (https://iris.thegiin.org/document/iris-and-the-five-dimensions/). No single metric is sufficient to understand an impact; rather, metrics are selected as a set across all dimensions of impact. When possible, the selection of metrics to measure and describe the five dimensions should be based on best practice and evidence."""@en ;
-    org:hasIdentifier "PI1726" ;
-    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/PI1726/> ;
+
     cids:definedBy cids:giin ;
-    cids:hasDescription "Number of unique poor households that were clients of the organization during the reporting period."@en ;
-    cids:hasName "Client Households: Poor"@en .
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> .
 
 :PI1728
     a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
+    org:hasName "Supplier Individuals: Female" ;
+    skos:prefLabel "Supplier Individuals: Female"@en ;
+    cids:hasDescription "Number of female individuals who sold goods or services to the organization during the reporting period." ;
+    skos:definition "Number of female individuals who sold goods or services to the organization during the reporting period."@en ;
+    org:hasIdentifier "PI1728" ;
+    skos:notation "PI1728" ;
+    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/PI1728/> ;
     skos:note "Organizations should footnote all assumptions used."@en ;
     skos:scopeNote """This metric is intended to capture how organizations support the livelihoods of female individuals through their supply chains.
 
 This metric is multi-dimensional with regard to the five dimensions of impact: it may help describe the WHO dimension when the stakeholder group represented by the metric is the stakeholder group targeted by the investment or organization. It may also help measure the HOW MUCH Scale dimension, which helps estimate the number of the targeted stakeholders experiencing the outcome. For more on the alignment of IRIS metrics to the five dimensions of impact, see IRIS+ and the Five Dimensions of Impact (https://iris.thegiin.org/document/iris-and-the-five-dimensions/). No single metric is sufficient to understand an impact; rather, metrics are selected as a set across all dimensions of impact. When possible, the selection of metrics to measure and describe the five dimensions should be based on best practice and evidence."""@en ;
-    org:hasIdentifier "PI1728" ;
-    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/PI1728/> ;
+
     cids:definedBy cids:giin ;
-    cids:hasDescription "Number of female individuals who sold goods or services to the organization during the reporting period."@en ;
-    cids:hasName "Supplier Individuals: Female"@en .
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> .
 
 :PI1748
     a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
+    org:hasName "Client Savings Premium" ;
+    skos:prefLabel "Client Savings Premium"@en ;
+    cids:hasDescription "Percentage price savings the client obtains by purchasing a product or service from the organization and the average price that they would otherwise pay for a similar product or service in the local market." ;
+    skos:definition "Percentage price savings the client obtains by purchasing a product or service from the organization and the average price that they would otherwise pay for a similar product or service in the local market."@en ;
+    org:hasIdentifier "PI1748" ;
+    skos:notation "PI1748" ;
+    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/PI1748/> ;
     skos:note """This metric is intended to capture the price discount or savings to a client of purchasing the organization’s products or services rather than a similar product or service. For example, if the organization's product costs USD 5 and the average price for a similar product is USD 10 in the local market, this would be calculated as: (USD 10 – USD 5) / USD 10 = 50% savings. Positive numbers can be interpreted as savings to the consumer (client). In this calculation, organizations should use prices as of the end of the reporting period.
 
 In specific contexts, and based on evidence, this metric can serve as a proxy indicator of whether the outcome being sought by an investor or organization is occurring (the WHAT dimension of impact). For more on the alignment of IRIS metrics to the five dimensions of impact, see IRIS+ and the Five Dimensions of Impact (https://iris.thegiin.org/document/iris-and-the-five-dimensions/). No single metric is sufficient to understand an impact; rather, metrics are selected as a set across all dimensions of impact. When possible, the selection of metrics to measure and describe the five dimensions should be based on best practice and evidence."""@en ;
     skos:scopeNote """This metric is intended to capture the price discount/savings as a percentage compared to a similar product/service. For example, if the organization's product costs $5 and the average price for a similar product is $10 in the local market, this would be calculated as: ($10$5)/ $10 = 0.5 or 50% savings. Positive numbers can be interpreted as savings to the consumer (client). Organizations should report these prices as of the end of the reporting period.
 
 This metric is multi-dimensional with regard to the five dimensions of impact. In some contexts, this metric can serve as an indicator of whether the outcome being sought by an investor or organization is occurring (the WHAT dimension of impact). It may also help measure the HOW MUCH Scale dimension, which helps estimate the number of the targeted stakeholders experiencing the outcome. For more on the alignment of IRIS metrics to the five dimensions of impact, see IRIS+ and the Five Dimensions of Impact (https://iris.thegiin.org/document/iris-and-the-five-dimensions/). No single metric is sufficient to understand an impact; rather, metrics are selected as a set across all dimensions of impact. When possible, the selection of metrics to measure and describe the five dimensions should be based on best practice and evidence."""@en ;
-    org:hasIdentifier "PI1748" ;
-    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/PI1748/> ;
+
     cids:definedBy cids:giin ;
-    cids:hasDescription "Percentage price savings the client obtains by purchasing a product or service from the organization and the average price that they would otherwise pay for a similar product or service in the local market."@en ;
-    cids:hasName "Client Savings Premium"@en .
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> .
 
 :PI1775
     a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
+    org:hasName "Sales Revenue" ;
+    skos:prefLabel "Sales Revenue"@en ;
+    cids:hasDescription "Value of revenue received during the reporting period from sales of the organization’s products/services." ;
+    skos:definition "Value of revenue received during the reporting period from sales of the organization’s products/services."@en ;
+    org:hasIdentifier "PI1775" ;
+    skos:notation "PI1775" ;
+    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/PI1775/> ;
     skos:scopeNote """This metric is intended to capture the organization’s sales revenue, which results from the ordinary operating activities of an organization and is commonly termed earned revenue.
 
 In specific contexts, and based on evidence, this metric may serve as a proxy indicator of whether the outcome being sought by an investor or organization is occurring (the WHAT dimension of impact). For more on the alignment of IRIS metrics to the five dimensions of impact, see IRIS+ and the Five Dimensions of Impact (https://iris.thegiin.org/document/iris-and-the-five-dimensions/). No single metric is sufficient to understand an impact; rather, metrics are selected as a set across all dimensions of impact. When possible, the selection of metrics to measure and describe the five dimensions should be based on best practice and evidence."""@en ;
-    org:hasIdentifier "PI1775" ;
-    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/PI1775/> ;
+
     cids:definedBy cids:giin ;
-    cids:hasDescription "Value of revenue received during the reporting period from sales of the organization’s products/services."@en ;
-    cids:hasName "Sales Revenue"@en .
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> .
 
 :PI1807
     a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
+    org:hasName "Client Individuals: No Direct Payment" ;
+    skos:prefLabel "Client Individuals: No Direct Payment"@en ;
+    cids:hasDescription "Number of unique client individuals who received products/services during the reporting period, for which no direct payment was provided to the organization at the time of service but for which the organization expects to be reimbursed." ;
+    skos:definition "Number of unique client individuals who received products/services during the reporting period, for which no direct payment was provided to the organization at the time of service but for which the organization expects to be reimbursed."@en ;
+    org:hasIdentifier "PI1807" ;
+    skos:notation "PI1807" ;
+    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/PI1807/> ;
     skos:note "Organizations should footnote all assumptions used, including source of data. See usage guidance for further information."@en ;
     skos:scopeNote """This metric is intended to capture the number of clients who received products or services where no out-of-pocket payment was provided and for which the organization expects to be reimbursed by third parties (such as insurance). For example, if a school receives vouchers from its clients (students) for school enrollment and is later reimbursed by the government, these client individuals have made no direct payment.
 
@@ -11923,30 +12127,38 @@ This metric is intended to capture the unique number of specific individuals ser
 Many organizations may not be able to report on the number of clients using direct data. For example, organizations that sell solar lanterns through a series of local network distributors might estimate the number of client individuals reached based on the number of units sold. Organizations should footnote details on how and why these assumptions were made.
 
 For healthcare providers, “client individuals” refers to patients. For housing providers, “client individuals” refers to residents or tenants."""@en ;
-    org:hasIdentifier "PI1807" ;
-    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/PI1807/> ;
+
     cids:definedBy cids:giin ;
-    cids:hasDescription "Number of unique client individuals who received products/services during the reporting period, for which no direct payment was provided to the organization at the time of service but for which the organization expects to be reimbursed."@en ;
-    cids:hasName "Client Individuals: No Direct Payment"@en .
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> .
 
 :PI1836
     a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
+    org:hasName "Learning Hours" ;
+    skos:prefLabel "Learning Hours"@en ;
+    cids:hasDescription "Number of learning hours provided to students during the reporting period." ;
+    skos:definition "Number of learning hours provided to students during the reporting period."@en ;
+    org:hasIdentifier "PI1836" ;
+    skos:notation "PI1836" ;
+    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/PI1836/> ;
     skos:note "Organizations should footnote all assumptions used, including source(s) of data."@en ;
     skos:scopeNote """This metric is intended to capture the number of learning hours provided to students during the reporting period. It is a measure of actual hours provided during the reporting period, not expected or projected time. In this way, this metric differs from Hours of School Provided (PD4120), which projects the number of hours of instructional time per week.  For example, if students are projected to have 1,120 hours of school time during a reporting period, but school is cancelled for two days (for a total of 14 hours), organizations should report 1,106 hours for this metric.
 
 This metric may be disaggregated by Learning Hours Type (PD9173) for further detail on school time, instructional time, engaged time/time on task, and, for young children, responsive learning time. Definitions for these terms are provided in the usage guidance for Learning Hours Type (PD9173)."""@en ;
-    org:hasIdentifier "PI1836" ;
-    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/PI1836/> ;
+
     cids:definedBy cids:giin ;
-    cids:hasDescription "Number of learning hours provided to students during the reporting period."@en ;
-    cids:hasName "Learning Hours"@en .
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> .
 
 :PI1845
     a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
+    org:hasName "Energy Demand Hours Type" ;
+    skos:prefLabel "Energy Demand Hours Type"@en ;
+    org:hasIdentifier "PI1845" ;
+    skos:notation "PI1845" ;
+    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/PI1845/> ;
     skos:note "Organizations should footnote all assumptions used."@en ;
     skos:scopeNote """This metric is intended to capture the time frame in which the organization operated in terms of energy demand, which shows whether the organization’s operations made energy available for peak shaving.
 
@@ -11955,84 +12167,117 @@ For further detail on peak load, peak shaving, and time-of-use tariffs, see reso
 -	Time-of-Use Tariffs: Innovation Landscape Brief (https://www.irena.org/-/media/Files/IRENA/Agency/Publication/2019/Feb/IRENA_Innovation_ToU_tariffs_2019.pdf?la=en&hash=36658ADA8AA98677888DB2C184D1EE6A048C7470)
 -	International Recommendations for Energy Statistics (https://unstats.un.org/unsd/energystats/methodology/documents/IRES-web.pdf)
 -	U.S. Energy Information Administration’s Glossary (https://www.eia.gov/tools/glossary/index.php?id=P)"""@en ;
-    org:hasIdentifier "PI1845" ;
-    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/PI1845/> ;
-    cids:definedBy cids:giin ;
     cids:hasDescription """Describes the time frame in which the organization operated during the reporting period.
 
 Choose all that apply:
 - Peak
 - Off-Peak
 - Undisclosed
+- Other (describe)""" ;
+    skos:definition """Describes the time frame in which the organization operated during the reporting period.
+
+Choose all that apply:
+- Peak
+- Off-Peak
+- Undisclosed
 - Other (describe)"""@en ;
-    cids:hasName "Energy Demand Hours Type"@en .
+
+    cids:definedBy cids:giin ;
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> .
 
 :PI1849
     a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
+    org:hasName "Payments to Supplier Organizations: Local" ;
+    skos:prefLabel "Payments to Supplier Organizations: Local"@en ;
+    cids:hasDescription "Value of payments made to local enterprises that sold goods or services to the organization during the reporting period." ;
+    skos:definition "Value of payments made to local enterprises that sold goods or services to the organization during the reporting period."@en ;
+    org:hasIdentifier "PI1849" ;
+    skos:notation "PI1849" ;
+    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/PI1849/> ;
     skos:note "Organizations should footnote their definition of \"local.\" See usage guidance for further information."@en ;
     skos:scopeNote """This metric is intended to capture payments made to local enterprises that supply goods or services to the reporting organization. Organizations can themselves determine the precise threshold at which they report suppliers. In most cases, organizations should include only those enterprises supplying goods and services that are fundamental to the operations of the reporting organization.
 
 Individual organizations' definitions of local will depend on their business models and impact objectives. For example, if their purpose is economic development, they may define \"local\" within geo-political boundaries. If they focus on reducing emissions, they may define \"local\" by specific distance.
 
 Organizations should not include subcontractors as part of this metric; subcontractors can be reported under Temporary Employees (OI9028) and its related submetrics."""@en ;
-    org:hasIdentifier "PI1849" ;
-    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/PI1849/> ;
+
     cids:definedBy cids:giin ;
-    cids:hasDescription "Value of payments made to local enterprises that sold goods or services to the organization during the reporting period."@en ;
-    cids:hasName "Payments to Supplier Organizations: Local"@en .
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> .
 
 :PI1902
     a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
+    org:hasName "Teachers Qualified" ;
+    skos:prefLabel "Teachers Qualified"@en ;
+    cids:hasDescription "Number of teachers at the organizations as of the end of the reporting period who have obtained training or have qualifications that meet or exceed the minimum requirements of the local area." ;
+    skos:definition "Number of teachers at the organizations as of the end of the reporting period who have obtained training or have qualifications that meet or exceed the minimum requirements of the local area."@en ;
+    org:hasIdentifier "PI1902" ;
+    skos:notation "PI1902" ;
+    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/PI1902/> ;
     skos:note "Organizations should footnote the minimum level of qualifications required in the local area."@en ;
     skos:scopeNote """This metric is intended to capture the number of teachers who have met or exceeded required qualifications as of the end of the reporting period.
 
 Organizations are encouraged to report this metric in conjunction with Teachers Employed (OI5896).
 
 This metric is multi-dimensional with regard to the five dimensions of impact. In some contexts, this metric can serve as an indicator of whether the outcome being sought by an investor or organization is occurring (the WHAT dimension of impact). It may also help measure the HOW MUCH Scale dimension, which helps estimate the number of the targeted stakeholders experiencing the outcome. For more on the alignment of IRIS metrics to the five dimensions of impact, see IRIS+ and the Five Dimensions of Impact (https://iris.thegiin.org/document/iris-and-the-five-dimensions/). No single metric is sufficient to understand an impact; rather, metrics are selected as a set across all dimensions of impact. When possible, the selection of metrics to measure and describe the five dimensions should be based on best practice and evidence."""@en ;
-    org:hasIdentifier "PI1902" ;
-    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/PI1902/> ;
+
     cids:definedBy cids:giin ;
-    cids:hasDescription "Number of teachers at the organizations as of the end of the reporting period who have obtained training or have qualifications that meet or exceed the minimum requirements of the local area."@en ;
-    cids:hasName "Teachers Qualified"@en .
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> .
 
 :PI1914
     a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
+    org:hasName "Number of Equity Investments Outstanding" ;
+    skos:prefLabel "Number of Equity Investments Outstanding"@en ;
+    cids:hasDescription "Number of equity investments on the organization’s balance sheet as of the end of the reporting period." ;
+    skos:definition "Number of equity investments on the organization’s balance sheet as of the end of the reporting period."@en ;
+    org:hasIdentifier "PI1914" ;
+    skos:notation "PI1914" ;
+    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/PI1914/> ;
     skos:note "Organizations should footnote all assumptions used. See usage guidance for further information."@en ;
     skos:scopeNote """This metric is intended to capture equity investments made by the organization in for-profit enterprises and outstanding as of the end of the reporting period.
 
 In an equity investment, in exchange for investment funds, the organization receives an ownership interest in the equity (stock) of the enterprise, either common or preferred stock.
 
 Organizations are encouraged to footnote whether their equity is held directly in enterprises or through funds."""@en ;
-    org:hasIdentifier "PI1914" ;
-    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/PI1914/> ;
+
     cids:definedBy cids:giin ;
-    cids:hasDescription "Number of equity investments on the organization’s balance sheet as of the end of the reporting period."@en ;
-    cids:hasName "Number of Equity Investments Outstanding"@en .
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> .
 
 :PI1934
     a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
+    org:hasName "Average Insurance Premium" ;
+    skos:prefLabel "Average Insurance Premium"@en ;
+    cids:hasDescription "Average annualized insurance premium charged for a particular insurance product provided by the organization during the reporting period." ;
+    skos:definition "Average annualized insurance premium charged for a particular insurance product provided by the organization during the reporting period."@en ;
+    org:hasIdentifier "PI1934" ;
+    skos:notation "PI1934" ;
+    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/PI1934/> ;
     skos:note "Organizations should footnote all assumptions used."@en ;
     skos:scopeNote """This metric is intended to capture average annual spending by client individuals on insurance, a proxy of affordability. Organizations are encouraged to compare these data to historical or national averages. For example, in the United States, organizations can refer to the Henry J. Kaiser Foundation for yearly data on average annual health insurance premiums to assess affordability and access to healthcare for individuals and families.
 
 Organizations should also consider reporting Minimum Insurance Premium (PI3734)."""@en ;
-    org:hasIdentifier "PI1934" ;
-    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/PI1934/> ;
+
     cids:definedBy cids:giin ;
-    cids:hasDescription "Average annualized insurance premium charged for a particular insurance product provided by the organization during the reporting period."@en ;
-    cids:hasName "Average Insurance Premium"@en .
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> .
 
 :PI1945
     a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
+    org:hasName "Client Individuals: Children/Adolescents" ;
+    skos:prefLabel "Client Individuals: Children/Adolescents"@en ;
+    cids:hasDescription "Number of unique children and adolescents who were clients of the organization during the reporting period." ;
+    skos:definition "Number of unique children and adolescents who were clients of the organization during the reporting period."@en ;
+    org:hasIdentifier "PI1945" ;
+    skos:notation "PI1945" ;
+    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/PI1945/> ;
     skos:note "Organizations should footnote all assumptions used, including source of data. See usage guidance for further information."@en ;
     skos:scopeNote """This metric is intended to capture the number of unique child and adolescent clients who received the organization’s products or services during the reporting period. It is not a measure of foot traffic, nor is it intended to capture the number of consumer transactions. For example, a customer who makes two purchases during a period should be counted only once. Organizations wishing to report on total client transactions should refer to Client Transactions (PI5184).
 
@@ -12045,56 +12290,76 @@ Many organizations may not be able to report on the number of clients using dire
 For healthcare providers, “client individuals” refers to patients. For housing providers, “client individuals” refers to residents or tenants.
 
 This metric is multi-dimensional with regard to the five dimensions of impact. It may help describe the WHO dimension when the stakeholder group represented by the metric is the stakeholder group targeted by the investment or organization. It may also help measure the HOW MUCH Scale dimension, which helps estimate the number of the targeted stakeholders experiencing the outcome. For more on the alignment of IRIS metrics to the five dimensions of impact, see IRIS+ and the Five Dimensions of Impact (https://iris.thegiin.org/document/iris-and-the-five-dimensions/). No single metric is sufficient to understand an impact; rather, metrics are selected as a set across all dimensions of impact. When possible, the selection of metrics to measure and describe the five dimensions should be based on best practice and evidence."""@en ;
-    org:hasIdentifier "PI1945" ;
-    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/PI1945/> ;
+
     cids:definedBy cids:giin ;
-    cids:hasDescription "Number of unique children and adolescents who were clients of the organization during the reporting period."@en ;
-    cids:hasName "Client Individuals: Children/Adolescents"@en .
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> .
 
 :PI1997
     a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
+    org:hasName "Purchase Price of Product or Service Replaced" ;
+    skos:prefLabel "Purchase Price of Product or Service Replaced"@en ;
+    cids:hasDescription "Indicates the average price paid in the local market by clients for a product/service that is similar to the product/service sold by the organization." ;
+    skos:definition "Indicates the average price paid in the local market by clients for a product/service that is similar to the product/service sold by the organization."@en ;
+    org:hasIdentifier "PI1997" ;
+    skos:notation "PI1997" ;
+    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/PI1997/> ;
     skos:note "Organizations should footnote all assumptions used, including how the similar, local product/service and price were selected."@en ;
     skos:scopeNote """This metric is intended to capture the price of a product or service currently on the market that is similar to the organization's product or service. In many contexts, this metric captures the price of a traditional or status quo product replaced by a new or improved product sold by the organization. This metric is part of the calculation for Client Savings Premium (PI1748).
 
 Organizations should report prices as of the end of the reporting period."""@en ;
-    org:hasIdentifier "PI1997" ;
-    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/PI1997/> ;
+
     cids:definedBy cids:giin ;
-    cids:hasDescription "Indicates the average price paid in the local market by clients for a product/service that is similar to the product/service sold by the organization."@en ;
-    cids:hasName "Purchase Price of Product or Service Replaced"@en .
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> .
 
 :PI2019
     a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
+    org:hasName "Units/Volume Purchased from Supplier Organizations: Total" ;
+    skos:prefLabel "Units/Volume Purchased from Supplier Organizations: Total"@en ;
+    cids:hasDescription "Units/volume from organizations that sold to the reporting organization during the reporting period." ;
+    skos:definition "Units/volume from organizations that sold to the reporting organization during the reporting period."@en ;
+    org:hasIdentifier "PI2019" ;
+    skos:notation "PI2019" ;
+    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/PI2019/> ;
     skos:note "Organizations should footnote all assumptions used, including source of data."@en ;
     skos:scopeNote """This metric is intended to capture the total units or volume an organization purchased from its supplier organizations during the reporting period. Organizations that purchase different types of products/services should consider reporting separately against each different type of product/service.
 
 Organizations may wish to report this metric in conjunction with Supplier Organizations: Total (PI9566)."""@en ;
-    org:hasIdentifier "PI2019" ;
-    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/PI2019/> ;
+
     cids:definedBy cids:giin ;
-    cids:hasDescription "Units/volume from organizations that sold to the reporting organization during the reporting period."@en ;
-    cids:hasName "Units/Volume Purchased from Supplier Organizations: Total"@en .
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> .
 
 :PI2025
     a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
+    org:hasName "Gross Earned Premium" ;
+    skos:prefLabel "Gross Earned Premium"@en ;
+    cids:hasDescription "Value of premium earned by the organization as of the end of the reporting period, without any deductions for commissions or other expenses." ;
+    skos:definition "Value of premium earned by the organization as of the end of the reporting period, without any deductions for commissions or other expenses."@en ;
+    org:hasIdentifier "PI2025" ;
+    skos:notation "PI2025" ;
+    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/PI2025/> ;
     skos:note "Organizations should footnote all assumptions used."@en ;
     skos:scopeNote "This metric is intended to capture gross premium earned, calculated as the premium income (written) in the period minus the change in unearned premium reserve."@en ;
-    org:hasIdentifier "PI2025" ;
-    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/PI2025/> ;
+
     cids:definedBy cids:giin ;
-    cids:hasDescription "Value of premium earned by the organization as of the end of the reporting period, without any deductions for commissions or other expenses."@en ;
-    cids:hasName "Gross Earned Premium"@en .
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> .
 
 :PI2046
     a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
+    org:hasName "Average Supplier Agriculture Yield: Total" ;
+    skos:prefLabel "Average Supplier Agriculture Yield: Total"@en ;
+    cids:hasDescription "Average agricultural yield per hectare of supplier individuals who sold to the reporting organization during the reporting period." ;
+    skos:definition "Average agricultural yield per hectare of supplier individuals who sold to the reporting organization during the reporting period."@en ;
+    org:hasIdentifier "PI2046" ;
+    skos:notation "PI2046" ;
+    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/PI2046/> ;
     skos:note "Organizations should footnote all assumptions used, including source of data, details on the group, and unit of measure reporting against (such as kilograms or bushels per hectare) using Unit of Measure (PD1602). See usage guidance for further information."@en ;
     skos:scopeNote """NOTE: This metric will be deprecated in a forthcoming update to the IRIS Catalog of Metrics. Users are advised to instead report Average Agricultural Yield (PI5935), applied to Supplier Individuals: Total (PI5350).
 
@@ -12107,16 +12372,21 @@ This metric could be valuable for organizations that procure from farmers and pr
 Organizations interested in reporting the yields of client farmers should report Average Client Agricultural Yield: Total (PI3468).
 
 In some contexts, this metric can serve as an indicator of whether the outcome being sought by an investor or organization is occurring (the WHAT dimension of impact). For more on the alignment of IRIS metrics to the five dimensions of impact, see IRIS+ and the Five Dimensions of Impact (https://iris.thegiin.org/document/iris-and-the-five-dimensions/). No single metric is sufficient to understand an impact; rather, metrics are selected as a set across all dimensions of impact. When possible, the selection of metrics to measure and describe the five dimensions should be based on best practice and evidence."""@en ;
-    org:hasIdentifier "PI2046" ;
-    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/PI2046/> ;
+
     cids:definedBy cids:giin ;
-    cids:hasDescription "Average agricultural yield per hectare of supplier individuals who sold to the reporting organization during the reporting period."@en ;
-    cids:hasName "Average Supplier Agriculture Yield: Total"@en .
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> .
 
 :PI2070
     a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
+    org:hasName "Promptness of Claims Submission" ;
+    skos:prefLabel "Promptness of Claims Submission"@en ;
+    cids:hasDescription "Average number of days elapsed between the occurrence of an insured incident and the submission of a complete claim by the stakeholder (client of the organization) for all claims settled during the reporting period." ;
+    skos:definition "Average number of days elapsed between the occurrence of an insured incident and the submission of a complete claim by the stakeholder (client of the organization) for all claims settled during the reporting period."@en ;
+    org:hasIdentifier "PI2070" ;
+    skos:notation "PI2070" ;
+    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/PI2070/> ;
     skos:note "Organizations should footnote all assumptions used."@en ;
     skos:scopeNote """This metric is intended to capture how long on average (in days) it takes stakeholders to submit complete claims.
 
@@ -12125,16 +12395,21 @@ Organizations should calculate this metric using the average days’ duration be
 Organizations can use the raw data relevant to this metric when calculating Promptness of Claims Settlement (PI9897).
 
 For more detail on Promptness of Claims Settlement and for guidance on interpretation, see the Microinsurance Network’s Social Performance Indicators for Microinsurance, p. 19 (https://www.social-protection.org/gimi/ShowRessource.action?id=5270)."""@en ;
-    org:hasIdentifier "PI2070" ;
-    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/PI2070/> ;
+
     cids:definedBy cids:giin ;
-    cids:hasDescription "Average number of days elapsed between the occurrence of an insured incident and the submission of a complete claim by the stakeholder (client of the organization) for all claims settled during the reporting period."@en ;
-    cids:hasName "Promptness of Claims Submission"@en .
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> .
 
 :PI2073
     a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
+    org:hasName "Hazardous Waste Avoided" ;
+    skos:prefLabel "Hazardous Waste Avoided"@en ;
+    cids:hasDescription "Amount of hazardous waste avoided through refurbishing, reusing, and recycling as part of delivering or developing the organization's products and services during the reporting period." ;
+    skos:definition "Amount of hazardous waste avoided through refurbishing, reusing, and recycling as part of delivering or developing the organization's products and services during the reporting period."@en ;
+    org:hasIdentifier "PI2073" ;
+    skos:notation "PI2073" ;
+    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/PI2073/> ;
     skos:note "Organizations should footnote all assumptions used."@en ;
     skos:scopeNote """This metric is intended to capture hazardous waste avoided as a result of substituting recycled materials in the organization's products and services. Organizations should report the total amount of hazardous waste avoided for all products and services delivered or developed during the reporting period.
 
@@ -12143,46 +12418,61 @@ Hazardous waste is defined as refuse that could present dangers by contaminating
 Organizations that offer recycling services should report hazardous waste avoided as a result of the organization's delivery of hazardous waste recycling services.
 
 In some contexts, this metric can serve as an indicator of whether the outcome being sought by an investor or organization is occurring (the WHAT dimension of impact). For more on the alignment of IRIS metrics to the five dimensions of impact, see IRIS+ and the Five Dimensions of Impact (https://iris.thegiin.org/document/iris-and-the-five-dimensions/). No single metric is sufficient to understand an impact; rather, metrics are selected as a set across all dimensions of impact. When possible, the selection of metrics to measure and describe the five dimensions should be based on best practice and evidence."""@en ;
-    org:hasIdentifier "PI2073" ;
-    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/PI2073/> ;
+
     cids:definedBy cids:giin ;
-    cids:hasDescription "Amount of hazardous waste avoided through refurbishing, reusing, and recycling as part of delivering or developing the organization's products and services during the reporting period."@en ;
-    cids:hasName "Hazardous Waste Avoided"@en .
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> .
 
 :PI2111
     a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
+    org:hasName "Target Stakeholder Spending: Connectivity" ;
+    skos:prefLabel "Target Stakeholder Spending: Connectivity"@en ;
+    cids:hasDescription "Amount of money spent by an average target stakeholder on connectivity costs during the reporting period." ;
+    skos:definition "Amount of money spent by an average target stakeholder on connectivity costs during the reporting period."@en ;
+    org:hasIdentifier "PI2111" ;
+    skos:notation "PI2111" ;
+    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/PI2111/> ;
     skos:note "Organizations should footnote the type of expenditures made, as well as source of data and all assumptions used."@en ;
     skos:scopeNote """This metric is intended to capture target stakeholder spending to connect any digital device that allows individuals to call or message their social networks and/or access the Internet. Examples of such devices include smartphones, tablets, laptops, desktops, and personal digital assistants (PDAs). If these data are collected from target stakeholders through a survey, organizations should footnote details on the sample size and survey instrument used, as well as details on who administered the survey and who aggregated the resulting data.
 
 In some contexts, this metric can serve as an indicator of whether the outcome being sought by an investor or organization is occurring (the WHAT dimension of impact). For more on the alignment of IRIS metrics to the five dimensions of impact, see IRIS+ and the Five Dimensions of Impact (https://iris.thegiin.org/document/iris-and-the-five-dimensions/). No single metric is sufficient to understand an impact; rather, metrics are selected as a set across all dimensions of impact. When possible, the selection of metrics to measure and describe the five dimensions should be based on best practice and evidence."""@en ;
-    org:hasIdentifier "PI2111" ;
-    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/PI2111/> ;
+
     cids:definedBy cids:giin ;
-    cids:hasDescription "Amount of money spent by an average target stakeholder on connectivity costs during the reporting period."@en ;
-    cids:hasName "Target Stakeholder Spending: Connectivity"@en .
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> .
 
 :PI2112
     a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
+    org:hasName "Vehicle Distance Traveled" ;
+    skos:prefLabel "Vehicle Distance Traveled"@en ;
+    cids:hasDescription "Distance traveled by vehicles owned, operated, or sold by the organization during the reporting period." ;
+    skos:definition "Distance traveled by vehicles owned, operated, or sold by the organization during the reporting period."@en ;
+    org:hasIdentifier "PI2112" ;
+    skos:notation "PI2112" ;
+    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/PI2112/> ;
     skos:note "Organizations should footnote all assumptions used, including source of data."@en ;
     skos:scopeNote """This metric is intended to capture the total movement of vehicles using inland, road, or rail transport on a given network during the reporting period.
 
 This metric aligns with Vehicle Kilometers Traveled (VKT); data are most commonly expressed in kilometers.
 
 This metric can be used to calculate emissions intensity in the transport sector, dividing Greenhouse Gas Emissions: Total (OI1479)."""@en ;
-    org:hasIdentifier "PI2112" ;
-    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/PI2112/> ;
+
     cids:definedBy cids:giin ;
-    cids:hasDescription "Distance traveled by vehicles owned, operated, or sold by the organization during the reporting period."@en ;
-    cids:hasName "Vehicle Distance Traveled"@en .
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> .
 
 :PI2125
     a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
+    org:hasName "Distributor Individuals: Low Income" ;
+    skos:prefLabel "Distributor Individuals: Low Income"@en ;
+    cids:hasDescription "Number of low-income individuals who served as distributors of the organization's products/services during the reporting period." ;
+    skos:definition "Number of low-income individuals who served as distributors of the organization's products/services during the reporting period."@en ;
+    org:hasIdentifier "PI2125" ;
+    skos:notation "PI2125" ;
+    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/PI2125/> ;
     skos:note "Organizations should footnote all assumptions used, including the assessment tools used to identify low-income distributors. See usage guidance for further information."@en ;
     skos:scopeNote """This metric is intended to capture how many self-employed, low-income individuals sold the organization's products or services during the reporting period, either to other distributors (wholesale) or to ultimate consumers (retail).
 
@@ -12191,30 +12481,40 @@ Distributors counted under this metric need not exclusively sell the organizatio
 The population classified as low income includes all those who fall below a fixed threshold, which includes those classified as poor or very poor. Because assessing the poverty level of distributors is complex, organizations will likely use specific assessment tools to accurately report on this metric. See the glossary definition for additional information on commonly used tools to help determine the absolute poverty level of individuals and households.
 
 This metric is multi-dimensional with regard to the five dimensions of impact: it may help describe the WHO dimension when the stakeholder group represented by the metric is the stakeholder group targeted by the investment or organization. It may also help measure the HOW MUCH Scale dimension, which helps estimate the number of the targeted stakeholders experiencing the outcome. For more on the alignment of IRIS metrics to the five dimensions of impact, see IRIS+ and the Five Dimensions of Impact (https://iris.thegiin.org/document/iris-and-the-five-dimensions/). No single metric is sufficient to understand an impact; rather, metrics are selected as a set across all dimensions of impact. When possible, the selection of metrics to measure and describe the five dimensions should be based on best practice and evidence."""@en ;
-    org:hasIdentifier "PI2125" ;
-    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/PI2125/> ;
+
     cids:definedBy cids:giin ;
-    cids:hasDescription "Number of low-income individuals who served as distributors of the organization's products/services during the reporting period."@en ;
-    cids:hasName "Distributor Individuals: Low Income"@en .
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> .
 
 :PI2135
     a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
+    org:hasName "Length of Adjacent Protected Land" ;
+    skos:prefLabel "Length of Adjacent Protected Land"@en ;
+    cids:hasDescription "Length of protected land boundary shared with the organization's protected land as of the end of the reporting period." ;
+    skos:definition "Length of protected land boundary shared with the organization's protected land as of the end of the reporting period."@en ;
+    org:hasIdentifier "PI2135" ;
+    skos:notation "PI2135" ;
+    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/PI2135/> ;
     skos:note "Organizations should footnote all assumptions used. See usage guidance for further information."@en ;
     skos:scopeNote """This metric is intended to capture the length of the boundary of the organization's protected land that is immediately adjacent to already-protected land parcels, thus compounding the total amount of protected land.
 
 For many conservation objectives, large, connected areas of conserved land are more valuable than small, disconnected pieces of conserved land. This metric helps capture holistically how a specific project complements previous conservation work."""@en ;
-    org:hasIdentifier "PI2135" ;
-    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/PI2135/> ;
+
     cids:definedBy cids:giin ;
-    cids:hasDescription "Length of protected land boundary shared with the organization's protected land as of the end of the reporting period."@en ;
-    cids:hasName "Length of Adjacent Protected Land"@en .
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> .
 
 :PI2173
     a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
+    org:hasName "School Enrollment: Low Income" ;
+    skos:prefLabel "School Enrollment: Low Income"@en ;
+    cids:hasDescription "Number of low-income students enrolled as of the end of the reporting period, both full- and part-time, with each discrete student counted once regardless of their number of courses." ;
+    skos:definition "Number of low-income students enrolled as of the end of the reporting period, both full- and part-time, with each discrete student counted once regardless of their number of courses."@en ;
+    org:hasIdentifier "PI2173" ;
+    skos:notation "PI2173" ;
+    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/PI2173/> ;
     skos:note "Organizations should footnote all assumptions used, including details on the assessment tools used to identify low-income students. Organizations should also break down enrolled low-income students into full- and part-time. See usage guidance for further information."@en ;
     skos:scopeNote """This metric is intended to capture the number of students from low-income backgrounds who are enrolled at the school as of the end of the reporting period. This metric includes both full- and part-time students. Each discrete student is counted once, regardless of the number of courses taken.
 
@@ -12223,32 +12523,42 @@ These data may be most effectively collected through either school reporting (fo
 The population classified as low income includes all those who fall below a fixed threshold, which includes those classified as poor or very poor. Because assessing the poverty level of stakeholders is complex, organizations will likely use specific assessment tools to accurately report on this metric. See the glossary definition for additional information on commonly used tools to help determine the absolute poverty level of individuals and households.
 
 This metric is multi-dimensional with regard to the five dimensions of impact. It may help describe the WHO dimension when the stakeholder group represented by the metric is the stakeholder group targeted by the investment or organization. It may also help measure the HOW MUCH Scale dimension, which helps estimate the number of the targeted stakeholders experiencing the outcome. For more on the alignment of IRIS metrics to the five dimensions of impact, see IRIS+ and the Five Dimensions of Impact (https://iris.thegiin.org/document/iris-and-the-five-dimensions/). No single metric is sufficient to understand an impact; rather, metrics are selected as a set across all dimensions of impact. When possible, the selection of metrics to measure and describe the five dimensions should be based on best practice and evidence."""@en ;
-    org:hasIdentifier "PI2173" ;
-    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/PI2173/> ;
+
     cids:definedBy cids:giin ;
-    cids:hasDescription "Number of low-income students enrolled as of the end of the reporting period, both full- and part-time, with each discrete student counted once regardless of their number of courses."@en ;
-    cids:hasName "School Enrollment: Low Income"@en .
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> .
 
 :PI2180
     a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
+    org:hasName "Client Households: No Direct Payment" ;
+    skos:prefLabel "Client Households: No Direct Payment"@en ;
+    cids:hasDescription "Number of unique client households that received products/services during the reporting period where no direct payment was provided to the organization at the time of service but for which the organization expects to be reimbursed." ;
+    skos:definition "Number of unique client households that received products/services during the reporting period where no direct payment was provided to the organization at the time of service but for which the organization expects to be reimbursed."@en ;
+    org:hasIdentifier "PI2180" ;
+    skos:notation "PI2180" ;
+    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/PI2180/> ;
     skos:note "Organizations should footnote all assumptions used, including source of data. See usage guidance for further information."@en ;
     skos:scopeNote """This metric is intended to capture the number of unique client households that received products or services where no out-of-pocket payment was provided and for which the organization expects to be reimbursed by third parties (such as insurance).
 
 Organizations should include the unique number of client households that received products/services and made no direct payment, regardless of whether or not these same households may also have paid the organization directly for certain products or services during the reporting period.
 
 Many organizations may not be able to report on the number of client households using direct data. For example, organizations that sell water purification systems through a series of local network distributors might estimate the number of client households reached based on the number of units sold. Organizations should footnote details on how and why these assumptions were made."""@en ;
-    org:hasIdentifier "PI2180" ;
-    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/PI2180/> ;
+
     cids:definedBy cids:giin ;
-    cids:hasDescription "Number of unique client households that received products/services during the reporting period where no direct payment was provided to the organization at the time of service but for which the organization expects to be reimbursed."@en ;
-    cids:hasName "Client Households: No Direct Payment"@en .
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> .
 
 :PI2185
     a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
+    org:hasName "Client Individuals: Referred" ;
+    skos:prefLabel "Client Individuals: Referred"@en ;
+    cids:hasDescription "Number of unique individual clients of the organization who were referred by other clients of the organization during the reporting period." ;
+    skos:definition "Number of unique individual clients of the organization who were referred by other clients of the organization during the reporting period."@en ;
+    org:hasIdentifier "PI2185" ;
+    skos:notation "PI2185" ;
+    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/PI2185/> ;
     skos:note "Organizations should footnote all assumptions used, including source of data. See usage guidance for further information."@en ;
     skos:scopeNote """This metric is intended to capture the number of unique clients who received the organization’s products or services during the reporting period and who were referred to the organization by other clients of the organization. It is not a measure of foot traffic, nor is it intended to capture the number of consumer transactions. For example, a customer who makes two purchases during a period should be counted only once. Organizations wishing to report on total client transactions should refer to Client Transactions (PI5184).
 
@@ -12257,30 +12567,40 @@ This metric is intended to capture the unique number of specific individuals ser
 Many organizations may not be able to report on the number of clients using direct data. For example, organizations that sell solar lanterns through a series of local network distributors might estimate the number of client individuals reached based on the number of units sold. Organizations should footnote details on how and why these assumptions were made.
 
 For healthcare providers, “client individuals” refers to patients. For housing providers, “client individuals” refers to residents or tenants."""@en ;
-    org:hasIdentifier "PI2185" ;
-    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/PI2185/> ;
+
     cids:definedBy cids:giin ;
-    cids:hasDescription "Number of unique individual clients of the organization who were referred by other clients of the organization during the reporting period."@en ;
-    cids:hasName "Client Individuals: Referred"@en .
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> .
 
 :PI2197
     a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
+    org:hasName "Number of Complaints Registered" ;
+    skos:prefLabel "Number of Complaints Registered"@en ;
+    cids:hasDescription "Number of complaints registered by clients of the organization during the reporting period." ;
+    skos:definition "Number of complaints registered by clients of the organization during the reporting period."@en ;
+    org:hasIdentifier "PI2197" ;
+    skos:notation "PI2197" ;
+    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/PI2197/> ;
     skos:note "Organizations should footnote all assumptions used."@en ;
     skos:scopeNote """This metric is intended to capture the number of unique complaints made by clients of the organization. The metric assumes that the provider has a complaint tracking system as part of its system for redress.
 
 Organizations are encouraged to report this metric in conjunction with Complaints Ratio (PI5216) and Client Complaint Tracking System (PI9435)."""@en ;
-    org:hasIdentifier "PI2197" ;
-    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/PI2197/> ;
+
     cids:definedBy cids:giin ;
-    cids:hasDescription "Number of complaints registered by clients of the organization during the reporting period."@en ;
-    cids:hasName "Number of Complaints Registered"@en .
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> .
 
 :PI2210
     a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
+    org:hasName "Energy Generated for Sale: Non-Renewable" ;
+    skos:prefLabel "Energy Generated for Sale: Non-Renewable"@en ;
+    cids:hasDescription "Amount of non-renewable energy generated and sold to offtaker(s) during the reporting period." ;
+    skos:definition "Amount of non-renewable energy generated and sold to offtaker(s) during the reporting period."@en ;
+    org:hasIdentifier "PI2210" ;
+    skos:notation "PI2210" ;
+    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/PI2210/> ;
     skos:note "Organizations should footnote the non-renewable energy type(s) and all assumptions used."@en ;
     skos:scopeNote """NOTE: This metric will be deprecated in a forthcoming update to the IRIS Catalog of Metrics. Users are advised to instead report Energy Generated for Sale: Total (PI8706), disaggregated by Primary Energy Source (OI3781), all options under Non-Renewable.
 
@@ -12291,16 +12611,21 @@ Non-renewable energy sources include coal, natural gas, and crude oil derivative
 Organizations wishing to report on the amount of non-renewable energy generated for their own use should report Energy Generated for Use: Non-Renewable (OI1495).
 
 In some contexts, this metric can serve as an indicator of whether the outcome being sought by an investor or organization is occurring (the WHAT dimension of impact). For more on the alignment of IRIS metrics to the five dimensions of impact, see IRIS+ and the Five Dimensions of Impact (https://iris.thegiin.org/document/iris-and-the-five-dimensions/). No single metric is sufficient to understand an impact; rather, metrics are selected as a set across all dimensions of impact. When possible, the selection of metrics to measure and describe the five dimensions should be based on best practice and evidence."""@en ;
-    org:hasIdentifier "PI2210" ;
-    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/PI2210/> ;
+
     cids:definedBy cids:giin ;
-    cids:hasDescription "Amount of non-renewable energy generated and sold to offtaker(s) during the reporting period."@en ;
-    cids:hasName "Energy Generated for Sale: Non-Renewable"@en .
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> .
 
 :PI2230
     a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
+    org:hasName "Service Hours Interrupted" ;
+    skos:prefLabel "Service Hours Interrupted"@en ;
+    cids:hasDescription "Number of hours-of-service interruptions during the reporting period." ;
+    skos:definition "Number of hours-of-service interruptions during the reporting period."@en ;
+    org:hasIdentifier "PI2230" ;
+    skos:notation "PI2230" ;
+    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/PI2230/> ;
     skos:note "Organizations should footnote all assumptions used."@en ;
     skos:scopeNote """This metric is intended to capture the amount of time a service—for example, hours of electricity, running water, or internet service—is interrupted or unavailable to clients. Organizations may use Product/Service Detailed Type (PD1516) to describe or disaggregate this metric by services provided. By comparing this metric to the total duration of the reporting period, organizations can estimate the quality of services provided.
 
@@ -12309,41 +12634,46 @@ Organizations are encouraged to use this metric in combination with Service Hour
 This metric is often used by International Finance Institutions (IFIs) as part of infrastructure analysis.
 
 This metric may help describe the HOW MUCH Scale dimension, which helps estimate the number of the targeted stakeholders experiencing the outcome. For more on the alignment of IRIS metrics to the five dimensions of impact, see IRIS+ and the Five Dimensions of Impact (https://iris.thegiin.org/document/iris-and-the-five-dimensions/). No single metric is sufficient to understand an impact; rather, metrics are selected as a set across all dimensions of impact. The selection of metrics to measure and describe the five dimensions should be based on best practice and evidence."""@en ;
-    org:hasIdentifier "PI2230" ;
-    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/PI2230/> ;
+
     cids:definedBy cids:giin ;
-    cids:hasDescription "Number of hours-of-service interruptions during the reporting period."@en ;
-    cids:hasName "Service Hours Interrupted"@en .
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> .
 
 :PI2242
     a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
+    org:hasName "Supplier Individuals: Poor" ;
+    skos:prefLabel "Supplier Individuals: Poor"@en ;
+    cids:hasDescription "Number of poor individuals who sold goods or services to the organization during the reporting period." ;
+    skos:definition "Number of poor individuals who sold goods or services to the organization during the reporting period."@en ;
+    org:hasIdentifier "PI2242" ;
+    skos:notation "PI2242" ;
+    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/PI2242/> ;
     skos:note "Organizations should footnote all assumptions used, including the assessment tools used to identify the poverty level of suppliers. See usage guidance for further information."@en ;
     skos:scopeNote """This metric is intended to capture how organizations support individuals living in poverty through their supply chains.
 
 Because assessing the poverty level of stakeholders is complex, organizations will likely have to use specific assessment tools to accurately report on this metric. See the glossary definition for additional information on commonly used tools to help determine the absolute poverty level of individuals and households.
 
 This metric is multi-dimensional with regard to the five dimensions of impact: it may help describe the WHO dimension when the stakeholder group represented by the metric is the stakeholder group targeted by the investment or organization. It may also help measure the HOW MUCH Scale dimension, which helps estimate the number of the targeted stakeholders experiencing the outcome. For more on the alignment of IRIS metrics to the five dimensions of impact, see IRIS+ and the Five Dimensions of Impact (https://iris.thegiin.org/document/iris-and-the-five-dimensions/). No single metric is sufficient to understand an impact; rather, metrics are selected as a set across all dimensions of impact. When possible, the selection of metrics to measure and describe the five dimensions should be based on best practice and evidence."""@en ;
-    org:hasIdentifier "PI2242" ;
-    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/PI2242/> ;
+
     cids:definedBy cids:giin ;
-    cids:hasDescription "Number of poor individuals who sold goods or services to the organization during the reporting period."@en ;
-    cids:hasName "Supplier Individuals: Poor"@en .
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> .
 
 :PI2250
     a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
+    org:hasName "Schooling Status" ;
+    skos:prefLabel "Schooling Status"@en ;
+    org:hasIdentifier "PI2250" ;
+    skos:notation "PI2250" ;
+    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/PI2250/> ;
     skos:note "Organizations should footnote all assumptions used, including source(s) of data."@en ;
     skos:scopeNote """This metric is intended to capture the enrollment, progress, and transitions of students served by the organization during the reporting period. Used alone, it describes the schooling status of students in projects supported by the organization. Alternatively, or in addition, it may be used to disaggregate other metrics, such as Client Individuals: Total (PI4060), to capture the number of students with each status.
 
 This metric helps organizations capture pupil-flow rates. For more on this concept, see UNESCO's Learning Portal (https://learningportal.iiep.unesco.org/en/glossary/pupil-flow-rates).
 
 This metric may help describe the HOW MUCH Scale dimension, which helps estimate the number of the targeted stakeholders experiencing the outcome. For more on the alignment of IRIS metrics to the five dimensions of impact, see IRIS+ and the Five Dimensions of Impact (https://iris.thegiin.org/document/iris-and-the-five-dimensions/). No single metric is sufficient to understand an impact; rather, metrics are selected as a set across all dimensions of impact. When possible, the selection of metrics to measure and describe the five dimensions should be based on best practice and evidence."""@en ;
-    org:hasIdentifier "PI2250" ;
-    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/PI2250/> ;
-    cids:definedBy cids:giin ;
     cids:hasDescription """Describes the schooling status of students served by the organization during the reporting period.
 
 Choose all that apply:
@@ -12358,13 +12688,35 @@ Grade promotion:
 - Repeated year of schooling
 - Dropped out
 - Graduated
+- Other (describe)""" ;
+    skos:definition """Describes the schooling status of students served by the organization during the reporting period.
+
+Choose all that apply:
+
+Enrollment status:
+- Enrolled
+- Not enrolled
+- Other (describe)
+
+Grade promotion:
+- Promoted to next year of schooling
+- Repeated year of schooling
+- Dropped out
+- Graduated
 - Other (describe)"""@en ;
-    cids:hasName "Schooling Status"@en .
+
+    cids:definedBy cids:giin ;
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> .
 
 :PI2251
     a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
+    org:hasName "Jobs Created at Directly Supported/Financed Enterprises: Low-Income Areas" ;
+    skos:prefLabel "Jobs Created at Directly Supported/Financed Enterprises: Low-Income Areas"@en ;
+    org:hasIdentifier "PI2251" ;
+    skos:notation "PI2251" ;
+    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/PI2251/> ;
     skos:note "Organizations should footnote all assumptions used, including how they identify low-income areas. Organizations that report data for more than one reporting period should be careful to very clearly footnote which they are using for this metric. See usage guidance for further information."@en ;
     skos:scopeNote """This metric is intended to capture jobs created at supported organizations and in low-income areas during the reporting period.
 
@@ -12383,186 +12735,255 @@ If there is significant seasonal variation in the number of workers, organizatio
 Organizations are encouraged to report other job-related metrics to assess the quality of jobs created. Examples of these include Worker Safety Policy (018001), Employment Benefits (OI2742), Employees Trained (OI4229), Flexible Work Arrangements (OI7983), and Employees: Minimum Wage (OI5858).
 
 In some contexts, this metric can serve as an indicator of whether the outcome being sought by an investor or organization is occurring (the WHAT dimension of impact). For more on the alignment of IRIS metrics to the five dimensions of impact, see IRIS+ and the Five Dimensions of Impact (https://iris.thegiin.org/document/iris-and-the-five-dimensions/). No single metric is sufficient to understand an impact; rather, metrics are selected as a set across all dimensions of impact. When possible, the selection of metrics to measure and describe the five dimensions should be based on best practice and evidence."""@en ;
-    org:hasIdentifier "PI2251" ;
-    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/PI2251/> ;
-    cids:definedBy cids:giin ;
     cids:hasDescription """Net number of new, full-time equivalent employees living in low-income areas and working for enterprises directly financed or supported by the organization during the reporting period.
 
+Many organizations select the beginning of the reporting period as the time when the organization began its support or investment.""" ;
+    skos:definition """Net number of new, full-time equivalent employees living in low-income areas and working for enterprises directly financed or supported by the organization during the reporting period.
+
 Many organizations select the beginning of the reporting period as the time when the organization began its support or investment."""@en ;
-    cids:hasName "Jobs Created at Directly Supported/Financed Enterprises: Low-Income Areas"@en .
+
+    cids:definedBy cids:giin ;
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> .
 
 :PI2302
     a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
+    org:hasName "Payments to Supplier Individuals: Female" ;
+    skos:prefLabel "Payments to Supplier Individuals: Female"@en ;
+    cids:hasDescription "Value of payments made by the organization to female individuals who sold goods or services to the organization during the reporting period." ;
+    skos:definition "Value of payments made by the organization to female individuals who sold goods or services to the organization during the reporting period."@en ;
+    org:hasIdentifier "PI2302" ;
+    skos:notation "PI2302" ;
+    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/PI2302/> ;
     skos:note "Organizations should footnote all assumptions used."@en ;
     skos:scopeNote "This metric is intended to capture how organizations support the livelihoods of female individuals through their supply chains."@en ;
-    org:hasIdentifier "PI2302" ;
-    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/PI2302/> ;
+
     cids:definedBy cids:giin ;
-    cids:hasDescription "Value of payments made by the organization to female individuals who sold goods or services to the organization during the reporting period."@en ;
-    cids:hasName "Payments to Supplier Individuals: Female"@en .
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> .
 
 :PI2389
     a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
+    org:hasName "School Enrollment: Total" ;
+    skos:prefLabel "School Enrollment: Total"@en ;
+    cids:hasDescription "Number of students enrolled as of the end of the reporting period, both full- and part-time, with each discrete student counted once regardless of their number of courses." ;
+    skos:definition "Number of students enrolled as of the end of the reporting period, both full- and part-time, with each discrete student counted once regardless of their number of courses."@en ;
+    org:hasIdentifier "PI2389" ;
+    skos:notation "PI2389" ;
+    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/PI2389/> ;
     skos:note "Organizations should footnote all assumptions used, as well as a breakdown of full- and part-time students."@en ;
     skos:scopeNote """This metric is intended to capture the number of students enrolled at the school as of the end of the reporting period, including both full- and part-time students. Each discrete student is counted once, regardless of the number of courses taken.
 
 These data may be most effectively collected through either school reporting (for private schools) or through reporting (for public schools).
 
 This metric is multi-dimensional with regard to the five dimensions of impact. It may help describe the WHO dimension when the stakeholder group represented by the metric is the stakeholder group targeted by the investment or organization. It may also help measure the HOW MUCH Scale dimension, which helps estimate the number of the targeted stakeholders experiencing the outcome. For more on the alignment of IRIS metrics to the five dimensions of impact, see IRIS+ and the Five Dimensions of Impact (https://iris.thegiin.org/document/iris-and-the-five-dimensions/). No single metric is sufficient to understand an impact; rather, metrics are selected as a set across all dimensions of impact. When possible, the selection of metrics to measure and describe the five dimensions should be based on best practice and evidence."""@en ;
-    org:hasIdentifier "PI2389" ;
-    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/PI2389/> ;
+
     cids:definedBy cids:giin ;
-    cids:hasDescription "Number of students enrolled as of the end of the reporting period, both full- and part-time, with each discrete student counted once regardless of their number of courses."@en ;
-    cids:hasName "School Enrollment: Total"@en .
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> .
 
 :PI2410
     a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
+    org:hasName "Value of Community Facilities Financed" ;
+    skos:prefLabel "Value of Community Facilities Financed"@en ;
+    cids:hasDescription "Value of community facilities projected to be built, renovated, or purchased as a result of investments made by the organization during the reporting period." ;
+    skos:definition "Value of community facilities projected to be built, renovated, or purchased as a result of investments made by the organization during the reporting period."@en ;
+    org:hasIdentifier "PI2410" ;
+    skos:notation "PI2410" ;
+    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/PI2410/> ;
     skos:note "Organizations should footnote all assumptions used."@en ;
     skos:scopeNote """This metric is intended to capture the value of investments made by the organization during the reporting period to construct, renovate, or purchase new community facilities. It should not include the value of the actual housing units themselves.
 
 A community facility provides services to the local community. Examples include health and medical clinics, health-treatment facilities, schools, arts and other cultural facilities, daycare facilities (adult and youth), and community sports facilities."""@en ;
-    org:hasIdentifier "PI2410" ;
-    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/PI2410/> ;
+
     cids:definedBy cids:giin ;
-    cids:hasDescription "Value of community facilities projected to be built, renovated, or purchased as a result of investments made by the organization during the reporting period."@en ;
-    cids:hasName "Value of Community Facilities Financed"@en .
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> .
 
 :PI2422
     a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
+    org:hasName "Units/Volume Purchased at Price Premium" ;
+    skos:prefLabel "Units/Volume Purchased at Price Premium"@en ;
+    cids:hasDescription "Units/volume from individuals and organizations that sold to the organization and that have received a price premium during the reporting period." ;
+    skos:definition "Units/volume from individuals and organizations that sold to the organization and that have received a price premium during the reporting period."@en ;
+    org:hasIdentifier "PI2422" ;
+    skos:notation "PI2422" ;
+    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/PI2422/> ;
     skos:note "Organizations should footnote all assumptions used, including source of data."@en ;
     skos:scopeNote """This metric is intended to capture the quantity of goods purchased by the reporting organization at a price premium.
 
 When possible, organizations are encouraged to report this metric in conjunction with Producer Price Premium (PI1568), which measures the percentage premium suppliers receive by selling to the organization."""@en ;
-    org:hasIdentifier "PI2422" ;
-    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/PI2422/> ;
+
     cids:definedBy cids:giin ;
-    cids:hasDescription "Units/volume from individuals and organizations that sold to the organization and that have received a price premium during the reporting period."@en ;
-    cids:hasName "Units/Volume Purchased at Price Premium"@en .
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> .
 
 :PI2476
     a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
+    org:hasName "Communities Served" ;
+    skos:prefLabel "Communities Served"@en ;
+    cids:hasDescription "Number of communities where the organization's products and services were available during the reporting period." ;
+    skos:definition "Number of communities where the organization's products and services were available during the reporting period."@en ;
+    org:hasIdentifier "PI2476" ;
+    skos:notation "PI2476" ;
+    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/PI2476/> ;
     skos:note "Organizations should footnote their definition of community and all assumptions used, including source of data. See usage guidance for further information."@en ;
     skos:scopeNote "This metric is intended to capture the number of communities the organization serves, determined through various methods. For example, some organizations can use the number of open branches as an accurate proxy for the number of communities served."@en ;
-    org:hasIdentifier "PI2476" ;
-    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/PI2476/> ;
+
     cids:definedBy cids:giin ;
-    cids:hasDescription "Number of communities where the organization's products and services were available during the reporting period."@en ;
-    cids:hasName "Communities Served"@en .
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> .
 
 :PI2491
     a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
+    org:hasName "Number of Housing Units Constructed" ;
+    skos:prefLabel "Number of Housing Units Constructed"@en ;
+    cids:hasDescription "Number of housing units constructed by the organization during the reporting period." ;
+    skos:definition "Number of housing units constructed by the organization during the reporting period."@en ;
+    org:hasIdentifier "PI2491" ;
+    skos:notation "PI2491" ;
+    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/PI2491/> ;
     skos:note "Organizations should footnote all assumptions used. See usage guidance for further information."@en ;
     skos:scopeNote "This metric is intended to capture the gross number of housing units constructed in both single- and multi-family buildings. Organizations are also encouraged to footnote the net number of housing units constructed (by subtracting from the gross number any housing units lost during the previous reporting period), additionally footnoting relevant details. Organizations should only report housing units the construction of which has already been completed, not those financed and still under construction."@en ;
-    org:hasIdentifier "PI2491" ;
-    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/PI2491/> ;
+
     cids:definedBy cids:giin ;
-    cids:hasDescription "Number of housing units constructed by the organization during the reporting period."@en ;
-    cids:hasName "Number of Housing Units Constructed"@en .
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> .
 
 :PI2538
     a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
+    org:hasName "Length of Coastline Restored" ;
+    skos:prefLabel "Length of Coastline Restored"@en ;
+    cids:hasDescription "Length of marine or freshwater coastline under management for ecological restoration on protected land, land under sustainable stewardship, or land under sustainable cultivation during the reporting period." ;
+    skos:definition "Length of marine or freshwater coastline under management for ecological restoration on protected land, land under sustainable stewardship, or land under sustainable cultivation during the reporting period."@en ;
+    org:hasIdentifier "PI2538" ;
+    skos:notation "PI2538" ;
+    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/PI2538/> ;
     skos:note "Organizations should footnote all assumptions used, as well as relevant ecological restoration activities undertaken during the reporting period."@en ;
     skos:scopeNote """This metric is intended to capture the entire length of coastline the organization is working to restore during the reporting period, not just any additional length of coastline that began restoration during the reporting period.
 
 Climate change raises sea levels and intensifies storms, and coast erosion and land loss are a consequence. Restoring reefs, mangroves, and other stabilizing and wave-mitigating infrastructure can help create climate-resilient coasts. Protecting aquatic ecosystems near coastlines also counters the biodiversity decline threatened by the degrading effects of land use changes, pollutants, and invasive species.
 
 Organizations can refer to the glossary for additional information on ecological restoration."""@en ;
-    org:hasIdentifier "PI2538" ;
-    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/PI2538/> ;
+
     cids:definedBy cids:giin ;
-    cids:hasDescription "Length of marine or freshwater coastline under management for ecological restoration on protected land, land under sustainable stewardship, or land under sustainable cultivation during the reporting period."@en ;
-    cids:hasName "Length of Coastline Restored"@en .
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> .
 
 :PI2551
     a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
+    org:hasName "Earnings of Distributor Individuals: Female" ;
+    skos:prefLabel "Earnings of Distributor Individuals: Female"@en ;
+    cids:hasDescription "Earnings of female individual distributors as a result of selling the organization’s products/services during the reporting period." ;
+    skos:definition "Earnings of female individual distributors as a result of selling the organization’s products/services during the reporting period."@en ;
+    org:hasIdentifier "PI2551" ;
+    skos:notation "PI2551" ;
+    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/PI2551/> ;
     skos:note "Organizations should footnote all assumptions used."@en ;
     skos:scopeNote "This metric is intended to capture the total gross margin earned by, or commission paid to, individual female distributors, a measure of how organizations support the livelihoods of women through their distribution chains."@en ;
-    org:hasIdentifier "PI2551" ;
-    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/PI2551/> ;
+
     cids:definedBy cids:giin ;
-    cids:hasDescription "Earnings of female individual distributors as a result of selling the organization’s products/services during the reporting period."@en ;
-    cids:hasName "Earnings of Distributor Individuals: Female"@en .
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> .
 
 :PI2566
     a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
+    org:hasName "Supplier Individuals: Rural" ;
+    skos:prefLabel "Supplier Individuals: Rural"@en ;
+    cids:hasDescription "Number of individuals residing in rural areas who sold goods or services to the organization during the reporting period." ;
+    skos:definition "Number of individuals residing in rural areas who sold goods or services to the organization during the reporting period."@en ;
+    org:hasIdentifier "PI2566" ;
+    skos:notation "PI2566" ;
+    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/PI2566/> ;
     skos:note "Organizations should footnote all assumptions used."@en ;
     skos:scopeNote """This metric is intended to capture how organizations support the livelihoods of individuals residing in rural areas through their supply chains.
 
 This metric is multi-dimensional with regard to the five dimensions of impact: it may help describe the WHO dimension when the stakeholder group represented by the metric is the stakeholder group targeted by the investment or organization. It may also help measure the HOW MUCH Scale dimension, which helps estimate the number of the targeted stakeholders experiencing the outcome. For more on the alignment of IRIS metrics to the five dimensions of impact, see IRIS+ and the Five Dimensions of Impact (https://iris.thegiin.org/document/iris-and-the-five-dimensions/). No single metric is sufficient to understand an impact; rather, metrics are selected as a set across all dimensions of impact. When possible, the selection of metrics to measure and describe the five dimensions should be based on best practice and evidence."""@en ;
-    org:hasIdentifier "PI2566" ;
-    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/PI2566/> ;
+
     cids:definedBy cids:giin ;
-    cids:hasDescription "Number of individuals residing in rural areas who sold goods or services to the organization during the reporting period."@en ;
-    cids:hasName "Supplier Individuals: Rural"@en .
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> .
 
 :PI2575
     a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
+    org:hasName "Client Organizations: Provided New Access" ;
+    skos:prefLabel "Client Organizations: Provided New Access"@en ;
+    org:hasIdentifier "PI2575" ;
+    skos:notation "PI2575" ;
+    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/PI2575/> ;
     skos:note "Organizations should footnote all assumptions used, including source of data. Organizations should also footnote the types of enterprises that were clients, using Client Type (PD7993)."@en ;
     skos:scopeNote """This metric is intended to capture the number of unique client organizations (enterprises) of the reporting organization that gained new access to products and services during the reporting period that they could not otherwise access prior to the reporting period. Organizations are encouraged to footnote details of how they expanded access to products and services.
 
 This metric is multi-dimensional with regard to the five dimensions of impact. It may help describe the WHO dimension when the stakeholder group represented by the metric is the stakeholder group targeted by the investment or organization. It may also help measure the HOW MUCH Scale dimension, which helps estimate the number of the targeted stakeholders experiencing the outcome. For more on the alignment of IRIS metrics to the five dimensions of impact, see IRIS+ and the Five Dimensions of Impact (https://iris.thegiin.org/document/iris-and-the-five-dimensions/). No single metric is sufficient to understand an impact; rather, metrics are selected as a set across all dimensions of impact. When possible, the selection of metrics to measure and describe the five dimensions should be based on best practice and evidence."""@en ;
-    org:hasIdentifier "PI2575" ;
-    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/PI2575/> ;
-    cids:definedBy cids:giin ;
     cids:hasDescription """Number of enterprise clients that were served by the organization and provided access, during the reporting period, to products/services they were unable to access prior to the reporting period.
 
+For further clarification, organizations should reference New Access to Water, New Access to Energy, New Access to Education, New Access to Finance, or New Access to Healthcare in the glossary.""" ;
+    skos:definition """Number of enterprise clients that were served by the organization and provided access, during the reporting period, to products/services they were unable to access prior to the reporting period.
+
 For further clarification, organizations should reference New Access to Water, New Access to Energy, New Access to Education, New Access to Finance, or New Access to Healthcare in the glossary."""@en ;
-    cids:hasName "Client Organizations: Provided New Access"@en .
+
+    cids:definedBy cids:giin ;
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> .
 
 :PI2594
     a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
+    org:hasName "Earnings of Distributor Individuals: Low Income" ;
+    skos:prefLabel "Earnings of Distributor Individuals: Low Income"@en ;
+    cids:hasDescription "Earnings of low-income individual distributors as a result of selling the organization’s products/services during the reporting period." ;
+    skos:definition "Earnings of low-income individual distributors as a result of selling the organization’s products/services during the reporting period."@en ;
+    org:hasIdentifier "PI2594" ;
+    skos:notation "PI2594" ;
+    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/PI2594/> ;
     skos:note "Organizations should footnote all assumptions used, including details on the assessment tools used to identify low-income distributors. See usage guidance for further information."@en ;
     skos:scopeNote """This metric is intended to capture the total gross margin earned by, or commission paid to, individual low-income distributors, a measure of how organizations support the livelihoods of low-income individuals through their distribution chains.
 
 The population classified as low income includes all those who fall below a fixed threshold, which includes those classified as poor or very poor. Because assessing the poverty level of distributors is complex, organizations will likely use specific assessment tools to accurately report on this metric. See the glossary definition for additional information on commonly used tools to help determine the absolute poverty level of individuals and households."""@en ;
-    org:hasIdentifier "PI2594" ;
-    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/PI2594/> ;
+
     cids:definedBy cids:giin ;
-    cids:hasDescription "Earnings of low-income individual distributors as a result of selling the organization’s products/services during the reporting period."@en ;
-    cids:hasName "Earnings of Distributor Individuals: Low Income"@en .
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> .
 
 :PI2640
     a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
+    org:hasName "Individuals Housed" ;
+    skos:prefLabel "Individuals Housed"@en ;
+    cids:hasDescription "Number of individuals projected to be housed in single- or multi-family dwellings as a result of new construction, loans, repairs, or remodeling resulting from investments made by the organization during the reporting period." ;
+    skos:definition "Number of individuals projected to be housed in single- or multi-family dwellings as a result of new construction, loans, repairs, or remodeling resulting from investments made by the organization during the reporting period."@en ;
+    org:hasIdentifier "PI2640" ;
+    skos:notation "PI2640" ;
+    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/PI2640/> ;
     skos:note "Organizations should footnote all assumptions used."@en ;
     skos:scopeNote """This metric is intended to capture a projection of individuals housed based on assumptions, which should be footnoted; organizations that can collect direct counts of tenants or residents should instead use Client Individuals: Total (PI4060).
 
 Organizations are encouraged to estimate the number of target stakeholders in their annual or impact reports. For example, the City of New York included the numbers of potential buyers or users of affordable housing in their \"Five-Borough, Ten-Year Plan.\"
 
 This metric is multi-dimensional with regard to the five dimensions of impact: it may help describe the WHO dimension when the stakeholder group represented by the metric is the stakeholder group targeted by the investment or organization. It may also help measure the HOW MUCH Scale dimension, which helps estimate the number of the targeted stakeholders experiencing the outcome. For more on the alignment of IRIS metrics to the five dimensions of impact, see IRIS+ and the Five Dimensions of Impact (https://iris.thegiin.org/document/iris-and-the-five-dimensions/). No single metric is sufficient to understand an impact; rather, metrics are selected as a set across all dimensions of impact. When possible, the selection of metrics to measure and describe the five dimensions should be based on best practice and evidence."""@en ;
-    org:hasIdentifier "PI2640" ;
-    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/PI2640/> ;
+
     cids:definedBy cids:giin ;
-    cids:hasDescription "Number of individuals projected to be housed in single- or multi-family dwellings as a result of new construction, loans, repairs, or remodeling resulting from investments made by the organization during the reporting period."@en ;
-    cids:hasName "Individuals Housed"@en .
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> .
 
 :PI2688
     a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
+    org:hasName "Jobs Maintained at Directly Supported/Financed Enterprises: Low-Income Areas" ;
+    skos:prefLabel "Jobs Maintained at Directly Supported/Financed Enterprises: Low-Income Areas"@en ;
+    org:hasIdentifier "PI2688" ;
+    skos:notation "PI2688" ;
+    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/PI2688/> ;
     skos:note "Organizations should footnote all assumptions used, including how they identify low-income areas. Organizations that report data for more than one reporting period should be careful to very clearly footnote which they are using for this metric. See usage guidance for further information."@en ;
     skos:scopeNote """This metric is intended to capture jobs in low-income areas maintained during the reporting period at directly supported or financed enterprises.
 
@@ -12581,76 +13002,105 @@ If there is significant seasonal variation in the number of workers, organizatio
 Organizations are encouraged to report other job-related metrics to assess the quality of jobs created. Examples of these include Worker Safety Policy (018001), Employment Benefits (OI2742), Employees Trained (OI4229), Flexible Work Arrangements (OI7983), and Employees: Minimum Wage (OI5858).
 
 This metric is multi-dimensional with regard to the five dimensions of impact: it may help describe the WHO dimension when the stakeholder group represented by the metric is the stakeholder group targeted by the investment or organization. It may also help measure the HOW MUCH Scale dimension, which helps estimate the number of the targeted stakeholders experiencing the outcome.  For more on the alignment of IRIS metrics to the five dimensions of impact, see IRIS+ and the Five Dimensions of Impact (https://iris.thegiin.org/document/iris-and-the-five-dimensions/). No single metric is sufficient to understand an impact; rather, metrics are selected as a set across all dimensions of impact. When possible, the selection of metrics to measure and describe the five dimensions should be based on best practice and evidence."""@en ;
-    org:hasIdentifier "PI2688" ;
-    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/PI2688/> ;
-    cids:definedBy cids:giin ;
     cids:hasDescription """Number of full-time equivalent employees who reside in low-income areas and work for enterprises directly financed or supported by the organization at the beginning of the reporting period and who remain at the organization as of the end of the reporting period.
 
+Many organizations select the beginning of the reporting period as the time when the organization began its support or investment.""" ;
+    skos:definition """Number of full-time equivalent employees who reside in low-income areas and work for enterprises directly financed or supported by the organization at the beginning of the reporting period and who remain at the organization as of the end of the reporting period.
+
 Many organizations select the beginning of the reporting period as the time when the organization began its support or investment."""@en ;
-    cids:hasName "Jobs Maintained at Directly Supported/Financed Enterprises: Low-Income Areas"@en .
+
+    cids:definedBy cids:giin ;
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> .
 
 :PI2718
     a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
+    org:hasName "School Fees" ;
+    skos:prefLabel "School Fees"@en ;
+    cids:hasDescription "Average school fees per student per month during the reporting period." ;
+    skos:definition "Average school fees per student per month during the reporting period."@en ;
+    org:hasIdentifier "PI2718" ;
+    skos:notation "PI2718" ;
+    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/PI2718/> ;
     skos:note "Organizations should footnote all assumptions used."@en ;
     skos:scopeNote "This metric is intended to capture the affordability of education, which is a component of access."@en ;
-    org:hasIdentifier "PI2718" ;
-    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/PI2718/> ;
+
     cids:definedBy cids:giin ;
-    cids:hasDescription "Average school fees per student per month during the reporting period."@en ;
-    cids:hasName "School Fees"@en .
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> .
 
 :PI2758
     a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
+    org:hasName "Distributor Individuals: Total" ;
+    skos:prefLabel "Distributor Individuals: Total"@en ;
+    cids:hasDescription "Number of individuals who served as distributors of the organization’s products/services during the reporting period." ;
+    skos:definition "Number of individuals who served as distributors of the organization’s products/services during the reporting period."@en ;
+    org:hasIdentifier "PI2758" ;
+    skos:notation "PI2758" ;
+    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/PI2758/> ;
     skos:note "Organizations should footnote all assumptions used."@en ;
     skos:scopeNote """This metric is intended to capture how many self-employed individuals sold the organization’s products or services, either to other distributors (wholesale) or to ultimate consumers (retail), during the reporting period. Organizations wishing to report on distributor organizations should instead use Distributor Organizations: Total (PI1060) and its related submetrics.
 
 Distributors need not exclusively sell the organization’s products or services. Direct employees who distribute the organization’s goods or services should be considered employees, not distributors.
 
 This metric is multi-dimensional with regard to the five dimensions of impact: it may help describe the WHO dimension when the stakeholder group represented by the metric is the stakeholder group targeted by the investment or organization. It may also help measure the HOW MUCH Scale dimension, which helps estimate the number of the targeted stakeholders experiencing the outcome. For more on the alignment of IRIS metrics to the five dimensions of impact, see IRIS+ and the Five Dimensions of Impact (https://iris.thegiin.org/document/iris-and-the-five-dimensions/). No single metric is sufficient to understand an impact; rather, metrics are selected as a set across all dimensions of impact. When possible, the selection of metrics to measure and describe the five dimensions should be based on best practice and evidence."""@en ;
-    org:hasIdentifier "PI2758" ;
-    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/PI2758/> ;
+
     cids:definedBy cids:giin ;
-    cids:hasDescription "Number of individuals who served as distributors of the organization’s products/services during the reporting period."@en ;
-    cids:hasName "Distributor Individuals: Total"@en .
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> .
 
 :PI2764
     a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
+    org:hasName "Greenhouse Gas Emissions Avoided" ;
+    skos:prefLabel "Greenhouse Gas Emissions Avoided"@en ;
+    cids:hasDescription "Amount of greenhouse gas (GHG) emissions avoided by the organization during the reporting period." ;
+    skos:definition "Amount of greenhouse gas (GHG) emissions avoided by the organization during the reporting period."@en ;
+    org:hasIdentifier "PI2764" ;
+    skos:notation "PI2764" ;
+    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/PI2764/> ;
     skos:note "Organizations should footnote all assumptions used, including detailed information on calculation methodology and source of data. See usage guidance for further information."@en ;
     skos:scopeNote """This metric is intended to capture the total amount of GHG emissions that were avoided by the organization during the reporting period. Organizations should use this metric in combination with Greenhouse Gas Emissions Mitigation Types (OI9839) in order to disaggregate the types of GHG emissions avoided that are relevant to the organization's activities.
 
 This metric refers to GHG emissions avoided during the reporting period. GHG emissions avoidance is typically attributed to product replacement; organizations can therefore use this metric in conjunction with Greenhouse Gas Emissions of Product (PD9427) and Greenhouse Gas Emissions of Product Replaced (PD2243).
 
 This metric is multi-dimensional with regard to the five dimensions of impact. In some contexts, this metric can serve as an indicator of whether the outcome being sought by an investor or organization is occurring (the WHAT dimension of impact). It may also help measure the HOW MUCH Scale dimension, which helps estimate the number of the targeted stakeholders experiencing the outcome. For more on the alignment of IRIS metrics to the five dimensions of impact, see IRIS+ and the Five Dimensions of Impact (https://iris.thegiin.org/document/iris-and-the-five-dimensions/). No single metric is sufficient to understand an impact; rather, metrics are selected as a set across all dimensions of impact. When possible, the selection of metrics to measure and describe the five dimensions should be based on best practice and evidence."""@en ;
-    org:hasIdentifier "PI2764" ;
-    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/PI2764/> ;
+
     cids:definedBy cids:giin ;
-    cids:hasDescription "Amount of greenhouse gas (GHG) emissions avoided by the organization during the reporting period."@en ;
-    cids:hasName "Greenhouse Gas Emissions Avoided"@en .
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> .
 
 :PI2771
     a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
+    org:hasName "Food Insecurity Experience" ;
+    skos:prefLabel "Food Insecurity Experience"@en ;
+    cids:hasDescription "Score describing the experienced severity of food security among a set of stakeholders defined by another metric or set. See usage guidance for further detail and resources." ;
+    skos:definition "Score describing the experienced severity of food security among a set of stakeholders defined by another metric or set. See usage guidance for further detail and resources."@en ;
+    org:hasIdentifier "PI2771" ;
+    skos:notation "PI2771" ;
+    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/PI2771/> ;
     skos:note "Organizations should footnote all assumptions used."@en ;
     skos:scopeNote """This metric is intended to capture the adequacy of target stakeholders’ access to food by asking them directly about their experiences. Organizations should apply this metric to a metric or set of metrics that defines the relevant set of target stakeholders. For example, some organizations might report Client Households: Total (PI7954), disaggregated by relevant options from Target Stakeholder Demographics (PD5752). Other organizations with a different target stakeholder might instead apply this metric to Supplier Individuals: Total (PI5350).
 
 This indicator is based on and refers to the Food Insecurity Experience Scale (FIES) developed by FAO’s Voices of the Hungry Project. The FIES is an experience-based measure of food insecurity severity that relies on people’s direct responses to questions about their experiences facing constrained access to food. The FIES can be used to estimate the prevalence of food insecurity at different levels of severity, which is key information for implementing policies that aim to realize the human right to food. The FIES Survey Module (FIES-SM) comprises eight questions regarding people's access to adequate food and can be easily integrated into various types of surveys. For more on FIES, including the questions translated into over 170 languages, link to SDG 2.1.2, and free data analysis tools, see FAO’s FIES website (https://www.fao.org/in-action/voices-of-the-hungry/background/en/). Additional information can be found at INDDEX (https://inddex.nutrition.tufts.edu/data4diets/indicator/food-insecurity-experience-scale-fies)."""@en ;
-    org:hasIdentifier "PI2771" ;
-    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/PI2771/> ;
+
     cids:definedBy cids:giin ;
-    cids:hasDescription "Score describing the experienced severity of food security among a set of stakeholders defined by another metric or set. See usage guidance for further detail and resources."@en ;
-    cids:hasName "Food Insecurity Experience"@en .
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> .
 
 :PI2787
     a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
+    org:hasName "Greenhouse Gas Emissions Avoided Due to Carbon Offsets Sold" ;
+    skos:prefLabel "Greenhouse Gas Emissions Avoided Due to Carbon Offsets Sold"@en ;
+    cids:hasDescription "Amount of greenhouse gas (GHG) emissions avoided through carbon credits sold during the reporting period." ;
+    skos:definition "Amount of greenhouse gas (GHG) emissions avoided through carbon credits sold during the reporting period."@en ;
+    org:hasIdentifier "PI2787" ;
+    skos:notation "PI2787" ;
+    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/PI2787/> ;
     skos:note "Organizations should footnote relevant details on the carbon offsets sold, along with the assumptions and methodologies used in calculating the emissions avoided. See usage guidance for further information."@en ;
     skos:scopeNote """This metric is intended to capture the amount of greenhouse gas (GHG) emissions avoided through the organization’s sale of carbon credits during the reporting period. The same data captured through this metric can also be captured through a combination of Greenhouse Gas Emissions Mitigation Types (OI9839) and Greenhouse Gas Emissions Avoided or Reduced (PI2764).
 
@@ -12659,16 +13109,19 @@ Examples of relevant details to footnote include the methodology used to quantif
 A number of methodologies offer detailed procedures for quantifying the real GHG benefits of a project, along with guidance to help project developers determine project boundaries, set baselines, assess additionality, and ultimately quantify the GHG emissions that were reduced or removed. For more information and examples, see the Verified Carbon Standard (http://www.v-c-s.org/methodologies/what-methodology).
 
 In some contexts, this metric can serve as an indicator of whether the outcome being sought by an investor or organization is occurring (the WHAT dimension of impact). For more on the alignment of IRIS metrics to the five dimensions of impact, see IRIS+ and the Five Dimensions of Impact (https://iris.thegiin.org/document/iris-and-the-five-dimensions/). No single metric is sufficient to understand an impact; rather, metrics are selected as a set across all dimensions of impact. When possible, the selection of metrics to measure and describe the five dimensions should be based on best practice and evidence."""@en ;
-    org:hasIdentifier "PI2787" ;
-    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/PI2787/> ;
+
     cids:definedBy cids:giin ;
-    cids:hasDescription "Amount of greenhouse gas (GHG) emissions avoided through carbon credits sold during the reporting period."@en ;
-    cids:hasName "Greenhouse Gas Emissions Avoided Due to Carbon Offsets Sold"@en .
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> .
 
 :PI2822
     a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
+    org:hasName "Client Individuals: Provided New Access" ;
+    skos:prefLabel "Client Individuals: Provided New Access"@en ;
+    org:hasIdentifier "PI2822" ;
+    skos:notation "PI2822" ;
+    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/PI2822/> ;
     skos:note "Organizations should footnote all assumptions used, including source of data. See usage guidance for further information."@en ;
     skos:scopeNote """This metric is intended to capture the number of unique clients who received the organization’s products or services during the reporting period and who were unable to access these products and services from organizations in periods prior. See glossary for further guidance.
 
@@ -12681,64 +13134,90 @@ Many organizations may not be able to report on the number of clients using dire
 For healthcare providers, “client individuals” refers to patients. For housing providers, “client individuals” refers to residents or tenants.
 
 This metric is multi-dimensional with regard to the five dimensions of impact It may help describe the WHO dimension when the stakeholder group represented by the metric is the stakeholder group targeted by the investment or organization. It may also help measure the HOW MUCH Scale dimension, which helps estimate the number of the targeted stakeholders experiencing the outcome. For more on the alignment of IRIS metrics to the five dimensions of impact, see IRIS+ and the Five Dimensions of Impact (https://iris.thegiin.org/document/iris-and-the-five-dimensions/). No single metric is sufficient to understand an impact; rather, metrics are selected as a set across all dimensions of impact. When possible, the selection of metrics to measure and describe the five dimensions should be based on best practice and evidence."""@en ;
-    org:hasIdentifier "PI2822" ;
-    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/PI2822/> ;
-    cids:definedBy cids:giin ;
     cids:hasDescription """Number of unique client individuals who were served by the organization and provided access, during the reporting period, to products/services they were unable to access prior to the reporting period.
 
+For further clarification, organizations should reference New Access to Water, New Access to Energy, New Access to Education, New Access to Finance, or New Access to Healthcare in the glossary.""" ;
+    skos:definition """Number of unique client individuals who were served by the organization and provided access, during the reporting period, to products/services they were unable to access prior to the reporting period.
+
 For further clarification, organizations should reference New Access to Water, New Access to Energy, New Access to Education, New Access to Finance, or New Access to Healthcare in the glossary."""@en ;
-    cids:hasName "Client Individuals: Provided New Access"@en .
+
+    cids:definedBy cids:giin ;
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> .
 
 :PI2845
     a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
+    org:hasName "Client Households: Provided New Access" ;
+    skos:prefLabel "Client Households: Provided New Access"@en ;
+    org:hasIdentifier "PI2845" ;
+    skos:notation "PI2845" ;
+    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/PI2845/> ;
     skos:note "Organizations should footnote all assumptions used, including source of data. See usage guidance for further information."@en ;
     skos:scopeNote """This metric is intended to capture the number of unique households that received the organization's products or services during the reporting period and that were unable to access these products and services from organizations in prior periods. Examples of organizations that might report against this metric include those that provide products such as clean cookstoves or water purification systems and those that provide services such as home weatherization. Organizations that provide goods and services at the individual level, such as vaccines or school lunches, may find it more appropriate to report against Client Individuals: Total (PI4060) and related submetrics.
 
 Many organizations may not be able to report on the number of client households using direct data. For example, organizations that sell water purification systems through a series of local network distributors might estimate the number of client households reached based on the number of units sold. Organizations should footnote details on how and why these assumptions were made.
 
 This metric is multi-dimensional with regard to the five dimensions of impact. It may help describe the WHO dimension when the stakeholder group represented by the metric is the stakeholder group targeted by the investment or organization. It may also help measure the HOW MUCH Scale dimension, which helps estimate the number of the targeted stakeholders experiencing the outcome. For more on the alignment of IRIS metrics to the five dimensions of impact, see IRIS+ and the Five Dimensions of Impact (https://iris.thegiin.org/document/iris-and-the-five-dimensions/). No single metric is sufficient to understand an impact; rather, metrics are selected as a set across all dimensions of impact. When possible, the selection of metrics to measure and describe the five dimensions should be based on best practice and evidence."""@en ;
-    org:hasIdentifier "PI2845" ;
-    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/PI2845/> ;
-    cids:definedBy cids:giin ;
     cids:hasDescription """Number of unique households that were clients of the organization and provided access, during the reporting period, to products/services they were unable to access prior to the reporting period.
 
+For further clarification, organizations should reference New Access to Water, New Access to Energy, New Access to Education, New Access to Finance, or New Access to Healthcare in the glossary.""" ;
+    skos:definition """Number of unique households that were clients of the organization and provided access, during the reporting period, to products/services they were unable to access prior to the reporting period.
+
 For further clarification, organizations should reference New Access to Water, New Access to Energy, New Access to Education, New Access to Finance, or New Access to Healthcare in the glossary."""@en ;
-    cids:hasName "Client Households: Provided New Access"@en .
+
+    cids:definedBy cids:giin ;
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> .
 
 :PI2884
     a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
+    org:hasName "Water Savings from Services Sold" ;
+    skos:prefLabel "Water Savings from Services Sold"@en ;
+    cids:hasDescription "Volume of water saved during the reporting period as a result of the organization's services sold." ;
+    skos:definition "Volume of water saved during the reporting period as a result of the organization's services sold."@en ;
+    org:hasIdentifier "PI2884" ;
+    skos:notation "PI2884" ;
+    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/PI2884/> ;
     skos:note "Organizations should footnote all assumptions used."@en ;
     skos:scopeNote """This metric is intended to capture the water savings to consumers from their purchase of the organization’s water-conservation offerings. For example, an organization that helps identify products and methods that conserve water (such as low-flow products, rain-collection devices, irrigation timers, or leak correctors) would report the total water savings to its clients resulting from these provided services.
 
 Organizations should take care to use the same reporting period for both the number of clients and the average water savings per client.
 
 In some contexts, this metric can serve as an indicator of whether the outcome being sought by an investor or organization is occurring (the WHAT dimension of impact). For more on the alignment of IRIS metrics to the five dimensions of impact, see IRIS+ and the Five Dimensions of Impact (https://iris.thegiin.org/document/iris-and-the-five-dimensions/). No single metric is sufficient to understand an impact; rather, metrics are selected as a set across all dimensions of impact. When possible, the selection of metrics to measure and describe the five dimensions should be based on best practice and evidence."""@en ;
-    org:hasIdentifier "PI2884" ;
-    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/PI2884/> ;
+
     cids:definedBy cids:giin ;
-    cids:hasDescription "Volume of water saved during the reporting period as a result of the organization's services sold."@en ;
-    cids:hasName "Water Savings from Services Sold"@en .
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> .
 
 :PI2888
     a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
+    org:hasName "Earnings of Distributor Organizations: SME" ;
+    skos:prefLabel "Earnings of Distributor Organizations: SME"@en ;
+    cids:hasDescription "Earnings of distributors that are small and medium-sized enterprises (SME) as a result of selling the organization’s products/services during the reporting period." ;
+    skos:definition "Earnings of distributors that are small and medium-sized enterprises (SME) as a result of selling the organization’s products/services during the reporting period."@en ;
+    org:hasIdentifier "PI2888" ;
+    skos:notation "PI2888" ;
+    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/PI2888/> ;
     skos:note "Organizations should footnote all assumptions used."@en ;
     skos:scopeNote "This metric is intended to capture the earnings, during the reporting period, of small and medium-sized enterprises (SMEs) that sold the organization’s products or services, either to other distributors (wholesale) or to end clients (retail). Distributors counted under this metric need not exclusively sell the organization’s products or services."@en ;
-    org:hasIdentifier "PI2888" ;
-    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/PI2888/> ;
+
     cids:definedBy cids:giin ;
-    cids:hasDescription "Earnings of distributors that are small and medium-sized enterprises (SME) as a result of selling the organization’s products/services during the reporting period."@en ;
-    cids:hasName "Earnings of Distributor Organizations: SME"@en .
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> .
 
 :PI2998
     a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
+    org:hasName "Individuals Trained: Total" ;
+    skos:prefLabel "Individuals Trained: Total"@en ;
+    cids:hasDescription "Number of individuals who received training offered by the organization during the reporting period." ;
+    skos:definition "Number of individuals who received training offered by the organization during the reporting period."@en ;
+    org:hasIdentifier "PI2998" ;
+    skos:notation "PI2998" ;
+    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/PI2998/> ;
     skos:note "Organizations should footnote the type and extent of the training provided, as well as who received that training. See usage guidance for further information."@en ;
     skos:scopeNote """This metric is intended to capture the number of individuals who received training services of any type from the organization during the reporting period. Examples include sessions on enterprise or business development, women’s empowerment, or diversity and inclusion, among other learning topics. Organizations should footnote details on the provided trainings.
 
@@ -12747,11 +13226,11 @@ Training may or may not be restricted to clients of the organization and may be 
 This metric may apply to organizations operating in microfinance or agriculture, as well as other sectors in which organizations often provide training to clients and other community members.
 
 This metric may help describe the HOW MUCH Scale dimension, which helps estimate the number of the targeted stakeholders experiencing the outcome. For more on the alignment of IRIS metrics to the five dimensions of impact, see IRIS+ and the Five Dimensions of Impact (https://iris.thegiin.org/document/iris-and-the-five-dimensions/). No single metric is sufficient to understand an impact; rather, metrics are selected as a set across all dimensions of impact. When possible, the selection of metrics to measure and describe the five dimensions should be based on best practice and evidence."""@en ;
-    org:hasIdentifier "PI2998" ;
-    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/PI2998/> ;
+
     cids:definedBy cids:giin ;
-    cids:hasDescription "Number of individuals who received training offered by the organization during the reporting period."@en ;
-    cids:hasName "Individuals Trained: Total"@en .
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> .
 
 :PI3009
     a skos:Concept, cids:Code ;
