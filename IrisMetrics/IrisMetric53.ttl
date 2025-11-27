@@ -1193,40 +1193,54 @@ Organizations are also encouraged to report the value of loans fully repaid on t
 
 :ID0120
     a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
+    org:hasName "Racial Equity Negative Screen" .
+    skos:prefLabel "Racial Equity Negative Screen"@en .
+    cids:hasDescription "Indicates whether the investing organization applied a racial equity–focused negative screen to all investments during the reporting period, including at least an analysis of potential harmful effects on communities historically marginalized due to race and/or ethnicity." ;
+    skos:definition "Indicates whether the investing organization applied a racial equity–focused negative screen to all investments during the reporting period, including at least an analysis of potential harmful effects on communities historically marginalized due to race and/or ethnicity."@en ;
+    org:hasIdentifier "ID0120" ;
+    skos:notation "ID0120" ;
+    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/ID0120/> ;
     skos:note "Organizations should footnote all assumptions used, including locally relevant definitions of historically marginalized groups due to race and/or ethnicity and which criteria led to exclusion from the portfolio."@en ;
     skos:scopeNote """This metric is intended to capture whether the investing organization screens potential investees for practices, policies, or outcomes that are harmful to groups historically marginalized due to race and/or ethnicity.
 
 For further guidance and examples, see the IRIS+ Racial Equity theme as well as Adasina Social Capital (https://adasina.com/investments/) and FreeCap Financial (https://www.freecapfinancial.com/).
 
 This metric aligns with the Corporate Racial Equity Alliance’s (https://corporateracialequityalliance.org/) Investor Blueprint for Racial Equity and CEO Blueprint for Racial Equity (https://corporateracialequityalliance.org/2021-blueprint)."""@en ;
-    org:hasIdentifier "ID0120" ;
-    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/ID0120/> ;
+
     cids:definedBy cids:giin ;
-    cids:hasDescription "Indicates whether the investing organization applied a racial equity–focused negative screen to all investments during the reporting period, including at least an analysis of potential harmful effects on communities historically marginalized due to race and/or ethnicity."@en ;
-    cids:hasName "Racial Equity Negative Screen"@en .
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> ;
 
 :ID1046
     a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
+    org:hasName "Racial Equity Audit" .
+    skos:prefLabel "Racial Equity Audit"@en .
+    cids:hasDescription "Indicates whether the organization completed a racial equity audit during the reporting period." ;
+    skos:definition "Indicates whether the organization completed a racial equity audit during the reporting period."@en ;
+    org:hasIdentifier "ID1046" ;
+    skos:notation "ID1046" ;
     skos:note "Organizations should footnote all assumptions used, including locally relevant definitions of historically marginalized groups due to race and/or ethnicity, what was included in the audit, and whether it was conducted by an independent third party."@en ;
     skos:scopeNote """This metric is intended to capture whether the organization completed a racial equity audit specifically during the reporting period. If the organization completed a racial equity audit before the reporting period began, organizations should select “No.” Organizations, and especially investing organizations, should complete racial equity audits regularly to guide both internal practices and external activities. The outcome of the audit should inform the organization's racial equity strategy by leading to an action plan, and the organization should promptly mitigate any inequities identified. For further guidance on racial equity audits, including tools, see the Resources tab in the IRIS+ Racial Equity theme. Organizations may also consult the Resources section of this metric for guidance on how racial equity audits can be most effective and what tools exist to support equity audits.
 
 Organizations should footnote details on how and by whom the audit was conducted. For further guidance and examples of racial equity audits, see Majority Action (https://www.racialjustice.majorityaction.us/racial-equity-auditing) and SOC Investment Group (https://www.socinvestmentgroup.com/racial-equity-audit).
 
 This metric aligns with the Corporate Racial Equity Alliance’s (https://corporateracialequityalliance.org/) Investor Blueprint for Racial Equity and CEO Blueprint for Racial Equity (https://corporateracialequityalliance.org/2021-blueprint)."""@en ;
-    org:hasIdentifier "ID1046" ;
-    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/ID1046/> ;
+
     cids:definedBy cids:giin ;
-    cids:hasDescription "Indicates whether the organization completed a racial equity audit during the reporting period."@en ;
-    cids:hasName "Racial Equity Audit"@en .
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> ;
 
 :ID8539
     a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
+    org:hasName "Bias-Reducing Investment Practices" .
+    skos:prefLabel "Bias-Reducing Investment Practices"@en .
+    cids:hasDescription "Describes practices the investing organization implemented during the reporting period to reduce biases in investment criteria, policies, and processes that have disproportionately negative effects on entrepreneurs who are from groups historically marginalized due to race and/or ethnicity. See usage guidance for specific practices to address." ;
+    skos:definition "Describes practices the investing organization implemented during the reporting period to reduce biases in investment criteria, policies, and processes that have disproportionately negative effects on entrepreneurs who are from groups historically marginalized due to race and/or ethnicity. See usage guidance for specific practices to address."@en ;
+    org:hasIdentifier "ID8539" ;
+    skos:notation "ID8539" ;
+    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/ID8539/> ;
     skos:note "Organizations should footnote all assumptions used, including progress on shifting practices and what further practices the organization is considering changing."@en ;
     skos:scopeNote """This metric is intended to describe bias-reducing investing practices employed by investors during the reporting period.
 
@@ -1252,16 +1266,21 @@ Specific practices for direct investors to describe, when applicable, include th
 For further guidance, organizations (and especially asset owners) should consult the Due Diligence 2.0 Commitment (https://www.duediligencecommitment.com/), from which much of the above list is drawn.  While common biased practices are included above, the list is not comprehensive. Investing organizations are strongly encouraged to include an assessment of their investment terms, policies, and practices as part of their regular racial equity audits.
 
 For further details on the specified practices in addition to the resources linked above, see the Curated Resources section of the IRIS+ Racial Equity Strategic Goal. This metric aligns with the Corporate Racial Equity Alliance’s (https://corporateracialequityalliance.org/) Investor Blueprint for Racial Equity."""@en ;
-    org:hasIdentifier "ID8539" ;
-    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/ID8539/> ;
+
     cids:definedBy cids:giin ;
-    cids:hasDescription "Describes practices the investing organization implemented during the reporting period to reduce biases in investment criteria, policies, and processes that have disproportionately negative effects on entrepreneurs who are from groups historically marginalized due to race and/or ethnicity. See usage guidance for specific practices to address."@en ;
-    cids:hasName "Bias-Reducing Investment Practices"@en .
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> ;
 
 :ID9449
     a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
+    org:hasName "Racial Equity Strategy" .
+    skos:prefLabel "Racial Equity Strategy"@en .
+    cids:hasDescription "Indicates whether the organization implements a strategy to set targets, drive progress toward, and report on racial equity goals." ;
+    skos:definition "Indicates whether the organization implements a strategy to set targets, drive progress toward, and report on racial equity goals."@en ;
+    org:hasIdentifier "ID9449" ;
+    skos:notation "ID9449" ;
+    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/ID9449/> ;
     skos:note "Organizations should footnote all assumptions used, including locally relevant definitions of historically marginalized groups due to race and/or ethnicity."@en ;
     skos:scopeNote """This metric is intended to capture whether the organization has a formal, stated strategy for setting goals (and associated time-bound targets), progressing toward, and reporting on racial equity.
 
@@ -1272,28 +1291,38 @@ For further guidance on what to include in a racial equity strategy, see the Res
 The organization's racial equity strategy should be informed by the outcome of periodic racial equity audits.
 
 This metric aligns with the Corporate Racial Equity Alliance’s (https://corporateracialequityalliance.org/) Investor Blueprint for Racial Equity and CEO Blueprint for Racial Equity (https://corporateracialequityalliance.org/2021-blueprint)."""@en ;
-    org:hasIdentifier "ID9449" ;
-    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/ID9449/> ;
+
     cids:definedBy cids:giin ;
-    cids:hasDescription "Indicates whether the organization implements a strategy to set targets, drive progress toward, and report on racial equity goals."@en ;
-    cids:hasName "Racial Equity Strategy"@en .
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> ;
 
 :ID9608
     a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
+    org:hasName "Assets Under Management: Total" .
+    skos:prefLabel "Assets Under Management: Total"@en .
+    cids:hasDescription "Value of the investing organization's total assets under management as of the end of the reporting period." ;
+    skos:definition "Value of the investing organization's total assets under management as of the end of the reporting period."@en ;
+    org:hasIdentifier "ID9608" ;
+    skos:notation "ID9608" ;
+    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/ID9608/> ;
     skos:note "Organizations should footnote all assumptions used."@en ;
     skos:scopeNote "This metric is intended to capture the value (in currency) of an investor's assets under management."@en ;
-    org:hasIdentifier "ID9608" ;
-    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/ID9608/> ;
+
     cids:definedBy cids:giin ;
-    cids:hasDescription "Value of the investing organization's total assets under management as of the end of the reporting period."@en ;
-    cids:hasName "Assets Under Management: Total"@en .
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> ;
 
 :II0324
     a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
+    org:hasName "Value of Capacity Building and Advisory Services Provided" .
+    skos:prefLabel "Value of Capacity Building and Advisory Services Provided"@en .
+    cids:hasDescription "Value of the investing organization's support for capacity-building efforts at investee companies as of the end of the reporting period." ;
+    skos:definition "Value of the investing organization's support for capacity-building efforts at investee companies as of the end of the reporting period."@en ;
+    org:hasIdentifier "II0324" ;
+    skos:notation "II0324" ;
+    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/II0324/> ;
     skos:note "Organizations should footnote all assumptions used."@en ;
     skos:scopeNote """This metric is intended to capture the value of the investing organization's support for capacity-building efforts at companies in their portfolio as of the end of the reporting period. Organizations should include only that support they paid for directly and should exclude any support funded by third parties.
 
@@ -1302,32 +1331,42 @@ Per the United Nations (https://www.un.org/en/academic-impact/capacity-building)
 For an example of how investors can provide capacity-building support to entrepreneurs, see \"Unleashing the Potential of Entrepreneurs of Color in Massachusetts: A Blueprint for Economic Growth and Equitable Recovery\" (https://massinc.org/research/entrepreneurs-of-color/).
 
 Used along with Target Stakeholder Demographic (PD5752) to specify historically marginalized groups due to race and/or ethnicity, this metric aligns with the Corporate Racial Equity Alliance’s (https://corporateracialequityalliance.org/) Investor Blueprint for Racial Equity and its corporate-focused CEO Blueprint for Racial Equity (https://corporateracialequityalliance.org/2021-blueprint)."""@en ;
-    org:hasIdentifier "II0324" ;
-    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/II0324/> ;
+
     cids:definedBy cids:giin ;
-    cids:hasDescription "Value of the investing organization's support for capacity-building efforts at investee companies as of the end of the reporting period."@en ;
-    cids:hasName "Value of Capacity Building and Advisory Services Provided"@en .
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> ;
 
 :II2107
     a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
+    org:hasName "Fund Managers: Considered for Investment" .
+    skos:prefLabel "Fund Managers: Considered for Investment"@en .
+    cids:hasDescription "Number of unique individuals affiliated with the organization who were candidates to manage client assets via funds and/or separate accounts during the reporting period." ;
+    skos:definition "Number of unique individuals affiliated with the organization who were candidates to manage client assets via funds and/or separate accounts during the reporting period."@en ;
+    org:hasIdentifier "II2107" ;
+    skos:notation "II2107" ;
+    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/II2107/> ;
     skos:note "Organizations should footnote all assumptions used."@en ;
     skos:scopeNote """This metric is intended to capture the number of financial professionals (individuals) affiliated with the organization who were candidates to manage money and securities—that is, those individuals in the pipeline—on behalf of one or more clients with the goal of growing the asset value. Organizations should count all individuals in the pipeline at any point during the reporting period, regardless of whether or not they made investments.
 
 Both indirectly and directly investing organizations may use this metric. For indirectly investing organizations (sometimes termed asset owners), this metric refers to the number of asset managers/fund managers that externally manage their assets. For directly investing organizations, this metric refers to the number of asset managers working within the organization to manage funds.
 
 Used along with Target Stakeholder Demographic (PD5752) to specify historically marginalized groups due to race and/or ethnicity, this metric aligns with the Corporate Racial Equity Alliance’s (https://corporateracialequityalliance.org/) Investor Blueprint for Racial Equity and its corporate-focused CEO Blueprint for Racial Equity (https://corporateracialequityalliance.org/2021-blueprint)."""@en ;
-    org:hasIdentifier "II2107" ;
-    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/II2107/> ;
+
     cids:definedBy cids:giin ;
-    cids:hasDescription "Number of unique individuals affiliated with the organization who were candidates to manage client assets via funds and/or separate accounts during the reporting period."@en ;
-    cids:hasName "Fund Managers: Considered for Investment"@en .
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> ;
 
 :II4910
     a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
+    org:hasName "Assets Under Management: Managed by Fund Managers from Historically Marginalized Groups" .
+    skos:prefLabel "Assets Under Management: Managed by Fund Managers from Historically Marginalized Groups"@en .
+    cids:hasDescription "Value of the investing organization's assets under management (AUM) invested with fund managers from groups historically marginalized due to race and/or ethnicity as of the end of the reporting period." ;
+    skos:definition "Value of the investing organization's assets under management (AUM) invested with fund managers from groups historically marginalized due to race and/or ethnicity as of the end of the reporting period."@en ;
+    org:hasIdentifier "II4910" ;
+    skos:notation "II4910" ;
+    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/II4910/> ;
     skos:note "Organizations should footnote all assumptions used, including locally relevant definitions of historically marginalized groups due to race and/or ethnicity."@en ;
     skos:scopeNote """This metric is intended to capture the amount of the organization’s capital that is managed by fund managers from groups historically marginalized due to race and/or ethnicity. Organizations are strongly encouraged to set quantitative, time-bound targets on this metric as a percentage of Assets Under Management: Total (ID9608) and to disclose these publicly.
 
@@ -1338,97 +1377,127 @@ Organizations must footnote contextual definitions of marginalized groups. For e
 These data can often be collected from the human resources department, though for accuracy organizations should ensure that data on racial and ethnic background are self-reported.
 
 Used along with Target Stakeholder Demographic (PD5752) to specify historically marginalized groups due to race and/or ethnicity, this metric aligns with the Corporate Racial Equity Alliance’s (https://corporateracialequityalliance.org/) Investor Blueprint for Racial Equity and its corporate-focused CEO Blueprint for Racial Equity (https://corporateracialequityalliance.org/2021-blueprint)."""@en ;
-    org:hasIdentifier "II4910" ;
-    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/II4910/> ;
+
     cids:definedBy cids:giin ;
-    cids:hasDescription "Value of the investing organization's assets under management (AUM) invested with fund managers from groups historically marginalized due to race and/or ethnicity as of the end of the reporting period."@en ;
-    cids:hasName "Assets Under Management: Managed by Fund Managers from Historically Marginalized Groups"@en .
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> ;
 
 :II5202
     a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
+    org:hasName "Companies Considered for Investment: Total" .
+    skos:prefLabel "Companies Considered for Investment: Total"@en .
+    cids:hasDescription "Number of companies the organization considered for investment—that is, in the pipeline—during the reporting period." ;
+    skos:definition "Number of companies the organization considered for investment—that is, in the pipeline—during the reporting period."@en ;
+    org:hasIdentifier "II5202" ;
+    skos:notation "II5202" ;
+    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/II5202/> ;
     skos:note "Organizations should footnote all assumptions used."@en ;
     skos:scopeNote """This metric is intended to capture the number of companies in the organization’s investing pipeline during the reporting period. Organizations should count all companies in the pipeline at any point during the reporting period, regardless of whether or not investment or the investment process proceeded.
 
 This metric aligns with the Corporate Racial Equity Alliance’s (https://corporateracialequityalliance.org/) Investor Blueprint for Racial Equity."""@en ;
-    org:hasIdentifier "II5202" ;
-    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/II5202/> ;
+
     cids:definedBy cids:giin ;
-    cids:hasDescription "Number of companies the organization considered for investment—that is, in the pipeline—during the reporting period."@en ;
-    cids:hasName "Companies Considered for Investment: Total"@en .
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> ;
 
 :II5889
     a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
+    org:hasName "Fund Managers: Total" .
+    skos:prefLabel "Fund Managers: Total"@en .
+    cids:hasDescription "Number of unique individuals affiliated with the organization who were managing client assets via funds and/or separate accounts as of the end of the reporting period." ;
+    skos:definition "Number of unique individuals affiliated with the organization who were managing client assets via funds and/or separate accounts as of the end of the reporting period."@en ;
+    org:hasIdentifier "II5889" ;
+    skos:notation "II5889" ;
+    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/II5889/> ;
     skos:note "Organizations should footnote all assumptions used."@en ;
     skos:scopeNote """This metric is intended to capture the number of financial professionals (individuals) affiliated with the organization who manage money and securities on behalf of one or more clients with the goal of growing the asset value.
 
 Both indirectly and directly investing organizations may use this metric. For indirectly investing organizations (sometimes termed asset owners), this metric refers to the number of asset managers/fund managers that externally manage their assets. For directly investing organizations, this metric refers to the number of asset managers working within the organization to manage funds.
 
 Used along with Target Stakeholder Demographic (PD5752) to specify historically marginalized groups due to race and/or ethnicity, this metric aligns with the Corporate Racial Equity Alliance’s (https://corporateracialequityalliance.org/) Investor Blueprint for Racial Equity and its corporate-focused CEO Blueprint for Racial Equity (https://corporateracialequityalliance.org/2021-blueprint)."""@en ;
-    org:hasIdentifier "II5889" ;
-    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/II5889/> ;
+
     cids:definedBy cids:giin ;
-    cids:hasDescription "Number of unique individuals affiliated with the organization who were managing client assets via funds and/or separate accounts as of the end of the reporting period."@en ;
-    cids:hasName "Fund Managers: Total"@en .
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> ;
 
 :II6610
     a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
+    org:hasName "Value of Investments in Communities Historically Marginalized Due to Race and/or Ethnicity" .
+    skos:prefLabel "Value of Investments in Communities Historically Marginalized Due to Race and/or Ethnicity"@en .
+    cids:hasDescription "Value of the investing organization's assets under management deployed to communities that are predominantly populated by groups historically marginalized due to race and/or ethnicity as of the end of the reporting period." ;
+    skos:definition "Value of the investing organization's assets under management deployed to communities that are predominantly populated by groups historically marginalized due to race and/or ethnicity as of the end of the reporting period."@en ;
+    org:hasIdentifier "II6610" ;
+    skos:notation "II6610" ;
+    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/II6610/> ;
     skos:note "Organizations should footnote all assumptions used, including locally relevant definitions of historically marginalized groups due to race and/or ethnicity."@en ;
     skos:scopeNote """This metric is intended to capture the amount of capital managed by the organization that is invested into communities in which a majority (51%) of individuals are from groups historically marginalized due to race and/or ethnicity as defined locally.
 
 Organizations must footnote context for this metric. For example, in the United States, organizations are encouraged to use data at the zip code level to determine which areas are home to majority Black, Indigenous, and Person of Color (BIPOC) populations. In South Africa, organizations could define \"community\" as a district or municipality and might focus on communities that are home to many Black African, Coloured, and Indian or Asian individuals.
 
 Used along with Target Stakeholder Demographic (PD5752) to specify historically marginalized groups due to race and/or ethnicity, this metric aligns with the Corporate Racial Equity Alliance’s (https://corporateracialequityalliance.org/) Investor Blueprint for Racial Equity and its corporate-focused CEO Blueprint for Racial Equity (https://corporateracialequityalliance.org/2021-blueprint)."""@en ;
-    org:hasIdentifier "II6610" ;
-    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/II6610/> ;
+
     cids:definedBy cids:giin ;
-    cids:hasDescription "Value of the investing organization's assets under management deployed to communities that are predominantly populated by groups historically marginalized due to race and/or ethnicity as of the end of the reporting period."@en ;
-    cids:hasName "Value of Investments in Communities Historically Marginalized Due to Race and/or Ethnicity"@en .
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> ;
 
 :II8439
     a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
+    org:hasName "Companies Considered for Investment: Led by Founders from Historically Marginalized Groups due to Race and/or Ethnicity" .
+    skos:prefLabel "Companies Considered for Investment: Led by Founders from Historically Marginalized Groups due to Race and/or Ethnicity"@en .
+    cids:hasDescription "Number of companies the organization considered for investment—that is, in the pipeline—during the reporting period that were led by founders from groups historically marginalized due to race and/or ethnicity." ;
+    skos:definition "Number of companies the organization considered for investment—that is, in the pipeline—during the reporting period that were led by founders from groups historically marginalized due to race and/or ethnicity."@en ;
+    org:hasIdentifier "II8439" ;
+    skos:notation "II8439" ;
+    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/II8439/> ;
     skos:note "Organizations should footnote all assumptions used, including locally relevant definitions of historically marginalized groups due to race and/or ethnicity."@en ;
     skos:scopeNote """This metric is intended to capture the number of companies in the organization’s investing pipeline during the reporting period that are led by individuals from groups historically marginalized due to race and/or ethnicity. To qualify, an organization's leadership must be at least 50% from historically marginalized groups due to race and/or ethnicity, defined by the organization within the local context (see following note). Organizations should count all companies in the pipeline at any point in the reporting period, regardless of whether or not investment or the investment process proceeded.
 
 Organizations focusing this metric on groups historically marginalized due to race and/or ethnicity must define that group according to context. For example, in the United States, organizations might focus on Black, Indigenous, and People of Color (BIPOC). In South Africa, organizations might focus on Black African, Coloured, and Indian or Asian Individuals. In all contexts, when defining these groups, organizations must consider local history and context.
 
 This metric aligns with the Corporate Racial Equity Alliance’s (https://corporateracialequityalliance.org/) Investor Blueprint for Racial Equity."""@en ;
-    org:hasIdentifier "II8439" ;
-    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/II8439/> ;
+
     cids:definedBy cids:giin ;
-    cids:hasDescription "Number of companies the organization considered for investment—that is, in the pipeline—during the reporting period that were led by founders from groups historically marginalized due to race and/or ethnicity."@en ;
-    cids:hasName "Companies Considered for Investment: Led by Founders from Historically Marginalized Groups due to Race and/or Ethnicity"@en .
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> ;
 
 :II8480
     a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
+    org:hasName "Value of Investments in Company: Outstanding" .
+    skos:prefLabel "Value of Investments in Company: Outstanding"@en .
+    cids:hasDescription "Value of the investing organization's outstanding investment in a company as of the end of the reporting period. See usage guidance for details." ;
+    skos:definition "Value of the investing organization's outstanding investment in a company as of the end of the reporting period. See usage guidance for details."@en ;
+    org:hasIdentifier "II8480" ;
+    skos:notation "II8480" ;
+    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/II8480/> ;
     skos:note "Organizations should footnote all assumptions used."@en ;
     skos:scopeNote "This metric is intended to capture the present value of an investment the investing organization made as of the end of the reporting period. For a debt investment, this value is the difference between the original loan amount and the repaid principal. For an equity investment, this is an estimated valuation of the investor's stake in the investee as of the end of the reporting period."@en ;
-    org:hasIdentifier "II8480" ;
-    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/II8480/> ;
+
     cids:definedBy cids:giin ;
-    cids:hasDescription "Value of the investing organization's outstanding investment in a company as of the end of the reporting period. See usage guidance for details."@en ;
-    cids:hasName "Value of Investments in Company: Outstanding"@en .
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> ;
 
 :II9005
     a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
+    org:hasName "Value of Investments in Company: Total" .
+    skos:prefLabel "Value of Investments in Company: Total"@en .
+    cids:hasDescription "Value of the investing organization's investment in a company as of the beginning of the investment." ;
+    skos:definition "Value of the investing organization's investment in a company as of the beginning of the investment."@en ;
+    org:hasIdentifier "II9005" ;
+    skos:notation "II9005" ;
+    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/II9005/> ;
     skos:note "Organizations should footnote all assumptions used."@en ;
     skos:scopeNote "This metric is intended to capture the value at disbursement of an investment the investing organization made."@en ;
-    org:hasIdentifier "II9005" ;
-    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/II9005/> ;
+
     cids:definedBy cids:giin ;
-    cids:hasDescription "Value of the investing organization's investment in a company as of the beginning of the investment."@en ;
-    cids:hasName "Value of Investments in Company: Total"@en .
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> ;
 
 :OD0482
     a skos:Concept, cids:Code ;
