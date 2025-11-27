@@ -10,7 +10,6 @@
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
-@prefix vann: <http://purl.org/vocab/vann/> .
 @prefix voaf: <http://purl.org/vocab/voaf#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
@@ -18,12 +17,9 @@
     a voaf:Vocabulary, owl:Ontology, skos:ConceptScheme ;
     owl:imports <https://ontology.commonapproach.org/cids> ;
 
-    vann:preferredNamespacePrefix "im" ;
-    vann:preferredNamespaceUri <> ;
-
     dcterms:creator cids:ac ;
     dcterms:date "02-10-2024"^^xsd:date ;
-    owl:versionInfo "0.9" ;
+    owl:versionInfo "2.0" ;
 
     skos:prefLabel "IRIS+ Metrics"@en ;
     dcterms:title "IRIS+ Metrics"@en ;
