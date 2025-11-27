@@ -11,15 +11,11 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix voaf: <http://purl.org/vocommons/voaf#> .
-@prefix vann: <http://purl.org/vocab/vann/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <>
     a voaf:Vocabulary, owl:Ontology, skos:ConceptScheme ;
     owl:imports <https://ontology.commonapproach.org/cids> ;
-
-    vann:preferredNamespacePrefix "gc" ;
-    vann:preferredNamespaceUri <> ;
 
     dcterms:creator cids:ac ;
     dcterms:date "07-10-2024"^^xsd:date ;
@@ -37,7 +33,7 @@
     skos:definition "Charitable organizations are registered as such with the Canada Revenue Agency and have a charitable Registration Number."@en ;
     org:hasIdentifier "Charitable" ;
     skos:notation "Charitable" ;
-    cids:definedBy cids:orgTypeGOC ;
+    cids:definedBy cids:esdc ;
     cids:hasSpecification <> ;
 
     rdfs:isDefinedBy <> ;
@@ -52,7 +48,7 @@
     org:hasIdentifier "Cooperative" ;
     skos:notation "Charitable" ;
     prov:hadPrimarySource <https://ised-isde.canada.ca/site/cooperatives-canada/en/information-guide-co-operatives#seven> ;
-    cids:definedBy cids:OrgTypeGOC ;
+    cids:definedBy cids:esdc ;
     cids:hasSpecification <> ;
 
     rdfs:isDefinedBy <> ;
@@ -66,7 +62,7 @@
     skos:definition "For-profit organizations are businesses or corporations that are organized and operated for the purpose of generating profit."@en ;
     org:hasIdentifier "forProfit" ;
     skos:notation "forProfit" ;
-    cids:definedBy cids:OrgTypeGOC ;
+    cids:definedBy cids:esdc ;
     cids:hasSpecification <> ;
 
     rdfs:isDefinedBy <> ;
