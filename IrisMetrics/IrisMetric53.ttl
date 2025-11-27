@@ -11,6 +11,7 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix vann: <http://purl.org/vocab/vann/> .
+@prefix voaf: <http://purl.org/vocab/voaf#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <>
@@ -26,7 +27,7 @@
 
     skos:prefLabel "IRIS+ Metrics"@en ;
     dcterms:title "IRIS+ Metrics"@en ;
-    dcterms:description "An codelist vocabulary of IRIS+ Metrics"@en ;
+    dcterms:description "An codelist vocabulary of IRIS+ Metrics"@en .
 
 :FP1001
     a skos:Concept, cids:Code ;
@@ -42,44 +43,44 @@
     cids:definedBy cids:giin ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    skos:inScheme <> ;
+    skos:inScheme <> .
 
 :FP1012
     a skos:Concept, cids:Code ;
-    org:hasName "Interest Expenses" .
-    skos:prefLabel "Interest Expenses"@en .
+    org:hasName "Interest Expenses" ;
+    skos:prefLabel "Interest Expenses"@en ;
     cids:hasDescription "Value of expenditures incurred by the organization during the reporting period as a result of interest incurred on all liabilities, including any client deposit accounts held by the organization, borrowings, and subordinated debt." ;
     skos:definition "Value of expenditures incurred by the organization during the reporting period as a result of interest incurred on all liabilities, including any client deposit accounts held by the organization, borrowings, and subordinated debt."@en ;
-    org:hasIdentifier "FP1012"
-    skos:notation "FP1012"
+    org:hasIdentifier "FP1012" ;
+    skos:notation "FP1012" ;
     prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/FP1012/> ;
     skos:scopeNote "This metric is intended to capture the amount of interest paid by the organization on all liabilities during the reporting period."@en ;
 
     cids:definedBy cids:giin ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    skos:inScheme <> ;
+    skos:inScheme <> .
 
 :FP1129
     a skos:Concept, cids:Code ;
-    org:hasName "Loans Receivable Net" .
-    skos:prefLabel "Loans Receivable Net"@en .
+    org:hasName "Loans Receivable Net" ;
+    skos:prefLabel "Loans Receivable Net"@en ;
     cids:hasDescription "Net value of the organization's loans receivable as of the end of the reporting period." ;
     skos:definition "Net value of the organization's loans receivable as of the end of the reporting period."@en ;
-    org:hasIdentifier "FP1129"
-    skos:notation "FP1129"
+    org:hasIdentifier "FP1129" ;
+    skos:notation "FP1129" ;
     prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/FP1129/> ;
     skos:scopeNote "This metric is intended to capture the value, as of the end of the reporting period, of loans receivable held by the organization net of loans written down in value."@en ;
 
     cids:definedBy cids:giin ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    skos:inScheme <> ;
+    skos:inScheme <> .
 
 :FP1192
     a skos:Concept, cids:Code ;
-    org:hasName "Loan to Deposit (LTD) Ratio" .
-    skos:prefLabel "Loan to Deposit (LTD) Ratio"@en .
+    org:hasName "Loan to Deposit (LTD) Ratio" ;
+    skos:prefLabel "Loan to Deposit (LTD) Ratio"@en ;
     cids:hasDescription "Ratio between the organization's loans receivable gross and its total deposits as of the end of the reporting period, used to assess an organization's liquidity." ;
     skos:definition "Ratio between the organization's loans receivable gross and its total deposits as of the end of the reporting period, used to assess an organization's liquidity."@en ;
     org:hasIdentifier "FP1192" ;
@@ -90,12 +91,12 @@
     cids:definedBy cids:giin ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    skos:inScheme <> ;
+    skos:inScheme <> .
 
 :FP1301
     a skos:Concept, cids:Code ;
-    org:hasName "Net Income" .
-    skos:prefLabel "Net Income"@en .
+    org:hasName "Net Income" ;
+    skos:prefLabel "Net Income"@en ;
     cids:hasDescription "Value of the organization's net profit, calculated as total income minus total expenses, taxes, and cost of goods sold during the reporting period."@en ;
     skos:definition "Value of the organization's net profit, calculated as total income minus total expenses, taxes, and cost of goods sold during the reporting period."@en ;
     org:hasIdentifier "FP1301" ;
@@ -106,12 +107,12 @@
     cids:definedBy cids:giin ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    skos:inScheme <> ;
+    skos:inScheme <> .
 
 :FP1307
     a skos:Concept, cids:Code ;
-    org:hasName "Capital Available: Total" .
-    skos:prefLabel "Capital Available: Total"@en .
+    org:hasName "Capital Available: Total" ;
+    skos:prefLabel "Capital Available: Total"@en ;
     cids:hasDescription "Value of capital available to the organization for lending and investing as of the end of the reporting period." ;
     skos:definition "Value of capital available to the organization for lending and investing as of the end of the reporting period."@en ;
     org:hasIdentifier "FP1307" ;
@@ -122,12 +123,12 @@
     cids:definedBy cids:giin ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    skos:inScheme <> ;
+    skos:inScheme <> .
 
 :FP1657
     a skos:Concept, cids:Code ;
-    org:hasName "EBITDA" .
-    skos:prefLabel "EBITDA"@en .
+    org:hasName "EBITDA" ;
+    skos:prefLabel "EBITDA"@en ;
     cids:hasDescription """Value of the organization's net income before interest, taxes, depreciation, and amortization during the reporting period.
 
 EBITDA signifies Earnings Before Interest, Taxes, Depreciation, and Amortization.""" ;
@@ -142,12 +143,12 @@ EBITDA signifies Earnings Before Interest, Taxes, Depreciation, and Amortization
     cids:definedBy cids:giin ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    skos:inScheme <> ;
+    skos:inScheme <> .
 
 :FP1717
     a skos:Concept, cids:Code ;
-    org:hasName "Impaired Assets" .
-    skos:prefLabel "Impaired Assets"@en .
+    org:hasName "Impaired Assets" ;
+    skos:prefLabel "Impaired Assets"@en ;
     cids:hasDescription "Value of assets classified as impaired under regulatory or accounting rules and recorded by the organization during the reporting period." ;
     skos:definition "Value of assets classified as impaired under regulatory or accounting rules and recorded by the organization during the reporting period."@en ;
     org:hasIdentifier "FP1717" ;
@@ -158,12 +159,12 @@ EBITDA signifies Earnings Before Interest, Taxes, Depreciation, and Amortization
     cids:definedBy cids:giin ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    skos:inScheme <> ;
+    skos:inScheme <> .
 
 :FP1996
     a skos:Concept, cids:Code ;
-    org:hasName "Total Liabilities" .
-    skos:prefLabel "Total Liabilities"@en .
+    org:hasName "Total Liabilities" ;
+    skos:prefLabel "Total Liabilities"@en ;
     cids:hasDescription "Value of the organization’s liabilities as of the end of the reporting period." ;
     skos:definition "Value of the organization’s liabilities as of the end of the reporting period."@en ;
     org:hasIdentifier "FP1996" ;
@@ -174,12 +175,12 @@ EBITDA signifies Earnings Before Interest, Taxes, Depreciation, and Amortization
     cids:definedBy cids:giin ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    skos:inScheme <> ;
+    skos:inScheme <> .
 
 :FP2213
     a skos:Concept, cids:Code ;
-    org:hasName "Accounts Receivable" .
-    skos:prefLabel "Accounts Receivable"@en .
+    org:hasName "Accounts Receivable" ;
+    skos:prefLabel "Accounts Receivable"@en ;
     cids:hasDescription "Value, as of the end of the reporting period, of the organization’s outstanding debts from clients who received goods or services on credit." ;
     skos:definition "Value, as of the end of the reporting period, of the organization’s outstanding debts from clients who received goods or services on credit."@en ;
     org:hasIdentifier "FP2213" ;
@@ -190,12 +191,12 @@ EBITDA signifies Earnings Before Interest, Taxes, Depreciation, and Amortization
     cids:definedBy cids:giin ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    skos:inScheme <> ;
+    skos:inScheme <> .
 
 :FP2269
     a skos:Concept, cids:Code ;
-    org:hasName "Current Liabilities" .
-    skos:prefLabel "Current Liabilities"@en .
+    org:hasName "Current Liabilities" ;
+    skos:prefLabel "Current Liabilities"@en ;
     cids:hasDescription "Value, as of the end of the reporting period, of all liabilities that are expected to be settled within one year in the normal course of business." ;
     skos:definition "Value, as of the end of the reporting period, of all liabilities that are expected to be settled within one year in the normal course of business."@en ;
     org:hasIdentifier "FP2269" ;
@@ -206,12 +207,12 @@ EBITDA signifies Earnings Before Interest, Taxes, Depreciation, and Amortization
     cids:definedBy cids:giin ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    skos:inScheme <> ;
+    skos:inScheme <> .
 
 :FP2321
     a skos:Concept, cids:Code ;
-    org:hasName "Total Expenses" .
-    skos:prefLabel "Total Expenses"@en .
+    org:hasName "Total Expenses" ;
+    skos:prefLabel "Total Expenses"@en ;
     cids:hasDescription "Value of all expenditures incurred by the organization during the reporting period." ;
     skos:definition "Value of all expenditures incurred by the organization during the reporting period."@en ;
     org:hasIdentifier "FP2321" ;
@@ -222,12 +223,12 @@ EBITDA signifies Earnings Before Interest, Taxes, Depreciation, and Amortization
     cids:definedBy cids:giin ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    skos:inScheme <> ;
+    skos:inScheme <> .
 
 :FP2392
     a skos:Concept, cids:Code ;
-    org:hasName "Impairment Loss Allowance" .
-    skos:prefLabel "Impairment Loss Allowance"@en .
+    org:hasName "Impairment Loss Allowance" ;
+    skos:prefLabel "Impairment Loss Allowance"@en ;
     cids:hasDescription "Value of the organization’s contra asset account set up as a provision for a potential future loss of capital that has been lent out by the organization as of the end of the reporting period." ;
     skos:definition "Value of the organization’s contra asset account set up as a provision for a potential future loss of capital that has been lent out by the organization as of the end of the reporting period."@en ;
     org:hasIdentifier "FP2392" ;
@@ -238,12 +239,12 @@ EBITDA signifies Earnings Before Interest, Taxes, Depreciation, and Amortization
     cids:definedBy cids:giin ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    skos:inScheme <> ;
+    skos:inScheme <> .
 
 :FP2460
     a skos:Concept, cids:Code ;
-    org:hasName "Gross Incurred Claims" .
-    skos:prefLabel "Gross Incurred Claims"@en .
+    org:hasName "Gross Incurred Claims" ;
+    skos:prefLabel "Gross Incurred Claims"@en ;
     cids:hasDescription "Value of the organization’s gross incurred claims as of the end of the reporting period." ;
     skos:definition "Value of the organization’s gross incurred claims as of the end of the reporting period."@en ;
     org:hasIdentifier "FP2460" ;
@@ -259,12 +260,12 @@ This metric is used in calculating Incurred Claims Ratio (FP8478), which helps a
     cids:definedBy cids:giin ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    skos:inScheme <> ;
+    skos:inScheme <> .
 
 :FP2553
     a skos:Concept, cids:Code ;
-    org:hasName "Financial Expenses" .
-    skos:prefLabel "Financial Expenses"@en .
+    org:hasName "Financial Expenses" ;
+    skos:prefLabel "Financial Expenses"@en ;
     cids:hasDescription "Value of expenditures incurred by the organization during the reporting period to settle interest, fees, and commissions incurred on the organization’s financial liabilities—including, among others, any client deposit accounts held by the organization, borrowings, and subordinated debt." ;
     skos:definition "Value of expenditures incurred by the organization during the reporting period to settle interest, fees, and commissions incurred on the organization’s financial liabilities—including, among others, any client deposit accounts held by the organization, borrowings, and subordinated debt."@en ;
     org:hasIdentifier "FP2553" ;
@@ -275,12 +276,12 @@ This metric is used in calculating Incurred Claims Ratio (FP8478), which helps a
     cids:definedBy cids:giin ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    skos:inScheme <> ;
+    skos:inScheme <> .
 
 :FP2630
     a skos:Concept, cids:Code ;
-    org:hasName "Loans Receivable Gross" .
-    skos:prefLabel "Loans Receivable Gross"@en .
+    org:hasName "Loans Receivable Gross" ;
+    skos:prefLabel "Loans Receivable Gross"@en ;
     cids:hasDescription "Value of outstanding principal for all of the organization’s outstanding loans due from clients as of the end of the reporting period." ;
     skos:definition "Value of outstanding principal for all of the organization’s outstanding loans due from clients as of the end of the reporting period."@en ;
     org:hasIdentifier "FP2630" ;
@@ -291,12 +292,12 @@ This metric is used in calculating Incurred Claims Ratio (FP8478), which helps a
     cids:definedBy cids:giin ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    skos:inScheme <> ;
+    skos:inScheme <> .
 
 :FP2635
     a skos:Concept, cids:Code ;
-    org:hasName "Non-Performing Loans (Portfolio at Risk): 30 Days" .
-    skos:prefLabel "Non-Performing Loans (Portfolio at Risk): 30 Days"@en .
+    org:hasName "Non-Performing Loans (Portfolio at Risk): 30 Days" ;
+    skos:prefLabel "Non-Performing Loans (Portfolio at Risk): 30 Days"@en ;
     cids:hasDescription "Value of the organization’s loans outstanding, as of the end of the reporting period, with one or more installments of principal past due for more than 30 days." ;
     skos:definition "Value of the organization’s loans outstanding, as of the end of the reporting period, with one or more installments of principal past due for more than 30 days."@en ;
     org:hasIdentifier "FP2635" ;
@@ -307,12 +308,12 @@ This metric is used in calculating Incurred Claims Ratio (FP8478), which helps a
     cids:definedBy cids:giin ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    skos:inScheme <> ;
+    skos:inScheme <> .
 
 :FP2638
     a skos:Concept, cids:Code ;
-    org:hasName "Capital Available: Borrowed Funds" .
-    skos:prefLabel "Capital Available: Borrowed Funds"@en .
+    org:hasName "Capital Available: Borrowed Funds" ;
+    skos:prefLabel "Capital Available: Borrowed Funds"@en ;
     cids:hasDescription "Value of capital available to the organization for lending and investing as of the end of the reporting period that is attributed to debt obligations on the organization’s balance sheet." ;
     skos:definition "Value of capital available to the organization for lending and investing as of the end of the reporting period that is attributed to debt obligations on the organization’s balance sheet."@en ;
     org:hasIdentifier "FP2638" ;
@@ -323,12 +324,12 @@ This metric is used in calculating Incurred Claims Ratio (FP8478), which helps a
     cids:definedBy cids:giin ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    skos:inScheme <> ;
+    skos:inScheme <> .
 
 :FP2651
     a skos:Concept, cids:Code ;
-    org:hasName "Return on Equity (ROE)" .
-    skos:prefLabel "Return on Equity (ROE)"@en .
+    org:hasName "Return on Equity (ROE)" ;
+    skos:prefLabel "Return on Equity (ROE)"@en ;
     cids:hasDescription """Value of an organization’s net profit generated per dollar of shareholders’ equity during the reporting period.
 
 This is a profitability ratio calculated as net income divided by average total equity or net assets.""" ;
@@ -343,12 +344,12 @@ This is a profitability ratio calculated as net income divided by average total 
     cids:definedBy cids:giin ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    skos:inScheme <> ;
+    skos:inScheme <> .
 
 :FP2852
     a skos:Concept, cids:Code ;
-    org:hasName "Accounts Payable" .
-    skos:prefLabel "Accounts Payable"@en .
+    org:hasName "Accounts Payable" ;
+    skos:prefLabel "Accounts Payable"@en ;
     cids:hasDescription "Value, as of the end of the reporting period, of all outstanding debts that must be paid by the organization within a given period of time in order to avoid default." ;
     skos:definition "Value, as of the end of the reporting period, of all outstanding debts that must be paid by the organization within a given period of time in order to avoid default."@en ;
     org:hasIdentifier "FP2852" ;
@@ -359,12 +360,12 @@ This is a profitability ratio calculated as net income divided by average total 
     cids:definedBy cids:giin ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    skos:inScheme <> ;
+    skos:inScheme <> .
 
 :FP3021
     a skos:Concept, cids:Code ;
-    org:hasName "Revenue from Grants and Donations" .
-    skos:prefLabel "Revenue from Grants and Donations"@en .
+    org:hasName "Revenue from Grants and Donations" ;
+    skos:prefLabel "Revenue from Grants and Donations"@en ;
     cids:hasDescription "Value of revenue contributed as grants and donations during the reporting period." ;
     skos:definition "Value of revenue contributed as grants and donations during the reporting period."@en ;
     org:hasIdentifier "FP3021" ;
@@ -378,12 +379,12 @@ This metric should include only financial grants and donations received and not 
     cids:definedBy cids:giin ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    skos:inScheme <> ;
+    skos:inScheme <> .
 
 :FP3274
     a skos:Concept, cids:Code ;
-    org:hasName "Net Income Before Donations" .
-    skos:prefLabel "Net Income Before Donations"@en .
+    org:hasName "Net Income Before Donations" ;
+    skos:prefLabel "Net Income Before Donations"@en ;
     cids:hasDescription "Value of the organization's net profit before donations, calculated as total income (excluding donations) minus total expenses during the reporting period." ;
     skos:definition "Value of the organization's net profit before donations, calculated as total income (excluding donations) minus total expenses during the reporting period."@en ;
     org:hasIdentifier "FP3274" ;
@@ -394,12 +395,12 @@ This metric should include only financial grants and donations received and not 
     cids:definedBy cids:giin ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    skos:inScheme <> ;
+    skos:inScheme <> .
 
 :FP3297
     a skos:Concept, cids:Code ;
-    org:hasName "Income Growth" .
-    skos:prefLabel "Income Growth"@en .
+    org:hasName "Income Growth" ;
+    skos:prefLabel "Income Growth"@en ;
     cids:hasDescription "Percentage growth in the value of the organization’s net income from one reporting period to another." ;
     skos:definition "Percentage growth in the value of the organization’s net income from one reporting period to another."@en ;
     org:hasIdentifier "FP3297" ;
@@ -410,12 +411,12 @@ This metric should include only financial grants and donations received and not 
     cids:definedBy cids:giin ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    skos:inScheme <> ;
+    skos:inScheme <> .
 
 :FP3466
     a skos:Concept, cids:Code ;
-    org:hasName "Cash Flow: Net Total" .
-    skos:prefLabel "Cash Flow: Net Total"@en .
+    org:hasName "Cash Flow: Net Total" ;
+    skos:prefLabel "Cash Flow: Net Total"@en ;
     cids:hasDescription "Value of the organization’s net cash flow during the reporting period. Net cash flow equals inflows less outflows of cash and cash equivalents from operating, investing, financing, and other activities." ;
     skos:definition "Value of the organization’s net cash flow during the reporting period. Net cash flow equals inflows less outflows of cash and cash equivalents from operating, investing, financing, and other activities."@en ;
     org:hasIdentifier "FP3466" ;
@@ -426,12 +427,12 @@ This metric should include only financial grants and donations received and not 
     cids:definedBy cids:giin ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    skos:inScheme <> ;
+    skos:inScheme <> .
 
 :FP3673
     a skos:Concept, cids:Code ;
-    org:hasName "EBIT" .
-    skos:prefLabel "EBIT"@en .
+    org:hasName "EBIT" ;
+    skos:prefLabel "EBIT"@en ;
     cids:hasDescription """Value of the organization's net income before interest and taxes during the reporting period.
 
 EBIT signifies Earnings Before Interest and Taxes.""" ;
@@ -446,12 +447,12 @@ EBIT signifies Earnings Before Interest and Taxes."""@en ;
     cids:definedBy cids:giin ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    skos:inScheme <> ;
+    skos:inScheme <> .
 
 :FP3774
     a skos:Concept, cids:Code ;
-    org:hasName "Charitable Donations" .
-    skos:prefLabel "Charitable Donations"@en .
+    org:hasName "Charitable Donations" ;
+    skos:prefLabel "Charitable Donations"@en ;
     cids:hasDescription "Value of all financial contributions and in-kind donations of goods and services made by the organization to charities, private foundations, non-profit organizations, or non-governmental organizations during the reporting period." ;
     skos:definition "Value of all financial contributions and in-kind donations of goods and services made by the organization to charities, private foundations, non-profit organizations, or non-governmental organizations during the reporting period."@en ;
     org:hasIdentifier "FP3774" ;
@@ -469,12 +470,12 @@ Organizations are encouraged to report this metric in conjunction with Community
     cids:definedBy cids:giin ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    skos:inScheme <> ;
+    skos:inScheme <> .
 
 :FP3939
     a skos:Concept, cids:Code ;
-    org:hasName "Loans Recovered" .
-    skos:prefLabel "Loans Recovered"@en .
+    org:hasName "Loans Recovered" ;
+    skos:prefLabel "Loans Recovered"@en ;
     cids:hasDescription "Value of loans collected by the organization during the reporting period that had previously been written off." ;
     skos:definition "Value of loans collected by the organization during the reporting period that had previously been written off."@en ;
     org:hasIdentifier "FP3939" ;
@@ -485,12 +486,12 @@ Organizations are encouraged to report this metric in conjunction with Community
     cids:definedBy cids:giin ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    skos:inScheme <> ;
+    skos:inScheme <> .
 
 :FP4224
     a skos:Concept, cids:Code ;
-    org:hasName "Working Capital Ratio" .
-    skos:prefLabel "Working Capital Ratio"@en .
+    org:hasName "Working Capital Ratio" ;
+    skos:prefLabel "Working Capital Ratio"@en ;
     cids:hasDescription "Ratio of the organization’s current assets compared to current liabilities as of the end of the reporting period." ;
     skos:definition "Ratio of the organization’s current assets compared to current liabilities as of the end of the reporting period."@en ;
     org:hasIdentifier "FP4224" ;
@@ -501,12 +502,12 @@ Organizations are encouraged to report this metric in conjunction with Community
     cids:definedBy cids:giin ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    skos:inScheme <> ;
+    skos:inScheme <> .
 
 :FP4326
     a skos:Concept, cids:Code ;
-    org:hasName "Return on Assets (ROA)" .
-    skos:prefLabel "Return on Assets (ROA)"@en .
+    org:hasName "Return on Assets (ROA)" ;
+    skos:prefLabel "Return on Assets (ROA)"@en ;
     cids:hasDescription """Value of an organization’s net profit after taxes generated per dollar invested in total assets as of the end of the reporting period.
 
 This is a profitability ratio calculated as net income less taxes, divided by average total assets.""" ;
@@ -518,17 +519,15 @@ This is a profitability ratio calculated as net income less taxes, divided by av
     prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/FP4326/> ;
     skos:scopeNote "This metric is intended to capture the profit after taxes the organization generated on all assets (that is, on capital in any form)."@en ;
 
-This is a profitability ratio calculated as net income less taxes, divided by average total assets."""@en ;
-
     cids:definedBy cids:giin ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    skos:inScheme <> ;
+    skos:inScheme <> .
 
 :FP4373
     a skos:Concept, cids:Code ;
-    org:hasName "Gross Margin" .
-    skos:prefLabel "Gross Margin"@en .
+    org:hasName "Gross Margin" ;
+    skos:prefLabel "Gross Margin"@en ;
     cids:hasDescription "Percentage of revenue that the organization retains after incurring the direct costs associated with the production/delivery of its products/services during the reporting period." ;
     skos:definition "Percentage of revenue that the organization retains after incurring the direct costs associated with the production/delivery of its products/services during the reporting period."@en ;
     org:hasIdentifier "FP4373" ;
@@ -539,12 +538,12 @@ This is a profitability ratio calculated as net income less taxes, divided by av
     cids:definedBy cids:giin ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    skos:inScheme <> ;
+    skos:inScheme <> .
 
 :FP4649
     a skos:Concept, cids:Code ;
-    org:hasName "Financial Assets" .
-    skos:prefLabel "Financial Assets"@en .
+    org:hasName "Financial Assets" ;
+    skos:prefLabel "Financial Assets"@en ;
     cids:hasDescription "Value, as of the end of the reporting period, of the organization's non-physical assets such as cash, bank accounts, or other investments." ;
     skos:definition "Value, as of the end of the reporting period, of the organization's non-physical assets such as cash, bank accounts, or other investments."@en ;
     org:hasIdentifier "FP4649" ;
@@ -557,12 +556,12 @@ Financial assets should only include non-current assets."""@en ;
     cids:definedBy cids:giin ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    skos:inScheme <> ;
+    skos:inScheme <> .
 
 :FP4761
     a skos:Concept, cids:Code ;
-    org:hasName "Revenue Growth" .
-    skos:prefLabel "Revenue Growth"@en .
+    org:hasName "Revenue Growth" ;
+    skos:prefLabel "Revenue Growth"@en ;
     cids:hasDescription "Percentage growth in value of the organization's revenue from one reporting period to another." ;
     skos:definition "Percentage growth in value of the organization's revenue from one reporting period to another."@en ;
     org:hasIdentifier "FP4761" ;
@@ -573,12 +572,12 @@ Financial assets should only include non-current assets."""@en ;
     cids:definedBy cids:giin ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    skos:inScheme <> ;
+    skos:inScheme <> .
 
 :FP4812
     a skos:Concept, cids:Code ;
-    org:hasName "Cash Flow: Operating Activities" .
-    skos:prefLabel "Cash Flow: Operating Activities"@en .
+    org:hasName "Cash Flow: Operating Activities" ;
+    skos:prefLabel "Cash Flow: Operating Activities"@en ;
     cids:hasDescription "Value of the organization's cash flow during the reporting period related to operating activities." ;
     skos:definition "Value of the organization's cash flow during the reporting period related to operating activities."@en ;
     org:hasIdentifier "FP4812" ;
@@ -589,12 +588,12 @@ Financial assets should only include non-current assets."""@en ;
     cids:definedBy cids:giin ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    skos:inScheme <> ;
+    skos:inScheme <> .
 
 :FP4831
     a skos:Concept, cids:Code ;
-    org:hasName "Personnel Expenses" .
-    skos:prefLabel "Personnel Expenses"@en .
+    org:hasName "Personnel Expenses" ;
+    skos:prefLabel "Personnel Expenses"@en ;
     cids:hasDescription "Value of expenditures related to personnel, including wages, benefits, trainings, and payroll taxes, incurred by the organization during the reporting period." ;
     skos:definition "Value of expenditures related to personnel, including wages, benefits, trainings, and payroll taxes, incurred by the organization during the reporting period."@en ;
     org:hasIdentifier "FP4831" ;
@@ -605,12 +604,12 @@ Financial assets should only include non-current assets."""@en ;
     cids:definedBy cids:giin ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    skos:inScheme <> ;
+    skos:inScheme <> .
 
 :FP4849
     a skos:Concept, cids:Code ;
-    org:hasName "Non-operating Revenue" .
-    skos:prefLabel "Non-operating Revenue"@en .
+    org:hasName "Non-operating Revenue" ;
+    skos:prefLabel "Non-operating Revenue"@en ;
     cids:hasDescription "Value of revenue derived from activities not related to the organization's core operations during the reporting period." ;
     skos:definition "Value of revenue derived from activities not related to the organization's core operations during the reporting period."@en ;
     org:hasIdentifier "FP4849" ;
@@ -623,12 +622,12 @@ As an example, for a hospital, in addition to finance-related revenue, non-opera
     cids:definedBy cids:giin ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    skos:inScheme <> ;
+    skos:inScheme <> .
 
 :FP5261
     a skos:Concept, cids:Code ;
-    org:hasName "Payments to Government" .
-    skos:prefLabel "Payments to Government"@en .
+    org:hasName "Payments to Government" ;
+    skos:prefLabel "Payments to Government"@en ;
     cids:hasDescription "Value of all transfers to governments made by the organization during the reporting period." ;
     skos:definition "Value of all transfers to governments made by the organization during the reporting period."@en ;
     org:hasIdentifier "FP5261" ;
@@ -639,13 +638,13 @@ As an example, for a hospital, in addition to finance-related revenue, non-opera
     cids:definedBy cids:giin ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    skos:inScheme <> ;
+    skos:inScheme <> .
 
 
 :FP5293
     a skos:Concept, cids:Code ;
-    org:hasName "Total Assets" .
-    skos:prefLabel "Total Assets"@en .
+    org:hasName "Total Assets" ;
+    skos:prefLabel "Total Assets"@en ;
     cids:hasDescription "Value, as of the end of the reporting period, of all of the organization's assets." ;
     skos:definition "Value, as of the end of the reporting period, of all of the organization's assets."@en ;
     org:hasIdentifier "FP5293" ;
@@ -656,12 +655,12 @@ As an example, for a hospital, in addition to finance-related revenue, non-opera
     cids:definedBy cids:giin ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    skos:inScheme <> ;
+    skos:inScheme <> .
 
 :FP5317
     a skos:Concept, cids:Code ;
-    org:hasName "Equity or Net Assets" .
-    skos:prefLabel "Equity or Net Assets"@en .
+    org:hasName "Equity or Net Assets" ;
+    skos:prefLabel "Equity or Net Assets"@en ;
     cids:hasDescription "Value of the residual interest, as of the end of the reporting period, in the assets of the organization after deducting all its liabilities." ;
     skos:definition "Value of the residual interest, as of the end of the reporting period, in the assets of the organization after deducting all its liabilities."@en ;
     org:hasIdentifier "FP5317" ;
@@ -672,12 +671,12 @@ As an example, for a hospital, in addition to finance-related revenue, non-opera
     cids:definedBy cids:giin ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    skos:inScheme <> ;
+    skos:inScheme <> .
 
 :FP5624
     a skos:Concept, cids:Code ;
-    org:hasName "Sales Revenue: Collected from Third Party Payers" .
-    skos:prefLabel "Sales Revenue: Collected from Third Party Payers"@en .
+    org:hasName "Sales Revenue: Collected from Third Party Payers" ;
+    skos:prefLabel "Sales Revenue: Collected from Third Party Payers"@en ;
     cids:hasDescription "Value of revenue during the reporting period from sales of the organization’s products/services and collected from third-party (public or private) payers." ;
     skos:definition "Value of revenue during the reporting period from sales of the organization’s products/services and collected from third-party (public or private) payers."@en ;
     org:hasIdentifier "FP5624" ;
@@ -688,12 +687,12 @@ As an example, for a hospital, in addition to finance-related revenue, non-opera
     cids:definedBy cids:giin ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    skos:inScheme <> ;
+    skos:inScheme <> .
 
 :FP5662
     a skos:Concept, cids:Code ;
-    org:hasName "Capital Available: Equity Capital" .
-    skos:prefLabel "Capital Available: Equity Capital"@en .
+    org:hasName "Capital Available: Equity Capital" ;
+    skos:prefLabel "Capital Available: Equity Capital"@en ;
     cids:hasDescription "Value of capital available to the organization for lending and investing at the end of the reporting period that is attributed to equity contributions." ;
     skos:definition "Value of capital available to the organization for lending and investing at the end of the reporting period that is attributed to equity contributions."@en ;
     org:hasIdentifier "FP5662" ;
@@ -704,12 +703,12 @@ As an example, for a hospital, in addition to finance-related revenue, non-opera
     cids:definedBy cids:giin ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    skos:inScheme <> ;
+    skos:inScheme <> .
 
 :FP5979
     a skos:Concept, cids:Code ;
-    org:hasName "Number of Loans Fully Repaid on Time" .
-    skos:prefLabel "Number of Loans Fully Repaid on Time"@en .
+    org:hasName "Number of Loans Fully Repaid on Time" ;
+    skos:prefLabel "Number of Loans Fully Repaid on Time"@en ;
     cids:hasDescription "Number of the organization’s loans due for complete payback during the reporting period (but disbursed at any time) that were repaid no later than their due dates." ;
     skos:definition "Number of the organization’s loans due for complete payback during the reporting period (but disbursed at any time) that were repaid no later than their due dates."@en ;
     org:hasIdentifier "FP5979" ;
@@ -721,12 +720,12 @@ As an example, for a hospital, in addition to finance-related revenue, non-opera
     cids:definedBy cids:giin ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    skos:inScheme <> ;
+    skos:inScheme <> .
 
 :FP6094
     a skos:Concept, cids:Code ;
-    org:hasName "Long Term Financial Liabilities" .
-    skos:prefLabel "Long Term Financial Liabilities"@en .
+    org:hasName "Long Term Financial Liabilities" ;
+    skos:prefLabel "Long Term Financial Liabilities"@en ;
     cids:hasDescription "Value, as of the end of the reporting period, of an organization's long-term financial liabilities." ;
     skos:definition "Value, as of the end of the reporting period, of an organization's long-term financial liabilities."@en ;
     org:hasIdentifier "FP6094" ;
@@ -737,12 +736,12 @@ As an example, for a hospital, in addition to finance-related revenue, non-opera
     cids:definedBy cids:giin ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    skos:inScheme <> ;
+    skos:inScheme <> .
 
 :FP6152
     a skos:Concept, cids:Code ;
-    org:hasName "Solvency Ratio" .
-    skos:prefLabel "Solvency Ratio"@en .
+    org:hasName "Solvency Ratio" ;
+    skos:prefLabel "Solvency Ratio"@en ;
     cids:hasDescription "Ratio of an organization’s admitted assets to liabilities, per their statutory accounts, as of the end of the reporting period." ;
     skos:definition "Ratio of an organization’s admitted assets to liabilities, per their statutory accounts, as of the end of the reporting period."@en ;
     org:hasIdentifier "FP6152" ;
@@ -758,12 +757,12 @@ For more detail and guidance on interpretation, see the Microinsurance Network�
     cids:definedBy cids:giin ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    skos:inScheme <> ;
+    skos:inScheme <> .
 
 :FP6354
     a skos:Concept, cids:Code ;
-    org:hasName "Non-Performing Loans (Portfolio at Risk): 60 Days" .
-    skos:prefLabel "Non-Performing Loans (Portfolio at Risk): 60 Days"@en .
+    org:hasName "Non-Performing Loans (Portfolio at Risk): 60 Days" ;
+    skos:prefLabel "Non-Performing Loans (Portfolio at Risk): 60 Days"@en ;
     cids:hasDescription "Value of the organization’s loans outstanding, as of the end of the reporting period, with one or more installments of principal past due for more than 60 days." ;
     skos:definition "Value of the organization’s loans outstanding, as of the end of the reporting period, with one or more installments of principal past due for more than 60 days."@en ;
     org:hasIdentifier "FP6354" ;
@@ -774,12 +773,12 @@ For more detail and guidance on interpretation, see the Microinsurance Network�
     cids:definedBy cids:giin ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    skos:inScheme <> ;
+    skos:inScheme <> .
 
 :FP6373
     a skos:Concept, cids:Code ;
-    org:hasName "Non-Performing Loans (Portfolio at Risk): 90 Days" .
-    skos:prefLabel "Non-Performing Loans (Portfolio at Risk): 90 Days"@en .
+    org:hasName "Non-Performing Loans (Portfolio at Risk): 90 Days" ;
+    skos:prefLabel "Non-Performing Loans (Portfolio at Risk): 90 Days"@en ;
     cids:hasDescription "Value of the organization’s loans outstanding, as of the end of the reporting period, with one or more installments of principal past due for more than 90 days." ;
     skos:definition "Value of the organization’s loans outstanding, as of the end of the reporting period, with one or more installments of principal past due for more than 90 days."@en ;
     org:hasIdentifier "FP6373" ;
@@ -790,12 +789,12 @@ For more detail and guidance on interpretation, see the Microinsurance Network�
     cids:definedBy cids:giin ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    skos:inScheme <> ;
+    skos:inScheme <> .
 
 :FP6462
     a skos:Concept, cids:Code ;
-    org:hasName "Cash and Cash Equivalents: Period End" .
-    skos:prefLabel "Cash and Cash Equivalents: Period End"@en .
+    org:hasName "Cash and Cash Equivalents: Period End" ;
+    skos:prefLabel "Cash and Cash Equivalents: Period End"@en ;
     cids:hasDescription "Value of the organization's cash equivalents as of the end of the reporting period." ;
     skos:definition "Value of the organization's cash equivalents as of the end of the reporting period."@en ;
     org:hasIdentifier "FP6462" ;
@@ -806,12 +805,12 @@ For more detail and guidance on interpretation, see the Microinsurance Network�
     cids:definedBy cids:giin ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    skos:inScheme <> ;
+    skos:inScheme <> .
 
 :FP6510
     a skos:Concept, cids:Code ;
-    org:hasName "Total Revenue" .
-    skos:prefLabel "Total Revenue"@en .
+    org:hasName "Total Revenue" ;
+    skos:prefLabel "Total Revenue"@en ;
     cids:hasDescription "Value of all revenue received by the organization during the reporting period." ;
     skos:definition "Value of all revenue received by the organization during the reporting period."@en ;
     org:hasIdentifier "FP6510" ;
@@ -822,12 +821,12 @@ For more detail and guidance on interpretation, see the Microinsurance Network�
     cids:definedBy cids:giin ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    skos:inScheme <> ;
+    skos:inScheme <> .
 
 :FP6750
     a skos:Concept, cids:Code ;
-    org:hasName "Loans Payable" .
-    skos:prefLabel "Loans Payable"@en .
+    org:hasName "Loans Payable" ;
+    skos:prefLabel "Loans Payable"@en ;
     cids:hasDescription "Value of the remaining balance, as of the end of the reporting period, on all the organization's outstanding debt obligations carried on the balance sheet." ;
     skos:definition "Value of the remaining balance, as of the end of the reporting period, on all the organization's outstanding debt obligations carried on the balance sheet."@en ;
     org:hasIdentifier "FP6750" ;
@@ -838,12 +837,12 @@ For more detail and guidance on interpretation, see the Microinsurance Network�
     cids:definedBy cids:giin ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    skos:inScheme <> ;
+    skos:inScheme <> .
 
 :FP6856
     a skos:Concept, cids:Code ;
-    org:hasName "Working Capital" .
-    skos:prefLabel "Working Capital"@en .
+    org:hasName "Working Capital" ;
+    skos:prefLabel "Working Capital"@en ;
     cids:hasDescription "Value of the organization's operating liquidity as of the end of the reporting period." ;
     skos:definition "Value of the organization's operating liquidity as of the end of the reporting period."@en ;
     org:hasIdentifier "FP6856" ;
@@ -854,12 +853,12 @@ For more detail and guidance on interpretation, see the Microinsurance Network�
     cids:definedBy cids:giin ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    skos:inScheme <> ;
+    skos:inScheme <> .
 
 :FP6926
     a skos:Concept, cids:Code ;
-    org:hasName "Current Assets" .
-    skos:prefLabel "Current Assets"@en .
+    org:hasName "Current Assets" ;
+    skos:prefLabel "Current Assets"@en ;
     cids:hasDescription "Value, as of the end of the reporting period, of the organization's assets that the organization reasonably expects to convert into cash within one year in the normal course of business." ;
     skos:definition "Value, as of the end of the reporting period, of the organization's assets that the organization reasonably expects to convert into cash within one year in the normal course of business."@en ;
     org:hasIdentifier "FP6926" ;
@@ -870,12 +869,12 @@ For more detail and guidance on interpretation, see the Microinsurance Network�
     cids:definedBy cids:giin ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    skos:inScheme <> ;
+    skos:inScheme <> .
 
 :FP7264
     a skos:Concept, cids:Code ;
-    org:hasName "Cash and Cash Equivalents: Period Start" .
-    skos:prefLabel "Cash and Cash Equivalents: Period Start"@en .
+    org:hasName "Cash and Cash Equivalents: Period Start" ;
+    skos:prefLabel "Cash and Cash Equivalents: Period Start"@en ;
     cids:hasDescription "Value of the organization's cash equivalents as of the beginning of the reporting period." ;
     skos:definition "Value of the organization's cash equivalents as of the beginning of the reporting period."@en ;
     org:hasIdentifier "FP7264" ;
@@ -886,12 +885,12 @@ For more detail and guidance on interpretation, see the Microinsurance Network�
     cids:definedBy cids:giin ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    skos:inScheme <> ;
+    skos:inScheme <> .
 
 :FP7629
     a skos:Concept, cids:Code ;
-    org:hasName "Gross Profit" .
-    skos:prefLabel "Gross Profit"@en .
+    org:hasName "Gross Profit" ;
+    skos:prefLabel "Gross Profit"@en ;
     cids:hasDescription "Value of the organization's residual profit after incurring the direct costs associated with the production/delivery of products/services during the reporting period." ;
     skos:definition "Value of the organization's residual profit after incurring the direct costs associated with the production/delivery of products/services during the reporting period."@en ;
     org:hasIdentifier "FP7629" ;
@@ -902,12 +901,12 @@ For more detail and guidance on interpretation, see the Microinsurance Network�
     cids:definedBy cids:giin ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    skos:inScheme <> ;
+    skos:inScheme <> .
 
 :FP7897
     a skos:Concept, cids:Code ;
-    org:hasName "Operating Profit Margin" .
-    skos:prefLabel "Operating Profit Margin"@en .
+    org:hasName "Operating Profit Margin" ;
+    skos:prefLabel "Operating Profit Margin"@en ;
     cids:hasDescription "Percentage of the organization's revenue that remains after paying variable costs such as wages and raw materials during the reporting period." ;
     skos:definition "Percentage of the organization's revenue that remains after paying variable costs such as wages and raw materials during the reporting period."@en ;
     org:hasIdentifier "FP7897" ;
@@ -918,12 +917,12 @@ For more detail and guidance on interpretation, see the Microinsurance Network�
     cids:definedBy cids:giin ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    skos:inScheme <> ;
+    skos:inScheme <> .
 
 :FP8244
     a skos:Concept, cids:Code ;
-    org:hasName "Cash Flow: Financing Activities" .
-    skos:prefLabel "Cash Flow: Financing Activities"@en .
+    org:hasName "Cash Flow: Financing Activities" ;
+    skos:prefLabel "Cash Flow: Financing Activities"@en ;
     cids:hasDescription "Value of the organization's cash flow during the reporting period related to its financing activities." ;
     skos:definition "Value of the organization's cash flow during the reporting period related to its financing activities."@en ;
     org:hasIdentifier "FP8244" ;
@@ -934,12 +933,12 @@ For more detail and guidance on interpretation, see the Microinsurance Network�
     cids:definedBy cids:giin ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    skos:inScheme <> ;
+    skos:inScheme <> .
 
 :FP8293
     a skos:Concept, cids:Code ;
-    org:hasName "New Investment Capital" .
-    skos:prefLabel "New Investment Capital"@en .
+    org:hasName "New Investment Capital" ;
+    skos:prefLabel "New Investment Capital"@en ;
     cids:hasDescription "Value of funds invested in the organization (both loans and investments) during the reporting period." ;
     skos:definition "Value of funds invested in the organization (both loans and investments) during the reporting period."@en ;
     org:hasIdentifier "FP8293" ;
@@ -950,12 +949,12 @@ For more detail and guidance on interpretation, see the Microinsurance Network�
     cids:definedBy cids:giin ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    skos:inScheme <> ;
+    skos:inScheme <> .
 
 :FP8295
     a skos:Concept, cids:Code ;
-    org:hasName "Personnel Efficiency" .
-    skos:prefLabel "Personnel Efficiency"@en .
+    org:hasName "Personnel Efficiency" ;
+    skos:prefLabel "Personnel Efficiency"@en ;
     cids:hasDescription "Ratio of the organization's personnel expenses compared to its loans receivable as of the end of the reporting period." ;
     skos:definition "Ratio of the organization's personnel expenses compared to its loans receivable as of the end of the reporting period."@en ;
     org:hasIdentifier "FP8295" ;
@@ -966,12 +965,12 @@ For more detail and guidance on interpretation, see the Microinsurance Network�
     cids:definedBy cids:giin ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    skos:inScheme <> ;
+    skos:inScheme <> .
 
 :FP8300
     a skos:Concept, cids:Code ;
-    org:hasName "Sales Revenue: Collected Directly" .
-    skos:prefLabel "Sales Revenue: Collected Directly"@en .
+    org:hasName "Sales Revenue: Collected Directly" ;
+    skos:prefLabel "Sales Revenue: Collected Directly"@en ;
     cids:hasDescription "Value of revenue during the reporting period from sales of the organization’s products/services and collected directly from clients." ;
     skos:definition "Value of revenue during the reporting period from sales of the organization’s products/services and collected directly from clients."@en ;
     org:hasIdentifier "FP8300" ;
@@ -982,12 +981,12 @@ For more detail and guidance on interpretation, see the Microinsurance Network�
     cids:definedBy cids:giin ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    skos:inScheme <> ;
+    skos:inScheme <> .
 
 :FP8478
     a skos:Concept, cids:Code ;
-    org:hasName "Incurred Claims Ratio" .
-    skos:prefLabel "Incurred Claims Ratio"@en .
+    org:hasName "Incurred Claims Ratio" ;
+    skos:prefLabel "Incurred Claims Ratio"@en ;
     cids:hasDescription "Percentage of gross incurred claims during the reporting period relative to gross earned premiums during the same reporting period." ;
     skos:definition "Percentage of gross incurred claims during the reporting period relative to gross earned premiums during the same reporting period."@en ;
     org:hasIdentifier "FP8478" ;
@@ -1003,12 +1002,12 @@ For more detail and for guidance on interpretation, see the Microinsurance Netwo
     cids:definedBy cids:giin ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    skos:inScheme <> ;
+    skos:inScheme <> .
 
 :FP8569
     a skos:Concept, cids:Code ;
-    org:hasName "Operating Efficiency" .
-    skos:prefLabel "Operating Efficiency"@en .
+    org:hasName "Operating Efficiency" ;
+    skos:prefLabel "Operating Efficiency"@en ;
     cids:hasDescription "Ratio of the organization's operating expenses compared to its loans receivable as of the end of the reporting period." ;
     skos:definition "Ratio of the organization's operating expenses compared to its loans receivable as of the end of the reporting period."@en ;
     org:hasIdentifier "FP8569" ;
@@ -1019,12 +1018,12 @@ For more detail and for guidance on interpretation, see the Microinsurance Netwo
     cids:definedBy cids:giin ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    skos:inScheme <> ;
+    skos:inScheme <> .
 
 :FP8653
     a skos:Concept, cids:Code ;
-    org:hasName "Retained Earnings" .
-    skos:prefLabel "Retained Earnings"@en .
+    org:hasName "Retained Earnings" ;
+    skos:prefLabel "Retained Earnings"@en ;
     cids:hasDescription "Value of the sum of the organization's profits, cumulative from inception to the end of the reporting period, not paid out as dividends but retained by the organization for reinvestment in its core business or to pay down debt." ;
     skos:definition "Value of the sum of the organization's profits, cumulative from inception to the end of the reporting period, not paid out as dividends but retained by the organization for reinvestment in its core business or to pay down debt."@en ;
     org:hasIdentifier "FP8653" ;
@@ -1037,12 +1036,12 @@ Retained earnings is also sometimes termed retained capital, accumulated earning
     cids:definedBy cids:giin ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    skos:inScheme <> ;
+    skos:inScheme <> .
 
 :FP9049
     a skos:Concept, cids:Code ;
-    org:hasName "Cost of Goods Sold" .
-    skos:prefLabel "Cost of Goods Sold"@en .
+    org:hasName "Cost of Goods Sold" ;
+    skos:prefLabel "Cost of Goods Sold"@en ;
     cids:hasDescription """This metric is intended to capture the organization’s operating efficiency.
 Value of direct expenditures attributable to the production of goods sold by the organization during the reporting period.""" ;
     skos:definition """This metric is intended to capture the organization’s operating efficiency.
@@ -1054,12 +1053,12 @@ Value of direct expenditures attributable to the production of goods sold by the
     cids:definedBy cids:giin ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    skos:inScheme <> ;
+    skos:inScheme <> .
 
 :FP9083
     a skos:Concept, cids:Code ;
-    org:hasName "Total Deposits" .
-    skos:prefLabel "Total Deposits"@en .
+    org:hasName "Total Deposits" ;
+    skos:prefLabel "Total Deposits"@en ;
     cids:hasDescription "Value of the organization’s customer deposits, whether voluntary, compulsory, demand, or term, as well as all other liabilities from customers as of the end of the reporting period." ;
     skos:definition "Value of the organization’s customer deposits, whether voluntary, compulsory, demand, or term, as well as all other liabilities from customers as of the end of the reporting period."@en ;
     org:hasIdentifier "FP9083" ;
@@ -1070,12 +1069,12 @@ Value of direct expenditures attributable to the production of goods sold by the
     cids:definedBy cids:giin ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    skos:inScheme <> ;
+    skos:inScheme <> .
 
 :FP9148
     a skos:Concept, cids:Code ;
-    org:hasName "Fixed Assets" .
-    skos:prefLabel "Fixed Assets"@en .
+    org:hasName "Fixed Assets" ;
+    skos:prefLabel "Fixed Assets"@en ;
     cids:hasDescription "Value, as of the end of the reporting period, of the organization's long-term tangible assets that the organization does not expect to convert into cash in the current or upcoming fiscal year." ;
     skos:definition "Value, as of the end of the reporting period, of the organization's long-term tangible assets that the organization does not expect to convert into cash in the current or upcoming fiscal year."@en ;
     org:hasIdentifier "FP9148" ;
@@ -1090,12 +1089,12 @@ Fixed assets are considered part of non-current assets, which are a component of
     cids:definedBy cids:giin ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    skos:inScheme <> ;
+    skos:inScheme <> .
 
 :FP9462
     a skos:Concept, cids:Code ;
-    org:hasName "Depreciation and Amortization Expenses" .
-    skos:prefLabel "Depreciation and Amortization Expenses"@en .
+    org:hasName "Depreciation and Amortization Expenses" ;
+    skos:prefLabel "Depreciation and Amortization Expenses"@en ;
     cids:hasDescription "Value of expenses recorded by the organization during the reporting period for depreciation and amortization." ;
     skos:definition "Value of expenses recorded by the organization during the reporting period for depreciation and amortization."@en ;
     org:hasIdentifier "FP9462" ;
@@ -1106,12 +1105,12 @@ Fixed assets are considered part of non-current assets, which are a component of
     cids:definedBy cids:giin ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    skos:inScheme <> ;
+    skos:inScheme <> .
 
 :FP9573
     a skos:Concept, cids:Code ;
-    org:hasName "Capital Expenditure (CapEx)" .
-    skos:prefLabel "Capital Expenditure (CapEx)"@en .
+    org:hasName "Capital Expenditure (CapEx)" ;
+    skos:prefLabel "Capital Expenditure (CapEx)"@en ;
     cids:hasDescription "Value of funds used by a company to acquire, upgrade, and maintain physical assets such as property, plants, buildings, technology, or equipment during the reporting period." ;
     skos:definition "Value of funds used by a company to acquire, upgrade, and maintain physical assets such as property, plants, buildings, technology, or equipment during the reporting period."@en ;
     org:hasIdentifier "FP9573" ;
@@ -1122,13 +1121,13 @@ Fixed assets are considered part of non-current assets, which are a component of
         cids:definedBy cids:giin ;
         cids:hasSpecification <> ;
         rdfs:isDefinedBy <> ;
-        skos:inScheme <> ;
+        skos:inScheme <> .
 
 
 :FP9649
     a skos:Concept, cids:Code ;
-    org:hasName "Selling, General, and Administration Expenses" .
-    skos:prefLabel "Selling, General, and Administration Expenses"@en .
+    org:hasName "Selling, General, and Administration Expenses" ;
+    skos:prefLabel "Selling, General, and Administration Expenses"@en ;
     cids:hasDescription "This metric is intended to capture the costs the organization incurred during the reporting period for depreciation and amortization of assets on a defined schedule over time." ;
     skos:definition "This metric is intended to capture the costs the organization incurred during the reporting period for depreciation and amortization of assets on a defined schedule over time."@en ;
     org:hasIdentifier "FP9649" ;
@@ -1139,12 +1138,12 @@ Fixed assets are considered part of non-current assets, which are a component of
     cids:definedBy cids:giin ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    skos:inScheme <> ;
+    skos:inScheme <> .
 
 :FP9703
     a skos:Concept, cids:Code ;
-    org:hasName "Cash Flow: Investing Activities" .
-    skos:prefLabel "Cash Flow: Investing Activities"@en .
+    org:hasName "Cash Flow: Investing Activities" ;
+    skos:prefLabel "Cash Flow: Investing Activities"@en ;
     cids:hasDescription "Value of the organization's cash flow during the reporting period related to investing activities by the organization." ;
     skos:definition "Value of the organization's cash flow during the reporting period related to investing activities by the organization."@en ;
     org:hasIdentifier "FP9703" ;
@@ -1155,12 +1154,12 @@ Fixed assets are considered part of non-current assets, which are a component of
     cids:definedBy cids:giin ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    skos:inScheme <> ;
+    skos:inScheme <> .
 
 :FP9717
     a skos:Concept, cids:Code ;
-    org:hasName "Loan Write-Offs" .
-    skos:prefLabel "Loan Write-Offs"@en .
+    org:hasName "Loan Write-Offs" ;
+    skos:prefLabel "Loan Write-Offs"@en ;
     cids:hasDescription "Value of loans written off by the organization during the reporting period." ;
     skos:definition "Value of loans written off by the organization during the reporting period."@en ;
     org:hasIdentifier "FP9717" ;
@@ -1171,12 +1170,12 @@ Fixed assets are considered part of non-current assets, which are a component of
     cids:definedBy cids:giin ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    skos:inScheme <> ;
+    skos:inScheme <> .
 
 :FP9954
     a skos:Concept, cids:Code ;
-    org:hasName "Value of Loans Fully Repaid on Time" .
-    skos:prefLabel "Value of Loans Fully Repaid on Time"@en .
+    org:hasName "Value of Loans Fully Repaid on Time" ;
+    skos:prefLabel "Value of Loans Fully Repaid on Time"@en ;
     cids:hasDescription "Value of the organization’s loans due for complete payback during the reporting period (but disbursed at any time) that were repaid no later than their due dates." ;
     skos:definition "Value of the organization’s loans due for complete payback during the reporting period (but disbursed at any time) that were repaid no later than their due dates."@en ;
     org:hasIdentifier "FP9954" ;
@@ -1189,12 +1188,12 @@ Organizations are also encouraged to report the value of loans fully repaid on t
     cids:definedBy cids:giin ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    skos:inScheme <> ;
+    skos:inScheme <> .
 
 :ID0120
     a skos:Concept, cids:Code ;
-    org:hasName "Racial Equity Negative Screen" .
-    skos:prefLabel "Racial Equity Negative Screen"@en .
+    org:hasName "Racial Equity Negative Screen" ;
+    skos:prefLabel "Racial Equity Negative Screen"@en ;
     cids:hasDescription "Indicates whether the investing organization applied a racial equity–focused negative screen to all investments during the reporting period, including at least an analysis of potential harmful effects on communities historically marginalized due to race and/or ethnicity." ;
     skos:definition "Indicates whether the investing organization applied a racial equity–focused negative screen to all investments during the reporting period, including at least an analysis of potential harmful effects on communities historically marginalized due to race and/or ethnicity."@en ;
     org:hasIdentifier "ID0120" ;
@@ -1210,12 +1209,12 @@ This metric aligns with the Corporate Racial Equity Alliance’s (https://corpor
     cids:definedBy cids:giin ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    skos:inScheme <> ;
+    skos:inScheme <> .
 
 :ID1046
     a skos:Concept, cids:Code ;
-    org:hasName "Racial Equity Audit" .
-    skos:prefLabel "Racial Equity Audit"@en .
+    org:hasName "Racial Equity Audit" ;
+    skos:prefLabel "Racial Equity Audit"@en ;
     cids:hasDescription "Indicates whether the organization completed a racial equity audit during the reporting period." ;
     skos:definition "Indicates whether the organization completed a racial equity audit during the reporting period."@en ;
     org:hasIdentifier "ID1046" ;
@@ -1230,12 +1229,12 @@ This metric aligns with the Corporate Racial Equity Alliance’s (https://corpor
     cids:definedBy cids:giin ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    skos:inScheme <> ;
+    skos:inScheme <> .
 
 :ID8539
     a skos:Concept, cids:Code ;
-    org:hasName "Bias-Reducing Investment Practices" .
-    skos:prefLabel "Bias-Reducing Investment Practices"@en .
+    org:hasName "Bias-Reducing Investment Practices" ;
+    skos:prefLabel "Bias-Reducing Investment Practices"@en ;
     cids:hasDescription "Describes practices the investing organization implemented during the reporting period to reduce biases in investment criteria, policies, and processes that have disproportionately negative effects on entrepreneurs who are from groups historically marginalized due to race and/or ethnicity. See usage guidance for specific practices to address." ;
     skos:definition "Describes practices the investing organization implemented during the reporting period to reduce biases in investment criteria, policies, and processes that have disproportionately negative effects on entrepreneurs who are from groups historically marginalized due to race and/or ethnicity. See usage guidance for specific practices to address."@en ;
     org:hasIdentifier "ID8539" ;
@@ -1270,12 +1269,12 @@ For further details on the specified practices in addition to the resources link
     cids:definedBy cids:giin ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    skos:inScheme <> ;
+    skos:inScheme <> .
 
 :ID9449
     a skos:Concept, cids:Code ;
-    org:hasName "Racial Equity Strategy" .
-    skos:prefLabel "Racial Equity Strategy"@en .
+    org:hasName "Racial Equity Strategy" ;
+    skos:prefLabel "Racial Equity Strategy"@en ;
     cids:hasDescription "Indicates whether the organization implements a strategy to set targets, drive progress toward, and report on racial equity goals." ;
     skos:definition "Indicates whether the organization implements a strategy to set targets, drive progress toward, and report on racial equity goals."@en ;
     org:hasIdentifier "ID9449" ;
@@ -1295,12 +1294,12 @@ This metric aligns with the Corporate Racial Equity Alliance’s (https://corpor
     cids:definedBy cids:giin ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    skos:inScheme <> ;
+    skos:inScheme <> .
 
 :ID9608
     a skos:Concept, cids:Code ;
-    org:hasName "Assets Under Management: Total" .
-    skos:prefLabel "Assets Under Management: Total"@en .
+    org:hasName "Assets Under Management: Total" ;
+    skos:prefLabel "Assets Under Management: Total"@en ;
     cids:hasDescription "Value of the investing organization's total assets under management as of the end of the reporting period." ;
     skos:definition "Value of the investing organization's total assets under management as of the end of the reporting period."@en ;
     org:hasIdentifier "ID9608" ;
@@ -1312,12 +1311,12 @@ This metric aligns with the Corporate Racial Equity Alliance’s (https://corpor
     cids:definedBy cids:giin ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    skos:inScheme <> ;
+    skos:inScheme <> .
 
 :II0324
     a skos:Concept, cids:Code ;
-    org:hasName "Value of Capacity Building and Advisory Services Provided" .
-    skos:prefLabel "Value of Capacity Building and Advisory Services Provided"@en .
+    org:hasName "Value of Capacity Building and Advisory Services Provided" ;
+    skos:prefLabel "Value of Capacity Building and Advisory Services Provided"@en ;
     cids:hasDescription "Value of the investing organization's support for capacity-building efforts at investee companies as of the end of the reporting period." ;
     skos:definition "Value of the investing organization's support for capacity-building efforts at investee companies as of the end of the reporting period."@en ;
     org:hasIdentifier "II0324" ;
@@ -1335,12 +1334,12 @@ Used along with Target Stakeholder Demographic (PD5752) to specify historically 
     cids:definedBy cids:giin ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    skos:inScheme <> ;
+    skos:inScheme <> .
 
 :II2107
     a skos:Concept, cids:Code ;
-    org:hasName "Fund Managers: Considered for Investment" .
-    skos:prefLabel "Fund Managers: Considered for Investment"@en .
+    org:hasName "Fund Managers: Considered for Investment" ;
+    skos:prefLabel "Fund Managers: Considered for Investment"@en ;
     cids:hasDescription "Number of unique individuals affiliated with the organization who were candidates to manage client assets via funds and/or separate accounts during the reporting period." ;
     skos:definition "Number of unique individuals affiliated with the organization who were candidates to manage client assets via funds and/or separate accounts during the reporting period."@en ;
     org:hasIdentifier "II2107" ;
@@ -1356,12 +1355,12 @@ Used along with Target Stakeholder Demographic (PD5752) to specify historically 
     cids:definedBy cids:giin ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    skos:inScheme <> ;
+    skos:inScheme <> .
 
 :II4910
     a skos:Concept, cids:Code ;
-    org:hasName "Assets Under Management: Managed by Fund Managers from Historically Marginalized Groups" .
-    skos:prefLabel "Assets Under Management: Managed by Fund Managers from Historically Marginalized Groups"@en .
+    org:hasName "Assets Under Management: Managed by Fund Managers from Historically Marginalized Groups" ;
+    skos:prefLabel "Assets Under Management: Managed by Fund Managers from Historically Marginalized Groups"@en ;
     cids:hasDescription "Value of the investing organization's assets under management (AUM) invested with fund managers from groups historically marginalized due to race and/or ethnicity as of the end of the reporting period." ;
     skos:definition "Value of the investing organization's assets under management (AUM) invested with fund managers from groups historically marginalized due to race and/or ethnicity as of the end of the reporting period."@en ;
     org:hasIdentifier "II4910" ;
@@ -1381,12 +1380,12 @@ Used along with Target Stakeholder Demographic (PD5752) to specify historically 
     cids:definedBy cids:giin ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    skos:inScheme <> ;
+    skos:inScheme <> .
 
 :II5202
     a skos:Concept, cids:Code ;
-    org:hasName "Companies Considered for Investment: Total" .
-    skos:prefLabel "Companies Considered for Investment: Total"@en .
+    org:hasName "Companies Considered for Investment: Total" ;
+    skos:prefLabel "Companies Considered for Investment: Total"@en ;
     cids:hasDescription "Number of companies the organization considered for investment—that is, in the pipeline—during the reporting period." ;
     skos:definition "Number of companies the organization considered for investment—that is, in the pipeline—during the reporting period."@en ;
     org:hasIdentifier "II5202" ;
@@ -1400,12 +1399,12 @@ This metric aligns with the Corporate Racial Equity Alliance’s (https://corpor
     cids:definedBy cids:giin ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    skos:inScheme <> ;
+    skos:inScheme <> .
 
 :II5889
     a skos:Concept, cids:Code ;
-    org:hasName "Fund Managers: Total" .
-    skos:prefLabel "Fund Managers: Total"@en .
+    org:hasName "Fund Managers: Total" ;
+    skos:prefLabel "Fund Managers: Total"@en ;
     cids:hasDescription "Number of unique individuals affiliated with the organization who were managing client assets via funds and/or separate accounts as of the end of the reporting period." ;
     skos:definition "Number of unique individuals affiliated with the organization who were managing client assets via funds and/or separate accounts as of the end of the reporting period."@en ;
     org:hasIdentifier "II5889" ;
@@ -1421,12 +1420,12 @@ Used along with Target Stakeholder Demographic (PD5752) to specify historically 
     cids:definedBy cids:giin ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    skos:inScheme <> ;
+    skos:inScheme <> .
 
 :II6610
     a skos:Concept, cids:Code ;
-    org:hasName "Value of Investments in Communities Historically Marginalized Due to Race and/or Ethnicity" .
-    skos:prefLabel "Value of Investments in Communities Historically Marginalized Due to Race and/or Ethnicity"@en .
+    org:hasName "Value of Investments in Communities Historically Marginalized Due to Race and/or Ethnicity" ;
+    skos:prefLabel "Value of Investments in Communities Historically Marginalized Due to Race and/or Ethnicity"@en ;
     cids:hasDescription "Value of the investing organization's assets under management deployed to communities that are predominantly populated by groups historically marginalized due to race and/or ethnicity as of the end of the reporting period." ;
     skos:definition "Value of the investing organization's assets under management deployed to communities that are predominantly populated by groups historically marginalized due to race and/or ethnicity as of the end of the reporting period."@en ;
     org:hasIdentifier "II6610" ;
@@ -1442,12 +1441,12 @@ Used along with Target Stakeholder Demographic (PD5752) to specify historically 
     cids:definedBy cids:giin ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    skos:inScheme <> ;
+    skos:inScheme <> .
 
 :II8439
     a skos:Concept, cids:Code ;
-    org:hasName "Companies Considered for Investment: Led by Founders from Historically Marginalized Groups due to Race and/or Ethnicity" .
-    skos:prefLabel "Companies Considered for Investment: Led by Founders from Historically Marginalized Groups due to Race and/or Ethnicity"@en .
+    org:hasName "Companies Considered for Investment: Led by Founders from Historically Marginalized Groups due to Race and/or Ethnicity" ;
+    skos:prefLabel "Companies Considered for Investment: Led by Founders from Historically Marginalized Groups due to Race and/or Ethnicity"@en ;
     cids:hasDescription "Number of companies the organization considered for investment—that is, in the pipeline—during the reporting period that were led by founders from groups historically marginalized due to race and/or ethnicity." ;
     skos:definition "Number of companies the organization considered for investment—that is, in the pipeline—during the reporting period that were led by founders from groups historically marginalized due to race and/or ethnicity."@en ;
     org:hasIdentifier "II8439" ;
@@ -1463,12 +1462,12 @@ This metric aligns with the Corporate Racial Equity Alliance’s (https://corpor
     cids:definedBy cids:giin ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    skos:inScheme <> ;
+    skos:inScheme <> .
 
 :II8480
     a skos:Concept, cids:Code ;
-    org:hasName "Value of Investments in Company: Outstanding" .
-    skos:prefLabel "Value of Investments in Company: Outstanding"@en .
+    org:hasName "Value of Investments in Company: Outstanding" ;
+    skos:prefLabel "Value of Investments in Company: Outstanding"@en ;
     cids:hasDescription "Value of the investing organization's outstanding investment in a company as of the end of the reporting period. See usage guidance for details." ;
     skos:definition "Value of the investing organization's outstanding investment in a company as of the end of the reporting period. See usage guidance for details."@en ;
     org:hasIdentifier "II8480" ;
@@ -1480,12 +1479,12 @@ This metric aligns with the Corporate Racial Equity Alliance’s (https://corpor
     cids:definedBy cids:giin ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    skos:inScheme <> ;
+    skos:inScheme <> .
 
 :II9005
     a skos:Concept, cids:Code ;
-    org:hasName "Value of Investments in Company: Total" .
-    skos:prefLabel "Value of Investments in Company: Total"@en .
+    org:hasName "Value of Investments in Company: Total" ;
+    skos:prefLabel "Value of Investments in Company: Total"@en ;
     cids:hasDescription "Value of the investing organization's investment in a company as of the beginning of the investment." ;
     skos:definition "Value of the investing organization's investment in a company as of the beginning of the investment."@en ;
     org:hasIdentifier "II9005" ;
@@ -1497,12 +1496,12 @@ This metric aligns with the Corporate Racial Equity Alliance’s (https://corpor
     cids:definedBy cids:giin ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    skos:inScheme <> ;
+    skos:inScheme <> .
 
 :OD0482
     a skos:Concept, cids:Code ;
-    org:hasName "Racial Equity Transparency Practice" .
-    skos:prefLabel "Racial Equity Transparency Practice"@en .
+    org:hasName "Racial Equity Transparency Practice" ;
+    skos:prefLabel "Racial Equity Transparency Practice"@en ;
     cids:hasDescription "Indicates whether the organization has a formalized and ongoing practice of sharing publicly its positions, practices, progress, and advocacy related to racial equity as a mechanism to build trust and ensure adherence." ;
     skos:definition "Indicates whether the organization has a formalized and ongoing practice of sharing publicly its positions, practices, progress, and advocacy related to racial equity as a mechanism to build trust and ensure adherence."@en ;
     org:hasIdentifier "OD0482" ;
@@ -1520,12 +1519,12 @@ This metric aligns with the Corporate Racial Equity Alliance’s (https://corpor
     cids:definedBy cids:giin ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    skos:inScheme <> ;
+    skos:inScheme <> .
 
 :OD0660
     a skos:Concept, cids:Code ;
-    org:hasName "Jobs Type" .
-    skos:prefLabel "Jobs Type"@en .
+    org:hasName "Jobs Type" ;
+    skos:prefLabel "Jobs Type"@en ;
     cids:hasDescription"""Describes the type of jobs supported, created, maintained, or lost during the reporting period.
 
 Choose all that apply:
@@ -1574,12 +1573,12 @@ Full-Time/Part-Time:
     cids:definedBy cids:giin ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    skos:inScheme <> ;
+    skos:inScheme <> .
 
 :OD1777
     a skos:Concept, cids:Code ;
-    org:hasName "Location of Organization's Operating Facilities" .
-    skos:prefLabel "Location of Organization's Operating Facilities"@en .
+    org:hasName "Location of Organization's Operating Facilities" ;
+    skos:prefLabel "Location of Organization's Operating Facilities"@en ;
     cids:hasDescription "Address of the organization's operating facilities." ;
     skos:definition "Address of the organization's operating facilities."@en ;
     org:hasIdentifier "OD1777" ;
@@ -1592,12 +1591,12 @@ Organizations are encouraged to include the full address of the facilities, incl
     cids:definedBy cids:giin ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    skos:inScheme <> ;
+    skos:inScheme <> .
 
 :OD2311
     a skos:Concept, cids:Code ;
-    org:hasName "Racial Equity Advocacy Strategy" .
-    skos:prefLabel "Racial Equity Advocacy Strategy"@en .
+    org:hasName "Racial Equity Advocacy Strategy" ;
+    skos:prefLabel "Racial Equity Advocacy Strategy"@en ;
     cids:hasDescription "Indicates whether the organization has an advocacy strategy in place to support racial equity and justice efforts at local and national levels as of the end of the reporting period." ;
     skos:definition "Indicates whether the organization has an advocacy strategy in place to support racial equity and justice efforts at local and national levels as of the end of the reporting period."@en ;
     org:hasIdentifier "OD2311" ;
@@ -1615,12 +1614,12 @@ This metric aligns with the Corporate Racial Equity Alliance’s (https://corpor
     cids:definedBy cids:giin ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    skos:inScheme <> ;
+    skos:inScheme <> .
 
 :OD2735
     a skos:Concept, cids:Code ;
-    org:hasName "Mission Statement" .
-    skos:prefLabel "Mission Statement"@en .
+    org:hasName "Mission Statement" ;
+    skos:prefLabel "Mission Statement"@en ;
     cids:hasDescription "Describes the mission statement of the organization." ;
     skos:definition "Describes the mission statement of the organization."@en ;
     org:hasIdentifier "OD2735" ;
@@ -1635,12 +1634,12 @@ Organizations can refer to the SPI4 (http://cerise-spi4.squarespace.com/), speci
     cids:definedBy cids:giin ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    skos:inScheme <> ;
+    skos:inScheme <> .
 
 :OD2999
     a skos:Concept, cids:Code ;
-    org:hasName "Legal Structure" .
-    skos:prefLabel "Legal Structure"@en .
+    org:hasName "Legal Structure" ;
+    skos:prefLabel "Legal Structure"@en ;
     cids:hasDescription """Describes the legal structure of the organization. Select one:
 
 - Benefit Corporation
@@ -1670,12 +1669,12 @@ Organizations can refer to the SPI4 (http://cerise-spi4.squarespace.com/), speci
     cids:definedBy cids:giin ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    skos:inScheme <> ;
+    skos:inScheme <> .
 
 :OD3292
     a skos:Concept, cids:Code ;
-    org:hasName "Board of Directors Remuneration" .
-    skos:prefLabel "Board of Directors Remuneration"@en .
+    org:hasName "Board of Directors Remuneration" ;
+    skos:prefLabel "Board of Directors Remuneration"@en ;
     cids:hasDescription "Describes the compensation practices for members of the board of directors or other governing body of the reporting organization." ;
     skos:definition "Describes the compensation practices for members of the board of directors or other governing body of the reporting organization."@en ;
     org:hasIdentifier "OD3292" ;
@@ -1691,12 +1690,12 @@ Examples of details to footnote on the type of remuneration provided include: ye
     cids:definedBy cids:giin ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    skos:inScheme <> ;
+    skos:inScheme <> .
 
 :OD3520
     a skos:Concept, cids:Code ;
-    org:hasName "Year Founded" .
-    skos:prefLabel "Year Founded"@en .
+    org:hasName "Year Founded" ;
+    skos:prefLabel "Year Founded"@en ;
     cids:hasDescription "Year the organization was founded." ;
     skos:definition "Year the organization was founded."@en ;
     org:hasIdentifier "OD3520" ;
@@ -1708,12 +1707,12 @@ Examples of details to footnote on the type of remuneration provided include: ye
     cids:definedBy cids:giin ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    skos:inScheme <> ;
+    skos:inScheme <> .
 
 :OD3725
     a skos:Concept, cids:Code ;
-    org:hasName "IRIS ID" .
-    skos:prefLabel "IRIS ID"@en .
+    org:hasName "IRIS ID" ;
+    skos:prefLabel "IRIS ID"@en ;
     cids:hasDescription "IRIS ID of the organization reporting data." ;
     skos:definition "IRIS ID of the organization reporting data."@en ;
     org:hasIdentifier "OD3725" ;
@@ -1724,12 +1723,12 @@ Examples of details to footnote on the type of remuneration provided include: ye
     cids:definedBy cids:giin ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    skos:inScheme <> ;
+    skos:inScheme <> .
 
 :OD4091
     a skos:Concept, cids:Code ;
-    org:hasName "Social and Environmental Targets" .
-    skos:prefLabel "Social and Environmental Targets"@en .
+    org:hasName "Social and Environmental Targets" ;
+    skos:prefLabel "Social and Environmental Targets"@en ;
     cids:hasDescription "Describes the quantifiable social and environmental targets set by the organization." ;
     skos:definition "Describes the quantifiable social and environmental targets set by the organization."@en ;
     org:hasIdentifier "OD4091" ;
@@ -1745,12 +1744,12 @@ Organizations are also encouraged to report this metric in conjunction with Soci
     cids:definedBy cids:giin ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    skos:inScheme <> ;
+    skos:inScheme <> .
 
 :OD4108
     a skos:Concept, cids:Code ;
-    org:hasName "Environmental Impact Objectives" .
-    skos:prefLabel "Environmental Impact Objectives"@en .
+    org:hasName "Environmental Impact Objectives" ;
+    skos:prefLabel "Environmental Impact Objectives"@en ;
     org:hasIdentifier "OD4108" ;
     skos:notation "OD4108" ;
     prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/OD4108/> ;
@@ -2278,12 +2277,12 @@ Water—Other (describe)"""@en ;
     cids:definedBy cids:giin ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    skos:inScheme <> ;
+    skos:inScheme <> .
 
 :OD4232
     a skos:Concept, cids:Code ;
-    org:hasName "Women's Career Advancement Initiative" .
-    skos:prefLabel "Women's Career Advancement Initiative"@en .
+    org:hasName "Women's Career Advancement Initiative" ;
+    skos:prefLabel "Women's Career Advancement Initiative"@en ;
     cids:hasDescription "Indicates whether the organization has an initiative in place to advance women in their workforce." ;
     skos:definition "Indicates whether the organization has an initiative in place to advance women in their workforce."@en ;
     org:hasIdentifier "OD4232" ;
@@ -2295,12 +2294,12 @@ Water—Other (describe)"""@en ;
     cids:definedBy cids:giin ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    skos:inScheme <> ;
+    skos:inScheme <> .
 
 :OD5828
     a skos:Concept, cids:Code ;
-    org:hasName "Name of Organization" .
-    skos:prefLabel "Name of Organization"@en .
+    org:hasName "Name of Organization" ;
+    skos:prefLabel "Name of Organization"@en ;
     cids:hasDescription "Name of the organization." ;
     skos:definition "Name of the organization."@en ;
     org:hasIdentifier "OD5828" ;
@@ -2312,12 +2311,12 @@ Water—Other (describe)"""@en ;
     cids:definedBy cids:giin ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    skos:inScheme <> ;
+    skos:inScheme <> .
 
 :OD5990
     a skos:Concept, cids:Code ;
-    org:hasName "Reporting Currency" .
-    skos:prefLabel "Reporting Currency"@en .
+    org:hasName "Reporting Currency" ;
+    skos:prefLabel "Reporting Currency"@en ;
     cids:hasDescription """The national currency used to report currency figures in this IRIS report.
 
 Indicate based on the International Organization for Standardization (ISO) Currency List. Select from the options in the Reference List tab.""" ;
@@ -2333,12 +2332,12 @@ Indicate based on the International Organization for Standardization (ISO) Curre
     cids:definedBy cids:giin ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    skos:inScheme <> ;
+    skos:inScheme <> .
 
 :OD6247
     a skos:Concept, cids:Code ;
-    org:hasName "Social Impact Objectives" .
-    skos:prefLabel "Social Impact Objectives"@en .
+    org:hasName "Social Impact Objectives" ;
+    skos:prefLabel "Social Impact Objectives"@en ;
     org:hasIdentifier "OD6247" ;
     skos:notation "OD6247" ;
     prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/OD6247/> ;
@@ -2866,12 +2865,12 @@ Water—Other (describe)"""@en ;
     cids:definedBy cids:giin ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    skos:inScheme <> ;
+    skos:inScheme <> .
 
 :OD6306
     a skos:Concept, cids:Code ;
-    org:hasName "Operational Model" .
-    skos:prefLabel "Operational Model"@en .
+    org:hasName "Operational Model" ;
+    skos:prefLabel "Operational Model"@en ;
     cids:hasDescription """Describes the operational model of the organization. Select all that apply:
 
 - Production/Manufacturing: Production and/or manufacturing of goods (e.g., farming, construction, manufacturing)
@@ -2899,12 +2898,12 @@ Water—Other (describe)"""@en ;
     cids:definedBy cids:giin ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    skos:inScheme <> ;
+    skos:inScheme <> .
 
 :OD6350
     a skos:Concept, cids:Code ;
-    org:hasName "Theory of Change" .
-    skos:prefLabel "Theory of Change"@en .
+    org:hasName "Theory of Change" ;
+    skos:prefLabel "Theory of Change"@en ;
     cids:hasDescription "Describes the theory of change of the organization." ;
     skos:definition "Describes the theory of change of the organization."@en ;
     org:hasIdentifier "OD6350" ;
@@ -2922,12 +2921,12 @@ For example, an organization that provides training to and sources from smallhol
     cids:definedBy cids:giin ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    skos:inScheme <> ;
+    skos:inScheme <> .
 
 :OD6737
     a skos:Concept, cids:Code ;
-    org:hasName "Stormwater Runoff" .
-    skos:prefLabel "Stormwater Runoff"@en .
+    org:hasName "Stormwater Runoff" ;
+    skos:prefLabel "Stormwater Runoff"@en ;
     cids:hasDescription "Volume of water generated from rain and snowmelt flowing over (that is, without soaking into the ground) land indirectly or directly controlled by the organization during the reporting period." ;
     skos:definition "Volume of water generated from rain and snowmelt flowing over (that is, without soaking into the ground) land indirectly or directly controlled by the organization during the reporting period."@en ;
     org:hasIdentifier "OD6737" ;
@@ -2941,12 +2940,12 @@ Organizations may use modeling tools to calculate the volume of stormwater runof
     cids:definedBy cids:giin ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    skos:inScheme <> ;
+    skos:inScheme <> .
 
 :OD6855
     a skos:Concept, cids:Code ;
-    org:hasName "Location of Organization's Headquarters" .
-    skos:prefLabel "Location of Organization's Headquarters"@en .
+    org:hasName "Location of Organization's Headquarters" ;
+    skos:prefLabel "Location of Organization's Headquarters"@en ;
     cids:hasDescription "Address of the organization's legally incorporated headquarters." ;
     skos:definition "Address of the organization's legally incorporated headquarters."@en ;
     org:hasIdentifier "OD6855" ;
@@ -2957,12 +2956,12 @@ Organizations may use modeling tools to calculate the volume of stormwater runof
     cids:definedBy cids:giin ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    skos:inScheme <> ;
+    skos:inScheme <> .
 
 :OD6951
     a skos:Concept, cids:Code ;
-    org:hasName "Report Start Date" .
-    skos:prefLabel "Report Start Date"@en .
+    org:hasName "Report Start Date" ;
+    skos:prefLabel "Report Start Date"@en ;
     cids:hasDescription "Start date of the reporting period for which the organization is providing data." ;
     skos:definition "Start date of the reporting period for which the organization is providing data."@en ;
     org:hasIdentifier "OD6951" ;
@@ -2974,12 +2973,12 @@ Organizations may use modeling tools to calculate the volume of stormwater runof
     cids:definedBy cids:giin ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    skos:inScheme <> ;
+    skos:inScheme <> .
 
 :OD7111
     a skos:Concept, cids:Code ;
-    org:hasName "Report End Date" .
-    skos:prefLabel "Report End Date"@en .
+    org:hasName "Report End Date" ;
+    skos:prefLabel "Report End Date"@en ;
     cids:hasDescription "End date of the reporting period for which the organization is providing data." ;
     skos:definition "End date of the reporting period for which the organization is providing data."@en ;
     org:hasIdentifier "OD7111" ;
@@ -2991,12 +2990,12 @@ Organizations may use modeling tools to calculate the volume of stormwater runof
     cids:definedBy cids:giin ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    skos:inScheme <> ;
+    skos:inScheme <> .
 
 :OD7212
     a skos:Concept, cids:Code ;
-    org:hasName "Target Stakeholders" .
-    skos:prefLabel "Target Stakeholders"@en .
+    org:hasName "Target Stakeholders" ;
+    skos:prefLabel "Target Stakeholders"@en ;
     org:hasIdentifier "OD7212" ;
     skos:notation "OD7212" ;
     prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/OD7212/> ;
@@ -3043,12 +3042,12 @@ Choose all that apply:
     cids:definedBy cids:giin ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    skos:inScheme <> ;
+    skos:inScheme <> .
 
 :OD7536
     a skos:Concept, cids:Code ;
-    org:hasName "Water Type" .
-    skos:prefLabel "Water Type"@en .
+    org:hasName "Water Type" ;
+    skos:prefLabel "Water Type"@en ;
     org:hasIdentifier "OD7536" ;
     skos:notation "OD7536" ;
     prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/OD7536/> ;
@@ -3082,12 +3081,12 @@ Choose all that apply:
     cids:definedBy cids:giin ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    skos:inScheme <> ;
+    skos:inScheme <> .
 
 :OD7796
     a skos:Concept, cids:Code ;
-    org:hasName "Organization Web Address" .
-    skos:prefLabel "Organization Web Address"@en .
+    org:hasName "Organization Web Address" ;
+    skos:prefLabel "Organization Web Address"@en ;
     cids:hasDescription "Web address (URL) of the organization." ;
     skos:definition "Web address (URL) of the organization."@en ;
     org:hasIdentifier "OD7796" ;
@@ -3099,12 +3098,12 @@ Choose all that apply:
     cids:definedBy cids:giin ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    skos:inScheme <> ;
+    skos:inScheme <> .
 
 :OD7900
     a skos:Concept, cids:Code ;
-    org:hasName "Relationship to Target Stakeholders" .
-    skos:prefLabel "Relationship to Target Stakeholders"@en .
+    org:hasName "Relationship to Target Stakeholders" ;
+    skos:prefLabel "Relationship to Target Stakeholders"@en ;
     cids:hasDescription "Describes the relationship between the organization and its target stakeholders." ;
     skos:definition "Describes the relationship between the organization and its target stakeholders."@en ;
     org:hasIdentifier "OD7900" ;
@@ -3122,12 +3121,12 @@ An organization that procures produce from farmers might respond: \"The smallhol
     cids:definedBy cids:giin ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    skos:inScheme <> ;
+    skos:inScheme <> .
 
 :OD8350
     a skos:Concept, cids:Code ;
-    org:hasName "Client Model" .
-    skos:prefLabel "Client Model"@en .
+    org:hasName "Client Model" ;
+    skos:prefLabel "Client Model"@en ;
     org:hasIdentifier "OD8350" ;
     skos:notation "OD8350" ;
     prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/OD8350/> ;
@@ -3157,12 +3156,12 @@ In a Peer-to-Peer client model, the organization matches client individuals with
     cids:definedBy cids:giin ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    skos:inScheme <> ;
+    skos:inScheme <> .
 
 :OD9109
     a skos:Concept, cids:Code ;
-    org:hasName "Type of Financial Institution" .
-    skos:prefLabel "Type of Financial Institution"@en .
+    org:hasName "Type of Financial Institution" ;
+    skos:prefLabel "Type of Financial Institution"@en ;
     org:hasIdentifier "OD9109" ;
     skos:notation "OD9109" ;
     prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/OD9109/> ;
@@ -3196,12 +3195,12 @@ In a Peer-to-Peer client model, the organization matches client individuals with
     cids:definedBy cids:giin ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    skos:inScheme <> ;
+    skos:inScheme <> .
 
 :OI0112
     a skos:Concept, cids:Code ;
-    org:hasName "Employees Receiving Regular Performance and Career Development Reviews" .
-    skos:prefLabel "Employees Receiving Regular Performance and Career Development Reviews"@en .
+    org:hasName "Employees Receiving Regular Performance and Career Development Reviews" ;
+    skos:prefLabel "Employees Receiving Regular Performance and Career Development Reviews"@en ;
     cids:hasDescription "Number of permanent and temporary workers who received a routine and regular performance and career development review during the reporting period." ;
     skos:definition "Number of permanent and temporary workers who received a routine and regular performance and career development review during the reporting period."@en ;
     org:hasIdentifier "OI0112" ;
@@ -3219,12 +3218,12 @@ This metric may help describe the HOW MUCH Scale dimension, which helps estimate
     cids:definedBy cids:giin ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    skos:inScheme <> ;
+    skos:inScheme <> .
 
 :OI0263
     a skos:Concept, cids:Code ;
-    org:hasName "Water Withdrawn" .
-    skos:prefLabel "Water Withdrawn"@en .
+    org:hasName "Water Withdrawn" ;
+    skos:prefLabel "Water Withdrawn"@en ;
     cids:hasDescription "Volume of all water drawn from surface water, groundwater, seawater, or a third party for any use by the organization during the reporting period." ;
     skos:definition "Volume of all water drawn from surface water, groundwater, seawater, or a third party for any use by the organization during the reporting period."@en ;
     org:hasIdentifier "OI0263" ;
@@ -3240,12 +3239,12 @@ In some contexts, this metric can serve as an indicator of whether the outcome b
     cids:definedBy cids:giin ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    skos:inScheme <> ;
+    skos:inScheme <> .
 
 :OI0386
     a skos:Concept, cids:Code ;
-    org:hasName "Water Discharged" .
-    skos:prefLabel "Water Discharged"@en .
+    org:hasName "Water Discharged" ;
+    skos:prefLabel "Water Discharged"@en ;
     cids:hasDescription "Volume of effluents, used water, and unused water released, during the reporting period, to surface water, groundwater, seawater, or a third party and for which the organization has no further use." ;
     skos:definition "Volume of effluents, used water, and unused water released, during the reporting period, to surface water, groundwater, seawater, or a third party and for which the organization has no further use."@en ;
     org:hasIdentifier "OI0386" ;
@@ -3261,12 +3260,12 @@ In some contexts, this metric can serve as an indicator of whether the outcome b
     cids:definedBy cids:giin ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    skos:inScheme <> ;
+    skos:inScheme <> .
 
 :OI0659
     a skos:Concept, cids:Code ;
-    org:hasName "Average Daily Traffic" .
-    skos:prefLabel "Average Daily Traffic"@en .
+    org:hasName "Average Daily Traffic" ;
+    skos:prefLabel "Average Daily Traffic"@en ;
     cids:hasDescription "Average number of vehicles per day using an urban road over the course of a year." ;
     skos:definition "Average number of vehicles per day using an urban road over the course of a year."@en ;
     org:hasIdentifier "OI0659" ;
@@ -3282,12 +3281,12 @@ International Finance Institutions (IFIs) often use this metric as part of trans
     cids:definedBy cids:giin ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    skos:inScheme <> ;
+    skos:inScheme <> .
 
 :OI0667
     a skos:Concept, cids:Code ;
-    cids:hasName "Leadership Demographics"@en .
-    skos:prefLabel "Leadership Demographics"@en .
+    org:hasName "Leadership Demographics"@en ;
+    skos:prefLabel "Leadership Demographics"@en ;
     org:hasIdentifier "OI0667" ;
     skos:notation "OI0667" ;
     prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/OI0667/> ;
@@ -3346,12 +3345,12 @@ Individuals in leadership should self-report their own demographic data to ensur
     cids:definedBy cids:giin ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    skos:inScheme <> ;
+    skos:inScheme <> .
 
 :OI0685
     a skos:Concept, cids:Code ;
-    org:hasName "Market Linkages Improved or Expanded" .
-    skos:prefLabel "Market Linkages Improved or Expanded"@en .
+    org:hasName "Market Linkages Improved or Expanded" ;
+    skos:prefLabel "Market Linkages Improved or Expanded"@en ;
     cids:hasDescription "Describes whether the organization improved existing market linkages or engaged new or additional forward or backward market linkages, including through its own integration, during the reporting period." ;
     skos:definition "Describes whether the organization improved existing market linkages or engaged new or additional forward or backward market linkages, including through its own integration, during the reporting period."@en ;
     org:hasIdentifier "OI0685" ;
@@ -3369,12 +3368,12 @@ International Finance Institutions (IFIs) often use this metric as part of their
     cids:definedBy cids:giin ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    skos:inScheme <> ;
+    skos:inScheme <> .
 
 :OI0933
     a skos:Concept, cids:Code ;
-    org:hasName "Founder Demographics" .
-    skos:prefLabel "Founder Demographics"@en .
+    org:hasName "Founder Demographics" ;
+    skos:prefLabel "Founder Demographics"@en ;
     org:hasIdentifier "OI0933" ;
     skos:notation "OI0933" ;
     prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/OI0933/> ;
@@ -3432,12 +3431,12 @@ Other target populations:
     cids:definedBy cids:giin ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    skos:inScheme <> ;
+    skos:inScheme <> .
 
 :OI1010
     a skos:Concept, cids:Code ;
-    org:hasName "Vehicle/Container Inactive Hours" .
-    skos:prefLabel "Vehicle/Container Inactive Hours"@en .
+    org:hasName "Vehicle/Container Inactive Hours" ;
+    skos:prefLabel "Vehicle/Container Inactive Hours"@en ;
     cids:hasDescription "Average number of hours spent inactive or waiting (inclusive of turnaround and dwell time) by a vehicle or container during the reporting period." ;
     skos:definition "Average number of hours spent inactive or waiting (inclusive of turnaround and dwell time) by a vehicle or container during the reporting period."@en ;
     org:hasIdentifier "OI1010" ;
@@ -3453,12 +3452,12 @@ This metric is often used by International Finance Institutions (IFIs) as part o
     cids:definedBy cids:giin ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    skos:inScheme <> ;
+    skos:inScheme <> .
 
 :OI1042
     a skos:Concept, cids:Code ;
-    org:hasName "Number of Employee Grievances Registered" .
-    skos:prefLabel "Number of Employee Grievances Registered"@en .
+    org:hasName "Number of Employee Grievances Registered" ;
+    skos:prefLabel "Number of Employee Grievances Registered"@en ;
     cids:hasDescription "Number of formal grievances registered by employees of the organization during the reporting period." ;
     skos:definition "Number of formal grievances registered by employees of the organization during the reporting period."@en ;
     org:hasIdentifier "OI1042" ;
@@ -3476,12 +3475,12 @@ This metric may help describe the HOW MUCH Scale dimension, which helps estimate
     cids:definedBy cids:giin ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    skos:inScheme <> ;
+    skos:inScheme <> .
 
 :OI1047
     a skos:Concept, cids:Code ;
-    org:hasName "Soil Health Practices" .
-    skos:prefLabel "Soil Health Practices"@en .
+    org:hasName "Soil Health Practices" ;
+    skos:prefLabel "Soil Health Practices"@en ;
     org:hasIdentifier "OI1047" ;
     skos:notation "OI1047" ;
     prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/OI1047/> ;
@@ -3513,12 +3512,12 @@ Select all that apply:
     cids:definedBy cids:giin ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    skos:inScheme <> ;
+    skos:inScheme <> .
 
 :OI1054
     a skos:Concept, cids:Code ;
-    org:hasName "Wastewater Removed" .
-    skos:prefLabel "Wastewater Removed"@en .
+    org:hasName "Wastewater Removed" ;
+    skos:prefLabel "Wastewater Removed"@en ;
     cids:hasDescription "Volume of wastewater safely removed from client premises by the organization during the reporting period." ;
     skos:definition "Volume of wastewater safely removed from client premises by the organization during the reporting period."@en ;
     org:hasIdentifier "OI1054" ;
@@ -3534,12 +3533,12 @@ Organizations are encouraged to report these data in cubic meters."""@en ;
     cids:definedBy cids:giin ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    skos:inScheme <> ;
+    skos:inScheme <> .
 
 :OI1075
     a skos:Concept, cids:Code ;
-    org:hasName "Board of Directors: Total" .
-    skos:prefLabel "Board of Directors: Total"@en .
+    org:hasName "Board of Directors: Total" ;
+    skos:prefLabel "Board of Directors: Total"@en ;
     cids:hasDescription "Number of members of the organization's board of directors or other governing body as of the end of the reporting period." ;
     skos:definition "Number of members of the organization's board of directors or other governing body as of the end of the reporting period."@en ;
     org:hasIdentifier "OI1075" ;
@@ -3553,12 +3552,12 @@ This metric is multi-dimensional with regard to the five dimensions of impact. I
     cids:definedBy cids:giin ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    skos:inScheme <> ;
+    skos:inScheme <> .
 
 :OI1084
     a skos:Concept, cids:Code ;
-    org:hasName "Permanent Employee Wages: Historically Marginalized" .
-    skos:prefLabel "Permanent Employee Wages: Historically Marginalized"@en .
+    org:hasName "Permanent Employee Wages: Historically Marginalized" ;
+    skos:prefLabel "Permanent Employee Wages: Historically Marginalized"@en ;
     cids:hasDescription "Value of wages (including bonuses and excluding benefits) paid to all full- and part-time employees of the organization during the reporting period who belong to groups historically marginalized on the basis of race and/or ethnicity." ;
     skos:definition "Value of wages (including bonuses and excluding benefits) paid to all full- and part-time employees of the organization during the reporting period who belong to groups historically marginalized on the basis of race and/or ethnicity."@en ;
     org:hasIdentifier "OI1084" ;
@@ -3572,12 +3571,12 @@ The categorization of historically marginalized groups varies with location and 
     cids:definedBy cids:giin ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    skos:inScheme <> ;
+    skos:inScheme <> .
 
 :OI1120
     a skos:Concept, cids:Code ;
-    org:hasName "Operational Certifications" .
-    skos:prefLabel "Operational Certifications"@en .
+    org:hasName "Operational Certifications" ;
+    skos:prefLabel "Operational Certifications"@en ;
     cids:hasDescription "Describes the third-party, business process- and practice-related certifications that the organization holds as of the end of the reporting period. See usage guidance for further information." ;
     skos:definition "Describes the third-party, business process- and practice-related certifications that the organization holds as of the end of the reporting period. See usage guidance for further information."@en ;
     org:hasIdentifier "OI1120" ;
@@ -3591,12 +3590,12 @@ Since certifications vary by sector (for example, construction, textiles or manu
     cids:definedBy cids:giin ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    skos:inScheme <> ;
+    skos:inScheme <> .
 
 :OI1150
     a skos:Concept, cids:Code ;
-    org:hasName "Fair Hiring/Recruiting Policy" .
-    skos:prefLabel "Fair Hiring/Recruiting Policy"@en .
+    org:hasName "Fair Hiring/Recruiting Policy" ;
+    skos:prefLabel "Fair Hiring/Recruiting Policy"@en ;
     cids:hasDescription "Indicates whether the organization has a written employment policy to recruit employees fairly and equally and a system to monitor compliance with this policy." ;
     skos:definition "Indicates whether the organization has a written employment policy to recruit employees fairly and equally and a system to monitor compliance with this policy."@en ;
     org:hasIdentifier "OI1150" ;
@@ -3610,12 +3609,12 @@ Organizations should consider reporting this metric in combination with Fair Car
     cids:definedBy cids:giin ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    skos:inScheme <> ;
+    skos:inScheme <> .
 
 :OI1166
     a skos:Concept, cids:Code ;
-    org:hasName "Volunteer Hours" .
-    skos:prefLabel "Volunteer Hours"@en .
+    org:hasName "Volunteer Hours" ;
+    skos:prefLabel "Volunteer Hours"@en ;
     cids:hasDescription "Number of hours worked by non-employee volunteers who supported the organization during the reporting period." ;
     skos:definition "Number of hours worked by non-employee volunteers who supported the organization during the reporting period."@en ;
     org:hasIdentifier "OI1166" ;
@@ -3629,12 +3628,12 @@ Organizations interested in reporting information on employee volunteer hours ca
     cids:definedBy cids:giin ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    skos:inScheme <> ;
+    skos:inScheme <> .
 
 :OI1254
     a skos:Concept, cids:Code ;
-    org:hasName "Environmental Management System" .
-    skos:prefLabel "Environmental Management System"@en .
+    org:hasName "Environmental Management System" ;
+    skos:prefLabel "Environmental Management System"@en ;
     cids:hasDescription "Indicates whether the organization has an environmental management system in place." ;
     skos:definition "Indicates whether the organization has an environmental management system in place."@en ;
     org:hasIdentifier "OI1254" ;
@@ -3651,12 +3650,12 @@ Organizations can refer to the following sources for further guidance on environ
     cids:definedBy cids:giin ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    skos:inScheme <> ;
+    skos:inScheme <> .
 
 :OI1346
     a skos:Concept, cids:Code ;
-    org:hasName "Waste Produced: Hazardous Waste" .
-    skos:prefLabel "Waste Produced: Hazardous Waste"@en .
+    org:hasName "Waste Produced: Hazardous Waste" ;
+    skos:prefLabel "Waste Produced: Hazardous Waste"@en ;
     cids:hasDescription "Amount of hazardous waste created by the organization's operations during the reporting period." ;
     skos:definition "Amount of hazardous waste created by the organization's operations during the reporting period."@en ;
     org:hasIdentifier "OI1346" ;
@@ -3670,12 +3669,12 @@ Organizations are also encouraged to footnote the methods employed to ensure tha
     cids:definedBy cids:giin ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    skos:inScheme <> ;
+    skos:inScheme <> .
 
 :OI1479
     a skos:Concept, cids:Code ;
-    org:hasName "Greenhouse Gas Emissions: Total" .
-    skos:prefLabel "Greenhouse Gas Emissions: Total"@en .
+    org:hasName "Greenhouse Gas Emissions: Total" ;
+    skos:prefLabel "Greenhouse Gas Emissions: Total"@en ;
     cids:hasDescription "Amount of greenhouse gases (GHG) emitted as a result of the organization's operations during the reporting period." ;
     skos:definition "Amount of greenhouse gases (GHG) emitted as a result of the organization's operations during the reporting period."@en ;
     org:hasIdentifier "OI1479" ;
@@ -3691,12 +3690,12 @@ In some contexts, this metric can serve as an indicator of whether the outcome b
     cids:definedBy cids:giin ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    skos:inScheme <> ;
+    skos:inScheme <> .
 
 :OI1495
     a skos:Concept, cids:Code ;
-    org:hasName "Energy Generated for Use: Non-Renewable" .
-    skos:prefLabel "Energy Generated for Use: Non-Renewable"@en .
+    org:hasName "Energy Generated for Use: Non-Renewable" ;
+    skos:prefLabel "Energy Generated for Use: Non-Renewable"@en ;
     cids:hasDescription "Amount of energy both generated and consumed by the organization from non-renewable sources during the reporting period." ;
     skos:definition "Amount of energy both generated and consumed by the organization from non-renewable sources during the reporting period."@en ;
     org:hasIdentifier "OI1495" ;
@@ -3716,12 +3715,12 @@ In some contexts, this metric can serve as an indicator of whether the outcome b
     cids:definedBy cids:giin ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    skos:inScheme <> ;
+    skos:inScheme <> .
 
 :OI1496
     a skos:Concept, cids:Code ;
-    org:hasName "Energy Purchased: Non-Renewable" .
-    skos:prefLabel "Energy Purchased: Non-Renewable"@en .
+    org:hasName "Energy Purchased: Non-Renewable" ;
+    skos:prefLabel "Energy Purchased: Non-Renewable"@en ;
     cids:hasDescription "Amount of purchased energy consumed by the organization from non-renewable sources during the reporting period." ;
     skos:definition "Amount of purchased energy consumed by the organization from non-renewable sources during the reporting period."@en ;
     org:hasIdentifier "OI1496" ;
@@ -3737,12 +3736,12 @@ In some contexts, this metric can serve as an indicator of whether the outcome b
     cids:definedBy cids:giin ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    skos:inScheme <> ;
+    skos:inScheme <> .
 
 :OI1503
     a skos:Concept, cids:Code ;
-    org:hasName "Healthcare Benefits Premium Covered" .
-    skos:prefLabel "Healthcare Benefits Premium Covered"@en .
+    org:hasName "Healthcare Benefits Premium Covered" ;
+    skos:prefLabel "Healthcare Benefits Premium Covered"@en ;
     cids:hasDescription "Percentage of a full-time employee's healthcare premium that is covered by the organization or third parties, based on benefits available to full-time employees as of the end of the reporting period." ;
     skos:definition "Percentage of a full-time employee's healthcare premium that is covered by the organization or third parties, based on benefits available to full-time employees as of the end of the reporting period."@en ;
     org:hasIdentifier "OI1503" ;
@@ -3758,12 +3757,12 @@ In some contexts, this metric can serve as an indicator of whether the outcome b
     cids:definedBy cids:giin ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    skos:inScheme <> ;
+    skos:inScheme <> .
 
 :OI1508
     a skos:Concept, cids:Code ;
-    org:hasName "Full-time Wages: Historically Marginalized" .
-    skos:prefLabel "Full-time Wages: Historically Marginalized"@en .
+    org:hasName "Full-time Wages: Historically Marginalized" ;
+    skos:prefLabel "Full-time Wages: Historically Marginalized"@en ;
     cids:hasDescription "Value of wages (including bonuses and excluding benefits) paid to all full-time employees of the organization during the reporting period who belong to groups historically marginalized on the basis of race and/or ethnicity." ;
     skos:definition "Value of wages (including bonuses and excluding benefits) paid to all full-time employees of the organization during the reporting period who belong to groups historically marginalized on the basis of race and/or ethnicity."@en ;
     org:hasIdentifier "OI1508" ;
@@ -3777,12 +3776,12 @@ The categorization of historically marginalized groups varies with location and 
     cids:definedBy cids:giin ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    skos:inScheme <> ;
+    skos:inScheme <> .
 
 :OI1571
     a skos:Concept, cids:Code ;
-    org:hasName "Full-time Employees: Female Managers" .
-    skos:prefLabel "Full-time Employees: Female Managers"@en .
+    org:hasName "Full-time Employees: Female Managers" ;
+    skos:prefLabel "Full-time Employees: Female Managers"@en ;
     cids:hasDescription "Number of paid, full-time, female management employees (managers) at the organization as of the end of the reporting period." ;
     skos:definition "Number of paid, full-time, female management employees (managers) at the organization as of the end of the reporting period."@en ;
     org:hasIdentifier "OI1571" ;
@@ -3802,12 +3801,12 @@ This metric is multi-dimensional with regard to the five dimensions of impact: i
     cids:definedBy cids:giin ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    skos:inScheme <> ;
+    skos:inScheme <> .
 
 :OI1582
     a skos:Concept, cids:Code ;
-    org:hasName "Wage Equity" .
-    skos:prefLabel "Wage Equity"@en .
+    org:hasName "Wage Equity" ;
+    skos:prefLabel "Wage Equity"@en ;
     cids:hasDescription "Ratio of the wages paid during the reporting period to the highest-compensated full-time employee (including bonus and excluding benefits) compared to the lowest-paid full-time employee." ;
     skos:definition "Ratio of the wages paid during the reporting period to the highest-compensated full-time employee (including bonus and excluding benefits) compared to the lowest-paid full-time employee."@en ;
     org:hasIdentifier "OI1582" ;
@@ -3823,12 +3822,12 @@ In some contexts, this metric can serve as an indicator of whether the outcome b
     cids:definedBy cids:giin ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    skos:inScheme <> ;
+    skos:inScheme <> .
 
 :OI1618
     a skos:Concept, cids:Code ;
-    org:hasName "Threatened Species Policy" .
-    skos:prefLabel "Threatened Species Policy"@en .
+    org:hasName "Threatened Species Policy" ;
+    skos:prefLabel "Threatened Species Policy"@en ;
     cids:hasDescription "Indicates whether the organization implements policies to protect threatened species that reside in habitats affected by the organization's operations." ;
     skos:definition "Indicates whether the organization implements policies to protect threatened species that reside in habitats affected by the organization's operations."@en ;
     org:hasIdentifier "OI1618" ;
@@ -3846,12 +3845,12 @@ Organizations are encouraged to report this metric in conjunction with Conservat
     cids:definedBy cids:giin ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    skos:inScheme <> ;
+    skos:inScheme <> .
 
 :OI1619
     a skos:Concept, cids:Code ;
-    org:hasName "Value of Community Development Contributions" .
-    skos:prefLabel "Value of Community Development Contributions"@en .
+    org:hasName "Value of Community Development Contributions" ;
+    skos:prefLabel "Value of Community Development Contributions"@en ;
     cids:hasDescription "Value of payments made by the organization during the reporting period towards activities that benefit local communities." ;
     skos:definition "Value of payments made by the organization during the reporting period towards activities that benefit local communities."@en ;
     org:hasIdentifier "OI1619" ;
@@ -3867,12 +3866,12 @@ For details on non-financial contributions, refer to Non-Financial Support Offer
     cids:definedBy cids:giin ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    skos:inScheme <> ;
+    skos:inScheme <> .
 
 :OI1638
     a skos:Concept, cids:Code ;
-    org:hasName "Employee Voluntary Turnover Rate" .
-    skos:prefLabel "Employee Voluntary Turnover Rate"@en .
+    org:hasName "Employee Voluntary Turnover Rate" ;
+    skos:prefLabel "Employee Voluntary Turnover Rate"@en ;
     cids:hasDescription "Ratio of the number of permanent (full- and part-time) employees who departed voluntarily compared to the average number of permanent (full- and part-time) employees at the organization during the reporting period." ;
     skos:definition "Ratio of the number of permanent (full- and part-time) employees who departed voluntarily compared to the average number of permanent (full- and part-time) employees at the organization during the reporting period."@en ;
     org:hasIdentifier "OI1638" ;
@@ -3892,12 +3891,12 @@ In some contexts, this metric can serve as an indicator of whether the outcome b
     cids:definedBy cids:giin ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    skos:inScheme <> ;
+    skos:inScheme <> .
 
 :OI1674
     a skos:Concept, cids:Code ;
-    org:hasName "Land Directly Controlled: Cultivated" .
-    skos:prefLabel "Land Directly Controlled: Cultivated"@en .
+    org:hasName "Land Directly Controlled: Cultivated" ;
+    skos:prefLabel "Land Directly Controlled: Cultivated"@en ;
     cids:hasDescription "Area of land directly controlled by the organization and under cultivation. Report directly controlled land area cultivated during the reporting period." ;
     skos:definition "Area of land directly controlled by the organization and under cultivation. Report directly controlled land area cultivated during the reporting period."@en ;
     org:hasIdentifier "OI1674" ;
@@ -3915,12 +3914,12 @@ This metric includes crops cultivated through low-till and no-till methods."""@e
     cids:definedBy cids:giin ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    skos:inScheme <> ;
+    skos:inScheme <> .
 
 :OI1682
     a skos:Concept, cids:Code ;
-    org:hasName "Permanent Employee Wages: People with Disabilities" .
-    skos:prefLabel "Permanent Employee Wages: People with Disabilities"@en .
+    org:hasName "Permanent Employee Wages: People with Disabilities" ;
+    skos:prefLabel "Permanent Employee Wages: People with Disabilities"@en ;
     cids:hasDescription "Value of wages (including bonuses, excluding benefits) paid to all full- and part-time employees of the organization with disabilities during the reporting period." ;
     skos:definition "Value of wages (including bonuses, excluding benefits) paid to all full- and part-time employees of the organization with disabilities during the reporting period."@en ;
     org:hasIdentifier "OI1682" ;
@@ -3932,12 +3931,12 @@ This metric includes crops cultivated through low-till and no-till methods."""@e
     cids:definedBy cids:giin ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    skos:inScheme <> ;
+    skos:inScheme <> .
 
 :OI1697
     a skos:Concept, cids:Code ;
-    org:hasName "Water Consumed: Total" .
-    skos:prefLabel "Water Consumed: Total"@en .
+    org:hasName "Water Consumed: Total" ;
+    skos:prefLabel "Water Consumed: Total"@en ;
     cids:hasDescription "Volume of water used for the organization's operations during the reporting period." ;
     skos:definition "Volume of water used for the organization's operations during the reporting period."@en ;
     org:hasIdentifier "OI1697" ;
@@ -3955,12 +3954,12 @@ In some contexts, this metric can serve as an indicator of whether the outcome b
     cids:definedBy cids:giin ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    skos:inScheme <> ;
+    skos:inScheme <> .
 
 :OI1804
     a skos:Concept, cids:Code ;
-    org:hasName "Records System" .
-    skos:prefLabel "Records System"@en .
+    org:hasName "Records System" ;
+    skos:prefLabel "Records System"@en ;
     cids:hasDescription "Describes the system used by a facility or service for record keeping, including whether it is paper-based or electronic, as of the end of the reporting period." ;
     skos:definition "Describes the system used by a facility or service for record keeping, including whether it is paper-based or electronic, as of the end of the reporting period."@en ;
     org:hasIdentifier "OI1804" ;
@@ -3972,12 +3971,12 @@ In some contexts, this metric can serve as an indicator of whether the outcome b
     cids:definedBy cids:giin ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    skos:inScheme <> ;
+    skos:inScheme <> .
 
 :OI1855
     a skos:Concept, cids:Code ;
-    org:hasName "Gender Wage Equity" .
-    skos:prefLabel "Gender Wage Equity"@en .
+    org:hasName "Gender Wage Equity" ;
+    skos:prefLabel "Gender Wage Equity"@en ;
     cids:hasDescription "Ratio of the average wage paid during the reporting period to female employees of the organization for a specified position compared to the average wage paid during the reporting period to male employees of the organization for the same position." ;
     skos:definition "Ratio of the average wage paid during the reporting period to female employees of the organization for a specified position compared to the average wage paid during the reporting period to male employees of the organization for the same position."@en ;
     org:hasIdentifier "OI1855" ;
@@ -3997,12 +3996,12 @@ In specific contexts, and based on evidence, this metric may serve as a proxy in
     cids:definedBy cids:giin ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    skos:inScheme <> ;
+    skos:inScheme <> .
 
 :OI1903
     a skos:Concept, cids:Code ;
-    org:hasName "Part-time Employees: Hired" .
-    skos:prefLabel "Part-time Employees: Hired"@en .
+    org:hasName "Part-time Employees: Hired" ;
+    skos:prefLabel "Part-time Employees: Hired"@en ;
     cids:hasDescription "Number of paid, part-time employees hired by the organization during the reporting period." ;
     skos:definition "Number of paid, part-time employees hired by the organization during the reporting period."@en ;
     org:hasIdentifier "OI1903" ;
@@ -4016,12 +4015,12 @@ This metric is multi-dimensional with regard to the five dimensions of impact: i
     cids:definedBy cids:giin ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    skos:inScheme <> ;
+    skos:inScheme <> .
 
 :OI1927
     a skos:Concept, cids:Code ;
-    org:hasName "Water Consumed: Recycled" .
-    skos:prefLabel "Water Consumed: Recycled"@en .
+    org:hasName "Water Consumed: Recycled" ;
+    skos:prefLabel "Water Consumed: Recycled"@en ;
     cids:hasDescription "Volume of recycled water used for the organization's operations during the reporting period." ;
     skos:definition "Volume of recycled water used for the organization's operations during the reporting period."@en ;
     org:hasIdentifier "OI1927" ;
@@ -4039,12 +4038,12 @@ In some contexts, this metric can serve as an indicator of whether the outcome b
     cids:definedBy cids:giin ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    skos:inScheme <> ;
+    skos:inScheme <> .
 
 :OI1984
     a skos:Concept, cids:Code ;
-    org:hasName "Social and Environmental Board Committee" .
-    skos:prefLabel "Social and Environmental Board Committee"@en .
+    org:hasName "Social and Environmental Board Committee" ;
+    skos:prefLabel "Social and Environmental Board Committee"@en ;
     cids:hasDescription "Indicates whether the organization has a formal board of directors or governing body committee dedicated to social and environmental performance." ;
     skos:definition "Indicates whether the organization has a formal board of directors or governing body committee dedicated to social and environmental performance."@en ;
     org:hasIdentifier "OI1984" ;
@@ -4056,12 +4055,12 @@ In some contexts, this metric can serve as an indicator of whether the outcome b
     cids:definedBy cids:giin ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    skos:inScheme <> ;
+    skos:inScheme <> .
 
 :OI2003
     a skos:Concept, cids:Code ;
-    org:hasName "Full-time Employees: People with Disabilities" .
-    skos:prefLabel "Full-time Employees: People with Disabilities"@en .
+    org:hasName "Full-time Employees: People with Disabilities" ;
+    skos:prefLabel "Full-time Employees: People with Disabilities"@en ;
     cids:hasDescription "Number of paid, full-time employees at the organization with disabilities as of the end of the reporting period." ;
     skos:definition "Number of paid, full-time employees at the organization with disabilities as of the end of the reporting period."@en ;
     org:hasIdentifier "OI2003" ;
@@ -4075,12 +4074,12 @@ This metric is multi-dimensional with regard to the five dimensions of impact: i
     cids:definedBy cids:giin ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    skos:inScheme <> ;
+    skos:inScheme <> .
 
 :OI2092
     a skos:Concept, cids:Code ;
-    org:hasName "Climate Resilience Strategy" .
-    skos:prefLabel "Climate Resilience Strategy"@en .
+    org:hasName "Climate Resilience Strategy" ;
+    skos:prefLabel "Climate Resilience Strategy"@en ;
     cids:hasDescription "Indicates whether the organization implements a strategy to address the effects of climate change on the organization's operations." ;
     skos:definition "Indicates whether the organization implements a strategy to address the effects of climate change on the organization's operations."@en ;
     org:hasIdentifier "OI2092" ;
@@ -4094,12 +4093,12 @@ A Climate Resilience Strategy contains procedures in response to the acknowledgm
     cids:definedBy cids:giin ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    skos:inScheme <> ;
+    skos:inScheme <> .
 
 :OI2165
     a skos:Concept, cids:Code ;
-    org:hasName "Number of Legal and Regulatory Complaints" .
-    skos:prefLabel "Number of Legal and Regulatory Complaints"@en .
+    org:hasName "Number of Legal and Regulatory Complaints" ;
+    skos:prefLabel "Number of Legal and Regulatory Complaints"@en ;
     cids:hasDescription "Number of formal legal and regulatory complaints received by the organization during the last reporting period." ;
     skos:definition "Number of formal legal and regulatory complaints received by the organization during the last reporting period."@en ;
     org:hasIdentifier "OI2165" ;
@@ -4115,12 +4114,12 @@ Organizations may already report this information elsewhere, such as in their re
     cids:definedBy cids:giin ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    skos:inScheme <> ;
+    skos:inScheme <> .
 
 :OI2209
     a skos:Concept, cids:Code ;
-    org:hasName "Founders: Total" .
-    skos:prefLabel "Founders: Total"@en .
+    org:hasName "Founders: Total" ;
+    skos:prefLabel "Founders: Total"@en ;
     cids:hasDescription "Number of the organization's founders who retain an active role in the company as of the end of the reporting period." ;
     skos:definition "Number of the organization's founders who retain an active role in the company as of the end of the reporting period."@en ;
     org:hasIdentifier "OI2209" ;
@@ -4134,12 +4133,12 @@ This metric is multi-dimensional with regard to the five dimensions of impact. I
     cids:definedBy cids:giin ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    skos:inScheme <> ;
+    skos:inScheme <> .
 
 :OI2248
     a skos:Concept, cids:Code ;
-    org:hasName "Average Employee Tenure" .
-    skos:prefLabel "Average Employee Tenure"@en .
+    org:hasName "Average Employee Tenure" ;
+    skos:prefLabel "Average Employee Tenure"@en ;
     cids:hasDescription "Average tenure of employees of the organization as of the end of the reporting period." ;
     skos:definition "Average tenure of employees of the organization as of the end of the reporting period."@en ;
     org:hasIdentifier "OI2248" ;
@@ -4155,12 +4154,12 @@ In some contexts, this metric can be used to measure the duration that a specifi
     cids:definedBy cids:giin ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    skos:inScheme <> ;
+    skos:inScheme <> .
 
 :OI2319
     a skos:Concept, cids:Code ;
-    org:hasName "Community Engagement Strategy" .
-    skos:prefLabel "Community Engagement Strategy"@en .
+    org:hasName "Community Engagement Strategy" ;
+    skos:prefLabel "Community Engagement Strategy"@en ;
     cids:hasDescription "Indicates whether the organization implements a strategy to manage its interactions with local communities that are affected by its operations." ;
     skos:definition "Indicates whether the organization implements a strategy to manage its interactions with local communities that are affected by its operations."@en ;
     org:hasIdentifier "OI2319" ;
@@ -4188,12 +4187,12 @@ Organizations can refer to the following sources for further guidance on communi
     cids:definedBy cids:giin ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    skos:inScheme <> ;
+    skos:inScheme <> .
 
 :OI2330
     a skos:Concept, cids:Code ;
-    org:hasName "Governance Policies" .
-    skos:prefLabel "Governance Policies"@en .
+    org:hasName "Governance Policies" ;
+    skos:prefLabel "Governance Policies"@en ;
     cids:hasDescription "Indicates whether the organization has written corporate governance policies that have been communicated to stakeholders." ;
     skos:definition "Indicates whether the organization has written corporate governance policies that have been communicated to stakeholders."@en ;
     org:hasIdentifier "OI2330" ;
@@ -4207,12 +4206,12 @@ Corporate governance is the system by which corporations (whether businesses or 
     cids:definedBy cids:giin ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    skos:inScheme <> ;
+    skos:inScheme <> .
 
 :OI2362
     a skos:Concept, cids:Code ;
-    org:hasName "Historically Marginalized Wage Equity" .
-    skos:prefLabel "Historically Marginalized Wage Equity"@en .
+    org:hasName "Historically Marginalized Wage Equity" ;
+    skos:prefLabel "Historically Marginalized Wage Equity"@en ;
     cids:hasDescription "Ratio of the average wage paid for a specified position to employees of the organization who belong to groups historically marginalized on the basis of race and/or ethnicity compared to the average wage paid to employees of the organization who do not belong to these groups but have the same position during the reporting period." ;
     skos:definition "Ratio of the average wage paid for a specified position to employees of the organization who belong to groups historically marginalized on the basis of race and/or ethnicity compared to the average wage paid to employees of the organization who do not belong to these groups but have the same position during the reporting period."@en ;
     org:hasIdentifier "OI2362" ;
@@ -4232,12 +4231,12 @@ This metric is multidimensional with regard to the five dimensions of impact. In
     cids:definedBy cids:giin ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    skos:inScheme <> ;
+    skos:inScheme <> .
 
 :OI2436
     a skos:Concept, cids:Code ;
-    org:hasName "Value of Carbon Credits Purchased" .
-    skos:prefLabel "Value of Carbon Credits Purchased"@en .
+    org:hasName "Value of Carbon Credits Purchased" ;
+    skos:prefLabel "Value of Carbon Credits Purchased"@en ;
     cids:hasDescription "Value of carbon credits purchased by the organization during the reporting period." ;
     skos:definition "Value of carbon credits purchased by the organization during the reporting period."@en ;
     org:hasIdentifier "OI2436" ;
@@ -4253,12 +4252,12 @@ In some contexts, this metric can serve as an indicator of whether the outcome b
     cids:definedBy cids:giin ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    skos:inScheme <> ;
+    skos:inScheme <> .
 
 :OI2444
     a skos:Concept, cids:Code ;
-    org:hasName "Permanent Employees: Female" .
-    skos:prefLabel "Permanent Employees: Female"@en .
+    org:hasName "Permanent Employees: Female" ;
+    skos:prefLabel "Permanent Employees: Female"@en ;
     cids:hasDescription "Number of women in paid employment with the organization as of the end of the reporting period, whether they are full-time or part-time." ;
     skos:definition "Number of women in paid employment with the organization as of the end of the reporting period, whether they are full-time or part-time."@en ;
     org:hasIdentifier "OI2444" ;
@@ -4272,12 +4271,12 @@ This metric is multi-dimensional with regard to the five dimensions of impact: i
     cids:definedBy cids:giin ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    skos:inScheme <> ;
+    skos:inScheme <> .
 
 :OI2496
     a skos:Concept, cids:Code ;
-    org:hasName "Energy Generated for Use: Renewable" .
-    skos:prefLabel "Energy Generated for Use: Renewable"@en .
+    org:hasName "Energy Generated for Use: Renewable" ;
+    skos:prefLabel "Energy Generated for Use: Renewable"@en ;
     cids:hasDescription "Amount of energy both generated and consumed by the organization from renewable sources during the reporting period." ;
     skos:definition "Amount of energy both generated and consumed by the organization from renewable sources during the reporting period."@en ;
     org:hasIdentifier "OI2496" ;
@@ -4297,12 +4296,12 @@ In some contexts, this metric can serve as an indicator of whether the outcome b
     cids:definedBy cids:giin ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    skos:inScheme <> ;
+    skos:inScheme <> .
 
 :OI2535
     a skos:Concept, cids:Code ;
-    org:hasName "Waste Disposed: Recycled/Reused" .
-    skos:prefLabel "Waste Disposed: Recycled/Reused"@en .
+    org:hasName "Waste Disposed: Recycled/Reused" ;
+    skos:prefLabel "Waste Disposed: Recycled/Reused"@en ;
     cids:hasDescription "Amount of waste disposed by the organization through reuse and recycling during the reporting period." ;
     skos:definition "Amount of waste disposed by the organization through reuse and recycling during the reporting period."@en ;
     org:hasIdentifier "OI2535" ;
@@ -4316,12 +4315,12 @@ In some contexts, this metric can serve as an indicator of whether the outcome b
     cids:definedBy cids:giin ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    skos:inScheme <> ;
+    skos:inScheme <> .
 
 :OI2569
     a skos:Concept, cids:Code ;
-    org:hasName "Land Directly Controlled: Treated with Pesticides" .
-    skos:prefLabel "Land Directly Controlled: Treated with Pesticides"@en .
+    org:hasName "Land Directly Controlled: Treated with Pesticides" ;
+    skos:prefLabel "Land Directly Controlled: Treated with Pesticides"@en ;
     cids:hasDescription "Area of land directly controlled by the organization and treated with pesticides. Report directly controlled land area treated during the reporting period." ;
     skos:definition "Area of land directly controlled by the organization and treated with pesticides. Report directly controlled land area treated during the reporting period."@en ;
     org:hasIdentifier "OI2569" ;
@@ -4339,12 +4338,12 @@ Such land-use criteria are often included in management plans and legal agreemen
     cids:definedBy cids:giin ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    skos:inScheme <> ;
+    skos:inScheme <> .
 
 :OI2596
     a skos:Concept, cids:Code ;
-    org:hasName "Conflict of Interest Policy" .
-    skos:prefLabel "Conflict of Interest Policy"@en .
+    org:hasName "Conflict of Interest Policy" ;
+    skos:prefLabel "Conflict of Interest Policy"@en ;
     cids:hasDescription "Indicates whether the organization has a written policy to monitor and disclose any potential conflicts of interest between the organization and its board members, owners, or material investors." ;
     skos:definition "Indicates whether the organization has a written policy to monitor and disclose any potential conflicts of interest between the organization and its board members, owners, or material investors."@en ;
     org:hasIdentifier "OI2596" ;
@@ -4356,12 +4355,12 @@ Such land-use criteria are often included in management plans and legal agreemen
     cids:definedBy cids:giin ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    skos:inScheme <> ;
+    skos:inScheme <> .
 
 :OI2622
     a skos:Concept, cids:Code ;
-    org:hasName "Forest Management Plan" .
-    skos:prefLabel "Forest Management Plan"@en .
+    org:hasName "Forest Management Plan" ;
+    skos:prefLabel "Forest Management Plan"@en ;
     cids:hasDescription "Indicates whether the organization implements a forest management plan." ;
     skos:definition "Indicates whether the organization implements a forest management plan."@en ;
     org:hasIdentifier "OI2622" ;
@@ -4384,12 +4383,12 @@ Organizations can refer to the following resources for additional guidance:
     cids:definedBy cids:giin ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    skos:inScheme <> ;
+    skos:inScheme <> .
 
 :OI2742
     a skos:Concept, cids:Code ;
-    org:hasName "Employment Benefits" .
-    skos:prefLabel "Employment Benefits"@en .
+    org:hasName "Employment Benefits" ;
+    skos:prefLabel "Employment Benefits"@en ;
     org:hasIdentifier "OI2742" ;
     skos:notation "OI2742" ;
     prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/OI2742/> ;
@@ -4445,12 +4444,12 @@ Examples of additional details to footnote include: which of these benefits, if 
     cids:definedBy cids:giin ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    skos:inScheme <> ;
+    skos:inScheme <> .
 
 :OI2767
     a skos:Concept, cids:Code ;
-    org:hasName "Protected Area Connectedness Assessment" .
-    skos:prefLabel "Protected Area Connectedness Assessment"@en .
+    org:hasName "Protected Area Connectedness Assessment" ;
+    skos:prefLabel "Protected Area Connectedness Assessment"@en ;
     cids:hasDescription "Describes whether the organization has evaluated the continuity of natural habitats in protected areas as of the end of the reporting period." ;
     skos:definition "Describes whether the organization has evaluated the continuity of natural habitats in protected areas as of the end of the reporting period."@en ;
     org:hasIdentifier "OI2767" ;
@@ -4464,12 +4463,12 @@ This indicator is used by the Convention on Biological Diversity’s Aichi Targe
     cids:definedBy cids:giin ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    skos:inScheme <> ;
+    skos:inScheme <> .
 
 :OI2799
     a skos:Concept, cids:Code ;
-    org:hasName "Level of Water Stress" .
-    skos:prefLabel "Level of Water Stress"@en .
+    org:hasName "Level of Water Stress" ;
+    skos:prefLabel "Level of Water Stress"@en ;
     org:hasIdentifier "OI2799" ;
     skos:notation "OI2799" ;
     prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/OI2799/> ;
@@ -4505,12 +4504,12 @@ Choose all that apply:
     cids:definedBy cids:giin ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    skos:inScheme <> ;
+    skos:inScheme <> .
 
 :OI2818
     a skos:Concept, cids:Code ;
-    org:hasName "Loan Officers Employed" .
-    skos:prefLabel "Loan Officers Employed"@en .
+    org:hasName "Loan Officers Employed" ;
+    skos:prefLabel "Loan Officers Employed"@en ;
     cids:hasDescription "Number of loan officers employed by the organization as of the end of the reporting period." ;
     skos:definition "Number of loan officers employed by the organization as of the end of the reporting period."@en ;
     org:hasIdentifier "OI2818" ;
@@ -4523,12 +4522,12 @@ This metric is multi-dimensional with regard to the five dimensions of impact. I
     cids:definedBy cids:giin ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    skos:inScheme <> ;
+    skos:inScheme <> .
 
 :OI2840
     a skos:Concept, cids:Code ;
-    org:hasName "Percent Female/Gender Non-Binary Ownership" .
-    skos:prefLabel "Percent Female/Gender Non-Binary Ownership"@en .
+    org:hasName "Percent Female/Gender Non-Binary Ownership" ;
+    skos:prefLabel "Percent Female/Gender Non-Binary Ownership"@en ;
     cids:hasDescription "Percentage of the organization that is owned by female or non-binary individuals as of the end of the reporting period." ;
     skos:definition "Percentage of the organization that is owned by female or non-binary individuals as of the end of the reporting period."@en ;
     org:hasIdentifier "OI2840" ;
@@ -4544,12 +4543,12 @@ Where regional or local laws apply for calculating ownership by previously exclu
     cids:definedBy cids:giin ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    skos:inScheme <> ;
+    skos:inScheme <> .
 
 :OI3031
     a skos:Concept, cids:Code ;
-    org:hasName "Water Consumed: Municipal" .
-    skos:prefLabel "Water Consumed: Municipal"@en .
+    org:hasName "Water Consumed: Municipal" ;
+    skos:prefLabel "Water Consumed: Municipal"@en ;
     cids:hasDescription "Volume of water drawn from municipal water sources used for the organization's operations during the reporting period." ;
     skos:definition "Volume of water drawn from municipal water sources used for the organization's operations during the reporting period."@en ;
     org:hasIdentifier "OI3031" ;
@@ -4567,12 +4566,12 @@ In some contexts, this metric can serve as an indicator of whether the outcome b
     cids:definedBy cids:giin ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    skos:inScheme <> ;
+    skos:inScheme <> .
 
 :OI3098
     a skos:Concept, cids:Code ;
-    org:hasName "Part-time Employee Hours Worked" .
-    skos:prefLabel "Part-time Employee Hours Worked"@en .
+    org:hasName "Part-time Employee Hours Worked" ;
+    skos:prefLabel "Part-time Employee Hours Worked"@en ;
     cids:hasDescription "Number of paid hours worked by part-time employees of the organization during the reporting period." ;
     skos:definition "Number of paid hours worked by part-time employees of the organization during the reporting period."@en ;
     org:hasIdentifier "OI3098" ;
@@ -4588,12 +4587,12 @@ Organizations are encouraged to report this metric in conjunction with Part-time
     cids:definedBy cids:giin ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    skos:inScheme <> ;
+    skos:inScheme <> .
 
 :OI3115
     a skos:Concept, cids:Code ;
-    org:hasName "Caregivers Employed: Responsive" .
-    skos:prefLabel "Caregivers Employed: Responsive"@en .
+    org:hasName "Caregivers Employed: Responsive" ;
+    skos:prefLabel "Caregivers Employed: Responsive"@en ;
     cids:hasDescription "Number of caregivers who are responsive to children's needs and who are employed by the organization as of the end of the reporting period." ;
     skos:definition "Number of caregivers who are responsive to children's needs and who are employed by the organization as of the end of the reporting period."@en ;
     org:hasIdentifier "OI3115" ;
@@ -4609,12 +4608,12 @@ This metric is multi-dimensional with regard to the five dimensions of impact. I
     cids:definedBy cids:giin ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    skos:inScheme <> ;
+    skos:inScheme <> .
 
 :OI3140
     a skos:Concept, cids:Code ;
-    org:hasName "Full-time Employees: Historically Marginalized Managers" .
-    skos:prefLabel "Full-time Employees: Historically Marginalized Managers"@en .
+    org:hasName "Full-time Employees: Historically Marginalized Managers" ;
+    skos:prefLabel "Full-time Employees: Historically Marginalized Managers"@en ;
     cids:hasDescription "Number of paid, full-time management employees (managers) at the organization who belong to groups historically marginalized on the basis of race and/or ethnicity as of the end of the reporting period." ;
     skos:definition "Number of paid, full-time management employees (managers) at the organization who belong to groups historically marginalized on the basis of race and/or ethnicity as of the end of the reporting period."@en ;
     org:hasIdentifier "OI3140" ;
@@ -4632,12 +4631,12 @@ This metric is multi-dimensional with regard to the five dimensions of impact: i
     cids:definedBy cids:giin ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    skos:inScheme <> ;
+    skos:inScheme <> .
 
 :OI3141
     a skos:Concept, cids:Code ;
-    org:hasName "New Firms Entered" .
-    skos:prefLabel "New Firms Entered"@en .
+    org:hasName "New Firms Entered" ;
+    skos:prefLabel "New Firms Entered"@en ;
     cids:hasDescription "Describes whether additional private sector firms entered the market in which the organization operates during the reporting period." ;
     skos:definition "Describes whether additional private sector firms entered the market in which the organization operates during the reporting period."@en ;
     org:hasIdentifier "OI3141" ;
@@ -4655,12 +4654,12 @@ International Finance Institutions (IFIs) often use this metric as part of their
     cids:definedBy cids:giin ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    skos:inScheme <> ;
+    skos:inScheme <> .
 
 :OI3160
     a skos:Concept, cids:Code ;
-    org:hasName "Full-time Employees: Total" .
-    skos:prefLabel "Full-time Employees: Total"@en .
+    org:hasName "Full-time Employees: Total" ;
+    skos:prefLabel "Full-time Employees: Total"@en ;
     cids:hasDescription "Number of paid full-time employees at the organization as of the end of the reporting period." ;
     skos:definition "Number of paid full-time employees at the organization as of the end of the reporting period."@en ;
     org:hasIdentifier "OI3160" ;
@@ -4674,12 +4673,12 @@ This metric is multi-dimensional with regard to the five dimensions of impact: i
     cids:definedBy cids:giin ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    skos:inScheme <> ;
+    skos:inScheme <> .
 
 :OI3236
     a skos:Concept, cids:Code ;
-    org:hasName "Permanent Employees: Historically Marginalized" .
-    skos:prefLabel "Permanent Employees: Historically Marginalized"@en .
+    org:hasName "Permanent Employees: Historically Marginalized" ;
+    skos:prefLabel "Permanent Employees: Historically Marginalized"@en ;
     cids:hasDescription "Number of people in paid employment with the organization who belong to groups historically marginalized on the basis of race and/or ethnicity as of the end of the reporting period, whether they are full-time or part-time." ;
     skos:definition "Number of people in paid employment with the organization who belong to groups historically marginalized on the basis of race and/or ethnicity as of the end of the reporting period, whether they are full-time or part-time."@en ;
     org:hasIdentifier "OI3236" ;
@@ -4695,12 +4694,12 @@ This metric is multi-dimensional with regard to the five dimensions of impact: i
     cids:definedBy cids:giin ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    skos:inScheme <> ;
+    skos:inScheme <> .
 
 :OI3324
     a skos:Concept, cids:Code ;
-    org:hasName "Energy Purchased: Renewable" .
-    skos:prefLabel "Energy Purchased: Renewable"@en .
+    org:hasName "Energy Purchased: Renewable" ;
+    skos:prefLabel "Energy Purchased: Renewable"@en ;
     cids:hasDescription "Amount of purchased energy consumed by the organization from renewable sources during the reporting period." ;
     skos:definition "Amount of purchased energy consumed by the organization from renewable sources during the reporting period."@en ;
     org:hasIdentifier "OI3324" ;
@@ -4718,12 +4717,12 @@ In some contexts, this metric can serve as an indicator of whether the outcome b
     cids:definedBy cids:giin ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    skos:inScheme <> ;
+    skos:inScheme <> .
 
 :OI3368
     a skos:Concept, cids:Code ;
-    org:hasName "Employee Training and Transition Programs Offered" .
-    skos:prefLabel "Employee Training and Transition Programs Offered"@en .
+    org:hasName "Employee Training and Transition Programs Offered" ;
+    skos:prefLabel "Employee Training and Transition Programs Offered"@en ;
     cids:hasDescription "Describes the type and scope of programs implemented and assistance provided during the reporting period to upgrade employee skills." ;
     skos:definition "Describes the type and scope of programs implemented and assistance provided during the reporting period to upgrade employee skills."@en ;
     org:hasIdentifier "OI3368" ;
@@ -4739,12 +4738,12 @@ This metric is sourced from GRI Disclosure 404-2: Programs for upgrading employe
     cids:definedBy cids:giin ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    skos:inScheme <> ;
+    skos:inScheme <> .
 
 :OI3441
     a skos:Concept, cids:Code ;
-    org:hasName "New Market Entered" .
-    skos:prefLabel "New Market Entered"@en .
+    org:hasName "New Market Entered" ;
+    skos:prefLabel "New Market Entered"@en ;
     cids:hasDescription "Describes whether the organization entered a new market during the reporting period." ;
     skos:definition "Describes whether the organization entered a new market during the reporting period."@en ;
     org:hasIdentifier "OI3441" ;
@@ -4762,12 +4761,12 @@ International Finance Institutions (IFIs) often use this metric as part of their
     cids:definedBy cids:giin ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    skos:inScheme <> ;
+    skos:inScheme <> .
 
 :OI3480
     a skos:Concept, cids:Code ;
-    org:hasName "Median Non-Salaried Wage" .
-    skos:prefLabel "Median Non-Salaried Wage"@en .
+    org:hasName "Median Non-Salaried Wage" ;
+    skos:prefLabel "Median Non-Salaried Wage"@en ;
     cids:hasDescription "Median wage paid to non-salaried and full-time, part-time, or temporary employees of the organization during the reporting period. Employees who are salaried should be excluded from this calculation." ;
     skos:definition "Median wage paid to non-salaried and full-time, part-time, or temporary employees of the organization during the reporting period. Employees who are salaried should be excluded from this calculation."@en ;
     org:hasIdentifier "OI3480" ;
@@ -4781,12 +4780,12 @@ Non-salaried employees are paid on a variable basis (such as hourly, daily, week
     cids:definedBy cids:giin ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    skos:inScheme <> ;
+    skos:inScheme <> .
 
 :OI3547
     a skos:Concept, cids:Code ;
-    org:hasName "Permanent Employees: Hired" .
-    skos:prefLabel "Permanent Employees: Hired"@en .
+    org:hasName "Permanent Employees: Hired" ;
+    skos:prefLabel "Permanent Employees: Hired"@en ;
     cids:hasDescription "Number of people hired by the organization during the reporting period, whether they are full-time or part-time." ;
     skos:definition "Number of people hired by the organization during the reporting period, whether they are full-time or part-time."@en ;
     org:hasIdentifier "OI3547" ;
@@ -4800,12 +4799,12 @@ This metric is multi-dimensional with regard to the five dimensions of impact: i
     cids:definedBy cids:giin ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    skos:inScheme <> ;
+    skos:inScheme <> .
 
 :OI3601
     a skos:Concept, cids:Code ;
-    org:hasName "Employee Feedback and Grievance System" .
-    skos:prefLabel "Employee Feedback and Grievance System"@en .
+    org:hasName "Employee Feedback and Grievance System" ;
+    skos:prefLabel "Employee Feedback and Grievance System"@en ;
     cids:hasDescription "Indicates whether the organization has in place a grievance mechanism to receive formal employee complaints and provide remedies, as well as an established procedure and/or committee to receive and handle employee feedback." ;
     skos:definition "Indicates whether the organization has in place a grievance mechanism to receive formal employee complaints and provide remedies, as well as an established procedure and/or committee to receive and handle employee feedback."@en ;
     org:hasIdentifier "OI3601" ;
@@ -4823,12 +4822,12 @@ Organizations can refer to the SPI4 (http://cerise-spi4.squarespace.com/), speci
     cids:definedBy cids:giin ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    skos:inScheme <> ;
+    skos:inScheme <> .
 
 :OI3630
     a skos:Concept, cids:Code ;
-    org:hasName "Meeting Frequency of Board of Directors" .
-    skos:prefLabel "Meeting Frequency of Board of Directors"@en .
+    org:hasName "Meeting Frequency of Board of Directors" ;
+    skos:prefLabel "Meeting Frequency of Board of Directors"@en ;
     cids:hasDescription "Number of times the organization's board of directors or governing body met during the reporting period." ;
     skos:definition "Number of times the organization's board of directors or governing body met during the reporting period."@en ;
     org:hasIdentifier "OI3630" ;
@@ -4840,12 +4839,12 @@ Organizations can refer to the SPI4 (http://cerise-spi4.squarespace.com/), speci
     cids:definedBy cids:giin ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    skos:inScheme <> ;
+    skos:inScheme <> .
 
 :OI3637
     a skos:Concept, cids:Code ;
-    org:hasName "Water Consumed: Regions with High Water Stress" .
-    skos:prefLabel "Water Consumed: Regions with High Water Stress"@en .
+    org:hasName "Water Consumed: Regions with High Water Stress" ;
+    skos:prefLabel "Water Consumed: Regions with High Water Stress"@en ;
     cids:hasDescription "Volume of water used from regions with high or extremely high baseline water stress during the reporting period." ;
     skos:definition "Volume of water used from regions with high or extremely high baseline water stress during the reporting period."@en ;
     org:hasIdentifier "OI3637" ;
@@ -4865,12 +4864,12 @@ In some contexts, this metric can serve as an indicator of whether the outcome b
     cids:definedBy cids:giin ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    skos:inScheme <> ;
+    skos:inScheme <> .
 
 :OI3653
     a skos:Concept, cids:Code ;
-    org:hasName "Departed Permanent Employees: Full-time" .
-    skos:prefLabel "Departed Permanent Employees: Full-time"@en .
+    org:hasName "Departed Permanent Employees: Full-time" ;
+    skos:prefLabel "Departed Permanent Employees: Full-time"@en ;
     cids:hasDescription "Number of full-time employees who departed the organization (for any reason) during the reporting period." ;
     skos:definition "Number of full-time employees who departed the organization (for any reason) during the reporting period."@en ;
     org:hasIdentifier "OI3653" ;
@@ -4884,12 +4883,12 @@ This metric is multi-dimensional with regard to the five dimensions of impact. I
     cids:definedBy cids:giin ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    skos:inScheme <> ;
+    skos:inScheme <> .
 
 :OI3703
     a skos:Concept, cids:Code ;
-    org:hasName "Employees Covered by Collective Bargaining Agreements" .
-    skos:prefLabel "Employees Covered by Collective Bargaining Agreements"@en .
+    org:hasName "Employees Covered by Collective Bargaining Agreements" ;
+    skos:prefLabel "Employees Covered by Collective Bargaining Agreements"@en ;
     cids:hasDescription "Number of employees (including both permanent and temporary workers) who are covered by collective bargaining agreements as of the end of the reporting period." ;
     skos:definition "Number of employees (including both permanent and temporary workers) who are covered by collective bargaining agreements as of the end of the reporting period."@en ;
     org:hasIdentifier "OI3703" ;
@@ -4907,12 +4906,12 @@ This metric may help describe the HOW MUCH Scale dimension, which helps estimate
     cids:definedBy cids:giin ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    skos:inScheme <> ;
+    skos:inScheme <> .
 
 :OI3757
     a skos:Concept, cids:Code ;
-    org:hasName "Occupational Injuries" .
-    skos:prefLabel "Occupational Injuries"@en .
+    org:hasName "Occupational Injuries" ;
+    skos:prefLabel "Occupational Injuries"@en ;
     cids:hasDescription "Number of occupational injuries which affected any full-time, part-time, and temporary employees of the organization during the reporting period." ;
     skos:definition "Number of occupational injuries which affected any full-time, part-time, and temporary employees of the organization during the reporting period."@en ;
     org:hasIdentifier "OI3757" ;
@@ -4926,12 +4925,12 @@ This metric is sourced from GRI Disclosure 403-10: Work-related Ill Health. Work
     cids:definedBy cids:giin ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    skos:inScheme <> ;
+    skos:inScheme <> .
 
 :OI3781
     a skos:Concept, cids:Code ;
-    org:hasName "Primary Energy Source" .
-    skos:prefLabel "Primary Energy Source"@en .
+    org:hasName "Primary Energy Source" ;
+    skos:prefLabel "Primary Energy Source"@en ;
     org:hasIdentifier "OI3781" ;
     skos:notation "OI3781" ;
     prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/OI3781/> ;
@@ -4980,12 +4979,12 @@ Renewable sources:
 - Wind
 - Other (write-in)
 
-Other (write-in)"""@en ;
+Other (write-in)"""@en .
 
 :OI3798
     a skos:Concept, cids:Code ;
-    org:hasName "Stream Nutrient Levels Assessment" .
-    skos:prefLabel "Stream Nutrient Levels Assessment"@en .
+    org:hasName "Stream Nutrient Levels Assessment" ;
+    skos:prefLabel "Stream Nutrient Levels Assessment"@en ;
     cids:hasDescription "Indicates whether the organization has assessed nitrogen and phosphorus levels in streams on directly or indirectly controlled land as of the end of the reporting period." ;
     skos:definition "Indicates whether the organization has assessed nitrogen and phosphorus levels in streams on directly or indirectly controlled land as of the end of the reporting period."@en ;
     org:hasIdentifier "OI3798" ;
@@ -5001,12 +5000,12 @@ Organizations are encouraged to footnote summary statistics of these data and sh
     cids:definedBy cids:giin ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    skos:inScheme <> ;
+    skos:inScheme <> .
 
 :OI3819
     a skos:Concept, cids:Code ;
-    org:hasName "Fair Compensation Policy" .
-    skos:prefLabel "Fair Compensation Policy"@en .
+    org:hasName "Fair Compensation Policy" ;
+    skos:prefLabel "Fair Compensation Policy"@en ;
     cids:hasDescription "Indicates whether the organization has a written policy regarding fair and equitable compensation for employees and a system to monitor compliance with this policy." ;
     skos:definition "Indicates whether the organization has a written policy regarding fair and equitable compensation for employees and a system to monitor compliance with this policy."@en ;
     org:hasIdentifier "OI3819" ;
@@ -5018,12 +5017,12 @@ Organizations are encouraged to footnote summary statistics of these data and sh
     cids:definedBy cids:giin ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    skos:inScheme <> ;
+    skos:inScheme <> .
 
 :OI3846
     a skos:Concept, cids:Code ;
-    org:hasName "Critical Marine Habitats" .
-    skos:prefLabel "Critical Marine Habitats"@en .
+    org:hasName "Critical Marine Habitats" ;
+    skos:prefLabel "Critical Marine Habitats"@en ;
     cids:hasDescription "Indicates whether the marine and coastal spaces directly controlled, indirectly controlled, or used (such as for transport) by the organization include important marine habitats for species." ;
     skos:definition "Indicates whether the marine and coastal spaces directly controlled, indirectly controlled, or used (such as for transport) by the organization include important marine habitats for species."@en ;
     org:hasIdentifier "OI3846" ;
@@ -5041,12 +5040,12 @@ Investors are strongly encouraged to contextualize their projects – and ideall
     cids:definedBy cids:giin ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    skos:inScheme <> ;
+    skos:inScheme <> .
 
 :OI3862
     a skos:Concept, cids:Code ;
-    org:hasName "Full-time Wages: Historically Marginalized Management" .
-    skos:prefLabel "Full-time Wages: Historically Marginalized Management"@en .
+    org:hasName "Full-time Wages: Historically Marginalized Management" ;
+    skos:prefLabel "Full-time Wages: Historically Marginalized Management"@en ;
     cids:hasDescription "Value of wages (including bonuses and excluding benefits) paid to all full-time management employees (managers) of the organization during the reporting period who belong to groups historically marginalized on the basis of race and/or ethnicity." ;
     skos:definition "Value of wages (including bonuses and excluding benefits) paid to all full-time management employees (managers) of the organization during the reporting period who belong to groups historically marginalized on the basis of race and/or ethnicity."@en ;
     org:hasIdentifier "OI3862" ;
@@ -5062,12 +5061,12 @@ The categorization of historically marginalized groups varies with location and 
     cids:definedBy cids:giin ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    skos:inScheme <> ;
+    skos:inScheme <> .
 
 :OI3943
     a skos:Concept, cids:Code ;
-    org:hasName "Social and Environmental Performance Staff Training" .
-    skos:prefLabel "Social and Environmental Performance Staff Training"@en .
+    org:hasName "Social and Environmental Performance Staff Training" ;
+    skos:prefLabel "Social and Environmental Performance Staff Training"@en ;
     cids:hasDescription "Indicates whether any of the organization's employees participated in training sessions related to any aspect of managing environmental or social performance during the reporting period." ;
     skos:definition "Indicates whether any of the organization's employees participated in training sessions related to any aspect of managing environmental or social performance during the reporting period."@en ;
     org:hasIdentifier "OI3943" ;
@@ -5081,12 +5080,12 @@ Examples of training include sessions on: acceptable practices for payment colle
     cids:definedBy cids:giin ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    skos:inScheme <> ;
+    skos:inScheme <> .
 
 :OI3979
     a skos:Concept, cids:Code ;
-    org:hasName "Stream Turbidity Level" .
-    skos:prefLabel "Stream Turbidity Level"@en .
+    org:hasName "Stream Turbidity Level" ;
+    skos:prefLabel "Stream Turbidity Level"@en ;
     cids:hasDescription "Level of turbidity (in Nephelometric Turbidity Units, or NTU) observed in streams or rivers on land directly or indirectly managed by the organization as of the end of the reporting period." ;
     skos:definition "Level of turbidity (in Nephelometric Turbidity Units, or NTU) observed in streams or rivers on land directly or indirectly managed by the organization as of the end of the reporting period."@en ;
     org:hasIdentifier "OI3979" ;
@@ -5104,12 +5103,12 @@ Guidance on turbidity measurements can be found from the US Environmental Protec
     cids:definedBy cids:giin ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    skos:inScheme <> ;
+    skos:inScheme <> .
 
 :OI3989
     a skos:Concept, cids:Code ;
-    org:hasName "Employee Involuntary Turnover Rate" .
-    skos:prefLabel "Employee Involuntary Turnover Rate"@en .
+    org:hasName "Employee Involuntary Turnover Rate" ;
+    skos:prefLabel "Employee Involuntary Turnover Rate"@en ;
     cids:hasDescription "Ratio of the number of involuntarily departing permanent (full- and part-time) employees compared to the average number of permanent (full- and part-time) employees at the organization during the reporting period." ;
     skos:definition "Ratio of the number of involuntarily departing permanent (full- and part-time) employees compared to the average number of permanent (full- and part-time) employees at the organization during the reporting period."@en ;
     org:hasIdentifier "OI3989" ;
@@ -5125,12 +5124,12 @@ The average number of permanent employees can be calculated in several ways. One
     cids:definedBy cids:giin ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    skos:inScheme <> ;
+    skos:inScheme <> .
 
 :OI4015
     a skos:Concept, cids:Code ;
-    org:hasName "Water Conserved" .
-    skos:prefLabel "Water Conserved"@en .
+    org:hasName "Water Conserved" ;
+    skos:prefLabel "Water Conserved"@en ;
     cids:hasDescription "Volume of water usage reduced as a result of the organization's water conservation efforts during the reporting period." ;
     skos:definition "Volume of water usage reduced as a result of the organization's water conservation efforts during the reporting period."@en ;
     org:hasIdentifier "OI4015" ;
@@ -5148,12 +5147,12 @@ In some contexts, this metric may help measure the HOW MUCH Depth dimension of i
     cids:definedBy cids:giin ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    skos:inScheme <> ;
+    skos:inScheme <> .
 
 :OI4038
     a skos:Concept, cids:Code ;
-    org:hasName "Permanent Employees: People with Disabilities" .
-    skos:prefLabel "Permanent Employees: People with Disabilities"@en .
+    org:hasName "Permanent Employees: People with Disabilities" ;
+    skos:prefLabel "Permanent Employees: People with Disabilities"@en ;
     cids:hasDescription "Number of people with disabilities in paid employment with the organization as of the end of the reporting period, whether they are full-time or part-time." ;
     skos:definition "Number of people with disabilities in paid employment with the organization as of the end of the reporting period, whether they are full-time or part-time."@en ;
     org:hasIdentifier "OI4038" ;
@@ -5167,12 +5166,12 @@ This metric is multi-dimensional with regard to the five dimensions of impact: i
     cids:definedBy cids:giin ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    skos:inScheme <> ;
+    skos:inScheme <> .
 
 :OI4061
     a skos:Concept, cids:Code ;
-    org:hasName "Healthcare Benefits Participants" .
-    skos:prefLabel "Healthcare Benefits Participants"@en .
+    org:hasName "Healthcare Benefits Participants" ;
+    skos:prefLabel "Healthcare Benefits Participants"@en ;
     cids:hasDescription "Number of employees who received healthcare benefits through the organization’s programs during the reporting period." ;
     skos:definition "Number of employees who received healthcare benefits through the organization’s programs during the reporting period."@en ;
     org:hasIdentifier "OI4061" ;
@@ -5186,12 +5185,12 @@ This metric is multi-dimensional with regard to the five dimensions of impact: i
     cids:definedBy cids:giin ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    skos:inScheme <> ;
+    skos:inScheme <> .
 
 :OI4070
     a skos:Concept, cids:Code ;
-    org:hasName "Board of Directors: Independent" .
-    skos:prefLabel "Board of Directors: Independent"@en .
+    org:hasName "Board of Directors: Independent" ;
+    skos:prefLabel "Board of Directors: Independent"@en ;
     cids:hasDescription "Number of independent members of the organization's board of directors or governing body as of the end of the reporting period." ;
     skos:definition "Number of independent members of the organization's board of directors or governing body as of the end of the reporting period."@en ;
     org:hasIdentifier "OI4070" ;
@@ -5207,12 +5206,12 @@ This metric is multi-dimensional with regard to the five dimensions of impact. I
     cids:definedBy cids:giin ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    skos:inScheme <> ;
+    skos:inScheme <> .
 
 :OI4112
     a skos:Concept, cids:Code ;
-    org:hasName "Greenhouse Gas Emissions: Direct (Scope 1)" .
-    skos:prefLabel "Greenhouse Gas Emissions: Direct (Scope 1)"@en .
+    org:hasName "Greenhouse Gas Emissions: Direct (Scope 1)" ;
+    skos:prefLabel "Greenhouse Gas Emissions: Direct (Scope 1)"@en ;
     cids:hasDescription "Amount of greenhouse gases (GHG) emitted from direct emissions sources as a result of the organization's operations during the reporting period." ;
     skos:definition "Amount of greenhouse gases (GHG) emitted from direct emissions sources as a result of the organization's operations during the reporting period."@en ;
     org:hasIdentifier "OI4112" ;
@@ -5234,12 +5233,12 @@ In some contexts, this metric can serve as an indicator of whether the outcome b
     cids:definedBy cids:giin ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    skos:inScheme <> ;
+    skos:inScheme <> .
 
 :OI4136
     a skos:Concept, cids:Code ;
-    org:hasName "Social and Environmental Performance Management Training" .
-    skos:prefLabel "Social and Environmental Performance Management Training"@en .
+    org:hasName "Social and Environmental Performance Management Training" ;
+    skos:prefLabel "Social and Environmental Performance Management Training"@en ;
     cids:hasDescription "Indicates whether any member of the organization's board of directors participated in training sessions related to any aspect of managing environmental or social performance during the reporting period." ;
     skos:definition "Indicates whether any member of the organization's board of directors participated in training sessions related to any aspect of managing environmental or social performance during the reporting period."@en ;
     org:hasIdentifier "OI4136" ;
@@ -5253,12 +5252,12 @@ Examples of training include sessions on: acceptable practices for payment colle
     cids:definedBy cids:giin ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    skos:inScheme <> ;
+    skos:inScheme <> .
 
 :OI4194
     a skos:Concept, cids:Code ;
-    org:hasName "Traceability System" .
-    skos:prefLabel "Traceability System"@en .
+    org:hasName "Traceability System" ;
+    skos:prefLabel "Traceability System"@en ;
     cids:hasDescription "Indicates whether the organization implements a traceability system for its raw materials." ;
     skos:definition "Indicates whether the organization implements a traceability system for its raw materials."@en ;
     org:hasIdentifier "OI4194" ;
@@ -5278,12 +5277,12 @@ For further guidance, organizations can refer to The Global Language of Business
     cids:definedBy cids:giin ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    skos:inScheme <> ;
+    skos:inScheme <> .
 
 :OI4202
     a skos:Concept, cids:Code ;
-    org:hasName "Temporary Employee Wages" .
-    skos:prefLabel "Temporary Employee Wages"@en .
+    org:hasName "Temporary Employee Wages" ;
+    skos:prefLabel "Temporary Employee Wages"@en ;
     cids:hasDescription "Value of wages (including bonuses and excluding benefits) paid to all temporary employees of the organization during the reporting period." ;
     skos:definition "Value of wages (including bonuses and excluding benefits) paid to all temporary employees of the organization during the reporting period."@en ;
     org:hasIdentifier "OI4202" ;
@@ -5295,12 +5294,12 @@ For further guidance, organizations can refer to The Global Language of Business
     cids:definedBy cids:giin ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    skos:inScheme <> ;
+    skos:inScheme <> .
 
 :OI4211
     a skos:Concept, cids:Code ;
-    org:hasName "Market Share Increased" .
-    skos:prefLabel "Market Share Increased"@en .
+    org:hasName "Market Share Increased" ;
+    skos:prefLabel "Market Share Increased"@en ;
     cids:hasDescription "Describes whether the organization expanded operations and increased market share during the reporting period in a concentrated market in which the organization was not a dominant player." ;
     skos:definition "Describes whether the organization expanded operations and increased market share during the reporting period in a concentrated market in which the organization was not a dominant player."@en ;
     org:hasIdentifier "OI4211" ;
@@ -5318,12 +5317,12 @@ International Finance Institutions (IFIs) often use this metric as part of their
     cids:definedBy cids:giin ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    skos:inScheme <> ;
+    skos:inScheme <> .
 
 :OI4221
     a skos:Concept, cids:Code ;
-    org:hasName "Ownership Demographics" .
-    skos:prefLabel "Ownership Demographics"@en .
+    org:hasName "Ownership Demographics" ;
+    skos:prefLabel "Ownership Demographics"@en ;
     org:hasIdentifier "OI4221" ;
     skos:notation "OI4221" ;
     prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/OI4221/> ;
@@ -5378,12 +5377,12 @@ Other target populations:
     cids:definedBy cids:giin ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    skos:inScheme <> ;
+    skos:inScheme <> .
 
 :OI4229
     a skos:Concept, cids:Code ;
-    org:hasName "Employees Trained" .
-    skos:prefLabel "Employees Trained"@en .
+    org:hasName "Employees Trained" ;
+    skos:prefLabel "Employees Trained"@en ;
     cids:hasDescription "Number of employees (full-time, part-time, or temporary) who were trained through programs provided by the organization (both internally and externally) during the reporting period." ;
     skos:definition "Number of employees (full-time, part-time, or temporary) who were trained through programs provided by the organization (both internally and externally) during the reporting period."@en ;
     org:hasIdentifier "OI4229" ;
@@ -5403,12 +5402,12 @@ This metric is multi-dimensional with regard to the five dimensions of impact. I
     cids:definedBy cids:giin ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    skos:inScheme <> ;
+    skos:inScheme <> .
 
 :OI4324
     a skos:Concept, cids:Code ;
-    org:hasName "Community Service Policy" .
-    skos:prefLabel "Community Service Policy"@en .
+    org:hasName "Community Service Policy" ;
+    skos:prefLabel "Community Service Policy"@en ;
     cids:hasDescription "Indicates whether the organization implements a community service policy." ;
     skos:definition "Indicates whether the organization implements a community service policy."@en ;
     org:hasIdentifier "OI4324" ;
@@ -5420,12 +5419,12 @@ This metric is multi-dimensional with regard to the five dimensions of impact. I
     cids:definedBy cids:giin ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    skos:inScheme <> ;
+    skos:inScheme <> .
 
 :OI4328
     a skos:Concept, cids:Code ;
-    org:hasName "Recycled Materials" .
-    skos:prefLabel "Recycled Materials"@en .
+    org:hasName "Recycled Materials" ;
+    skos:prefLabel "Recycled Materials"@en ;
     cids:hasDescription "Amount of recycled material used in the organization's products (including packaging) during the reporting period." ;
     skos:definition "Amount of recycled material used in the organization's products (including packaging) during the reporting period."@en ;
     org:hasIdentifier "OI4328" ;
@@ -5439,12 +5438,12 @@ In some contexts, this metric can serve as an indicator of whether the outcome b
     cids:definedBy cids:giin ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    skos:inScheme <> ;
+    skos:inScheme <> .
 
 :OI4364
     a skos:Concept, cids:Code ;
-    org:hasName "Worker Freedom of Association Policy" .
-    skos:prefLabel "Worker Freedom of Association Policy"@en .
+    org:hasName "Worker Freedom of Association Policy" ;
+    skos:prefLabel "Worker Freedom of Association Policy"@en ;
     cids:hasDescription "Indicates whether the organization has a written policy to monitor, evaluate, and ensure its workers' freedom of association." ;
     skos:definition "Indicates whether the organization has a written policy to monitor, evaluate, and ensure its workers' freedom of association."@en ;
     org:hasIdentifier "OI4364" ;
@@ -5458,12 +5457,12 @@ For further guidance, organizations can refer to International Labour Organizati
     cids:definedBy cids:giin ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    skos:inScheme <> ;
+    skos:inScheme <> .
 
 :OI4432
     a skos:Concept, cids:Code ;
-    org:hasName "Forced Labor Policy: Child Labor" .
-    skos:prefLabel "Forced Labor Policy: Child Labor"@en .
+    org:hasName "Forced Labor Policy: Child Labor" ;
+    skos:prefLabel "Forced Labor Policy: Child Labor"@en ;
     cids:hasDescription "Indicates whether the organization has a written policy against child labor and a system to monitor compliance with this policy." ;
     skos:definition "Indicates whether the organization has a written policy against child labor and a system to monitor compliance with this policy."@en ;
     org:hasIdentifier "OI4432" ;
@@ -5475,12 +5474,12 @@ For further guidance, organizations can refer to International Labour Organizati
     cids:definedBy cids:giin ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    skos:inScheme <> ;
+    skos:inScheme <> .
 
 :OI4467
     a skos:Concept, cids:Code ;
-    org:hasName "Water Consumed: Groundwater" .
-    skos:prefLabel "Water Consumed: Groundwater"@en .
+    org:hasName "Water Consumed: Groundwater" ;
+    skos:prefLabel "Water Consumed: Groundwater"@en ;
     cids:hasDescription "Volume of groundwater used for the organization's operations during the reporting period." ;
     skos:definition "Volume of groundwater used for the organization's operations during the reporting period."@en ;
     org:hasIdentifier "OI4467" ;
@@ -5498,12 +5497,12 @@ In some contexts, this metric can serve as an indicator of whether the outcome b
     cids:definedBy cids:giin ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    skos:inScheme <> ;
+    skos:inScheme <> .
 
 :OI4483
     a skos:Concept, cids:Code ;
-    org:hasName "Waste Disposed: Landfill" .
-    skos:prefLabel "Waste Disposed: Landfill"@en .
+    org:hasName "Waste Disposed: Landfill" ;
+    skos:prefLabel "Waste Disposed: Landfill"@en ;
     cids:hasDescription "Amount of waste disposed by the organization in landfills during the reporting period." ;
     skos:definition "Amount of waste disposed by the organization in landfills during the reporting period."@en ;
     org:hasIdentifier "OI4483" ;
@@ -5517,12 +5516,12 @@ In some contexts, this metric can serve as an indicator of whether the outcome b
     cids:definedBy cids:giin ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    skos:inScheme <> ;
+    skos:inScheme <> .
 
 :OI4499
     a skos:Concept, cids:Code ;
-    org:hasName "Departed Permanent Employees: Total" .
-    skos:prefLabel "Departed Permanent Employees: Total"@en .
+    org:hasName "Departed Permanent Employees: Total" ;
+    skos:prefLabel "Departed Permanent Employees: Total"@en ;
     cids:hasDescription "Number of full- and part-time employees who departed the organization (for any reason) during the reporting period." ;
     skos:definition "Number of full- and part-time employees who departed the organization (for any reason) during the reporting period."@en ;
     org:hasIdentifier "OI4499" ;
@@ -5536,12 +5535,12 @@ This metric is multi-dimensional with regard to the five dimensions of impact. I
     cids:definedBy cids:giin ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    skos:inScheme <> ;
+    skos:inScheme <> .
 
 :OI4531
     a skos:Concept, cids:Code ;
-    org:hasName "Energy Conservation Strategy" .
-    skos:prefLabel "Energy Conservation Strategy"@en .
+    org:hasName "Energy Conservation Strategy" ;
+    skos:prefLabel "Energy Conservation Strategy"@en ;
     cids:hasDescription "Indicates whether the organization implements an energy conservation strategy to reduce its operational energy usage." ;
     skos:definition "Indicates whether the organization implements an energy conservation strategy to reduce its operational energy usage."@en ;
     org:hasIdentifier "OI4531" ;
@@ -5561,12 +5560,12 @@ Organizations are encouraged to report the amount of energy conserved using Ener
     cids:definedBy cids:giin ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    skos:inScheme <> ;
+    skos:inScheme <> .
 
 :OI4559
     a skos:Concept, cids:Code ;
-    org:hasName "Permanent Employee Wages: Female" .
-    skos:prefLabel "Permanent Employee Wages: Female"@en .
+    org:hasName "Permanent Employee Wages: Female" ;
+    skos:prefLabel "Permanent Employee Wages: Female"@en ;
     cids:hasDescription "Value of wages (including bonuses and excluding benefits) paid to all female full- and part-time employees of the organization during the reporting period." ;
     skos:definition "Value of wages (including bonuses and excluding benefits) paid to all female full- and part-time employees of the organization during the reporting period."@en ;
     org:hasIdentifier "OI4559" ;
@@ -5578,12 +5577,12 @@ Organizations are encouraged to report the amount of energy conserved using Ener
     cids:definedBy cids:giin ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    skos:inScheme <> ;
+    skos:inScheme <> .
 
 :OI4564
     a skos:Concept, cids:Code ;
-    org:hasName "Units/Volume Replaced" .
-    skos:prefLabel "Units/Volume Replaced"@en .
+    org:hasName "Units/Volume Replaced" ;
+    skos:prefLabel "Units/Volume Replaced"@en ;
     cids:hasDescription "Number of status-quo products that were replaced by products sold during the reporting period." ;
     skos:definition "Number of status-quo products that were replaced by products sold during the reporting period."@en ;
     org:hasIdentifier "OI4564" ;
@@ -5599,12 +5598,12 @@ When calculating the number of products replaced, organizations should consider 
     cids:definedBy cids:giin ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    skos:inScheme <> ;
+    skos:inScheme <> .
 
 :OI4571
     a skos:Concept, cids:Code ;
-    org:hasName "Part-time Employees: Employees with Disabilities" .
-    skos:prefLabel "Part-time Employees: Employees with Disabilities"@en .
+    org:hasName "Part-time Employees: Employees with Disabilities" ;
+    skos:prefLabel "Part-time Employees: Employees with Disabilities"@en ;
     cids:hasDescription "Number of paid, part-time employees with disabilities at the organization as of the end of the reporting period." ;
     skos:definition "Number of paid, part-time employees with disabilities at the organization as of the end of the reporting period."@en ;
     org:hasIdentifier "OI4571" ;
@@ -5618,12 +5617,12 @@ This metric is multi-dimensional with regard to the five dimensions of impact: i
     cids:definedBy cids:giin ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    skos:inScheme <> ;
+    skos:inScheme <> .
 
 :OI4718
     a skos:Concept, cids:Code ;
-    org:hasName "Business Innovation" .
-    skos:prefLabel "Business Innovation"@en .
+    org:hasName "Business Innovation" ;
+    skos:prefLabel "Business Innovation"@en ;
     org:hasIdentifier "OI4718" ;
     skos:notation "OI4718" ;
     prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/OI4718/> ;
@@ -5683,12 +5682,12 @@ Other:
     cids:definedBy cids:giin ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    skos:inScheme <> ;
+    skos:inScheme <> .
 
 :OI4724
     a skos:Concept, cids:Code ;
-    org:hasName "Employees Earning a Living Wage or Higher" .
-    skos:prefLabel "Employees Earning a Living Wage or Higher"@en .
+    org:hasName "Employees Earning a Living Wage or Higher" ;
+    skos:prefLabel "Employees Earning a Living Wage or Higher"@en ;
     cids:hasDescription "Number of full-time, part-time, and temporary employees of the organization who are earning a local living wage or higher as of the end of the reporting period." ;
     skos:definition "Number of full-time, part-time, and temporary employees of the organization who are earning a local living wage or higher as of the end of the reporting period."@en ;
     org:hasIdentifier "OI4724" ;
@@ -5714,12 +5713,12 @@ This metric is multidimensional with regard to the five dimensions of impact. In
     cids:definedBy cids:giin ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    skos:inScheme <> ;
+    skos:inScheme <> .
 
 :OI4732
     a skos:Concept, cids:Code ;
-    org:hasName "Social and Environmental Performance Reporting" .
-    skos:prefLabel "Social and Environmental Performance Reporting"@en .
+    org:hasName "Social and Environmental Performance Reporting" ;
+    skos:prefLabel "Social and Environmental Performance Reporting"@en ;
     cids:hasDescription "Indicates whether the organization reports its social and environmental performance to relevant stakeholders." ;
     skos:definition "Indicates whether the organization reports its social and environmental performance to relevant stakeholders."@en ;
     org:hasIdentifier "OI4732" ;
@@ -5737,12 +5736,12 @@ Organizations are encouraged to report this metric in conjunction with Social an
     cids:definedBy cids:giin ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    skos:inScheme <> ;
+    skos:inScheme <> .
 
 :OI4739
     a skos:Concept, cids:Code ;
-    org:hasName "Supplier Screening Policy" .
-    skos:prefLabel "Supplier Screening Policy"@en .
+    org:hasName "Supplier Screening Policy" ;
+    skos:prefLabel "Supplier Screening Policy"@en ;
     cids:hasDescription "Indicates whether the organization has a written policy of evaluating supplier organizations based on their social and environmental performance and a system to monitor compliance with this policy." ;
     skos:definition "Indicates whether the organization has a written policy of evaluating supplier organizations based on their social and environmental performance and a system to monitor compliance with this policy."@en ;
     org:hasIdentifier "OI4739" ;
@@ -5758,12 +5757,12 @@ Organizations are encouraged to report this metric in conjunction with Supplier 
     cids:definedBy cids:giin ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    skos:inScheme <> ;
+    skos:inScheme <> .
 
 :OI4753
     a skos:Concept, cids:Code ;
-    org:hasName "Client Protection Policy" .
-    skos:prefLabel "Client Protection Policy"@en .
+    org:hasName "Client Protection Policy" ;
+    skos:prefLabel "Client Protection Policy"@en ;
     cids:hasDescription "Indicates whether the organization has a written policy for client protection and a system to monitor compliance with this policy." ;
     skos:definition "Indicates whether the organization has a written policy for client protection and a system to monitor compliance with this policy."@en ;
     org:hasIdentifier "OI4753" ;
@@ -5781,12 +5780,12 @@ Organizations can refer to the Smart Campaign's Client Protection Principles (ww
     cids:definedBy cids:giin ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    skos:inScheme <> ;
+    skos:inScheme <> .
 
 :OI4862
     a skos:Concept, cids:Code ;
-    org:hasName "Greenhouse Gas Emissions Reduced" .
-    skos:prefLabel "Greenhouse Gas Emissions Reduced"@en .
+    org:hasName "Greenhouse Gas Emissions Reduced" ;
+    skos:prefLabel "Greenhouse Gas Emissions Reduced"@en ;
     cids:hasDescription "Amount of greenhouse gas (GHG) emissions reduced by the organization during the reporting period." ;
     skos:definition "Amount of greenhouse gas (GHG) emissions reduced by the organization during the reporting period."@en ;
     org:hasIdentifier "OI4862" ;
@@ -5802,12 +5801,12 @@ This metric is multi-dimensional with regard to the five dimensions of impact. I
     cids:definedBy cids:giin ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    skos:inScheme <> ;
+    skos:inScheme <> .
 
 :OI4884
     a skos:Concept, cids:Code ;
-    org:hasName "Fair Career Advancement Policy" .
-    skos:prefLabel "Fair Career Advancement Policy"@en .
+    org:hasName "Fair Career Advancement Policy" ;
+    skos:prefLabel "Fair Career Advancement Policy"@en ;
     cids:hasDescription "Indicates whether the organization has a written policy to support the fair and equitable progression and promotion of employees and a system to monitor compliance with this policy." ;
     skos:definition "Indicates whether the organization has a written policy to support the fair and equitable progression and promotion of employees and a system to monitor compliance with this policy."@en ;
     org:hasIdentifier "OI4884" ;
@@ -5821,12 +5820,12 @@ Organizations are encouraged to emphasize their fair career advancement policy o
     cids:definedBy cids:giin ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    skos:inScheme <> ;
+    skos:inScheme <> .
 
 :OI4919
     a skos:Concept, cids:Code ;
-    org:hasName "Caregivers Employed: Professionals" .
-    skos:prefLabel "Caregivers Employed: Professionals"@en .
+    org:hasName "Caregivers Employed: Professionals" ;
+    skos:prefLabel "Caregivers Employed: Professionals"@en ;
     cids:hasDescription "Number of caregiver professionals with current licenses or certifications, based on local requirements, employed by the organization as of the end of the reporting period." ;
     skos:definition "Number of caregiver professionals with current licenses or certifications, based on local requirements, employed by the organization as of the end of the reporting period."@en ;
     org:hasIdentifier "OI4919" ;
@@ -5840,12 +5839,12 @@ This metric is multi-dimensional with regard to the five dimensions of impact. I
     cids:definedBy cids:giin ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    skos:inScheme <> ;
+    skos:inScheme <> .
 
 :OI4953
     a skos:Concept, cids:Code ;
-    org:hasName "Social and Environmental Performance Incentives" .
-    skos:prefLabel "Social and Environmental Performance Incentives"@en .
+    org:hasName "Social and Environmental Performance Incentives" ;
+    skos:prefLabel "Social and Environmental Performance Incentives"@en ;
     cids:hasDescription "Indicates whether the organization implemented any employee incentive schemes related to social and/or environmental performance goals during the reporting period." ;
     skos:definition "Indicates whether the organization implemented any employee incentive schemes related to social and/or environmental performance goals during the reporting period."@en ;
     org:hasIdentifier "OI4953" ;
@@ -5859,12 +5858,12 @@ Examples of types of employee categories to footnote include, among others, top 
     cids:definedBy cids:giin ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    skos:inScheme <> ;
+    skos:inScheme <> .
 
 :OI4972
     a skos:Concept, cids:Code ;
-    org:hasName "Working Hour Policy" .
-    skos:prefLabel "Working Hour Policy"@en .
+    org:hasName "Working Hour Policy" ;
+    skos:prefLabel "Working Hour Policy"@en ;
     cids:hasDescription "Indicates whether the organization has policies in place to monitor, evaluate, and ensure appropriate working hours of employees, as well as a system to monitor compliance." ;
     skos:definition "Indicates whether the organization has policies in place to monitor, evaluate, and ensure appropriate working hours of employees, as well as a system to monitor compliance."@en ;
     org:hasIdentifier "OI4972" ;
@@ -5883,7 +5882,7 @@ This metric aligns with GRI Disclosure 403-8: Workers covered by an occupational
     cids:definedBy cids:giin ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    skos:inScheme <> ;
+    skos:inScheme <> .
 
 :OI5044
     a skos:Concept, cids:Code ;
