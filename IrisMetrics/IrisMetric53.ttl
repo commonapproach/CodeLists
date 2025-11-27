@@ -9426,143 +9426,188 @@ Choose all that apply:
 
 :PD4120
     a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
+    org:hasName "Hours of School Offered per Week" ;
+    skos:prefLabel "Hours of School Offered per Week"@en ;
+    cids:hasDescription "Number of classroom hours offered to a representative student each week during the reporting period." ;
+    skos:definition "Number of classroom hours offered to a representative student each week during the reporting period."@en ;
+    org:hasIdentifier "PD4120" ;
+    skos:notation "PD4120" ;
+    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/PD4120/> ;
     skos:note "Organizations should footnote all assumptions used."@en ;
     skos:scopeNote """This metric is intended to capture the number of instructional hours offered to students each week during the reporting period.
 
 In an example of how this metric might be calculated, suppose a school begins the day at 8:00am and ends at 2:00pm. Each day approximately one hour is spent on lunch, breaks, or other non-classroom learning time. Therefore, each day, each student is offered five hours of instruction. Students attend school five days per week. The reporting organization would then report 5 × 5 = 25 hours.
 
 This metric differs from Learning Hours (PI1836) in that this metric captures school time offered, while Learning Hours (PI1836) captures actual time provided. For example, if a calculation as above yields 25 hours for this metric, but within the reporting period school was cancelled for four hours in total because of snow or other bad weather, in that case would Learning Hours (PI1836) = (25 hours × number of weeks in the reporting period) - 4 hours."""@en ;
-    org:hasIdentifier "PD4120" ;
-    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/PD4120/> ;
+
     cids:definedBy cids:giin ;
-    cids:hasDescription "Number of classroom hours offered to a representative student each week during the reporting period."@en ;
-    cids:hasName "Hours of School Offered per Week"@en .
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> .
 
 :PD4565
     a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
+    org:hasName "Supplier Locations" ;
+    skos:prefLabel "Supplier Locations"@en ;
+    cids:hasDescription "Countries where the organization's suppliers are located. Select from the options in the Reference List tab." ;
+    skos:definition "Countries where the organization's suppliers are located. Select from the options in the Reference List tab."@en ;
+    org:hasIdentifier "PD4565" ;
+    skos:notation "PD4565" ;
+    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/PD4565/> ;
     skos:note "Organizations should footnote all assumptions used, including the threshold at which they report suppliers."@en ;
     skos:scopeNote "This metric is intended to capture the country-level locations of the organization’s suppliers. Organizations can themselves determine the precise threshold at which they report suppliers. In most cases, organizations should include only those enterprises supplying goods and services that are fundamental to the operations of the reporting organization."@en ;
-    org:hasIdentifier "PD4565" ;
-    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/PD4565/> ;
+
     cids:definedBy cids:giin ;
-    cids:hasDescription "Countries where the organization's suppliers are located. Select from the options in the Reference List tab."@en ;
-    cids:hasName "Supplier Locations"@en .
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> .
 
 :PD4577
     a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
+    org:hasName "Energy Storage Device Cycle Life" ;
+    skos:prefLabel "Energy Storage Device Cycle Life"@en ;
+    cids:hasDescription "Number of cycles that the organization’s energy storage product can be charged and discharged over its lifetime as of the end of the reporting period, measured as cumulative energy (MWh or MJ)." ;
+    skos:definition "Number of cycles that the organization’s energy storage product can be charged and discharged over its lifetime as of the end of the reporting period, measured as cumulative energy (MWh or MJ)."@en ;
+    org:hasIdentifier "PD4577" ;
+    skos:notation "PD4577" ;
+    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/PD4577/> ;
     skos:note "Organizations should footnote the method used for estimating the cycle life, the scope of technology to which this metric applies, and all other assumptions used."@en ;
     skos:scopeNote """This metric is intended to capture an energy storage technology’s useful life. Organizations can estimate cycle life based on battery chemistry or through testing.  The operating lifetime of batteries is calculated as the number of times the battery can be fully charged and discharged, or “cycles,” until 20% capacity degradation occurs.
 
 This metric is aligned to and based on SASB RR-FC-410a.5. Average operating lifetime of batteries, by product application and technology type.
 
 This metric captures a product’s life in terms of the number of cycles. To capture the lifetime of a product in years, organizations should report Product Lifetime (PD4587)."""@en ;
-    org:hasIdentifier "PD4577" ;
-    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/PD4577/> ;
+
     cids:definedBy cids:giin ;
-    cids:hasDescription "Number of cycles that the organization’s energy storage product can be charged and discharged over its lifetime as of the end of the reporting period, measured as cumulative energy (MWh or MJ)."@en ;
-    cids:hasName "Energy Storage Device Cycle Life"@en .
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> .
 
 :PD4587
     a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
+    org:hasName "Product Lifetime" ;
+    skos:prefLabel "Product Lifetime"@en ;
+    cids:hasDescription "Number of years of useful life of the product provided by the organization (based on reasonable use)." ;
+    skos:definition "Number of years of useful life of the product provided by the organization (based on reasonable use)."@en ;
+    org:hasIdentifier "PD4587" ;
+    skos:notation "PD4587" ;
+    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/PD4587/> ;
     skos:note "Organizations should footnote the method used for estimating product lifespan. See usage guidance for further information."@en ;
     skos:scopeNote """This metric is intended to capture the useful life of the organization’s product. Product lifetime refers to the length of time for which it is estimated that the product will perform its intended functions, assuming reasonable use.
 
 Examples of methods for estimating product lifespan, to footnote, include research and development, field testing, and customer surveys."""@en ;
-    org:hasIdentifier "PD4587" ;
-    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/PD4587/> ;
+
     cids:definedBy cids:giin ;
-    cids:hasDescription "Number of years of useful life of the product provided by the organization (based on reasonable use)."@en ;
-    cids:hasName "Product Lifetime"@en .
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> .
 
 :PD4686
     a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
+    org:hasName "Livestock/Fish Type" ;
+    skos:prefLabel "Livestock/Fish Type"@en ;
+    cids:hasDescription "Type of livestock product(s) produced by the organization during the reporting period. Choose all that apply from the options in the Reference List." ;
+    skos:definition "Type of livestock product(s) produced by the organization during the reporting period. Choose all that apply from the options in the Reference List."@en ;
+    org:hasIdentifier "PD4686" ;
+    skos:notation "PD4686" ;
+    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/PD4686/> ;
     skos:note "Organizations should footnote all assumptions used, including source of data and reporting level. See usage guidance for further information."@en ;
     skos:scopeNote """This metric is intended to capture the types of livestock an organization produces. Organizations may report on this metric at the organizational level (selecting all relevant answer options) or for a specific product/service (selecting only one livestock/fish type for the product/service for which the organization is reporting).
 
 Different livestock products have different production methods and therefore different influences on ecosystems, biodiversity, climate change, and local communities. For example, carbon dioxide emissions from honey production differ from cattle breeding emissions, with correspondingly different contributions to climate change.
 
 The list of options in the Reference List is from the Food and Agriculture Organization (FAO) of the United Nations (http://unstats.un.org/unsd/cr/registry/regcst.asp?Cl=27)."""@en ;
-    org:hasIdentifier "PD4686" ;
-    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/PD4686/> ;
+
     cids:definedBy cids:giin ;
-    cids:hasDescription "Type of livestock product(s) produced by the organization during the reporting period. Choose all that apply from the options in the Reference List."@en ;
-    cids:hasName "Livestock/Fish Type"@en .
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> .
 
 :PD4861
     a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
+    org:hasName "Product/Service Replaced Description" ;
+    skos:prefLabel "Product/Service Replaced Description"@en ;
+    cids:hasDescription "Describes the product or service replaced for clients, households, or businesses by the products or services provided by the organization." ;
+    skos:definition "Describes the product or service replaced for clients, households, or businesses by the products or services provided by the organization."@en ;
+    org:hasIdentifier "PD4861" ;
+    skos:notation "PD4861" ;
+    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/PD4861/> ;
     skos:note "Organizations should footnote all assumptions used."@en ;
     skos:scopeNote "This metric is intended to capture a description of the product or service the organization replaces. This metric aligns to, and can be reported in conjunction with, Product/Service Description (PD7899), Product/Service Type (PD3017), and Product/Service Detailed Type (PD1516)."@en ;
-    org:hasIdentifier "PD4861" ;
-    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/PD4861/> ;
+
     cids:definedBy cids:giin ;
-    cids:hasDescription "Describes the product or service replaced for clients, households, or businesses by the products or services provided by the organization."@en ;
-    cids:hasName "Product/Service Replaced Description"@en .
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> .
 
 :PD4927
     a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
+    org:hasName "Energy Savings from Services Sold" ;
+    skos:prefLabel "Energy Savings from Services Sold"@en ;
+    cids:hasDescription "Amount of energy savings due to the organization's services that were sold during the reporting period." ;
+    skos:definition "Amount of energy savings due to the organization's services that were sold during the reporting period."@en ;
+    org:hasIdentifier "PD4927" ;
+    skos:notation "PD4927" ;
+    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/PD4927/> ;
     skos:note "Organizations should footnote all assumptions used."@en ;
     skos:scopeNote """This metric is intended to capture the total consumer energy savings as a result of services provided by the organization to help conserve or reduce clients' energy use. For example, an organization that helps identify products/methods that conserve energy (such as lighting retrofits, boiler system optimization, or weatherization) might report its clients‘ total energy savings under this metric.
 
 In their calculations, organizations should ensure they use the same reporting period for Client Individuals: Total (PI4060) and the average energy savings per client.
 
 In some contexts, this metric can serve as an indicator of whether the outcome being sought by an investor or organization is occurring (the WHAT dimension of impact). For more on the alignment of IRIS metrics to the five dimensions of impact, see IRIS+ and the Five Dimensions of Impact (https://iris.thegiin.org/document/iris-and-the-five-dimensions/). No single metric is sufficient to understand an impact; rather, metrics are selected as a set across all dimensions of impact. When possible, the selection of metrics to measure and describe the five dimensions should be based on best practice and evidence."""@en ;
-    org:hasIdentifier "PD4927" ;
-    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/PD4927/> ;
+
     cids:definedBy cids:giin ;
-    cids:hasDescription "Amount of energy savings due to the organization's services that were sold during the reporting period."@en ;
-    cids:hasName "Energy Savings from Services Sold"@en .
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> .
 
 :PD5087
     a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
+    org:hasName "Water Treatment Capacity of Product: Potable" ;
+    skos:prefLabel "Water Treatment Capacity of Product: Potable"@en ;
+    cids:hasDescription "Volume of water treated to become potable over the lifetime of a product or system operated according to planned capacity." ;
+    skos:definition "Volume of water treated to become potable over the lifetime of a product or system operated according to planned capacity."@en ;
+    org:hasIdentifier "PD5087" ;
+    skos:notation "PD5087" ;
+    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/PD5087/> ;
     skos:note "Organizations should footnote all assumptions used, as well as details on the type of water treated (e.g., wastewater)."@en ;
     skos:scopeNote """This metric is intended to capture the amount of water that could be treated to become potable by a product during its lifetime.
 
 Treating water aims to improve water’s quality to make it more acceptable for an end-use, such as drinking, industry, or safe return to the environment, by removing or reducing existing water contaminants."""@en ;
-    org:hasIdentifier "PD5087" ;
-    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/PD5087/> ;
+
     cids:definedBy cids:giin ;
-    cids:hasDescription "Volume of water treated to become potable over the lifetime of a product or system operated according to planned capacity."@en ;
-    cids:hasName "Water Treatment Capacity of Product: Potable"@en .
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> .
 
 :PD5098
     a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
+    org:hasName "Other Financial Services Offered" ;
+    skos:prefLabel "Other Financial Services Offered"@en ;
+    cids:hasDescription "Describes the types of financial services the organization offers in addition to core credit, savings, and insurance products." ;
+    skos:definition "Describes the types of financial services the organization offers in addition to core credit, savings, and insurance products."@en ;
+    org:hasIdentifier "PD5098" ;
+    skos:notation "PD5098" ;
+    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/PD5098/> ;
     skos:note "Organizations should footnote details on these additional service offerings and their uptake. See usage guidance for further information."@en ;
     skos:scopeNote "This metric is intended to capture details of the types of additional financial services offered by the organization beyond credit, savings, or insurance. Examples of additional services, to footnote, could include card products (such as debit, credit, or pre-paid), credit or financial counseling, micro-leasing, mobile banking services, payment services (by check, payroll cards, or other), remittance services, savings facilitation services, and scholarship or educational grants, among others."@en ;
-    org:hasIdentifier "PD5098" ;
-    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/PD5098/> ;
+
     cids:definedBy cids:giin ;
-    cids:hasDescription "Describes the types of financial services the organization offers in addition to core credit, savings, and insurance products."@en ;
-    cids:hasName "Other Financial Services Offered"@en .
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> .
 
 :PD5205
     a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
+    org:hasName "Service Level Type" ;
+    skos:prefLabel "Service Level Type"@en ;
+    org:hasIdentifier "PD5205" ;
+    skos:notation "PD5205" ;
+    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/PD5205/> ;
     skos:note "Organizations should footnote all assumptions used, including source of data."@en ;
     skos:scopeNote """This metric is intended to capture the level of access a client has to a service (for example, whether the service is subpar, limited, basic, or excellent). For further details on WASH service levels, see the Joint Monitoring Programme (https://washdata.org/monitoring). For further details on energy service levels, see the Energy Sector Management Assistance Program (ESMAP) (https://www.worldbank.org/content/dam/Worldbank/Topics/Energy%20and%20Extract/Beyond_Connections_Energy_Access_Redefined_Exec_ESMAP_2015.pdf).
 
 In some contexts, this metric can serve as an indicator of whether the outcome being sought by an investor or organization is occurring (the WHAT dimension of impact). For more on the alignment of IRIS metrics to the five dimensions of impact, see IRIS+ and the Five Dimensions of Impact (https://iris.thegiin.org/document/iris-and-the-five-dimensions/). No single metric is sufficient to understand an impact; rather, metrics are selected as a set across all dimensions of impact. The selection of metrics to measure and describe the five dimensions should be based on best practice and evidence."""@en ;
-    org:hasIdentifier "PD5205" ;
-    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/PD5205/> ;
-    cids:definedBy cids:giin ;
     cids:hasDescription """Describes the level of access to services provided to households or individuals as a result of the organization's activities as of the end the reporting period.
 
 Choose all that apply within the appropriate sector or service:
@@ -9592,46 +9637,90 @@ Electricity
 - Tier 3
 - Tier 2
 - Tier 1
+- Tier 0 (no access)""" ;
+    skos:definition """Describes the level of access to services provided to households or individuals as a result of the organization's activities as of the end the reporting period.
+
+Choose all that apply within the appropriate sector or service:
+
+Drinking Water
+- Safely managed
+- Basic
+- Limited
+- Unimproved
+- Surface water
+
+Sanitation
+- Safely managed
+- Basic
+- Limited
+- Unimproved
+- Open defecation
+
+Hygiene
+- Basic
+- Limited
+- No facility
+
+Electricity
+- Tier 5 (advanced access)
+- Tier 4
+- Tier 3
+- Tier 2
+- Tier 1
 - Tier 0 (no access)"""@en ;
-    cids:hasName "Service Level Type"@en .
+
+    cids:definedBy cids:giin ;
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> .
 
 :PD5578
     a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
+    org:hasName "Energy Consumption of Product Replaced" ;
+    skos:prefLabel "Energy Consumption of Product Replaced"@en ;
+    cids:hasDescription "Amount of energy that would have been consumed by the replaced product during the lifetime of the organization's product." ;
+    skos:definition "Amount of energy that would have been consumed by the replaced product during the lifetime of the organization's product."@en ;
+    org:hasIdentifier "PD5578" ;
+    skos:notation "PD5578" ;
+    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/PD5578/> ;
     skos:note "Organizations should footnote details on the product replaced, source for data on product utilization, and any other assumptions."@en ;
     skos:scopeNote """This metric is intended to capture energy consumed by the product replaced over the course of the lifetime of the organization's product, not over the course of the lifetime of the product that is being replaced.
 
 In some contexts, this metric can serve as an indicator of whether the outcome being sought by an investor or organization is occurring (the WHAT dimension of impact). For more on the alignment of IRIS metrics to the five dimensions of impact, see IRIS+ and the Five Dimensions of Impact (https://iris.thegiin.org/document/iris-and-the-five-dimensions/). No single metric is sufficient to understand an impact; rather, metrics are selected as a set across all dimensions of impact. When possible, the selection of metrics to measure and describe the five dimensions should be based on best practice and evidence."""@en ;
-    org:hasIdentifier "PD5578" ;
-    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/PD5578/> ;
+
     cids:definedBy cids:giin ;
-    cids:hasDescription "Amount of energy that would have been consumed by the replaced product during the lifetime of the organization's product."@en ;
-    cids:hasName "Energy Consumption of Product Replaced"@en .
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> .
 
 :PD5677
     a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
+    org:hasName "Product Targeted to Women" ;
+    skos:prefLabel "Product Targeted to Women"@en ;
+    cids:hasDescription "Indicates whether the organization offers a product or service that disproportionately benefits women." ;
+    skos:definition "Indicates whether the organization offers a product or service that disproportionately benefits women."@en ;
+    org:hasIdentifier "PD5677" ;
+    skos:notation "PD5677" ;
+    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/PD5677/> ;
     skos:note "Organizations should footnote all assumptions used."@en ;
     skos:scopeNote "This metric is intended to capture whether a product specifically benefits women. To report against 2X Challenge requirements, organizations must report this metric in combination with one or more of the following metrics that detail how the product or service disproportionately benefits women: Client Individuals: Female (PI8330), Stakeholder Engagement (OI7914), Client Savings Premium (PI1748), Client Individuals: Provided New Access (PI2822), or Client Feedback System (OI5049). To fulfill 2X criteria, the selected metric(s) must clearly demonstrate that the product provides disproportionate benefit to women."@en ;
-    org:hasIdentifier "PD5677" ;
-    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/PD5677/> ;
+
     cids:definedBy cids:giin ;
-    cids:hasDescription "Indicates whether the organization offers a product or service that disproportionately benefits women."@en ;
-    cids:hasName "Product Targeted to Women"@en .
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> .
 
 :PD5694
     a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
+    org:hasName "Green Product/Service Type" ;
+    skos:prefLabel "Green Product/Service Type"@en ;
+    org:hasIdentifier "PD5694" ;
+    skos:notation "PD5694" ;
+    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/PD5694/> ;
     skos:note "Organizations should footnote all assumptions used, including source of data or disaggregation and any other disaggregations applied."@en ;
     skos:scopeNote """This metric is intended to capture a description of the contributions to a more environmentally sustainable economy offered by a product or service. Organizations can report this metric at an organizational level (selecting all product/services that apply) or for a specific product/service (selecting the product/service for which the organization is reporting). Organizations are encouraged to footnote the details of how the product or service contributes to a more environmentally sustainable economy. The options in the definition align with the EU Taxonomy for Sustainable Activities (https://ec.europa.eu/info/business-economy-euro/banking-and-finance/sustainable-finance/eu-taxonomy-sustainable-activities_en).
 
 This disaggregation, applied to another metric, is intended to capture the share of that metric which relates to products or services matching the selected options in the description. For example, the disaggregation \"Climate change mitigation\" when applied to Units/Volume Sold (PI1263) would include the number of products sold that mitigate climate change. The same disaggregation applied to Client Individuals (PI4060) would include the number of individuals using products or services that mitigate climate change."""@en ;
-    org:hasIdentifier "PD5694" ;
-    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/PD5694/> ;
-    cids:definedBy cids:giin ;
     cids:hasDescription """Describes how a product/service provided by the organization contributes to a more environmentally sustainable economy, or disaggregates another metric in terms of how the related product or service contributes to a more environmentally sustainable economy.
 
 Select all that apply:
@@ -9642,13 +9731,31 @@ Select all that apply:
 - Pollution prevention and control
 - The protection and restoration of biodiversity and ecosystems
 - Product/service does not contribute to a more environmentally sustainable economy
+- Other (write-in)""" ;
+    skos:definition """Describes how a product/service provided by the organization contributes to a more environmentally sustainable economy, or disaggregates another metric in terms of how the related product or service contributes to a more environmentally sustainable economy.
+
+Select all that apply:
+- Climate change mitigation
+- Climate change adaptation
+- The sustainable use and protection of water and marine resources
+- The transition to a circular economy
+- Pollution prevention and control
+- The protection and restoration of biodiversity and ecosystems
+- Product/service does not contribute to a more environmentally sustainable economy
 - Other (write-in)"""@en ;
-    cids:hasName "Green Product/Service Type"@en .
+
+    cids:definedBy cids:giin ;
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> .
 
 :PD5752
     a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
+    org:hasName "Target Stakeholder Demographic" ;
+    skos:prefLabel "Target Stakeholder Demographic"@en ;
+    org:hasIdentifier "PD5752" ;
+    skos:notation "PD5752" ;
+    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/PD5752/> ;
     skos:note "Organizations should footnote further details about the types of stakeholder(s) they target."@en ;
     skos:scopeNote """This metric is intended to capture the basic demographic groups of target stakeholders of an organization's products, services, and operations. A target stakeholder can be a client, employee, or anyone the organization is aiming to positively impact. Some organizations call a target stakeholder a ‘beneficiary.’
 
@@ -9658,9 +9765,6 @@ Target stakeholders—whether clients, employees, or others—should self-report
 The categorization of historically marginalized groups varies with location and context. With no internationally agreed-upon definition as to which groups constitute historically marginalized, if well-established local policies exist (as in South Africa, with the Broad Based Black Economic Empowerment [BBBEE] definition, or in India, based on backward caste), organizations should refer to these local guidelines to identify groups historically marginalized on the basis of race and/or ethnicity. Otherwise, and wherever appropriate, organizations should provide additional detail regarding their tailored methodology for defining these groups.
 
 This metric may help describe the WHO dimension of impact, which details which stakeholders the investment or enterprise aims to reach with the outcome. This metric may also help clarify how underserved they were prior to the investment. For more on the alignment of IRIS metrics to the five dimensions of impact, see IRIS+ and the Five Dimensions of Impact (https://iris.thegiin.org/document/iris-and-the-five-dimensions/). No single metric is sufficient to understand an impact; rather, metrics are selected as a set across all dimensions of impact. When possible, the selection of metrics to measure and describe the five dimensions should be based on best practice and evidence."""@en ;
-    org:hasIdentifier "PD5752" ;
-    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/PD5752/> ;
-    cids:definedBy cids:giin ;
     cids:hasDescription """Describes the demographic groups of stakeholders targeted by the organization. Select all that apply:
 
 Age group:
@@ -9687,78 +9791,129 @@ Race/Ethnicity/Minority Status:
 - Undisclosed
 
 Other target populations:
+- Other (describe)""" ;
+    skos:definition """Describes the demographic groups of stakeholders targeted by the organization. Select all that apply:
+
+Age group:
+- Children (younger than 10 years old)
+- Adolescents (10 years of age or older but younger than 19)
+- Adults (19+ years old)
+- Elderly/older adults
+
+Gender:
+- Female
+- Male
+- Gender Non-Binary
+- Undisclosed
+- Other (describe)
+
+Disability Status:
+- Persons with disabilities
+- Persons without disabilities
+- Undisclosed
+
+Race/Ethnicity/Minority Status:
+- Historically marginalized groups
+- Dominant culture populations
+- Undisclosed
+
+Other target populations:
 - Other (describe)"""@en ;
-    cids:hasName "Target Stakeholder Demographic"@en .
+
+    cids:definedBy cids:giin ;
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> .
 
 :PD5786
     a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
+    org:hasName "Water Savings from Products Sold" ;
+    skos:prefLabel "Water Savings from Products Sold"@en ;
+    cids:hasDescription "Volume of water saved over the lifetimes of all products sold during the reporting period." ;
+    skos:definition "Volume of water saved over the lifetimes of all products sold during the reporting period."@en ;
+    org:hasIdentifier "PD5786" ;
+    skos:notation "PD5786" ;
+    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/PD5786/> ;
     skos:note "Organizations should footnote all assumptions used."@en ;
     skos:scopeNote """This metric is intended to capture the product-lifetime water savings to consumers from their purchase of the organization’s water-efficient products.
 
 When multiplying the savings from each product sold by Units/Volume Sold: Total (PI1263), organizations should, under Units/Volume Sold: Total (PI1263), use the absolute number of product units sold rather than the volume of savings delivered by the product.
 
 In some contexts, this metric can serve as an indicator of whether the outcome being sought by an investor or organization is occurring (the WHAT dimension of impact). For more on the alignment of IRIS metrics to the five dimensions of impact, see IRIS+ and the Five Dimensions of Impact (https://iris.thegiin.org/document/iris-and-the-five-dimensions/). No single metric is sufficient to understand an impact; rather, metrics are selected as a set across all dimensions of impact. When possible, the selection of metrics to measure and describe the five dimensions should be based on best practice and evidence."""@en ;
-    org:hasIdentifier "PD5786" ;
-    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/PD5786/> ;
+
     cids:definedBy cids:giin ;
-    cids:hasDescription "Volume of water saved over the lifetimes of all products sold during the reporting period."@en ;
-    cids:hasName "Water Savings from Products Sold"@en .
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> .
 
 :PD5833
     a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
+    org:hasName "Percent Affordable Housing" ;
+    skos:prefLabel "Percent Affordable Housing"@en ;
+    cids:hasDescription "Percentage of the housing units projected to be constructed or preserved as a result of investments made by the organization during the reporting period that are considered affordable housing." ;
+    skos:definition "Percentage of the housing units projected to be constructed or preserved as a result of investments made by the organization during the reporting period that are considered affordable housing."@en ;
+    org:hasIdentifier "PD5833" ;
+    skos:notation "PD5833" ;
+    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/PD5833/> ;
     skos:note "Organizations should footnote the assumptions used in defining affordable housing. See usage guidance for further information."@en ;
     skos:scopeNote """This metric is intended to capture the percentage of housing units created or preserved as a result of an organization's investments that are affordable housing, in both single- and multi-family buildings.
 
 Affordable housing has associated financial costs for occupants at a level that does not threaten or compromise their enjoyment of other human rights and basic needs and that represents a reasonable proportion of an individual's overall income.
 
 Organizations should footnote their assumptions in defining affordable housing. In the United States, the Department of Housing and Urban Development defines affordable housing (http://portal.hud.gov/hudportal/HUD?src=/program_offices/comm_planning/affordable housing/) as that for which the occupant or occupants pays or pay no more than 30% of their income for gross housing costs, including utilities."""@en ;
-    org:hasIdentifier "PD5833" ;
-    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/PD5833/> ;
+
     cids:definedBy cids:giin ;
-    cids:hasDescription "Percentage of the housing units projected to be constructed or preserved as a result of investments made by the organization during the reporting period that are considered affordable housing."@en ;
-    cids:hasName "Percent Affordable Housing"@en .
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> .
 
 :PD6052
     a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
+    org:hasName "Water Provision Capacity of Product: Total" ;
+    skos:prefLabel "Water Provision Capacity of Product: Total"@en ;
+    cids:hasDescription "Volume of water provided over the lifetime of a product or system operated according to planned capacity." ;
+    skos:definition "Volume of water provided over the lifetime of a product or system operated according to planned capacity."@en ;
+    org:hasIdentifier "PD6052" ;
+    skos:notation "PD6052" ;
+    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/PD6052/> ;
     skos:note "Organizations should footnote all assumptions used."@en ;
     skos:scopeNote """This metric is intended to capture the amount of water that a product could produce or provide during its lifetime. For example, an organization that sells home water pumps might report the amount of water provided to the end user over a pump’s lifetime.
 
 Organizations with oversight of product use beyond the initial sale should consider reporting Water Savings from Products Sold (PD5786). Organizations wishing to report the total water production capacity of all products sold during the reporting period should report Water Provision Capacity of Products Sold: Total (PD2020)."""@en ;
-    org:hasIdentifier "PD6052" ;
-    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/PD6052/> ;
+
     cids:definedBy cids:giin ;
-    cids:hasDescription "Volume of water provided over the lifetime of a product or system operated according to planned capacity."@en ;
-    cids:hasName "Water Provision Capacity of Product: Total"@en .
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> .
 
 :PD6343
     a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
+    org:hasName "Savings Account Incentives" ;
+    skos:prefLabel "Savings Account Incentives"@en ;
+    cids:hasDescription "Describes the types of incentives the organization offers to clients to establish savings accounts." ;
+    skos:definition "Describes the types of incentives the organization offers to clients to establish savings accounts."@en ;
+    org:hasIdentifier "PD6343" ;
+    skos:notation "PD6343" ;
+    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/PD6343/> ;
     skos:note "Organizations should footnote details on the types of incentives provided."@en ;
     skos:scopeNote """This metric is intended to capture any incentives the organization offers for savings accounts. Examples of savings account incentives implemented, to footnote, may include monetary one-time bonuses for clients who open a savings account or maintaining a certain balance, electronic resources and tools to support ongoing saving efforts, and increased interest rates paid on savings, among other methods.
 
 Organizations that require savings accounts are encouraged to describe the details of this requirement by instead reporting against Compulsory Deposits (PD9337)."""@en ;
-    org:hasIdentifier "PD6343" ;
-    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/PD6343/> ;
+
     cids:definedBy cids:giin ;
-    cids:hasDescription "Describes the types of incentives the organization offers to clients to establish savings accounts."@en ;
-    cids:hasName "Savings Account Incentives"@en .
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> .
 
 :PD6363
     a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
+    org:hasName "Species Extinction Threat" ;
+    skos:prefLabel "Species Extinction Threat"@en ;
+    org:hasIdentifier "PD6363" ;
+    skos:notation "PD6363" ;
+    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/PD6363/> ;
     skos:note "Organizations should footnote all assumptions used, including source of data."@en ;
     skos:scopeNote "This metric is intended to capture the extinction threats facing a species. This metric aligns to the threats to species included in the IUCN Red List threat classification scheme (https://www.iucnredlist.org/resources/threat-classification-scheme)."@en ;
-    org:hasIdentifier "PD6363" ;
-    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/PD6363/> ;
-    cids:definedBy cids:giin ;
     cids:hasDescription """Describes applicable threats to species during the reporting period.
 
 Choose all that apply:
@@ -9888,38 +10043,181 @@ Climate change & severe weather
 - Other impacts (describe)
 
 Other options
+- Other threat (describe)""" ;
+    skos:definition """Describes applicable threats to species during the reporting period.
+
+Choose all that apply:
+
+Residential & commercial development
+- Housing & urban areas
+- Commercial & industrial areas
+- Tourism & recreation areas
+
+Agriculture & aquaculture
+- Annual & perennial non-timber crops: Shifting agriculture
+- Annual & perennial non-timber crops: Smallholder farming
+- Annual & perennial non-timber crops: Agro-industry farming
+- Annual & perennial non-timber crops: Scale unknown/unrecorded
+- Wood & pulp plantations:
+Small-holder plantations
+- Wood & pulp plantations: Agro-industry plantations
+- Wood & pulp plantations: Scale unknown/unrecorded
+- Livestock farming & ranching: Nomadic grazing
+- Livestock farming & ranching: Small-holder grazing, ranching or farming
+- Livestock farming & ranching: Agro-industry grazing, ranching or farming
+- Livestock farming & ranching: Scale unknown/unrecorded
+- Marine & freshwater aquaculture: Subsistence/artisanal aquaculture
+- Marine & freshwater aquaculture:  Industrial aquaculture
+- Marine & freshwater aquaculture: Scale unknown/unrecorded
+
+Energy production & mining
+- Oil & gas drilling
+- Mining & quarrying
+- Renewable energy
+- Other energy production & mining (describe)
+
+Transportation & service corridors
+- Roads & railroads
+- Utility & service lines
+- Shipping lanes
+- Flight paths
+
+Biological resource use
+- Hunting & collecting terrestrial animals:  Intentional use (species being assessed is the target)
+- Hunting & collecting terrestrial animals: Unintentional effects (species being assessed is not the target)
+- Hunting & collecting terrestrial animals: Persecution/control
+- Hunting & collecting terrestrial animals: Motivation unknown/unrecorded
+- Gathering terrestrial plants:  Intentional use (species being assessed is the target)
+- Gathering terrestrial plants: Unintentional effects (species being assessed is not the target)
+- Gathering terrestrial plants: Persecution/control
+- Gathering terrestrial plants: Motivation unknown/unrecorded
+- Logging & wood harvesting:  Intentional use, subsistence/small scale (species being assessed is the target)
+- Logging & wood harvesting:  Intentional use, large scale (species being assessed is the target)
+- Logging & wood harvesting:  Unintentional effects, subsistence/small scale (species being assessed is not the target)
+- Logging & wood harvesting:  Unintentional effects, large scale (species being assessed is not the target)
+- Logging & wood harvesting: Motivation unknown/unrecorded
+- Fishing & harvesting aquatic resources:  Intentional use, subsistence/small scale (species being assessed is the target)
+- Fishing & harvesting aquatic resources:  Intentional use, large scale (species being assessed is the target)
+- Fishing & harvesting aquatic resources:  Unintentional effects, subsistence/small scale (species being assessed is not the target)
+- Fishing & harvesting aquatic resources:  Unintentional effects, large scale (species being assessed is not the target)
+- Fishing & harvesting aquatic resources: Persecution/control
+- Fishing & harvesting aquatic resources: Motivation unknown/unrecorded
+
+Human intrusions & disturbance
+- Recreational activities
+- War, civil unrest, & military exercises
+- Work & other activities
+- Other human intrusions & disturbances (describe)
+
+Natural system modifications
+- Fire & fire suppression: Increase in fire frequency/intensity
+- Fire & fire suppression: Suppression in fire frequency/intensity
+- Fire & fire suppression: Trend unknown/unrecorded
+- Dams & water management/use: Abstraction of surface water (domestic use)
+- Dams & water management/use: Abstraction of surface water (commercial use)
+- Dams & water management/use: Abstraction of surface water (agricultural use)
+- Dams & water management/use: Abstraction of surface water (unknown use)
+- Dams & water management/use: Abstraction of groundwater (domestic use)
+- Dams & water management/use: Abstraction of groundwater (commercial use)
+- Dams & water management/use: Abstraction of groundwater (agricultural use)
+- Dams & water management/use: Abstraction of groundwater (unknown use)
+- Dams & water management/use: Small dams
+- Dams & water management/use: Large dams
+- Dams & water management/use: Dams (size unknown)
+- Other ecosystem modifications (describe)
+
+Invasive & other problematic species, genes, & diseases
+- Invasive non-native/alien species/diseases: Unspecified species
+- Invasive non-native/alien species/diseases: Named species
+- Problematic native species/diseases: Unspecified species
+- Problematic native species/diseases: Named species
+- Introduced genetic material
+- Problematic species/diseases of unknown origin: Unspecified species
+- Problematic species/diseases of unknown origin: Named species
+- Viral/prion-induced diseases: Unspecified “species” (disease)
+- Viral/prion-induced diseases: Named “species” (disease)
+- Diseases of unknown cause
+
+Pollution
+- Domestic & urban wastewater: Sewage
+- Domestic & urban wastewater: Run-off
+- Domestic & urban wastewater: Type unknown/unrecorded
+- Industrial & military effluents: Oil spills
+- Industrial & military effluents: Seepage from mining
+- Industrial & military effluents: Type unknown/unrecorded
+- Agricultural & forestry effluents: Nutrient loads
+- Agricultural & forestry effluents: Soil erosion, sedimentation
+- Agricultural & forestry effluents: Herbicides & pesticides
+- Agricultural & forestry effluents: Type unknown/unrecorded
+- Garbage & solid waste
+- Air-borne pollutants: Acid rain
+- Air-borne pollutants: Smog
+- Air-borne pollutants: Ozone
+- Air-borne pollutants: Type unknown/unrecorded
+- Excess energy: Light pollution
+- Excess energy: Thermal pollution
+- Excess energy: Noise pollution
+- Excess energy: Type unknown/unrecorded
+
+Geological events
+- Volcanoes
+- Earthquakes/tsunamis
+- Avalanches/landslides
+- Other geological events (describe)
+
+Climate change & severe weather
+- Habitat shifting & alteration
+- Droughts
+- Temperature extremes
+- Storms & flooding
+- Other impacts (describe)
+
+Other options
 - Other threat (describe)"""@en ;
-    cids:hasName "Species Extinction Threat"@en .
+
+    cids:definedBy cids:giin ;
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> .
 
 :PD6384
     a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
+    org:hasName "Target Stakeholder Setting" ;
+    skos:prefLabel "Target Stakeholder Setting"@en ;
+    org:hasIdentifier "PD6384" ;
+    skos:notation "PD6384" ;
+    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/PD6384/> ;
     skos:note "Organizations should footnote further details about the types of stakeholder setting(s) they target."@en ;
     skos:scopeNote """This metric is intended to capture the basic geographic settings of the target stakeholders of an organization's products, services, and operations. For details on the geographic settings of target stakeholders, organizations can use Target Stakeholder Geography (PD6424).
 
 This metric may help describe the WHO dimension of impact, which details which stakeholders the investment or enterprise aims to reach with the outcome. This metric may also help clarify how underserved they were prior to the investment. For more on the alignment of IRIS metrics to the five dimensions of impact, see IRIS+ and the Five Dimensions of Impact (https://iris.thegiin.org/document/iris-and-the-five-dimensions/). No single metric is sufficient to understand an impact; rather, metrics are selected as a set across all dimensions of impact. When possible, the selection of metrics to measure and describe the five dimensions should be based on best practice and evidence."""@en ;
-    org:hasIdentifier "PD6384" ;
-    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/PD6384/> ;
-    cids:definedBy cids:giin ;
     cids:hasDescription """Describes the setting of the groups of stakeholders targeted by the organization. Select all that apply:
 
 - Rural
 - Urban
+- Peri-urban""" ;
+    skos:definition """Describes the setting of the groups of stakeholders targeted by the organization. Select all that apply:
+
+- Rural
+- Urban
 - Peri-urban"""@en ;
-    cids:hasName "Target Stakeholder Setting"@en .
+
+    cids:definedBy cids:giin ;
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> .
 
 :PD6424
     a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
+    org:hasName "Target Stakeholder Geography" ;
+    skos:prefLabel "Target Stakeholder Geography"@en ;
+    org:hasIdentifier "PD6424" ;
+    skos:notation "PD6424" ;
+    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/PD6424/> ;
     skos:note "Organizations should footnote further details about the specific region(s) they target."@en ;
     skos:scopeNote """This metric is intended to capture the geography of target stakeholders. It is not intended to capture the organization's location, which is reported under Location of Organization's Headquarters (OD6855).
 
 This metric may help describe the WHO dimension of impact, which details which stakeholders the investment or enterprise aims to reach with the outcome. This metric may also help clarify how underserved they were prior to the investment. For more on the alignment of IRIS metrics to the five dimensions of impact, refer to the IRIS+ guidance document: IRIS+ and the Five Dimensions of Impact. No single metric is sufficient to understand an impact; rather, metrics are selected as a set across all dimensions of impact. When possible, the selection of metrics to measure and describe the five dimensions should be based on best practice and evidence."""@en ;
-    org:hasIdentifier "PD6424" ;
-    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/PD6424/> ;
-    cids:definedBy cids:giin ;
     cids:hasDescription """Describes the geography of stakeholders targeted by the organization, expressed by country, as of the end of the reporting period.
 
 Choose all that apply:
@@ -10120,20 +10418,225 @@ Choose all that apply:
 - Virgin Islands (U.S.)
 - Yemen
 - Zambia
+- Zimbabwe""" ;
+    skos:definition """Describes the geography of stakeholders targeted by the organization, expressed by country, as of the end of the reporting period.
+
+Choose all that apply:
+
+- Afghanistan
+- Albania
+- Algeria
+- Andorra
+- Angola
+- Anguilla
+- Antigua & Barbuda
+- Argentina
+- Armenia
+- Australia
+- Austria
+- Azerbaijan
+- Bahamas
+- Bahrain
+- Bangladesh
+- Barbados
+- Belarus
+- Belgium
+- Belize
+- Benin
+- Bermuda
+- Bhutan
+- Bolivia
+- Bosnia & Herzegovina
+- Botswana
+- Brazil
+- Brunei Darussalam
+- Bulgaria
+- Burkina Faso
+- Myanmar (Burma)
+- Burundi
+- Cambodia
+- Cameroon
+- Canada
+- Cape Verde
+- Cayman Islands
+- Central African Republic
+- Chad
+- Chile
+- China
+- Colombia
+- Comoros
+- Costa Rica
+- Croatia
+- Cuba
+- Cyprus
+- Czech Republic
+- Democratic Republic of the Congo
+- Denmark
+- Djibouti
+- Dominica
+- Dominican Republic
+- Ecuador
+- Egypt
+- El Salvador
+- Equatorial Guinea
+- Eritrea
+- Estonia
+- Ethiopia
+- Fiji
+- Finland
+- France
+- French Guiana
+- Gabon
+- Gambia
+- Georgia
+- Germany
+- Ghana
+- Great Britain
+- Greece
+- Grenada
+- Guadeloupe
+- Guatemala
+- Guinea
+- Guinea-Bissau
+- Guyana
+- Haiti
+- Honduras
+- Hungary
+- Iceland
+- India
+- Indonesia
+- Iran
+- Iraq
+- Israel and the Occupied Territories
+- Italy
+- Ivory Coast (Côte d'Ivoire)
+- Jamaica
+- Japan
+- Jordan
+- Kazakhstan
+- Kenya
+- Kosovo
+- Kuwait
+- Kyrgyzstan
+- Laos
+- Latvia
+- Lebanon
+- Lesotho
+- Liberia
+- Libya
+- Liechtenstein
+- Lithuania
+- Luxembourg
+- Republic of Macedonia
+- Madagascar
+- Malawi
+- Malaysia
+- Maldives
+- Mali
+- Malta
+- Martinique
+- Mauritania
+- Mauritius
+- Mayotte
+- Mexico
+- Moldova
+- Monaco
+- Mongolia
+- Montenegro
+- Montserrat
+- Morocco
+- Mozambique
+- Namibia
+- Nepal
+- Netherlands
+- New Zealand
+- Nicaragua
+- Niger
+- Nigeria
+- North Korea
+- Norway
+- Oman
+- Pacific Islands
+- Pakistan
+- Panama
+- Papua New Guinea
+- Paraguay
+- Peru
+- Philippines
+- Poland
+- Portugal
+- Puerto Rico
+- Qatar
+- Réunion
+- Romania
+- Russian Federation
+- Rwanda
+- Saint Kitts and Nevis
+- Saint Lucia
+- Saint Vincent & the Grenadines
+- Samoa
+- São Tomê and Príncipe
+- Saudi Arabia
+- Senegal
+- Serbia
+- Seychelles
+- Sierra Leone
+- Singapore
+- Slovakia
+- Slovenia
+- Solomon Islands
+- Somalia
+- South Africa
+- South Korea
+- South Sudan
+- Spain
+- Sri Lanka
+- Sudan
+- Suriname
+- Swaziland
+- Sweden
+- Switzerland
+- Syria
+- Tajikistan
+- Tanzania
+- Thailand
+- Timor Leste
+- Togo
+- Trinidad & Tobago
+- Tunisia
+- Turkey
+- Turkmenistan
+- Turks & Caicos Islands
+- Uganda
+- Ukraine
+- United Arab Emirates
+- United States of America
+- Uruguay
+- Uzbekistan
+- Venezuela
+- Vietnam
+- Virgin Islands (UK)
+- Virgin Islands (U.S.)
+- Yemen
+- Zambia
 - Zimbabwe"""@en ;
-    cids:hasName "Target Stakeholder Geography"@en .
+
+    cids:definedBy cids:giin ;
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> .
 
 :PD6429
     a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
+    org:hasName "Species Conservation Status" ;
+    skos:prefLabel "Species Conservation Status"@en ;
+    org:hasIdentifier "PD6429" ;
+    skos:notation "PD6429" ;
+    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/PD6429/> ;
     skos:note "Organizations should footnote all assumptions used, including source of data."@en ;
     skos:scopeNote """This metric is intended to capture the global conservation status of a species in accordance with the IUCN Red List (https://www.iucn.org/resources/conservation-tools/iucn-red-list-threatened-species#RL_categories). Organizations should refer to the IUCN Red List Index to report on the conservation status of specific identified species.
 
 In applying this metric, organizations should begin by understanding which species' habitats are on land assessed by the organization. As a result, this metric is often used in conjunction with Species Area of Habitat (PD2584)."""@en ;
-    org:hasIdentifier "PD6429" ;
-    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/PD6429/> ;
-    cids:definedBy cids:giin ;
     cids:hasDescription """Describes the conservation status of species during the reporting period.
 
 
@@ -10147,52 +10650,88 @@ Choose all that apply:
 - Extinct in the wild
 - Extinct
 - Data deficient
+- Not evaluated""" ;
+    skos:definition """Describes the conservation status of species during the reporting period.
+
+
+Choose all that apply:
+
+- Least concern
+- Near threatened
+- Vulnerable
+- Endangered
+- Critically endangered
+- Extinct in the wild
+- Extinct
+- Data deficient
 - Not evaluated"""@en ;
-    cids:hasName "Species Conservation Status"@en .
+
+    cids:definedBy cids:giin ;
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> .
 
 :PD6596
     a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
+    org:hasName "Energy Consumption of Product" ;
+    skos:prefLabel "Energy Consumption of Product"@en ;
+    cids:hasDescription "Amount of energy consumed by the product during its lifetime." ;
+    skos:definition "Amount of energy consumed by the product during its lifetime."@en ;
+    org:hasIdentifier "PD6596" ;
+    skos:notation "PD6596" ;
+    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/PD6596/> ;
     skos:note "Organizations should footnote assumptions used with respect to product utilization. See usage guidance for further information."@en ;
     skos:scopeNote """This metric is intended to capture energy consumed by an individual product over its lifetime, not energy consumed by the product during the reporting period. It can offer an estimate of efficiency gains associated with the product.
 
 Examples of assumptions related to product utilization, to footnote, include hours used and watts/hour used."""@en ;
-    org:hasIdentifier "PD6596" ;
-    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/PD6596/> ;
+
     cids:definedBy cids:giin ;
-    cids:hasDescription "Amount of energy consumed by the product during its lifetime."@en ;
-    cids:hasName "Energy Consumption of Product"@en .
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> .
 
 :PD6806
     a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
-    skos:scopeNote "This metric is intended to capture the regional geography of clients. In countries where state postal abbreviations exist, use standard and appropriate codes (e.g., New York, USA = NY or Andhra Pradesh, India = AP)."@en ;
+    org:hasName "Client State/Province/Region" ;
+    skos:prefLabel "Client State/Province/Region"@en ;
+    cids:hasDescription "States or provinces where the organization's products/services are purchased/used." ;
+    skos:definition "States or provinces where the organization's products/services are purchased/used."@en ;
     org:hasIdentifier "PD6806" ;
+    skos:notation "PD6806" ;
     prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/PD6806/> ;
+    skos:scopeNote "This metric is intended to capture the regional geography of clients. In countries where state postal abbreviations exist, use standard and appropriate codes (e.g., New York, USA = NY or Andhra Pradesh, India = AP)."@en ;
+
     cids:definedBy cids:giin ;
-    cids:hasDescription "States or provinces where the organization's products/services are purchased/used."@en ;
-    cids:hasName "Client State/Province/Region"@en .
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> .
 
 :PD6929
     a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
+    org:hasName "Water Provision Capacity of Product: Potable" ;
+    skos:prefLabel "Water Provision Capacity of Product: Potable"@en ;
+    cids:hasDescription "Volume of potable water provided over the lifetime of a product or system operated according to planned capacity." ;
+    skos:definition "Volume of potable water provided over the lifetime of a product or system operated according to planned capacity."@en ;
+    org:hasIdentifier "PD6929" ;
+    skos:notation "PD6929" ;
+    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/PD6929/> ;
     skos:note "Organizations should footnote all assumptions used."@en ;
     skos:scopeNote """This metric is intended to capture the amount of potable water that a product could produce or provide during its lifetime. For example, an organization that sells home water pumps might report the amount of drinking water provided to the end user over a pump’s lifetime.
 
 Potable water is safe enough for human consumption or use for domestic purposes, drinking, cooking, and personal hygiene with low risk of immediate or long-term harm."""@en ;
-    org:hasIdentifier "PD6929" ;
-    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/PD6929/> ;
+
     cids:definedBy cids:giin ;
-    cids:hasDescription "Volume of potable water provided over the lifetime of a product or system operated according to planned capacity."@en ;
-    cids:hasName "Water Provision Capacity of Product: Potable"@en .
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> .
 
 :PD7356
     a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
+    org:hasName "Microfinance Delivery Methodology" ;
+    skos:prefLabel "Microfinance Delivery Methodology"@en ;
+    org:hasIdentifier "PD7356" ;
+    skos:notation "PD7356" ;
+    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/PD7356/> ;
     skos:note "Organizations selecting ‘Other’ should footnote the type of delivery methodology they use."@en ;
     skos:scopeNote """This metric is intended to capture how organizations operating in microfinance (and primarily those providing lending services) deliver financial services.
 
@@ -10223,9 +10762,6 @@ Organizations can refer to the following resources for additional guidance:
 -Microfinance Information Exchange: Measuring the Performance of Alternative Delivery Channels (https://www.centerforfinancialinclusion.org/about/what-we-do/mix)
 
 -International Finance Corporation: Digital Finance (https://www.ifc.org/wps/wcm/connect/Industry_EXT_Content/IFC_External_Corporate_Site/Financial+Institutions/Priorities/Digital+Finance)"""@en ;
-    org:hasIdentifier "PD7356" ;
-    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/PD7356/> ;
-    cids:definedBy cids:giin ;
     cids:hasDescription """Describes the methodologies the organization uses to deliver financial services. Select all that apply:
 
 - Individual lending
@@ -10239,18 +10775,36 @@ Organizations can refer to the following resources for additional guidance:
 - Mobile banking
 - Internet-based services
 - Merchant POS or network
+- Other""" ;
+    skos:definition """Describes the methodologies the organization uses to deliver financial services. Select all that apply:
+
+- Individual lending
+- Solidarity group lending
+- Village/self-help group lending
+- Digital financial services
+- Agency banking
+- Licensed agents working on behalf of the financial service provider
+- Roving staff/mobile branches
+- ATMs
+- Mobile banking
+- Internet-based services
+- Merchant POS or network
 - Other"""@en ;
-    cids:hasName "Microfinance Delivery Methodology"@en .
+
+    cids:definedBy cids:giin ;
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> .
 
 :PD7557
     a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
+    org:hasName "Community Facilities Type" ;
+    skos:prefLabel "Community Facilities Type"@en ;
+    org:hasIdentifier "PD7557" ;
+    skos:notation "PD7557" ;
+    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/PD7557/> ;
     skos:note "Organizations should footnote details and descriptions of these facilities (especially if selecting \"Other\")."@en ;
     skos:scopeNote "This metric is intended to capture the details on the community facilities that will be built, renovated, or purchased as a result of investments by the organization during the reporting period. A community facility provides services to the local community. Examples include health and medical clinics, health-treatment facilities, schools, arts and other cultural facilities, daycare facilities (adult and youth), and community sports facilities."@en ;
-    org:hasIdentifier "PD7557" ;
-    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/PD7557/> ;
-    cids:definedBy cids:giin ;
     cids:hasDescription """Describes the type of community development facilities projected to be built, renovated, or purchased as a result of investments made by the organization during the reporting period.
 
 Choose all that apply:
@@ -10258,57 +10812,84 @@ Choose all that apply:
 - Childcare
 - Education
 - Healthcare
+- Other""" ;
+    skos:definition """Describes the type of community development facilities projected to be built, renovated, or purchased as a result of investments made by the organization during the reporting period.
+
+Choose all that apply:
+
+- Childcare
+- Education
+- Healthcare
 - Other"""@en ;
-    cids:hasName "Community Facilities Type"@en .
+
+    cids:definedBy cids:giin ;
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> .
 
 :PD7621
     a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
+    org:hasName "Water Consumption of Product Replaced" ;
+    skos:prefLabel "Water Consumption of Product Replaced"@en ;
+    cids:hasDescription "Average volume of water that would have been consumed by the replaced product during the lifetime of the organization's product." ;
+    skos:definition "Average volume of water that would have been consumed by the replaced product during the lifetime of the organization's product."@en ;
+    org:hasIdentifier "PD7621" ;
+    skos:notation "PD7621" ;
+    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/PD7621/> ;
     skos:note "Organizations should footnote details on the product replaced, source of data on product consumption, and any other calculation assumptions used."@en ;
     skos:scopeNote """This metric is intended to capture water consumed by the product replaced over the lifetime of the organization's product, not over the lifetime of the product that is being replaced. For example, this metric may be used to measure the water consumption of a conventional toilet over the expected lifetime of the organization’s water-efficient toilet product.
 
 In some circumstances, this metric can help describe the CONTRIBUTION an enterprise likely had to the degree of change (depth) in outcome that the stakeholders experienced, relative to what the market or social system would have done anyway. For more on the alignment of IRIS metrics to the five dimensions of impact, see IRIS+ and the Five Dimensions of Impact (https://iris.thegiin.org/document/iris-and-the-five-dimensions/). No single metric is sufficient to understand an impact; rather, metrics are selected as a set across all dimensions of impact. When possible, the selection of metrics to measure and describe the five dimensions should be based on best practice and evidence."""@en ;
-    org:hasIdentifier "PD7621" ;
-    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/PD7621/> ;
+
     cids:definedBy cids:giin ;
-    cids:hasDescription "Average volume of water that would have been consumed by the replaced product during the lifetime of the organization's product."@en ;
-    cids:hasName "Water Consumption of Product Replaced"@en .
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> .
 
 :PD7899
     a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
-    skos:scopeNote "This metric is intended to capture a description of the organization’s product or service offerings. This metric aligns to, and can be reported in conjunction with, Product/Service Type (PD3017) and Product/Service Detailed Type (PD1516)."@en ;
+    org:hasName "Product/Service Description" ;
+    skos:prefLabel "Product/Service Description"@en ;
+    cids:hasDescription "Describes (qualitatively) the product or service provided by the organization." ;
+    skos:definition "Describes (qualitatively) the product or service provided by the organization."@en ;
     org:hasIdentifier "PD7899" ;
+    skos:notation "PD7899" ;
     prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/PD7899/> ;
+    skos:scopeNote "This metric is intended to capture a description of the organization’s product or service offerings. This metric aligns to, and can be reported in conjunction with, Product/Service Type (PD3017) and Product/Service Detailed Type (PD1516)."@en ;
+
     cids:definedBy cids:giin ;
-    cids:hasDescription "Describes (qualitatively) the product or service provided by the organization."@en ;
-    cids:hasName "Product/Service Description"@en .
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> .
 
 :PD7932
     a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
+    org:hasName "Environmental Policies for Financial Services Clients" ;
+    skos:prefLabel "Environmental Policies for Financial Services Clients"@en ;
+    cids:hasDescription "Indicates whether the organization implements environmental policies associated with the organization’s financing practices." ;
+    skos:definition "Indicates whether the organization implements environmental policies associated with the organization’s financing practices."@en ;
+    org:hasIdentifier "PD7932" ;
+    skos:notation "PD7932" ;
+    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/PD7932/> ;
     skos:note "Organizations should footnote details on the types of policies implemented. See usage guidance for further information."@en ;
     skos:scopeNote "This metric is intended to capture the organization’s environmental policies for clients of its financial services. Examples of environmental policies, to footnote, include raising clients’ or enterprises’ awareness of environmental impact, training or educating clients or enterprises regarding environmental improvements, writing specific clauses into loan contracts to mitigate social and environmental risks, identifying enterprises with environmental risk, linking lines of credit to alternative forms of energy, and linking lines of credit to other environment-friendly products."@en ;
-    org:hasIdentifier "PD7932" ;
-    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/PD7932/> ;
+
     cids:definedBy cids:giin ;
-    cids:hasDescription "Indicates whether the organization implements environmental policies associated with the organization’s financing practices."@en ;
-    cids:hasName "Environmental Policies for Financial Services Clients"@en .
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> .
 
 :PD7993
     a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
+    org:hasName "Client Type" ;
+    skos:prefLabel "Client Type"@en ;
+    org:hasIdentifier "PD7993" ;
+    skos:notation "PD7993" ;
+    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/PD7993/> ;
     skos:note "Organizations should footnote the client type if they select \"Other\"."@en ;
     skos:scopeNote """This metric is intended to capture a general description of the organization’s clients.
 
 This metric may help describe the WHO dimension of impact, which details which stakeholders the investment or enterprise aims to reach with the outcome. This metric may also help clarify how underserved they were prior to the investment. For more on the alignment of IRIS metrics to the five dimensions of impact, see IRIS+ and the Five Dimensions of Impact (https://iris.thegiin.org/document/iris-and-the-five-dimensions/). No single metric is sufficient to understand an impact; rather, metrics are selected as a set across all dimensions of impact. When possible, the selection of metrics to measure and describe the five dimensions should be based on best practice and evidence."""@en ;
-    org:hasIdentifier "PD7993" ;
-    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/PD7993/> ;
-    cids:definedBy cids:giin ;
     cids:hasDescription """Describes the types of entities that are buyers or recipients of the organization's products/services. Select all that apply:
 
 - Individuals
@@ -10318,13 +10899,30 @@ This metric may help describe the WHO dimension of impact, which details which s
 - Large Enterprises
 - Nonprofit/Non-Governmental Organizations
 - Governmental Organizations
+- Other""" ;
+    skos:definition """Describes the types of entities that are buyers or recipients of the organization's products/services. Select all that apply:
+
+- Individuals
+- Households
+- Microenterprises
+- Small and Medium-Sized Enterprises
+- Large Enterprises
+- Nonprofit/Non-Governmental Organizations
+- Governmental Organizations
 - Other"""@en ;
-    cids:hasName "Client Type"@en .
+
+    cids:definedBy cids:giin ;
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> .
 
 :PD8494
     a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
+    org:hasName "Ecosystem Services Provided" ;
+    skos:prefLabel "Ecosystem Services Provided"@en ;
+    org:hasIdentifier "PD8494" ;
+    skos:notation "PD8494" ;
+    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/PD8494/> ;
     skos:note "Organizations should footnote details about their selections. See usage guidance for further information."@en ;
     skos:scopeNote """This metric is intended to capture the ecosystem services provided by land or marine area the organization directly or indirectly controls. Note that what is most critical for organizations to capture is not necessarily the long list of ecosystem services provided, but rather the key ecosystem services and their quality. Organizations may choose to identify the top 3-5 ecosystem services provided from this list, then track their changes in quality over time.
 
@@ -10339,9 +10937,6 @@ Organizations can apply this metric in risk screening (‘which ecosystem servic
 Organizations are encouraged to report this metric in conjunction with Protected Land Area: Total (PI4716), Protected Land Area: Permanent (PI3924), Land Directly Controlled: Sustainably Managed (OI6912), Land Indirectly Controlled: Sustainably Managed (PI6796), Land Directly Controlled: Total (OI5408), and Land Indirectly Controlled: Total (PI3789).
 
 The detailed options for this metric were sourced from the World Resources Institute (WRI)."""@en ;
-    org:hasIdentifier "PD8494" ;
-    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/PD8494/> ;
-    cids:definedBy cids:giin ;
     cids:hasDescription """Describes the ecosystem services—that is, the societal benefits of nature—provided by the ecosystem on land or marine area directly or indirectly controlled by the organization during the reporting period. Select all that apply:
 
 Provisioning Values/Services
@@ -10377,22 +10972,62 @@ Cultural Values/Services
 
 - Recreation and ecotourism
 - Ethical and spiritual values
+- Educational and inspirational values""" ;
+    skos:definition """Describes the ecosystem services—that is, the societal benefits of nature—provided by the ecosystem on land or marine area directly or indirectly controlled by the organization during the reporting period. Select all that apply:
+
+Provisioning Values/Services
+
+- Food
+- Biological raw materials
+- Biomass fuel
+- Freshwater
+- Genetic resources
+- Biochemicals, natural medicines, pharmaceuticals
+
+Regulating Values/Services
+
+- Maintenance of air quality
+- Regulation of climate
+- Regulation of water timing and flows
+- Erosion control
+- Water purification and waste treatment
+- Disease mitigation
+- Maintenance of soil quality
+- Pest mitigation
+- Pollination
+- Natural hazard mitigation
+
+Supporting Values/Services
+
+- Habitat
+- Nutrient cycling
+- Primary production
+- Water cycling
+
+Cultural Values/Services
+
+- Recreation and ecotourism
+- Ethical and spiritual values
 - Educational and inspirational values"""@en ;
-    cids:hasName "Ecosystem Services Provided"@en .
+
+    cids:definedBy cids:giin ;
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> .
 
 :PD8501
     a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
+    org:hasName "Meter Type" ;
+    skos:prefLabel "Meter Type"@en ;
+    org:hasIdentifier "PD8501" ;
+    skos:notation "PD8501" ;
+    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/PD8501/> ;
     skos:note "Organizations should footnote all assumptions used."@en ;
     skos:scopeNote """This metric is intended to capture the type of meter—whether operating, non-operating/broken, or no meter—provided to households or individuals with utility connections during the reporting period. This metric can help assess whether households connected to a service are actually able to access that service and whether it is provided at a fair price.
 
 This metric is often used by International Finance Institutions (IFIs) as part of infrastructure analysis.
 
 In some circumstances, this metric can help describe the likelihood that the impact will be different than expected, the RISK dimension of impact. For more on the alignment of IRIS metrics to the five dimensions of impact, see IRIS+ and the Five Dimensions of Impact (https://iris.thegiin.org/document/iris-and-the-five-dimensions/). No single metric is sufficient to understand an impact; rather, metrics are selected as a set across all dimensions of impact. The selection of metrics to measure and describe the five dimensions should be based on best practice and evidence."""@en ;
-    org:hasIdentifier "PD8501" ;
-    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/PD8501/> ;
-    cids:definedBy cids:giin ;
     cids:hasDescription """Describes the type of meter provided to households or individuals with utility connections as a result of the organization's activities during the reporting period.
 
 Choose all that apply:
@@ -10400,50 +11035,72 @@ Choose all that apply:
 - Operating meter
 - Non-operating/broken meter
 - No meter
+- Undisclosed""" ;
+    skos:definition """Describes the type of meter provided to households or individuals with utility connections as a result of the organization's activities during the reporting period.
+
+Choose all that apply:
+
+- Operating meter
+- Non-operating/broken meter
+- No meter
 - Undisclosed"""@en ;
-    cids:hasName "Meter Type"@en .
+
+    cids:definedBy cids:giin ;
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> .
 
 :PD8586
     a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
+    org:hasName "Water Treatment Capacity of Product: Total" ;
+    skos:prefLabel "Water Treatment Capacity of Product: Total"@en ;
+    cids:hasDescription "Volume of water treated over the lifetime of a product or system operated according to planned capacity." ;
+    skos:definition "Volume of water treated over the lifetime of a product or system operated according to planned capacity."@en ;
+    org:hasIdentifier "PD8586" ;
+    skos:notation "PD8586" ;
+    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/PD8586/> ;
     skos:note "Organizations should footnote all assumptions used, as well as details on the type of water treated (e.g., wastewater)."@en ;
     skos:scopeNote """This metric is intended to capture the amount of water that could be treated by a product during its lifetime. For example, an organization might report the volume of water that a kinetic water-purifying bicycle can treat (organizations should footnote assumptions about trip time and the like when reporting the capacity of such a product).
 
 Organizations wishing to report the water-treatment capacity of all products sold during the reporting period should use Water Treatment Capacity of Products Sold (PD3523).
 
 Treating water aims to improve water’s quality to make it more acceptable for an end-use, such as drinking, industry, or safe return to the environment, by removing or reducing existing water contaminants."""@en ;
-    org:hasIdentifier "PD8586" ;
-    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/PD8586/> ;
+
     cids:definedBy cids:giin ;
-    cids:hasDescription "Volume of water treated over the lifetime of a product or system operated according to planned capacity."@en ;
-    cids:hasName "Water Treatment Capacity of Product: Total"@en .
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> .
 
 :PD8635
     a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
+    org:hasName "Days of School Offered per Year" ;
+    skos:prefLabel "Days of School Offered per Year"@en ;
+    cids:hasDescription "Number of days of school offered by the organization each year." ;
+    skos:definition "Number of days of school offered by the organization each year."@en ;
+    org:hasIdentifier "PD8635" ;
+    skos:notation "PD8635" ;
+    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/PD8635/> ;
     skos:note "Organizations should footnote all assumptions used."@en ;
     skos:scopeNote "This metric is intended to capture the number of school days offered by the organization each year. If the reporting period is equivalent to the school year, this metric would be equal to the number of days of school offered during the reporting period."@en ;
-    org:hasIdentifier "PD8635" ;
-    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/PD8635/> ;
+
     cids:definedBy cids:giin ;
-    cids:hasDescription "Number of days of school offered by the organization each year."@en ;
-    cids:hasName "Days of School Offered per Year"@en .
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> .
 
 :PD8808
     a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
+    org:hasName "Sector of Operations" ;
+    skos:prefLabel "Sector of Operations"@en ;
+    org:hasIdentifier "PD8808" ;
+    skos:notation "PD8808" ;
+    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/PD8808/> ;
     skos:note "Organizations should footnote all assumptions used."@en ;
     skos:scopeNote """This metric is intended to capture the sector in which the organization operates. Because the category in which an organization operates (as categorized by its products/services) may differ from the categories it seeks to influence, at least two metrics are necessary to categorize an investment: respectively, Sector of Operations (PD8808) and one or both of Social Impact Objectives (OD6247) and Environmental Impact Objectives (OD4108). For example, a company that develops mobile software to inform rural farmers of real time market price data changes operates in the ICT category, but targets or influences the Agriculture sector. Thus, this organization would select \"J. Information and communication\" as its Sector of Operations (PD8808), and would select \"Increasing Access to Agricultural Training and Information\" under its Social Impact Objectives (OD6247).
 
 This list of sectors is aligned to the International Standard Industrial Classification of All Economic Activities, or ISIC (https://unstats.un.org/unsd/classifications/Econ/ISIC.cshtml).
 
 Organizations can report this metric at an organizational level (selecting all of the categories of focus for the organization) or for a specific product/service (selecting the specific category of focus of the product/service for which the organization is reporting)."""@en ;
-    org:hasIdentifier "PD8808" ;
-    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/PD8808/> ;
-    cids:definedBy cids:giin ;
     cids:hasDescription """Describes the sector(s) in which the organization focuses its operations. Select all that apply:
 A. Agriculture, forestry, and fishing
 B. Mining and quarrying
@@ -10466,13 +11123,45 @@ R. Arts, entertainment, and recreation
 S. Other service activities
 T. Activities of households as employers; undifferentiated goods and services producing activities of households for own use
 U. Activities of extraterritorial organizations and bodies
+V. Other (describe)""" ;
+    skos:definition """Describes the sector(s) in which the organization focuses its operations. Select all that apply:
+A. Agriculture, forestry, and fishing
+B. Mining and quarrying
+C. Manufacturing
+D. Electricity, gas, steam, and air conditioning supply
+E. Water supply; sewerage, waste management, and remediation activities
+F. Construction
+G. Wholesale and retail trade; repair of motor vehicles and motorcycles
+H. Transportation and storage
+I. Accommodation and food service activities
+J. Information and communication
+K. Financial and insurance activities
+L. Real estate activities
+M. Professional, scientific, and technical activities
+N. Administrative and support service activities
+O. Public administration and defense; compulsory social security
+P. Education
+Q. Human health and social work activities
+R. Arts, entertainment, and recreation
+S. Other service activities
+T. Activities of households as employers; undifferentiated goods and services producing activities of households for own use
+U. Activities of extraterritorial organizations and bodies
 V. Other (describe)"""@en ;
-    cids:hasName "Sector of Operations"@en .
+
+    cids:definedBy cids:giin ;
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> .
 
 :PD9009
     a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
+    org:hasName "Conservation Priority Characteristics" ;
+    skos:prefLabel "Conservation Priority Characteristics"@en ;
+    cids:hasDescription "Length of protected land boundary shared with the organization's protected land as of the end of the reporting period." ;
+    skos:definition "Length of protected land boundary shared with the organization's protected land as of the end of the reporting period."@en ;
+    org:hasIdentifier "PD9009" ;
+    skos:notation "PD9009" ;
+    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/PD9009/> ;
     skos:note "Organizations should footnote details about their selections. See usage guidance for further information."@en ;
     skos:scopeNote """This metric is intended to capture the characteristics of land the organization directly or indirectly controls that make conservation of that land a priority.
 
@@ -10481,16 +11170,19 @@ Priorities depend on local conditions (e.g., species present, local communities,
 Examples of relevant details to footnote include, for instance, the relevant endangered or vulnerable species and other details about each selection, any third-party entities identifying the land’s conservation priority (e.g., local community, inter-governmental entity, nonprofit, or government), and the level of conservation priority. If available, organizations should cite published plans or other documentation that identifies the land as a conservation priority.
 
 Organizations are encouraged to report this metric in conjunction with Protected Land Area: Total (PI4716), Land Directly Controlled: Sustainably Managed (OI6912), Land Indirectly Controlled: Sustainably Managed (PI6796), Ecosystem Services Provided (PD8494), Length of Adjacent Protected Land (PI2135), and Area of Adjacent Protected Land (PI5750)."""@en ;
-    org:hasIdentifier "PD9009" ;
-    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/PD9009/> ;
+
     cids:definedBy cids:giin ;
-    cids:hasDescription "Length of protected land boundary shared with the organization's protected land as of the end of the reporting period."@en ;
-    cids:hasName "Conservation Priority Characteristics"@en .
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> .
 
 :PD9173
     a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
+    org:hasName "Learning Hours Provided: Type" ;
+    skos:prefLabel "Learning Hours Provided: Type"@en ;
+    org:hasIdentifier "PD9173" ;
+    skos:notation "PD9173" ;
+    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/PD9173/> ;
     skos:note "Organizations should footnote all assumptions used."@en ;
     skos:scopeNote """This metric is intended to capture the type of learning time provided through the organization's products or services.
 
@@ -10503,9 +11195,6 @@ Engaged time (also known as time-on-task) refers to the portion of time during w
 Supportive learning time, which is particularly important in early childhood, refers to time spent actively engaging with a caretaker who makes sense of and validates their learning (also known as “serve and return”). For more information on supportive learning time, see Harvard University's Center for the Developing Child (https://developingchild.harvard.edu/science/key-concepts/serve-and-return/).
 
 This metric may be used to disaggregate Learning Hours (PI1836), quantifying the types of learning time provided to students and children."""@en ;
-    org:hasIdentifier "PD9173" ;
-    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/PD9173/> ;
-    cids:definedBy cids:giin ;
     cids:hasDescription """Describes the type of learning time provided through the organization's products/services during the reporting period.
 
 Choose all that apply (see usage guidance for definitions):
@@ -10514,40 +11203,67 @@ Choose all that apply (see usage guidance for definitions):
 - Engaged time/time-on-task
 - Supportive learning time
 - Other (describe)"""@en ;
-    cids:hasName "Learning Hours Provided: Type"@en .
+    skos:definition """Describes the type of learning time provided through the organization's products/services during the reporting period.
+
+Choose all that apply (see usage guidance for definitions):
+- School time
+- Instructional time
+- Engaged time/time-on-task
+- Supportive learning time
+- Other (describe)"""@en ;
+
+    cids:definedBy cids:giin ;
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> .
 
 :PD9337
     a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
+    org:hasName "Compulsory Deposits" ;
+    skos:prefLabel "Compulsory Deposits"@en ;
+    cids:hasDescription "Indicates whether the organization requires clients to establish savings accounts." ;
+    skos:definition "Indicates whether the organization requires clients to establish savings accounts."@en ;
+    org:hasIdentifier "PD9337" ;
+    skos:notation "PD9337" ;
+    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/PD9337/> ;
     skos:note "Organizations should footnote the details of this requirement, including which clients it applies to."@en ;
     skos:scopeNote "This metric is intended to capture whether or not the organization requires some or all of its clients to have deposits with the organization (savings accounts)."@en ;
-    org:hasIdentifier "PD9337" ;
-    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/PD9337/> ;
+
     cids:definedBy cids:giin ;
-    cids:hasDescription "Indicates whether the organization requires clients to establish savings accounts."@en ;
-    cids:hasName "Compulsory Deposits"@en .
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> .
 
 :PD9364
     a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
+    org:hasName "Percent Recycled Materials" ;
+    skos:prefLabel "Percent Recycled Materials"@en ;
+    cids:hasDescription "Percentage of recycled materials used to manufacture the organization's products (including packaging) during the reporting period." ;
+    skos:definition "Percentage of recycled materials used to manufacture the organization's products (including packaging) during the reporting period."@en ;
+    org:hasIdentifier "PD9364" ;
+    skos:notation "PD9364" ;
+    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/PD9364/> ;
     skos:note "Organizations should footnote all assumptions used."@en ;
     skos:scopeNote """This metric is intended to capture the percentage of recycled materials used in manufacturing the organization's products (including packaging) during the reporting period.
 
 Recycled materials comprise processed recovered waste and may include glass, paper, metal, plastic, textiles, and electronics. Composted or other processed biodegradable waste is also considered recycled material.
 
 In some contexts, this metric can serve as an indicator of whether the outcome being sought by an investor or organization is occurring (the WHAT dimension of impact). For more on the alignment of IRIS metrics to the five dimensions of impact, see IRIS+ and the Five Dimensions of Impact (https://iris.thegiin.org/document/iris-and-the-five-dimensions/). No single metric is sufficient to understand an impact; rather, metrics are selected as a set across all dimensions of impact. When possible, the selection of metrics to measure and describe the five dimensions should be based on best practice and evidence."""@en ;
-    org:hasIdentifier "PD9364" ;
-    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/PD9364/> ;
+
     cids:definedBy cids:giin ;
-    cids:hasDescription "Percentage of recycled materials used to manufacture the organization's products (including packaging) during the reporting period."@en ;
-    cids:hasName "Percent Recycled Materials"@en .
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> .
 
 :PD9427
     a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
+    org:hasName "Greenhouse Gas Emissions of Product" ;
+    skos:prefLabel "Greenhouse Gas Emissions of Product"@en ;
+    cids:hasDescription "Amount of greenhouse gases (GHG) emitted by a product over its lifetime. Organizations should use Product Lifetime (PD4587) to capture the lifetime of the product." ;
+    skos:definition "Amount of greenhouse gases (GHG) emitted by a product over its lifetime. Organizations should use Product Lifetime (PD4587) to capture the lifetime of the product."@en ;
+    org:hasIdentifier "PD9427" ;
+    skos:notation "PD9427" ;
+    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/PD9427/> ;
     skos:note "Organizations should footnote all assumptions and tools used in emissions calculation, including source of data."@en ;
     skos:scopeNote """This metric is intended to capture the potential GHG emissions of a product during its usable lifetime. Its calculation should not include GHG emissions related to a product’s manufacture or transport.
 
@@ -10558,65 +11274,80 @@ The Greenhouse Gas Protocol (GHG Protocol) is the most widely used international
 - Greenhouse Gas Protocol Calculators (https://ghgprotocol.org/calculation-tools)
 
 In some circumstances, this metric can help describe the CONTRIBUTION an organization likely had to the degree of change (depth) in outcome that the stakeholders experienced, relative to what the market or social system would have done anyway. For more on the alignment of IRIS metrics to the five dimensions of impact, see IRIS+ and the Five Dimensions of Impact (https://iris.thegiin.org/document/iris-and-the-five-dimensions/). No single metric is sufficient to understand an impact; rather, metrics are selected as a set across all dimensions of impact. When possible, the selection of metrics to measure and describe the five dimensions should be based on best practice and evidence."""@en ;
-    org:hasIdentifier "PD9427" ;
-    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/PD9427/> ;
+
     cids:definedBy cids:giin ;
-    cids:hasDescription "Amount of greenhouse gases (GHG) emitted by a product over its lifetime. Organizations should use Product Lifetime (PD4587) to capture the lifetime of the product."@en ;
-    cids:hasName "Greenhouse Gas Emissions of Product"@en .
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> .
 
 :PD9681
     a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
+    org:hasName "Non-financial Support Offered" ;
+    skos:prefLabel "Non-financial Support Offered"@en ;
+    cids:hasDescription "Describes the type of non-financial support the organization offers to clients, if applicable." ;
+    skos:definition "Describes the type of non-financial support the organization offers to clients, if applicable."@en ;
+    org:hasIdentifier "PD9681" ;
+    skos:notation "PD9681" ;
+    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/PD9681/> ;
     skos:note "Organizations should footnote details regarding the types of services offered and their uptake. See usage guidance for further information."@en ;
     skos:scopeNote "This metric is intended to capture services offered by the organization to support clients other than with financial resources. Examples of services to footnote include support on topics such as education (e.g., in financial literacy, workplace safety, basic health and nutrition, for children and youth), enterprise services (e.g., business development services, enterprise skills development), female empowerment (e.g., women’s leadership training, women’s rights education and gender equality training, counseling and legal services for female victims of violence), health (e.g., basic medical services, special medical services for women and children), and housing (e.g., housing counseling, other housing-related support), among other non-financial services."@en ;
-    org:hasIdentifier "PD9681" ;
-    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/PD9681/> ;
+
     cids:definedBy cids:giin ;
-    cids:hasDescription "Describes the type of non-financial support the organization offers to clients, if applicable."@en ;
-    cids:hasName "Non-financial Support Offered"@en .
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> .
 
 :PD9759
     a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
+    org:hasName "Extracurricular Programs Offered" ;
+    skos:prefLabel "Extracurricular Programs Offered"@en ;
+    cids:hasDescription "Describes the extracurricular activities that the organization offers to students." ;
+    skos:definition "Describes the extracurricular activities that the organization offers to students."@en ;
+    org:hasIdentifier "PD9759" ;
+    skos:notation "PD9759" ;
+    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/PD9759/> ;
     skos:note "Organizations should footnote details about the specific extracurricular programs provided. See usage guidance for further information."@en ;
     skos:scopeNote "This metric is intended to capture details of the extracurricular programs offered by the organization. Examples of the type of extracurricular programs that may be provided, to footnote, include arts, community service, religion, and sports."@en ;
-    org:hasIdentifier "PD9759" ;
-    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/PD9759/> ;
+
     cids:definedBy cids:giin ;
-    cids:hasDescription "Describes the extracurricular activities that the organization offers to students."@en ;
-    cids:hasName "Extracurricular Programs Offered"@en .
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> .
 
 :PD9911
     a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
+    org:hasName "Child Developmental Assessment" ;
+    skos:prefLabel "Child Developmental Assessment"@en ;
+    cids:hasDescription "Describes whether the organization has screened children who are using the organization's products/services for developmental progress and delays as of the end of the reporting period." ;
+    skos:definition "Describes whether the organization has screened children who are using the organization's products/services for developmental progress and delays as of the end of the reporting period."@en ;
+    org:hasIdentifier "PD9911" ;
+    skos:notation "PD9911" ;
+    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/PD9911/> ;
     skos:note "Organizations should footnote all assumptions used, including which tools or methodologies were used to screen children for developmental progress. Organizations are also encouraged to footnote details about the frequency with which they conduct such assessments."@en ;
     skos:scopeNote """This metric is intended to capture whether the organization has screened the children it serves for developmental progress.
 
 Developmental screening includes screening for learning disabilities, speech or language problems, autism, intellectual disability, emotional or behavioral conditions, hearing or vision impairment, and attention deficit/hyperactivity disorder (ADHD).
 
 To measure how many children are developmentally on track, organizations are encouraged to use Client Individuals: Total (PI4060) disaggregated by Developmental Status (PI0045)."""@en ;
-    org:hasIdentifier "PD9911" ;
-    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/PD9911/> ;
+
     cids:definedBy cids:giin ;
-    cids:hasDescription "Describes whether the organization has screened children who are using the organization's products/services for developmental progress and delays as of the end of the reporting period."@en ;
-    cids:hasName "Child Developmental Assessment"@en .
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> .
 
 :PI0045
     a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
+    org:hasName "Developmental Status" ;
+    skos:prefLabel "Developmental Status"@en ;
+    org:hasIdentifier "PI0045" ;
+    skos:notation "PI0045" ;
+    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/PI0045/> ;
     skos:note "Organizations should footnote all assumptions used, including which tools or methodologies were used."@en ;
     skos:scopeNote """This metric is intended to capture the developmental status of children served by the organization, both in general and on specific areas of development, including language, executive function, and social and behavioral skills. Used alone, it describes the developmental progress of children in projects supported by the organization. Alternatively, or in addition, it may be used to disaggregate other metrics, such as Client Individuals: Total (PI4060), to calculate how many children are or are not developmentally on track.
 
 This metric, used in combination with Client Individuals: Total (PI4060), is aligned to SDG indicator 4.2.1.
 
 This metric is multi-dimensional with regard to the five dimensions of impact. In some contexts, this metric can serve as an indicator of whether the outcome being sought by an investor or organization is occurring (the WHAT dimension of impact). It may also help measure the HOW MUCH Scale dimension, which helps estimate the number of the targeted stakeholders experiencing the outcome. For more on the alignment of IRIS metrics to the five dimensions of impact, see IRIS+ and the Five Dimensions of Impact (https://iris.thegiin.org/document/iris-and-the-five-dimensions/). No single metric is sufficient to understand an impact; rather, metrics are selected as a set across all dimensions of impact. When possible, the selection of metrics to measure and describe the five dimensions should be based on best practice and evidence."""@en ;
-    org:hasIdentifier "PI0045" ;
-    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/PI0045/> ;
-    cids:definedBy cids:giin ;
     cids:hasDescription """Describes the developmental status of children served by the organization as of the end of the reporting period.
 
 Choose all that apply:
@@ -10626,8 +11357,22 @@ Choose all that apply:
 - Developmentally on track in health
 - Developmentally on track in social and behavioral skills
 - Developmentally delayed
+- Other (describe)""" ;
+    skos:definition """Describes the developmental status of children served by the organization as of the end of the reporting period.
+
+Choose all that apply:
+- Developmentally on track overall
+- Developmentally on track in language
+- Developmentally on track in executive function
+- Developmentally on track in health
+- Developmentally on track in social and behavioral skills
+- Developmentally delayed
 - Other (describe)"""@en ;
-    cids:hasName "Developmental Status"@en .
+
+    cids:definedBy cids:giin ;
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> .
 
 :PI0478
     a skos:Concept, cids:Code ;
