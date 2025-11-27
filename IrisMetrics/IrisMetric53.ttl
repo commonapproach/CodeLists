@@ -6886,187 +6886,260 @@ This metric is multi-dimensional with regard to the five dimensions of impact. I
 
 :OI7060
     a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
+    org:hasName "Occupational Illnesses" ;
+    skos:prefLabel "Occupational Illnesses"@en ;
+    cids:hasDescription "Number of occupational illnesses which affected any full-time, part-time, or temporary employees of the organization during the reporting period." ;
+    skos:definition "Number of occupational illnesses which affected any full-time, part-time, or temporary employees of the organization during the reporting period."@en ;
+    org:hasIdentifier "OI7060" ;
+    skos:notation "OI7060" ;
+    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/OI7060/> ;
     skos:note "Organizations should footnote all assumptions used."@en ;
     skos:scopeNote """This metric is intended to capture the number of work-related illnesses arising from exposure to hazards at work. If the same employee experienced more than one occupational illness, each instance of illness should be counted.
 
 This metric is sourced from GRI Disclosure 403-10: Work-related Ill Health in GRI 403: Occupational Health and Safety 2018. Per GRI guidance, ‘Ill health’ indicates damage to health and includes diseases, illnesses, and disorders. The terms ‘disease,’ ‘illness,’ and ‘disorder,’ often used interchangeably, refer to conditions with specific symptoms and diagnoses. Work-related injuries and ill health are those that arise from exposure to hazards at work. Other types of incidents can occur that are not connected with the work itself. For more guidance, see GRI Disclosure 403-10 (https://www.globalreporting.org/standards/media/1910/gri-403-occupational-health-and-safety-2018.pdf)."""@en ;
-    org:hasIdentifier "OI7060" ;
-    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/OI7060/> ;
+
     cids:definedBy cids:giin ;
-    cids:hasDescription "Number of occupational illnesses which affected any full-time, part-time, or temporary employees of the organization during the reporting period."@en ;
-    cids:hasName "Occupational Illnesses"@en .
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> .
 
 :OI7064
     a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
+    org:hasName "Permanent Employee Wages: Low-Income Areas" ;
+    skos:prefLabel "Permanent Employee Wages: Low-Income Areas"@en ;
+    cids:hasDescription "Value of wages (including bonuses and excluding benefits) paid to all full- and part-time employees of the organization who reside in low-income areas during the reporting period." ;
+    skos:definition "Value of wages (including bonuses and excluding benefits) paid to all full- and part-time employees of the organization who reside in low-income areas during the reporting period."@en ;
+    org:hasIdentifier "OI7064" ;
+    skos:notation "OI7064" ;
+    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/OI7064/> ;
     skos:note "Organizations should footnote details on the assessment tools used to identify low-income employees. See usage guidance for further information."@en ;
     skos:scopeNote """This metric is intended to capture pre-tax wages and salaries paid to the organization’s full- and part-time employees who reside in low-income areas and should include neither benefits nor payroll expenses. This metric should exclude Temporary Employee Wages (OI4202).
 
 The population classified as low income includes all those who fall below a fixed threshold, which includes those classified as poor or very poor. Because assessing the poverty level of employees is complex, organizations will likely use specific assessment tools to accurately report on this metric. See the glossary definition for additional information on commonly used tools to help determine the absolute poverty level of individuals and households."""@en ;
-    org:hasIdentifier "OI7064" ;
-    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/OI7064/> ;
+
     cids:definedBy cids:giin ;
-    cids:hasDescription "Value of wages (including bonuses and excluding benefits) paid to all full- and part-time employees of the organization who reside in low-income areas during the reporting period."@en ;
-    cids:hasName "Permanent Employee Wages: Low-Income Areas"@en .
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> .
 
 :OI7065
     a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
+    org:hasName "Number of Containers Handled" ;
+    skos:prefLabel "Number of Containers Handled"@en ;
+    cids:hasDescription "Number twenty-foot equivalent units (TEUs) of cargo containers transported by a road, railway, port, or airport during the reporting period." ;
+    skos:definition "Number twenty-foot equivalent units (TEUs) of cargo containers transported by a road, railway, port, or airport during the reporting period."@en ;
+    org:hasIdentifier "OI7065" ;
+    skos:notation "OI7065" ;
+    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/OI7065/> ;
     skos:note "Organizations should footnote all assumptions used, including source of data and specific means of transport."@en ;
     skos:scopeNote """This metric is intended to capture the volume of transportation in a particular market or context, which can help assess the productivity and efficiency of transport and logistics infrastructure. For example, this metric could capture whether, as result of an investment, a port is able to boost its productivity by increasing the number of twenty-foot equivalent units (TEU) handled per hour. TEU are equivalent to a standard-size shipping container. Transportation of goods may be by rail, road, air, or sea.
 
 International Finance Institutions (IFIs) often use this metric as part of their transportation analysis."""@en ;
-    org:hasIdentifier "OI7065" ;
-    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/OI7065/> ;
+
     cids:definedBy cids:giin ;
-    cids:hasDescription "Number twenty-foot equivalent units (TEUs) of cargo containers transported by a road, railway, port, or airport during the reporting period."@en ;
-    cids:hasName "Number of Containers Handled"@en .
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> .
 
 :OI7194
     a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
+    org:hasName "Percent Ownership by Historically Marginalized Groups" ;
+    skos:prefLabel "Percent Ownership by Historically Marginalized Groups"@en ;
+    cids:hasDescription "Percentage of the organization that is owned, as of the end of the reporting period, by individuals who belong to groups historically marginalized due to race and/or ethnicity." ;
+    skos:definition "Percentage of the organization that is owned, as of the end of the reporting period, by individuals who belong to groups historically marginalized due to race and/or ethnicity."@en ;
+    org:hasIdentifier "OI7194" ;
+    skos:notation "OI7194" ;
+    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/OI7194/> ;
     skos:note "Organizations should footnote their categorization of historically marginalized groups and all other assumptions used. See usage guidance for further information."@en ;
     skos:scopeNote """This metric is intended to capture the percentage of company shares that are owned by individuals from groups historically marginalized due to race and/or ethnicity.
 
 Where regional or local laws apply for calculating ownership by historically marginalized groups, reporting should be consistent with these laws. Where such laws do not exist, shares that are publicly traded or owned by institutions cannot contribute to the number of shares owned by historically marginalized groups.
 
 The categorization of groups historically marginalized due to race and/or ethnicity varies with location and context. With no internationally agreed-upon definition as to which groups constitute minorities, if well-established local policies exist (as in South Africa, with the Broad Based Black Economic Empowerment [BBBEE] definition of historically marginalized, or in India, based on backward caste), organizations should refer to these local guidelines to identify groups historically marginalized due to race and/or ethnicity. Otherwise, and wherever appropriate, organizations should provide additional detail regarding their tailored methodology for defining these groups."""@en ;
-    org:hasIdentifier "OI7194" ;
-    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/OI7194/> ;
+
     cids:definedBy cids:giin ;
-    cids:hasDescription "Percentage of the organization that is owned, as of the end of the reporting period, by individuals who belong to groups historically marginalized due to race and/or ethnicity."@en ;
-    cids:hasName "Percent Ownership by Historically Marginalized Groups"@en .
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> .
 
 :OI7225
     a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
+    org:hasName "Departed Permanent Employees: Involuntary" ;
+    skos:prefLabel "Departed Permanent Employees: Involuntary"@en ;
+    cids:hasDescription "Number of full- and part-time employees who departed the organization involuntarily during the reporting period." ;
+    skos:definition "Number of full- and part-time employees who departed the organization involuntarily during the reporting period."@en ;
+    org:hasIdentifier "OI7225" ;
+    skos:notation "OI7225" ;
+    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/OI7225/> ;
     skos:note "Organizations should footnote all assumptions used."@en ;
     skos:scopeNote """This metric is intended to capture the number of involuntary departures from the organization, defined as those employees dismissed for cause, including the elimination of a position.
 
 This metric is multi-dimensional with regard to the five dimensions of impact: it may help describe the WHO dimension when the stakeholder group represented by the metric is the stakeholder group targeted by the investment or organization. It may also help measure the HOW MUCH Scale dimension, which helps estimate the number of the targeted stakeholders experiencing the outcome. For more on the alignment of IRIS metrics to the five dimensions of impact, see IRIS+ and the Five Dimensions of Impact (https://iris.thegiin.org/document/iris-and-the-five-dimensions/). No single metric is sufficient to understand an impact; rather, metrics are selected as a set across all dimensions of impact. When possible, the selection of metrics to measure and describe the five dimensions should be based on best practice and evidence."""@en ;
-    org:hasIdentifier "OI7225" ;
-    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/OI7225/> ;
+
     cids:definedBy cids:giin ;
-    cids:hasDescription "Number of full- and part-time employees who departed the organization involuntarily during the reporting period."@en ;
-    cids:hasName "Departed Permanent Employees: Involuntary"@en .
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> .
 
 :OI7365
     a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
+    org:hasName "Water Quality Practices" ;
+    skos:prefLabel "Water Quality Practices"@en ;
+    cids:hasDescription "Indicates whether the organization employs management practices to protect water quality." ;
+    skos:definition "Indicates whether the organization employs management practices to protect water quality."@en ;
+    org:hasIdentifier "OI7365" ;
+    skos:notation "OI7365" ;
+    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/OI7365/> ;
     skos:note "Organizations should footnote the specific details of their water quality practices."@en ;
     skos:scopeNote """This metric is intended to capture whether the organization employs practices to protect the quality of the water it uses. Organizations wishing to report strategies to reduce the quantity of water used should report Water Conservation Strategy (OI9326).
 
 Organizations should footnote practices employed on, for example, agricultural land over which they have direct control. See glossary definition of directly controlled (land area) for more information. Organizations can report this metric in conjunction with Land Directly Controlled: Total (OI5408) and related submetrics.
 
 Examples of water quality practices, to footnote, include the creation of buffer zones (particularly for native species); responsible management of manure, sewage, and fertilizer; and water-quality assessment."""@en ;
-    org:hasIdentifier "OI7365" ;
-    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/OI7365/> ;
+
     cids:definedBy cids:giin ;
-    cids:hasDescription "Indicates whether the organization employs management practices to protect water quality."@en ;
-    cids:hasName "Water Quality Practices"@en .
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> .
 
 :OI7390
     a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
+    org:hasName "Employee Training Costs" ;
+    skos:prefLabel "Employee Training Costs"@en ;
+    cids:hasDescription "Value of the costs incurred by the organization as a result of training provided to employees (full-time, part-time, or temporary) during the reporting period." ;
+    skos:definition "Value of the costs incurred by the organization as a result of training provided to employees (full-time, part-time, or temporary) during the reporting period."@en ;
+    org:hasIdentifier "OI7390" ;
+    skos:notation "OI7390" ;
+    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/OI7390/> ;
     skos:note "Organizations should footnote all assumptions used."@en ;
     skos:scopeNote """This metric is intended to capture funds spent by the organization to train its employees during the reporting period.
 
 These costs should not include salary or payroll expenses that are incurred during training hours. Training costs vary widely depending on the level of services provided to participants, whether or not an organization has staff dedicated to engaging employer networks, the level of need in the community where the program is located (greater need requires more outreach), or provision of financial support to participants. These factors can make comparisons of employee training costs across organizations difficult, if not accompanied by additional metrics that specify the level of services provided and level of local need.
 
 This metric aligns with SASB HC0101-15: Average training and development expenditure per full time employee."""@en ;
-    org:hasIdentifier "OI7390" ;
-    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/OI7390/> ;
+
     cids:definedBy cids:giin ;
-    cids:hasDescription "Value of the costs incurred by the organization as a result of training provided to employees (full-time, part-time, or temporary) during the reporting period."@en ;
-    cids:hasName "Employee Training Costs"@en .
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> .
 
 :OI7394
     a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
-    skos:scopeNote """This metric is intended to capture the hazard classification of pesticides used by the organization on land directly or indirectly managed.
+    org:hasName "Pesticide Hazard Classification Type" ;
+    skos:prefLabel "Pesticide Hazard Classification Type"@en ;
+    cids:hasDescription """Describes the pesticide hazard classification for pesticides used by the organization, or disaggregates another metric in terms of pesticide hazard classification.
+ Select all that apply:
 
-For further guidance on hazard classification, see the World Health Organization’s “The WHO Recommended Classification of Pesticides by Hazard and Guidelines to Classification 2019” (https://apps.who.int/iris/bitstream/handle/10665/332193/9789240005662-eng.pdf)."""@en ;
-    org:hasIdentifier "OI7394" ;
-    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/OI7394/> ;
-    cids:definedBy cids:giin ;
-    cids:hasDescription """Describes the pesticide hazard classification for pesticides used by the organization, or disaggregates another metric in terms of pesticide hazard classification. Select all that apply:
+- Class Ia Extremely hazardous
+- Class Ib Highly hazardous
+- Class II Moderately hazardous
+- Class III Slightly hazardous
+- Class U Unlikely to present acute hazard""" ;
+    skos:definition """Describes the pesticide hazard classification for pesticides used by the organization, or disaggregates another metric in terms of pesticide hazard classification.
+ Select all that apply:
 
 - Class Ia Extremely hazardous
 - Class Ib Highly hazardous
 - Class II Moderately hazardous
 - Class III Slightly hazardous
 - Class U Unlikely to present acute hazard"""@en ;
-    cids:hasName "Pesticide Hazard Classification Type"@en .
+    org:hasIdentifier "OI7394" ;
+    skos:notation "OI7394" ;
+    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/OI7394/> ;
+    skos:scopeNote """This metric is intended to capture the hazard classification of pesticides used by the organization on land directly or indirectly managed.
+
+For further guidance on hazard classification, see the World Health Organization’s “The WHO Recommended Classification of Pesticides by Hazard and Guidelines to Classification 2019” (https://apps.who.int/iris/bitstream/handle/10665/332193/9789240005662-eng.pdf)."""@en ;
+
+    cids:definedBy cids:giin ;
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> .
 
 :OI7421
     a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
+    org:hasName "Charitable Practices" ;
+    skos:prefLabel "Charitable Practices"@en ;
+    cids:hasDescription "Indicates whether the organization employs charitable practices in its operations." ;
+    skos:definition "Indicates whether the organization employs charitable practices in its operations."@en ;
+    org:hasIdentifier "OI7421" ;
+    skos:notation "OI7421" ;
+    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/OI7421/> ;
     skos:note "Organizations should footnote details about the types of charitable practices in place. See usage guidance for further information."@en ;
     skos:scopeNote """This metric is intended to capture whether the organization engages in charitable practices. Types of charitable practices, to footnote, may include: contributions of charitable donations to the local areas in which the organization operates or from which it sources; public-facing partnerships with service or charitable organizations; provision of facilities for community events or trainings; provision of trainings for organization's employees to serve in external leadership positions (e.g., on nonprofit Boards of Directors); and provision for paid employee volunteer time.
 
 Organizations are encouraged to report this metric in conjunction with Charitable Donations (FP3774). Organizations can also report this metric in conjunction with Community Service Hours Contributed (OI8429), if applicable."""@en ;
-    org:hasIdentifier "OI7421" ;
-    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/OI7421/> ;
+
     cids:definedBy cids:giin ;
-    cids:hasDescription "Indicates whether the organization employs charitable practices in its operations."@en ;
-    cids:hasName "Charitable Practices"@en .
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> .
 
 :OI7442
     a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
+    org:hasName "Waste Produced: Non-Hazardous Waste" ;
+    skos:prefLabel "Waste Produced: Non-Hazardous Waste"@en ;
+    cids:hasDescription "Amount of non-hazardous waste created by the organization's operations during the reporting period." ;
+    skos:definition "Amount of non-hazardous waste created by the organization's operations during the reporting period."@en ;
+    org:hasIdentifier "OI7442" ;
+    skos:notation "OI7442" ;
+    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/OI7442/> ;
     skos:note "Organizations should footnote all assumptions used."@en ;
     skos:scopeNote """This metric is intended to capture the amount of non-hazardous waste the organization’s operations produced during the reporting period. To report the amount of hazardous waste produced, organizations can report Waste Produced: Hazardous Waste (OI1346). Non-hazardous waste presents no dangers to the environment in terms of contamination or pollution, with definitions varying with local legislation.
 
 In some contexts, this metric can serve as an indicator of whether the outcome being sought by an investor or organization is occurring (the WHAT dimension of impact). For more on the alignment of IRIS metrics to the five dimensions of impact, see IRIS+ and the Five Dimensions of Impact (https://iris.thegiin.org/document/iris-and-the-five-dimensions/). No single metric is sufficient to understand an impact; rather, metrics are selected as a set across all dimensions of impact. When possible, the selection of metrics to measure and describe the five dimensions should be based on best practice and evidence."""@en ;
-    org:hasIdentifier "OI7442" ;
-    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/OI7442/> ;
+
     cids:definedBy cids:giin ;
-    cids:hasDescription "Amount of non-hazardous waste created by the organization's operations during the reporting period."@en ;
-    cids:hasName "Waste Produced: Non-Hazardous Waste"@en .
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> .
 
 :OI7560
     a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
+    org:hasName "Land Directly Controlled: Impervious Surfaces" ;
+    skos:prefLabel "Land Directly Controlled: Impervious Surfaces"@en ;
+    cids:hasDescription "Area of land directly controlled by the organization that is impervious to water during the reporting period." ;
+    skos:definition "Area of land directly controlled by the organization that is impervious to water during the reporting period."@en ;
+    org:hasIdentifier "OI7560" ;
+    skos:notation "OI7560" ;
+    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/OI7560/> ;
     skos:note "Organizations should footnote all assumptions used, including source(s) of data."@en ;
     skos:scopeNote """This metric is intended to capture the area of land directly controlled by the organization that is covered by surfaces that do not allow water (particularly stormwater) to flow through the surface and into the ground. Examples of impervious surfaces include streets, roofs, parking lots, walkways, or any other surfaces and structures made of asphalt, concrete, plastics, or similar materials.
 
 In developed-market contexts, organizations may source these data from existing maps. For example, in the United States, see the National Map (https://nationalmap.gov/small_scale/mld/impe100.html). In emerging-market contexts, free satellite mapping tools (such as Google Earth) can be used to create a map of roads as a starting point for these data. For a more detailed map, third-party technical support may be necessary."""@en ;
-    org:hasIdentifier "OI7560" ;
-    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/OI7560/> ;
+
     cids:definedBy cids:giin ;
-    cids:hasDescription "Area of land directly controlled by the organization that is impervious to water during the reporting period."@en ;
-    cids:hasName "Land Directly Controlled: Impervious Surfaces"@en .
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> .
 
 :OI7639
     a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
+    org:hasName "Value of Fines and Settlements" ;
+    skos:prefLabel "Value of Fines and Settlements"@en ;
+    cids:hasDescription "Value of payments made by the organization as legal or regulatory fines and settlements during the reporting period." ;
+    skos:definition "Value of payments made by the organization as legal or regulatory fines and settlements during the reporting period."@en ;
+    org:hasIdentifier "OI7639" ;
+    skos:notation "OI7639" ;
+    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/OI7639/> ;
     skos:note "Organizations should footnote the number of fines and settlements, as well as a description of the types of fines paid and actions that were taken to prevent them from being incurred in the future. See usage guidance for further information."@en ;
     skos:scopeNote """This metric is intended to capture the value of legal or regulatory fines and settlements paid by the organization during the reporting period. Depending on the category in which the organization operates, fines could be associated with (but not limited to) any of these: -Bribery or corruption, including violations of the US Foreign Corrupt Practices Act (FCPA) or UK Bribery Act -Data security breaches -Diversity and equal opportunity -Cartel activities, price fixing, anti-trust activities -Consumer privacy -Environmental violations -Employee safety or workplace conditions -False, deceptive, or unfair advertising -False marketing claims -Federal pipeline and storage regulations -Financial reporting inaccuracies -Labor law violations -Land rights disputes -Libel or slander -Money laundering -Tax evasion
 
 Organizations should consider reporting this metric in conjunction with Number of Legal and Regulatory Complaints (OI2165)."""@en ;
-    org:hasIdentifier "OI7639" ;
-    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/OI7639/> ;
+
     cids:definedBy cids:giin ;
-    cids:hasDescription "Value of payments made by the organization as legal or regulatory fines and settlements during the reporting period."@en ;
-    cids:hasName "Value of Fines and Settlements"@en .
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> .
 
 :OI7783
     a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
+    org:hasName "Social Responsibility Client Policies" ;
+    skos:prefLabel "Social Responsibility Client Policies"@en ;
+    cids:hasDescription "Indicates whether the organization implements policies to protect its clients." ;
+    skos:definition "Indicates whether the organization implements policies to protect its clients."@en ;
+    org:hasIdentifier "OI7783" ;
+    skos:notation "OI7783" ;
+    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/OI7783/> ;
     skos:note "Organizations should footnote details on the types of policies implemented. See usage guidance for further information."@en ;
     skos:scopeNote """This metric can be used by many different types of organizations. Examples of policies that a financial service organization might have in place to protect its clients may include:
 
@@ -7078,16 +7151,21 @@ Organizations should consider reporting this metric in conjunction with Number o
 - The institution's prepayment penalties, account closure fees, transaction fees, or other penalties are not excessive.
 - The organization has a culture that values and rewards high standards of ethical behavior and customer service.
 - Other"""@en ;
-    org:hasIdentifier "OI7783" ;
-    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/OI7783/> ;
+
     cids:definedBy cids:giin ;
-    cids:hasDescription "Indicates whether the organization implements policies to protect its clients."@en ;
-    cids:hasName "Social Responsibility Client Policies"@en .
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> .
 
 :OI7829
     a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
+    org:hasName "Investment Committee Members: Total" ;
+    skos:prefLabel "Investment Committee Members: Total"@en ;
+    cids:hasDescription "Number of members of the organization's investment committee as of the end of the reporting period." ;
+    skos:definition "Number of members of the organization's investment committee as of the end of the reporting period."@en ;
+    org:hasIdentifier "OI7829" ;
+    skos:notation "OI7829" ;
+    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/OI7829/> ;
     skos:note "Organizations should footnote all assumptions used."@en ;
     skos:scopeNote """This metric is intended to capture the number of members of an investment committee, the governing body charged with overseeing investments and developing investment policies for board approval.
 
@@ -7096,28 +7174,38 @@ Most, but not all investor organizations have investment committees. If the orga
 This metric, reported along with Target Stakeholder Demographic (PD5752) to specify historically marginalized groups due to race and/or ethnicity, aligns with the Corporate Racial Equity Alliance’s (https://corporateracialequityalliance.org/) Investor Blueprint for Racial Equity.
 
 This metric is multi-dimensional with regard to the five dimensions of impact. It may help describe the WHO dimension when the stakeholder group represented by the metric is the stakeholder group targeted by the investment or organization. It may also help measure the HOW MUCH Scale dimension, which helps estimate the number of the targeted stakeholders experiencing the outcome. For more on the alignment of IRIS metrics to the five dimensions of impact, see IRIS+ and the Five Dimensions of Impact (https://iris.thegiin.org/document/iris-and-the-five-dimensions/). No single metric is sufficient to understand an impact; rather, metrics are selected as a set across all dimensions of impact. When possible, the selection of metrics to measure and describe the five dimensions should be based on best practice and evidence."""@en ;
-    org:hasIdentifier "OI7829" ;
-    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/OI7829/> ;
+
     cids:definedBy cids:giin ;
-    cids:hasDescription "Number of members of the organization's investment committee as of the end of the reporting period."@en ;
-    cids:hasName "Investment Committee Members: Total"@en .
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> .
 
 :OI7860
     a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
+    org:hasName "Wastewater Treatment Compliance" ;
+    skos:prefLabel "Wastewater Treatment Compliance"@en ;
+    cids:hasDescription "Indicates whether the organization's practices related to the discharge of wastewater comply with local legal requirements." ;
+    skos:definition "Indicates whether the organization's practices related to the discharge of wastewater comply with local legal requirements."@en ;
+    org:hasIdentifier "OI7860" ;
+    skos:notation "OI7860" ;
+    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/OI7860/> ;
     skos:note "Organizations should footnote the specific details of their wastewater management policies and any details regarding violation of local compliance."@en ;
     skos:scopeNote "This metric is intended to capture an organization's adherence to local and national wastewater-treatment standards and requirements."@en ;
-    org:hasIdentifier "OI7860" ;
-    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/OI7860/> ;
+
     cids:definedBy cids:giin ;
-    cids:hasDescription "Indicates whether the organization's practices related to the discharge of wastewater comply with local legal requirements."@en ;
-    cids:hasName "Wastewater Treatment Compliance"@en .
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> .
 
 :OI7876
     a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
+    org:hasName "Marine Area Directly Controlled: Total" ;
+    skos:prefLabel "Marine Area Directly Controlled: Total"@en ;
+    cids:hasDescription "Area of marine environment directly controlled by the organization during the reporting period." ;
+    skos:definition "Area of marine environment directly controlled by the organization during the reporting period."@en ;
+    org:hasIdentifier "OI7876" ;
+    skos:notation "OI7876" ;
+    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/OI7876/> ;
     skos:note "Organizations should footnote all assumptions used, including source(s) of data."@en ;
     skos:scopeNote """This metric is intended to capture the area of marine environment directly controlled by the organization during the reporting period. See the IRIS Glossary definition on “Directly Controlled” (https://iris.thegiin.org/glossary/) for further detail.
 
@@ -7126,16 +7214,21 @@ Datasets on important marine and coastal habitats and species can be applied to 
 The Ocean Data Viewer by Ocean+ (see https://data.unep-wcmc.org/ and https://oceanplus.org/) includes various spatial datasets, such as the distribution of coral reefs, mangroves, and seagrasses, as well as distribution of marine mammals and even feeding and nesting sites for marine turtles.
 
 Note that species abundance typically changes over multiple years or even decades."""@en ;
-    org:hasIdentifier "OI7876" ;
-    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/OI7876/> ;
+
     cids:definedBy cids:giin ;
-    cids:hasDescription "Area of marine environment directly controlled by the organization during the reporting period."@en ;
-    cids:hasName "Marine Area Directly Controlled: Total"@en .
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> .
 
 :OI7877
     a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
+    org:hasName "Employee Training Hours" ;
+    skos:prefLabel "Employee Training Hours"@en ;
+    cids:hasDescription "Number of training hours provided for employees (full-time, part-time, or temporary) during the reporting period." ;
+    skos:definition "Number of training hours provided for employees (full-time, part-time, or temporary) during the reporting period."@en ;
+    org:hasIdentifier "OI7877" ;
+    skos:notation "OI7877" ;
+    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/OI7877/> ;
     skos:note "Organizations should footnote the types of training provided, particularly those that lead to recognized certifications."@en ;
     skos:scopeNote """This metric is intended to capture the sum of all training hours provided to employees. It is not intended to capture the average number of training hours per employee. Trainings may include both internal and external opportunities provided by the organization.
 
@@ -7144,16 +7237,19 @@ Training can be categorized as: (a) skills-based training to advance core job re
 This metric is useful in calculating GRI Disclosure 404-1: Average hours of training per year per employee. In the context of this GRI standard, ‘training’ refers to all types of vocational training and instruction, paid educational leave provided by an organization for its employees, training or education pursued externally and paid for in whole or in part by an organization, and training on specific topics. Training does not include on-site coaching by supervisors.
 
 Organizations may use Full-Time Employees: Total (OI3160) and Part-Time Employees: Total (OI8864) to disaggregate this metric. Organizations are also encouraged to calculate this indicator for Temporary Employees (OI9028). Organizations may choose to use Target Stakeholder Demographic (PD5752) to disaggregate this metric by gender, race/ethnicity, disability, or other groupings."""@en ;
-    org:hasIdentifier "OI7877" ;
-    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/OI7877/> ;
+
     cids:definedBy cids:giin ;
-    cids:hasDescription "Number of training hours provided for employees (full-time, part-time, or temporary) during the reporting period."@en ;
-    cids:hasName "Employee Training Hours"@en .
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> .
 
 :OI7914
     a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
+    org:hasName "Stakeholder Engagement" ;
+    skos:prefLabel "Stakeholder Engagement"@en ;
+    org:hasIdentifier "OI7914" ;
+    skos:notation "OI7914" ;
+    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/OI7914/> ;
     skos:note "Organizations should footnote at which stages (e.g., concept development, product design) stakeholders were engaged, how they were engaged, and whether they were compensated for their engagement."@en ;
     skos:scopeNote """This metric is intended to capture the ways in which the organization engages target stakeholders in the design, development, and delivery of product and service offerings.
 
@@ -7167,9 +7263,6 @@ Organizations can refer to the following sources for further guidance on stakeho
 - Social Value International: Principles of Social Value (https://socialvalueint.org/social-value/principles-of-social-value/)
 - User Voice: Putting People at the Heart of Impact Practice (https://www.thinknpc.org/resource-hub/user-voice-putting-people-at-the-heart-of-impact-practice/)
 - Make It Count: Why Impact Matters in User Involvement (https://www.thinknpc.org/resource-hub/make-it-count-why-impact-matters-in-user-involvement/)"""@en ;
-    org:hasIdentifier "OI7914" ;
-    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/OI7914/> ;
-    cids:definedBy cids:giin ;
     cids:hasDescription """Describes the mechanisms in place to gather input from stakeholders on product/service design, development, and delivery. Select all that apply:
 
 - Identify community need(s), if any, in collaboration with target stakeholders
@@ -7178,39 +7271,67 @@ Organizations can refer to the following sources for further guidance on stakeho
 - Work with investees to reflect target stakeholders' perspectives in product/service offerings
 - Monitor target stakeholder satisfaction
 - None
+- Other (describe)""" ;
+    skos:definition """Describes the mechanisms in place to gather input from stakeholders on product/service design, development, and delivery. Select all that apply:
+
+- Identify community need(s), if any, in collaboration with target stakeholders
+- Consult with target stakeholders about their needs when developing strategy
+- Collect impact data from stakeholders via interviews and/or surveys
+- Work with investees to reflect target stakeholders' perspectives in product/service offerings
+- Monitor target stakeholder satisfaction
+- None
 - Other (describe)"""@en ;
-    cids:hasName "Stakeholder Engagement"@en .
+
+    cids:definedBy cids:giin ;
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> .
 
 :OI7920
     a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
+    org:hasName "Waste Reduced" ;
+    skos:prefLabel "Waste Reduced"@en ;
+    cids:hasDescription "Amount of waste reduced by the organization during the reporting period through programs for substitution, recycling, or recovery." ;
+    skos:definition "Amount of waste reduced by the organization during the reporting period through programs for substitution, recycling, or recovery."@en ;
+    org:hasIdentifier "OI7920" ;
+    skos:notation "OI7920" ;
+    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/OI7920/> ;
     skos:note "Organizations should footnote all assumptions used."@en ;
     skos:scopeNote """This metric is intended to capture waste reductions achieved strictly through the organization's operations. Organizations wishing to report on waste reductions achieved through the sale of products should report Waste Reductions from Products Sold (PI5926). Organizations wishing to report on waste reductions achieved through the provision of services should report Waste Reductions from Services Sold (PI5678).
 
 Waste reduction through organizational operations may include efforts to reduce (i.e., using fewer inputs), reuse (e.g., repurposing rather than disposing or recycling excess inputs or unwanted outputs), or recycle (e.g., through established systems or through on-site processing) material or energy."""@en ;
-    org:hasIdentifier "OI7920" ;
-    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/OI7920/> ;
+
     cids:definedBy cids:giin ;
-    cids:hasDescription "Amount of waste reduced by the organization during the reporting period through programs for substitution, recycling, or recovery."@en ;
-    cids:hasName "Waste Reduced"@en .
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> .
 
 :OI7983
     a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
+    org:hasName "Flexible Work Arrangements" ;
+    skos:prefLabel "Flexible Work Arrangements"@en ;
+    cids:hasDescription "Indicates whether the organization offers flexible work arrangements to full-time, part-time, or temporary employees of the organization." ;
+    skos:definition "Indicates whether the organization offers flexible work arrangements to full-time, part-time, or temporary employees of the organization."@en ;
+    org:hasIdentifier "OI7983" ;
+    skos:notation "OI7983" ;
+    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/OI7983/> ;
     skos:note "Organizations should footnote details of the flexible arrangements offered and their uptake. See usage guidance for further information."@en ;
     skos:scopeNote "This metric is intended to capture whether the organization offers flexible work arrangements to employees. Examples of flexible work arrangements to footnote may include choosing work shift, choosing flexible working hours (allowing freedom to vary start and stop times), working from remote locations (telecommuting), and job-sharing, among other options (footnote additional details)."@en ;
-    org:hasIdentifier "OI7983" ;
-    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/OI7983/> ;
+
     cids:definedBy cids:giin ;
-    cids:hasDescription "Indicates whether the organization offers flexible work arrangements to full-time, part-time, or temporary employees of the organization."@en ;
-    cids:hasName "Flexible Work Arrangements"@en .
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> .
 
 :OI8001
     a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
+    org:hasName "Worker Safety Policy" ;
+    skos:prefLabel "Worker Safety Policy"@en ;
+    cids:hasDescription "Indicates whether the organization has policies in place to monitor, evaluate, and ensure worker safety." ;
+    skos:definition "Indicates whether the organization has policies in place to monitor, evaluate, and ensure worker safety."@en ;
+    org:hasIdentifier "OI8001" ;
+    skos:notation "OI8001" ;
+    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/OI8001/> ;
     skos:note "Organizations should footnote details around these policies, including the practices in place to ensure compliance. See usage guidance for further information."@en ;
     skos:scopeNote """This metric is intended to capture whether the organization has created policies in line with international norms to protect the safety of its workers.
 
@@ -7223,16 +7344,21 @@ Examples of training and equipment provided to mitigate worker safety risks incl
 Organizations can refer to the SPI4 (http://cerise-spi4.squarespace.com/), specifically Essential Practice 5a5, for additional indicators related to worker safety. SPI4 is a social audit tool, developed for financial service providers, which can apply to any organization with both social and financial objectives.
 
 This metric aligns with GRI Disclosure 403-8: Workers covered by an occupational health and safety management system."""@en ;
-    org:hasIdentifier "OI8001" ;
-    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/OI8001/> ;
+
     cids:definedBy cids:giin ;
-    cids:hasDescription "Indicates whether the organization has policies in place to monitor, evaluate, and ensure worker safety."@en ;
-    cids:hasName "Worker Safety Policy"@en .
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> .
 
 :OI8060
     a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
+    org:hasName "Water Consumed: Surface Water" ;
+    skos:prefLabel "Water Consumed: Surface Water"@en ;
+    cids:hasDescription "Volume of surface water used for the organization's operations during the reporting period." ;
+    skos:definition "Volume of surface water used for the organization's operations during the reporting period."@en ;
+    org:hasIdentifier "OI8060" ;
+    skos:notation "OI8060" ;
+    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/OI8060/> ;
     skos:note "Organizations should footnote all assumptions used."@en ;
     skos:scopeNote """This metric is intended to capture the volume of surface water used within the organization for any purpose, including but not limited to productive processes (for example, packaging and manufacturing), human consumption, and agricultural purposes.
 
@@ -7241,88 +7367,118 @@ Surface water occurs naturally on the Earth’s surface in the form of ice sheet
 For further guidance on water uses, see the Alliance for Water Efficiency (http://www.allianceforwaterefficiency.org).
 
 In some contexts, this metric can serve as an indicator of whether the outcome being sought by an investor or organization is occurring (the WHAT dimension of impact). For more on the alignment of IRIS metrics to the five dimensions of impact, see IRIS+ and the Five Dimensions of Impact (https://iris.thegiin.org/document/iris-and-the-five-dimensions/). No single metric is sufficient to understand an impact; rather, metrics are selected as a set across all dimensions of impact. When possible, the selection of metrics to measure and describe the five dimensions should be based on best practice and evidence."""@en ;
-    org:hasIdentifier "OI8060" ;
-    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/OI8060/> ;
+
     cids:definedBy cids:giin ;
-    cids:hasDescription "Volume of surface water used for the organization's operations during the reporting period."@en ;
-    cids:hasName "Water Consumed: Surface Water"@en .
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> .
 
 :OI8113
     a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
+    org:hasName "Market Research on Clients" ;
+    skos:prefLabel "Market Research on Clients"@en ;
+    cids:hasDescription "Indicates whether the organization uses market research to identify the needs of clients and potential clients." ;
+    skos:definition "Indicates whether the organization uses market research to identify the needs of clients and potential clients."@en ;
+    org:hasIdentifier "OI8113" ;
+    skos:notation "OI8113" ;
+    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/OI8113/> ;
     skos:note "Organizations should footnote the details of the market research that they conduct and the process and frequency with which they conduct the market research. See usage guidance for further information."@en ;
     skos:scopeNote """This metric is intended to capture whether the organization employs market research. Market research on clients enables organizations to better service their clients by understanding topics such as: the characteristics of their target clients, their clients' needs and preferences for products and for delivery channels, and potential barriers for their clients to access products, among other topics.
 
 Organizations can refer to the SPI4 (http://cerise-spi4.squarespace.com/), specifically Essential Practice 3a1, for additional indicators related to market research. SPI4 is a social audit tool, developed for financial service providers, which can apply to any organization with both social and financial objectives."""@en ;
-    org:hasIdentifier "OI8113" ;
-    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/OI8113/> ;
+
     cids:definedBy cids:giin ;
-    cids:hasDescription "Indicates whether the organization uses market research to identify the needs of clients and potential clients."@en ;
-    cids:hasName "Market Research on Clients"@en .
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> .
 
 :OI8115
     a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
+    org:hasName "Gross Written Premium" ;
+    skos:prefLabel "Gross Written Premium"@en ;
+    cids:hasDescription "Amount of total insurance premium written or sold by the organization during the reporting period." ;
+    skos:definition "Amount of total insurance premium written or sold by the organization during the reporting period."@en ;
+    org:hasIdentifier "OI8115" ;
+    skos:notation "OI8115" ;
+    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/OI8115/> ;
     skos:note "Organizations should footnote all assumptions used."@en ;
     skos:scopeNote """This metric is intended to capture the amount of insurance premium written or sold by the organization during the reporting period. Organizations issuing insurance policies directly should report the amount of premium written, while organizations selling insurance policies underwritten by another organization may instead report the value of premiums sold.
 
 This metric is a proxy for resources of an insurer allocated to insurance policies."""@en ;
-    org:hasIdentifier "OI8115" ;
-    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/OI8115/> ;
+
     cids:definedBy cids:giin ;
-    cids:hasDescription "Amount of total insurance premium written or sold by the organization during the reporting period."@en ;
-    cids:hasName "Gross Written Premium"@en .
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> .
 
 :OI8118
     a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
+    org:hasName "Board of Directors: Female" ;
+    skos:prefLabel "Board of Directors: Female"@en ;
+    cids:hasDescription "Number of female members of the organization's board of directors or other governing body as of the end of the reporting period." ;
+    skos:definition "Number of female members of the organization's board of directors or other governing body as of the end of the reporting period."@en ;
+    org:hasIdentifier "OI8118" ;
+    skos:notation "OI8118" ;
+    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/OI8118/> ;
     skos:note "Organizations should footnote all assumptions used."@en ;
     skos:scopeNote """This metric is intended to capture female representation on the board of directors or governing body of an organization. A board of directors is a group of individuals legally responsible to govern a corporation and responsible to the shareholders and other relevant stakeholders. A governing body with a different name (e.g., \"advisory body\") may be considered a Board of Directors provided it has a fiduciary and/or social responsibility to shareholders and/or other relevant stakeholders.
 
 This metric is multi-dimensional with regard to the five dimensions of impact. It may help describe the WHO dimension when the stakeholder group represented by the metric is the stakeholder group targeted by the investment or organization. It may also help measure the HOW MUCH Scale dimension, which helps estimate the number of the targeted stakeholders experiencing the outcome. For more on the alignment of IRIS metrics to the five dimensions of impact, see IRIS+ and the Five Dimensions of Impact (https://iris.thegiin.org/document/iris-and-the-five-dimensions/). No single metric is sufficient to understand an impact; rather, metrics are selected as a set across all dimensions of impact. When possible, the selection of metrics to measure and describe the five dimensions should be based on best practice and evidence."""@en ;
-    org:hasIdentifier "OI8118" ;
-    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/OI8118/> ;
+
     cids:definedBy cids:giin ;
-    cids:hasDescription "Number of female members of the organization's board of directors or other governing body as of the end of the reporting period."@en ;
-    cids:hasName "Board of Directors: Female"@en .
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> .
 
 :OI8147
     a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
+    org:hasName "Full-time Employees: Historically Marginalized" ;
+    skos:prefLabel "Full-time Employees: Historically Marginalized"@en ;
+    cids:hasDescription "Number of paid, full-time employees at the organization who belong to groups historically marginalized on the basis of race and/or ethnicity as of the end of the reporting period." ;
+    skos:definition "Number of paid, full-time employees at the organization who belong to groups historically marginalized on the basis of race and/or ethnicity as of the end of the reporting period."@en ;
+    org:hasIdentifier "OI8147" ;
+    skos:notation "OI8147" ;
+    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/OI8147/> ;
     skos:note "Organizations should footnote all assumptions used, including their categorization of historically marginalized groups. See usage guidance for further information."@en ;
     skos:scopeNote """This metric is intended to capture the number of unique individuals who belong to groups historically marginalized on the basis of race and/or ethnicity and who are employed by the organization in full-time roles as of the end of the reporting period. This metric excludes Temporary Employees (OI9028).
 
 The categorization of historically marginalized groups varies with location and context. With no internationally agreed-upon definition as to which groups constitute historically marginalized on the basis of race and/or ethnicity, if well-established local policies exist (as in South Africa, with the Broad Based Black Economic Empowerment [BBBEE] definition of historically marginalized, or in India, based on backward caste), organizations should refer to these local guidelines to identify groups historically marginalized on the basis of race and/or ethnicity. Otherwise, and wherever appropriate, organizations should provide additional detail regarding their tailored methodology for defining these groups.
 
 This metric is multi-dimensional with regard to the five dimensions of impact: it may help describe the WHO dimension when the stakeholder group represented by the metric is the stakeholder group targeted by the investment or organization. It may also help measure the HOW MUCH Scale dimension, which helps estimate the number of the targeted stakeholders experiencing the outcome. For more on the alignment of IRIS metrics to the five dimensions of impact, see IRIS+ and the Five Dimensions of Impact (https://iris.thegiin.org/document/iris-and-the-five-dimensions/). No single metric is sufficient to understand an impact; rather, metrics are selected as a set across all dimensions of impact. When possible, the selection of metrics to measure and describe the five dimensions should be based on best practice and evidence."""@en ;
-    org:hasIdentifier "OI8147" ;
-    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/OI8147/> ;
+
     cids:definedBy cids:giin ;
-    cids:hasDescription "Number of paid, full-time employees at the organization who belong to groups historically marginalized on the basis of race and/or ethnicity as of the end of the reporting period."@en ;
-    cids:hasName "Full-time Employees: Historically Marginalized"@en .
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> .
 
 :OI8197
     a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
+    org:hasName "Founders: Female" ;
+    skos:prefLabel "Founders: Female"@en ;
+    cids:hasDescription "Number of the organization’s founders who are female and retain an active role in the company as of the end of the reporting period." ;
+    skos:definition "Number of the organization’s founders who are female and retain an active role in the company as of the end of the reporting period."@en ;
+    org:hasIdentifier "OI8197" ;
+    skos:notation "OI8197" ;
+    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/OI8197/> ;
     skos:note "Organizations should footnote all assumptions used."@en ;
     skos:scopeNote """This metric is intended to capture the number of founders with an active role who are female. An active role may include acting in an advisory capacity for key decisions. It need not necessarily require a full-time role at the organization.
 
 This metric is multi-dimensional with regard to the five dimensions of impact. It may help describe the WHO dimension when the stakeholder group represented by the metric is the stakeholder group targeted by the investment or organization. It may also help measure the HOW MUCH Scale dimension, which helps estimate the number of the targeted stakeholders experiencing the outcome. For more on the alignment of IRIS metrics to the five dimensions of impact, see IRIS+ and the Five Dimensions of Impact (https://iris.thegiin.org/document/iris-and-the-five-dimensions/). No single metric is sufficient to understand an impact; rather, metrics are selected as a set across all dimensions of impact. When possible, the selection of metrics to measure and describe the five dimensions should be based on best practice and evidence."""@en ;
-    org:hasIdentifier "OI8197" ;
-    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/OI8197/> ;
+
     cids:definedBy cids:giin ;
-    cids:hasDescription "Number of the organization’s founders who are female and retain an active role in the company as of the end of the reporting period."@en ;
-    cids:hasName "Founders: Female"@en .
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> .
 
 :OI8237
     a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
+    org:hasName "Greenhouse Gas Emissions Strategy" ;
+    skos:prefLabel "Greenhouse Gas Emissions Strategy"@en ;
+    cids:hasDescription "Indicates whether the organization implements a strategy to reduce greenhouse gas (GHG) emissions." ;
+    skos:definition "Indicates whether the organization implements a strategy to reduce greenhouse gas (GHG) emissions."@en ;
+    org:hasIdentifier "OI8237" ;
+    skos:notation "OI8237" ;
+    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/OI8237/> ;
     skos:note "Organizations should footnote the details of the strategy, the type and scope of emissions on which the strategy focuses, and how the strategy is being implemented, including specific reduction targets. See usage guidance for further information."@en ;
     skos:scopeNote """This metric is intended to capture whether or not an organization has a greenhouse gas emissions strategy and to provide, in footnotes, detailed information on that strategy. It does not, however, evaluate the success with which that strategy is implemented.
 
@@ -7335,64 +7491,84 @@ The GHG Protocol further categorizes these direct and indirect emissions into th
 - Greenhouse Gas Protocol Calculators (https://ghgprotocol.org/calculation-tools)
 
 Organizations reporting this metric should also consider reporting against Greenhouse Gas Emissions: Total (OI1479), Greenhouse Gas Emissions: Direct (OI4112), and Greenhouse Gas Emissions: Indirect (OI9604)."""@en ;
-    org:hasIdentifier "OI8237" ;
-    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/OI8237/> ;
+
     cids:definedBy cids:giin ;
-    cids:hasDescription "Indicates whether the organization implements a strategy to reduce greenhouse gas (GHG) emissions."@en ;
-    cids:hasName "Greenhouse Gas Emissions Strategy"@en .
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> .
 
 :OI8251
     a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
+    org:hasName "Full-time Employees: Managers" ;
+    skos:prefLabel "Full-time Employees: Managers"@en ;
+    cids:hasDescription "Number of paid, full-time management employees (managers) at the organization as of the end of the reporting period." ;
+    skos:definition "Number of paid, full-time management employees (managers) at the organization as of the end of the reporting period."@en ;
+    org:hasIdentifier "OI8251" ;
+    skos:notation "OI8251" ;
+    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/OI8251/> ;
     skos:note "Organizations should footnote how their organization defines management levels. See usage guidance for further information."@en ;
     skos:scopeNote """This metric is intended to capture the number of unique, individual managers employed by the organization in full-time roles as of the end of the reporting period. This metric excludes Temporary Employees (OI9028).
 
 Organizations can refer to the glossary for additional guidance on defining management. The composition of management varies with an organization’s stage and type, but managers are generally responsible for setting objectives (defining goals for the group and deciding what work must be done to meet those goals), organizing (dividing work into manageable activities and selecting the right people to accomplish them), motivating and communicating (creating a team out of individuals through decisions on pay, promotion, and communications), measuring (establishing targets and interpreting and analyzing performance), and developing people.
 
 This metric is multi-dimensional with regard to the five dimensions of impact: it may help describe the WHO dimension when the stakeholder group represented by the metric is the stakeholder group targeted by the investment or organization. It may also help measure the HOW MUCH Scale dimension, which helps estimate the number of the targeted stakeholders experiencing the outcome. For more on the alignment of IRIS metrics to the five dimensions of impact, see IRIS+ and the Five Dimensions of Impact (https://iris.thegiin.org/document/iris-and-the-five-dimensions/). No single metric is sufficient to understand an impact; rather, metrics are selected as a set across all dimensions of impact. When possible, the selection of metrics to measure and describe the five dimensions should be based on best practice and evidence."""@en ;
-    org:hasIdentifier "OI8251" ;
-    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/OI8251/> ;
+
     cids:definedBy cids:giin ;
-    cids:hasDescription "Number of paid, full-time management employees (managers) at the organization as of the end of the reporting period."@en ;
-    cids:hasName "Full-time Employees: Managers"@en .
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> .
 
 :OI8266
     a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
+    org:hasName "Permanent Employees: Low-Income Areas" ;
+    skos:prefLabel "Permanent Employees: Low-Income Areas"@en ;
+    cids:hasDescription "Number of people in paid employment with the organization who reside in low-income areas as of the end of the reporting period, whether they are full-time or part-time." ;
+    skos:definition "Number of people in paid employment with the organization who reside in low-income areas as of the end of the reporting period, whether they are full-time or part-time."@en ;
+    org:hasIdentifier "OI8266" ;
+    skos:notation "OI8266" ;
+    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/OI8266/> ;
     skos:note "Organizations should footnote details on the assessment tools used to identify employees who reside in low-income areas. See usage guidance for further information."@en ;
     skos:scopeNote """This metric is intended to capture the number of unique individuals employed by the organization in full- or part-time roles as of the end of the reporting period who reside in low-income areas. This metric excludes Temporary Employees (OI9028).
 
 The population classified as low income includes all those who fall below a fixed threshold, which includes those classified as poor or very poor. Because assessing the poverty level of employees is complex, organizations will likely use specific assessment tools to accurately report on this metric. See the glossary definition for additional information on commonly used tools to help determine the absolute poverty level of individuals and households.
 
 This metric is multi-dimensional with regard to the five dimensions of impact: it may help describe the WHO dimension when the stakeholder group represented by the metric is the stakeholder group targeted by the investment or organization. It may also help measure the HOW MUCH Scale dimension, which helps estimate the number of the targeted stakeholders experiencing the outcome. For more on the alignment of IRIS metrics to the five dimensions of impact, see IRIS+ and the Five Dimensions of Impact (https://iris.thegiin.org/document/iris-and-the-five-dimensions/). No single metric is sufficient to understand an impact; rather, metrics are selected as a set across all dimensions of impact. When possible, the selection of metrics to measure and describe the five dimensions should be based on best practice and evidence."""@en ;
-    org:hasIdentifier "OI8266" ;
-    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/OI8266/> ;
+
     cids:definedBy cids:giin ;
-    cids:hasDescription "Number of people in paid employment with the organization who reside in low-income areas as of the end of the reporting period, whether they are full-time or part-time."@en ;
-    cids:hasName "Permanent Employees: Low-Income Areas"@en .
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> .
 
 :OI8292
     a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
+    org:hasName "Full-time Employees: Managers with Disabilities" ;
+    skos:prefLabel "Full-time Employees: Managers with Disabilities"@en ;
+    cids:hasDescription "Number of paid, full-time management employees (managers) with disabilities at the organization as of the end of the reporting period." ;
+    skos:definition "Number of paid, full-time management employees (managers) with disabilities at the organization as of the end of the reporting period."@en ;
+    org:hasIdentifier "OI8292" ;
+    skos:notation "OI8292" ;
+    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/OI8292/> ;
     skos:note "Organizations should footnote how their organization defines management levels, as well as any specific focus on stakeholders with particular disabilities. See usage guidance for further information."@en ;
     skos:scopeNote """This metric is intended to capture the number of unique, individual managers with disabilities employed by the organization in full-time roles as of the end of the reporting period. This metric excludes Temporary Employees (OI9028).
 
 Organizations can refer to the glossary for additional guidance on defining management. The composition of management varies with an organization’s stage and type, but managers are generally responsible for setting objectives (defining goals for the group and deciding what work must be done to meet those goals), organizing (dividing work into manageable activities and selecting the right people to accomplish them), motivating and communicating (creating a team out of individuals through decisions on pay, promotion, and communications), measuring (establishing targets and interpreting and analyzing performance), and developing people.
 
 This metric is multi-dimensional with regard to the five dimensions of impact: it may help describe the WHO dimension when the stakeholder group represented by the metric is the stakeholder group targeted by the investment or organization. It may also help measure the HOW MUCH Scale dimension, which helps estimate the number of the targeted stakeholders experiencing the outcome. For more on the alignment of IRIS metrics to the five dimensions of impact, see IRIS+ and the Five Dimensions of Impact (https://iris.thegiin.org/document/iris-and-the-five-dimensions/). No single metric is sufficient to understand an impact; rather, metrics are selected as a set across all dimensions of impact. When possible, the selection of metrics to measure and describe the five dimensions should be based on best practice and evidence."""@en ;
-    org:hasIdentifier "OI8292" ;
-    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/OI8292/> ;
+
     cids:definedBy cids:giin ;
-    cids:hasDescription "Number of paid, full-time management employees (managers) with disabilities at the organization as of the end of the reporting period."@en ;
-    cids:hasName "Full-time Employees: Managers with Disabilities"@en .
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> .
 
 :OI8296
     a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
+    org:hasName "Employees Earning Lowest Wage" ;
+    skos:prefLabel "Employees Earning Lowest Wage"@en ;
+    cids:hasDescription "Number of full-time, part-time, and temporary employees of the organization that are earning the lowest hourly wage (including bonuses, excluding benefits) paid by the organization as of the end of the reporting period. See usage guidance for further details." ;
+    skos:definition "Number of full-time, part-time, and temporary employees of the organization that are earning the lowest hourly wage (including bonuses, excluding benefits) paid by the organization as of the end of the reporting period. See usage guidance for further details."@en ;
+    org:hasIdentifier "OI8296" ;
+    skos:notation "OI8296" ;
+    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/OI8296/> ;
     skos:note "Organizations should footnote the lowest wage paid by the organization in each country of operation, whether it meets or exceeds the local minimum wage for the region(s) in which they operate, and any other assumptions made in calculating this metric. See usage guidance for further information."@en ;
     skos:scopeNote """This metric is intended to measure the number of employees earning the lowest hourly wage paid by the organization during the reporting period. For example, if the organization's lowest wage paid (including bonuses, excluding benefits) is USD 15 per hour and the organizations pays 300 employees this rate, the value for this metric is 300. Organizations should also footnote what the lowest wage paid is in order to enable minimum wage calculations.
 
@@ -7403,191 +7579,256 @@ For salaried workers, organizations may calculate hourly wage by dividing total 
 This metric can be useful in capturing whether a portion of the organization's workforce is paid less than minimum wage. Organizations interested in capturing minimum wage or living wage may instead use Employees Earning Minimum Wage (OI5858) and Employees Earning a Living Wage or Higher (OI4724).
 
 In some contexts, this metric can serve as an indicator of whether the outcome being sought by an investor or organization is occurring (the WHAT dimension of impact). For more on the alignment of IRIS metrics to the five dimensions of impact, see IRIS+ and the Five Dimensions of Impact (https://iris.thegiin.org/document/iris-and-the-five-dimensions/). No single metric is sufficient to understand an impact; rather, metrics are selected as a set across all dimensions of impact. When possible, the selection of metrics to measure and describe the five dimensions should be based on best practice and evidence."""@en ;
-    org:hasIdentifier "OI8296" ;
-    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/OI8296/> ;
+
     cids:definedBy cids:giin ;
-    cids:hasDescription "Number of full-time, part-time, and temporary employees of the organization that are earning the lowest hourly wage (including bonuses, excluding benefits) paid by the organization as of the end of the reporting period. See usage guidance for further details."@en ;
-    cids:hasName "Employees Earning Lowest Wage"@en .
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> .
 
 :OI8357
     a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
+    org:hasName "Waste Disposed: Incinerated" ;
+    skos:prefLabel "Waste Disposed: Incinerated"@en ;
+    cids:hasDescription "Amount of waste disposed by the organization through incineration during the reporting period." ;
+    skos:definition "Amount of waste disposed by the organization through incineration during the reporting period."@en ;
+    org:hasIdentifier "OI8357" ;
+    skos:notation "OI8357" ;
+    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/OI8357/> ;
     skos:note "Organizations should footnote all assumptions used."@en ;
     skos:scopeNote """This metric is intended to capture the amount of waste the organization incinerated during the reporting period.
 
 In some contexts, this metric can serve as an indicator of whether the outcome being sought by an investor or organization is occurring (the WHAT dimension of impact). For more on the alignment of IRIS metrics to the five dimensions of impact, see IRIS+ and the Five Dimensions of Impact (https://iris.thegiin.org/document/iris-and-the-five-dimensions/). No single metric is sufficient to understand an impact; rather, metrics are selected as a set across all dimensions of impact. When possible, the selection of metrics to measure and describe the five dimensions should be based on best practice and evidence."""@en ;
-    org:hasIdentifier "OI8357" ;
-    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/OI8357/> ;
+
     cids:definedBy cids:giin ;
-    cids:hasDescription "Amount of waste disposed by the organization through incineration during the reporting period."@en ;
-    cids:hasName "Waste Disposed: Incinerated"@en .
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> .
 
 :OI8358
     a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
+    org:hasName "Employees with Written Contracts" ;
+    skos:prefLabel "Employees with Written Contracts"@en ;
+    cids:hasDescription "Number of employees (including both permanent and temporary workers) who had written contracts for their employment during the reporting period." ;
+    skos:definition "Number of employees (including both permanent and temporary workers) who had written contracts for their employment during the reporting period."@en ;
+    org:hasIdentifier "OI8358" ;
+    skos:notation "OI8358" ;
+    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/OI8358/> ;
     skos:note "Organizations should footnote all assumptions used."@en ;
     skos:scopeNote """This metric is intended to capture the number of employees during the reporting period who have formal, written contracts that state the terms of their employment.
 
 This metric is multidimensional with regard to the five dimensions of impact. In some contexts, this metric can serve as an indicator of whether the outcome being sought by an investor or organization is occurring (the WHAT dimension of impact). This metric may also help describe the HOW MUCH Scale dimension, which helps estimate the number of the targeted stakeholders experiencing the outcome. For more on the alignment of IRIS metrics to the five dimensions of impact, see IRIS+ and the Five Dimensions of Impact (https://iris.thegiin.org/document/iris-and-the-five-dimensions/). No single metric is sufficient to understand an impact; rather, metrics are selected as a set across all dimensions of impact. The selection of metrics to measure and describe the five dimensions should be based on best practice and evidence."""@en ;
-    org:hasIdentifier "OI8358" ;
-    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/OI8358/> ;
+
     cids:definedBy cids:giin ;
-    cids:hasDescription "Number of employees (including both permanent and temporary workers) who had written contracts for their employment during the reporting period."@en ;
-    cids:hasName "Employees with Written Contracts"@en .
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> .
 
 :OI8408
     a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
+    org:hasName "Temporary Employees Hours Worked" ;
+    skos:prefLabel "Temporary Employees Hours Worked"@en ;
+    cids:hasDescription "Number of paid hours worked by temporary employees of the organization during the reporting period." ;
+    skos:definition "Number of paid hours worked by temporary employees of the organization during the reporting period."@en ;
+    org:hasIdentifier "OI8408" ;
+    skos:notation "OI8408" ;
+    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/OI8408/> ;
     skos:note "Organizations should footnote all assumptions used."@en ;
     skos:scopeNote """This metric is intended to capture the number of hours worked by temporary employees over the course of the reporting period.
 
 Organizations should capture hours worked by contracted (or subcontracted) employees as part of this metric, whether their contracts are written or oral; in any case, temporary employment is characterized by a predefined term: fixed-term contracts, project- or task-based contracts, and seasonal, intermittent, or casual work.
 
 Organizations are encouraged to report this metric in conjunction with Temporary Employees (OI9028)."""@en ;
-    org:hasIdentifier "OI8408" ;
-    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/OI8408/> ;
+
     cids:definedBy cids:giin ;
-    cids:hasDescription "Number of paid hours worked by temporary employees of the organization during the reporting period."@en ;
-    cids:hasName "Temporary Employees Hours Worked"@en .
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> .
 
 :OI8429
     a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
+    org:hasName "Community Service Hours Contributed" ;
+    skos:prefLabel "Community Service Hours Contributed"@en ;
+    cids:hasDescription "Number of hours volunteered by full- and part-time employees of the organization during the reporting period." ;
+    skos:definition "Number of hours volunteered by full- and part-time employees of the organization during the reporting period."@en ;
+    org:hasIdentifier "OI8429" ;
+    skos:notation "OI8429" ;
+    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/OI8429/> ;
     skos:note "Organizations should footnote all assumptions used. See usage guidance for further information."@en ;
     skos:scopeNote """This metric is intended to capture volunteer hours for community service contributed by employees. Organizations should include both paid and unpaid time spent volunteering, whether for company-organized events or for employee-initiated activities.
 
 Organizations are also encouraged to report separately volunteer hours contributed during traditional work hours and those contributed outside of traditional working hours. Traditional working hours can be defined by the organization and should be footnoted."""@en ;
-    org:hasIdentifier "OI8429" ;
-    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/OI8429/> ;
+
     cids:definedBy cids:giin ;
-    cids:hasDescription "Number of hours volunteered by full- and part-time employees of the organization during the reporting period."@en ;
-    cids:hasName "Community Service Hours Contributed"@en .
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> .
 
 :OI8431
     a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
+    org:hasName "Departed Permanent Employees: Voluntary" ;
+    skos:prefLabel "Departed Permanent Employees: Voluntary"@en ;
+    cids:hasDescription "Number of full- and part-time employees who departed the organization voluntarily during the reporting period." ;
+    skos:definition "Number of full- and part-time employees who departed the organization voluntarily during the reporting period."@en ;
+    org:hasIdentifier "OI8431" ;
+    skos:notation "OI8431" ;
+    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/OI8431/> ;
     skos:note "Organizations should footnote all details regarding how they define voluntary departures. See usage guidance for further information."@en ;
     skos:scopeNote """This metric is intended to capture the number of voluntary departures from the organization, defined as those departed employees not dismissed for cause or otherwise involuntarily separated from the organization. Organizations can elect to exclude retiring employees when reporting against this metric and should footnote any relevant adjustments.
 
 This metric is multi-dimensional with regard to the five dimensions of impact: it may help describe the WHO dimension when the stakeholder group represented by the metric is the stakeholder group targeted by the investment or organization. It may also help measure the HOW MUCH Scale dimension, which helps estimate the number of the targeted stakeholders experiencing the outcome. For more on the alignment of IRIS metrics to the five dimensions of impact, see IRIS+ and the Five Dimensions of Impact (https://iris.thegiin.org/document/iris-and-the-five-dimensions/). No single metric is sufficient to understand an impact; rather, metrics are selected as a set across all dimensions of impact. When possible, the selection of metrics to measure and describe the five dimensions should be based on best practice and evidence."""@en ;
-    org:hasIdentifier "OI8431" ;
-    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/OI8431/> ;
+
     cids:definedBy cids:giin ;
-    cids:hasDescription "Number of full- and part-time employees who departed the organization voluntarily during the reporting period."@en ;
-    cids:hasName "Departed Permanent Employees: Voluntary"@en .
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> .
 
 :OI8541
     a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
+    org:hasName "Peak Flow Rate" ;
+    skos:prefLabel "Peak Flow Rate"@en ;
+    cids:hasDescription "Rate of maximum flow of water through a stream or river on land directly or indirectly managed by the organization as of the end of the reporting period." ;
+    skos:definition "Rate of maximum flow of water through a stream or river on land directly or indirectly managed by the organization as of the end of the reporting period."@en ;
+    org:hasIdentifier "OI8541" ;
+    skos:notation "OI8541" ;
+    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/OI8541/> ;
     skos:note "Organizations should footnote all assumptions used, including source(s) of data."@en ;
     skos:scopeNote """This metric is intended to capture the highest rate of water flowing through a stream or river per unit of time, typically measured in cubic feet per second or cubic meters per second. Maximum waterflow often occurs during storms.
 
 To calculate these data, organizations may use modeling tools such as HydroCAD's Rational Method (https://www.hydrocad.net/rational.htm) or USDA's WinTR-55 Watershed Hydrology (https://www.nrcs.usda.gov/wps/portal/nrcs/detailfull/national/water/?cid=stelprdb1042901)."""@en ;
-    org:hasIdentifier "OI8541" ;
-    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/OI8541/> ;
+
     cids:definedBy cids:giin ;
-    cids:hasDescription "Rate of maximum flow of water through a stream or river on land directly or indirectly managed by the organization as of the end of the reporting period."@en ;
-    cids:hasName "Peak Flow Rate"@en .
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> .
 
 :OI8646
     a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
+    org:hasName "Employees Promoted: Female" ;
+    skos:prefLabel "Employees Promoted: Female"@en ;
+    cids:hasDescription "Number of female employees who were promoted from within the organization during the reporting period." ;
+    skos:definition "Number of female employees who were promoted from within the organization during the reporting period."@en ;
+    org:hasIdentifier "OI8646" ;
+    skos:notation "OI8646" ;
+    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/OI8646/> ;
     skos:note "Organizations should footnote all assumptions used."@en ;
     skos:scopeNote """This metric is intended to capture the number of unique, female individuals promoted by the organization during the reporting period and who were in full- or part-time roles as of the end of the reporting period. This metric excludes Temporary Employees (OI9028). Organizations are encouraged to footnote in which roles and levels employees promoted began and ended the reporting period.
 
 Promotion (or career advancement) is defined as the movement of an employee who already works for the organization to a higher grade level either within the same department or to another department as a result of a change in duties, not a market adjustment in salary. For more, see the Society for Human Resource Management (https://www.shrm.org/resourcesandtools/tools-and-samples/policies/pages/job-posting-policy---staff-promotions.aspx).
 
 This metric is multi-dimensional with regard to the five dimensions of impact. It may help describe the WHO dimension when the stakeholder group represented by the metric is the stakeholder group targeted by the investment or organization. It may also help measure the HOW MUCH Scale dimension, which helps estimate the number of the targeted stakeholders experiencing the outcome. For more on the alignment of IRIS metrics to the five dimensions of impact, see IRIS+ and the Five Dimensions of Impact (https://iris.thegiin.org/document/iris-and-the-five-dimensions/). No single metric is sufficient to understand an impact; rather, metrics are selected as a set across all dimensions of impact. When possible, the selection of metrics to measure and describe the five dimensions should be based on best practice and evidence."""@en ;
-    org:hasIdentifier "OI8646" ;
-    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/OI8646/> ;
+
     cids:definedBy cids:giin ;
-    cids:hasDescription "Number of female employees who were promoted from within the organization during the reporting period."@en ;
-    cids:hasName "Employees Promoted: Female"@en .
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> .
 
 :OI8670
     a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
+    org:hasName "Strikes and Lockouts" ;
+    skos:prefLabel "Strikes and Lockouts"@en ;
+    cids:hasDescription "Number of employees' strikes and lockouts at the organization during the reporting period." ;
+    skos:definition "Number of employees' strikes and lockouts at the organization during the reporting period."@en ;
+    org:hasIdentifier "OI8670" ;
+    skos:notation "OI8670" ;
+    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/OI8670/> ;
     skos:note "Organizations should footnote details on the reasons for the strikes or lockouts, the number of employees involved, how long the strikes or lockouts lasted, and the resolution. See usage guidance for further information."@en ;
     skos:scopeNote """This metric is intended to capture the number of strikes and lockouts occurring among the organization's employees during the reporting period. Strikes and lockouts sometimes represent a breakdown in labor–management relations and a suspension of consultative processes. Data regarding the occurrence of such industrial incidents can usefully convey the state of labor–management relations and the direction of its progression over time. Strikes and lockouts must be set in the context of any limitations of local legislation and benchmarked against norms for inter-country, inter-industry, and inter-category comparisons. As employees take greater freedom in questioning their rights and respect in the workplace, organizations may observe strikes and lockouts increasing. As policies begin to take hold and change is effected, strikes and lockouts may then decrease.
 
 An employee strike is a work stoppage caused by one or several of the following voluntary actions by a number of employees: reducing the normal performance of their employment, breaking their employment agreements, refusing or failing to accept engagement for work in which they are usually employed, reducing their normal output, or reducing their normal rate of work. A strike usually happens in response to employee grievances.
 
 A lockout, also a work stoppage, is a temporary denial of employment initiated by the employer. Lockouts sometimes occur as a bargaining tactic by the employer in response to an employee strike."""@en ;
-    org:hasIdentifier "OI8670" ;
-    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/OI8670/> ;
+
     cids:definedBy cids:giin ;
-    cids:hasDescription "Number of employees' strikes and lockouts at the organization during the reporting period."@en ;
-    cids:hasName "Strikes and Lockouts"@en .
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> .
 
 :OI8709
     a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
+    org:hasName "Investment Committee Members: Female" ;
+    skos:prefLabel "Investment Committee Members: Female"@en ;
+    cids:hasDescription "Number of female members of the organization’s investment committee as of the end of the reporting period." ;
+    skos:definition "Number of female members of the organization’s investment committee as of the end of the reporting period."@en ;
+    org:hasIdentifier "OI8709" ;
+    skos:notation "OI8709" ;
+    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/OI8709/> ;
     skos:note "Organizations should footnote all assumptions used."@en ;
     skos:scopeNote """This metric is intended to capture the number of members of the organization’s investment committee who are women. An investment committee is the governing body that is charged with overseeing investments and developing investment policies for board approval.
 
 To report against 2X Challenge requirements, organizations at which female investment committee members do not play an active role on the investment committee should not be counted. The share of women on the investment committee should also exceed the legal minimum for the organization’s domicile country.
 
 This metric is multi-dimensional with regard to the five dimensions of impact. It may help describe the WHO dimension when the stakeholder group represented by the metric is the stakeholder group targeted by the investment or organization. It may also help measure the HOW MUCH Scale dimension, which helps estimate the number of the targeted stakeholders experiencing the outcome. For more on the alignment of IRIS metrics to the five dimensions of impact, see IRIS+ and the Five Dimensions of Impact (https://iris.thegiin.org/document/iris-and-the-five-dimensions/). No single metric is sufficient to understand an impact; rather, metrics are selected as a set across all dimensions of impact. When possible, the selection of metrics to measure and describe the five dimensions should be based on best practice and evidence."""@en ;
-    org:hasIdentifier "OI8709" ;
-    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/OI8709/> ;
+
     cids:definedBy cids:giin ;
-    cids:hasDescription "Number of female members of the organization’s investment committee as of the end of the reporting period."@en ;
-    cids:hasName "Investment Committee Members: Female"@en .
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> .
 
 :OI8725
     a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
-    skos:scopeNote "This metric is intended to capture pre-tax wages/salaries paid to the organization's part-time female employees and should not include benefits nor include payroll expenses. These wages should exclude Temporary Employee Wages (OI4202)."@en ;
+    org:hasName "Part-time Wages: Female" ;
+    skos:prefLabel "Part-time Wages: Female"@en ;
+    cids:hasDescription "Value of wages (including bonuses, excluding benefits) paid to all female part-time employees of the organization during the reporting period." ;
+    skos:definition "Value of wages (including bonuses, excluding benefits) paid to all female part-time employees of the organization during the reporting period."@en ;
     org:hasIdentifier "OI8725" ;
+    skos:notation "OI8725" ;
     prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/OI8725/> ;
+    skos:scopeNote "This metric is intended to capture pre-tax wages/salaries paid to the organization's part-time female employees and should not include benefits nor include payroll expenses. These wages should exclude Temporary Employee Wages (OI4202)."@en ;
+
     cids:definedBy cids:giin ;
-    cids:hasDescription "Value of wages (including bonuses, excluding benefits) paid to all female part-time employees of the organization during the reporting period."@en ;
-    cids:hasName "Part-time Wages: Female"@en .
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> .
 
 :OI8791
     a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
+    org:hasName "Average Non-Salaried Wage" ;
+    skos:prefLabel "Average Non-Salaried Wage"@en ;
+    cids:hasDescription "Average wage paid to non-salaried and full-time, part-time, or temporary employees of the organization during the reporting period. Employees who are salaried should be excluded from this calculation." ;
+    skos:definition "Average wage paid to non-salaried and full-time, part-time, or temporary employees of the organization during the reporting period. Employees who are salaried should be excluded from this calculation."@en ;
+    org:hasIdentifier "OI8791" ;
+    skos:notation "OI8791" ;
+    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/OI8791/> ;
     skos:note "Organizations should footnote the time frame over which this metric is calculated and all assumptions used. See usage guidance for further information."@en ;
     skos:scopeNote """This metric is intended to capture the average (mean) non-salaried wage paid to employees of the organization during the reporting period. Organizations can narrow this metric to, for instance, specific geographies, industries, departments, or positions, and organizations should footnote details on how the calculation was done. Organizations are also encouraged to break down and footnote for each the average respective non-salaried wages for full-time, part-time, and temporary employees.
 
 Non-salaried employees are paid on a variable basis (such as hourly, daily, weekly, other specified time cycle, or other specified parameter). Since the time frame for non-salaried employees can vary, organizations should footnote the time frame used in this calculation. Non-salaried employees' earnings are contingent on the amount of time worked."""@en ;
-    org:hasIdentifier "OI8791" ;
-    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/OI8791/> ;
+
     cids:definedBy cids:giin ;
-    cids:hasDescription "Average wage paid to non-salaried and full-time, part-time, or temporary employees of the organization during the reporting period. Employees who are salaried should be excluded from this calculation."@en ;
-    cids:hasName "Average Non-Salaried Wage"@en .
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> .
 
 :OI8825
     a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
+    org:hasName "Energy Purchased: Total" ;
+    skos:prefLabel "Energy Purchased: Total"@en ;
+    cids:hasDescription "Amount of purchased energy consumed by the organization during the reporting period." ;
+    skos:definition "Amount of purchased energy consumed by the organization during the reporting period."@en ;
+    org:hasIdentifier "OI8825" ;
+    skos:notation "OI8825" ;
+    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/OI8825/> ;
     skos:note "Organizations should footnote all assumptions used."@en ;
     skos:scopeNote """This metric is intended to capture the amount of energy (both renewable and non-renewable) purchased for use by the organization itself. Adding Energy Generated for Use: Total (OI9624) to this metric should equal the total energy consumed by the organization during the reporting period.
 
 To disaggregate this total by the type of energy purchased—for example, non-renewable vs. renewable sources—report this metric disaggregated by the relevant options from Primary Energy Source (OI3781).
 
 In some contexts, this metric can serve as an indicator of whether the outcome being sought by an investor or organization is occurring (the WHAT dimension of impact). For more on the alignment of IRIS metrics to the five dimensions of impact, see IRIS+ and the Five Dimensions of Impact (https://iris.thegiin.org/document/iris-and-the-five-dimensions/). No single metric is sufficient to understand an impact; rather, metrics are selected as a set across all dimensions of impact. When possible, the selection of metrics to measure and describe the five dimensions should be based on best practice and evidence."""@en ;
-    org:hasIdentifier "OI8825" ;
-    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/OI8825/> ;
+
     cids:definedBy cids:giin ;
-    cids:hasDescription "Amount of purchased energy consumed by the organization during the reporting period."@en ;
-    cids:hasName "Energy Purchased: Total"@en .
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> .
 
 :OI8828
     a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
+    org:hasName "Water Consumed: Wastewater" ;
+    skos:prefLabel "Water Consumed: Wastewater"@en ;
+    cids:hasDescription "Volume of wastewater used for the organization's operations during the reporting period." ;
+    skos:definition "Volume of wastewater used for the organization's operations during the reporting period."@en ;
+    org:hasIdentifier "OI8828" ;
+    skos:notation "OI8828" ;
+    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/OI8828/> ;
     skos:note "Organizations should footnote all assumptions used."@en ;
     skos:scopeNote """This metric is intended to capture the volume of wastewater used within the organization for any purpose, including but not limited to productive processes (for example, packaging and manufacturing), human consumption, and agricultural purposes.
 
@@ -7596,58 +7837,78 @@ This metric, as well as other metrics calculated using Water Withdrawn (OI0263) 
 For further guidance on water uses, see the Alliance for Water Efficiency (http://www.allianceforwaterefficiency.org).
 
 In some contexts, this metric can serve as an indicator of whether the outcome being sought by an investor or organization is occurring (the WHAT dimension of impact). For more on the alignment of IRIS metrics to the five dimensions of impact, see IRIS+ and the Five Dimensions of Impact (https://iris.thegiin.org/document/iris-and-the-five-dimensions/). No single metric is sufficient to understand an impact; rather, metrics are selected as a set across all dimensions of impact. When possible, the selection of metrics to measure and describe the five dimensions should be based on best practice and evidence."""@en ;
-    org:hasIdentifier "OI8828" ;
-    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/OI8828/> ;
+
     cids:definedBy cids:giin ;
-    cids:hasDescription "Volume of wastewater used for the organization's operations during the reporting period."@en ;
-    cids:hasName "Water Consumed: Wastewater"@en .
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> .
 
 :OI8838
     a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
+    org:hasName "Part-time Employees: Female" ;
+    skos:prefLabel "Part-time Employees: Female"@en ;
+    cids:hasDescription "Number of paid, part-time, female employees at the organization as of the end of the reporting period." ;
+    skos:definition "Number of paid, part-time, female employees at the organization as of the end of the reporting period."@en ;
+    org:hasIdentifier "OI8838" ;
+    skos:notation "OI8838" ;
+    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/OI8838/> ;
     skos:note "Organizations should footnote all assumptions used."@en ;
     skos:scopeNote """This metric is intended to capture the number of unique women employed by the organization in part-time roles as of the end of the reporting period. This metric excludes Temporary Employees (OI9028).
 
 This metric is multi-dimensional with regard to the five dimensions of impact: it may help describe the WHO dimension when the stakeholder group represented by the metric is the stakeholder group targeted by the investment or organization. It may also help measure the HOW MUCH Scale dimension, which helps estimate the number of the targeted stakeholders experiencing the outcome. For more on the alignment of IRIS metrics to the five dimensions of impact, see IRIS+ and the Five Dimensions of Impact (https://iris.thegiin.org/document/iris-and-the-five-dimensions/). No single metric is sufficient to understand an impact; rather, metrics are selected as a set across all dimensions of impact. When possible, the selection of metrics to measure and describe the five dimensions should be based on best practice and evidence."""@en ;
-    org:hasIdentifier "OI8838" ;
-    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/OI8838/> ;
+
     cids:definedBy cids:giin ;
-    cids:hasDescription "Number of paid, part-time, female employees at the organization as of the end of the reporting period."@en ;
-    cids:hasName "Part-time Employees: Female"@en .
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> .
 
 :OI8843
     a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
+    org:hasName "Waste Disposed: Other" ;
+    skos:prefLabel "Waste Disposed: Other"@en ;
+    cids:hasDescription "Amount of waste disposed by the organization through other means during the reporting period." ;
+    skos:definition "Amount of waste disposed by the organization through other means during the reporting period."@en ;
+    org:hasIdentifier "OI8843" ;
+    skos:notation "OI8843" ;
+    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/OI8843/> ;
     skos:note "Organizations should footnote all assumptions used, as well as the specific means of disposal."@en ;
     skos:scopeNote """This metric is intended to capture the amount of waste the organization disposed by other means during the reporting period (not sent to landfill, recycled/reused, incinerated, or composted). Organizations should footnote the means of disposal.
 
 In some contexts, this metric can serve as an indicator of whether the outcome being sought by an investor or organization is occurring (the WHAT dimension of impact). For more on the alignment of IRIS metrics to the five dimensions of impact, see IRIS+ and the Five Dimensions of Impact (https://iris.thegiin.org/document/iris-and-the-five-dimensions/). No single metric is sufficient to understand an impact; rather, metrics are selected as a set across all dimensions of impact. When possible, the selection of metrics to measure and describe the five dimensions should be based on best practice and evidence."""@en ;
-    org:hasIdentifier "OI8843" ;
-    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/OI8843/> ;
+
     cids:definedBy cids:giin ;
-    cids:hasDescription "Amount of waste disposed by the organization through other means during the reporting period."@en ;
-    cids:hasName "Waste Disposed: Other"@en .
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> .
 
 :OI8864
     a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
+    org:hasName "Part-time Employees: Total" ;
+    skos:prefLabel "Part-time Employees: Total"@en ;
+    cids:hasDescription "Number of paid, part-time employees at the organization as of the end of the reporting period." ;
+    skos:definition "Number of paid, part-time employees at the organization as of the end of the reporting period."@en ;
+    org:hasIdentifier "OI8864" ;
+    skos:notation "OI8864" ;
+    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/OI8864/> ;
     skos:note "Organizations should footnote all assumptions used."@en ;
     skos:scopeNote """This metric is intended to capture the number of unique individuals employed by the organization in part-time roles as of the end of the reporting period. This metric excludes Temporary Employees (OI9028).
 
 This metric is multi-dimensional with regard to the five dimensions of impact: it may help describe the WHO dimension when the stakeholder group represented by the metric is the stakeholder group targeted by the investment or organization. It may also help measure the HOW MUCH Scale dimension, which helps estimate the number of the targeted stakeholders experiencing the outcome. For more on the alignment of IRIS metrics to the five dimensions of impact, see IRIS+ and the Five Dimensions of Impact (https://iris.thegiin.org/document/iris-and-the-five-dimensions/). No single metric is sufficient to understand an impact; rather, metrics are selected as a set across all dimensions of impact. When possible, the selection of metrics to measure and describe the five dimensions should be based on best practice and evidence."""@en ;
-    org:hasIdentifier "OI8864" ;
-    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/OI8864/> ;
+
     cids:definedBy cids:giin ;
-    cids:hasDescription "Number of paid, part-time employees at the organization as of the end of the reporting period."@en ;
-    cids:hasName "Part-time Employees: Total"@en .
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> .
 
 :OI8865
     a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
+    org:hasName "Employment Benefits Uptake" ;
+    skos:prefLabel "Employment Benefits Uptake"@en ;
+    cids:hasDescription "Percentage of all employees using employee benefits provided by the organization as of the end of the reporting period." ;
+    skos:definition "Percentage of all employees using employee benefits provided by the organization as of the end of the reporting period."@en ;
+    org:hasIdentifier "OI8865" ;
+    skos:notation "OI8865" ;
+    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/OI8865/> ;
     skos:note "Organizations should footnote all assumptions used."@en ;
     skos:scopeNote """This metric is intended to capture the degree to which employees are actively using benefits provided to them by their employer. This helps to understand whether benefits are actually accessible and helpful to employees, or if they are benefits in name only.
 
@@ -7656,42 +7917,57 @@ To use this metric, organizations should first report Employment Benefits (OI274
 This metric aligns in part with Disclosure 401-3b from GRI 401: Employment 2016.
 
 This metric may help describe the HOW MUCH Scale dimension, which helps estimate the number of the targeted stakeholders experiencing the outcome. For more on the alignment of IRIS metrics to the five dimensions of impact, see IRIS+ and the Five Dimensions of Impact (https://iris.thegiin.org/document/iris-and-the-five-dimensions/). No single metric is sufficient to understand an impact; rather, metrics are selected as a set across all dimensions of impact. The selection of metrics to measure and describe the five dimensions should be based on best practice and evidence."""@en ;
-    org:hasIdentifier "OI8865" ;
-    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/OI8865/> ;
+
     cids:definedBy cids:giin ;
-    cids:hasDescription "Percentage of all employees using employee benefits provided by the organization as of the end of the reporting period."@en ;
-    cids:hasName "Employment Benefits Uptake"@en .
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> .
 
 :OI8869
     a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
+    org:hasName "Permanent Employees: Total" ;
+    skos:prefLabel "Permanent Employees: Total"@en ;
+    cids:hasDescription "Number of people in paid employment with the organization as of the end of the reporting period, whether they are full-time or part-time." ;
+    skos:definition "Number of people in paid employment with the organization as of the end of the reporting period, whether they are full-time or part-time."@en ;
+    org:hasIdentifier "OI8869" ;
+    skos:notation "OI8869" ;
+    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/OI8869/> ;
     skos:note "Organizations should footnote all assumptions used."@en ;
     skos:scopeNote """This metric is intended to capture the number of unique individuals employed by the organization in full- or part-time roles as of the end of the reporting period. This metric excludes Temporary Employees (OI9028).
 
 This metric is multi-dimensional with regard to the five dimensions of impact: it may help describe the WHO dimension when the stakeholder group represented by the metric is the stakeholder group targeted by the investment or organization. It may also help measure the HOW MUCH Scale dimension, which helps estimate the number of the targeted stakeholders experiencing the outcome. For more on the alignment of IRIS metrics to the five dimensions of impact, see IRIS+ and the Five Dimensions of Impact (https://iris.thegiin.org/document/iris-and-the-five-dimensions/). No single metric is sufficient to understand an impact; rather, metrics are selected as a set across all dimensions of impact. When possible, the selection of metrics to measure and describe the five dimensions should be based on best practice and evidence."""@en ;
-    org:hasIdentifier "OI8869" ;
-    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/OI8869/> ;
+
     cids:definedBy cids:giin ;
-    cids:hasDescription "Number of people in paid employment with the organization as of the end of the reporting period, whether they are full-time or part-time."@en ;
-    cids:hasName "Permanent Employees: Total"@en .
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> .
 
 :OI8941
     a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
+    org:hasName "Full-time Wages: Female" ;
+    skos:prefLabel "Full-time Wages: Female"@en ;
+    cids:hasDescription "Value of wages (including bonuses and excluding benefits) paid to all female full-time employees of the organization during the reporting period." ;
+    skos:definition "Value of wages (including bonuses and excluding benefits) paid to all female full-time employees of the organization during the reporting period."@en ;
+    org:hasIdentifier "OI8941" ;
+    skos:notation "OI8941" ;
+    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/OI8941/> ;
     skos:note "Organizations should footnote all assumptions used."@en ;
     skos:scopeNote "This metric is intended to capture pre-tax wages and salaries paid to the organization's full-time female employees and should include neither benefits nor payroll expenses. This metric should exclude Temporary Employee Wages (OI4202)."@en ;
-    org:hasIdentifier "OI8941" ;
-    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/OI8941/> ;
+
     cids:definedBy cids:giin ;
-    cids:hasDescription "Value of wages (including bonuses and excluding benefits) paid to all female full-time employees of the organization during the reporting period."@en ;
-    cids:hasName "Full-time Wages: Female"@en .
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> .
 
 :OI9028
     a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
+    org:hasName "Temporary Employees" ;
+    skos:prefLabel "Temporary Employees"@en ;
+    cids:hasDescription "Number of temporary employees paid by the organization during the reporting period." ;
+    skos:definition "Number of temporary employees paid by the organization during the reporting period."@en ;
+    org:hasIdentifier "OI9028" ;
+    skos:notation "OI9028" ;
+    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/OI9028/> ;
     skos:note "Organizations should footnote details regarding the type of temporary employment provided, as well as all assumptions used. See usage guidance for further information."@en ;
     skos:scopeNote """This metric is intended to capture the number of temporary employees who worked for the organization at any point during the reporting period. For example, if an employee worked at some point during the reporting period but was not employed as of the end of the reporting period, such an individual should be counted under this metric.
 
@@ -7702,16 +7978,21 @@ Relevant details to footnote regarding the type of temporary employment provided
 Organizations are encouraged to report this metric in conjunction with Temporary Employee Hours Worked (OI8408). To align to the HIPSO (Harmonized Indicators for Private Sector Operations) indicator Construction Jobs (Temporary Construction), organizations may use this metric and calculate using it and Temporary Employee Hours Worked (OI8408) the number of full-time equivalent (FTE) jobs. For more on this calculation, see Jobs in Directly Supported/Financed Enterprises (PI4874). In order to align with this HIPSO indicator, organizations should include all workers involved in the construction of any company assets, including those employed by third parties if they are working on-site; however, organizations should exclude construction workers if the organization itself is a construction or real estate company.
 
 This metric is multi-dimensional with regard to the five dimensions of impact. It may help describe the WHO dimension when the stakeholder group represented by the metric is the stakeholder group targeted by the investment or organization. It may also help measure the HOW MUCH Scale dimension, which helps estimate the number of the targeted stakeholders experiencing the outcome. For more on the alignment of IRIS metrics to the five dimensions of impact, see IRIS+ and the Five Dimensions of Impact (https://iris.thegiin.org/document/iris-and-the-five-dimensions/). No single metric is sufficient to understand an impact; rather, metrics are selected as a set across all dimensions of impact. When possible, the selection of metrics to measure and describe the five dimensions should be based on best practice and evidence."""@en ;
-    org:hasIdentifier "OI9028" ;
-    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/OI9028/> ;
+
     cids:definedBy cids:giin ;
-    cids:hasDescription "Number of temporary employees paid by the organization during the reporting period."@en ;
-    cids:hasName "Temporary Employees"@en .
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> .
 
 :OI9077
     a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
+    org:hasName "Number of Employee Grievances Resolved" ;
+    skos:prefLabel "Number of Employee Grievances Resolved"@en ;
+    cids:hasDescription "Number of formal grievances registered by employees of the organization that were resolved during the reporting period." ;
+    skos:definition "Number of formal grievances registered by employees of the organization that were resolved during the reporting period."@en ;
+    org:hasIdentifier "OI9077" ;
+    skos:notation "OI9077" ;
+    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/OI9077/> ;
     skos:note "Organizations should footnote all assumptions used."@en ;
     skos:scopeNote """This metric is intended to capture the number of grievances that were formally resolved through the organization's employee grievance mechanism during the reporting period. This metric does not capture the total number of grievances registered during the reporting period, which should be reported under Number of Employee Grievances Registered (OI1042). To capture whether the organization has an employee grievance and feedback system in general, organizations should use Employee Feedback and Grievance System (OI3601).
 
@@ -7720,28 +8001,38 @@ Organizations are also encouraged to footnote the ownership of the mechanism, th
 Effective grievance mechanisms should be legitimate, accessible, predictable, equitable, transparent, rights-compatible, and a source of continuous learning (GRI 2018). For operational-level mechanisms to be effective, they should be based on engagement and dialogue. For a description of each of these criteria, see Guiding Principle 31. United Nations (UN), ‘Guiding Principles on Business and Human Rights, Implementing the United Nations “Protect, Respect and Remedy” Framework,’ 2011.
 
 This metric may help describe the HOW MUCH Scale dimension, which helps estimate the number of the targeted stakeholders experiencing the outcome. For more on the alignment of IRIS metrics to the five dimensions of impact, see IRIS+ and the Five Dimensions of Impact (https://iris.thegiin.org/document/iris-and-the-five-dimensions/). No single metric is sufficient to understand an impact; rather, metrics are selected as a set across all dimensions of impact. The selection of metrics to measure and describe the five dimensions should be based on best practice and evidence."""@en ;
-    org:hasIdentifier "OI9077" ;
-    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/OI9077/> ;
+
     cids:definedBy cids:giin ;
-    cids:hasDescription "Number of formal grievances registered by employees of the organization that were resolved during the reporting period."@en ;
-    cids:hasName "Number of Employee Grievances Resolved"@en .
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> .
 
 :OI9088
     a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
+    org:hasName "Sexual Harassment Policy" ;
+    skos:prefLabel "Sexual Harassment Policy"@en ;
+    cids:hasDescription "Indicates whether the organization has a written policy to combat and prevent the sexual harassment of employees and a system to monitor compliance with this policy." ;
+    skos:definition "Indicates whether the organization has a written policy to combat and prevent the sexual harassment of employees and a system to monitor compliance with this policy."@en ;
+    org:hasIdentifier "OI9088" ;
+    skos:notation "OI9088" ;
+    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/OI9088/> ;
     skos:note "Organizations should footnote the details about its sexual harassment policy and how it is being implemented."@en ;
     skos:scopeNote "This metric is intended to capture the organization’s policy on sexual harassment. The policy should align with internationally recognized standards."@en ;
-    org:hasIdentifier "OI9088" ;
-    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/OI9088/> ;
+
     cids:definedBy cids:giin ;
-    cids:hasDescription "Indicates whether the organization has a written policy to combat and prevent the sexual harassment of employees and a system to monitor compliance with this policy."@en ;
-    cids:hasName "Sexual Harassment Policy"@en .
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> .
 
 :OI9106
     a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
+    org:hasName "Social and Environmental Performance Risk Assessment" ;
+    skos:prefLabel "Social and Environmental Performance Risk Assessment"@en ;
+    cids:hasDescription "Indicates whether the organization assessed social and environmental risks during the reporting period." ;
+    skos:definition "Indicates whether the organization assessed social and environmental risks during the reporting period."@en ;
+    org:hasIdentifier "OI9106" ;
+    skos:notation "OI9106" ;
+    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/OI9106/> ;
     skos:note "Organizations should footnote details on what risks they assessed and how these were addressed. See usage guidance for further information."@en ;
     skos:scopeNote """This metric is intended to capture whether the organization systematically assesses risks to social and environmental performance. Examples of social risks to footnote, if relevant, include: mission drift, reputational risk, incidents resulting in harm to clients, client exit, employee dissatisfaction, incentives that can lead to negative behaviors among employees, lack of transparency, negative environmental impacts, gender inequalities and/or discrimination, and lack of implementation of policies, among others.
 
@@ -7752,16 +8043,21 @@ Organizations are also encouraged to footnote the frequency with which they asse
 Organizations can refer to the Smart Campaign's Client Protection Principles (www.smartcampaign.org) and the indicators in the Green Module of the SPI4 (http://cerise-spi4.squarespace.com/) for further guidance.
 
 Organizations are encouraged to report this metric in conjunction with Social and Environmental Performance Reporting (OI4732) and Social and Environmental Targets (OD4091)."""@en ;
-    org:hasIdentifier "OI9106" ;
-    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/OI9106/> ;
+
     cids:definedBy cids:giin ;
-    cids:hasDescription "Indicates whether the organization assessed social and environmental risks during the reporting period."@en ;
-    cids:hasName "Social and Environmental Performance Risk Assessment"@en .
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> .
 
 :OI9202
     a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
+    org:hasName "Streamflow Rate" ;
+    skos:prefLabel "Streamflow Rate"@en ;
+    cids:hasDescription "Rate of flowing water in a stream or river on land directly or indirectly managed by the organization as of the end of the reporting period." ;
+    skos:definition "Rate of flowing water in a stream or river on land directly or indirectly managed by the organization as of the end of the reporting period."@en ;
+    org:hasIdentifier "OI9202" ;
+    skos:notation "OI9202" ;
+    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/OI9202/> ;
     skos:note "Organizations should footnote all assumptions used, including source(s) of data."@en ;
     skos:scopeNote """This metric is intended to capture the volume of water flowing through a stream or river per unit time, typically measured in cubic feet per second or cubic meters per second.
 
@@ -7770,16 +8066,21 @@ These data are often calculated based on models such as MIKE-SHE/BASIN (https://
 Organizations may report this metric in conjunction with Land Indirectly Controlled: Total (PI3789) and Land Directly Controlled: Total (OI5408).
 
 In some contexts, this metric can serve as an indicator of whether the outcome being sought by an investor or organization is occurring (the WHAT dimension of impact). For more on the alignment of IRIS metrics to the five dimensions of impact, see IRIS+ and the Five Dimensions of Impact (https://iris.thegiin.org/document/iris-and-the-five-dimensions/). No single metric is sufficient to understand an impact; rather, metrics are selected as a set across all dimensions of impact. When possible, the selection of metrics to measure and describe the five dimensions should be based on best practice and evidence."""@en ;
-    org:hasIdentifier "OI9202" ;
-    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/OI9202/> ;
+
     cids:definedBy cids:giin ;
-    cids:hasDescription "Rate of flowing water in a stream or river on land directly or indirectly managed by the organization as of the end of the reporting period."@en ;
-    cids:hasName "Streamflow Rate"@en .
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> .
 
 :OI9206
     a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
+    org:hasName "Renewable Energy Expenditures" ;
+    skos:prefLabel "Renewable Energy Expenditures"@en ;
+    cids:hasDescription "Amount of money spent by the organization for renewable energy infrastructure and technology to produce energy intended for consumption at the organization's operating facilities during the reporting period." ;
+    skos:definition "Amount of money spent by the organization for renewable energy infrastructure and technology to produce energy intended for consumption at the organization's operating facilities during the reporting period."@en ;
+    org:hasIdentifier "OI9206" ;
+    skos:notation "OI9206" ;
+    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/OI9206/> ;
     skos:note "Organizations should footnote the type of expenditures made and details on the energy sources to be used. See usage guidance for further information."@en ;
     skos:scopeNote """This metric is intended to capture the organization’s investments in infrastructure to produce energy that will be consumed by the organization. For example, a large-scale manufacturing facility in the desert might install a solar array or wind farm.
 
@@ -7790,16 +8091,19 @@ Large-scale hydropower is often excluded from the definition of renewable energy
 Organizations may have various motivations for making these capital expenditures, including reducing Greenhouse Gas (GHG) emissions, reducing long-term energy expenditures, increasing the stability of energy pricing, or diversifying their sources of energy supply. Organizations are encouraged to footnote changes in the organization's regular, recurring energy costs caused by their investments in renewable energy infrastructure and technology.
 
 Organizations are encouraged to report this metric in conjunction with Green Building Practices (OI6765)."""@en ;
-    org:hasIdentifier "OI9206" ;
-    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/OI9206/> ;
+
     cids:definedBy cids:giin ;
-    cids:hasDescription "Amount of money spent by the organization for renewable energy infrastructure and technology to produce energy intended for consumption at the organization's operating facilities during the reporting period."@en ;
-    cids:hasName "Renewable Energy Expenditures"@en .
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> .
 
 :OI9278
     a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
+    org:hasName "Water Treatment Level" ;
+    skos:prefLabel "Water Treatment Level"@en ;
+    org:hasIdentifier "OI9278" ;
+    skos:notation "OI9278" ;
+    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/OI9278/> ;
     skos:note "Organizations should footnote all assumptions used, including source(s) of data."@en ;
     skos:scopeNote """This metric is intended to capture the level of water treatment enacted by the organization during the reporting period. Organizations may report the level of treatment for any water or effluents at the point of discharge, whether treated themselves onsite or sent to a third party for treatment. Both lagoon and mechanical treatment can be included, where appropriate.
 
@@ -7808,22 +8112,35 @@ This metric applies to all elements of water discharge, including used water, un
 Treating water aims to improve water’s quality to make it more acceptable for an end-use, such as drinking, industry, or safe return to the environment, by removing or reducing existing water contaminants. Increasing population pressure is increasing the amount of wastewater. Untreated effluent is discharged to water bodies and terrestrial ecosystems, leading to nutrient surpluses (which can cause anoxic conditions and species loss) and the presence of toxic, often non-degradable compounds in ecosystems. Untreated wastewater contains pathogens that can contaminate drinking water. Treating and recycling polluted water can help tackle water shortages.
 
 Minimum requirements for treatment might be specified by national, sub-national, or local legislation; in setting treatment levels, however, organizations should consider the impacts of their overall water discharge and the needs of other water users. For further guidance on treatment requirements, see SDG 6: Progress on Wastewater Treatment (https://apps.who.int/iris/bitstream/handle/10665/275967/9789241514897-eng.pdf?ua=1)."""@en ;
-    org:hasIdentifier "OI9278" ;
-    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/OI9278/> ;
-    cids:definedBy cids:giin ;
     cids:hasDescription """Describes the level of treatment that discharged water received during the reporting period.
 
 Choose all that apply:
 - Primary treatment
 - Secondary treatment
 - Tertiary treatment
+- No treatment""" ;
+    skos:definition """Describes the level of treatment that discharged water received during the reporting period.
+
+Choose all that apply:
+- Primary treatment
+- Secondary treatment
+- Tertiary treatment
 - No treatment"""@en ;
-    cids:hasName "Water Treatment Level"@en .
+
+    cids:definedBy cids:giin ;
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> .
 
 :OI9326
     a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
+    org:hasName "Water Conservation Strategy" ;
+    skos:prefLabel "Water Conservation Strategy"@en ;
+    cids:hasDescription "Indicates whether the organization implements a conservation strategy to reduce its water usage." ;
+    skos:definition "Indicates whether the organization implements a conservation strategy to reduce its water usage."@en ;
+    org:hasIdentifier "OI9326" ;
+    skos:notation "OI9326" ;
+    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/OI9326/> ;
     skos:note "Organizations should footnote the details of their strategy, including how it is being implemented, how water usage is recorded, and specific reduction targets. Organizations should also footnote any elements in the strategy that address risks associated with water withdrawal. See usage guidance for further information."@en ;
     skos:scopeNote """This metric is intended to capture detailed information on the organization’s water conservation strategy in place but does not evaluate the success with which that strategy is implemented.
 
@@ -7834,16 +8151,19 @@ Details of water conservation efforts to footnote include organizational or tech
 Mismanagement of water can pose risks to operational elements including brand, credibility, credit rating, insurance, and operating costs. Organizations should footnote their analysis of such risks and how they are being addressed.
 
 Organizations are encouraged to report the amount of water conserved using Water Conserved (OI4015) and Water Used: Total (OI1697), plus its related submetrics."""@en ;
-    org:hasIdentifier "OI9326" ;
-    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/OI9326/> ;
+
     cids:definedBy cids:giin ;
-    cids:hasDescription "Indicates whether the organization implements a conservation strategy to reduce its water usage."@en ;
-    cids:hasName "Water Conservation Strategy"@en .
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> .
 
 :OI9331
     a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
+    org:hasName "Anti-Discrimination Policy" ;
+    skos:prefLabel "Anti-Discrimination Policy"@en ;
+    org:hasIdentifier "OI9331" ;
+    skos:notation "OI9331" ;
+    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/OI9331/> ;
     skos:note "Organizations should footnote details about the policy, including the types of discrimination protected against and the systems in place to ensure compliance. See usage guidance for further information."@en ;
     skos:scopeNote """This metric is intended to capture the organization’s policy to combat discrimination in the workplace. Anti-discrimination policies, often called non-discrimination or equal employment opportunity policies, prohibit or penalize discrimination on the basis of age; color; disability; gender expression; gender identity; HIV status; marital status; national, social, or ethnic origin; participation in collective bargaining agreements; political opinion; race; religion; or sexual orientation. Such policies prohibit making recruitment, compensation, termination, promotion, or any other conditions of employment contingent upon any of the affiliations listed above for any employee or job applicant.
 
@@ -7851,9 +8171,6 @@ Organizations can refer to the following sources for additional information on b
 
 - Human Rights Campaign: Workplace Discrimination (http://www.hrc.org/resources/entry/Workplace-Discrimination-Policies-Laws-and-Legislation)
 - Human Rights Campaign: Equal Employment Opportunity (http://www.hrc.org/resources/entry/sample-equal-employment-opportunity-policies)"""@en ;
-    org:hasIdentifier "OI9331" ;
-    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/OI9331/> ;
-    cids:definedBy cids:giin ;
     cids:hasDescription """This metric is intended to capture detailed information on the organization’s water conservation strategy in place but does not evaluate the success with which that strategy is implemented.
 
 Water conservation encompasses efforts made to reduce the amount of water needed to execute current processes or tasks. This metric is not intended to capture overall reduced water consumption due to reduced organizational activities (e.g., partial outsourcing of production).
@@ -7862,82 +8179,125 @@ Details of water conservation efforts to footnote include organizational or tech
 
 Mismanagement of water can pose risks to operational elements including brand, credibility, credit rating, insurance, and operating costs. Organizations should footnote their analysis of such risks and how they are being addressed.
 
+Organizations are encouraged to report the amount of water conserved using Water Conserved (OI4015) and Water Used: Total (OI1697), plus its related submetrics.""" ;
+    skos:definition """This metric is intended to capture detailed information on the organization’s water conservation strategy in place but does not evaluate the success with which that strategy is implemented.
+
+Water conservation encompasses efforts made to reduce the amount of water needed to execute current processes or tasks. This metric is not intended to capture overall reduced water consumption due to reduced organizational activities (e.g., partial outsourcing of production).
+
+Details of water conservation efforts to footnote include organizational or technological innovations that allow a defined process or task to consume water more efficiently. These may include improved water-management practices, process redesign, the conversion and retrofitting of equipment (e.g., water-efficient equipment), or the elimination of unnecessary water use through changes in behavior. Organizations’ water-reduction strategies could also include seeking alternative water sources such as gray water or rainwater capture systems. Organizations should footnote which efforts are components of their strategy.
+
+Mismanagement of water can pose risks to operational elements including brand, credibility, credit rating, insurance, and operating costs. Organizations should footnote their analysis of such risks and how they are being addressed.
+
 Organizations are encouraged to report the amount of water conserved using Water Conserved (OI4015) and Water Used: Total (OI1697), plus its related submetrics."""@en ;
-    cids:hasName "Anti-Discrimination Policy"@en .
+
+    cids:definedBy cids:giin ;
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> .
 
 :OI9379
     a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
-    skos:scopeNote "This metric is intended to capture the organization’s lack of compliance with local regulations, if any. Organizations should consider reporting this metric in conjunction with Number of Legal and Regulatory Complaints (OI2165) and Value of Fines and Settlements (OI7639)."@en ;
+    org:hasName "Local Compliance" ;
+    skos:prefLabel "Local Compliance"@en ;
+    cids:hasDescription "Indicates whether the organization has been identified as out of compliance with any local labor, tax, or environmental regulations during the reporting period." ;
+    skos:definition "Indicates whether the organization has been identified as out of compliance with any local labor, tax, or environmental regulations during the reporting period."@en ;
     org:hasIdentifier "OI9379" ;
+    skos:notation "OI9379" ;
     prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/OI9379/> ;
+    skos:scopeNote "This metric is intended to capture the organization’s lack of compliance with local regulations, if any. Organizations should consider reporting this metric in conjunction with Number of Legal and Regulatory Complaints (OI2165) and Value of Fines and Settlements (OI7639)."@en ;
+
     cids:definedBy cids:giin ;
-    cids:hasDescription "Indicates whether the organization has been identified as out of compliance with any local labor, tax, or environmental regulations during the reporting period."@en ;
-    cids:hasName "Local Compliance"@en .
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> .
 
 :OI9412
     a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
+    org:hasName "Wastewater Treated" ;
+    skos:prefLabel "Wastewater Treated"@en ;
+    cids:hasDescription "Volume of wastewater treated by the organization during the reporting period." ;
+    skos:definition "Volume of wastewater treated by the organization during the reporting period."@en ;
+    org:hasIdentifier "OI9412" ;
+    skos:notation "OI9412" ;
+    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/OI9412/> ;
     skos:note "Organizations should footnote details about their wastewater treatment practices and all assumptions used. See usage guidance for further information."@en ;
     skos:scopeNote """This metric is intended to capture how much wastewater derived from an organization's productive or operational processes is treated.
 
 Wastewater, or water that carries wastes, is usually a mixture of water and dissolved or suspended solids. Treatment aims to improve the quality of the wastewater before the remaining water is discharged back to the environment by reducing suspended solids, biodegradable organics, pathogenic bacteria, and nutrients. Wastewater treatment typically takes place over three levels: primary (mechanical), secondary (biological), and tertiary. Organizations may further specify the wastewater's level of treatment by disaggregating this metric by Water Treatment Level (OI9278).
 
 In some contexts, this metric can serve as an indicator of whether the outcome being sought by an investor or organization is occurring (the WHAT dimension of impact). For more on the alignment of IRIS metrics to the five dimensions of impact, see IRIS+ and the Five Dimensions of Impact (https://iris.thegiin.org/document/iris-and-the-five-dimensions/). No single metric is sufficient to understand an impact; rather, metrics are selected as a set across all dimensions of impact. When possible, the selection of metrics to measure and describe the five dimensions should be based on best practice and evidence."""@en ;
-    org:hasIdentifier "OI9412" ;
-    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/OI9412/> ;
+
     cids:definedBy cids:giin ;
-    cids:hasDescription "Volume of wastewater treated by the organization during the reporting period."@en ;
-    cids:hasName "Wastewater Treated"@en .
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> .
 
 :OI9417
     a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
+    org:hasName "Community Health Resilience and Improvement Strategy" ;
+    skos:prefLabel "Community Health Resilience and Improvement Strategy"@en ;
+    cids:hasDescription "Indicates whether the organization implemented a community health resilience and improvement strategy during the reporting period to improve health outcomes and increase the resilience of target stakeholder populations." ;
+    skos:definition "Indicates whether the organization implemented a community health resilience and improvement strategy during the reporting period to improve health outcomes and increase the resilience of target stakeholder populations."@en ;
+    org:hasIdentifier "OI9417" ;
+    skos:notation "OI9417" ;
+    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/OI9417/> ;
     skos:note "Organizations should footnote all assumptions used."@en ;
     skos:scopeNote """This metric is intended to capture whether an organization has a health resilience and improvement strategy in place but does not evaluate the effectiveness of that strategy.
 
 Organizations are encouraged to footnote qualitative or narrative data regarding how their business activities may impact health outcomes, as well as steps taken to improve health outcomes and increase the resilience of target stakeholder populations."""@en ;
-    org:hasIdentifier "OI9417" ;
-    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/OI9417/> ;
+
     cids:definedBy cids:giin ;
-    cids:hasDescription "Indicates whether the organization implemented a community health resilience and improvement strategy during the reporting period to improve health outcomes and increase the resilience of target stakeholder populations."@en ;
-    cids:hasName "Community Health Resilience and Improvement Strategy"@en .
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> .
 
 :OI9478
     a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
+    org:hasName "Fair Dismissal Policy" ;
+    skos:prefLabel "Fair Dismissal Policy"@en ;
+    cids:hasDescription "Indicates whether the organization has a written policy and practice of ensuring fair dismissal of employees and a system to monitor compliance with this policy." ;
+    skos:definition "Indicates whether the organization has a written policy and practice of ensuring fair dismissal of employees and a system to monitor compliance with this policy."@en ;
+    org:hasIdentifier "OI9478" ;
+    skos:notation "OI9478" ;
+    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/OI9478/> ;
     skos:note "Organizations should footnote details about its fair dismissal policy. See usage guidance for further information."@en ;
     skos:scopeNote """This metric is intended to capture the organization’s policy on fair dismissal. The ILO defines the boundaries for what is considered fair dismissal. Reasons for dismissal which are considered unfair dismissal include those based on union membership or participation in union activities, those in response to filing a complaint against an employer, or those based on race, color, sex, marital status, family responsibilities, pregnancy, religion, political opinion, national extraction or social origin, temporary absence due to illness, or absence from work during maternity leave.
 
 Organizations can refer to the following source for further guidance: International Labour Organization, Termination of Employment at the Initiative of the Employer (http://www.ilo.org/public/libdoc/ilo/1982/82B09_147_engl.pdf)
 
 Organizations are encouraged to report this metric in conjunction with Employee Involuntary Turnover Rate (OI3989) and Employee Voluntary Turnover Rate (OI1638)."""@en ;
-    org:hasIdentifier "OI9478" ;
-    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/OI9478/> ;
+
     cids:definedBy cids:giin ;
-    cids:hasDescription "Indicates whether the organization has a written policy and practice of ensuring fair dismissal of employees and a system to monitor compliance with this policy."@en ;
-    cids:hasName "Fair Dismissal Policy"@en .
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> .
 
 :OI9485
     a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
+    org:hasName "Diverse Representation Policy" ;
+    skos:prefLabel "Diverse Representation Policy"@en ;
+    cids:hasDescription "Indicates whether the company has a written policy on diverse representation and a system to monitor compliance with this policy." ;
+    skos:definition "Indicates whether the company has a written policy on diverse representation and a system to monitor compliance with this policy."@en ;
+    org:hasIdentifier "OI9485" ;
+    skos:notation "OI9485" ;
+    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/OI9485/> ;
     skos:note "Organizations should footnote at what levels of the organization this policy applies (including board of directors, C-suite, and management levels), as well as what mechanisms are in place to enforce this policy."@en ;
     skos:scopeNote "This metric is intended to capture the organization’s policy on diverse representation. Organizations using this metric should consider whether their policy accounts for the representation of women; members of groups historically marginalized on the basis of race and/or ethnicity, including people of color; gender and sexual minorities; and people living with disabilities."@en ;
-    org:hasIdentifier "OI9485" ;
-    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/OI9485/> ;
+
     cids:definedBy cids:giin ;
-    cids:hasDescription "Indicates whether the company has a written policy on diverse representation and a system to monitor compliance with this policy."@en ;
-    cids:hasName "Diverse Representation Policy"@en .
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> .
 
 :OI9604
     a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
+    org:hasName "Greenhouse Gas Emissions: Indirect (Scope 2)" ;
+    skos:prefLabel "Greenhouse Gas Emissions: Indirect (Scope 2)"@en ;
+    cids:hasDescription "Amount of greenhouse gases (GHG) emitted from indirect emissions sources as a result of the organization's operations during the reporting period." ;
+    skos:definition "Amount of greenhouse gases (GHG) emitted from indirect emissions sources as a result of the organization's operations during the reporting period."@en ;
+    org:hasIdentifier "OI9604" ;
+    skos:notation "OI9604" ;
+    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/OI9604/> ;
     skos:note "Organizations should footnote all assumptions used, including detailed information on their calculation methodology and source of data. See usage guidance for further information."@en ;
     skos:scopeNote """This metric is intended to capture the amount of greenhouse gases emitted indirectly by the organization from the generation of purchased energy during the reporting period. For tools that may be helpful in calculating this and related metrics, see GHG Protocol Calculators (https://ghgprotocol.org/calculation-tools).
 
@@ -7951,16 +8311,21 @@ the following:
 In the context of this metric, indirect emissions refer to GHG emissions from the generation of electricity, heat, or steam that is imported and consumed by the reporting organization.
 
 Organizations are also encouraged to report Greenhouse Gas Emissions Strategy (OI8237)."""@en ;
-    org:hasIdentifier "OI9604" ;
-    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/OI9604/> ;
+
     cids:definedBy cids:giin ;
-    cids:hasDescription "Amount of greenhouse gases (GHG) emitted from indirect emissions sources as a result of the organization's operations during the reporting period."@en ;
-    cids:hasName "Greenhouse Gas Emissions: Indirect (Scope 2)"@en .
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> .
 
 :OI9624
     a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
+    org:hasName "Energy Generated for Use: Total" ;
+    skos:prefLabel "Energy Generated for Use: Total"@en ;
+    cids:hasDescription "Amount of energy generated and consumed by the organization during the reporting period." ;
+    skos:definition "Amount of energy generated and consumed by the organization during the reporting period."@en ;
+    org:hasIdentifier "OI9624" ;
+    skos:notation "OI9624" ;
+    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/OI9624/> ;
     skos:note "Organizations should footnote all assumptions used."@en ;
     skos:scopeNote """This metric is intended to capture the amount of energy produced and used by the organization. For example, if an organization installed solar panels at its factory, it would report the amount of energy produced and used from those panels.
 
@@ -7970,56 +8335,74 @@ Adding this metric to Energy Purchased: Total (OI8825) should equal the total en
 Organizations wishing to report on the amount of energy generated for sale should use Energy Generated for Sale: Total (PI8706).
 
 In some contexts, this metric can serve as an indicator of whether the outcome being sought by an investor or organization is occurring (the WHAT dimension of impact). For more on the alignment of IRIS metrics to the five dimensions of impact, see IRIS+ and the Five Dimensions of Impact (https://iris.thegiin.org/document/iris-and-the-five-dimensions/). No single metric is sufficient to understand an impact; rather, metrics are selected as a set across all dimensions of impact. When possible, the selection of metrics to measure and describe the five dimensions should be based on best practice and evidence."""@en ;
-    org:hasIdentifier "OI9624" ;
-    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/OI9624/> ;
+
     cids:definedBy cids:giin ;
-    cids:hasDescription "Amount of energy generated and consumed by the organization during the reporting period."@en ;
-    cids:hasName "Energy Generated for Use: Total"@en .
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> .
 
 :OI9650
     a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
+    org:hasName "Forced Labor Policy" ;
+    skos:prefLabel "Forced Labor Policy"@en ;
+    cids:hasDescription "Indicates whether the organization has a written policy against forced labor and a system to monitor compliance of this policy." ;
+    skos:definition "Indicates whether the organization has a written policy against forced labor and a system to monitor compliance of this policy."@en ;
+    org:hasIdentifier "OI9650" ;
+    skos:notation "OI9650" ;
+    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/OI9650/> ;
     skos:note "Organizations should footnote the relevant details of their forced labor policy, including how it is enforced."@en ;
     skos:scopeNote """This metric is intended to capture the organization’s policy on forced labor, which is any work or service which individuals are forced to do against their will under the threat of punishment. Forced labor takes different forms, including debt bondage, trafficking, and other forms of modern slavery.
 
 Organizations can refer to the following source for further guidance: International Labour Organization standards on forced labor (http://www.ilo.org/global/topics/forced-labour/lang--en/index.htm)."""@en ;
-    org:hasIdentifier "OI9650" ;
-    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/OI9650/> ;
+
     cids:definedBy cids:giin ;
-    cids:hasDescription "Indicates whether the organization has a written policy against forced labor and a system to monitor compliance of this policy."@en ;
-    cids:hasName "Forced Labor Policy"@en .
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> .
 
 :OI9677
     a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
+    org:hasName "Permanent Employee Wages: Total" ;
+    skos:prefLabel "Permanent Employee Wages: Total"@en ;
+    cids:hasDescription "Value of wages (including bonuses and excluding benefits) paid to all full- and part-time employees of the organization during the reporting period." ;
+    skos:definition "Value of wages (including bonuses and excluding benefits) paid to all full- and part-time employees of the organization during the reporting period."@en ;
+    org:hasIdentifier "OI9677" ;
+    skos:notation "OI9677" ;
+    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/OI9677/> ;
     skos:note "Organizations should footnote all assumptions used."@en ;
     skos:scopeNote "This metric is intended to capture pre-tax wages and salaries paid to the organization’s full- and part-time employees and should include neither benefits nor payroll expenses. This metric should exclude Temporary Employee Wages (OI4202)."@en ;
-    org:hasIdentifier "OI9677" ;
-    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/OI9677/> ;
+
     cids:definedBy cids:giin ;
-    cids:hasDescription "Value of wages (including bonuses and excluding benefits) paid to all full- and part-time employees of the organization during the reporting period."@en ;
-    cids:hasName "Permanent Employee Wages: Total"@en .
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> .
 
 :OI9767
     a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
+    org:hasName "Wage Premium" ;
+    skos:prefLabel "Wage Premium"@en ;
+    cids:hasDescription "Ratio of the additional average wage paid to employees of the organization compared to the average wage paid for a similar job in a similar industry or category and organization in the local market as of the end of the reporting period." ;
+    skos:definition "Ratio of the additional average wage paid to employees of the organization compared to the average wage paid for a similar job in a similar industry or category and organization in the local market as of the end of the reporting period."@en ;
+    org:hasIdentifier "OI9767" ;
+    skos:notation "OI9767" ;
+    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/OI9767/> ;
     skos:note "Organizations should footnote the specific position(s) for which the wage premium applies, as well as assumptions and sources related to the comparable position and similar organization. See usage guidance for further information."@en ;
     skos:scopeNote """This metric is intended to capture the extent to which the organization pays above-market wages by position. Organizations should use the average wage for the specific position analyzed. To source data points for average wages paid to employees in comparable positions at similar organizations, organizations can refer to resources issued by independent, third-party research bodies within their respective countries of operation. For example, organizations operating in the United States may refer to wage data by area and occupation published by the U.S. Bureau of Labor Statistics (http://www.bls.gov/bls/blswage.htm). Additional resources include The World Bank Group's WDR2013 Occupational Wages around the World report (http://data.worldbank.org/data-catalog/occupational-wages), WageIndicator.org (http://www.wageindicator.org/main/salary/Salarycheckers), and PayScale.com (https://www.payscale.com/), among others.
 
 In some circumstances, this metric can help describe the CONTRIBUTION an enterprise likely had to the degree of change (depth) in outcome that the stakeholders experienced, relative to what the market or social system would have done anyway. For more on the alignment of IRIS metrics to the five dimensions of impact, see IRIS+ and the Five Dimensions of Impact (https://iris.thegiin.org/document/iris-and-the-five-dimensions/). No single metric is sufficient to understand an impact; rather, metrics are selected as a set across all dimensions of impact. When possible, the selection of metrics to measure and describe the five dimensions should be based on best practice and evidence."""@en ;
-    org:hasIdentifier "OI9767" ;
-    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/OI9767/> ;
+
     cids:definedBy cids:giin ;
-    cids:hasDescription "Ratio of the additional average wage paid to employees of the organization compared to the average wage paid for a similar job in a similar industry or category and organization in the local market as of the end of the reporting period."@en ;
-    cids:hasName "Wage Premium"@en .
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> .
 
 :OI9839
     a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
+    org:hasName "Greenhouse Gas Emissions Mitigation Types" ;
+    skos:prefLabel "Greenhouse Gas Emissions Mitigation Types"@en ;
+    org:hasIdentifier "OI9839" ;
+    skos:notation "OI9839" ;
+    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/OI9839/> ;
     skos:note "Organizations should footnote all assumptions used, including source of data."@en ;
     skos:scopeNote """This metric is intended to capture the different types of GHG emissions mitigation.
 
@@ -8028,9 +8411,6 @@ Organizations should use this metric in conjunction with Greenhouse Gas Emission
 The American Carbon Registry (ACR) develops standards for categorizing ways in which greenhouse gas emissions can be reduced, avoided, and sequestered across organizations’ operational footprint. For more information, see the ACR Standards (https://americancarbonregistry.org/carbon-accounting/standards-methodologies).
 
 For GHG emissions related to products, organizations may refer to Greenhouse Gas Emissions of Product (PD9427) and Greenhouse Gas Emissions of Product Replaced (PD2243). Additional IRIS metrics exist for the following types of emissions mitigation included in this metric: Greenhouse Gas Emissions Avoided Due to Carbon Offsets Purchased (OI6774) and Greenhouse Gas Emissions Avoided Due to Carbon Offsets Sold (PI2787)."""@en ;
-    org:hasIdentifier "OI9839" ;
-    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/OI9839/> ;
-    cids:definedBy cids:giin ;
     cids:hasDescription """Describes types of greenhouse gas (GHG) emissions mitigation applied by the organization during the reporting period.
 
 Choose all that apply:
@@ -8045,62 +8425,101 @@ Choose all that apply:
 - GHG emissions avoided due to carbon offsets purchased
 - GHG emissions sequestered from land use, land use change, and forestry
 - GHG emissions sequestered from Carbon Capture and Storage
+- Other (describe)""" ;
+    skos:definition """Describes types of greenhouse gas (GHG) emissions mitigation applied by the organization during the reporting period.
+
+Choose all that apply:
+
+- GHG emission reductions from fuel combustion
+- GHG emission reductions from industrial processes (non-combustion, chemical reaction, fugitive, other)
+- GHG emission reductions from land use, land use change, and forestry
+- GHG emissions reductions from livestock
+- GHG emissions reductions from waste handling and disposal
+- GHG emissions avoided from product replacements
+- GHG emissions avoided due to carbon offsets sold
+- GHG emissions avoided due to carbon offsets purchased
+- GHG emissions sequestered from land use, land use change, and forestry
+- GHG emissions sequestered from Carbon Capture and Storage
 - Other (describe)"""@en ;
-    cids:hasName "Greenhouse Gas Emissions Mitigation Types"@en .
+
+    cids:definedBy cids:giin ;
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> .
 
 :OI9847
     a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
+    org:hasName "Waste Disposed: Composted" ;
+    skos:prefLabel "Waste Disposed: Composted"@en ;
+    cids:hasDescription "Amount of waste disposed by the organization through composting during the reporting period." ;
+    skos:definition "Amount of waste disposed by the organization through composting during the reporting period."@en ;
+    org:hasIdentifier "OI9847" ;
+    skos:notation "OI9847" ;
+    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/OI9847/> ;
     skos:note "Organizations should footnote all assumptions used."@en ;
     skos:scopeNote """This metric is intended to capture the amount of waste the organization composted during the reporting period.
 
 In some contexts, this metric can serve as an indicator of whether the outcome being sought by an investor or organization is occurring (the WHAT dimension of impact). For more on the alignment of IRIS metrics to the five dimensions of impact, see IRIS+ and the Five Dimensions of Impact (https://iris.thegiin.org/document/iris-and-the-five-dimensions/). No single metric is sufficient to understand an impact; rather, metrics are selected as a set across all dimensions of impact. When possible, the selection of metrics to measure and describe the five dimensions should be based on best practice and evidence."""@en ;
-    org:hasIdentifier "OI9847" ;
-    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/OI9847/> ;
+
     cids:definedBy cids:giin ;
-    cids:hasDescription "Amount of waste disposed by the organization through composting during the reporting period."@en ;
-    cids:hasName "Waste Disposed: Composted"@en .
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> .
 
 :OI9891
     a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
+    org:hasName "Pesticide Use" ;
+    skos:prefLabel "Pesticide Use"@en ;
+    cids:hasDescription "Amount of pesticides used during the reporting period on land area directly controlled by the organization." ;
+    skos:definition "Amount of pesticides used during the reporting period on land area directly controlled by the organization."@en ;
+    org:hasIdentifier "OI9891" ;
+    skos:notation "OI9891" ;
+    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/OI9891/> ;
     skos:note "Organizations should footnote the classification of pesticides used by hazard level, as listed by the World Health Organization’s (WHO) Acute Toxicity Hazard Categories. Organizations should also footnote the source of data. See glossary term and usage guidance for further information."@en ;
     skos:scopeNote """This metric is intended to capture the quantity of pesticides used during the reporting period on land directly controlled by the organization. Pesticide use refers to the use of insecticides, fungicides, herbicides, disinfectants, and any other substance intended to prevent, destroy, attract, repel, or control any pest, including unwanted species of plants or animals, during the production, storage, transport, distribution, and processing of food, agricultural commodities, and animal feeds that may be administered to animals for the control of parasites.
 
 Organizations can refer to the glossary for additional information on pesticide use and the WHO Acute Toxicity Hazard Categories. Organizations that use WHO Class Ia (extremely hazardous) and Ib (highly hazardous) pesticides should footnote additional details on the relevant land (for example, area applied and crops present) and pesticide use."""@en ;
-    org:hasIdentifier "OI9891" ;
-    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/OI9891/> ;
+
     cids:definedBy cids:giin ;
-    cids:hasDescription "Amount of pesticides used during the reporting period on land area directly controlled by the organization."@en ;
-    cids:hasName "Pesticide Use"@en .
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> .
 
 :OI9948
     a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
+    org:hasName "Part-time Wages: Total" ;
+    skos:prefLabel "Part-time Wages: Total"@en ;
+    cids:hasDescription "Value of wages (including bonuses and excluding benefits) paid to all part-time employees of the organization during the reporting period." ;
+    skos:definition "Value of wages (including bonuses and excluding benefits) paid to all part-time employees of the organization during the reporting period."@en ;
+    org:hasIdentifier "OI9948" ;
+    skos:notation "OI9948" ;
+    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/OI9948/> ;
     skos:note "Organizations should footnote all assumptions used."@en ;
     skos:scopeNote "This metric is intended to capture pre-tax wages and salaries paid to the organization's part-time employees and should include neither benefits nor payroll expenses. This metric should exclude Temporary Employee Wages (OI4202)."@en ;
-    org:hasIdentifier "OI9948" ;
-    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/OI9948/> ;
+
     cids:definedBy cids:giin ;
-    cids:hasDescription "Value of wages (including bonuses and excluding benefits) paid to all part-time employees of the organization during the reporting period."@en ;
-    cids:hasName "Part-time Wages: Total"@en .
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> .
 
 :OI9956
     a skos:Concept, cids:Code ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
+    org:hasName "Part-time Wages: Historically Marginalized" ;
+    skos:prefLabel "Part-time Wages: Historically Marginalized"@en ;
+    cids:hasDescription "Value of wages (including bonuses and excluding benefits) paid to all part-time employees of the organization during the reporting period who belong to groups historically marginalized on the basis of race and/or ethnicity." ;
+    skos:definition "Value of wages (including bonuses and excluding benefits) paid to all part-time employees of the organization during the reporting period who belong to groups historically marginalized on the basis of race and/or ethnicity."@en ;
+    org:hasIdentifier "OI9956" ;
+    skos:notation "OI9956" ;
+    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/OI9956/> ;
     skos:note "Organizations should footnote all assumptions used, including their categorization of historically marginalized groups. See usage guidance for further information."@en ;
     skos:scopeNote """This metric is intended to capture pre-tax wages and salaries paid to the organization's part-time employees who belong to historically marginalized groups and should include neither benefits nor payroll expenses. This metric should exclude Temporary Employee Wages (OI4202).
 
 The categorization of historically marginalized groups varies with location and context. With no internationally agreed-upon definition as to which groups constitute historically marginalized on the basis of race and/or ethnicity, if well-established local policies exist (as in South Africa, with the Broad Based Black Economic Empowerment [BBBEE] definition of historically marginalized, or in India, based on backward caste), organizations should refer to these local guidelines to identify groups historically marginalized on the basis of race and/or ethnicity. Otherwise, and wherever appropriate, organizations should provide additional detail regarding their tailored methodology for defining these groups."""@en ;
-    org:hasIdentifier "OI9956" ;
-    prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/OI9956/> ;
+
     cids:definedBy cids:giin ;
-    cids:hasDescription "Value of wages (including bonuses and excluding benefits) paid to all part-time employees of the organization during the reporting period who belong to groups historically marginalized on the basis of race and/or ethnicity."@en ;
-    cids:hasName "Part-time Wages: Historically Marginalized"@en .
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> .
 
 :PD0754
     a skos:Concept, cids:Code ;
