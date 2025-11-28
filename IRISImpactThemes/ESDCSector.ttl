@@ -1,4 +1,4 @@
-@base <https://codelist.commonapproach.org/RallyImpactArea> .
+@base <https://codelist.commonapproach.org/ESDCSector> .
 @prefix : <#> .
 
 @prefix cids: <https://ontology.commonapproach.org/cids#> .
@@ -21,33 +21,9 @@
     dcterms:date "28-11-2025"^^xsd:date ;
     owl:versionInfo "1.0" ;
 
-    skos:prefLabel "Rally Impact Areas"@en ;
-    dcterms:title "Rally Impact Areas"@en ;
-    dcterms:description "An RDF vocabulary of Rally Impact Areas."@en .
-
-:ArtsandCulture
-    a skos:Concept, cids:Code ;
-    org:hasName "Arts and Culture" ;
-    skos:prefLabel "Arts and Culture"@en ;
-    org:hasIdentifier "ArtsandCulture" ;
-    skos:notation "ArtsandCulture" ;
-
-    cids:definedBy cids:ac
-    cids:hasSpecification <> ;
-    rdfs:isDefinedBy <> ;
-    skos:inScheme <> .
-
-:CommunityDevelopment
-    a skos:Concept, cids:Code ;
-    org:hasName "Community Development" ;
-    skos:prefLabel "Community Development"@en ;
-    org:hasIdentifier "CommunityDevelopment" ;
-    skos:notation "CommunityDevelopment" ;
-
-    cids:definedBy cids:ac
-    cids:hasSpecification <> ;
-    rdfs:isDefinedBy <> ;
-    skos:inScheme <> .
+    skos:prefLabel "ESDC Sectors"@en ;
+    dcterms:title "ESDC Sectors"@en ;
+    dcterms:description "An RDF vocabulary of ESDC Sectors."@en .
 
 :Other
     a skos:Concept, cids:Code ;
