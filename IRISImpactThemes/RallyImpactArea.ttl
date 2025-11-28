@@ -1,0 +1,116 @@
+@base <https://codelist.commonapproach.org/RallyImpactArea> .
+@prefix : <#> .
+
+@prefix cids: <https://ontology.commonapproach.org/cids#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix voaf: <http://purl.org/vocommons/voaf#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix iriscategory: <https://ontology.commonapproach.org/IRISImpactCategory#> .
+
+<>
+    a voaf:Vocabulary, owl:Ontology, skos:ConceptScheme ;
+    owl:imports <https://ontology.commonapproach.org/cids> ;
+
+    dcterms:creator cids:ac ;
+    dcterms:date "28-11-2025"^^xsd:date ;
+    owl:versionInfo "1.0" ;
+
+    skos:prefLabel "Rally Impact Areas"@en ;
+    dcterms:title "Rally Impact Areas"@en ;
+    dcterms:description "An RDF vocabulary of Rally Impact Areas."@en .
+
+:ArtsandCulture
+    a skos:Concept, cids:Code ;
+    org:hasName "Arts and Culture" ;
+    skos:prefLabel "Arts and Culture"@en ;
+    org:hasIdentifier "ArtsandCulture" ;
+    skos:notation "ArtsandCulture" ;
+
+    cids:definedBy cids:ac
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> .
+
+:CommunityDevelopment
+    a skos:Concept, cids:Code ;
+    org:hasName "Community Development" ;
+    skos:prefLabel "Community Development"@en ;
+    org:hasIdentifier "CommunityDevelopment" ;
+    skos:notation "CommunityDevelopment" ;
+
+    cids:definedBy cids:ac
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> .
+
+:Other
+    a skos:Concept, cids:Code ;
+    org:hasName "Other" ;
+    skos:prefLabel "Other"@en ;
+    org:hasIdentifier "Other" ;
+    skos:notation "Other" ;
+
+    cids:definedBy cids:ac
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> .
+
+iriscategory:Agriculture
+    skos:inScheme <> .
+
+iriscategory:Air
+    skos:inScheme <> .
+
+iriscategory:BiodiversityandEcosystems
+    skos:inScheme <> .
+
+iriscategory:Climate
+    skos:inScheme <> .
+
+iriscategory:DiversityandInclusion
+    skos:inScheme <> .
+
+iriscategory:Education
+    skos:inScheme <> .
+
+iriscategory:Employment
+    skos:inScheme <> .
+
+iriscategory:Energy
+    skos:inScheme <> .
+
+iriscategory:FinancialServices
+    skos:inScheme <> .
+
+iriscategory:Health
+    skos:inScheme <> .
+
+iriscategory:Infrastructure
+    skos:inScheme <> .
+
+iriscategory:Land
+    skos:inScheme <> .
+
+iriscategory:OceansandCoastalZones
+    skos:inScheme <> .
+
+iriscategory:Pollution
+    skos:inScheme <> .
+
+iriscategory:RealEstate
+    skos:inScheme <> .
+
+iriscategory:Waste
+    skos:inScheme <> .
+
+iriscategory:Water
+    skos:inScheme <> .
+
+iriscategory:CrossCategory
+    skos:inScheme <> .
