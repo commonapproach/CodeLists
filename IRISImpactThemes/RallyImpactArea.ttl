@@ -32,7 +32,7 @@
     org:hasIdentifier "ArtsandCulture" ;
     skos:notation "ArtsandCulture" ;
 
-    cids:definedBy cids:ac
+    cids:definedBy cids:ac ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
     skos:inScheme <> .
@@ -44,7 +44,7 @@
     org:hasIdentifier "CommunityDevelopment" ;
     skos:notation "CommunityDevelopment" ;
 
-    cids:definedBy cids:ac
+    cids:definedBy cids:ac ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
     skos:inScheme <> .
@@ -56,7 +56,7 @@
     org:hasIdentifier "Other" ;
     skos:notation "Other" ;
 
-    cids:definedBy cids:ac
+    cids:definedBy cids:ac ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
     skos:inScheme <> .

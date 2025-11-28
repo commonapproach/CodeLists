@@ -32,7 +32,7 @@
     org:hasIdentifier "Other" ;
     skos:notation "Other" ;
 
-    cids:definedBy cids:ac
+    cids:definedBy cids:ac ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
     skos:inScheme <> .

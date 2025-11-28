@@ -87,7 +87,7 @@
 
 :ClimateResilienceandAdaptation
     a skos:Concept, cids:Code ;
-    skos:broader irisctegory:Climate ;
+    skos:broader iriscategory:Climate ;
 
     org:hasName "Climate Resilience and Adaptation" ;
     skos:prefLabel "Climate Resilience and Adaptation"@en ;
@@ -357,7 +357,7 @@
 
 :SustainableForestry
     a skos:Concept, cids:Code ;
-    skos:broader iriscategory:Land
+    skos:broader iriscategory:Land ;
 
     org:hasName "Sustainable Forestry" ;
     skos:prefLabel "Sustainable Forestry"@en ;
@@ -372,7 +372,7 @@
 
 :SustainableLandManagement
     a skos:Concept, cids:Code ;
-    skos:broader iriscategory:Land
+    skos:broader iriscategory:Land ;
 
     org:hasName "Sustainable Land Management" ;
     skos:prefLabel "Sustainable Land Management"@en ;
@@ -387,7 +387,7 @@
 
 :SustainableWaterManagement
     a skos:Concept, cids:Code ;
-    skos:broader iriscategory:Water
+    skos:broader iriscategory:Water ;
 
     org:hasName "Sustainable Water Management" ;
     skos:prefLabel "Sustainable Water Management"@en ;
@@ -402,7 +402,7 @@
 
 :WasteManagement
     a skos:Concept, cids:Code ;
-    skos:broader iriscategory:Waste
+    skos:broader iriscategory:Waste ;
 
     org:hasName "Waste Management" ;
     skos:prefLabel "Waste Management"@en ;
@@ -417,7 +417,7 @@
 
 :WaterSanitationandHygiene
     a skos:Concept, cids:Code ;
-    skos:broader iriscategory:Water
+    skos:broader iriscategory:Water ;
 
     org:hasName "Water Sanitation and Hygiene (WASH)" ;
     skos:prefLabel "Water Sanitation and Hygiene (WASH)"@en ;
@@ -432,7 +432,7 @@
 
 :GenderLens
     a skos:Concept, cids:Code ;
-    skos:broader iriscategory:DiversityandInclusion
+    skos:broader iriscategory:DiversityandInclusion ;
 
     org:hasName "Gender Lens" ;
     skos:prefLabel "Gender Lens"@en ;
