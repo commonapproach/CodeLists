@@ -1,209 +1,266 @@
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@base <https://codelist.commonapproach.org/StatsCanSector> .
+@prefix : <#> .
+
 @prefix cids: <https://ontology.commonapproach.org/cids#> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
-@prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix org: <http://www.w3.org/ns/org#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
-@prefix vann: <http://purl.org/vocab/vann/> .
-@prefix : <https://codelist.commonapproach.org/codeLists/StatsCanSector#> .
+@prefix voaf: <http://purl.org/vocommons/voaf#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://codelist.commonapproach.org/codeLists/StatsCanSector>
+<>
+    a voaf:Vocabulary, owl:Ontology, skos:ConceptScheme ;
+    owl:imports <https://ontology.commonapproach.org/owl/cids> ;
+
     dcterms:creator cids:ac ;
-    dcterms:date "03-10-2024" ;
-    dcterms:description "A codelist vocabulary of Sectors as defined by Statistics Canada."@en ;
-    dcterms:title "Statistics Canada Sectors"@en ;
-    vann:preferredNamespacePrefix "StatsCanSector" ;
-    vann:preferredNamespaceUri <https://codelist.commonapproach.org/codeLists/StatsCanSector#> ;
-    a <http://purl.org/vocommons/voafVocabulary>, owl:Ontology ;
-    rdfs:label "Statistics Canada Sectors" ;
-    owl:imports <http://www.w3.org/2006/time>, <https://ontology.commonapproach.org/owl/cids> ;
-    owl:versionInfo "1.0" ;
-    foaf:name "Statistics Canada Sectors" ;
-    cids:hasName "Statistics Canada Sectors" .
+    dcterms:date "2025-11-28"^^xsd:date ;
+    owl:versionInfo "2.0" ;
 
-:dataset
-    a skos:ConceptScheme .
+    skos:prefLabel "Statistics Canada Sectors"@en ;
+    dcterms:title "Statistics Canada Sectors"@en ;
+    dcterms:description "A codelist vocabulary of Sectors as defined by Statistics Canada."@en .
 
 :sec1
-    a skos:Concept, cids:Code, cids:Sector ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/StatsCanSector#> ;
-    rdfs:label "Agriculture, forestry, fishing and hunting"@en ;
-    skos:inScheme :dataset ;
+    a cids:Sector ;
+    org:hasName "Agriculture, forestry, fishing and hunting" ;
+    skos:prefLabel "Agriculture, forestry, fishing and hunting"@en ;
+    org:hasIdentifier "11" ;
+    skos:notation "11" ;
+
     cids:definedBy cids:statsCan ;
-    cids:hasIdentifier "11" ;
-    cids:hasName "Agriculture, forestry, fishing and hunting"@en .
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> .
 
 :sec10
-    a skos:Concept, cids:Code, cids:Sector ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/StatsCanSector#> ;
-    rdfs:label "Finance and insurance"@en ;
-    skos:inScheme :dataset ;
+    a cids:Sector ;
+    org:hasName "Finance and insurance" ;
+    skos:prefLabel "Finance and insurance"@en ;
+    org:hasIdentifier "52" ;
+    skos:notation "52" ;
+
     cids:definedBy cids:statsCan ;
-    cids:hasIdentifier "52" ;
-    cids:hasName "Finance and insurance"@en .
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> .
 
 :sec11
-    a skos:Concept, cids:Code, cids:Sector ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/StatsCanSector#> ;
-    rdfs:label "Real estate and rental and leasing"@en ;
-    skos:inScheme :dataset ;
+    a cids:Sector ;
+    org:hasName "Real estate and rental and leasing" ;
+    skos:prefLabel "Real estate and rental and leasing"@en ;
+    org:hasIdentifier "53" ;
+    skos:notation "53" ;
+
     cids:definedBy cids:statsCan ;
-    cids:hasIdentifier "53" ;
-    cids:hasName "Real estate and rental and leasing"@en .
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> .
 
 :sec12
-    a skos:Concept, cids:Code, cids:Sector ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/StatsCanSector#> ;
-    rdfs:label "Professional, scientific and technical services"@en ;
-    skos:inScheme :dataset ;
+    a cids:Sector ;
+    org:hasName "Professional, scientific and technical services" ;
+    skos:prefLabel "Professional, scientific and technical services"@en ;
+    org:hasIdentifier "54" ;
+    skos:notation "54" ;
+
     cids:definedBy cids:statsCan ;
-    cids:hasIdentifier "54" ;
-    cids:hasName "Professional, scientific and technical services"@en .
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> .
 
 :sec13
-    a skos:Concept, cids:Code, cids:Sector ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/StatsCanSector#> ;
-    rdfs:label "Management of companies and enterprises"@en ;
-    skos:inScheme :dataset ;
+    a cids:Sector ;
+    org:hasName "Management of companies and enterprises" ;
+    skos:prefLabel "Management of companies and enterprises"@en ;
+    org:hasIdentifier "55" ;
+    skos:notation "55" ;
+
     cids:definedBy cids:statsCan ;
-    cids:hasIdentifier "55" ;
-    cids:hasName "Management of companies and enterprises"@en .
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> .
 
 :sec14
-    a skos:Concept, cids:Code, cids:Sector ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/StatsCanSector#> ;
-    rdfs:label "Administrative and support, waste management and remediation services"@en ;
-    skos:inScheme :dataset ;
+    a cids:Sector ;
+    org:hasName "Administrative and support, waste management and remediation services" ;
+    skos:prefLabel "Administrative and support, waste management and remediation services"@en ;
+    org:hasIdentifier "56" ;
+    skos:notation "56" ;
+
     cids:definedBy cids:statsCan ;
-    cids:hasIdentifier "56" ;
-    cids:hasName "Administrative and support, waste management and remediation services"@en .
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> .
 
 :sec15
-    a skos:Concept, cids:Code, cids:Sector ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/StatsCanSector#> ;
-    rdfs:label "Educational services"@en ;
-    skos:inScheme :dataset ;
+    a cids:Sector ;
+    org:hasName "Educational services" ;
+    skos:prefLabel "Educational services"@en ;
+    org:hasIdentifier "61" ;
+    skos:notation "61" ;
+
     cids:definedBy cids:statsCan ;
-    cids:hasIdentifier "61" ;
-    cids:hasName "Educational services"@en .
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> .
 
 :sec16
-    a skos:Concept, cids:Code, cids:Sector ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/StatsCanSector#> ;
-    rdfs:label "Health care and social assistance"@en ;
-    skos:inScheme :dataset ;
+    a cids:Sector ;
+    org:hasName "Health care and social assistance" ;
+    skos:prefLabel "Health care and social assistance"@en ;
+    org:hasIdentifier "62" ;
+    skos:notation "62" ;
+
     cids:definedBy cids:statsCan ;
-    cids:hasIdentifier "62" ;
-    cids:hasName "Health care and social assistance"@en .
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> .
 
 :sec17
-    a skos:Concept, cids:Code, cids:Sector ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/StatsCanSector#> ;
-    rdfs:label "Arts, entertainment and recreation"@en ;
-    skos:inScheme :dataset ;
+    a cids:Sector ;
+    org:hasName "Arts, entertainment and recreation" ;
+    skos:prefLabel "Arts, entertainment and recreation"@en ;
+    org:hasIdentifier "71" ;
+    skos:notation "71" ;
+
     cids:definedBy cids:statsCan ;
-    cids:hasIdentifier "71" ;
-    cids:hasName "Arts, entertainment and recreation"@en .
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> .
 
 :sec18
-    a skos:Concept, cids:Code, cids:Sector ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/StatsCanSector#> ;
-    rdfs:label "Accommodation and food services"@en ;
-    skos:inScheme :dataset ;
+    a cids:Sector ;
+    org:hasName "Accommodation and food services" ;
+    skos:prefLabel "Accommodation and food services"@en ;
+    org:hasIdentifier "72" ;
+    skos:notation "72" ;
+
     cids:definedBy cids:statsCan ;
-    cids:hasIdentifier "72" ;
-    cids:hasName "Accommodation and food services"@en .
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> .
 
 :sec19
-    a skos:Concept, cids:Code, cids:Sector ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/StatsCanSector#> ;
-    rdfs:label "Other services (except public administration)"@en ;
-    skos:inScheme :dataset ;
+    a cids:Sector ;
+    org:hasName "Other services (except public administration)" ;
+    skos:prefLabel "Other services (except public administration)"@en ;
+    org:hasIdentifier "81" ;
+    skos:notation "81" ;
+
     cids:definedBy cids:statsCan ;
-    cids:hasIdentifier "81" ;
-    cids:hasName "Other services (except public administration)"@en .
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> .
 
 :sec2
-    a skos:Concept, cids:Code, cids:Sector ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/StatsCanSector#> ;
-    rdfs:label "Mining, quarrying, and oil and gas extraction"@en ;
-    skos:inScheme :dataset ;
+    a cids:Sector ;
+    org:hasName "Mining, quarrying, and oil and gas extraction" ;
+    skos:prefLabel "Mining, quarrying, and oil and gas extraction"@en ;
+    org:hasIdentifier "21" ;
+    skos:notation "21" ;
+
     cids:definedBy cids:statsCan ;
-    cids:hasIdentifier "21" ;
-    cids:hasName "Mining, quarrying, and oil and gas extraction"@en .
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> .
 
 :sec20
-    a skos:Concept, cids:Code, cids:Sector ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/StatsCanSector#> ;
-    rdfs:label "Public administration"@en ;
-    skos:inScheme :dataset ;
+    a cids:Sector ;
+    org:hasName "Public administration" ;
+    skos:prefLabel "Public administration"@en ;
+    org:hasIdentifier "91" ;
+    skos:notation "91" ;
+
     cids:definedBy cids:statsCan ;
-    cids:hasIdentifier "91" ;
-    cids:hasName "Public administration"@en .
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> .
 
 :sec3
-    a skos:Concept, cids:Code, cids:Sector ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/StatsCanSector#> ;
-    rdfs:label "Utilities"@en ;
-    skos:inScheme :dataset ;
+    a cids:Sector ;
+    org:hasName "Utilities" ;
+    skos:prefLabel "Utilities"@en ;
+    org:hasIdentifier "22" ;
+    skos:notation "22" ;
+
     cids:definedBy cids:statsCan ;
-    cids:hasIdentifier "22" ;
-    cids:hasName "Utilities"@en .
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> .
 
 :sec4
-    a skos:Concept, cids:Code, cids:Sector ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/StatsCanSector#> ;
-    rdfs:label "Construction"@en ;
-    skos:inScheme :dataset ;
+    a cids:Sector ;
+    org:hasName "Construction" ;
+    skos:prefLabel "Construction"@en ;
+    org:hasIdentifier "23" ;
+    skos:notation "23" ;
+
     cids:definedBy cids:statsCan ;
-    cids:hasIdentifier "23" ;
-    cids:hasName "Construction"@en .
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> .
 
 :sec5
-    a skos:Concept, cids:Code, cids:Sector ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/StatsCanSector#> ;
-    rdfs:label "Manufacturing"@en ;
-    skos:inScheme :dataset ;
+    a cids:Sector ;
+    org:hasName "Manufacturing" ;
+    skos:prefLabel "Manufacturing"@en ;
+    org:hasIdentifier "31", "32", "33" ;
+    skos:notation "31", "32", "33" ;
+
     cids:definedBy cids:statsCan ;
-    cids:hasIdentifier "31", "32", "33" ;
-    cids:hasName "Manufacturing"@en .
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> .
 
 :sec6
-    a skos:Concept, cids:Code, cids:Sector ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/StatsCanSector#> ;
-    rdfs:label "Wholesale trade"@en ;
-    skos:inScheme :dataset ;
+    a cids:Sector ;
+    org:hasName "Wholesale trade" ;
+    skos:prefLabel "Wholesale trade"@en ;
+    org:hasIdentifier "41" ;
+    skos:notation "41" ;
+
     cids:definedBy cids:statsCan ;
-    cids:hasIdentifier "41" ;
-    cids:hasName "Wholesale trade"@en .
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> .
 
 :sec7
-    a skos:Concept, cids:Code, cids:Sector ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/StatsCanSector#> ;
-    rdfs:label "Retail trade"@en ;
-    skos:inScheme :dataset ;
+    a cids:Sector ;
+    org:hasName "Retail trade" ;
+    skos:prefLabel "Retail trade"@en ;
+    org:hasIdentifier "44", "45" ;
+    skos:notation "44", "45" ;
+
     cids:definedBy cids:statsCan ;
-    cids:hasIdentifier "44", "45" ;
-    cids:hasName "Retail trade"@en .
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> .
 
 :sec8
-    a skos:Concept, cids:Code, cids:Sector ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/StatsCanSector#> ;
-    rdfs:label "Transportation and warehousing"@en ;
-    skos:inScheme :dataset ;
+    a cids:Sector ;
+    org:hasName "Transportation and warehousing" ;
+    skos:prefLabel "Transportation and warehousing"@en ;
+    org:hasIdentifier "48", "49" ;
+    skos:notation "48", "49" ;
+
     cids:definedBy cids:statsCan ;
-    cids:hasIdentifier "48", "49" ;
-    cids:hasName "Transportation and warehousing"@en .
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> .
 
 :sec9
-    a skos:Concept, cids:Code, cids:Sector ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/StatsCanSector#> ;
-    rdfs:label "Information and cultural industries"@en ;
-    skos:inScheme :dataset ;
+    a cids:Sector ;
+    org:hasName "Information and cultural industries" ;
+    skos:prefLabel "Information and cultural industries"@en ;
+    org:hasIdentifier "51" ;
+    skos:notation "51" ;
+
     cids:definedBy cids:statsCan ;
-    cids:hasIdentifier "51" ;
-    cids:hasName "Information and cultural industries"@en .
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> .
 
