@@ -1,0 +1,111 @@
+@base <https://codelist.commonapproach.org/IRISImpactTheme> .
+@prefix : <#> .
+
+@prefix cids: <https://ontology.commonapproach.org/cids#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix voaf: <http://purl.org/vocommons/voaf#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix iriscategory: <https://ontology.commonapproach.org/IRISImpactCategory#> .
+
+<>
+    a voaf:Vocabulary, owl:Ontology, skos:ConceptScheme ;
+    owl:imports <https://ontology.commonapproach.org/cids> ;
+
+    dcterms:creator cids:ac ;
+    dcterms:date "28-11-2025"^^xsd:date ;
+    owl:versionInfo "2.0" ;
+
+    skos:prefLabel "IRIS+ Impact Themes"@en ;
+    dcterms:title "IRIS+ Impact Themes"@en ;
+    dcterms:description "An RDF vocabulary of IRIS+ Impact Themes."@en .
+
+:AffordableQualityHousing
+    skos:broader iriscategory:RealEstate ;
+
+:BiodiversityandEcosystemConservation
+    skos:broader iriscategory:BiodiversityandEcosystems ;
+
+:CleanAir
+    skos:broader iriscategory:Air ;
+
+:CleanEnergy
+    skos:broader iriscategory:Energy ;
+
+:ClimateResilienceandAdaptation
+    skos:broader irisctegory:Climate ;
+
+:ClimateChangeMitigation
+    skos:broader iriscategory:Climate ;
+
+:EnergyAccess
+    skos:broader iriscategory:Energy ;
+
+:EnergyEfficiency
+    skos:broader iriscategory:Energy ;
+
+:FinancialInclusion
+    skos:broader iriscategory:FinancialServices ;
+
+:FoodSecurity
+    skos:broader iriscategory:Agriculture ;
+
+:GreenBuildings
+    skos:broader iriscategory:RealEstate ;
+
+:MarineResourcesConservationandManagement
+    skos:broader iriscategory:OceansandCostalZones ;
+
+:NaturalResourcesConservation
+    skos:broader iriscategory:Land ;
+
+:Nutrition
+    skos:broader iriscategory:Health ;
+
+:PollutionPrevention
+    skos:broader iriscategory:Pollution ;
+
+:AccesstoQualityEducation
+    skos:broader iriscategory:Education ;
+
+:AccesstoQualityHealthcare
+    skos:broader iriscategory:Health ;
+
+:QualityJobs
+    skos:broader iriscategory:Employment ;
+
+:RacialEquity
+    skos:broader iriscategory:DiversityandInclusion ;
+
+:ResilientInfrastructure
+    skos:broader iriscategory:Infrastructure ;
+
+:SmallholderAgriculture
+    skos:broader iriscategory:Agriculture ;
+
+:SustainableAgriculture
+    skos:broader iriscategory:Agriculture ;
+
+:SustainableForestry
+    skos:broader iriscategory:Land
+
+:SustainableLandManagement
+    skos:broader iriscategory:Land
+
+:SustainableWaterManagement
+    skos:broader iriscategory:Water
+
+:WasteManagement
+    skos:broader iriscategory:Waste
+
+:WaterSanitationandHygiene
+    skos:broader iriscategory:Water
+
+:GenderLens
+    skos:broader iriscategory:DiversityandInclusion
+   

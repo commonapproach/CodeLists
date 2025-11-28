@@ -1,4 +1,4 @@
-@base <https://codelist.commonapproach.org/IRISImpactCategories> .
+@base <https://codelist.commonapproach.org/IRISImpactCategory> .
 @prefix : <#> .
 
 @prefix cids: <https://ontology.commonapproach.org/cids#> .
@@ -26,7 +26,7 @@
 
 :Agriculture
     a skos:Concept, cids:Code ;
-    org:hasName "Agriculture"@en ;
+    org:hasName "Agriculture" ;
     skos:prefLabel "Agriculture"@en ;
     org:hasIdentifier "Agriculture" ;
     skos:notation "Agriculture" ;
@@ -39,7 +39,7 @@
 
 :Air
     a skos:Concept, cids:Code ;
-    org:hasName "Air"@en ;
+    org:hasName "Air" ;
     skos:prefLabel "Air"@en ;
     org:hasIdentifier "Air" ;
     skos:notation "Air" ;
@@ -52,7 +52,7 @@
 
 :BiodiversityandEcosystems
     a skos:Concept, cids:Code ;
-    org:hasName "Biodiversity and Ecosystems"@en ;
+    org:hasName "Biodiversity and Ecosystems" ;
     skos:prefLabel "Biodiversity and Ecosystems"@en ;
     org:hasIdentifier "BiodiversityandEcosystems" ;
     skos:notation "BiodiversityandEcosystems" ;
@@ -65,7 +65,7 @@
 
 :Climate
     a skos:Concept, cids:Code ;
-    org:hasName "Climate"@en ;
+    org:hasName "Climate" ;
     skos:prefLabel "Climate"@en ;
     org:hasIdentifier"Climate" ;
     skos:notation"Climate" ;
@@ -78,7 +78,7 @@
 
 :DiversityandInclusion
     a skos:Concept, cids:Code ;
-    org:hasName "Diversity and Inclusion"@en ;
+    org:hasName "Diversity and Inclusion" ;
     skos:prefLabel "Diversity and Inclusion"@en ;
     org:hasIdentifier "DiversityandInclusion" ;
     skos:notation "DiversityandInclusion" ;
@@ -91,7 +91,7 @@
 
 :Education
     a skos:Concept, cids:Code ;
-    org:hasName "Education"@en ;
+    org:hasName "Education" ;
     skos:prefLabel "Education"@en ;
     org:hasIdentifier "Education" ;
     skos:notation "Education" ;
@@ -104,7 +104,7 @@
 
 :Employment
     a skos:Concept, cids:Code ;
-    org:hasName "Employment"@en ;
+    org:hasName "Employment" ;
     skos:prefLabel "Employment"@en ;
     org:hasIdentifier "Employment" ;
     skos:notation "Employment" ;
@@ -117,7 +117,7 @@
 
 :Energy
     a skos:Concept, cids:Code ;
-    org:hasName "Energy"@en ;
+    org:hasName "Energy" ;
     skos:prefLabel "Energy"@en ;
     org:hasIdentifier "Energy" ;
     skos:notation "Energy" ;
@@ -130,7 +130,7 @@
 
 :FinancialServices
     a skos:Concept, cids:Code ;
-    org:hasName "Financial Services"@en ;
+    org:hasName "Financial Services" ;
     skos:prefLabel "Financial Services"@en ;
     org:hasIdentifier "FinancialServices" ;
     skos:notation "FinancialServices" ;
@@ -143,7 +143,7 @@
 
 :Health
     a skos:Concept, cids:Code ;
-    org:hasName "Health"@en ;
+    org:hasName "Health" ;
     skos:prefLabel "Health"@en ;
     org:hasIdentifier "Health" ;
     skos:notation "Health" ;
@@ -156,7 +156,7 @@
 
 :Infrastructure
     a skos:Concept, cids:Code ;
-    org:hasName "Infrastructure"@en ;
+    org:hasName "Infrastructure" ;
     skos:prefLabel "Infrastructure"@en ;
     org:hasIdentifier "Infrastructure" ;
     skos:notation "Infrastructure" ;
@@ -169,7 +169,7 @@
 
 :Land
     a skos:Concept, cids:Code ;
-    org:hasName "Land"@en ;
+    org:hasName "Land" ;
     skos:prefLabel "Land"@en ;
     org:hasIdentifier "Land" ;
     skos:notation "Land" ;
@@ -182,7 +182,7 @@
 
 :OceansandCoastalZones
     a skos:Concept, cids:Code ;
-    org:hasName "Oceans and Coastal Zones"@en ;
+    org:hasName "Oceans and Coastal Zones" ;
     skos:prefLabel "Oceans and Coastal Zones"@en ;
     org:hasIdentifier "OceansandCoastalZones" ;
     skos:notation "OceansandCoastalZones" ;
@@ -195,7 +195,7 @@
 
 :Pollution
     a skos:Concept, cids:Code ;
-    org:hasName "Pollution "@en ;
+    org:hasName "Pollution " ;
     skos:prefLabel "Pollution "@en ;
     org:hasIdentifier "Pollution" ;
     skos:notation "Pollution" ;
@@ -208,7 +208,7 @@
 
 :RealEstate
     a skos:Concept, cids:Code ;
-    org:hasName "Real Estate"@en ;
+    org:hasName "Real Estate" ;
     skos:prefLabel "Real Estate"@en ;
     org:hasIdentifier "RealEstate" ;
     skos:notation "RealEstate" ;
@@ -221,7 +221,7 @@
 
 :Waste
     a skos:Concept, cids:Code ;
-    org:hasName "Waste"@en ;
+    org:hasName "Waste" ;
     skos:prefLabel "Waste"@en ;
     org:hasIdentifier "Waste" ;
     skos:notation "Waste" ;
@@ -234,7 +234,7 @@
 
 :Water
     a skos:Concept, cids:Code ;
-    org:hasName "Water "@en ;
+    org:hasName "Water " ;
     skos:prefLabel "Water "@en ;
     org:hasIdentifier "Water" ;
     skos:notation "Water" ;
@@ -246,7 +246,7 @@
     skos:inScheme <> .
 
 :CrossCategory
-    org:hasName "Cross Category"@en ;
+    org:hasName "Cross Category" ;
     skos:prefLabel "Cross Category"@en ;
     a skos:Concept, cids:Code ;
     org:hasIdentifier "CrossCategory" ;
