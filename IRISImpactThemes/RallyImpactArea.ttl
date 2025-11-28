@@ -11,7 +11,7 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix voaf: <http://purl.org/vocommons/voaf#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-@prefix iriscategory: <https://ontology.commonapproach.org/IRISImpactCategory#> .
+@prefix iristheme: <https://ontology.commonapproach.org/IRISImpactTheme#> .
 
 <>
     a voaf:Vocabulary, owl:Ontology, skos:ConceptScheme ;
@@ -61,53 +61,87 @@
     rdfs:isDefinedBy <> ;
     skos:inScheme <> .
 
-iriscategory:Agriculture
+
+iristheme:AffordableQualityHousing
     skos:inScheme <> .
 
-iriscategory:Air
+iristheme:BiodiversityandEcosystemConservation
     skos:inScheme <> .
 
-iriscategory:BiodiversityandEcosystems
+iristheme:CleanAir
     skos:inScheme <> .
 
-iriscategory:Climate
+iristheme:CleanEnergy
     skos:inScheme <> .
 
-iriscategory:DiversityandInclusion
+iristheme:ClimateResilienceandAdaptation
     skos:inScheme <> .
 
-iriscategory:Education
+iristheme:ClimateChangeMitigation
     skos:inScheme <> .
 
-iriscategory:Employment
+iristheme:EnergyAccess
     skos:inScheme <> .
 
-iriscategory:Energy
+iristheme:EnergyEfficiency
     skos:inScheme <> .
 
-iriscategory:FinancialServices
+iristheme:FinancialInclusion
     skos:inScheme <> .
 
-iriscategory:Health
+iristheme:FoodSecurity
     skos:inScheme <> .
 
-iriscategory:Infrastructure
+iristheme:GreenBuildings
     skos:inScheme <> .
 
-iriscategory:Land
+iristheme:MarineResourcesConservationandManagement
     skos:inScheme <> .
 
-iriscategory:OceansandCoastalZones
+iristheme:NaturalResourcesConservation
     skos:inScheme <> .
 
-iriscategory:Pollution
+iristheme:Nutrition
     skos:inScheme <> .
 
-iriscategory:RealEstate
+iristheme:PollutionPrevention
     skos:inScheme <> .
 
-iriscategory:Waste
+iristheme:AccesstoQualityEducation
     skos:inScheme <> .
 
-iriscategory:Water
+iristheme:AccesstoQualityHealthcare
+    skos:inScheme <> .
+
+iristheme:QualityJobs
+    skos:inScheme <> .
+
+iristheme:RacialEquity
+    skos:inScheme <> .
+
+iristheme:ResilientInfrastructure
+    skos:inScheme <> .
+
+iristheme:SmallholderAgriculture
+    skos:inScheme <> .
+
+iristheme:SustainableAgriculture
+    skos:inScheme <> .
+
+iristheme:SustainableForestry
+    skos:inScheme <> .
+
+iristheme:SustainableLandManagement
+    skos:inScheme <> .
+
+iristheme:SustainableWaterManagement
+    skos:inScheme <> .
+
+iristheme:WasteManagement
+    skos:inScheme <> .
+
+iristheme:WaterSanitationandHygiene
+    skos:inScheme <> .
+
+iristheme:GenderLens
     skos:inScheme <> .
