@@ -1,137 +1,171 @@
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@base <https://codelist.commonapproach.org/ICNPOSector> .
+@prefix : <#> .
+
 @prefix cids: <https://ontology.commonapproach.org/cids#> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix org: <http://www.w3.org/ns/org#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
-@prefix vann: <http://purl.org/vocab/vann/> .
-@prefix : <https://codelist.commonapproach.org/codeLists/ICNPOsector#> .
+@prefix voaf: <http://purl.org/vocommons/voaf#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://codelist.commonapproach.org/codeLists/ICNPOsector>
+<>
+    a voaf:Vocabulary, owl:Ontology, skos:ConceptScheme ;
+    owl:imports <https://ontology.commonapproach.org/owl/cids> ;
+
     dcterms:creator cids:ac ;
-    dcterms:date "02-10-2024" ;
-    dcterms:description "A codelist vocabulary of ICNPO Sector"@en ;
-    dcterms:title "ICNPO Sector"@en ;
-    vann:preferredNamespacePrefix "ICNOPsector" ;
-    vann:preferredNamespaceUri <https://codelist.commonapproach.org/codeLists/ICNPOsector#> ;
-    a <http://purl.org/vocommons/voafVocabulary>, owl:Ontology ;
-    rdfs:label "ICNPO Sector" ;
-    owl:imports <http://www.w3.org/2006/time>, <https://ontology.commonapproach.org/owl/cids> ;
-    owl:versionInfo "1.0" ;
-    foaf:name "ICNPO Sector" ;
-    cids:hasName "ICNPO Sector" .
+    dcterms:date "02-10-2024"^^xsd:date ;
+    owl:versionInfo "2.0" ;
 
-:dataset
-    a skos:ConceptScheme .
+    skos:prefLabel "ICNPO Sector"@en ;
+    dcterms:title "ICNPO Sector"@en ;
+    dcterms:description "A codelist vocabulary of ICNPO Sector"@en .
 
 :sec1
-    a skos:Concept, cids:Code, cids:Sector ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/ICNPOsector#> ;
-    rdfs:label "Culture and Recreation"@en ;
-    skos:inScheme :dataset ;
-    cids:definedBy cids:icnpo ;
-    cids:hasIdentifier "1" ;
-    cids:hasName "Culture and Recreation"@en .
+    a cids:Sector ;
+    org:hasName "Culture and Recreation" ;
+    skos:prefLabel "Culture and Recreation"@en ;
+    org:hasIdentifier "1" ;
+    skos:notation "1" ;
+
+    cids:definedBy cids:ac ;
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> .
 
 :sec10
-    a skos:Concept, cids:Code, cids:Sector ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/ICNPOsector#> ;
-    rdfs:label "Religion"@en ;
-    skos:inScheme :dataset ;
-    cids:definedBy cids:icnpo ;
+    a cids:Sector ;
+    org:hasName "Religion" ;
+    skos:prefLabel "Religion"@en ;
     cids:hasIdentifier "10" ;
-    cids:hasName "Religion"@en .
+    skos:notation "10" ;
+
+    cids:definedBy cids:ac ;
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> .
 
 :sec11
-    a skos:Concept, cids:Code, cids:Sector ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/ICNPOsector#> ;
-    rdfs:label "Business and Professional Associations, Unions"@en ;
-    skos:inScheme :dataset ;
-    cids:definedBy cids:icnpo ;
+    a cids:Sector ;
+    org:hasName "Business and Professional Associations, Unions" ;
+    skos:prefLabel "Business and Professional Associations, Unions"@en ;
     cids:hasIdentifier "11" ;
-    cids:hasName "Business and Professional Associations, Unions"@en .
+    skos:notation "11" ;
+
+    cids:definedBy cids:ac ;
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> .
 
 :sec12
-    a skos:Concept, cids:Code, cids:Sector ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/ICNPOsector#> ;
-    rdfs:label "Not Elsewhere Classified"@en ;
-    skos:inScheme :dataset ;
-    cids:definedBy cids:icnpo ;
+    a cids:Sector ;
+    org:hasName "Not Elsewhere Classified" ;
+    skos:prefLabel "Not Elsewhere Classified"@en ;
     cids:hasIdentifier "12" ;
-    cids:hasName "Not Elsewhere Classified"@en .
+    skos:notation "12" ;
+
+    cids:definedBy cids:ac ;
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> .
 
 :sec2
-    a skos:Concept, cids:Code, cids:Sector ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/ICNPOsector#> ;
-    rdfs:label "Education and Research"@en ;
-    skos:inScheme :dataset ;
-    cids:definedBy cids:icnpo ;
+    a cids:Sector ;
+    org:hasName "Education and Research" ;
+    skos:prefLabel "Education and Research"@en ;
     cids:hasIdentifier "2" ;
-    cids:hasName "Education and Research"@en .
+    skos:notation "2" ;
+
+    cids:definedBy cids:ac ;
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> .
 
 :sec3
-    a skos:Concept, cids:Code, cids:Sector ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/ICNPOsector#> ;
-    rdfs:label "Health"@en ;
-    skos:inScheme :dataset ;
-    cids:definedBy cids:icnpo ;
+    a cids:Sector ;
+    org:hasName "Health" ;
+    skos:prefLabel "Health"@en ;
     cids:hasIdentifier "3" ;
-    cids:hasName "Health"@en .
+    skos:notation "3" ;
+
+    cids:definedBy cids:ac ;
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> .
 
 :sec4
-    a skos:Concept, cids:Code, cids:Sector ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/ICNPOsector#> ;
-    rdfs:label "Social Services"@en ;
-    skos:inScheme :dataset ;
-    cids:definedBy cids:icnpo ;
+    a cids:Sector ;
+    org:hasName "Social Services" ;
+    skos:prefLabel "Social Services"@en ;
     cids:hasIdentifier "4" ;
-    cids:hasName "Social Services"@en .
+    skos:notation "4" ;
+
+    cids:definedBy cids:ac ;
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> .
 
 :sec5
-    a skos:Concept, cids:Code, cids:Sector ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/ICNPOsector#> ;
-    rdfs:label "Environment"@en ;
-    skos:inScheme :dataset ;
-    cids:definedBy cids:icnpo ;
+    a cids:Sector ;
+    org:hasName "Environment" ;
+    skos:prefLabel "Environment"@en ;
     cids:hasIdentifier "5" ;
-    cids:hasName "Environment"@en .
+    skos:notation "5" ;
+
+    cids:definedBy cids:ac ;
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> .
 
 :sec6
-    a skos:Concept, cids:Code, cids:Sector ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/ICNPOsector#> ;
-    rdfs:label "Development and Housing"@en ;
-    skos:inScheme :dataset ;
-    cids:definedBy cids:icnpo ;
+    a cids:Sector ;
+    org:hasName "Development and Housing" ;
+    skos:prefLabel "Development and Housing"@en ;
     cids:hasIdentifier "6" ;
-    cids:hasName "Development and Housing"@en .
+    skos:notation "6" ;
+
+    cids:definedBy cids:ac ;
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> .
 
 :sec7
-    a skos:Concept, cids:Code, cids:Sector ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/ICNPOsector#> ;
-    rdfs:label "Law, Advocacy, and Politics"@en ;
-    skos:inScheme :dataset ;
-    cids:definedBy cids:icnpo ;
+    a cids:Sector ;
+    org:hasName "Law, Advocacy, and Politics" ;
+    skos:prefLabel "Law, Advocacy, and Politics"@en ;
     cids:hasIdentifier "7" ;
-    cids:hasName "Law, Advocacy, and Politics"@en .
+    skos:notation "7" ;
+
+    cids:definedBy cids:ac ;
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> .
 
 :sec8
-    a skos:Concept, cids:Code, cids:Sector ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/ICNPOsector#> ;
-    rdfs:label "Philanthropic Intermediaries and Voluntarism Promotion"@en ;
-    skos:inScheme :dataset ;
-    cids:definedBy cids:icnpo ;
+    a cids:Sector ;
+    org:hasName "Philanthropic Intermediaries and Voluntarism Promotion" ;
+    skos:prefLabel "Philanthropic Intermediaries and Voluntarism Promotion"@en ;
     cids:hasIdentifier "8" ;
-    cids:hasName "Philanthropic Intermediaries and Voluntarism Promotion"@en .
+    skos:notation "8" ;
+
+    cids:definedBy cids:ac ;
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> .
 
 :sec9
-    a skos:Concept, cids:Code, cids:Sector ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/ICNPOsector#> ;
-    rdfs:label "International"@en ;
-    skos:inScheme :dataset ;
-    cids:definedBy cids:icnpo ;
+    a cids:Sector ;
+    org:hasName "International" ;
+    skos:prefLabel "International"@en ;
     cids:hasIdentifier "9" ;
-    cids:hasName "International"@en .
+    skos:notation "9" ;
+
+    cids:definedBy cids:ac ;
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> .
 
