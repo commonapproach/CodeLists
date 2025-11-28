@@ -41,7 +41,7 @@
 
 :loc2
     a cids:Locality ;
-    org:hasName "Medium Population Centre"@en ;
+    org:hasName "Medium Population Centre" ;
     skos:prefLabel "Medium Population Centre"@en ;
     cids:hasDescription "medium population centres, with a population between 30,000 and 99,999." ;
     org:hasIdentifier "loc2" ;
@@ -55,7 +55,7 @@
 
 :loc3
     a cids:Locality ;
-    org:hasName "Small Population Centre"@en ;
+    org:hasName "Small Population Centre" ;
     skos:prefLabel "Small Population Centre"@en ;
     cids:hasDescription "A small population centres, with a population between 1,000 and 29,999." ;
     org:hasIdentifier "loc3" ;
@@ -69,7 +69,7 @@
 
 :loc4
     a cids:Locality ;
-    org:hasName "Rural Areas"@en ;
+    org:hasName "Rural Areas" ;
     skos:prefLabel "Rural Areas"@en ;
     cids:hasDescription "All areas outside population centres are classified as rural areas." ;
     org:hasIdentifier "loc4" ;
@@ -83,7 +83,7 @@
 
 :loc5
     a cids:Locality ;
-    org:hasName "Indigenous Communities and Lands"@en ;
+    org:hasName "Indigenous Communities and Lands" ;
     skos:prefLabel "Indigenous Communities and Lands"@en ;
     cids:hasDescription "" ;
     org:hasIdentifier "loc5" ;
@@ -97,7 +97,7 @@
 
 :loc6
     a cids:Locality ;
-    org:hasName "Northern Canada"@en ;
+    org:hasName "Northern Canada" ;
     skos:prefLabel "Northern Canada"@en ;
     cids:hasDescription "" ;
     org:hasIdentifier "loc6" ;
@@ -111,7 +111,7 @@
 
 :loc7
     a cids:Locality ;
-    org:hasName "All of Canada"@en ;
+    org:hasName "All of Canada" ;
     skos:prefLabel "All of Canada"@en ;
     cids:hasDescription "" ;
     org:hasIdentifier "loc7" ;

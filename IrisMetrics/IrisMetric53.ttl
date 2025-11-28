@@ -3281,7 +3281,7 @@ International Finance Institutions (IFIs) often use this metric as part of trans
 
 :OI0667
     a skos:Concept, cids:Code ;
-    org:hasName "Leadership Demographics"@en ;
+    org:hasName "Leadership Demographics" ;
     skos:prefLabel "Leadership Demographics"@en ;
     org:hasIdentifier "OI0667" ;
     skos:notation "OI0667" ;
