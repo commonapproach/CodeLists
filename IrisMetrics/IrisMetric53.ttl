@@ -11841,8 +11841,6 @@ This metric may help describe the HOW MUCH Scale dimension, which helps estimate
     a skos:Concept, cids:Code ;
     org:hasName "Disease/Condition Addressed" ;
     skos:prefLabel "Disease/Condition Addressed"@en ;
-    rdfs:isDefinedBy <https://codelist.commonapproach.org/codeLists/IrisMetric53#> ;
-    skos:inScheme :dataset ;
     org:hasIdentifier "PI1533" ;
     skos:notation "PI1533" ;
     prov:hadPrimarySource <https://iris.thegiin.org/metric/5.3/PI1533/> ;
