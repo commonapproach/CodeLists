@@ -75,7 +75,7 @@
     cids:hasDescription "Non-profit organizations are associations, clubs, or societies that are not registered charities or individuals, but are organized and operated exclusively for social welfare, civic improvement, pleasure, recreation, or any other purpose except profit. Non-profit organizations may be incorporated or unincorporated." ;
     skos:definition "Non-profit organizations are associations, clubs, or societies that are not registered charities or individuals, but are organized and operated exclusively for social welfare, civic improvement, pleasure, recreation, or any other purpose except profit. Non-profit organizations may be incorporated or unincorporated."@en ;
     org:hasIdentifier "nonProfit" ;
-    cids:definedBy cids:orgTypeGOC ;
+    cids:definedBy cids:esdc;
     cids:hasSpecification <> ;
 
     rdfs:isDefinedBy <> ;
