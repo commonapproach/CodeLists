@@ -18,7 +18,7 @@
     owl:imports <https://ontology.commonapproach.org/cids> ;
 
     dcterms:creator cids:ac ;
-    dcterms:date "02-10-2024"^^xsd:date ;
+    dcterms:date "2025-12-01"^^xsd:date ;
     owl:versionInfo "2.0" ;
 
     skos:prefLabel "IRIS+ Metrics"@en ;

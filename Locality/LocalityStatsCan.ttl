@@ -18,7 +18,7 @@
     owl:imports <http://www.w3.org/2006/time>, <https://ontology.commonapproach.org/owl/cids> ;
 
     dcterms:creator cids:ac ;
-    dcterms:date "08-10-2024"^^xsd:date ;
+    dcterms:date "2025-12-01"^^xsd:date ;
     owl:versionInfo "2.0" ;
 
     skos:prefLabel "Locality Codelist"@en ;
