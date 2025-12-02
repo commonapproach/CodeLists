@@ -25,7 +25,7 @@
     dcterms:description "A codelist vocabulary of Province and Territory Codelists according to Statistics Canada definitions."@en .
 
 :AB
-    a skos:Concept, cids:Code, cids:Locality ;
+    a cids:ProvinceTerritory, cids:Locality ;
     org:hasName "Alberta" ;
     skos:prefLabel "Alberta"@en ;
     cids:hasIdentifier "AB" ;
@@ -38,7 +38,7 @@
     skos:inScheme <> .
 
 :BC
-    a cids:Locality ;
+    a cids:ProvinceTerritory, cids:Locality ;
     org:hasName "British Columbia" ;
     skos:prefLabel "British Columbia"@en ;
     cids:hasIdentifier "BC" ;
@@ -64,7 +64,7 @@
     skos:inScheme <> .
 
 :MB
-    a cids:Locality ;
+    a cids:ProvinceTerritory, cids:Locality ;
     org:hasName "Manitoba" ;
     skos:prefLabel "Manitoba"@en ;
     cids:hasIdentifier "MB" ;
@@ -77,7 +77,7 @@
     skos:inScheme <> .
 
 :NB
-    a skos:Concept, cids:Code, cids:Locality ;
+    a cids:ProvinceTerritory, cids:Locality ;
     org:hasName "New Brunswick" ;
     skos:prefLabel "New Brunswick"@en ;
     cids:hasIdentifier "NB" ;
@@ -90,7 +90,7 @@
     skos:inScheme <> .
 
 :NL
-    a skos:Concept, cids:Code, cids:Locality ;
+    a cids:ProvinceTerritory, cids:Locality ;
     org:hasName "Newfoundland and Labrador" ;
     skos:prefLabel "Newfoundland and Labrador"@en ;
     cids:hasIdentifier "NL" ;
@@ -103,7 +103,7 @@
     skos:inScheme <> .
 
 :NS
-    a skos:Concept, cids:Code, cids:Locality ;
+    a cids:ProvinceTerritory, cids:Locality ;
     org:hasName "Nova Scotia" ;
     skos:prefLabel "Nova Scotia"@en ;
     cids:hasIdentifier "NS" ;
@@ -116,7 +116,7 @@
     skos:inScheme <> .
 
 :NT
-    a skos:Concept, cids:Code, cids:Locality ;
+    a cids:ProvinceTerritory, cids:Locality ;
     org:hasName "Northwest Territories" ;
     skos:prefLabel "Northwest Territories"@en ;
     cids:hasIdentifier "NT" ;
@@ -129,7 +129,7 @@
     skos:inScheme <> .
 
 :NU
-    a skos:Concept, cids:Code, cids:Locality ;
+    a cids:ProvinceTerritory, cids:Locality ;
     org:hasName "Nunavut" ;
     skos:prefLabel "Nunavut"@en ;
     cids:hasIdentifier "NU" ;
@@ -142,7 +142,7 @@
     skos:inScheme <> .
 
 :ON
-    a skos:Concept, cids:Code, cids:Locality ;
+    a cids:ProvinceTerritory, cids:Locality ;
     org:hasName "Ontario" ;
     skos:prefLabel "Ontario"@en ;
     cids:hasIdentifier "ON" ;
@@ -155,7 +155,7 @@
     skos:inScheme <> .
 
 :PE
-    a skos:Concept, cids:Code, cids:Locality ;
+    a cids:ProvinceTerritory, cids:Locality ;
     org:hasName "Prince Edward Island" ;
     skos:prefLabel "Prince Edward Island"@en ;
     cids:hasIdentifier "PE" ;
@@ -168,7 +168,7 @@
     skos:inScheme <> .
 
 :QC
-    a skos:Concept, cids:Code, cids:Locality ;
+    a cids:ProvinceTerritory, cids:Locality ;
     org:hasName "Quebec" ;
     skos:prefLabel "Quebec"@en ;
     cids:hasIdentifier "QC" ;
@@ -181,7 +181,7 @@
     skos:inScheme <> .
 
 :SK
-    a skos:Concept, cids:Code, cids:Locality ;
+    a cids:ProvinceTerritory, cids:Locality ;
     org:hasName "Saskatchewan" ;
     skos:prefLabel "Saskatchewan"@en ;
     cids:hasIdentifier "SK" ;
@@ -194,7 +194,7 @@
     skos:inScheme <> .
 
 :YT
-    a skos:Concept, cids:Code, cids:Locality ;
+    a cids:ProvinceTerritory, cids:Locality ;
     org:hasName "Yukon" ;
     skos:prefLabel "Yukon"@en ;
     cids:hasIdentifier "YT" ;
