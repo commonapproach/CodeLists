@@ -26,7 +26,7 @@
     dcterms:description "An RDF vocabulary of Rally Impact Areas."@en .
 
 :ArtsandCulture
-    a skos:Concept, cids:Code ;
+    a cids:Sector ;
     org:hasName "Arts and Culture" ;
     skos:prefLabel "Arts and Culture"@en ;
     org:hasIdentifier "ArtsandCulture" ;
@@ -38,7 +38,7 @@
     skos:inScheme <> .
 
 :CommunityDevelopment
-    a skos:Concept, cids:Code ;
+    a cids:Sector ;
     org:hasName "Community Development" ;
     skos:prefLabel "Community Development"@en ;
     org:hasIdentifier "CommunityDevelopment" ;
@@ -50,7 +50,7 @@
     skos:inScheme <> .
 
 :Other
-    a skos:Concept, cids:Code ;
+    a cids:Sector ;
     org:hasName "Other" ;
     skos:prefLabel "Other"@en ;
     org:hasIdentifier "Other" ;

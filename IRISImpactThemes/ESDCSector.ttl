@@ -26,7 +26,7 @@
     dcterms:description "An RDF vocabulary of ESDC Sectors."@en .
 
 :Other
-    a skos:Concept, cids:Code ;
+    a cids:Sector ;
     org:hasName "Other" ;
     skos:prefLabel "Other"@en ;
     org:hasIdentifier "Other" ;
