@@ -46,7 +46,7 @@
     cids:hasDescription "A cooperative is an association of persons united voluntarily to meet their common economic, social, and cultural needs and aspirations through a jointly owned and democratically controlled enterprise incorporated under specific legislation (e.g., the Canada Cooperatives Act) at the provincial, territorial, or federal level. Depending on the governing legislation, cooperatives may be for-profit or non-profit entities." ;
     skos:definition "A cooperative is an association of persons united voluntarily to meet their common economic, social, and cultural needs and aspirations through a jointly owned and democratically controlled enterprise incorporated under specific legislation (e.g., the Canada Cooperatives Act) at the provincial, territorial, or federal level. Depending on the governing legislation, cooperatives may be for-profit or non-profit entities."@en ;
     org:hasIdentifier "Cooperative" ;
-    skos:notation "Charitable" ;
+    skos:notation "Cooperative" ;
     prov:hadPrimarySource <https://ised-isde.canada.ca/site/cooperatives-canada/en/information-guide-co-operatives#seven> ;
     cids:definedBy cids:esdc ;
     cids:hasSpecification <> ;

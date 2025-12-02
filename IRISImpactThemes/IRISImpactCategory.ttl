@@ -67,8 +67,8 @@
     a skos:Concept, cids:Code ;
     org:hasName "Climate" ;
     skos:prefLabel "Climate"@en ;
-    org:hasIdentifier"Climate" ;
-    skos:notation"Climate" ;
+    org:hasIdentifier "Climate" ;
+    skos:notation "Climate" ;
     prov:hadPrimarySource <https://iris.thegiin.org/metrics/> ;
 
     cids:definedBy cids:giin ;
@@ -195,8 +195,8 @@
 
 :Pollution
     a skos:Concept, cids:Code ;
-    org:hasName "Pollution " ;
-    skos:prefLabel "Pollution "@en ;
+    org:hasName "Pollution" ;
+    skos:prefLabel "Pollution"@en ;
     org:hasIdentifier "Pollution" ;
     skos:notation "Pollution" ;
     prov:hadPrimarySource <https://iris.thegiin.org/metrics/> ;
@@ -234,8 +234,8 @@
 
 :Water
     a skos:Concept, cids:Code ;
-    org:hasName "Water " ;
-    skos:prefLabel "Water "@en ;
+    org:hasName "Water" ;
+    skos:prefLabel "Water"@en ;
     org:hasIdentifier "Water" ;
     skos:notation "Water" ;
     prov:hadPrimarySource <https://iris.thegiin.org/metrics/> ;
