@@ -1,0 +1,171 @@
+@base <https://codelist.commonapproach.org/ICNPOSector> .
+@prefix : <#> .
+
+@prefix cids: <https://ontology.commonapproach.org/cids#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix voaf: <http://purl.org/vocommons/voaf#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<>
+    a voaf:Vocabulary, owl:Ontology, skos:ConceptScheme ;
+    owl:imports <https://ontology.commonapproach.org/owl/cids> ;
+
+    dcterms:creator cids:ac ;
+    dcterms:date "2025-12-01"^^xsd:date ;
+    owl:versionInfo "2.0" ;
+
+    skos:prefLabel "ICNPO Sector"@en ;
+    dcterms:title "ICNPO Sector"@en ;
+    dcterms:description "A codelist vocabulary of ICNPO Sector"@en .
+
+:sec1
+    a cids:Sector ;
+    org:hasName "Culture and Recreation" ;
+    skos:prefLabel "Culture and Recreation"@en ;
+    org:hasIdentifier "1" ;
+    skos:notation "1" ;
+
+    cids:definedBy cids:ac ;
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> .
+
+:sec10
+    a cids:Sector ;
+    org:hasName "Religion" ;
+    skos:prefLabel "Religion"@en ;
+    cids:hasIdentifier "10" ;
+    skos:notation "10" ;
+
+    cids:definedBy cids:ac ;
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> .
+
+:sec11
+    a cids:Sector ;
+    org:hasName "Business and Professional Associations, Unions" ;
+    skos:prefLabel "Business and Professional Associations, Unions"@en ;
+    cids:hasIdentifier "11" ;
+    skos:notation "11" ;
+
+    cids:definedBy cids:ac ;
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> .
+
+:sec12
+    a cids:Sector ;
+    org:hasName "Not Elsewhere Classified" ;
+    skos:prefLabel "Not Elsewhere Classified"@en ;
+    cids:hasIdentifier "12" ;
+    skos:notation "12" ;
+
+    cids:definedBy cids:ac ;
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> .
+
+:sec2
+    a cids:Sector ;
+    org:hasName "Education and Research" ;
+    skos:prefLabel "Education and Research"@en ;
+    cids:hasIdentifier "2" ;
+    skos:notation "2" ;
+
+    cids:definedBy cids:ac ;
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> .
+
+:sec3
+    a cids:Sector ;
+    org:hasName "Health" ;
+    skos:prefLabel "Health"@en ;
+    cids:hasIdentifier "3" ;
+    skos:notation "3" ;
+
+    cids:definedBy cids:ac ;
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> .
+
+:sec4
+    a cids:Sector ;
+    org:hasName "Social Services" ;
+    skos:prefLabel "Social Services"@en ;
+    cids:hasIdentifier "4" ;
+    skos:notation "4" ;
+
+    cids:definedBy cids:ac ;
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> .
+
+:sec5
+    a cids:Sector ;
+    org:hasName "Environment" ;
+    skos:prefLabel "Environment"@en ;
+    cids:hasIdentifier "5" ;
+    skos:notation "5" ;
+
+    cids:definedBy cids:ac ;
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> .
+
+:sec6
+    a cids:Sector ;
+    org:hasName "Development and Housing" ;
+    skos:prefLabel "Development and Housing"@en ;
+    cids:hasIdentifier "6" ;
+    skos:notation "6" ;
+
+    cids:definedBy cids:ac ;
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> .
+
+:sec7
+    a cids:Sector ;
+    org:hasName "Law, Advocacy, and Politics" ;
+    skos:prefLabel "Law, Advocacy, and Politics"@en ;
+    cids:hasIdentifier "7" ;
+    skos:notation "7" ;
+
+    cids:definedBy cids:ac ;
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> .
+
+:sec8
+    a cids:Sector ;
+    org:hasName "Philanthropic Intermediaries and Voluntarism Promotion" ;
+    skos:prefLabel "Philanthropic Intermediaries and Voluntarism Promotion"@en ;
+    cids:hasIdentifier "8" ;
+    skos:notation "8" ;
+
+    cids:definedBy cids:ac ;
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> .
+
+:sec9
+    a cids:Sector ;
+    org:hasName "International" ;
+    skos:prefLabel "International"@en ;
+    cids:hasIdentifier "9" ;
+    skos:notation "9" ;
+
+    cids:definedBy cids:ac ;
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> .
+

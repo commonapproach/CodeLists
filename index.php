@@ -93,63 +93,98 @@ td {
   <th style="width:10px; text-align: center;">Issues</th>
  </tr>
  <tr>
-  <td><a href="IrisMetrics/IrisMetric53-en.html">IrisMetrics53</a> (<a href="IrisMetrics/IrisMetric53.owl">rdf/xml</a> / <a href="IrisMetrics/IrisMetric53.ttl">turtle</a> / <a href="IrisMetrics/IrisMetric53.jsonld">json-ld</a> / <a href="IrisMetrics/IrisMetric53.nt">triples</a> / <a href="IrisMetrics/IrisMetric53.csv">csv</a>)</td>
+  <td><a href="IrisMetric53-en.html">IrisMetrics53</a> (<a href="IrisMetric53.owl">rdf/xml</a> / <a href="IrisMetric53.ttl">turtle</a> / <a href="IrisMetric53.jsonld">json-ld</a> / <a href="IrisMetric53.nt">triples</a> / <a href="IrisMetric53.csv">csv</a>)</td>
   <td>IRIS+ is the generally accepted system for measuring, managing, and optimizing impact. This Cost List is an implementation of the GIIN IRIS+ System metrics in an RDF data model.
   </td>
-  <td style="text-align: center;">Oct 1, 2024</td>
+  <td style="text-align: center;">Dec 1, 2025</td>
   <td style="text-align: center;">0</td>
  </tr>
  <tr>
-  <td><a href="ICNPOsector/ICNPOsector-en.html">ICNPOsector</a> (<a href="ICNPOsector/ICNPOsector.owl">rdf/xml</a> / <a href="ICNPOsector/ICNPOsector.ttl">turtle</a> / <a href="ICNPOsector/ICNPOsector.jsonld">json-ld</a> / <a href="ICNPOsector/ICNPOsector.nt">triples</a> / <a href="ICNPOsector/ICNPOsector.csv">csv</a>)</td>
+  <td>IRISImpactCategory (<a href="IRISImpactCategory.ttl">turtle</a> / <a href="IRISImpactCategories.rdf">rdf/xml</a>/ <a href="IRISImpactCategories.jsonld">json-ld</a>  )</td>
+  <td>IRIS+ is the generally accepted system for measuring, managing, and optimizing impact. This list represents the Impact Categories as defined by GIIN.</td>
+  </td>
+  <td style="text-align: center;">Dec 1, 2025</td>
+  <td style="text-align: center;">0</td>
+ </tr>
+ <tr>
+  <td>IRISImpactTheme (<a href="IRISImpactTheme.ttl">turtle</a>)</td>
+  <td>IRIS+ is the generally accepted system for measuring, managing, and optimizing impact. This list represents the Impact Themes as defined by GIIN.</td>
+  </td>
+  <td style="text-align: center;">Dec 1, 2025</td>
+  <td style="text-align: center;">0</td>
+ </tr>
+ <tr>
+  <td>RallyImpactArea (<a href="RallyImpactArea.ttl">turtle</a>)</td>
+  <td>
+  </td>
+  <td style="text-align: center;">Dec 1, 2025</td>
+  <td style="text-align: center;">0</td>
+ </tr>
+ <tr>
+  <td>ESDCSector (<a href="ESDCSector.ttl">turtle</a>)</td>
+  <td>
+  </td>
+  <td style="text-align: center;">Dec 1, 2025</td>
+  <td style="text-align: center;">0</td>
+ </tr>
+ <tr>
+  <td><a href="ICNPOsector-en.html">ICNPOsector</a> (<a href="ICNPOsector.owl">rdf/xml</a> / <a href="ICNPOsector.ttl">turtle</a> / <a href="ICNPOsector.jsonld">json-ld</a> / <a href="ICNPOsector.nt">triples</a> / <a href="ICNPOsector.csv">csv</a>)</td>
   <td>This list represent a possible categorization of sectors as defined by the International Classification of Nonprofit Organizations
     and republished by Common Approach to Impact Measurement as an RDF codelist.</td>
   <td style="text-align: center;">Oct 1, 2024</td>
   <td style="text-align: center;">0</td>
  </tr>
  <tr>
-  <td><a href="StatsCanSector/StatsCanSector-en.html">StatsCanSector</a> (<a href="StatsCanSector/StatsCanSector.owl">rdf/xml</a> / <a href="StatsCanSector/StatsCanSector.ttl">turtle</a> / <a href="StatsCanSector/StatsCanSector.jsonld">json-ld</a> / <a href="StatsCanSector/StatsCanSector.nt">triples</a> / <a href="StatsCanSector/StatsCanSector.csv">csv</a>)</td>
+  <td><a href="StatsCanSector-en.html">StatsCanSector</a> (<a href="StatsCanSector.owl">rdf/xml</a> / <a href="StatsCanSector.ttl">turtle</a> / <a href="StatsCanSector.jsonld">json-ld</a> / <a href="StatsCanSector.nt">triples</a> / <a href="StatsCanSector.csv">csv</a>)</td>
   <td>This list represent a possible categorization of sectors as defined by Statistics Canada and republished by Common Approach to Impact Measurement as an RDF codelist.</td>
   <td style="text-align: center;">Oct 3, 2024</td>
   <td style="text-align: center;">0</td>
  </tr>
 
  <tr>
-  <td><a href="PopulationServed/PopulationServed-en.html">PopulationServed</a> (<a href="PopulationServed/PopulationServed.owl">rdf/xml</a> / <a href="PopulationServed/PopulationServed.ttl">turtle</a> / <a href="PopulationServed/PopulationServed.jsonld">json-ld</a> / <a href="PopulationServed/PopulationServed.nt">triples</a> / <a href="PopulationServed/PopulationServed.csv">csv</a>)</td>
+  <td><a href="PopulationServed-en.html">PopulationServed</a> (<a href="PopulationServed.owl">rdf/xml</a> / <a href="PopulationServed.ttl">turtle</a> / <a href="PopulationServed.jsonld">json-ld</a> / <a href="PopulationServed.nt">triples</a> / <a href="PopulationServed.csv">csv</a>)</td>
   <td>A codelist vocabulary of Populations Served.</td>
   <td style="text-align: center;">Oct 8, 2024</td>
   <td style="text-align: center;">0</td>
  </tr>
 
  <tr>
-  <td><a href="ProvinceTerritory/ProvinceTerritory-en.html">ProvinceTerritory</a> (<a href="ProvinceTerritory/ProvinceTerritory.owl">rdf/xml</a> / <a href="ProvinceTerritory/ProvinceTerritory.ttl">turtle</a> / <a href="ProvinceTerritory/ProvinceTerritory.jsonld">json-ld</a> / <a href="ProvinceTerritory/ProvinceTerritory.nt">triples</a> / <a href="ProvinceTerritory/ProvinceTerritory.csv">csv</a>)</td>
+  <td><a href="ProvinceTerritory-en.html">ProvinceTerritory</a> (<a href="ProvinceTerritory.owl">rdf/xml</a> / <a href="ProvinceTerritory.ttl">turtle</a> / <a href="ProvinceTerritory.jsonld">json-ld</a> / <a href="ProvinceTerritory.nt">triples</a> / <a href="ProvinceTerritory.csv">csv</a>)</td>
   <td>A codelist vocabulary of Province and Territory Codelists according to Statistics Canada definitions.</td>
   <td style="text-align: center;">Oct 8, 2024</td>
   <td style="text-align: center;">0</td>
  </tr>
 
  <tr>
-  <td><a href="EquityDeservingGroupsESDC/EquityDeservingGroupsESDC.html">EquityDeservingGroupsESDC</a> (<a href="EquityDeservingGroupsESDC/EquityDeservingGroupsESDC.owl">rdf/xml</a> / <a href="EquityDeservingGroupsESDC/EquityDeservingGroupsESDC.ttl">turtle</a> / <a href="EquityDeservingGroupsESDC/EquityDeservingGroupsESDC.jsonld">json-ld</a> / <a href="EquityDeservingGroupsESDC/EquityDeservingGroupsESDC.nt">triples</a> / <a href="EquityDeservingGroupsESDC/EquityDeservingGroupsESDC.csv">csv</a>)</td>
+  <td><a href="EquityDeservingGroupsESDC.html">EquityDeservingGroupsESDC</a> (<a href="EquityDeservingGroupsESDC.owl">rdf/xml</a> / <a href="EquityDeservingGroupsESDC.ttl">turtle</a> / <a href="EquityDeservingGroupsESDC.jsonld">json-ld</a> / <a href="EquityDeservingGroupsESDC.nt">triples</a> / <a href="EquityDeservingGroupsESDC.csv">csv</a>)</td>
   <td>A codelist vocabulary of Equity Deserving Groups as defined by Ministry of Employment and Social Development of Canada.</td>
   <td style="text-align: center;">Oct 3, 2024</td>
   <td style="text-align: center;">0</td>
  </tr>
 
  <tr>
-  <td><a href="SDGImpacts/SDGImpacts-en.html">SDGImpacts</a> (<a href="SDGImpacts/SDGImpacts.owl">rdf/xml</a> / <a href="SDGImpacts/SDGImpacts.ttl">turtle</a> / <a href="SDGImpacts/SDGImpacts.jsonld">json-ld</a> / <a href="SDGImpacts/SDGImpacts.nt">triples</a> / <a href="SDGImpacts/SDGImpacts.csv">csv</a>)</td>
+  <td>FundingState (<a href="FundingState.ttl">turtle</a> / <a href="FundingStateExample.ttl">example</a>)</td>
+  <td>A codelist vocabulary of FundingStates.</td>
+  <td style="text-align: center;">Dec 1, 2025</td>
+  <td style="text-align: center;">0</td>
+ </tr>
+
+ <tr>
+  <td><a href="SDGImpacts-en.html">SDGImpacts</a> (<a href="SDGImpacts.owl">rdf/xml</a> / <a href="SDGImpacts.ttl">turtle</a> / <a href="SDGImpacts.jsonld">json-ld</a> / <a href="SDGImpacts.nt">triples</a> / <a href="SDGImpacts.csv">csv</a>)</td>
   <td>A codelist vocabulary of Sustainable Development Goals (SDGs) Taxonomy of Impact Themes</td>
   <td style="text-align: center;">Oct 7, 2024</td>
   <td style="text-align: center;">0</td>
  </tr>
 
  <tr>
-  <td><a href="OrgTypeGOC/OrgTypeGOC-en.html">OrgTypeGOC</a> (<a href="OrgTypeGOC/OrgTypeGOC.owl">rdf/xml</a> / <a href="OrgTypeGOC/OrgTypeGOC.ttl">turtle</a> / <a href="OrgTypeGOC/OrgTypeGOC.jsonld">json-ld</a> / <a href="OrgTypeGOC/OrgTypeGOC.nt">triples</a> / <a href="OrgTypeGOC/OrgTypeGOC.csv">csv</a> )</td>
+  <td><a href="OrgTypeGOC-en.html">OrgTypeGOC</a> (<a href="OrgTypeGOC.owl">rdf/xml</a> / <a href="OrgTypeGOC.ttl">turtle</a> / <a href="OrgTypeGOC.jsonld">json-ld</a> / <a href="OrgTypeGOC.nt">triples</a> / <a href="OrgTypeGOC.csv">csv</a> )</td>
   <td>A codelist vocabulary of organization types informed by Government of Canada definitions.</td>
   <td style="text-align: center;">Oct 7, 2024</td>
   <td style="text-align: center;">0</td>
  </tr>
 
  <tr>
-  <td><a href="Locality/LocalityStatsCan-en.html">LocalityStatsCan</a> (<a href="Locality/LocalityStatsCan.owl">rdf/xml</a> / <a href="Locality/LocalityStatsCan.ttl">turtle</a> / <a href="Locality/LocalityStatsCan.jsonld">json-ld</a> / <a href="Locality/LocalityStatsCan.nt">triples</a> / <a href="Locality/LocalityStatsCan.csv">csv</a> )</td>
+  <td><a href="LocalityStatsCan-en.html">LocalityStatsCan</a> (<a href="LocalityStatsCan.owl">rdf/xml</a> / <a href="LocalityStatsCan.ttl">turtle</a> / <a href="LocalityStatsCan.jsonld">json-ld</a> / <a href="LocalityStatsCan.nt">triples</a> / <a href="LocalityStatsCan.csv">csv</a> )</td>
   <td>A codelist vocabulary of Locality Codelists according to Statistics Canada definitions.</td>
   <td style="text-align: center;">Oct 7, 2024</td>
   <td style="text-align: center;">0</td>

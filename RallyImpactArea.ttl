@@ -1,0 +1,147 @@
+@base <https://codelist.commonapproach.org/RallyImpactArea> .
+@prefix : <#> .
+
+@prefix cids: <https://ontology.commonapproach.org/cids#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix voaf: <http://purl.org/vocommons/voaf#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix iristheme: <https://ontology.commonapproach.org/IRISImpactTheme#> .
+
+<>
+    a voaf:Vocabulary, owl:Ontology, skos:ConceptScheme ;
+    owl:imports <https://ontology.commonapproach.org/cids> ;
+
+    dcterms:creator cids:ac ;
+    dcterms:date "2025-12-01"^^xsd:date ;
+    owl:versionInfo "1.0" ;
+
+    skos:prefLabel "Rally Impact Areas"@en ;
+    dcterms:title "Rally Impact Areas"@en ;
+    dcterms:description "An RDF vocabulary of Rally Impact Areas."@en .
+
+:ArtsandCulture
+    a cids:Sector ;
+    org:hasName "Arts and Culture" ;
+    skos:prefLabel "Arts and Culture"@en ;
+    org:hasIdentifier "ArtsandCulture" ;
+    skos:notation "ArtsandCulture" ;
+
+    cids:definedBy cids:ac ;
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> .
+
+:CommunityDevelopment
+    a cids:Sector ;
+    org:hasName "Community Development" ;
+    skos:prefLabel "Community Development"@en ;
+    org:hasIdentifier "CommunityDevelopment" ;
+    skos:notation "CommunityDevelopment" ;
+
+    cids:definedBy cids:ac ;
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> .
+
+:Other
+    a cids:Sector ;
+    org:hasName "Other" ;
+    skos:prefLabel "Other"@en ;
+    org:hasIdentifier "Other" ;
+    skos:notation "Other" ;
+
+    cids:definedBy cids:ac ;
+    cids:hasSpecification <> ;
+    rdfs:isDefinedBy <> ;
+    skos:inScheme <> .
+
+
+iristheme:AffordableQualityHousing
+    skos:inScheme <> .
+
+iristheme:BiodiversityandEcosystemConservation
+    skos:inScheme <> .
+
+iristheme:CleanAir
+    skos:inScheme <> .
+
+iristheme:CleanEnergy
+    skos:inScheme <> .
+
+iristheme:ClimateResilienceandAdaptation
+    skos:inScheme <> .
+
+iristheme:ClimateChangeMitigation
+    skos:inScheme <> .
+
+iristheme:EnergyAccess
+    skos:inScheme <> .
+
+iristheme:EnergyEfficiency
+    skos:inScheme <> .
+
+iristheme:FinancialInclusion
+    skos:inScheme <> .
+
+iristheme:FoodSecurity
+    skos:inScheme <> .
+
+iristheme:GreenBuildings
+    skos:inScheme <> .
+
+iristheme:MarineResourcesConservationandManagement
+    skos:inScheme <> .
+
+iristheme:NaturalResourcesConservation
+    skos:inScheme <> .
+
+iristheme:Nutrition
+    skos:inScheme <> .
+
+iristheme:PollutionPrevention
+    skos:inScheme <> .
+
+iristheme:AccesstoQualityEducation
+    skos:inScheme <> .
+
+iristheme:AccesstoQualityHealthcare
+    skos:inScheme <> .
+
+iristheme:QualityJobs
+    skos:inScheme <> .
+
+iristheme:RacialEquity
+    skos:inScheme <> .
+
+iristheme:ResilientInfrastructure
+    skos:inScheme <> .
+
+iristheme:SmallholderAgriculture
+    skos:inScheme <> .
+
+iristheme:SustainableAgriculture
+    skos:inScheme <> .
+
+iristheme:SustainableForestry
+    skos:inScheme <> .
+
+iristheme:SustainableLandManagement
+    skos:inScheme <> .
+
+iristheme:SustainableWaterManagement
+    skos:inScheme <> .
+
+iristheme:WasteManagement
+    skos:inScheme <> .
+
+iristheme:WaterSanitationandHygiene
+    skos:inScheme <> .
+
+iristheme:GenderLens
+    skos:inScheme <> .
