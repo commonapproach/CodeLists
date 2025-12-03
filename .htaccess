@@ -1,227 +1,87 @@
+# Rewrite engine setup
 RewriteEngine On
+#Change the path to the folder here
 RewriteBase /
-
-# Need a generalizable version of these rules.
+ 
+###
+# General rule (for n-2 generation: /codeLists/[CODELIST])
+# HTML
 RewriteCond %{HTTP_ACCEPT} text/html [OR]
 RewriteCond %{HTTP_ACCEPT} application/xhtml\+xml
-RewriteRule ^/codeLists/IrisMetric53$ codeLists/IrisMetric53-en.html [R=303,L]
+# Match any path consisting only of alphabetical characters
+RewriteRule ^/codeLists/([0-9a-zA-Z]+)$ /$1-en.html [R=303,L]
+# OWL
 RewriteCond %{HTTP_ACCEPT} application/rdf\+xml
-RewriteRule ^/codeLists/IrisMetric53$ codeLists/IrisMetric53.owl [R=303,L]
+RewriteRule ^/codeLists/([0-9a-zA-Z]+)$ /$1.owl [R=303,L]
+# CSV
 RewriteCond %{HTTP_ACCEPT} text/csv
-RewriteRule ^/codeLists/IrisMetric53$ codeLists/IrisMetric53.csv [R=303,L]
-RewriteCond %{HTTP_ACCEPT} text/x-turtle [OR]
+RewriteRule ^/codeLists/([0-9a-zA-Z]+)$ /$1.csv [R=303,L]
+# Turtle
+RewriteCond %{HTTP_ACCEPT} text/turtle [OR]
 RewriteCond %{HTTP_ACCEPT} application/x-turtle
-RewriteRule ^/codeLists/IrisMetric53$ codeLists/IrisMetric53.ttl [R=303,L]
-RewriteCond %{HTTP_ACCEPT} application/ld\+json
-RewriteRule ^/codeLists/IrisMetric53$ codeLists/IrisMetric53.jsonld [R=303,L]
+RewriteRule ^/codeLists/([0-9a-zA-Z]+)$ /$1.ttl [R=303,L]
+# N-Triples
 RewriteCond %{HTTP_ACCEPT} application/n-triples
-RewriteRule ^/codeLists/IrisMetric53$ codeLists/IrisMetric53.nt [R=303,L]
-RewriteRule ^/codeLists/IrisMetric53$ codeLists/IrisMetric53.owl [R=303,L]
-# See: https://gitlab.com/common-approach/tech-ops/-/issues/42
-RewriteRule ^/codeLists/IrisMetric53-en.html$ IrisMetrics/IrisMetric53-en.html
-RewriteRule ^/codeLists/IrisMetric53.html$ IrisMetrics/IrisMetric53-en.html
-RewriteRule ^/codeLists/IrisMetric53.owl$ IrisMetrics/IrisMetric53.owl
-RewriteRule ^/codeLists/IrisMetric53.csv$ IrisMetrics/IrisMetric53.csv
-RewriteRule ^/codeLists/IrisMetric53.ttl$ IrisMetrics/IrisMetric53.ttl
-RewriteRule ^/codeLists/IrisMetric53.jsonld$ IrisMetrics/IrisMetric53.jsonld
-RewriteRule ^/codeLists/IrisMetric53.nt$ IrisMetrics/IrisMetric53.nt
+RewriteRule ^/codeLists/([0-9a-zA-Z]+)$ /$1.nt [R=303,L]
+# JSON-LD
+RewriteCond %{HTTP_ACCEPT} application/ld\+json
+RewriteRule ^/codeLists/([0-9a-zA-Z]+)$ /$1.jsonld [R=303,L]
+# Fallback to OWL format
+RewriteRule ^/codeLists/([A-ZA-Z]+)$ /$1.owl [R=303,L]
+###
 
-
+###
+# General rule (for previous generation: /[CODELIST]/[CODELIST])
+# HTML
 RewriteCond %{HTTP_ACCEPT} text/html [OR]
 RewriteCond %{HTTP_ACCEPT} application/xhtml\+xml
-RewriteRule ^/codeLists/ICNPOsector$ codeLists/ICNPOsector-en.html [R=303,L]
+# Match any path consisting only of alphabetical characters
+RewriteRule ^([0-9a-zA-Z]+)/([0-9a-zA-Z]+)$ /$2-en.html [R=303,L]
+# OWL
 RewriteCond %{HTTP_ACCEPT} application/rdf\+xml
-RewriteRule ^/codeLists/ICNPOsector$ codeLists/ICNPOsector.owl [R=303,L]
+RewriteRule ^([0-9a-zA-Z]+)/([0-9a-zA-Z]+)$ /$2.owl [R=303,L]
+# CSV
 RewriteCond %{HTTP_ACCEPT} text/csv
-RewriteRule ^/codeLists/ICNPOsector$ codeLists/ICNPOsector.csv [R=303,L]
-RewriteCond %{HTTP_ACCEPT} text/x-turtle [OR]
+RewriteRule ^([0-9a-zA-Z]+)/([0-9a-zA-Z]+)$ /$2.csv [R=303,L]
+# Turtle
+RewriteCond %{HTTP_ACCEPT} text/turtle [OR]
 RewriteCond %{HTTP_ACCEPT} application/x-turtle
-RewriteRule ^/codeLists/ICNPOsector$ codeLists/ICNPOsector.ttl [R=303,L]
+RewriteRule ^([0-9a-zA-Z]+)/([0-9a-zA-Z]+)$ /$2.ttl [R=303,L]
+# N-Triples
+RewriteCond %{HTTP_ACCEPT} application/n-triples
+RewriteRule ^([0-9a-zA-Z]+)/([0-9a-zA-Z]+)$ /$2.nt [R=303,L]
+# JSON-LD
 RewriteCond %{HTTP_ACCEPT} application/ld\+json
-RewriteRule ^/codeLists/ICNPOsector$ codeLists/ICNPOsector.jsonld [R=303,L]
-RewriteCond %{HTTP_ACCEPT}  application/n-triples
-RewriteRule ^/codeLists/ICNPOsector$ codeLists/ICNPOsector.nt [R=303,L]
-RewriteRule ^/codeLists/ICNPOsector$ codeLists/ICNPOsector.owl [R=303,L]
-# See: https://gitlab.com/common-approach/tech-ops/-/issues/42
-RewriteRule ^/codeLists/ICNPOsector-en.html$ ICNPOsector/ICNPOsector-en.html
-RewriteRule ^/codeLists/ICNPOsector.html$ ICNPOsector/ICNPOsector-en.html
-RewriteRule ^/codeLists/ICNPOsector.owl$ ICNPOsector/ICNPOsector.owl
-RewriteRule ^/codeLists/ICNPOsector.csv$ ICNPOsector/ICNPOsector.csv
-RewriteRule ^/codeLists/ICNPOsector.ttl$ ICNPOsector/ICNPOsector.ttl
-RewriteRule ^/codeLists/ICNPOsector.jsonld$ ICNPOsector/ICNPOsector.jsonld
-RewriteRule ^/codeLists/ICNPOsector.nt$ ICNPOsector/ICNPOsector.nt
+RewriteRule ^([0-9a-zA-Z]+)/([0-9a-zA-Z]+)$ /$2.jsonld [R=303,L]
+# Fallback to OWL format
+RewriteRule ^([0-9a-zA-Z]+)/([0-9a-zA-Z]+)$ /$2.owl [R=303,L]
+###
 
-
+###
+### General rule (for current generation)
+ 
+# HTML
 RewriteCond %{HTTP_ACCEPT} text/html [OR]
 RewriteCond %{HTTP_ACCEPT} application/xhtml\+xml
-RewriteRule ^/codeLists/StatsCanSector$ codeLists/StatsCanSector-en.html [R=303,L]
+# Match any path consisting only of alphabetical characters
+RewriteRule ^([0-9a-zA-Z]+)$ /$1-en.html [R=303,L]
+# OWL
 RewriteCond %{HTTP_ACCEPT} application/rdf\+xml
-RewriteRule ^/codeLists/StatsCanSector$ codeLists/StatsCanSector.owl [R=303,L]
+RewriteRule ^([0-9a-zA-Z]+)$ /$1.owl [R=303,L]
+# CSV
 RewriteCond %{HTTP_ACCEPT} text/csv
-RewriteRule ^/codeLists/StatsCanSector$ codeLists/StatsCanSector.csv [R=303,L]
-RewriteCond %{HTTP_ACCEPT} text/x-turtle [OR]
+RewriteRule ^([0-9a-zA-Z]+)$ /$1.csv [R=303,L]
+# Turtle
+RewriteCond %{HTTP_ACCEPT} text/turtle [OR]
 RewriteCond %{HTTP_ACCEPT} application/x-turtle
-RewriteRule ^/codeLists/StatsCanSector$ codeLists/StatsCanSector.ttl [R=303,L]
+RewriteRule ^([0-9a-zA-Z]+)$ /$1.ttl [R=303,L]
+# N-Triples
+RewriteCond %{HTTP_ACCEPT} application/n-triples
+RewriteRule ^([0-9a-zA-Z]+)$ /$1.nt [R=303,L]
+# JSON-LD
 RewriteCond %{HTTP_ACCEPT} application/ld\+json
-RewriteRule ^/codeLists/StatsCanSector$ codeLists/StatsCanSector.jsonld [R=303,L]
-RewriteCond %{HTTP_ACCEPT}  application/n-triples
-RewriteRule ^/codeLists/StatsCanSector$ codeLists/StatsCanSector.nt [R=303,L]
-RewriteRule ^/codeLists/StatsCanSector$ codeLists/StatsCanSector.owl [R=303,L]
-# See: https://gitlab.com/common-approach/tech-ops/-/issues/42
-RewriteRule ^/codeLists/StatsCanSector-en.html$ StatsCanSector/StatsCanSector-en.html
-RewriteRule ^/codeLists/StatsCanSector.html$ StatsCanSector/StatsCanSector-en.html
-RewriteRule ^/codeLists/StatsCanSector.owl$ StatsCanSector/StatsCanSector.owl
-RewriteRule ^/codeLists/StatsCanSector.csv$ StatsCanSector/StatsCanSector.csv
-RewriteRule ^/codeLists/StatsCanSector.ttl$ StatsCanSector/StatsCanSector.ttl
-RewriteRule ^/codeLists/StatsCanSector.jsonld$ StatsCanSector/StatsCanSector.jsonld
-RewriteRule ^/codeLists/StatsCanSector.nt$ StatsCanSector/StatsCanSector.nt
+RewriteRule ^([0-9a-zA-Z]+)$ /$1.jsonld [R=303,L]
+# Fallback to OWL format
+RewriteRule ^([0-9a-zA-Z]+)$ /$1.owl [R=303,L]
+###
 
-
-RewriteCond %{HTTP_ACCEPT} text/html [OR]
-RewriteCond %{HTTP_ACCEPT} application/xhtml\+xml
-RewriteRule ^/codeLists/PopulationServed$ codeLists/PopulationServed-en.html [R=303,L]
-RewriteCond %{HTTP_ACCEPT} application/rdf\+xml
-RewriteRule ^/codeLists/PopulationServed$ codeLists/PopulationServed.owl [R=303,L]
-RewriteCond %{HTTP_ACCEPT} text/csv
-RewriteRule ^/codeLists/PopulationServed$ codeLists/PopulationServed.csv [R=303,L]
-RewriteCond %{HTTP_ACCEPT} text/x-turtle [OR]
-RewriteCond %{HTTP_ACCEPT} application/x-turtle
-RewriteRule ^/codeLists/PopulationServed$ codeLists/PopulationServed.ttl [R=303,L]
-RewriteCond %{HTTP_ACCEPT} application/ld\+json
-RewriteRule ^/codeLists/PopulationServed$ codeLists/PopulationServed.jsonld [R=303,L]
-RewriteCond %{HTTP_ACCEPT}  application/n-triples
-RewriteRule ^/codeLists/PopulationServed$ codeLists/PopulationServed.nt [R=303,L]
-RewriteRule ^/codeLists/PopulationServed$ codeLists/PopulationServed.owl [R=303,L]
-# See: https://gitlab.com/common-approach/tech-ops/-/issues/42
-RewriteRule ^/codeLists/PopulationServed-en.html$ PopulationServed/PopulationServed-en.html
-RewriteRule ^/codeLists/PopulationServed.html$ PopulationServed/PopulationServed-en.html
-RewriteRule ^/codeLists/PopulationServed.owl$ PopulationServed/PopulationServed.owl
-RewriteRule ^/codeLists/PopulationServed.csv$ PopulationServed/PopulationServed.csv
-RewriteRule ^/codeLists/PopulationServed.ttl$ PopulationServed/PopulationServed.ttl
-RewriteRule ^/codeLists/PopulationServed.jsonld$ PopulationServed/PopulationServed.jsonld
-RewriteRule ^/codeLists/PopulationServed.nt$ PopulationServed/PopulationServed.nt
-
-
-RewriteCond %{HTTP_ACCEPT} text/html [OR]
-RewriteCond %{HTTP_ACCEPT} application/xhtml\+xml
-RewriteRule ^/codeLists/ProvinceTerritory$ codeLists/ProvinceTerritory-en.html [R=303,L]
-RewriteCond %{HTTP_ACCEPT} application/rdf\+xml
-RewriteRule ^/codeLists/ProvinceTerritory$ codeLists/ProvinceTerritory.owl [R=303,L]
-RewriteCond %{HTTP_ACCEPT} text/csv
-RewriteRule ^/codeLists/ProvinceTerritory$ codeLists/ProvinceTerritory.csv [R=303,L]
-RewriteCond %{HTTP_ACCEPT} text/x-turtle [OR]
-RewriteCond %{HTTP_ACCEPT} application/x-turtle
-RewriteRule ^/codeLists/ProvinceTerritory$ codeLists/ProvinceTerritory.ttl [R=303,L]
-RewriteCond %{HTTP_ACCEPT} application/ld\+json
-RewriteRule ^/codeLists/ProvinceTerritory$ codeLists/ProvinceTerritory.jsonld [R=303,L]
-RewriteCond %{HTTP_ACCEPT}  application/n-triples
-RewriteRule ^/codeLists/ProvinceTerritory$ codeLists/ProvinceTerritory.nt [R=303,L]
-RewriteRule ^/codeLists/ProvinceTerritory$ codeLists/ProvinceTerritory.owl [R=303,L]
-# See: https://gitlab.com/common-approach/tech-ops/-/issues/42
-RewriteRule ^/codeLists/ProvinceTerritory-en.html$ ProvinceTerritory/ProvinceTerritory-en.html
-RewriteRule ^/codeLists/ProvinceTerritory.html$ ProvinceTerritory/ProvinceTerritory-en.html
-RewriteRule ^/codeLists/ProvinceTerritory.owl$ ProvinceTerritory/ProvinceTerritory.owl
-RewriteRule ^/codeLists/ProvinceTerritory.csv$ ProvinceTerritory/ProvinceTerritory.csv
-RewriteRule ^/codeLists/ProvinceTerritory.ttl$ ProvinceTerritory/ProvinceTerritory.ttl
-RewriteRule ^/codeLists/ProvinceTerritory.jsonld$ ProvinceTerritory/ProvinceTerritory.jsonld
-RewriteRule ^/codeLists/ProvinceTerritory.nt$ ProvinceTerritory/ProvinceTerritory.nt
-
-
-RewriteCond %{HTTP_ACCEPT} text/html [OR]
-RewriteCond %{HTTP_ACCEPT} application/xhtml\+xml
-RewriteRule ^/codeLists/EquityDeservingGroupsESDC$ codeLists/EquityDeservingGroupsESDC-en.html [R=303,L]
-RewriteCond %{HTTP_ACCEPT} application/rdf\+xml
-RewriteRule ^/codeLists/EquityDeservingGroupsESDC$ codeLists/EquityDeservingGroupsESDC.owl [R=303,L]
-RewriteCond %{HTTP_ACCEPT} text/csv
-RewriteRule ^/codeLists/EquityDeservingGroupsESDC$ codeLists/EquityDeservingGroupsESDC.csv [R=303,L]
-RewriteCond %{HTTP_ACCEPT} text/x-turtle [OR]
-RewriteCond %{HTTP_ACCEPT} application/x-turtle
-RewriteRule ^/codeLists/EquityDeservingGroupsESDC$ codeLists/EquityDeservingGroupsESDC.ttl [R=303,L]
-RewriteCond %{HTTP_ACCEPT} application/ld\+json
-RewriteRule ^/codeLists/EquityDeservingGroupsESDC$ codeLists/EquityDeservingGroupsESDC.jsonld [R=303,L]
-RewriteCond %{HTTP_ACCEPT}  application/n-triples
-RewriteRule ^/codeLists/EquityDeservingGroupsESDC$ codeLists/EquityDeservingGroupsESDC.nt [R=303,L]
-RewriteRule ^/codeLists/EquityDeservingGroupsESDC$ codeLists/EquityDeservingGroupsESDC.owl [R=303,L]
-# See: https://gitlab.com/common-approach/tech-ops/-/issues/42
-RewriteRule ^/codeLists/EquityDeservingGroupsESDC-en.html$ EquityDeservingGroupsESDC/EquityDeservingGroupsESDC-en.html
-RewriteRule ^/codeLists/EquityDeservingGroupsESDC.html$ EquityDeservingGroupsESDC/EquityDeservingGroupsESDC-en.html
-RewriteRule ^/codeLists/EquityDeservingGroupsESDC.owl$ EquityDeservingGroupsESDC/EquityDeservingGroupsESDC.owl
-RewriteRule ^/codeLists/EquityDeservingGroupsESDC.csv$ EquityDeservingGroupsESDC/EquityDeservingGroupsESDC.csv
-RewriteRule ^/codeLists/EquityDeservingGroupsESDC.ttl$ EquityDeservingGroupsESDC/EquityDeservingGroupsESDC.ttl
-RewriteRule ^/codeLists/EquityDeservingGroupsESDC.jsonld$ EquityDeservingGroupsESDC/EquityDeservingGroupsESDC.jsonld
-RewriteRule ^/codeLists/EquityDeservingGroupsESDC.nt$ EquityDeservingGroupsESDC/EquityDeservingGroupsESDC.nt
-
-
-RewriteCond %{HTTP_ACCEPT} text/html [OR]
-RewriteCond %{HTTP_ACCEPT} application/xhtml\+xml
-RewriteRule ^/codeLists/SDGImpacts$ codeLists/SDGImpacts-en.html [R=303,L]
-RewriteCond %{HTTP_ACCEPT} application/rdf\+xml
-RewriteRule ^/codeLists/SDGImpacts$ codeLists/SDGImpacts.owl [R=303,L]
-RewriteCond %{HTTP_ACCEPT} text/csv
-RewriteRule ^/codeLists/SDGImpacts$ codeLists/SDGImpacts.csv [R=303,L]
-RewriteCond %{HTTP_ACCEPT} text/x-turtle [OR]
-RewriteCond %{HTTP_ACCEPT} application/x-turtle
-RewriteRule ^/codeLists/SDGImpacts$ codeLists/SDGImpacts.ttl [R=303,L]
-RewriteCond %{HTTP_ACCEPT} application/ld\+json
-RewriteRule ^/codeLists/SDGImpacts$ codeLists/SDGImpacts.jsonld [R=303,L]
-RewriteCond %{HTTP_ACCEPT}  application/n-triples
-RewriteRule ^/codeLists/SDGImpacts$ codeLists/SDGImpacts.nt [R=303,L]
-RewriteRule ^/codeLists/SDGImpacts$ codeLists/SDGImpacts.owl [R=303,L]
-# See: https://gitlab.com/common-approach/tech-ops/-/issues/42
-RewriteRule ^/codeLists/SDGImpacts-en.html$ SDGImpacts/SDGImpacts-en.html
-RewriteRule ^/codeLists/SDGImpacts.html$ SDGImpacts/SDGImpacts-en.html
-RewriteRule ^/codeLists/SDGImpacts.owl$ SDGImpacts/SDGImpacts.owl
-RewriteRule ^/codeLists/SDGImpacts.csv$ SDGImpacts/SDGImpacts.csv
-RewriteRule ^/codeLists/SDGImpacts.ttl$ SDGImpacts/SDGImpacts.ttl
-RewriteRule ^/codeLists/SDGImpacts.jsonld$ SDGImpacts/SDGImpacts.jsonld
-RewriteRule ^/codeLists/SDGImpacts.nt$ SDGImpacts/SDGImpacts.nt
-
-
-RewriteCond %{HTTP_ACCEPT} text/html [OR]
-RewriteCond %{HTTP_ACCEPT} application/xhtml\+xml
-RewriteRule ^/codeLists/OrgTypeGOC$ codeLists/OrgTypeGOC-en.html [R=303,L]
-RewriteCond %{HTTP_ACCEPT} application/rdf\+xml
-RewriteRule ^/codeLists/OrgTypeGOC$ codeLists/OrgTypeGOC.owl [R=303,L]
-RewriteCond %{HTTP_ACCEPT} text/csv
-RewriteRule ^/codeLists/OrgTypeGOC$ codeLists/OrgTypeGOC.csv [R=303,L]
-RewriteCond %{HTTP_ACCEPT} text/x-turtle [OR]
-RewriteCond %{HTTP_ACCEPT} application/x-turtle
-RewriteRule ^/codeLists/OrgTypeGOC$ codeLists/OrgTypeGOC.ttl [R=303,L]
-RewriteCond %{HTTP_ACCEPT} application/ld\+json
-RewriteRule ^/codeLists/OrgTypeGOC$ codeLists/OrgTypeGOC.jsonld [R=303,L]
-RewriteCond %{HTTP_ACCEPT}  application/n-triples
-RewriteRule ^/codeLists/OrgTypeGOC$ codeLists/OrgTypeGOC.nt [R=303,L]
-RewriteRule ^/codeLists/OrgTypeGOC$ codeLists/OrgTypeGOC.owl [R=303,L]
-# See: https://gitlab.com/common-approach/tech-ops/-/issues/42
-RewriteRule ^/codeLists/OrgTypeGOC-en.html$ OrgTypeGOC/OrgTypeGOC-en.html
-RewriteRule ^/codeLists/OrgTypeGOC.html$ OrgTypeGOC/OrgTypeGOC-en.html
-RewriteRule ^/codeLists/OrgTypeGOC.owl$ OrgTypeGOC/OrgTypeGOC.owl
-RewriteRule ^/codeLists/OrgTypeGOC.csv$ OrgTypeGOC/OrgTypeGOC.csv
-RewriteRule ^/codeLists/OrgTypeGOC.ttl$ OrgTypeGOC/OrgTypeGOC.ttl
-RewriteRule ^/codeLists/OrgTypeGOC.jsonld$ OrgTypeGOC/OrgTypeGOC.jsonld
-RewriteRule ^/codeLists/OrgTypeGOC.nt$ OrgTypeGOC/OrgTypeGOC.nt
-
-
-RewriteCond %{HTTP_ACCEPT} text/html [OR]
-RewriteCond %{HTTP_ACCEPT} application/xhtml\+xml
-RewriteRule ^/codeLists/LocalityStatsCan$ codeLists/LocalityStatsCan-en.html [R=303,L]
-RewriteCond %{HTTP_ACCEPT} application/rdf\+xml
-RewriteRule ^/codeLists/LocalityStatsCan$ codeLists/LocalityStatsCan.owl [R=303,L]
-RewriteCond %{HTTP_ACCEPT} text/csv
-RewriteRule ^/codeLists/LocalityStatsCan$ codeLists/LocalityStatsCan.csv [R=303,L]
-RewriteCond %{HTTP_ACCEPT} text/x-turtle [OR]
-RewriteCond %{HTTP_ACCEPT} application/x-turtle
-RewriteRule ^/codeLists/LocalityStatsCan$ codeLists/LocalityStatsCan.ttl [R=303,L]
-RewriteCond %{HTTP_ACCEPT} application/ld\+json
-RewriteRule ^/codeLists/LocalityStatsCan$ codeLists/LocalityStatsCan.jsonld [R=303,L]
-RewriteCond %{HTTP_ACCEPT}  application/n-triples
-RewriteRule ^/codeLists/LocalityStatsCan$ codeLists/LocalityStatsCan.nt [R=303,L]
-RewriteRule ^/codeLists/LocalityStatsCan$ codeLists/LocalityStatsCan.owl [R=303,L]
-# See: https://gitlab.com/common-approach/tech-ops/-/issues/42
-RewriteRule ^/codeLists/LocalityStatsCan-en.html$ Locality/LocalityStatsCan-en.html
-RewriteRule ^/codeLists/LocalityStatsCan.html$ Locality/LocalityStatsCan-en.html
-RewriteRule ^/codeLists/LocalityStatsCan.owl$ Locality/LocalityStatsCan.owl
-RewriteRule ^/codeLists/LocalityStatsCan.csv$ Locality/LocalityStatsCan.csv
-RewriteRule ^/codeLists/LocalityStatsCan.ttl$ Locality/LocalityStatsCan.ttl
-RewriteRule ^/codeLists/LocalityStatsCan.jsonld$ Locality/LocalityStatsCan.jsonld
-RewriteRule ^/codeLists/LocalityStatsCan.nt$ Locality/LocalityStatsCan.nt
