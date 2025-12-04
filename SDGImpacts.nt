@@ -1,254 +1,319 @@
-<https://codelist.commonapproach.org/codeLists/SDGImpacts> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocommons/voafVocabulary> .
-<https://codelist.commonapproach.org/codeLists/SDGImpacts> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
-<https://codelist.commonapproach.org/codeLists/SDGImpacts> <http://purl.org/dc/terms/creator> <https://ontology.commonapproach.org/cids#ac> .
-<https://codelist.commonapproach.org/codeLists/SDGImpacts> <http://purl.org/dc/terms/date> "2025-06-13" .
-<https://codelist.commonapproach.org/codeLists/SDGImpacts> <http://purl.org/dc/terms/description> "A mirror of the official UN Sustainable Development Goals (SDGs) Taxonomy. This vocabulary uses the UN's official IRIs as the primary identifiers for each goal. It retains the original commonapproach.org IRIs, which are now marked as deprecated, for backward compatibility."@en .
-<https://codelist.commonapproach.org/codeLists/SDGImpacts> <http://purl.org/dc/terms/title> "Sustainable Development Goals Impact Themes"@en .
-<https://codelist.commonapproach.org/codeLists/SDGImpacts> <http://purl.org/vocab/vann/preferredNamespacePrefix> "SDGImpacts" .
-<https://codelist.commonapproach.org/codeLists/SDGImpacts> <http://purl.org/vocab/vann/preferredNamespaceUri> <https://codelist.commonapproach.org/codeLists/SDGImpacts#> .
-<https://codelist.commonapproach.org/codeLists/SDGImpacts> <http://www.w3.org/2000/01/rdf-schema#label> "Sustainable Development Goals Impact Themes"@en .
-<https://codelist.commonapproach.org/codeLists/SDGImpacts> <http://www.w3.org/2002/07/owl#imports> <http://www.w3.org/2006/time> .
-<https://codelist.commonapproach.org/codeLists/SDGImpacts> <http://www.w3.org/2002/07/owl#imports> <https://ontology.commonapproach.org/owl/cids> .
-<https://codelist.commonapproach.org/codeLists/SDGImpacts> <http://www.w3.org/2002/07/owl#versionInfo> "1.1" .
-<https://codelist.commonapproach.org/codeLists/SDGImpacts> <http://xmlns.com/foaf/0.1/name> "Sustainable Development Goals Impact Themes"@en .
-<https://codelist.commonapproach.org/codeLists/SDGImpacts> <https://ontology.commonapproach.org/cids#hasName> "Sustainable Development Goals Impact Themes"@en .
-<https://metadata.un.org/sdg/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
-<https://metadata.un.org/sdg/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#Theme> .
-<https://metadata.un.org/sdg/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#Code> .
-<https://metadata.un.org/sdg/1> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://codelist.commonapproach.org/codeLists/SDGImpacts> .
-<https://metadata.un.org/sdg/1> <http://www.w3.org/2000/01/rdf-schema#label> "End poverty in all its forms everywhere"@en .
-<https://metadata.un.org/sdg/1> <http://www.w3.org/2004/02/skos/core#prefLabel> "Goal 1: No poverty"@en .
-<https://metadata.un.org/sdg/1> <http://www.w3.org/2004/02/skos/core#definition> "End poverty in all its forms everywhere"@en .
-<https://metadata.un.org/sdg/1> <http://www.w3.org/2004/02/skos/core#inScheme> <https://metadata.un.org/sdg> .
-<https://metadata.un.org/sdg/1> <http://www.w3.org/ns/prov#hadPrimarySource> <https://sdgs.un.org/goals/goal1> .
-<https://metadata.un.org/sdg/1> <https://ontology.commonapproach.org/cids#hasIdentifier> "1" .
-<https://metadata.un.org/sdg/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
-<https://metadata.un.org/sdg/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#Theme> .
-<https://metadata.un.org/sdg/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#Code> .
-<https://metadata.un.org/sdg/2> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://codelist.commonapproach.org/codeLists/SDGImpacts> .
-<https://metadata.un.org/sdg/2> <http://www.w3.org/2000/01/rdf-schema#label> "End hunger, achieve food security and improved nutrition and promote sustainable agriculture."@en .
-<https://metadata.un.org/sdg/2> <http://www.w3.org/2004/02/skos/core#prefLabel> "Goal 2: Zero hunger"@en .
-<https://metadata.un.org/sdg/2> <http://www.w3.org/2004/02/skos/core#definition> "End hunger, achieve food security and improved nutrition and promote sustainable agriculture"@en .
-<https://metadata.un.org/sdg/2> <http://www.w3.org/2004/02/skos/core#inScheme> <https://metadata.un.org/sdg> .
-<https://metadata.un.org/sdg/2> <http://www.w3.org/ns/prov#hadPrimarySource> <https://sdgs.un.org/goals/goal2> .
-<https://metadata.un.org/sdg/2> <https://ontology.commonapproach.org/cids#hasIdentifier> "2" .
-<https://metadata.un.org/sdg/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
-<https://metadata.un.org/sdg/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#Theme> .
-<https://metadata.un.org/sdg/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#Code> .
-<https://metadata.un.org/sdg/3> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://codelist.commonapproach.org/codeLists/SDGImpacts> .
-<https://metadata.un.org/sdg/3> <http://www.w3.org/2000/01/rdf-schema#label> "Ensure healthy lives and promote well-being for all at all ages."@en .
-<https://metadata.un.org/sdg/3> <http://www.w3.org/2004/02/skos/core#prefLabel> "Goal 3: Good health and well-being"@en .
-<https://metadata.un.org/sdg/3> <http://www.w3.org/2004/02/skos/core#definition> "Ensure healthy lives and promote well-being for all at all ages"@en .
-<https://metadata.un.org/sdg/3> <http://www.w3.org/2004/02/skos/core#inScheme> <https://metadata.un.org/sdg> .
-<https://metadata.un.org/sdg/3> <http://www.w3.org/ns/prov#hadPrimarySource> <https://sdgs.un.org/goals/goal3> .
-<https://metadata.un.org/sdg/3> <https://ontology.commonapproach.org/cids#hasIdentifier> "3" .
-<https://metadata.un.org/sdg/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
-<https://metadata.un.org/sdg/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#Theme> .
-<https://metadata.un.org/sdg/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#Code> .
-<https://metadata.un.org/sdg/4> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://codelist.commonapproach.org/codeLists/SDGImpacts> .
-<https://metadata.un.org/sdg/4> <http://www.w3.org/2000/01/rdf-schema#label> "Ensure inclusive and equitable quality education and promote lifelong learning opportunities for all."@en .
-<https://metadata.un.org/sdg/4> <http://www.w3.org/2004/02/skos/core#prefLabel> "Goal 4: Quality education"@en .
-<https://metadata.un.org/sdg/4> <http://www.w3.org/2004/02/skos/core#definition> "Ensure inclusive and equitable quality education and promote lifelong learning opportunities for all"@en .
-<https://metadata.un.org/sdg/4> <http://www.w3.org/2004/02/skos/core#inScheme> <https://metadata.un.org/sdg> .
-<https://metadata.un.org/sdg/4> <http://www.w3.org/ns/prov#hadPrimarySource> <https://sdgs.un.org/goals/goal4> .
-<https://metadata.un.org/sdg/4> <https://ontology.commonapproach.org/cids#hasIdentifier> "4" .
-<https://metadata.un.org/sdg/5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
-<https://metadata.un.org/sdg/5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#Theme> .
-<https://metadata.un.org/sdg/5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#Code> .
-<https://metadata.un.org/sdg/5> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://codelist.commonapproach.org/codeLists/SDGImpacts> .
-<https://metadata.un.org/sdg/5> <http://www.w3.org/2000/01/rdf-schema#label> "Achieve gender equality and empower all women and girls."@en .
-<https://metadata.un.org/sdg/5> <http://www.w3.org/2004/02/skos/core#prefLabel> "Goal 5: Gender equality"@en .
-<https://metadata.un.org/sdg/5> <http://www.w3.org/2004/02/skos/core#definition> "Achieve gender equality and empower all women and girls"@en .
-<https://metadata.un.org/sdg/5> <http://www.w3.org/2004/02/skos/core#inScheme> <https://metadata.un.org/sdg> .
-<https://metadata.un.org/sdg/5> <http://www.w3.org/ns/prov#hadPrimarySource> <https://sdgs.un.org/goals/goal5> .
-<https://metadata.un.org/sdg/5> <https://ontology.commonapproach.org/cids#hasIdentifier> "5" .
-<https://metadata.un.org/sdg/6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
-<https://metadata.un.org/sdg/6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#Theme> .
-<https://metadata.un.org/sdg/6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#Code> .
-<https://metadata.un.org/sdg/6> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://codelist.commonapproach.org/codeLists/SDGImpacts> .
-<https://metadata.un.org/sdg/6> <http://www.w3.org/2000/01/rdf-schema#label> "Ensure availability and sustainable management of water and sanitation for all."@en .
-<https://metadata.un.org/sdg/6> <http://www.w3.org/2004/02/skos/core#prefLabel> "Goal 6: Clean water and sanitation"@en .
-<https://metadata.un.org/sdg/6> <http://www.w3.org/2004/02/skos/core#definition> "Ensure availability and sustainable management of water and sanitation for all"@en .
-<https://metadata.un.org/sdg/6> <http://www.w3.org/2004/02/skos/core#inScheme> <https://metadata.un.org/sdg> .
-<https://metadata.un.org/sdg/6> <http://www.w3.org/ns/prov#hadPrimarySource> <https://sdgs.un.org/goals/goal6> .
-<https://metadata.un.org/sdg/6> <https://ontology.commonapproach.org/cids#hasIdentifier> "6" .
-<https://metadata.un.org/sdg/7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
-<https://metadata.un.org/sdg/7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#Theme> .
-<https://metadata.un.org/sdg/7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#Code> .
-<https://metadata.un.org/sdg/7> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://codelist.commonapproach.org/codeLists/SDGImpacts> .
-<https://metadata.un.org/sdg/7> <http://www.w3.org/2000/01/rdf-schema#label> "Ensure access to affordable, reliable, sustainable and modern energy for all."@en .
-<https://metadata.un.org/sdg/7> <http://www.w3.org/2004/02/skos/core#prefLabel> "Goal 7: Affordable and clean energy"@en .
-<https://metadata.un.org/sdg/7> <http://www.w3.org/2004/02/skos/core#definition> "Ensure access to affordable, reliable, sustainable and modern energy for all"@en .
-<https://metadata.un.org/sdg/7> <http://www.w3.org/2004/02/skos/core#inScheme> <https://metadata.un.org/sdg> .
-<https://metadata.un.org/sdg/7> <http://www.w3.org/ns/prov#hadPrimarySource> <https://sdgs.un.org/goals/goal7> .
-<https://metadata.un.org/sdg/7> <https://ontology.commonapproach.org/cids#hasIdentifier> "7" .
-<https://metadata.un.org/sdg/8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
-<https://metadata.un.org/sdg/8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#Theme> .
-<https://metadata.un.org/sdg/8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#Code> .
-<https://metadata.un.org/sdg/8> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://codelist.commonapproach.org/codeLists/SDGImpacts> .
-<https://metadata.un.org/sdg/8> <http://www.w3.org/2000/01/rdf-schema#label> "Promote sustained, inclusive and sustainable economic growth, full and productive employment and decent work for all."@en .
-<https://metadata.un.org/sdg/8> <http://www.w3.org/2004/02/skos/core#prefLabel> "Goal 8: Decent work and economic growth"@en .
-<https://metadata.un.org/sdg/8> <http://www.w3.org/2004/02/skos/core#definition> "Promote sustained, inclusive and sustainable economic growth, full and productive employment and decent work for all"@en .
-<https://metadata.un.org/sdg/8> <http://www.w3.org/2004/02/skos/core#inScheme> <https://metadata.un.org/sdg> .
-<https://metadata.un.org/sdg/8> <http://www.w3.org/ns/prov#hadPrimarySource> <https://sdgs.un.org/goals/goal8> .
-<https://metadata.un.org/sdg/8> <https://ontology.commonapproach.org/cids#hasIdentifier> "8" .
-<https://metadata.un.org/sdg/9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
-<https://metadata.un.org/sdg/9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#Theme> .
-<https://metadata.un.org/sdg/9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#Code> .
-<https://metadata.un.org/sdg/9> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://codelist.commonapproach.org/codeLists/SDGImpacts> .
-<https://metadata.un.org/sdg/9> <http://www.w3.org/2000/01/rdf-schema#label> "Build resilient infrastructure, promote inclusive and sustainable industrialization and foster innovation."@en .
-<https://metadata.un.org/sdg/9> <http://www.w3.org/2004/02/skos/core#prefLabel> "Goal 9: Industry, innovation and infrastructure"@en .
-<https://metadata.un.org/sdg/9> <http://www.w3.org/2004/02/skos/core#definition> "Build resilient infrastructure, promote inclusive and sustainable industrialization and foster innovation"@en .
-<https://metadata.un.org/sdg/9> <http://www.w3.org/2004/02/skos/core#inScheme> <https://metadata.un.org/sdg> .
-<https://metadata.un.org/sdg/9> <http://www.w3.org/ns/prov#hadPrimarySource> <https://sdgs.un.org/goals/goal9> .
-<https://metadata.un.org/sdg/9> <https://ontology.commonapproach.org/cids#hasIdentifier> "9" .
-<https://metadata.un.org/sdg/10> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
-<https://metadata.un.org/sdg/10> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#Theme> .
-<https://metadata.un.org/sdg/10> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#Code> .
-<https://metadata.un.org/sdg/10> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://codelist.commonapproach.org/codeLists/SDGImpacts> .
-<https://metadata.un.org/sdg/10> <http://www.w3.org/2000/01/rdf-schema#label> "Reduce inequality within and among countries."@en .
-<https://metadata.un.org/sdg/10> <http://www.w3.org/2004/02/skos/core#prefLabel> "Goal 10: Reduced inequalities"@en .
-<https://metadata.un.org/sdg/10> <http://www.w3.org/2004/02/skos/core#definition> "Reduce inequality within and among countries"@en .
-<https://metadata.un.org/sdg/10> <http://www.w3.org/2004/02/skos/core#inScheme> <https://metadata.un.org/sdg> .
-<https://metadata.un.org/sdg/10> <http://www.w3.org/ns/prov#hadPrimarySource> <https://sdgs.un.org/goals/goal10> .
-<https://metadata.un.org/sdg/10> <https://ontology.commonapproach.org/cids#hasIdentifier> "10" .
-<https://metadata.un.org/sdg/11> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
-<https://metadata.un.org/sdg/11> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#Theme> .
-<https://metadata.un.org/sdg/11> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#Code> .
-<https://metadata.un.org/sdg/11> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://codelist.commonapproach.org/codeLists/SDGImpacts> .
-<https://metadata.un.org/sdg/11> <http://www.w3.org/2000/01/rdf-schema#label> "Make cities and human settlements inclusive, safe, resilient and sustainable."@en .
-<https://metadata.un.org/sdg/11> <http://www.w3.org/2004/02/skos/core#prefLabel> "Goal 11: Sustainable cities and communities"@en .
-<https://metadata.un.org/sdg/11> <http://www.w3.org/2004/02/skos/core#definition> "Make cities and human settlements inclusive, safe, resilient and sustainable"@en .
-<https://metadata.un.org/sdg/11> <http://www.w3.org/2004/02/skos/core#inScheme> <https://metadata.un.org/sdg> .
-<https://metadata.un.org/sdg/11> <http://www.w3.org/ns/prov#hadPrimarySource> <https://sdgs.un.org/goals/goal11> .
-<https://metadata.un.org/sdg/11> <https://ontology.commonapproach.org/cids#hasIdentifier> "11" .
-<https://metadata.un.org/sdg/12> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
-<https://metadata.un.org/sdg/12> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#Theme> .
-<https://metadata.un.org/sdg/12> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#Code> .
-<https://metadata.un.org/sdg/12> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://codelist.commonapproach.org/codeLists/SDGImpacts> .
-<https://metadata.un.org/sdg/12> <http://www.w3.org/2000/01/rdf-schema#label> "Ensure sustainable consumption and production patterns."@en .
-<https://metadata.un.org/sdg/12> <http://www.w3.org/2004/02/skos/core#prefLabel> "Goal 12: Responsible consumption and production"@en .
-<https://metadata.un.org/sdg/12> <http://www.w3.org/2004/02/skos/core#definition> "Ensure sustainable consumption and production patterns"@en .
-<https://metadata.un.org/sdg/12> <http://www.w3.org/2004/02/skos/core#inScheme> <https://metadata.un.org/sdg> .
-<https://metadata.un.org/sdg/12> <http://www.w3.org/ns/prov#hadPrimarySource> <https://sdgs.un.org/goals/goal12> .
-<https://metadata.un.org/sdg/12> <https://ontology.commonapproach.org/cids#hasIdentifier> "12" .
-<https://metadata.un.org/sdg/13> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
-<https://metadata.un.org/sdg/13> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#Theme> .
-<https://metadata.un.org/sdg/13> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#Code> .
-<https://metadata.un.org/sdg/13> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://codelist.commonapproach.org/codeLists/SDGImpacts> .
-<https://metadata.un.org/sdg/13> <http://www.w3.org/2000/01/rdf-schema#label> "Take urgent action to combat climate change and its impacts."@en .
-<https://metadata.un.org/sdg/13> <http://www.w3.org/2004/02/skos/core#prefLabel> "Goal 13: Climate action"@en .
-<https://metadata.un.org/sdg/13> <http://www.w3.org/2004/02/skos/core#definition> "Take urgent action to combat climate change and its impacts"@en .
-<https://metadata.un.org/sdg/13> <http://www.w3.org/2004/02/skos/core#inScheme> <https://metadata.un.org/sdg> .
-<https://metadata.un.org/sdg/13> <http://www.w3.org/ns/prov#hadPrimarySource> <https://sdgs.un.org/goals/goal13> .
-<https://metadata.un.org/sdg/13> <https://ontology.commonapproach.org/cids#hasIdentifier> "13" .
-<https://metadata.un.org/sdg/14> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
-<https://metadata.un.org/sdg/14> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#Theme> .
-<https://metadata.un.org/sdg/14> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#Code> .
-<https://metadata.un.org/sdg/14> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://codelist.commonapproach.org/codeLists/SDGImpacts> .
-<https://metadata.un.org/sdg/14> <http://www.w3.org/2000/01/rdf-schema#label> "Conserve and sustainably use the oceans, seas and marine resources for sustainable development."@en .
-<https://metadata.un.org/sdg/14> <http://www.w3.org/2004/02/skos/core#prefLabel> "Goal 14: Life below water"@en .
-<https://metadata.un.org/sdg/14> <http://www.w3.org/2004/02/skos/core#definition> "Conserve and sustainably use the oceans, seas and marine resources for sustainable development"@en .
-<https://metadata.un.org/sdg/14> <http://www.w3.org/2004/02/skos/core#inScheme> <https://metadata.un.org/sdg> .
-<https://metadata.un.org/sdg/14> <http://www.w3.org/ns/prov#hadPrimarySource> <https://sdgs.un.org/goals/goal14> .
-<https://metadata.un.org/sdg/14> <https://ontology.commonapproach.org/cids#hasIdentifier> "14" .
-<https://metadata.un.org/sdg/15> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
-<https://metadata.un.org/sdg/15> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#Theme> .
-<https://metadata.un.org/sdg/15> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#Code> .
-<https://metadata.un.org/sdg/15> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://codelist.commonapproach.org/codeLists/SDGImpacts> .
-<https://metadata.un.org/sdg/15> <http://www.w3.org/2000/01/rdf-schema#label> "Protect, restore and promote sustainable use of terrestrial ecosystems, sustainably manage forests, combat desertification, and halt and reverse land degradation and halt biodiversity loss."@en .
-<https://metadata.un.org/sdg/15> <http://www.w3.org/2004/02/skos/core#prefLabel> "Goal 15: Life on land"@en .
-<https://metadata.un.org/sdg/15> <http://www.w3.org/2004/02/skos/core#definition> "Protect, restore and promote sustainable use of terrestrial ecosystems, sustainably manage forests, combat desertification, and halt and reverse land degradation and halt biodiversity loss"@en .
-<https://metadata.un.org/sdg/15> <http://www.w3.org/2004/02/skos/core#inScheme> <https://metadata.un.org/sdg> .
-<https://metadata.un.org/sdg/15> <http://www.w3.org/ns/prov#hadPrimarySource> <https://sdgs.un.org/goals/goal15> .
-<https://metadata.un.org/sdg/15> <https://ontology.commonapproach.org/cids#hasIdentifier> "15" .
-<https://metadata.un.org/sdg/16> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
-<https://metadata.un.org/sdg/16> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#Theme> .
-<https://metadata.un.org/sdg/16> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#Code> .
-<https://metadata.un.org/sdg/16> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://codelist.commonapproach.org/codeLists/SDGImpacts> .
-<https://metadata.un.org/sdg/16> <http://www.w3.org/2000/01/rdf-schema#label> "Promote peaceful and inclusive societies for sustainable development, provide access to justice for all and build effective, accountable and inclusive institutions at all levels."@en .
-<https://metadata.un.org/sdg/16> <http://www.w3.org/2004/02/skos/core#prefLabel> "Goal 16: Peace, justice and strong institutions"@en .
-<https://metadata.un.org/sdg/16> <http://www.w3.org/2004/02/skos/core#definition> "Promote peaceful and inclusive societies for sustainable development, provide access to justice for all and build effective, accountable and inclusive institutions at all levels"@en .
-<https://metadata.un.org/sdg/16> <http://www.w3.org/2004/02/skos/core#inScheme> <https://metadata.un.org/sdg> .
-<https://metadata.un.org/sdg/16> <http://www.w3.org/ns/prov#hadPrimarySource> <https://sdgs.un.org/goals/goal16> .
-<https://metadata.un.org/sdg/16> <https://ontology.commonapproach.org/cids#hasIdentifier> "16" .
-<https://metadata.un.org/sdg/17> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
-<https://metadata.un.org/sdg/17> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#Theme> .
-<https://metadata.un.org/sdg/17> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#Code> .
-<https://metadata.un.org/sdg/17> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://codelist.commonapproach.org/codeLists/SDGImpacts> .
-<https://metadata.un.org/sdg/17> <http://www.w3.org/2000/01/rdf-schema#label> "Strengthen the means of implementation and revitalize the Global Partnership for Sustainable Development."@en .
-<https://metadata.un.org/sdg/17> <http://www.w3.org/2004/02/skos/core#prefLabel> "Goal 17: Partnerships for the goals"@en .
-<https://metadata.un.org/sdg/17> <http://www.w3.org/2004/02/skos/core#definition> "Strengthen the means of implementation and revitalize the Global Partnership for Sustainable Development"@en .
-<https://metadata.un.org/sdg/17> <http://www.w3.org/2004/02/skos/core#inScheme> <https://metadata.un.org/sdg> .
-<https://metadata.un.org/sdg/17> <http://www.w3.org/ns/prov#hadPrimarySource> <https://sdgs.un.org/goals/goal17> .
-<https://metadata.un.org/sdg/17> <https://ontology.commonapproach.org/cids#hasIdentifier> "17" .
+<https://codelist.commonapproach.org/SDGImpacts> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocommons/voaf#Vocabulary> .
+<https://codelist.commonapproach.org/SDGImpacts> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<https://codelist.commonapproach.org/SDGImpacts> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
+<https://codelist.commonapproach.org/SDGImpacts> <http://www.w3.org/2002/07/owl#imports> <https://ontology.commonapproach.org/cids> .
+<https://codelist.commonapproach.org/SDGImpacts> <http://purl.org/dc/terms/creator> <https://ontology.commonapproach.org/cids#ac> .
+<https://codelist.commonapproach.org/SDGImpacts> <http://purl.org/dc/terms/date> "2025-12-01"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://codelist.commonapproach.org/SDGImpacts> <http://www.w3.org/2002/07/owl#versionInfo> "2.0" .
+<https://codelist.commonapproach.org/SDGImpacts> <http://www.w3.org/2004/02/skos/core#prefLabel> "Sustainable Development Goals Impact Themes"@en .
+<https://codelist.commonapproach.org/SDGImpacts> <http://purl.org/dc/terms/title> "Sustainable Development Goals Impact Themes"@en .
+<https://codelist.commonapproach.org/SDGImpacts> <http://purl.org/dc/terms/description> "A mirror of the official UN Sustainable Development Goals (SDGs) Taxonomy. This vocabulary uses the UN's official IRIs as the primary identifiers for each goal. It retains the original commonapproach.org IRIs, which are now marked as deprecated, for backward compatibility."@en .
 <https://metadata.un.org/sdg> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
 <https://metadata.un.org/sdg> <http://purl.org/dc/terms/title> "Sustainable Development Goals Taxonomy"@en .
-<https://codelist.commonapproach.org/codeLists/SDGImpacts#SDG1> <http://www.w3.org/2002/07/owl#sameAs> <https://metadata.un.org/sdg/1> .
-<https://codelist.commonapproach.org/codeLists/SDGImpacts#SDG1> <http://www.w3.org/2002/07/owl#deprecated> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
-<https://codelist.commonapproach.org/codeLists/SDGImpacts#SDG1> <http://www.w3.org/2000/01/rdf-schema#label> "Legacy IRI for SDG 1"@en .
-<https://codelist.commonapproach.org/codeLists/SDGImpacts#SDG1> <http://www.w3.org/2000/01/rdf-schema#comment> "This IRI is deprecated and has been replaced by https://metadata.un.org/sdg/1. It is retained for backward compatibility."@en .
-<https://codelist.commonapproach.org/codeLists/SDGImpacts#SDG2> <http://www.w3.org/2002/07/owl#sameAs> <https://metadata.un.org/sdg/2> .
-<https://codelist.commonapproach.org/codeLists/SDGImpacts#SDG2> <http://www.w3.org/2002/07/owl#deprecated> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
-<https://codelist.commonapproach.org/codeLists/SDGImpacts#SDG2> <http://www.w3.org/2000/01/rdf-schema#label> "Legacy IRI for SDG 2"@en .
-<https://codelist.commonapproach.org/codeLists/SDGImpacts#SDG2> <http://www.w3.org/2000/01/rdf-schema#comment> "This IRI is deprecated and has been replaced by https://metadata.un.org/sdg/2. It is retained for backward compatibility."@en .
-<https://codelist.commonapproach.org/codeLists/SDGImpacts#SDG3> <http://www.w3.org/2002/07/owl#sameAs> <https://metadata.un.org/sdg/3> .
-<https://codelist.commonapproach.org/codeLists/SDGImpacts#SDG3> <http://www.w3.org/2002/07/owl#deprecated> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
-<https://codelist.commonapproach.org/codeLists/SDGImpacts#SDG3> <http://www.w3.org/2000/01/rdf-schema#label> "Legacy IRI for SDG 3"@en .
-<https://codelist.commonapproach.org/codeLists/SDGImpacts#SDG3> <http://www.w3.org/2000/01/rdf-schema#comment> "This IRI is deprecated and has been replaced by https://metadata.un.org/sdg/3. It is retained for backward compatibility."@en .
-<https://codelist.commonapproach.org/codeLists/SDGImpacts#SDG4> <http://www.w3.org/2002/07/owl#sameAs> <https://metadata.un.org/sdg/4> .
-<https://codelist.commonapproach.org/codeLists/SDGImpacts#SDG4> <http://www.w3.org/2002/07/owl#deprecated> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
-<https://codelist.commonapproach.org/codeLists/SDGImpacts#SDG4> <http://www.w3.org/2000/01/rdf-schema#label> "Legacy IRI for SDG 4"@en .
-<https://codelist.commonapproach.org/codeLists/SDGImpacts#SDG4> <http://www.w3.org/2000/01/rdf-schema#comment> "This IRI is deprecated and has been replaced by https://metadata.un.org/sdg/4. It is retained for backward compatibility."@en .
-<https://codelist.commonapproach.org/codeLists/SDGImpacts#SDG5> <http://www.w3.org/2002/07/owl#sameAs> <https://metadata.un.org/sdg/5> .
-<https://codelist.commonapproach.org/codeLists/SDGImpacts#SDG5> <http://www.w3.org/2002/07/owl#deprecated> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
-<https://codelist.commonapproach.org/codeLists/SDGImpacts#SDG5> <http://www.w3.org/2000/01/rdf-schema#label> "Legacy IRI for SDG 5"@en .
-<https://codelist.commonapproach.org/codeLists/SDGImpacts#SDG5> <http://www.w3.org/2000/01/rdf-schema#comment> "This IRI is deprecated and has been replaced by https://metadata.un.org/sdg/5. It is retained for backward compatibility."@en .
-<https://codelist.commonapproach.org/codeLists/SDGImpacts#SDG6> <http://www.w3.org/2002/07/owl#sameAs> <https://metadata.un.org/sdg/6> .
-<https://codelist.commonapproach.org/codeLists/SDGImpacts#SDG6> <http://www.w3.org/2002/07/owl#deprecated> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
-<https://codelist.commonapproach.org/codeLists/SDGImpacts#SDG6> <http://www.w3.org/2000/01/rdf-schema#label> "Legacy IRI for SDG 6"@en .
-<https://codelist.commonapproach.org/codeLists/SDGImpacts#SDG6> <http://www.w3.org/2000/01/rdf-schema#comment> "This IRI is deprecated and has been replaced by https://metadata.un.org/sdg/6. It is retained for backward compatibility."@en .
-<https://codelist.commonapproach.org/codeLists/SDGImpacts#SDG7> <http://www.w3.org/2002/07/owl#sameAs> <https://metadata.un.org/sdg/7> .
-<https://codelist.commonapproach.org/codeLists/SDGImpacts#SDG7> <http://www.w3.org/2002/07/owl#deprecated> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
-<https://codelist.commonapproach.org/codeLists/SDGImpacts#SDG7> <http://www.w3.org/2000/01/rdf-schema#label> "Legacy IRI for SDG 7"@en .
-<https://codelist.commonapproach.org/codeLists/SDGImpacts#SDG7> <http://www.w3.org/2000/01/rdf-schema#comment> "This IRI is deprecated and has been replaced by https://metadata.un.org/sdg/7. It is retained for backward compatibility."@en .
-<https://codelist.commonapproach.org/codeLists/SDGImpacts#SDG8> <http://www.w3.org/2002/07/owl#sameAs> <https://metadata.un.org/sdg/8> .
-<https://codelist.commonapproach.org/codeLists/SDGImpacts#SDG8> <http://www.w3.org/2002/07/owl#deprecated> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
-<https://codelist.commonapproach.org/codeLists/SDGImpacts#SDG8> <http://www.w3.org/2000/01/rdf-schema#label> "Legacy IRI for SDG 8"@en .
-<https://codelist.commonapproach.org/codeLists/SDGImpacts#SDG8> <http://www.w3.org/2000/01/rdf-schema#comment> "This IRI is deprecated and has been replaced by https://metadata.un.org/sdg/8. It is retained for backward compatibility."@en .
-<https://codelist.commonapproach.org/codeLists/SDGImpacts#SDG9> <http://www.w3.org/2002/07/owl#sameAs> <https://metadata.un.org/sdg/9> .
-<https://codelist.commonapproach.org/codeLists/SDGImpacts#SDG9> <http://www.w3.org/2002/07/owl#deprecated> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
-<https://codelist.commonapproach.org/codeLists/SDGImpacts#SDG9> <http://www.w3.org/2000/01/rdf-schema#label> "Legacy IRI for SDG 9"@en .
-<https://codelist.commonapproach.org/codeLists/SDGImpacts#SDG9> <http://www.w3.org/2000/01/rdf-schema#comment> "This IRI is deprecated and has been replaced by https://metadata.un.org/sdg/9. It is retained for backward compatibility."@en .
-<https://codelist.commonapproach.org/codeLists/SDGImpacts#SDG10> <http://www.w3.org/2002/07/owl#sameAs> <https://metadata.un.org/sdg/10> .
-<https://codelist.commonapproach.org/codeLists/SDGImpacts#SDG10> <http://www.w3.org/2002/07/owl#deprecated> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
-<https://codelist.commonapproach.org/codeLists/SDGImpacts#SDG10> <http://www.w3.org/2000/01/rdf-schema#label> "Legacy IRI for SDG 10"@en .
-<https://codelist.commonapproach.org/codeLists/SDGImpacts#SDG10> <http://www.w3.org/2000/01/rdf-schema#comment> "This IRI is deprecated and has been replaced by https://metadata.un.org/sdg/10. It is retained for backward compatibility."@en .
-<https://codelist.commonapproach.org/codeLists/SDGImpacts#SDG11> <http://www.w3.org/2002/07/owl#sameAs> <https://metadata.un.org/sdg/11> .
-<https://codelist.commonapproach.org/codeLists/SDGImpacts#SDG11> <http://www.w3.org/2002/07/owl#deprecated> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
-<https://codelist.commonapproach.org/codeLists/SDGImpacts#SDG11> <http://www.w3.org/2000/01/rdf-schema#label> "Legacy IRI for SDG 11"@en .
-<https://codelist.commonapproach.org/codeLists/SDGImpacts#SDG11> <http://www.w3.org/2000/01/rdf-schema#comment> "This IRI is deprecated and has been replaced by https://metadata.un.org/sdg/11. It is retained for backward compatibility."@en .
-<https://codelist.commonapproach.org/codeLists/SDGImpacts#SDG12> <http://www.w3.org/2002/07/owl#sameAs> <https://metadata.un.org/sdg/12> .
-<https://codelist.commonapproach.org/codeLists/SDGImpacts#SDG12> <http://www.w3.org/2002/07/owl#deprecated> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
-<https://codelist.commonapproach.org/codeLists/SDGImpacts#SDG12> <http://www.w3.org/2000/01/rdf-schema#label> "Legacy IRI for SDG 12"@en .
-<https://codelist.commonapproach.org/codeLists/SDGImpacts#SDG12> <http://www.w3.org/2000/01/rdf-schema#comment> "This IRI is deprecated and has been replaced by https://metadata.un.org/sdg/12. It is retained for backward compatibility."@en .
-<https://codelist.commonapproach.org/codeLists/SDGImpacts#SDG13> <http://www.w3.org/2002/07/owl#sameAs> <https://metadata.un.org/sdg/13> .
-<https://codelist.commonapproach.org/codeLists/SDGImpacts#SDG13> <http://www.w3.org/2002/07/owl#deprecated> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
-<https://codelist.commonapproach.org/codeLists/SDGImpacts#SDG13> <http://www.w3.org/2000/01/rdf-schema#label> "Legacy IRI for SDG 13"@en .
-<https://codelist.commonapproach.org/codeLists/SDGImpacts#SDG13> <http://www.w3.org/2000/01/rdf-schema#comment> "This IRI is deprecated and has been replaced by https://metadata.un.org/sdg/13. It is retained for backward compatibility."@en .
-<https://codelist.commonapproach.org/codeLists/SDGImpacts#SDG14> <http://www.w3.org/2002/07/owl#sameAs> <https://metadata.un.org/sdg/14> .
-<https://codelist.commonapproach.org/codeLists/SDGImpacts#SDG14> <http://www.w3.org/2002/07/owl#deprecated> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
-<https://codelist.commonapproach.org/codeLists/SDGImpacts#SDG14> <http://www.w3.org/2000/01/rdf-schema#label> "Legacy IRI for SDG 14"@en .
-<https://codelist.commonapproach.org/codeLists/SDGImpacts#SDG14> <http://www.w3.org/2000/01/rdf-schema#comment> "This IRI is deprecated and has been replaced by https://metadata.un.org/sdg/14. It is retained for backward compatibility."@en .
-<https://codelist.commonapproach.org/codeLists/SDGImpacts#SDG15> <http://www.w3.org/2002/07/owl#sameAs> <https://metadata.un.org/sdg/15> .
-<https://codelist.commonapproach.org/codeLists/SDGImpacts#SDG15> <http://www.w3.org/2002/07/owl#deprecated> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
-<https://codelist.commonapproach.org/codeLists/SDGImpacts#SDG15> <http://www.w3.org/2000/01/rdf-schema#label> "Legacy IRI for SDG 15"@en .
-<https://codelist.commonapproach.org/codeLists/SDGImpacts#SDG15> <http://www.w3.org/2000/01/rdf-schema#comment> "This IRI is deprecated and has been replaced by https://metadata.un.org/sdg/15. It is retained for backward compatibility."@en .
-<https://codelist.commonapproach.org/codeLists/SDGImpacts#SDG16> <http://www.w3.org/2002/07/owl#sameAs> <https://metadata.un.org/sdg/16> .
-<https://codelist.commonapproach.org/codeLists/SDGImpacts#SDG16> <http://www.w3.org/2002/07/owl#deprecated> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
-<https://codelist.commonapproach.org/codeLists/SDGImpacts#SDG16> <http://www.w3.org/2000/01/rdf-schema#label> "Legacy IRI for SDG 16"@en .
-<https://codelist.commonapproach.org/codeLists/SDGImpacts#SDG16> <http://www.w3.org/2000/01/rdf-schema#comment> "This IRI is deprecated and has been replaced by https://metadata.un.org/sdg/16. It is retained for backward compatibility."@en .
-<https://codelist.commonapproach.org/codeLists/SDGImpacts#SDG17> <http://www.w3.org/2002/07/owl#sameAs> <https://metadata.un.org/sdg/17> .
-<https://codelist.commonapproach.org/codeLists/SDGImpacts#SDG17> <http://www.w3.org/2002/07/owl#deprecated> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
-<https://codelist.commonapproach.org/codeLists/SDGImpacts#SDG17> <http://www.w3.org/2000/01/rdf-schema#label> "Legacy IRI for SDG 17"@en .
-<https://codelist.commonapproach.org/codeLists/SDGImpacts#SDG17> <http://www.w3.org/2000/01/rdf-schema#comment> "This IRI is deprecated and has been replaced by https://metadata.un.org/sdg/17. It is retained for backward compatibility."@en .
+<https://metadata.un.org/sdg/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://metadata.un.org/sdg/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#Code> .
+<https://metadata.un.org/sdg/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#Theme> .
+<https://metadata.un.org/sdg/1> <http://www.w3.org/ns/org#hasName> "Goal 1: No poverty" .
+<https://metadata.un.org/sdg/1> <http://www.w3.org/2004/02/skos/core#prefLabel> "Goal 1: No poverty"@en .
+<https://metadata.un.org/sdg/1> <https://ontology.commonapproach.org/cids#hasDescription> "End poverty in all its forms everywhere" .
+<https://metadata.un.org/sdg/1> <http://www.w3.org/2004/02/skos/core#definition> "End poverty in all its forms everywhere"@en .
+<https://metadata.un.org/sdg/1> <http://www.w3.org/ns/org#hasIdentifier> "1" .
+<https://metadata.un.org/sdg/1> <http://www.w3.org/2004/02/skos/core#notation> "1" .
+<https://metadata.un.org/sdg/1> <http://www.w3.org/ns/prov#hadPrimarySource> <https://sdgs.un.org/goals/goal1> .
+<https://metadata.un.org/sdg/1> <https://ontology.commonapproach.org/cids#definedBy> <https://ontology.commonapproach.org/cids#ac> .
+<https://metadata.un.org/sdg/1> <https://ontology.commonapproach.org/cids#hasSpecification> <https://codelist.commonapproach.org/SDGImpacts> .
+<https://metadata.un.org/sdg/1> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://codelist.commonapproach.org/SDGImpacts> .
+<https://metadata.un.org/sdg/1> <http://www.w3.org/2004/02/skos/core#inScheme> <https://metadata.un.org/sdg> .
+<https://metadata.un.org/sdg/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://metadata.un.org/sdg/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#Code> .
+<https://metadata.un.org/sdg/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#Theme> .
+<https://metadata.un.org/sdg/2> <http://www.w3.org/ns/org#hasName> "Goal 2: Zero hunger" .
+<https://metadata.un.org/sdg/2> <http://www.w3.org/2004/02/skos/core#prefLabel> "Goal 2: Zero hunger"@en .
+<https://metadata.un.org/sdg/2> <https://ontology.commonapproach.org/cids#hasDescription> "End hunger, achieve food security and improved nutrition and promote sustainable agriculture" .
+<https://metadata.un.org/sdg/2> <http://www.w3.org/2004/02/skos/core#definition> "End hunger, achieve food security and improved nutrition and promote sustainable agriculture"@en .
+<https://metadata.un.org/sdg/2> <https://ontology.commonapproach.org/cids#hasIdentifier> "2" .
+<https://metadata.un.org/sdg/2> <http://www.w3.org/2004/02/skos/core#notation> "2" .
+<https://metadata.un.org/sdg/2> <http://www.w3.org/ns/prov#hadPrimarySource> <https://sdgs.un.org/goals/goal2> .
+<https://metadata.un.org/sdg/2> <https://ontology.commonapproach.org/cids#definedBy> <https://ontology.commonapproach.org/cids#ac> .
+<https://metadata.un.org/sdg/2> <https://ontology.commonapproach.org/cids#hasSpecification> <https://codelist.commonapproach.org/SDGImpacts> .
+<https://metadata.un.org/sdg/2> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://codelist.commonapproach.org/SDGImpact> .
+<https://metadata.un.org/sdg/2> <http://www.w3.org/2004/02/skos/core#inScheme> <https://metadata.un.org/sdg> .
+<https://metadata.un.org/sdg/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://metadata.un.org/sdg/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#Code> .
+<https://metadata.un.org/sdg/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#Theme> .
+<https://metadata.un.org/sdg/3> <http://www.w3.org/ns/org#hasName> "Goal 3: Good health and well-being" .
+<https://metadata.un.org/sdg/3> <http://www.w3.org/2004/02/skos/core#prefLabel> "Goal 3: Good health and well-being"@en .
+<https://metadata.un.org/sdg/3> <https://ontology.commonapproach.org/cids#hasDescription> "Ensure healthy lives and promote well-being for all at all ages" .
+<https://metadata.un.org/sdg/3> <http://www.w3.org/2004/02/skos/core#definition> "Ensure healthy lives and promote well-being for all at all ages"@en .
+<https://metadata.un.org/sdg/3> <https://ontology.commonapproach.org/cids#hasIdentifier> "3" .
+<https://metadata.un.org/sdg/3> <http://www.w3.org/2004/02/skos/core#notation> "3" .
+<https://metadata.un.org/sdg/3> <http://www.w3.org/ns/prov#hadPrimarySource> <https://sdgs.un.org/goals/goal3> .
+<https://metadata.un.org/sdg/3> <https://ontology.commonapproach.org/cids#definedBy> <https://ontology.commonapproach.org/cids#ac> .
+<https://metadata.un.org/sdg/3> <https://ontology.commonapproach.org/cids#hasSpecification> <https://codelist.commonapproach.org/SDGImpacts> .
+<https://metadata.un.org/sdg/3> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://codelist.commonapproach.org/SDGImpacts> .
+<https://metadata.un.org/sdg/3> <http://www.w3.org/2004/02/skos/core#inScheme> <https://metadata.un.org/sdg> .
+<https://metadata.un.org/sdg/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://metadata.un.org/sdg/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#Code> .
+<https://metadata.un.org/sdg/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#Theme> .
+<https://metadata.un.org/sdg/4> <http://www.w3.org/ns/org#hasName> "Goal 4: Quality education" .
+<https://metadata.un.org/sdg/4> <http://www.w3.org/2004/02/skos/core#prefLabel> "Goal 4: Quality education"@en .
+<https://metadata.un.org/sdg/4> <https://ontology.commonapproach.org/cids#hasDescription> "Ensure inclusive and equitable quality education and promote lifelong learning opportunities for all" .
+<https://metadata.un.org/sdg/4> <http://www.w3.org/2004/02/skos/core#definition> "Ensure inclusive and equitable quality education and promote lifelong learning opportunities for all"@en .
+<https://metadata.un.org/sdg/4> <http://www.w3.org/ns/org#hasIdentifier> "4" .
+<https://metadata.un.org/sdg/4> <http://www.w3.org/2004/02/skos/core#notation> "4" .
+<https://metadata.un.org/sdg/4> <http://www.w3.org/ns/prov#hadPrimarySource> <https://sdgs.un.org/goals/goal4> .
+<https://metadata.un.org/sdg/4> <https://ontology.commonapproach.org/cids#definedBy> <https://ontology.commonapproach.org/cids#ac> .
+<https://metadata.un.org/sdg/4> <https://ontology.commonapproach.org/cids#hasSpecification> <https://codelist.commonapproach.org/SDGImpacts> .
+<https://metadata.un.org/sdg/4> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://codelist.commonapproach.org/SDGImpacts> .
+<https://metadata.un.org/sdg/4> <http://www.w3.org/2000/01/rdf-schema#label> "Ensure inclusive and equitable quality education and promote lifelong learning opportunities for all."@en .
+<https://metadata.un.org/sdg/4> <http://www.w3.org/2004/02/skos/core#inScheme> <https://metadata.un.org/sdg> .
+<https://metadata.un.org/sdg/5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://metadata.un.org/sdg/5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#Code> .
+<https://metadata.un.org/sdg/5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#Theme> .
+<https://metadata.un.org/sdg/5> <http://www.w3.org/ns/org#hasName> "Goal 5: Gender equality" .
+<https://metadata.un.org/sdg/5> <http://www.w3.org/2004/02/skos/core#prefLabel> "Goal 5: Gender equality"@en .
+<https://metadata.un.org/sdg/5> <https://ontology.commonapproach.org/cids#hasDescription> "Achieve gender equality and empower all women and girls" .
+<https://metadata.un.org/sdg/5> <http://www.w3.org/2004/02/skos/core#definition> "Achieve gender equality and empower all women and girls"@en .
+<https://metadata.un.org/sdg/5> <http://www.w3.org/ns/org#hasIdentifier> "5" .
+<https://metadata.un.org/sdg/5> <http://www.w3.org/2004/02/skos/core#notation> "5" .
+<https://metadata.un.org/sdg/5> <http://www.w3.org/ns/prov#hadPrimarySource> <https://sdgs.un.org/goals/goal5> .
+<https://metadata.un.org/sdg/5> <https://ontology.commonapproach.org/cids#definedBy> <https://ontology.commonapproach.org/cids#ac> .
+<https://metadata.un.org/sdg/5> <https://ontology.commonapproach.org/cids#hasSpecification> <https://codelist.commonapproach.org/SDGImpacts> .
+<https://metadata.un.org/sdg/5> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://codelist.commonapproach.org/SDGImpacts> .
+<https://metadata.un.org/sdg/5> <http://www.w3.org/2004/02/skos/core#inScheme> <https://metadata.un.org/sdg> .
+<https://metadata.un.org/sdg/6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://metadata.un.org/sdg/6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#Code> .
+<https://metadata.un.org/sdg/6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#Theme> .
+<https://metadata.un.org/sdg/6> <http://www.w3.org/ns/org#hasName> "Goal 6: Clean water and sanitation" .
+<https://metadata.un.org/sdg/6> <http://www.w3.org/2004/02/skos/core#prefLabel> "Goal 6: Clean water and sanitation"@en .
+<https://metadata.un.org/sdg/6> <https://ontology.commonapproach.org/cids#hasDescription> "Ensure availability and sustainable management of water and sanitation for all" .
+<https://metadata.un.org/sdg/6> <http://www.w3.org/2004/02/skos/core#definition> "Ensure availability and sustainable management of water and sanitation for all"@en .
+<https://metadata.un.org/sdg/6> <http://www.w3.org/ns/org#hasIdentifier> "6" .
+<https://metadata.un.org/sdg/6> <http://www.w3.org/2004/02/skos/core#notation> "6" .
+<https://metadata.un.org/sdg/6> <http://www.w3.org/ns/prov#hadPrimarySource> <https://sdgs.un.org/goals/goal6> .
+<https://metadata.un.org/sdg/6> <https://ontology.commonapproach.org/cids#definedBy> <https://ontology.commonapproach.org/cids#ac> .
+<https://metadata.un.org/sdg/6> <https://ontology.commonapproach.org/cids#hasSpecification> <https://codelist.commonapproach.org/SDGImpacts> .
+<https://metadata.un.org/sdg/6> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://codelist.commonapproach.org/SDGImpacts> .
+<https://metadata.un.org/sdg/6> <http://www.w3.org/2004/02/skos/core#inScheme> <https://metadata.un.org/sdg> .
+<https://metadata.un.org/sdg/7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://metadata.un.org/sdg/7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#Code> .
+<https://metadata.un.org/sdg/7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#Theme> .
+<https://metadata.un.org/sdg/7> <http://www.w3.org/ns/org#hasName> "Goal 7: Affordable and clean energy" .
+<https://metadata.un.org/sdg/7> <http://www.w3.org/2004/02/skos/core#prefLabel> "Goal 7: Affordable and clean energy"@en .
+<https://metadata.un.org/sdg/7> <https://ontology.commonapproach.org/cids#hasDescription> "Ensure access to affordable, reliable, sustainable and modern energy for all" .
+<https://metadata.un.org/sdg/7> <http://www.w3.org/2004/02/skos/core#definition> "Ensure access to affordable, reliable, sustainable and modern energy for all"@en .
+<https://metadata.un.org/sdg/7> <http://www.w3.org/ns/org#hasIdentifier> "7" .
+<https://metadata.un.org/sdg/7> <http://www.w3.org/2004/02/skos/core#notation> "7" .
+<https://metadata.un.org/sdg/7> <http://www.w3.org/ns/prov#hadPrimarySource> <https://sdgs.un.org/goals/goal7> .
+<https://metadata.un.org/sdg/7> <https://ontology.commonapproach.org/cids#definedBy> <https://ontology.commonapproach.org/cids#ac> .
+<https://metadata.un.org/sdg/7> <https://ontology.commonapproach.org/cids#hasSpecification> <https://codelist.commonapproach.org/SDGImpacts> .
+<https://metadata.un.org/sdg/7> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://codelist.commonapproach.org/SDGImpacts> .
+<https://metadata.un.org/sdg/7> <http://www.w3.org/2004/02/skos/core#inScheme> <https://metadata.un.org/sdg> .
+<https://metadata.un.org/sdg/8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://metadata.un.org/sdg/8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#Code> .
+<https://metadata.un.org/sdg/8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#Theme> .
+<https://metadata.un.org/sdg/8> <http://www.w3.org/ns/org#hasName> "Goal 8: Decent work and economic growth" .
+<https://metadata.un.org/sdg/8> <http://www.w3.org/2004/02/skos/core#prefLabel> "Goal 8: Decent work and economic growth"@en .
+<https://metadata.un.org/sdg/8> <https://ontology.commonapproach.org/cids#hasDescription> "Promote sustained, inclusive and sustainable economic growth, full and productive employment and decent work for all" .
+<https://metadata.un.org/sdg/8> <http://www.w3.org/2004/02/skos/core#definition> "Promote sustained, inclusive and sustainable economic growth, full and productive employment and decent work for all"@en .
+<https://metadata.un.org/sdg/8> <http://www.w3.org/ns/org#hasIdentifier> "8" .
+<https://metadata.un.org/sdg/8> <http://www.w3.org/2004/02/skos/core#notation> "8" .
+<https://metadata.un.org/sdg/8> <http://www.w3.org/ns/prov#hadPrimarySource> <https://sdgs.un.org/goals/goal8> .
+<https://metadata.un.org/sdg/8> <https://ontology.commonapproach.org/cids#definedBy> <https://ontology.commonapproach.org/cids#ac> .
+<https://metadata.un.org/sdg/8> <https://ontology.commonapproach.org/cids#hasSpecification> <https://codelist.commonapproach.org/SDGImpacts> .
+<https://metadata.un.org/sdg/8> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://codelist.commonapproach.org/SDGImpacts> .
+<https://metadata.un.org/sdg/8> <http://www.w3.org/2004/02/skos/core#inScheme> <https://metadata.un.org/sdg> .
+<https://metadata.un.org/sdg/9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://metadata.un.org/sdg/9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#Code> .
+<https://metadata.un.org/sdg/9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#Theme> .
+<https://metadata.un.org/sdg/9> <http://www.w3.org/ns/org#hasName> "Goal 9: Industry, innovation and infrastructure" .
+<https://metadata.un.org/sdg/9> <http://www.w3.org/2004/02/skos/core#prefLabel> "Goal 9: Industry, innovation and infrastructure"@en .
+<https://metadata.un.org/sdg/9> <https://ontology.commonapproach.org/cids#hasDescription> "Build resilient infrastructure, promote inclusive and sustainable industrialization and foster innovation" .
+<https://metadata.un.org/sdg/9> <http://www.w3.org/2004/02/skos/core#definition> "Build resilient infrastructure, promote inclusive and sustainable industrialization and foster innovation"@en .
+<https://metadata.un.org/sdg/9> <http://www.w3.org/ns/org#hasIdentifier> "9" .
+<https://metadata.un.org/sdg/9> <http://www.w3.org/2004/02/skos/core#notation> "9" .
+<https://metadata.un.org/sdg/9> <http://www.w3.org/ns/prov#hadPrimarySource> <https://sdgs.un.org/goals/goal9> .
+<https://metadata.un.org/sdg/9> <https://ontology.commonapproach.org/cids#definedBy> <https://ontology.commonapproach.org/cids#ac> .
+<https://metadata.un.org/sdg/9> <https://ontology.commonapproach.org/cids#hasSpecification> <https://codelist.commonapproach.org/SDGImpacts> .
+<https://metadata.un.org/sdg/9> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://codelist.commonapproach.org/SDGImpacts> .
+<https://metadata.un.org/sdg/9> <http://www.w3.org/2004/02/skos/core#inScheme> <https://metadata.un.org/sdg> .
+<https://metadata.un.org/sdg/10> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://metadata.un.org/sdg/10> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#Code> .
+<https://metadata.un.org/sdg/10> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#Theme> .
+<https://metadata.un.org/sdg/10> <http://www.w3.org/ns/org#hasName> "Goal 10: Reduced inequalities" .
+<https://metadata.un.org/sdg/10> <http://www.w3.org/2004/02/skos/core#prefLabel> "Goal 10: Reduced inequalities"@en .
+<https://metadata.un.org/sdg/10> <https://ontology.commonapproach.org/cids#hasDescription> "Reduce inequality within and among countries" .
+<https://metadata.un.org/sdg/10> <http://www.w3.org/2004/02/skos/core#definition> "Reduce inequality within and among countries"@en .
+<https://metadata.un.org/sdg/10> <http://www.w3.org/ns/org#hasIdentifier> "10" .
+<https://metadata.un.org/sdg/10> <http://www.w3.org/2004/02/skos/core#notation> "10" .
+<https://metadata.un.org/sdg/10> <http://www.w3.org/ns/prov#hadPrimarySource> <https://sdgs.un.org/goals/goal10> .
+<https://metadata.un.org/sdg/10> <https://ontology.commonapproach.org/cids#definedBy> <https://ontology.commonapproach.org/cids#ac> .
+<https://metadata.un.org/sdg/10> <https://ontology.commonapproach.org/cids#hasSpecification> <https://codelist.commonapproach.org/SDGImpacts> .
+<https://metadata.un.org/sdg/10> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://codelist.commonapproach.org/SDGImpacts> .
+<https://metadata.un.org/sdg/10> <http://www.w3.org/2004/02/skos/core#inScheme> <https://metadata.un.org/sdg> .
+<https://metadata.un.org/sdg/11> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://metadata.un.org/sdg/11> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#Code> .
+<https://metadata.un.org/sdg/11> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#Theme> .
+<https://metadata.un.org/sdg/11> <http://www.w3.org/ns/org#hasName> "Goal 11: Sustainable cities and communities" .
+<https://metadata.un.org/sdg/11> <http://www.w3.org/2004/02/skos/core#prefLabel> "Goal 11: Sustainable cities and communities"@en .
+<https://metadata.un.org/sdg/11> <https://ontology.commonapproach.org/cids#hasDescription> "Make cities and human settlements inclusive, safe, resilient and sustainable" .
+<https://metadata.un.org/sdg/11> <http://www.w3.org/2004/02/skos/core#definition> "Make cities and human settlements inclusive, safe, resilient and sustainable"@en .
+<https://metadata.un.org/sdg/11> <http://www.w3.org/ns/org#hasIdentifier> "11" .
+<https://metadata.un.org/sdg/11> <http://www.w3.org/2004/02/skos/core#notation> "11" .
+<https://metadata.un.org/sdg/11> <http://www.w3.org/ns/prov#hadPrimarySource> <https://sdgs.un.org/goals/goal11> .
+<https://metadata.un.org/sdg/11> <https://ontology.commonapproach.org/cids#definedBy> <https://ontology.commonapproach.org/cids#ac> .
+<https://metadata.un.org/sdg/11> <https://ontology.commonapproach.org/cids#hasSpecification> <https://codelist.commonapproach.org/SDGImpacts> .
+<https://metadata.un.org/sdg/11> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://codelist.commonapproach.org/SDGImpacts> .
+<https://metadata.un.org/sdg/11> <http://www.w3.org/2004/02/skos/core#inScheme> <https://metadata.un.org/sdg> .
+<https://metadata.un.org/sdg/12> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://metadata.un.org/sdg/12> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#Code> .
+<https://metadata.un.org/sdg/12> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#Theme> .
+<https://metadata.un.org/sdg/12> <http://www.w3.org/ns/org#hasName> "Goal 12: Responsible consumption and production" .
+<https://metadata.un.org/sdg/12> <http://www.w3.org/2004/02/skos/core#prefLabel> "Goal 12: Responsible consumption and production"@en .
+<https://metadata.un.org/sdg/12> <https://ontology.commonapproach.org/cids#hasDescription> "Ensure sustainable consumption and production patterns" .
+<https://metadata.un.org/sdg/12> <http://www.w3.org/2004/02/skos/core#definition> "Ensure sustainable consumption and production patterns"@en .
+<https://metadata.un.org/sdg/12> <http://www.w3.org/ns/org#hasIdentifier> "12" .
+<https://metadata.un.org/sdg/12> <http://www.w3.org/2004/02/skos/core#notation> "12" .
+<https://metadata.un.org/sdg/12> <http://www.w3.org/ns/prov#hadPrimarySource> <https://sdgs.un.org/goals/goal12> .
+<https://metadata.un.org/sdg/12> <https://ontology.commonapproach.org/cids#definedBy> <https://ontology.commonapproach.org/cids#ac> .
+<https://metadata.un.org/sdg/12> <https://ontology.commonapproach.org/cids#hasSpecification> <https://codelist.commonapproach.org/SDGImpacts> .
+<https://metadata.un.org/sdg/12> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://codelist.commonapproach.org/SDGImpacts> .
+<https://metadata.un.org/sdg/12> <http://www.w3.org/2004/02/skos/core#inScheme> <https://metadata.un.org/sdg> .
+<https://metadata.un.org/sdg/13> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://metadata.un.org/sdg/13> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#Code> .
+<https://metadata.un.org/sdg/13> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#Theme> .
+<https://metadata.un.org/sdg/13> <http://www.w3.org/ns/org#hasName> "Goal 13: Climate action" .
+<https://metadata.un.org/sdg/13> <http://www.w3.org/2004/02/skos/core#prefLabel> "Goal 13: Climate action"@en .
+<https://metadata.un.org/sdg/13> <https://ontology.commonapproach.org/cids#hasDescription> "Take urgent action to combat climate change and its impacts" .
+<https://metadata.un.org/sdg/13> <http://www.w3.org/2004/02/skos/core#definition> "Take urgent action to combat climate change and its impacts"@en .
+<https://metadata.un.org/sdg/13> <http://www.w3.org/ns/org#hasIdentifier> "13" .
+<https://metadata.un.org/sdg/13> <http://www.w3.org/2004/02/skos/core#notation> "13" .
+<https://metadata.un.org/sdg/13> <http://www.w3.org/ns/prov#hadPrimarySource> <https://sdgs.un.org/goals/goal13> .
+<https://metadata.un.org/sdg/13> <https://ontology.commonapproach.org/cids#definedBy> <https://ontology.commonapproach.org/cids#ac> .
+<https://metadata.un.org/sdg/13> <https://ontology.commonapproach.org/cids#hasSpecification> <https://codelist.commonapproach.org/SDGImpacts> .
+<https://metadata.un.org/sdg/13> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://codelist.commonapproach.org/SDGImpacts> .
+<https://metadata.un.org/sdg/13> <http://www.w3.org/2004/02/skos/core#inScheme> <https://metadata.un.org/sdg> .
+<https://metadata.un.org/sdg/14> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://metadata.un.org/sdg/14> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#Code> .
+<https://metadata.un.org/sdg/14> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#Theme> .
+<https://metadata.un.org/sdg/14> <http://www.w3.org/ns/org#hasName> "Goal 14: Life below water" .
+<https://metadata.un.org/sdg/14> <http://www.w3.org/2004/02/skos/core#prefLabel> "Goal 14: Life below water"@en .
+<https://metadata.un.org/sdg/14> <https://ontology.commonapproach.org/cids#hasDescription> "Conserve and sustainably use the oceans, seas and marine resources for sustainable development" .
+<https://metadata.un.org/sdg/14> <http://www.w3.org/2004/02/skos/core#definition> "Conserve and sustainably use the oceans, seas and marine resources for sustainable development"@en .
+<https://metadata.un.org/sdg/14> <http://www.w3.org/ns/org#hasIdentifier> "14" .
+<https://metadata.un.org/sdg/14> <http://www.w3.org/2004/02/skos/core#notation> "14" .
+<https://metadata.un.org/sdg/14> <http://www.w3.org/ns/prov#hadPrimarySource> <https://sdgs.un.org/goals/goal14> .
+<https://metadata.un.org/sdg/14> <https://ontology.commonapproach.org/cids#definedBy> <https://ontology.commonapproach.org/cids#ac> .
+<https://metadata.un.org/sdg/14> <https://ontology.commonapproach.org/cids#hasSpecification> <https://codelist.commonapproach.org/SDGImpacts> .
+<https://metadata.un.org/sdg/14> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://codelist.commonapproach.org/SDGImpacts> .
+<https://metadata.un.org/sdg/14> <http://www.w3.org/2004/02/skos/core#inScheme> <https://metadata.un.org/sdg> .
+<https://metadata.un.org/sdg/15> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://metadata.un.org/sdg/15> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#Code> .
+<https://metadata.un.org/sdg/15> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#Theme> .
+<https://metadata.un.org/sdg/15> <http://www.w3.org/ns/org#hasName> "Goal 15: Life on land" .
+<https://metadata.un.org/sdg/15> <http://www.w3.org/2004/02/skos/core#prefLabel> "Goal 15: Life on land"@en .
+<https://metadata.un.org/sdg/15> <https://ontology.commonapproach.org/cids#hasDescription> "Protect, restore and promote sustainable use of terrestrial ecosystems, sustainably manage forests, combat desertification, and halt and reverse land degradation and halt biodiversity loss" .
+<https://metadata.un.org/sdg/15> <http://www.w3.org/2004/02/skos/core#definition> "Protect, restore and promote sustainable use of terrestrial ecosystems, sustainably manage forests, combat desertification, and halt and reverse land degradation and halt biodiversity loss"@en .
+<https://metadata.un.org/sdg/15> <http://www.w3.org/ns/org#hasIdentifier> "15" .
+<https://metadata.un.org/sdg/15> <http://www.w3.org/2004/02/skos/core#notation> "15" .
+<https://metadata.un.org/sdg/15> <http://www.w3.org/ns/prov#hadPrimarySource> <https://sdgs.un.org/goals/goal15> .
+<https://metadata.un.org/sdg/15> <https://ontology.commonapproach.org/cids#definedBy> <https://ontology.commonapproach.org/cids#ac> .
+<https://metadata.un.org/sdg/15> <https://ontology.commonapproach.org/cids#hasSpecification> <https://codelist.commonapproach.org/SDGImpacts> .
+<https://metadata.un.org/sdg/15> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://codelist.commonapproach.org/SDGImpacts> .
+<https://metadata.un.org/sdg/15> <http://www.w3.org/2004/02/skos/core#inScheme> <https://metadata.un.org/sdg> .
+<https://metadata.un.org/sdg/16> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://metadata.un.org/sdg/16> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#Code> .
+<https://metadata.un.org/sdg/16> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#Theme> .
+<https://metadata.un.org/sdg/16> <http://www.w3.org/ns/org#hasName> "Goal 16: Peace, justice and strong institutions" .
+<https://metadata.un.org/sdg/16> <http://www.w3.org/2004/02/skos/core#prefLabel> "Goal 16: Peace, justice and strong institutions"@en .
+<https://metadata.un.org/sdg/16> <https://ontology.commonapproach.org/cids#hasDescription> "Promote peaceful and inclusive societies for sustainable development, provide access to justice for all and build effective, accountable and inclusive institutions at all levels" .
+<https://metadata.un.org/sdg/16> <http://www.w3.org/2004/02/skos/core#definition> "Promote peaceful and inclusive societies for sustainable development, provide access to justice for all and build effective, accountable and inclusive institutions at all levels"@en .
+<https://metadata.un.org/sdg/16> <http://www.w3.org/ns/org#hasIdentifier> "16" .
+<https://metadata.un.org/sdg/16> <http://www.w3.org/2004/02/skos/core#notation> "16" .
+<https://metadata.un.org/sdg/16> <http://www.w3.org/ns/prov#hadPrimarySource> <https://sdgs.un.org/goals/goal16> .
+<https://metadata.un.org/sdg/16> <https://ontology.commonapproach.org/cids#definedBy> <https://ontology.commonapproach.org/cids#ac> .
+<https://metadata.un.org/sdg/16> <https://ontology.commonapproach.org/cids#hasSpecification> <https://codelist.commonapproach.org/SDGImpacts> .
+<https://metadata.un.org/sdg/16> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://codelist.commonapproach.org/SDGImpacts> .
+<https://metadata.un.org/sdg/16> <http://www.w3.org/2004/02/skos/core#inScheme> <https://metadata.un.org/sdg> .
+<https://metadata.un.org/sdg/17> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://metadata.un.org/sdg/17> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#Code> .
+<https://metadata.un.org/sdg/17> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#Theme> .
+<https://metadata.un.org/sdg/17> <http://www.w3.org/ns/org#hasName> "Goal 17: Partnerships for the goals" .
+<https://metadata.un.org/sdg/17> <http://www.w3.org/2004/02/skos/core#prefLabel> "Goal 17: Partnerships for the goals"@en .
+<https://metadata.un.org/sdg/17> <https://ontology.commonapproach.org/cids#hasDescription> "Strengthen the means of implementation and revitalize the Global Partnership for Sustainable Development" .
+<https://metadata.un.org/sdg/17> <http://www.w3.org/2004/02/skos/core#definition> "Strengthen the means of implementation and revitalize the Global Partnership for Sustainable Development"@en .
+<https://metadata.un.org/sdg/17> <http://www.w3.org/ns/org#hasIdentifier> "17" .
+<https://metadata.un.org/sdg/17> <http://www.w3.org/2004/02/skos/core#notation> "17" .
+<https://metadata.un.org/sdg/17> <http://www.w3.org/ns/prov#hadPrimarySource> <https://sdgs.un.org/goals/goal17> .
+<https://metadata.un.org/sdg/17> <https://ontology.commonapproach.org/cids#definedBy> <https://ontology.commonapproach.org/cids#ac> .
+<https://metadata.un.org/sdg/17> <https://ontology.commonapproach.org/cids#hasSpecification> <https://codelist.commonapproach.org/SDGImpacts> .
+<https://metadata.un.org/sdg/17> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://codelist.commonapproach.org/SDGImpacts> .
+<https://metadata.un.org/sdg/17> <http://www.w3.org/2004/02/skos/core#inScheme> <https://metadata.un.org/sdg> .
+<https://codelist.commonapproach.org/SDGImpacts#SDG1> <http://www.w3.org/2002/07/owl#sameAs> <https://metadata.un.org/sdg/1> .
+<https://codelist.commonapproach.org/SDGImpacts#SDG1> <http://www.w3.org/2002/07/owl#deprecated> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<https://codelist.commonapproach.org/SDGImpacts#SDG1> <http://www.w3.org/2000/01/rdf-schema#label> "Legacy IRI for SDG 1"@en .
+<https://codelist.commonapproach.org/SDGImpacts#SDG1> <http://www.w3.org/2000/01/rdf-schema#comment> "This IRI is deprecated and has been replaced by https://metadata.un.org/sdg/1. It is retained for backward compatibility."@en .
+<https://codelist.commonapproach.org/SDGImpacts#SDG2> <http://www.w3.org/2002/07/owl#sameAs> <https://metadata.un.org/sdg/2> .
+<https://codelist.commonapproach.org/SDGImpacts#SDG2> <http://www.w3.org/2002/07/owl#deprecated> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<https://codelist.commonapproach.org/SDGImpacts#SDG2> <http://www.w3.org/2000/01/rdf-schema#label> "Legacy IRI for SDG 2"@en .
+<https://codelist.commonapproach.org/SDGImpacts#SDG2> <http://www.w3.org/2000/01/rdf-schema#comment> "This IRI is deprecated and has been replaced by https://metadata.un.org/sdg/2. It is retained for backward compatibility."@en .
+<https://codelist.commonapproach.org/SDGImpacts#SDG3> <http://www.w3.org/2002/07/owl#sameAs> <https://metadata.un.org/sdg/3> .
+<https://codelist.commonapproach.org/SDGImpacts#SDG3> <http://www.w3.org/2002/07/owl#deprecated> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<https://codelist.commonapproach.org/SDGImpacts#SDG3> <http://www.w3.org/2000/01/rdf-schema#label> "Legacy IRI for SDG 3"@en .
+<https://codelist.commonapproach.org/SDGImpacts#SDG3> <http://www.w3.org/2000/01/rdf-schema#comment> "This IRI is deprecated and has been replaced by https://metadata.un.org/sdg/3. It is retained for backward compatibility."@en .
+<https://codelist.commonapproach.org/SDGImpacts#SDG4> <http://www.w3.org/2002/07/owl#sameAs> <https://metadata.un.org/sdg/4> .
+<https://codelist.commonapproach.org/SDGImpacts#SDG4> <http://www.w3.org/2002/07/owl#deprecated> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<https://codelist.commonapproach.org/SDGImpacts#SDG4> <http://www.w3.org/2000/01/rdf-schema#label> "Legacy IRI for SDG 4"@en .
+<https://codelist.commonapproach.org/SDGImpacts#SDG4> <http://www.w3.org/2000/01/rdf-schema#comment> "This IRI is deprecated and has been replaced by https://metadata.un.org/sdg/4. It is retained for backward compatibility."@en .
+<https://codelist.commonapproach.org/SDGImpacts#SDG5> <http://www.w3.org/2002/07/owl#sameAs> <https://metadata.un.org/sdg/5> .
+<https://codelist.commonapproach.org/SDGImpacts#SDG5> <http://www.w3.org/2002/07/owl#deprecated> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<https://codelist.commonapproach.org/SDGImpacts#SDG5> <http://www.w3.org/2000/01/rdf-schema#label> "Legacy IRI for SDG 5"@en .
+<https://codelist.commonapproach.org/SDGImpacts#SDG5> <http://www.w3.org/2000/01/rdf-schema#comment> "This IRI is deprecated and has been replaced by https://metadata.un.org/sdg/5. It is retained for backward compatibility."@en .
+<https://codelist.commonapproach.org/SDGImpacts#SDG6> <http://www.w3.org/2002/07/owl#sameAs> <https://metadata.un.org/sdg/6> .
+<https://codelist.commonapproach.org/SDGImpacts#SDG6> <http://www.w3.org/2002/07/owl#deprecated> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<https://codelist.commonapproach.org/SDGImpacts#SDG6> <http://www.w3.org/2000/01/rdf-schema#label> "Legacy IRI for SDG 6"@en .
+<https://codelist.commonapproach.org/SDGImpacts#SDG6> <http://www.w3.org/2000/01/rdf-schema#comment> "This IRI is deprecated and has been replaced by https://metadata.un.org/sdg/6. It is retained for backward compatibility."@en .
+<https://codelist.commonapproach.org/SDGImpacts#SDG7> <http://www.w3.org/2002/07/owl#sameAs> <https://metadata.un.org/sdg/7> .
+<https://codelist.commonapproach.org/SDGImpacts#SDG7> <http://www.w3.org/2002/07/owl#deprecated> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<https://codelist.commonapproach.org/SDGImpacts#SDG7> <http://www.w3.org/2000/01/rdf-schema#label> "Legacy IRI for SDG 7"@en .
+<https://codelist.commonapproach.org/SDGImpacts#SDG7> <http://www.w3.org/2000/01/rdf-schema#comment> "This IRI is deprecated and has been replaced by https://metadata.un.org/sdg/7. It is retained for backward compatibility."@en .
+<https://codelist.commonapproach.org/SDGImpacts#SDG8> <http://www.w3.org/2002/07/owl#sameAs> <https://metadata.un.org/sdg/8> .
+<https://codelist.commonapproach.org/SDGImpacts#SDG8> <http://www.w3.org/2002/07/owl#deprecated> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<https://codelist.commonapproach.org/SDGImpacts#SDG8> <http://www.w3.org/2000/01/rdf-schema#label> "Legacy IRI for SDG 8"@en .
+<https://codelist.commonapproach.org/SDGImpacts#SDG8> <http://www.w3.org/2000/01/rdf-schema#comment> "This IRI is deprecated and has been replaced by https://metadata.un.org/sdg/8. It is retained for backward compatibility."@en .
+<https://codelist.commonapproach.org/SDGImpacts#SDG9> <http://www.w3.org/2002/07/owl#sameAs> <https://metadata.un.org/sdg/9> .
+<https://codelist.commonapproach.org/SDGImpacts#SDG9> <http://www.w3.org/2002/07/owl#deprecated> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<https://codelist.commonapproach.org/SDGImpacts#SDG9> <http://www.w3.org/2000/01/rdf-schema#label> "Legacy IRI for SDG 9"@en .
+<https://codelist.commonapproach.org/SDGImpacts#SDG9> <http://www.w3.org/2000/01/rdf-schema#comment> "This IRI is deprecated and has been replaced by https://metadata.un.org/sdg/9. It is retained for backward compatibility."@en .
+<https://codelist.commonapproach.org/SDGImpacts#SDG10> <http://www.w3.org/2002/07/owl#sameAs> <https://metadata.un.org/sdg/10> .
+<https://codelist.commonapproach.org/SDGImpacts#SDG10> <http://www.w3.org/2002/07/owl#deprecated> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<https://codelist.commonapproach.org/SDGImpacts#SDG10> <http://www.w3.org/2000/01/rdf-schema#label> "Legacy IRI for SDG 10"@en .
+<https://codelist.commonapproach.org/SDGImpacts#SDG10> <http://www.w3.org/2000/01/rdf-schema#comment> "This IRI is deprecated and has been replaced by https://metadata.un.org/sdg/10. It is retained for backward compatibility."@en .
+<https://codelist.commonapproach.org/SDGImpacts#SDG11> <http://www.w3.org/2002/07/owl#sameAs> <https://metadata.un.org/sdg/11> .
+<https://codelist.commonapproach.org/SDGImpacts#SDG11> <http://www.w3.org/2002/07/owl#deprecated> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<https://codelist.commonapproach.org/SDGImpacts#SDG11> <http://www.w3.org/2000/01/rdf-schema#label> "Legacy IRI for SDG 11"@en .
+<https://codelist.commonapproach.org/SDGImpacts#SDG11> <http://www.w3.org/2000/01/rdf-schema#comment> "This IRI is deprecated and has been replaced by https://metadata.un.org/sdg/11. It is retained for backward compatibility."@en .
+<https://codelist.commonapproach.org/SDGImpacts#SDG12> <http://www.w3.org/2002/07/owl#sameAs> <https://metadata.un.org/sdg/12> .
+<https://codelist.commonapproach.org/SDGImpacts#SDG12> <http://www.w3.org/2002/07/owl#deprecated> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<https://codelist.commonapproach.org/SDGImpacts#SDG12> <http://www.w3.org/2000/01/rdf-schema#label> "Legacy IRI for SDG 12"@en .
+<https://codelist.commonapproach.org/SDGImpacts#SDG12> <http://www.w3.org/2000/01/rdf-schema#comment> "This IRI is deprecated and has been replaced by https://metadata.un.org/sdg/12. It is retained for backward compatibility."@en .
+<https://codelist.commonapproach.org/SDGImpacts#SDG13> <http://www.w3.org/2002/07/owl#sameAs> <https://metadata.un.org/sdg/13> .
+<https://codelist.commonapproach.org/SDGImpacts#SDG13> <http://www.w3.org/2002/07/owl#deprecated> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<https://codelist.commonapproach.org/SDGImpacts#SDG13> <http://www.w3.org/2000/01/rdf-schema#label> "Legacy IRI for SDG 13"@en .
+<https://codelist.commonapproach.org/SDGImpacts#SDG13> <http://www.w3.org/2000/01/rdf-schema#comment> "This IRI is deprecated and has been replaced by https://metadata.un.org/sdg/13. It is retained for backward compatibility."@en .
+<https://codelist.commonapproach.org/SDGImpacts#SDG14> <http://www.w3.org/2002/07/owl#sameAs> <https://metadata.un.org/sdg/14> .
+<https://codelist.commonapproach.org/SDGImpacts#SDG14> <http://www.w3.org/2002/07/owl#deprecated> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<https://codelist.commonapproach.org/SDGImpacts#SDG14> <http://www.w3.org/2000/01/rdf-schema#label> "Legacy IRI for SDG 14"@en .
+<https://codelist.commonapproach.org/SDGImpacts#SDG14> <http://www.w3.org/2000/01/rdf-schema#comment> "This IRI is deprecated and has been replaced by https://metadata.un.org/sdg/14. It is retained for backward compatibility."@en .
+<https://codelist.commonapproach.org/SDGImpacts#SDG15> <http://www.w3.org/2002/07/owl#sameAs> <https://metadata.un.org/sdg/15> .
+<https://codelist.commonapproach.org/SDGImpacts#SDG15> <http://www.w3.org/2002/07/owl#deprecated> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<https://codelist.commonapproach.org/SDGImpacts#SDG15> <http://www.w3.org/2000/01/rdf-schema#label> "Legacy IRI for SDG 15"@en .
+<https://codelist.commonapproach.org/SDGImpacts#SDG15> <http://www.w3.org/2000/01/rdf-schema#comment> "This IRI is deprecated and has been replaced by https://metadata.un.org/sdg/15. It is retained for backward compatibility."@en .
+<https://codelist.commonapproach.org/SDGImpacts#SDG16> <http://www.w3.org/2002/07/owl#sameAs> <https://metadata.un.org/sdg/16> .
+<https://codelist.commonapproach.org/SDGImpacts#SDG16> <http://www.w3.org/2002/07/owl#deprecated> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<https://codelist.commonapproach.org/SDGImpacts#SDG16> <http://www.w3.org/2000/01/rdf-schema#label> "Legacy IRI for SDG 16"@en .
+<https://codelist.commonapproach.org/SDGImpacts#SDG16> <http://www.w3.org/2000/01/rdf-schema#comment> "This IRI is deprecated and has been replaced by https://metadata.un.org/sdg/16. It is retained for backward compatibility."@en .
+<https://codelist.commonapproach.org/SDGImpacts#SDG17> <http://www.w3.org/2002/07/owl#sameAs> <https://metadata.un.org/sdg/17> .
+<https://codelist.commonapproach.org/SDGImpacts#SDG17> <http://www.w3.org/2002/07/owl#deprecated> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<https://codelist.commonapproach.org/SDGImpacts#SDG17> <http://www.w3.org/2000/01/rdf-schema#label> "Legacy IRI for SDG 17"@en .
+<https://codelist.commonapproach.org/SDGImpacts#SDG17> <http://www.w3.org/2000/01/rdf-schema#comment> "This IRI is deprecated and has been replaced by https://metadata.un.org/sdg/17. It is retained for backward compatibility."@en .
