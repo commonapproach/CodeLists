@@ -1,0 +1,5 @@
+"URL","CODE","LABEL_EN","DESCRIPTION_EN"
+"https://codelist.commonapproach.org/FundingState#applied","applied","Applied","The funding proposal has been submitted."
+"https://codelist.commonapproach.org/FundingState#inReview","inReview","In Review","The funding proposal is being processed by the evaluating organization and is under review."
+"https://codelist.commonapproach.org/FundingState#funded","invested","Funded","The funding proposal has been accepted and funding has been allocated."
+"https://codelist.commonapproach.org/FundingState#rejected","rejected","Rejected","The funding proposal has been rejected."
