@@ -1,0 +1,65 @@
+<https://codelist.commonapproach.org/RallyImpactArea> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocommons/voaf#Vocabulary> .
+<https://codelist.commonapproach.org/RallyImpactArea> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<https://codelist.commonapproach.org/RallyImpactArea> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
+<https://codelist.commonapproach.org/RallyImpactArea> <http://www.w3.org/2002/07/owl#imports> <https://ontology.commonapproach.org/cids> .
+<https://codelist.commonapproach.org/RallyImpactArea> <http://purl.org/dc/terms/creator> <https://ontology.commonapproach.org/cids#ac> .
+<https://codelist.commonapproach.org/RallyImpactArea> <http://purl.org/dc/terms/date> "2025-12-01"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://codelist.commonapproach.org/RallyImpactArea> <http://www.w3.org/2002/07/owl#versionInfo> "1.0" .
+<https://codelist.commonapproach.org/RallyImpactArea> <http://www.w3.org/2004/02/skos/core#prefLabel> "Rally Impact Areas"@en .
+<https://codelist.commonapproach.org/RallyImpactArea> <http://purl.org/dc/terms/title> "Rally Impact Areas"@en .
+<https://codelist.commonapproach.org/RallyImpactArea> <http://purl.org/dc/terms/description> "An RDF vocabulary of Rally Impact Areas."@en .
+<https://codelist.commonapproach.org/RallyImpactArea#ArtsandCulture> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#Sector> .
+<https://codelist.commonapproach.org/RallyImpactArea#ArtsandCulture> <http://www.w3.org/ns/org#hasName> "Arts and Culture" .
+<https://codelist.commonapproach.org/RallyImpactArea#ArtsandCulture> <http://www.w3.org/2004/02/skos/core#prefLabel> "Arts and Culture"@en .
+<https://codelist.commonapproach.org/RallyImpactArea#ArtsandCulture> <http://www.w3.org/ns/org#hasIdentifier> "ArtsandCulture" .
+<https://codelist.commonapproach.org/RallyImpactArea#ArtsandCulture> <http://www.w3.org/2004/02/skos/core#notation> "ArtsandCulture" .
+<https://codelist.commonapproach.org/RallyImpactArea#ArtsandCulture> <https://ontology.commonapproach.org/cids#definedBy> <https://ontology.commonapproach.org/cids#ac> .
+<https://codelist.commonapproach.org/RallyImpactArea#ArtsandCulture> <https://ontology.commonapproach.org/cids#hasSpecification> <https://codelist.commonapproach.org/RallyImpactArea> .
+<https://codelist.commonapproach.org/RallyImpactArea#ArtsandCulture> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://codelist.commonapproach.org/RallyImpactArea> .
+<https://codelist.commonapproach.org/RallyImpactArea#ArtsandCulture> <http://www.w3.org/2004/02/skos/core#inScheme> <https://codelist.commonapproach.org/RallyImpactArea> .
+<https://codelist.commonapproach.org/RallyImpactArea#CommunityDevelopment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#Sector> .
+<https://codelist.commonapproach.org/RallyImpactArea#CommunityDevelopment> <http://www.w3.org/ns/org#hasName> "Community Development" .
+<https://codelist.commonapproach.org/RallyImpactArea#CommunityDevelopment> <http://www.w3.org/2004/02/skos/core#prefLabel> "Community Development"@en .
+<https://codelist.commonapproach.org/RallyImpactArea#CommunityDevelopment> <http://www.w3.org/ns/org#hasIdentifier> "CommunityDevelopment" .
+<https://codelist.commonapproach.org/RallyImpactArea#CommunityDevelopment> <http://www.w3.org/2004/02/skos/core#notation> "CommunityDevelopment" .
+<https://codelist.commonapproach.org/RallyImpactArea#CommunityDevelopment> <https://ontology.commonapproach.org/cids#definedBy> <https://ontology.commonapproach.org/cids#ac> .
+<https://codelist.commonapproach.org/RallyImpactArea#CommunityDevelopment> <https://ontology.commonapproach.org/cids#hasSpecification> <https://codelist.commonapproach.org/RallyImpactArea> .
+<https://codelist.commonapproach.org/RallyImpactArea#CommunityDevelopment> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://codelist.commonapproach.org/RallyImpactArea> .
+<https://codelist.commonapproach.org/RallyImpactArea#CommunityDevelopment> <http://www.w3.org/2004/02/skos/core#inScheme> <https://codelist.commonapproach.org/RallyImpactArea> .
+<https://codelist.commonapproach.org/RallyImpactArea#Other> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#Sector> .
+<https://codelist.commonapproach.org/RallyImpactArea#Other> <http://www.w3.org/ns/org#hasName> "Other" .
+<https://codelist.commonapproach.org/RallyImpactArea#Other> <http://www.w3.org/2004/02/skos/core#prefLabel> "Other"@en .
+<https://codelist.commonapproach.org/RallyImpactArea#Other> <http://www.w3.org/ns/org#hasIdentifier> "Other" .
+<https://codelist.commonapproach.org/RallyImpactArea#Other> <http://www.w3.org/2004/02/skos/core#notation> "Other" .
+<https://codelist.commonapproach.org/RallyImpactArea#Other> <https://ontology.commonapproach.org/cids#definedBy> <https://ontology.commonapproach.org/cids#ac> .
+<https://codelist.commonapproach.org/RallyImpactArea#Other> <https://ontology.commonapproach.org/cids#hasSpecification> <https://codelist.commonapproach.org/RallyImpactArea> .
+<https://codelist.commonapproach.org/RallyImpactArea#Other> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://codelist.commonapproach.org/RallyImpactArea> .
+<https://codelist.commonapproach.org/RallyImpactArea#Other> <http://www.w3.org/2004/02/skos/core#inScheme> <https://codelist.commonapproach.org/RallyImpactArea> .
+<https://ontology.commonapproach.org/IRISImpactTheme#AffordableQualityHousing> <http://www.w3.org/2004/02/skos/core#inScheme> <https://codelist.commonapproach.org/RallyImpactArea> .
+<https://ontology.commonapproach.org/IRISImpactTheme#BiodiversityandEcosystemConservation> <http://www.w3.org/2004/02/skos/core#inScheme> <https://codelist.commonapproach.org/RallyImpactArea> .
+<https://ontology.commonapproach.org/IRISImpactTheme#CleanAir> <http://www.w3.org/2004/02/skos/core#inScheme> <https://codelist.commonapproach.org/RallyImpactArea> .
+<https://ontology.commonapproach.org/IRISImpactTheme#CleanEnergy> <http://www.w3.org/2004/02/skos/core#inScheme> <https://codelist.commonapproach.org/RallyImpactArea> .
+<https://ontology.commonapproach.org/IRISImpactTheme#ClimateResilienceandAdaptation> <http://www.w3.org/2004/02/skos/core#inScheme> <https://codelist.commonapproach.org/RallyImpactArea> .
+<https://ontology.commonapproach.org/IRISImpactTheme#ClimateChangeMitigation> <http://www.w3.org/2004/02/skos/core#inScheme> <https://codelist.commonapproach.org/RallyImpactArea> .
+<https://ontology.commonapproach.org/IRISImpactTheme#EnergyAccess> <http://www.w3.org/2004/02/skos/core#inScheme> <https://codelist.commonapproach.org/RallyImpactArea> .
+<https://ontology.commonapproach.org/IRISImpactTheme#EnergyEfficiency> <http://www.w3.org/2004/02/skos/core#inScheme> <https://codelist.commonapproach.org/RallyImpactArea> .
+<https://ontology.commonapproach.org/IRISImpactTheme#FinancialInclusion> <http://www.w3.org/2004/02/skos/core#inScheme> <https://codelist.commonapproach.org/RallyImpactArea> .
+<https://ontology.commonapproach.org/IRISImpactTheme#FoodSecurity> <http://www.w3.org/2004/02/skos/core#inScheme> <https://codelist.commonapproach.org/RallyImpactArea> .
+<https://ontology.commonapproach.org/IRISImpactTheme#GreenBuildings> <http://www.w3.org/2004/02/skos/core#inScheme> <https://codelist.commonapproach.org/RallyImpactArea> .
+<https://ontology.commonapproach.org/IRISImpactTheme#MarineResourcesConservationandManagement> <http://www.w3.org/2004/02/skos/core#inScheme> <https://codelist.commonapproach.org/RallyImpactArea> .
+<https://ontology.commonapproach.org/IRISImpactTheme#NaturalResourcesConservation> <http://www.w3.org/2004/02/skos/core#inScheme> <https://codelist.commonapproach.org/RallyImpactArea> .
+<https://ontology.commonapproach.org/IRISImpactTheme#Nutrition> <http://www.w3.org/2004/02/skos/core#inScheme> <https://codelist.commonapproach.org/RallyImpactArea> .
+<https://ontology.commonapproach.org/IRISImpactTheme#PollutionPrevention> <http://www.w3.org/2004/02/skos/core#inScheme> <https://codelist.commonapproach.org/RallyImpactArea> .
+<https://ontology.commonapproach.org/IRISImpactTheme#AccesstoQualityEducation> <http://www.w3.org/2004/02/skos/core#inScheme> <https://codelist.commonapproach.org/RallyImpactArea> .
+<https://ontology.commonapproach.org/IRISImpactTheme#AccesstoQualityHealthcare> <http://www.w3.org/2004/02/skos/core#inScheme> <https://codelist.commonapproach.org/RallyImpactArea> .
+<https://ontology.commonapproach.org/IRISImpactTheme#QualityJobs> <http://www.w3.org/2004/02/skos/core#inScheme> <https://codelist.commonapproach.org/RallyImpactArea> .
+<https://ontology.commonapproach.org/IRISImpactTheme#RacialEquity> <http://www.w3.org/2004/02/skos/core#inScheme> <https://codelist.commonapproach.org/RallyImpactArea> .
+<https://ontology.commonapproach.org/IRISImpactTheme#ResilientInfrastructure> <http://www.w3.org/2004/02/skos/core#inScheme> <https://codelist.commonapproach.org/RallyImpactArea> .
+<https://ontology.commonapproach.org/IRISImpactTheme#SmallholderAgriculture> <http://www.w3.org/2004/02/skos/core#inScheme> <https://codelist.commonapproach.org/RallyImpactArea> .
+<https://ontology.commonapproach.org/IRISImpactTheme#SustainableAgriculture> <http://www.w3.org/2004/02/skos/core#inScheme> <https://codelist.commonapproach.org/RallyImpactArea> .
+<https://ontology.commonapproach.org/IRISImpactTheme#SustainableForestry> <http://www.w3.org/2004/02/skos/core#inScheme> <https://codelist.commonapproach.org/RallyImpactArea> .
+<https://ontology.commonapproach.org/IRISImpactTheme#SustainableLandManagement> <http://www.w3.org/2004/02/skos/core#inScheme> <https://codelist.commonapproach.org/RallyImpactArea> .
+<https://ontology.commonapproach.org/IRISImpactTheme#SustainableWaterManagement> <http://www.w3.org/2004/02/skos/core#inScheme> <https://codelist.commonapproach.org/RallyImpactArea> .
+<https://ontology.commonapproach.org/IRISImpactTheme#WasteManagement> <http://www.w3.org/2004/02/skos/core#inScheme> <https://codelist.commonapproach.org/RallyImpactArea> .
+<https://ontology.commonapproach.org/IRISImpactTheme#WaterSanitationandHygiene> <http://www.w3.org/2004/02/skos/core#inScheme> <https://codelist.commonapproach.org/RallyImpactArea> .
+<https://ontology.commonapproach.org/IRISImpactTheme#GenderLens> <http://www.w3.org/2004/02/skos/core#inScheme> <https://codelist.commonapproach.org/RallyImpactArea> .
