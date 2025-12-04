@@ -1,5 +1,4 @@
-#URL, CODE, LABEL_EN, DESCRIPTION_EN
-"https://codelist.commonapproach.org/codeLists/OrgTypeGOC#nonProfit","","Non-Profit",""
-"https://codelist.commonapproach.org/codeLists/OrgTypeGOC#Charitable","","Charitable",""
-"https://codelist.commonapproach.org/codeLists/OrgTypeGOC#forProfit","","For-Profit",""
-"https://codelist.commonapproach.org/codeLists/OrgTypeGOC#Cooperative","","Cooperative",""
+"URL","CODE","LABEL_EN","DESCRIPTION_EN"
+"https://codelist.commonapproach.org/OrgTypeGOC#Charitable","Charitable","Charitable","Charitable organizations are registered as such with the Canada Revenue Agency and have a charitable Registration Number."
+"https://codelist.commonapproach.org/OrgTypeGOC#Cooperative","Cooperative","Cooperative","A cooperative is an association of persons united voluntarily to meet their common economic, social, and cultural needs and aspirations through a jointly owned and democratically controlled enterprise incorporated under specific legislation (e.g., the Canada Cooperatives Act) at the provincial, territorial, or federal level. Depending on the governing legislation, cooperatives may be for-profit or non-profit entities."
+"https://codelist.commonapproach.org/OrgTypeGOC#forProfit","forProfit","For-Profit","For-profit organizations are businesses or corporations that are organized and operated for the purpose of generating profit."
