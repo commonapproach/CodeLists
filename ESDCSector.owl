@@ -1,0 +1,88 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:iriscategory="https://ontology.commonapproach.org/IRISImpactCategory#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:prov="http://www.w3.org/ns/prov#"
+    xmlns:cids="https://ontology.commonapproach.org/cids#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:voaf="http://purl.org/vocommons/voaf#"
+    xmlns="https://codelist.commonapproach.org/ESDCSector#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:org="http://www.w3.org/ns/org#"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#" > 
+  <rdf:Description rdf:about="https://ontology.commonapproach.org/IRISImpactCategory#Infrastructure">
+    <skos:inScheme rdf:resource=""/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://ontology.commonapproach.org/IRISImpactCategory#BiodiversityandEcosystems">
+    <skos:inScheme rdf:resource=""/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://ontology.commonapproach.org/IRISImpactCategory#Health">
+    <skos:inScheme rdf:resource=""/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#Other">
+    <skos:inScheme rdf:resource=""/>
+    <rdfs:isDefinedBy rdf:resource=""/>
+    <cids:hasSpecification rdf:resource=""/>
+    <cids:definedBy rdf:resource="https://ontology.commonapproach.org/cids#ac"/>
+    <skos:notation>Other</skos:notation>
+    <org:hasIdentifier>Other</org:hasIdentifier>
+    <skos:prefLabel xml:lang="en">Other</skos:prefLabel>
+    <org:hasName>Other</org:hasName>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Sector"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://ontology.commonapproach.org/IRISImpactCategory#Energy">
+    <skos:inScheme rdf:resource=""/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://ontology.commonapproach.org/IRISImpactCategory#RealEstate">
+    <skos:inScheme rdf:resource=""/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://ontology.commonapproach.org/IRISImpactCategory#Employment">
+    <skos:inScheme rdf:resource=""/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://ontology.commonapproach.org/IRISImpactCategory#Waste">
+    <skos:inScheme rdf:resource=""/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://ontology.commonapproach.org/IRISImpactCategory#Pollution">
+    <skos:inScheme rdf:resource=""/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://ontology.commonapproach.org/IRISImpactCategory#OceansandCoastalZones">
+    <skos:inScheme rdf:resource=""/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://ontology.commonapproach.org/IRISImpactCategory#Education">
+    <skos:inScheme rdf:resource=""/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://ontology.commonapproach.org/IRISImpactCategory#Water">
+    <skos:inScheme rdf:resource=""/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://ontology.commonapproach.org/IRISImpactCategory#Air">
+    <skos:inScheme rdf:resource=""/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://ontology.commonapproach.org/IRISImpactCategory#Land">
+    <skos:inScheme rdf:resource=""/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://ontology.commonapproach.org/IRISImpactCategory#Agriculture">
+    <skos:inScheme rdf:resource=""/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://ontology.commonapproach.org/IRISImpactCategory#FinancialServices">
+    <skos:inScheme rdf:resource=""/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://ontology.commonapproach.org/IRISImpactCategory#DiversityandInclusion">
+    <skos:inScheme rdf:resource=""/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://ontology.commonapproach.org/IRISImpactCategory#Climate">
+    <skos:inScheme rdf:resource=""/>
+  </rdf:Description>
+  <rdf:Description rdf:about="">
+    <dcterms:description xml:lang="en">An RDF vocabulary of ESDC Sectors.</dcterms:description>
+    <dcterms:title xml:lang="en">ESDC Sectors</dcterms:title>
+    <skos:prefLabel xml:lang="en">ESDC Sectors</skos:prefLabel>
+    <owl:versionInfo>1.0</owl:versionInfo>
+    <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-12-01</dcterms:date>
+    <dcterms:creator rdf:resource="https://ontology.commonapproach.org/cids#ac"/>
+    <owl:imports rdf:resource="https://ontology.commonapproach.org/cids"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
+    <rdf:type rdf:resource="http://purl.org/vocommons/voaf#Vocabulary"/>
+  </rdf:Description>
+</rdf:RDF>

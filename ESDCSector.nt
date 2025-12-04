@@ -1,0 +1,36 @@
+<https://codelist.commonapproach.org/ESDCSector> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocommons/voaf#Vocabulary> .
+<https://codelist.commonapproach.org/ESDCSector> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<https://codelist.commonapproach.org/ESDCSector> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
+<https://codelist.commonapproach.org/ESDCSector> <http://www.w3.org/2002/07/owl#imports> <https://ontology.commonapproach.org/cids> .
+<https://codelist.commonapproach.org/ESDCSector> <http://purl.org/dc/terms/creator> <https://ontology.commonapproach.org/cids#ac> .
+<https://codelist.commonapproach.org/ESDCSector> <http://purl.org/dc/terms/date> "2025-12-01"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://codelist.commonapproach.org/ESDCSector> <http://www.w3.org/2002/07/owl#versionInfo> "1.0" .
+<https://codelist.commonapproach.org/ESDCSector> <http://www.w3.org/2004/02/skos/core#prefLabel> "ESDC Sectors"@en .
+<https://codelist.commonapproach.org/ESDCSector> <http://purl.org/dc/terms/title> "ESDC Sectors"@en .
+<https://codelist.commonapproach.org/ESDCSector> <http://purl.org/dc/terms/description> "An RDF vocabulary of ESDC Sectors."@en .
+<https://codelist.commonapproach.org/ESDCSector#Other> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#Sector> .
+<https://codelist.commonapproach.org/ESDCSector#Other> <http://www.w3.org/ns/org#hasName> "Other" .
+<https://codelist.commonapproach.org/ESDCSector#Other> <http://www.w3.org/2004/02/skos/core#prefLabel> "Other"@en .
+<https://codelist.commonapproach.org/ESDCSector#Other> <http://www.w3.org/ns/org#hasIdentifier> "Other" .
+<https://codelist.commonapproach.org/ESDCSector#Other> <http://www.w3.org/2004/02/skos/core#notation> "Other" .
+<https://codelist.commonapproach.org/ESDCSector#Other> <https://ontology.commonapproach.org/cids#definedBy> <https://ontology.commonapproach.org/cids#ac> .
+<https://codelist.commonapproach.org/ESDCSector#Other> <https://ontology.commonapproach.org/cids#hasSpecification> <https://codelist.commonapproach.org/ESDCSector> .
+<https://codelist.commonapproach.org/ESDCSector#Other> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://codelist.commonapproach.org/ESDCSector> .
+<https://codelist.commonapproach.org/ESDCSector#Other> <http://www.w3.org/2004/02/skos/core#inScheme> <https://codelist.commonapproach.org/ESDCSector> .
+<https://ontology.commonapproach.org/IRISImpactCategory#Agriculture> <http://www.w3.org/2004/02/skos/core#inScheme> <https://codelist.commonapproach.org/ESDCSector> .
+<https://ontology.commonapproach.org/IRISImpactCategory#Air> <http://www.w3.org/2004/02/skos/core#inScheme> <https://codelist.commonapproach.org/ESDCSector> .
+<https://ontology.commonapproach.org/IRISImpactCategory#BiodiversityandEcosystems> <http://www.w3.org/2004/02/skos/core#inScheme> <https://codelist.commonapproach.org/ESDCSector> .
+<https://ontology.commonapproach.org/IRISImpactCategory#Climate> <http://www.w3.org/2004/02/skos/core#inScheme> <https://codelist.commonapproach.org/ESDCSector> .
+<https://ontology.commonapproach.org/IRISImpactCategory#DiversityandInclusion> <http://www.w3.org/2004/02/skos/core#inScheme> <https://codelist.commonapproach.org/ESDCSector> .
+<https://ontology.commonapproach.org/IRISImpactCategory#Education> <http://www.w3.org/2004/02/skos/core#inScheme> <https://codelist.commonapproach.org/ESDCSector> .
+<https://ontology.commonapproach.org/IRISImpactCategory#Employment> <http://www.w3.org/2004/02/skos/core#inScheme> <https://codelist.commonapproach.org/ESDCSector> .
+<https://ontology.commonapproach.org/IRISImpactCategory#Energy> <http://www.w3.org/2004/02/skos/core#inScheme> <https://codelist.commonapproach.org/ESDCSector> .
+<https://ontology.commonapproach.org/IRISImpactCategory#FinancialServices> <http://www.w3.org/2004/02/skos/core#inScheme> <https://codelist.commonapproach.org/ESDCSector> .
+<https://ontology.commonapproach.org/IRISImpactCategory#Health> <http://www.w3.org/2004/02/skos/core#inScheme> <https://codelist.commonapproach.org/ESDCSector> .
+<https://ontology.commonapproach.org/IRISImpactCategory#Infrastructure> <http://www.w3.org/2004/02/skos/core#inScheme> <https://codelist.commonapproach.org/ESDCSector> .
+<https://ontology.commonapproach.org/IRISImpactCategory#Land> <http://www.w3.org/2004/02/skos/core#inScheme> <https://codelist.commonapproach.org/ESDCSector> .
+<https://ontology.commonapproach.org/IRISImpactCategory#OceansandCoastalZones> <http://www.w3.org/2004/02/skos/core#inScheme> <https://codelist.commonapproach.org/ESDCSector> .
+<https://ontology.commonapproach.org/IRISImpactCategory#Pollution> <http://www.w3.org/2004/02/skos/core#inScheme> <https://codelist.commonapproach.org/ESDCSector> .
+<https://ontology.commonapproach.org/IRISImpactCategory#RealEstate> <http://www.w3.org/2004/02/skos/core#inScheme> <https://codelist.commonapproach.org/ESDCSector> .
+<https://ontology.commonapproach.org/IRISImpactCategory#Waste> <http://www.w3.org/2004/02/skos/core#inScheme> <https://codelist.commonapproach.org/ESDCSector> .
+<https://ontology.commonapproach.org/IRISImpactCategory#Water> <http://www.w3.org/2004/02/skos/core#inScheme> <https://codelist.commonapproach.org/ESDCSector> .
