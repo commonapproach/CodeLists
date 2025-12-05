@@ -1,0 +1,211 @@
+{
+    "@graph": [
+        {
+            "@id": "https://codelist.commonapproach.org/FundingState#inReview",
+            "skos:inScheme": {
+                "@id": "https://codelist.commonapproach.org/FundingState"
+            },
+            "rdfs:isDefinedBy": {
+                "@id": "https://codelist.commonapproach.org/FundingState"
+            },
+            "cids:hasSpecification": {
+                "@id": "https://codelist.commonapproach.org/FundingState"
+            },
+            "cids:definedBy": {
+                "@id": "cids:ac"
+            },
+            "skos:notation": "inReview",
+            "org:hasIdentifier": "inReview",
+            "skos:definition": [
+                {
+                    "@language": "fr",
+                    "@value": "La proposition de financement est en cours de traitement par l’organisme évaluateur et est en cours d’examen."
+                },
+                {
+                    "@language": "en",
+                    "@value": "The funding proposal is being processed by the evaluating organization and is under review."
+                }
+            ],
+            "cids:hasDescription": "The funding proposal is being processed by the evaluating organization and is under review.",
+            "skos:prefLabel": [
+                {
+                    "@language": "fr",
+                    "@value": "Sous-évaluation"
+                },
+                {
+                    "@language": "en",
+                    "@value": "In Review"
+                }
+            ],
+            "org:hasName": "In Review",
+            "@type": "cids:FundingState"
+        },
+        {
+            "@id": "https://codelist.commonapproach.org/FundingState",
+            "dcterms:description": {
+                "@language": "en",
+                "@value": "A codelist vocabulary of funding states to describe funding applications to funders or investors. The list items convey whether the organization is an applicant, rejected, or invested in."
+            },
+            "dcterms:title": {
+                "@language": "en",
+                "@value": "FundingState Codelist"
+            },
+            "skos:prefLabel": {
+                "@language": "en",
+                "@value": "FundingState Codelist"
+            },
+            "owl:versionInfo": "1.0",
+            "dcterms:date": {
+                "@value": "2025-11-05",
+                "@type": "xsd:date"
+            },
+            "dcterms:creator": {
+                "@id": "cids:ac"
+            },
+            "vann:preferredNamespaceUri": {
+                "@id": "https://codelist.commonapproach.org/FundingState"
+            },
+            "vann:preferredNamespacePrefix": "fstate",
+            "owl:imports": {
+                "@id": "https://ontology.commonapproach.org/cids"
+            },
+            "@type": [
+                "skos:ConceptScheme",
+                "owl:Ontology",
+                "voaf:Vocabulary"
+            ]
+        },
+        {
+            "@id": "https://codelist.commonapproach.org/FundingState#funded",
+            "skos:inScheme": {
+                "@id": "https://codelist.commonapproach.org/FundingState"
+            },
+            "rdfs:isDefinedBy": {
+                "@id": "https://codelist.commonapproach.org/FundingState"
+            },
+            "cids:hasSpecification": {
+                "@id": "https://codelist.commonapproach.org/FundingState"
+            },
+            "cids:definedBy": {
+                "@id": "cids:ac"
+            },
+            "skos:notation": "invested",
+            "org:hasIdentifier": "invested",
+            "skos:definition": [
+                {
+                    "@language": "fr",
+                    "@value": "La proposition de financement a été acceptée et le financement a été alloué."
+                },
+                {
+                    "@language": "en",
+                    "@value": "The funding proposal has been accepted and funding has been allocated."
+                }
+            ],
+            "cids:hasDescription": "The funding proposal has been accepted and funding has been allocated.",
+            "skos:prefLabel": [
+                {
+                    "@language": "fr",
+                    "@value": "Alloué"
+                },
+                {
+                    "@language": "en",
+                    "@value": "Funded"
+                }
+            ],
+            "org:hasName": "Funded",
+            "@type": "cids:FundingState"
+        },
+        {
+            "@id": "https://codelist.commonapproach.org/FundingState#rejected",
+            "skos:inScheme": {
+                "@id": "https://codelist.commonapproach.org/FundingState"
+            },
+            "rdfs:isDefinedBy": {
+                "@id": "https://codelist.commonapproach.org/FundingState"
+            },
+            "cids:hasSpecification": {
+                "@id": "https://codelist.commonapproach.org/FundingState"
+            },
+            "cids:definedBy": {
+                "@id": "cids:ac"
+            },
+            "skos:notation": "rejected",
+            "org:hasIdentifier": "rejected",
+            "skos:definition": [
+                {
+                    "@language": "fr",
+                    "@value": "La proposition de financement a été rejetée."
+                },
+                {
+                    "@language": "en",
+                    "@value": "The funding proposal has been rejected."
+                }
+            ],
+            "cids:hasDescription": "The funding proposal has been rejected.",
+            "skos:prefLabel": [
+                {
+                    "@language": "fr",
+                    "@value": "Rejetée"
+                },
+                {
+                    "@language": "en",
+                    "@value": "Rejected"
+                }
+            ],
+            "org:hasName": "Rejected",
+            "@type": "cids:FundingState"
+        },
+        {
+            "@id": "https://codelist.commonapproach.org/FundingState#applied",
+            "skos:inScheme": {
+                "@id": "https://codelist.commonapproach.org/FundingState"
+            },
+            "rdfs:isDefinedBy": {
+                "@id": "https://codelist.commonapproach.org/FundingState"
+            },
+            "cids:hasSpecification": {
+                "@id": "https://codelist.commonapproach.org/FundingState"
+            },
+            "cids:definedBy": {
+                "@id": "cids:ac"
+            },
+            "skos:notation": "applied",
+            "org:hasIdentifier": "applied",
+            "skos:definition": [
+                {
+                    "@language": "fr",
+                    "@value": "La proposition de financement a été soumise."
+                },
+                {
+                    "@language": "en",
+                    "@value": "The funding proposal has been submitted."
+                }
+            ],
+            "cids:hasDescription": "The funding proposal has been submitted.",
+            "skos:prefLabel": [
+                {
+                    "@language": "fr",
+                    "@value": "Appliqué"
+                },
+                {
+                    "@language": "en",
+                    "@value": "Applied"
+                }
+            ],
+            "org:hasName": "Applied",
+            "@type": "cids:FundingState"
+        }
+    ],
+    "@context": {
+        "org": "http://www.w3.org/ns/org#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "voaf": "http://purl.org/vocommons/voaf#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "cids": "https://ontology.commonapproach.org/cids#",
+        "vann": "http://purl.org/vocab/vann/",
+        "@vocab": "https://codelist.commonapproach.org/FundingState#"
+    }
+}

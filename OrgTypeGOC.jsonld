@@ -1,248 +1,163 @@
-[
-  {
-    "@id": "https://codelist.commonapproach.org/codeLists/OrgTypeGOC#nonProfit",
-    "@type": [
-      "https://ontology.commonapproach.org/cids#OrganizationType",
-      "https://ontology.commonapproach.org/cids#Code",
-      "http://www.w3.org/2004/02/skos/core#Concept"
+{
+    "@graph": [
+        {
+            "@id": "https://codelist.commonapproach.org/OrgTypeGOC#nonProfit",
+            "skos:inScheme": {
+                "@id": "https://codelist.commonapproach.org/OrgTypeGOC"
+            },
+            "rdfs:isDefinedBy": {
+                "@id": "https://codelist.commonapproach.org/OrgTypeGOC"
+            },
+            "cids:hasSpecification": {
+                "@id": "https://codelist.commonapproach.org/OrgTypeGOC"
+            },
+            "cids:definedBy": {
+                "@id": "cids:esdc"
+            },
+            "org:hasIdentifier": "nonProfit",
+            "skos:definition": {
+                "@language": "en",
+                "@value": "Non-profit organizations are associations, clubs, or societies that are not registered charities or individuals, but are organized and operated exclusively for social welfare, civic improvement, pleasure, recreation, or any other purpose except profit. Non-profit organizations may be incorporated or unincorporated."
+            },
+            "cids:hasDescription": "Non-profit organizations are associations, clubs, or societies that are not registered charities or individuals, but are organized and operated exclusively for social welfare, civic improvement, pleasure, recreation, or any other purpose except profit. Non-profit organizations may be incorporated or unincorporated.",
+            "skos:prefLabel": {
+                "@language": "en",
+                "@value": "Non-Profit"
+            },
+            "org:hasName": "Non-Profit",
+            "@type": "cids:OrganizationType"
+        },
+        {
+            "@id": "https://codelist.commonapproach.org/OrgTypeGOC",
+            "dcterms:description": {
+                "@language": "en",
+                "@value": "A codelist vocabulary of organization types informed by Government of Canada definitions."
+            },
+            "dcterms:title": {
+                "@language": "en",
+                "@value": "Organization Type"
+            },
+            "skos:prefLabel": {
+                "@language": "en",
+                "@value": "Organization Type"
+            },
+            "owl:versionInfo": "2.0",
+            "dcterms:date": {
+                "@value": "2025-12-01",
+                "@type": "xsd:date"
+            },
+            "dcterms:creator": {
+                "@id": "cids:ac"
+            },
+            "owl:imports": {
+                "@id": "https://ontology.commonapproach.org/cids"
+            },
+            "@type": [
+                "skos:ConceptScheme",
+                "owl:Ontology",
+                "voaf:Vocabulary"
+            ]
+        },
+        {
+            "@id": "https://codelist.commonapproach.org/OrgTypeGOC#forProfit",
+            "skos:inScheme": {
+                "@id": "https://codelist.commonapproach.org/OrgTypeGOC"
+            },
+            "rdfs:isDefinedBy": {
+                "@id": "https://codelist.commonapproach.org/OrgTypeGOC"
+            },
+            "cids:hasSpecification": {
+                "@id": "https://codelist.commonapproach.org/OrgTypeGOC"
+            },
+            "cids:definedBy": {
+                "@id": "cids:esdc"
+            },
+            "skos:notation": "forProfit",
+            "org:hasIdentifier": "forProfit",
+            "skos:definition": {
+                "@language": "en",
+                "@value": "For-profit organizations are businesses or corporations that are organized and operated for the purpose of generating profit."
+            },
+            "cids:hasDescription": "For-profit organizations are businesses or corporations that are organized and operated for the purpose of generating profit.",
+            "skos:prefLabel": {
+                "@language": "en",
+                "@value": "For-Profit"
+            },
+            "org:hasName": "For-Profit",
+            "@type": "cids:OrganizationType"
+        },
+        {
+            "@id": "https://codelist.commonapproach.org/OrgTypeGOC#Cooperative",
+            "skos:inScheme": {
+                "@id": "https://codelist.commonapproach.org/OrgTypeGOC"
+            },
+            "rdfs:isDefinedBy": {
+                "@id": "https://codelist.commonapproach.org/OrgTypeGOC"
+            },
+            "cids:hasSpecification": {
+                "@id": "https://codelist.commonapproach.org/OrgTypeGOC"
+            },
+            "cids:definedBy": {
+                "@id": "cids:esdc"
+            },
+            "prov:hadPrimarySource": {
+                "@id": "https://ised-isde.canada.ca/site/cooperatives-canada/en/information-guide-co-operatives#seven"
+            },
+            "skos:notation": "Cooperative",
+            "org:hasIdentifier": "Cooperative",
+            "skos:definition": {
+                "@language": "en",
+                "@value": "A cooperative is an association of persons united voluntarily to meet their common economic, social, and cultural needs and aspirations through a jointly owned and democratically controlled enterprise incorporated under specific legislation (e.g., the Canada Cooperatives Act) at the provincial, territorial, or federal level. Depending on the governing legislation, cooperatives may be for-profit or non-profit entities."
+            },
+            "cids:hasDescription": "A cooperative is an association of persons united voluntarily to meet their common economic, social, and cultural needs and aspirations through a jointly owned and democratically controlled enterprise incorporated under specific legislation (e.g., the Canada Cooperatives Act) at the provincial, territorial, or federal level. Depending on the governing legislation, cooperatives may be for-profit or non-profit entities.",
+            "skos:prefLabel": {
+                "@language": "en",
+                "@value": "Cooperative"
+            },
+            "org:hasName": "Cooperative",
+            "@type": "cids:OrganizationType"
+        },
+        {
+            "@id": "https://codelist.commonapproach.org/OrgTypeGOC#Charitable",
+            "skos:inScheme": {
+                "@id": "https://codelist.commonapproach.org/OrgTypeGOC"
+            },
+            "rdfs:isDefinedBy": {
+                "@id": "https://codelist.commonapproach.org/OrgTypeGOC"
+            },
+            "cids:hasSpecification": {
+                "@id": "https://codelist.commonapproach.org/OrgTypeGOC"
+            },
+            "cids:definedBy": {
+                "@id": "cids:esdc"
+            },
+            "skos:notation": "Charitable",
+            "org:hasIdentifier": "Charitable",
+            "skos:definition": {
+                "@language": "en",
+                "@value": "Charitable organizations are registered as such with the Canada Revenue Agency and have a charitable Registration Number."
+            },
+            "cids:hasDescription": "Charitable organizations are registered as such with the Canada Revenue Agency and have a charitable Registration Number.",
+            "skos:prefLabel": {
+                "@language": "en",
+                "@value": "Charitable"
+            },
+            "org:hasName": "Charitable",
+            "@type": "cids:OrganizationType"
+        }
     ],
-    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
-      {
-        "@id": "https://codelist.commonapproach.org/codeLists/OrgTypeGOC#"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#label": [
-      {
-        "@language": "en",
-        "@value": "Non-Profit"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "en",
-        "@value": "Non-profit organizations are associations, clubs, or societies that are not registered charities or individuals, but are organized and operated exclusively for social welfare, civic improvement, pleasure, recreation, or any other purpose except profit. Non-profit organizations may be incorporated or unincorporated."
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://codelist.commonapproach.org/codeLists/OrgTypeGOC#dataset"
-      }
-    ],
-    "https://ontology.commonapproach.org/cids#hasDefinition": [
-      {
-        "@language": "en",
-        "@value": "Non-profit organizations are associations, clubs, or societies that are not registered charities or individuals, but are organized and operated exclusively for social welfare, civic improvement, pleasure, recreation, or any other purpose except profit. Non-profit organizations may be incorporated or unincorporated."
-      }
-    ],
-    "https://ontology.commonapproach.org/cids#hasName": [
-      {
-        "@language": "en",
-        "@value": "Non-Profit"
-      }
-    ]
-  },
-  {
-    "@id": "https://codelist.commonapproach.org/codeLists/OrgTypeGOC#dataset",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#ConceptScheme"
-    ]
-  },
-  {
-    "@id": "https://codelist.commonapproach.org/codeLists/OrgTypeGOC#forProfit",
-    "@type": [
-      "https://ontology.commonapproach.org/cids#OrganizationType",
-      "https://ontology.commonapproach.org/cids#Code",
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
-      {
-        "@id": "https://codelist.commonapproach.org/codeLists/OrgTypeGOC#"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#label": [
-      {
-        "@language": "en",
-        "@value": "For-Profit"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "en",
-        "@value": "For-profit organizations are businesses or corporations that are organized and operated for the purpose of generating profit."
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://codelist.commonapproach.org/codeLists/OrgTypeGOC#dataset"
-      }
-    ],
-    "https://ontology.commonapproach.org/cids#hasDefinition": [
-      {
-        "@language": "en",
-        "@value": "For-profit organizations are businesses or corporations that are organized and operated for the purpose of generating profit."
-      }
-    ],
-    "https://ontology.commonapproach.org/cids#hasName": [
-      {
-        "@language": "en",
-        "@value": "For-Profit"
-      }
-    ]
-  },
-  {
-    "@id": "https://codelist.commonapproach.org/codeLists/OrgTypeGOC#Charitable",
-    "@type": [
-      "https://ontology.commonapproach.org/cids#OrganizationType",
-      "https://ontology.commonapproach.org/cids#Code",
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
-      {
-        "@id": "https://codelist.commonapproach.org/codeLists/OrgTypeGOC#"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#label": [
-      {
-        "@language": "en",
-        "@value": "Charitable"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "en",
-        "@value": "Charitable organizations are registered as such with the Canada Revenue Agency and have a charitable Registration Number."
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://codelist.commonapproach.org/codeLists/OrgTypeGOC#dataset"
-      }
-    ],
-    "https://ontology.commonapproach.org/cids#hasDefinition": [
-      {
-        "@language": "en",
-        "@value": "Charitable organizations are registered as such with the Canada Revenue Agency and have a charitable Registration Number."
-      }
-    ],
-    "https://ontology.commonapproach.org/cids#hasName": [
-      {
-        "@language": "en",
-        "@value": "Charitable"
-      }
-    ]
-  },
-  {
-    "@id": "https://codelist.commonapproach.org/codeLists/OrgTypeGOC",
-    "@type": [
-      "http://www.w3.org/2002/07/owl#Ontology",
-      "http://purl.org/vocommons/voafVocabulary"
-    ],
-    "http://purl.org/dc/terms/creator": [
-      {
-        "@id": "https://ontology.commonapproach.org/cids#ac"
-      }
-    ],
-    "http://purl.org/dc/terms/date": [
-      {
-        "@value": "07-10-2024"
-      }
-    ],
-    "http://purl.org/dc/terms/description": [
-      {
-        "@language": "en",
-        "@value": "A codelist vocabulary of organization types informed by Government of Canada definitions."
-      }
-    ],
-    "http://purl.org/dc/terms/title": [
-      {
-        "@language": "en",
-        "@value": "Organization Type"
-      }
-    ],
-    "http://purl.org/vocab/vann/preferredNamespacePrefix": [
-      {
-        "@value": "OrgTypeGOC"
-      }
-    ],
-    "http://purl.org/vocab/vann/preferredNamespaceUri": [
-      {
-        "@id": "https://codelist.commonapproach.org/codeLists/OrgTypeGOC#"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#label": [
-      {
-        "@value": "Organization Type"
-      }
-    ],
-    "http://www.w3.org/2002/07/owl#imports": [
-      {
-        "@id": "https://ontology.commonapproach.org/owl/cids"
-      },
-      {
-        "@id": "http://www.w3.org/2006/time"
-      }
-    ],
-    "http://www.w3.org/2002/07/owl#versionInfo": [
-      {
-        "@value": "1.0"
-      }
-    ],
-    "http://xmlns.com/foaf/0.1/name": [
-      {
-        "@value": "Organization Type"
-      }
-    ],
-    "https://ontology.commonapproach.org/cids#hasName": [
-      {
-        "@value": "Organization Type"
-      }
-    ]
-  },
-  {
-    "@id": "https://codelist.commonapproach.org/codeLists/OrgTypeGOC#Cooperative",
-    "@type": [
-      "https://ontology.commonapproach.org/cids#OrganizationType",
-      "https://ontology.commonapproach.org/cids#Code",
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
-      {
-        "@id": "https://codelist.commonapproach.org/codeLists/OrgTypeGOC#"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#label": [
-      {
-        "@language": "en",
-        "@value": "Cooperative"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "en",
-        "@value": "A cooperative is an association of persons united voluntarily to meet their common economic, social, and cultural needs and aspirations through a jointly owned and democratically controlled enterprise incorporated under specific legislation (e.g., the Canada Cooperatives Act) at the provincial, territorial, or federal level. Depending on the governing legislation, cooperatives may be for-profit or non-profit entities."
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://codelist.commonapproach.org/codeLists/OrgTypeGOC#dataset"
-      }
-    ],
-    "http://www.w3.org/ns/prov#hadPrimarySource": [
-      {
-        "@id": "https://ised-isde.canada.ca/site/cooperatives-canada/en/information-guide-co-operatives#seven"
-      }
-    ],
-    "https://ontology.commonapproach.org/cids#hasDefinition": [
-      {
-        "@language": "en",
-        "@value": "A cooperative is an association of persons united voluntarily to meet their common economic, social, and cultural needs and aspirations through a jointly owned and democratically controlled enterprise incorporated under specific legislation (e.g., the Canada Cooperatives Act) at the provincial, territorial, or federal level. Depending on the governing legislation, cooperatives may be for-profit or non-profit entities."
-      }
-    ],
-    "https://ontology.commonapproach.org/cids#hasName": [
-      {
-        "@language": "en",
-        "@value": "Cooperative"
-      }
-    ]
-  }
-]
+    "@context": {
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "org": "http://www.w3.org/ns/org#",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "voaf": "http://purl.org/vocommons/voaf#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "cids": "https://ontology.commonapproach.org/cids#",
+        "prov": "http://www.w3.org/ns/prov#",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "@vocab": "https://codelist.commonapproach.org/OrgTypeGOC#"
+    }
+}

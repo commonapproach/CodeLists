@@ -1,521 +1,961 @@
 {
-  "@context": {
-    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-    "cids": "https://ontology.commonapproach.org/cids#",
-    "dcterms": "http://purl.org/dc/terms/",
-    "foaf": "http://xmlns.com/foaf/0.1/",
-    "owl": "http://www.w3.org/2002/07/owl#",
-    "prov": "http://www.w3.org/ns/prov#",
-    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-    "skos": "http://www.w3.org/2004/02/skos/core#",
-    "vann": "http://purl.org/vocab/vann/",
-    "xsd": "http://www.w3.org/2001/XMLSchema#",
-    "SDGImpacts": "https://codelist.commonapproach.org/codeLists/SDGImpacts#",
-    "sdg": "https://metadata.un.org/sdg/"
-  },
-  "@graph": [
-    {
-      "@id": "https://codelist.commonapproach.org/codeLists/SDGImpacts",
-      "@type": [
-        "owl:Ontology",
-        "http://purl.org/vocommons/voafVocabulary"
-      ],
-      "dcterms:creator": { "@id": "cids:ac" },
-      "dcterms:date": "13-06-2025",
-      "dcterms:description": {
-        "@language": "en",
-        "@value": "A mirror of the official UN Sustainable Development Goals (SDGs) Taxonomy. This vocabulary uses the UN's official IRIs as the primary identifiers for each goal. It retains the original commonapproach.org IRIs, which are now marked as deprecated, for backward compatibility."
-      },
-      "dcterms:title": {
-        "@language": "en",
-        "@value": "Sustainable Development Goals Impact Themes"
-      },
-      "vann:preferredNamespacePrefix": "SDGImpacts",
-      "vann:preferredNamespaceUri": { "@id": "https://codelist.commonapproach.org/codeLists/SDGImpacts#" },
-      "rdfs:label": {
-        "@language": "en",
-        "@value": "Sustainable Development Goals Impact Themes"
-      },
-      "owl:imports": [
-        { "@id": "http://www.w3.org/2006/time" },
-        { "@id": "https://ontology.commonapproach.org/owl/cids" }
-      ],
-      "owl:versionInfo": "1.1",
-      "foaf:name": {
-        "@language": "en",
-        "@value": "Sustainable Development Goals Impact Themes"
-      },
-      "cids:hasName": {
-        "@language": "en",
-        "@value": "Sustainable Development Goals Impact Themes"
-      }
-    },
-    {
-      "@id": "https://metadata.un.org/sdg",
-      "@type": "skos:ConceptScheme",
-      "dcterms:title": {
-        "@language": "en",
-        "@value": "Sustainable Development Goals Taxonomy"
-      }
-    },
-    {
-      "@id": "https://metadata.un.org/sdg/1",
-      "@type": ["skos:Concept", "cids:Code", "cids:Theme"],
-      "rdfs:isDefinedBy": { "@id": "https://codelist.commonapproach.org/codeLists/SDGImpacts" },
-      "rdfs:label": {
-        "@language": "en",
-        "@value": "End poverty in all its forms everywhere"
-      },
-      "skos:prefLabel": {
-        "@language": "en",
-        "@value": "Goal 1: No poverty"
-      },
-      "skos:definition": {
-        "@language": "en",
-        "@value": "End poverty in all its forms everywhere"
-      },
-      "skos:inScheme": { "@id": "https://metadata.un.org/sdg" },
-      "prov:hadPrimarySource": { "@id": "https://sdgs.un.org/goals/goal1" },
-      "cids:hasIdentifier": "1"
-    },
-    {
-      "@id": "https://metadata.un.org/sdg/2",
-      "@type": ["skos:Concept", "cids:Code", "cids:Theme"],
-      "rdfs:isDefinedBy": { "@id": "https://codelist.commonapproach.org/codeLists/SDGImpacts" },
-      "rdfs:label": {
-        "@language": "en",
-        "@value": "End hunger, achieve food security and improved nutrition and promote sustainable agriculture."
-      },
-      "skos:prefLabel": {
-        "@language": "en",
-        "@value": "Goal 2: Zero hunger"
-      },
-      "skos:definition": {
-        "@language": "en",
-        "@value": "End hunger, achieve food security and improved nutrition and promote sustainable agriculture"
-      },
-      "skos:inScheme": { "@id": "https://metadata.un.org/sdg" },
-      "prov:hadPrimarySource": { "@id": "https://sdgs.un.org/goals/goal2" },
-      "cids:hasIdentifier": "2"
-    },
-    {
-      "@id": "https://metadata.un.org/sdg/3",
-      "@type": ["skos:Concept", "cids:Code", "cids:Theme"],
-      "rdfs:isDefinedBy": { "@id": "https://codelist.commonapproach.org/codeLists/SDGImpacts" },
-      "rdfs:label": {
-          "@language": "en",
-          "@value": "Ensure healthy lives and promote well-being for all at all ages."
-      },
-      "skos:prefLabel": {
-          "@language": "en",
-          "@value": "Goal 3: Good health and well-being"
-      },
-      "skos:definition": {
-          "@language": "en",
-          "@value": "Ensure healthy lives and promote well-being for all at all ages"
-      },
-      "skos:inScheme": { "@id": "https://metadata.un.org/sdg" },
-      "prov:hadPrimarySource": { "@id": "https://sdgs.un.org/goals/goal3" },
-      "cids:hasIdentifier": "3"
-    },
-    {
-      "@id": "https://metadata.un.org/sdg/4",
-      "@type": ["skos:Concept", "cids:Code", "cids:Theme"],
-      "rdfs:isDefinedBy": { "@id": "https://codelist.commonapproach.org/codeLists/SDGImpacts" },
-      "rdfs:label": {
-          "@language": "en",
-          "@value": "Ensure inclusive and equitable quality education and promote lifelong learning opportunities for all."
-      },
-      "skos:prefLabel": {
-          "@language": "en",
-          "@value": "Goal 4: Quality education"
-      },
-      "skos:definition": {
-          "@language": "en",
-          "@value": "Ensure inclusive and equitable quality education and promote lifelong learning opportunities for all"
-      },
-      "skos:inScheme": { "@id": "https://metadata.un.org/sdg" },
-      "prov:hadPrimarySource": { "@id": "https://sdgs.un.org/goals/goal4" },
-      "cids:hasIdentifier": "4"
-    },
-    {
-      "@id": "https://metadata.un.org/sdg/5",
-      "@type": ["skos:Concept", "cids:Code", "cids:Theme"],
-      "rdfs:isDefinedBy": { "@id": "https://codelist.commonapproach.org/codeLists/SDGImpacts" },
-      "rdfs:label": {
-          "@language": "en",
-          "@value": "Achieve gender equality and empower all women and girls."
-      },
-      "skos:prefLabel": {
-          "@language": "en",
-          "@value": "Goal 5: Gender equality"
-      },
-      "skos:definition": {
-          "@language": "en",
-          "@value": "Achieve gender equality and empower all women and girls"
-      },
-      "skos:inScheme": { "@id": "https://metadata.un.org/sdg" },
-      "prov:hadPrimarySource": { "@id": "https://sdgs.un.org/goals/goal5" },
-      "cids:hasIdentifier": "5"
-    },
-    {
-      "@id": "https://metadata.un.org/sdg/6",
-      "@type": ["skos:Concept", "cids:Code", "cids:Theme"],
-      "rdfs:isDefinedBy": { "@id": "https://codelist.commonapproach.org/codeLists/SDGImpacts" },
-      "rdfs:label": {
-          "@language": "en",
-          "@value": "Ensure availability and sustainable management of water and sanitation for all."
-      },
-      "skos:prefLabel": {
-          "@language": "en",
-          "@value": "Goal 6: Clean water and sanitation"
-      },
-      "skos:definition": {
-          "@language": "en",
-          "@value": "Ensure availability and sustainable management of water and sanitation for all"
-      },
-      "skos:inScheme": { "@id": "https://metadata.un.org/sdg" },
-      "prov:hadPrimarySource": { "@id": "https://sdgs.un.org/goals/goal6" },
-      "cids:hasIdentifier": "6"
-    },
-    {
-      "@id": "https://metadata.un.org/sdg/7",
-      "@type": ["skos:Concept", "cids:Code", "cids:Theme"],
-      "rdfs:isDefinedBy": { "@id": "https://codelist.commonapproach.org/codeLists/SDGImpacts" },
-      "rdfs:label": {
-          "@language": "en",
-          "@value": "Ensure access to affordable, reliable, sustainable and modern energy for all."
-      },
-      "skos:prefLabel": {
-          "@language": "en",
-          "@value": "Goal 7: Affordable and clean energy"
-      },
-      "skos:definition": {
-          "@language": "en",
-          "@value": "Ensure access to affordable, reliable, sustainable and modern energy for all"
-      },
-      "skos:inScheme": { "@id": "https://metadata.un.org/sdg" },
-      "prov:hadPrimarySource": { "@id": "https://sdgs.un.org/goals/goal7" },
-      "cids:hasIdentifier": "7"
-    },
-    {
-      "@id": "https://metadata.un.org/sdg/8",
-      "@type": ["skos:Concept", "cids:Code", "cids:Theme"],
-      "rdfs:isDefinedBy": { "@id": "https://codelist.commonapproach.org/codeLists/SDGImpacts" },
-      "rdfs:label": {
-          "@language": "en",
-          "@value": "Promote sustained, inclusive and sustainable economic growth, full and productive employment and decent work for all."
-      },
-      "skos:prefLabel": {
-          "@language": "en",
-          "@value": "Goal 8: Decent work and economic growth"
-      },
-      "skos:definition": {
-          "@language": "en",
-          "@value": "Promote sustained, inclusive and sustainable economic growth, full and productive employment and decent work for all"
-      },
-      "skos:inScheme": { "@id": "https://metadata.un.org/sdg" },
-      "prov:hadPrimarySource": { "@id": "https://sdgs.un.org/goals/goal8" },
-      "cids:hasIdentifier": "8"
-    },
-    {
-      "@id": "https://metadata.un.org/sdg/9",
-      "@type": ["skos:Concept", "cids:Code", "cids:Theme"],
-      "rdfs:isDefinedBy": { "@id": "https://codelist.commonapproach.org/codeLists/SDGImpacts" },
-      "rdfs:label": {
-          "@language": "en",
-          "@value": "Build resilient infrastructure, promote inclusive and sustainable industrialization and foster innovation."
-      },
-      "skos:prefLabel": {
-          "@language": "en",
-          "@value": "Goal 9: Industry, innovation and infrastructure"
-      },
-      "skos:definition": {
-          "@language": "en",
-          "@value": "Build resilient infrastructure, promote inclusive and sustainable industrialization and foster innovation"
-      },
-      "skos:inScheme": { "@id": "https://metadata.un.org/sdg" },
-      "prov:hadPrimarySource": { "@id": "https://sdgs.un.org/goals/goal9" },
-      "cids:hasIdentifier": "9"
-    },
-    {
-      "@id": "https://metadata.un.org/sdg/10",
-      "@type": ["skos:Concept", "cids:Code", "cids:Theme"],
-      "rdfs:isDefinedBy": { "@id": "https://codelist.commonapproach.org/codeLists/SDGImpacts" },
-      "rdfs:label": {
-          "@language": "en",
-          "@value": "Reduce inequality within and among countries."
-      },
-      "skos:prefLabel": {
-          "@language": "en",
-          "@value": "Goal 10: Reduced inequalities"
-      },
-      "skos:definition": {
-          "@language": "en",
-          "@value": "Reduce inequality within and among countries"
-      },
-      "skos:inScheme": { "@id": "https://metadata.un.org/sdg" },
-      "prov:hadPrimarySource": { "@id": "https://sdgs.un.org/goals/goal10" },
-      "cids:hasIdentifier": "10"
-    },
-    {
-      "@id": "https://metadata.un.org/sdg/11",
-      "@type": ["skos:Concept", "cids:Code", "cids:Theme"],
-      "rdfs:isDefinedBy": { "@id": "https://codelist.commonapproach.org/codeLists/SDGImpacts" },
-      "rdfs:label": {
-          "@language": "en",
-          "@value": "Make cities and human settlements inclusive, safe, resilient and sustainable."
-      },
-      "skos:prefLabel": {
-          "@language": "en",
-          "@value": "Goal 11: Sustainable cities and communities"
-      },
-      "skos:definition": {
-          "@language": "en",
-          "@value": "Make cities and human settlements inclusive, safe, resilient and sustainable"
-      },
-      "skos:inScheme": { "@id": "https://metadata.un.org/sdg" },
-      "prov:hadPrimarySource": { "@id": "https://sdgs.un.org/goals/goal11" },
-      "cids:hasIdentifier": "11"
-    },
-    {
-      "@id": "https://metadata.un.org/sdg/12",
-      "@type": ["skos:Concept", "cids:Code", "cids:Theme"],
-      "rdfs:isDefinedBy": { "@id": "https://codelist.commonapproach.org/codeLists/SDGImpacts" },
-      "rdfs:label": {
-          "@language": "en",
-          "@value": "Ensure sustainable consumption and production patterns."
-      },
-      "skos:prefLabel": {
-          "@language": "en",
-          "@value": "Goal 12: Responsible consumption and production"
-      },
-      "skos:definition": {
-          "@language": "en",
-          "@value": "Ensure sustainable consumption and production patterns"
-      },
-      "skos:inScheme": { "@id": "https://metadata.un.org/sdg" },
-      "prov:hadPrimarySource": { "@id": "https://sdgs.un.org/goals/goal12" },
-      "cids:hasIdentifier": "12"
-    },
-    {
-      "@id": "https://metadata.un.org/sdg/13",
-      "@type": ["skos:Concept", "cids:Code", "cids:Theme"],
-      "rdfs:isDefinedBy": { "@id": "https://codelist.commonapproach.org/codeLists/SDGImpacts" },
-      "rdfs:label": {
-          "@language": "en",
-          "@value": "Take urgent action to combat climate change and its impacts."
-      },
-      "skos:prefLabel": {
-          "@language": "en",
-          "@value": "Goal 13: Climate action"
-      },
-      "skos:definition": {
-          "@language": "en",
-          "@value": "Take urgent action to combat climate change and its impacts"
-      },
-      "skos:inScheme": { "@id": "https://metadata.un.org/sdg" },
-      "prov:hadPrimarySource": { "@id": "https://sdgs.un.org/goals/goal13" },
-      "cids:hasIdentifier": "13"
-    },
-    {
-      "@id": "https://metadata.un.org/sdg/14",
-      "@type": ["skos:Concept", "cids:Code", "cids:Theme"],
-      "rdfs:isDefinedBy": { "@id": "https://codelist.commonapproach.org/codeLists/SDGImpacts" },
-      "rdfs:label": {
-          "@language": "en",
-          "@value": "Conserve and sustainably use the oceans, seas and marine resources for sustainable development."
-      },
-      "skos:prefLabel": {
-          "@language": "en",
-          "@value": "Goal 14: Life below water"
-      },
-      "skos:definition": {
-          "@language": "en",
-          "@value": "Conserve and sustainably use the oceans, seas and marine resources for sustainable development"
-      },
-      "skos:inScheme": { "@id": "https://metadata.un.org/sdg" },
-      "prov:hadPrimarySource": { "@id": "https://sdgs.un.org/goals/goal14" },
-      "cids:hasIdentifier": "14"
-    },
-    {
-      "@id": "https://metadata.un.org/sdg/15",
-      "@type": ["skos:Concept", "cids:Code", "cids:Theme"],
-      "rdfs:isDefinedBy": { "@id": "https://codelist.commonapproach.org/codeLists/SDGImpacts" },
-      "rdfs:label": {
-          "@language": "en",
-          "@value": "Protect, restore and promote sustainable use of terrestrial ecosystems, sustainably manage forests, combat desertification, and halt and reverse land degradation and halt biodiversity loss."
-      },
-      "skos:prefLabel": {
-          "@language": "en",
-          "@value": "Goal 15: Life on land"
-      },
-      "skos:definition": {
-          "@language": "en",
-          "@value": "Protect, restore and promote sustainable use of terrestrial ecosystems, sustainably manage forests, combat desertification, and halt and reverse land degradation and halt biodiversity loss"
-      },
-      "skos:inScheme": { "@id": "https://metadata.un.org/sdg" },
-      "prov:hadPrimarySource": { "@id": "https://sdgs.un.org/goals/goal15" },
-      "cids:hasIdentifier": "15"
-    },
-    {
-      "@id": "https://metadata.un.org/sdg/16",
-      "@type": ["skos:Concept", "cids:Code", "cids:Theme"],
-      "rdfs:isDefinedBy": { "@id": "https://codelist.commonapproach.org/codeLists/SDGImpacts" },
-      "rdfs:label": {
-          "@language": "en",
-          "@value": "Promote peaceful and inclusive societies for sustainable development, provide access to justice for all and build effective, accountable and inclusive institutions at all levels."
-      },
-      "skos:prefLabel": {
-          "@language": "en",
-          "@value": "Goal 16: Peace, justice and strong institutions"
-      },
-      "skos:definition": {
-          "@language": "en",
-          "@value": "Promote peaceful and inclusive societies for sustainable development, provide access to justice for all and build effective, accountable and inclusive institutions at all levels"
-      },
-      "skos:inScheme": { "@id": "https://metadata.un.org/sdg" },
-      "prov:hadPrimarySource": { "@id": "https://sdgs.un.org/goals/goal16" },
-      "cids:hasIdentifier": "16"
-    },
-    {
-      "@id": "https://metadata.un.org/sdg/17",
-      "@type": ["skos:Concept", "cids:Code", "cids:Theme"],
-      "rdfs:isDefinedBy": { "@id": "https://codelist.commonapproach.org/codeLists/SDGImpacts" },
-      "rdfs:label": {
-          "@language": "en",
-          "@value": "Strengthen the means of implementation and revitalize the Global Partnership for Sustainable Development."
-      },
-      "skos:prefLabel": {
-          "@language": "en",
-          "@value": "Goal 17: Partnerships for the goals"
-      },
-      "skos:definition": {
-          "@language": "en",
-          "@value": "Strengthen the means of implementation and revitalize the Global Partnership for Sustainable Development"
-      },
-      "skos:inScheme": { "@id": "https://metadata.un.org/sdg" },
-      "prov:hadPrimarySource": { "@id": "https://sdgs.un.org/goals/goal17" },
-      "cids:hasIdentifier": "17"
-    },
-    {
-      "@id": "SDGImpacts:SDG1",
-      "owl:sameAs": { "@id": "https://metadata.un.org/sdg/1" },
-      "owl:deprecated": { "@type": "xsd:boolean", "@value": "true" },
-      "rdfs:label": { "@language": "en", "@value": "Legacy IRI for SDG 1" },
-      "rdfs:comment": { "@language": "en", "@value": "This IRI is deprecated and has been replaced by https://metadata.un.org/sdg/1. It is retained for backward compatibility." }
-    },
-    {
-      "@id": "SDGImpacts:SDG2",
-      "owl:sameAs": { "@id": "https://metadata.un.org/sdg/2" },
-      "owl:deprecated": { "@type": "xsd:boolean", "@value": "true" },
-      "rdfs:label": { "@language": "en", "@value": "Legacy IRI for SDG 2" },
-      "rdfs:comment": { "@language": "en", "@value": "This IRI is deprecated and has been replaced by https://metadata.un.org/sdg/2. It is retained for backward compatibility." }
-    },
-    {
-      "@id": "SDGImpacts:SDG3",
-      "owl:sameAs": { "@id": "https://metadata.un.org/sdg/3" },
-      "owl:deprecated": { "@type": "xsd:boolean", "@value": "true" },
-      "rdfs:label": { "@language": "en", "@value": "Legacy IRI for SDG 3" },
-      "rdfs:comment": { "@language": "en", "@value": "This IRI is deprecated and has been replaced by https://metadata.un.org/sdg/3. It is retained for backward compatibility." }
-    },
-    {
-      "@id": "SDGImpacts:SDG4",
-      "owl:sameAs": { "@id": "https://metadata.un.org/sdg/4" },
-      "owl:deprecated": { "@type": "xsd:boolean", "@value": "true" },
-      "rdfs:label": { "@language": "en", "@value": "Legacy IRI for SDG 4" },
-      "rdfs:comment": { "@language": "en", "@value": "This IRI is deprecated and has been replaced by https://metadata.un.org/sdg/4. It is retained for backward compatibility." }
-    },
-    {
-      "@id": "SDGImpacts:SDG5",
-      "owl:sameAs": { "@id": "https://metadata.un.org/sdg/5" },
-      "owl:deprecated": { "@type": "xsd:boolean", "@value": "true" },
-      "rdfs:label": { "@language": "en", "@value": "Legacy IRI for SDG 5" },
-      "rdfs:comment": { "@language": "en", "@value": "This IRI is deprecated and has been replaced by https://metadata.un.org/sdg/5. It is retained for backward compatibility." }
-    },
-    {
-      "@id": "SDGImpacts:SDG6",
-      "owl:sameAs": { "@id": "https://metadata.un.org/sdg/6" },
-      "owl:deprecated": { "@type": "xsd:boolean", "@value": "true" },
-      "rdfs:label": { "@language": "en", "@value": "Legacy IRI for SDG 6" },
-      "rdfs:comment": { "@language": "en", "@value": "This IRI is deprecated and has been replaced by https://metadata.un.org/sdg/6. It is retained for backward compatibility." }
-    },
-    {
-      "@id": "SDGImpacts:SDG7",
-      "owl:sameAs": { "@id": "https://metadata.un.org/sdg/7" },
-      "owl:deprecated": { "@type": "xsd:boolean", "@value": "true" },
-      "rdfs:label": { "@language": "en", "@value": "Legacy IRI for SDG 7" },
-      "rdfs:comment": { "@language": "en", "@value": "This IRI is deprecated and has been replaced by https://metadata.un.org/sdg/7. It is retained for backward compatibility." }
-    },
-    {
-      "@id": "SDGImpacts:SDG8",
-      "owl:sameAs": { "@id": "https://metadata.un.org/sdg/8" },
-      "owl:deprecated": { "@type": "xsd:boolean", "@value": "true" },
-      "rdfs:label": { "@language": "en", "@value": "Legacy IRI for SDG 8" },
-      "rdfs:comment": { "@language": "en", "@value": "This IRI is deprecated and has been replaced by https://metadata.un.org/sdg/8. It is retained for backward compatibility." }
-    },
-    {
-      "@id": "SDGImpacts:SDG9",
-      "owl:sameAs": { "@id": "https://metadata.un.org/sdg/9" },
-      "owl:deprecated": { "@type": "xsd:boolean", "@value": "true" },
-      "rdfs:label": { "@language": "en", "@value": "Legacy IRI for SDG 9" },
-      "rdfs:comment": { "@language": "en", "@value": "This IRI is deprecated and has been replaced by https://metadata.un.org/sdg/9. It is retained for backward compatibility." }
-    },
-    {
-      "@id": "SDGImpacts:SDG10",
-      "owl:sameAs": { "@id": "https://metadata.un.org/sdg/10" },
-      "owl:deprecated": { "@type": "xsd:boolean", "@value": "true" },
-      "rdfs:label": { "@language": "en", "@value": "Legacy IRI for SDG 10" },
-      "rdfs:comment": { "@language": "en", "@value": "This IRI is deprecated and has been replaced by https://metadata.un.org/sdg/10. It is retained for backward compatibility." }
-    },
-    {
-      "@id": "SDGImpacts:SDG11",
-      "owl:sameAs": { "@id": "https://metadata.un.org/sdg/11" },
-      "owl:deprecated": { "@type": "xsd:boolean", "@value": "true" },
-      "rdfs:label": { "@language": "en", "@value": "Legacy IRI for SDG 11" },
-      "rdfs:comment": { "@language": "en", "@value": "This IRI is deprecated and has been replaced by https://metadata.un.org/sdg/11. It is retained for backward compatibility." }
-    },
-    {
-      "@id": "SDGImpacts:SDG12",
-      "owl:sameAs": { "@id": "https://metadata.un.org/sdg/12" },
-      "owl:deprecated": { "@type": "xsd:boolean", "@value": "true" },
-      "rdfs:label": { "@language": "en", "@value": "Legacy IRI for SDG 12" },
-      "rdfs:comment": { "@language": "en", "@value": "This IRI is deprecated and has been replaced by https://metadata.un.org/sdg/12. It is retained for backward compatibility." }
-    },
-    {
-      "@id": "SDGImpacts:SDG13",
-      "owl:sameAs": { "@id": "https://metadata.un.org/sdg/13" },
-      "owl:deprecated": { "@type": "xsd:boolean", "@value": "true" },
-      "rdfs:label": { "@language": "en", "@value": "Legacy IRI for SDG 13" },
-      "rdfs:comment": { "@language": "en", "@value": "This IRI is deprecated and has been replaced by https://metadata.un.org/sdg/13. It is retained for backward compatibility." }
-    },
-    {
-      "@id": "SDGImpacts:SDG14",
-      "owl:sameAs": { "@id": "https://metadata.un.org/sdg/14" },
-      "owl:deprecated": { "@type": "xsd:boolean", "@value": "true" },
-      "rdfs:label": { "@language": "en", "@value": "Legacy IRI for SDG 14" },
-      "rdfs:comment": { "@language": "en", "@value": "This IRI is deprecated and has been replaced by https://metadata.un.org/sdg/14. It is retained for backward compatibility." }
-    },
-    {
-      "@id": "SDGImpacts:SDG15",
-      "owl:sameAs": { "@id": "https://metadata.un.org/sdg/15" },
-      "owl:deprecated": { "@type": "xsd:boolean", "@value": "true" },
-      "rdfs:label": { "@language": "en", "@value": "Legacy IRI for SDG 15" },
-      "rdfs:comment": { "@language": "en", "@value": "This IRI is deprecated and has been replaced by https://metadata.un.org/sdg/15. It is retained for backward compatibility." }
-    },
-    {
-      "@id": "SDGImpacts:SDG16",
-      "owl:sameAs": { "@id": "https://metadata.un.org/sdg/16" },
-      "owl:deprecated": { "@type": "xsd:boolean", "@value": "true" },
-      "rdfs:label": { "@language": "en", "@value": "Legacy IRI for SDG 16" },
-      "rdfs:comment": { "@language": "en", "@value": "This IRI is deprecated and has been replaced by https://metadata.un.org/sdg/16. It is retained for backward compatibility." }
-    },
-    {
-      "@id": "SDGImpacts:SDG17",
-      "owl:sameAs": { "@id": "https://metadata.un.org/sdg/17" },
-      "owl:deprecated": { "@type": "xsd:boolean", "@value": "true" },
-      "rdfs:label": { "@language": "en", "@value": "Legacy IRI for SDG 17" },
-      "rdfs:comment": { "@language": "en", "@value": "This IRI is deprecated and has been replaced by https://metadata.un.org/sdg/17. It is retained for backward compatibility." }
+    "@graph": [
+        {
+            "@id": "https://codelist.commonapproach.org/SDGImpacts#SDG17",
+            "rdfs:comment": {
+                "@language": "en",
+                "@value": "This IRI is deprecated and has been replaced by https://metadata.un.org/sdg/17. It is retained for backward compatibility."
+            },
+            "rdfs:label": {
+                "@language": "en",
+                "@value": "Legacy IRI for SDG 17"
+            },
+            "owl:deprecated": {
+                "@value": "true",
+                "@type": "xsd:boolean"
+            },
+            "owl:sameAs": {
+                "@id": "https://metadata.un.org/sdg/17"
+            }
+        },
+        {
+            "@id": "https://metadata.un.org/sdg/17",
+            "skos:inScheme": {
+                "@id": "https://metadata.un.org/sdg"
+            },
+            "rdfs:isDefinedBy": {
+                "@id": "https://codelist.commonapproach.org/SDGImpacts"
+            },
+            "cids:hasSpecification": {
+                "@id": "https://codelist.commonapproach.org/SDGImpacts"
+            },
+            "cids:definedBy": {
+                "@id": "cids:ac"
+            },
+            "prov:hadPrimarySource": {
+                "@id": "https://sdgs.un.org/goals/goal17"
+            },
+            "skos:notation": "17",
+            "org:hasIdentifier": "17",
+            "skos:definition": {
+                "@language": "en",
+                "@value": "Strengthen the means of implementation and revitalize the Global Partnership for Sustainable Development"
+            },
+            "cids:hasDescription": "Strengthen the means of implementation and revitalize the Global Partnership for Sustainable Development",
+            "skos:prefLabel": {
+                "@language": "en",
+                "@value": "Goal 17: Partnerships for the goals"
+            },
+            "org:hasName": "Goal 17: Partnerships for the goals",
+            "@type": [
+                "cids:Theme",
+                "cids:Code",
+                "skos:Concept"
+            ]
+        },
+        {
+            "@id": "https://codelist.commonapproach.org/SDGImpacts#SDG16",
+            "rdfs:comment": {
+                "@language": "en",
+                "@value": "This IRI is deprecated and has been replaced by https://metadata.un.org/sdg/16. It is retained for backward compatibility."
+            },
+            "rdfs:label": {
+                "@language": "en",
+                "@value": "Legacy IRI for SDG 16"
+            },
+            "owl:deprecated": {
+                "@value": "true",
+                "@type": "xsd:boolean"
+            },
+            "owl:sameAs": {
+                "@id": "https://metadata.un.org/sdg/16"
+            }
+        },
+        {
+            "@id": "https://metadata.un.org/sdg/16",
+            "skos:inScheme": {
+                "@id": "https://metadata.un.org/sdg"
+            },
+            "rdfs:isDefinedBy": {
+                "@id": "https://codelist.commonapproach.org/SDGImpacts"
+            },
+            "cids:hasSpecification": {
+                "@id": "https://codelist.commonapproach.org/SDGImpacts"
+            },
+            "cids:definedBy": {
+                "@id": "cids:ac"
+            },
+            "prov:hadPrimarySource": {
+                "@id": "https://sdgs.un.org/goals/goal16"
+            },
+            "skos:notation": "16",
+            "org:hasIdentifier": "16",
+            "skos:definition": {
+                "@language": "en",
+                "@value": "Promote peaceful and inclusive societies for sustainable development, provide access to justice for all and build effective, accountable and inclusive institutions at all levels"
+            },
+            "cids:hasDescription": "Promote peaceful and inclusive societies for sustainable development, provide access to justice for all and build effective, accountable and inclusive institutions at all levels",
+            "skos:prefLabel": {
+                "@language": "en",
+                "@value": "Goal 16: Peace, justice and strong institutions"
+            },
+            "org:hasName": "Goal 16: Peace, justice and strong institutions",
+            "@type": [
+                "cids:Theme",
+                "cids:Code",
+                "skos:Concept"
+            ]
+        },
+        {
+            "@id": "https://codelist.commonapproach.org/SDGImpacts#SDG15",
+            "rdfs:comment": {
+                "@language": "en",
+                "@value": "This IRI is deprecated and has been replaced by https://metadata.un.org/sdg/15. It is retained for backward compatibility."
+            },
+            "rdfs:label": {
+                "@language": "en",
+                "@value": "Legacy IRI for SDG 15"
+            },
+            "owl:deprecated": {
+                "@value": "true",
+                "@type": "xsd:boolean"
+            },
+            "owl:sameAs": {
+                "@id": "https://metadata.un.org/sdg/15"
+            }
+        },
+        {
+            "@id": "https://metadata.un.org/sdg/15",
+            "skos:inScheme": {
+                "@id": "https://metadata.un.org/sdg"
+            },
+            "rdfs:isDefinedBy": {
+                "@id": "https://codelist.commonapproach.org/SDGImpacts"
+            },
+            "cids:hasSpecification": {
+                "@id": "https://codelist.commonapproach.org/SDGImpacts"
+            },
+            "cids:definedBy": {
+                "@id": "cids:ac"
+            },
+            "prov:hadPrimarySource": {
+                "@id": "https://sdgs.un.org/goals/goal15"
+            },
+            "skos:notation": "15",
+            "org:hasIdentifier": "15",
+            "skos:definition": {
+                "@language": "en",
+                "@value": "Protect, restore and promote sustainable use of terrestrial ecosystems, sustainably manage forests, combat desertification, and halt and reverse land degradation and halt biodiversity loss"
+            },
+            "cids:hasDescription": "Protect, restore and promote sustainable use of terrestrial ecosystems, sustainably manage forests, combat desertification, and halt and reverse land degradation and halt biodiversity loss",
+            "skos:prefLabel": {
+                "@language": "en",
+                "@value": "Goal 15: Life on land"
+            },
+            "org:hasName": "Goal 15: Life on land",
+            "@type": [
+                "cids:Theme",
+                "cids:Code",
+                "skos:Concept"
+            ]
+        },
+        {
+            "@id": "https://codelist.commonapproach.org/SDGImpacts#SDG14",
+            "rdfs:comment": {
+                "@language": "en",
+                "@value": "This IRI is deprecated and has been replaced by https://metadata.un.org/sdg/14. It is retained for backward compatibility."
+            },
+            "rdfs:label": {
+                "@language": "en",
+                "@value": "Legacy IRI for SDG 14"
+            },
+            "owl:deprecated": {
+                "@value": "true",
+                "@type": "xsd:boolean"
+            },
+            "owl:sameAs": {
+                "@id": "https://metadata.un.org/sdg/14"
+            }
+        },
+        {
+            "@id": "https://metadata.un.org/sdg/14",
+            "skos:inScheme": {
+                "@id": "https://metadata.un.org/sdg"
+            },
+            "rdfs:isDefinedBy": {
+                "@id": "https://codelist.commonapproach.org/SDGImpacts"
+            },
+            "cids:hasSpecification": {
+                "@id": "https://codelist.commonapproach.org/SDGImpacts"
+            },
+            "cids:definedBy": {
+                "@id": "cids:ac"
+            },
+            "prov:hadPrimarySource": {
+                "@id": "https://sdgs.un.org/goals/goal14"
+            },
+            "skos:notation": "14",
+            "org:hasIdentifier": "14",
+            "skos:definition": {
+                "@language": "en",
+                "@value": "Conserve and sustainably use the oceans, seas and marine resources for sustainable development"
+            },
+            "cids:hasDescription": "Conserve and sustainably use the oceans, seas and marine resources for sustainable development",
+            "skos:prefLabel": {
+                "@language": "en",
+                "@value": "Goal 14: Life below water"
+            },
+            "org:hasName": "Goal 14: Life below water",
+            "@type": [
+                "cids:Theme",
+                "cids:Code",
+                "skos:Concept"
+            ]
+        },
+        {
+            "@id": "https://codelist.commonapproach.org/SDGImpacts#SDG13",
+            "rdfs:comment": {
+                "@language": "en",
+                "@value": "This IRI is deprecated and has been replaced by https://metadata.un.org/sdg/13. It is retained for backward compatibility."
+            },
+            "rdfs:label": {
+                "@language": "en",
+                "@value": "Legacy IRI for SDG 13"
+            },
+            "owl:deprecated": {
+                "@value": "true",
+                "@type": "xsd:boolean"
+            },
+            "owl:sameAs": {
+                "@id": "https://metadata.un.org/sdg/13"
+            }
+        },
+        {
+            "@id": "https://metadata.un.org/sdg/13",
+            "skos:inScheme": {
+                "@id": "https://metadata.un.org/sdg"
+            },
+            "rdfs:isDefinedBy": {
+                "@id": "https://codelist.commonapproach.org/SDGImpacts"
+            },
+            "cids:hasSpecification": {
+                "@id": "https://codelist.commonapproach.org/SDGImpacts"
+            },
+            "cids:definedBy": {
+                "@id": "cids:ac"
+            },
+            "prov:hadPrimarySource": {
+                "@id": "https://sdgs.un.org/goals/goal13"
+            },
+            "skos:notation": "13",
+            "org:hasIdentifier": "13",
+            "skos:definition": {
+                "@language": "en",
+                "@value": "Take urgent action to combat climate change and its impacts"
+            },
+            "cids:hasDescription": "Take urgent action to combat climate change and its impacts",
+            "skos:prefLabel": {
+                "@language": "en",
+                "@value": "Goal 13: Climate action"
+            },
+            "org:hasName": "Goal 13: Climate action",
+            "@type": [
+                "cids:Theme",
+                "cids:Code",
+                "skos:Concept"
+            ]
+        },
+        {
+            "@id": "https://codelist.commonapproach.org/SDGImpacts#SDG12",
+            "rdfs:comment": {
+                "@language": "en",
+                "@value": "This IRI is deprecated and has been replaced by https://metadata.un.org/sdg/12. It is retained for backward compatibility."
+            },
+            "rdfs:label": {
+                "@language": "en",
+                "@value": "Legacy IRI for SDG 12"
+            },
+            "owl:deprecated": {
+                "@value": "true",
+                "@type": "xsd:boolean"
+            },
+            "owl:sameAs": {
+                "@id": "https://metadata.un.org/sdg/12"
+            }
+        },
+        {
+            "@id": "https://metadata.un.org/sdg/12",
+            "skos:inScheme": {
+                "@id": "https://metadata.un.org/sdg"
+            },
+            "rdfs:isDefinedBy": {
+                "@id": "https://codelist.commonapproach.org/SDGImpacts"
+            },
+            "cids:hasSpecification": {
+                "@id": "https://codelist.commonapproach.org/SDGImpacts"
+            },
+            "cids:definedBy": {
+                "@id": "cids:ac"
+            },
+            "prov:hadPrimarySource": {
+                "@id": "https://sdgs.un.org/goals/goal12"
+            },
+            "skos:notation": "12",
+            "org:hasIdentifier": "12",
+            "skos:definition": {
+                "@language": "en",
+                "@value": "Ensure sustainable consumption and production patterns"
+            },
+            "cids:hasDescription": "Ensure sustainable consumption and production patterns",
+            "skos:prefLabel": {
+                "@language": "en",
+                "@value": "Goal 12: Responsible consumption and production"
+            },
+            "org:hasName": "Goal 12: Responsible consumption and production",
+            "@type": [
+                "cids:Theme",
+                "cids:Code",
+                "skos:Concept"
+            ]
+        },
+        {
+            "@id": "https://codelist.commonapproach.org/SDGImpacts#SDG11",
+            "rdfs:comment": {
+                "@language": "en",
+                "@value": "This IRI is deprecated and has been replaced by https://metadata.un.org/sdg/11. It is retained for backward compatibility."
+            },
+            "rdfs:label": {
+                "@language": "en",
+                "@value": "Legacy IRI for SDG 11"
+            },
+            "owl:deprecated": {
+                "@value": "true",
+                "@type": "xsd:boolean"
+            },
+            "owl:sameAs": {
+                "@id": "https://metadata.un.org/sdg/11"
+            }
+        },
+        {
+            "@id": "https://metadata.un.org/sdg/11",
+            "skos:inScheme": {
+                "@id": "https://metadata.un.org/sdg"
+            },
+            "rdfs:isDefinedBy": {
+                "@id": "https://codelist.commonapproach.org/SDGImpacts"
+            },
+            "cids:hasSpecification": {
+                "@id": "https://codelist.commonapproach.org/SDGImpacts"
+            },
+            "cids:definedBy": {
+                "@id": "cids:ac"
+            },
+            "prov:hadPrimarySource": {
+                "@id": "https://sdgs.un.org/goals/goal11"
+            },
+            "skos:notation": "11",
+            "org:hasIdentifier": "11",
+            "skos:definition": {
+                "@language": "en",
+                "@value": "Make cities and human settlements inclusive, safe, resilient and sustainable"
+            },
+            "cids:hasDescription": "Make cities and human settlements inclusive, safe, resilient and sustainable",
+            "skos:prefLabel": {
+                "@language": "en",
+                "@value": "Goal 11: Sustainable cities and communities"
+            },
+            "org:hasName": "Goal 11: Sustainable cities and communities",
+            "@type": [
+                "cids:Theme",
+                "cids:Code",
+                "skos:Concept"
+            ]
+        },
+        {
+            "@id": "https://codelist.commonapproach.org/SDGImpacts#SDG10",
+            "rdfs:comment": {
+                "@language": "en",
+                "@value": "This IRI is deprecated and has been replaced by https://metadata.un.org/sdg/10. It is retained for backward compatibility."
+            },
+            "rdfs:label": {
+                "@language": "en",
+                "@value": "Legacy IRI for SDG 10"
+            },
+            "owl:deprecated": {
+                "@value": "true",
+                "@type": "xsd:boolean"
+            },
+            "owl:sameAs": {
+                "@id": "https://metadata.un.org/sdg/10"
+            }
+        },
+        {
+            "@id": "https://metadata.un.org/sdg/10",
+            "skos:inScheme": {
+                "@id": "https://metadata.un.org/sdg"
+            },
+            "rdfs:isDefinedBy": {
+                "@id": "https://codelist.commonapproach.org/SDGImpacts"
+            },
+            "cids:hasSpecification": {
+                "@id": "https://codelist.commonapproach.org/SDGImpacts"
+            },
+            "cids:definedBy": {
+                "@id": "cids:ac"
+            },
+            "prov:hadPrimarySource": {
+                "@id": "https://sdgs.un.org/goals/goal10"
+            },
+            "skos:notation": "10",
+            "org:hasIdentifier": "10",
+            "skos:definition": {
+                "@language": "en",
+                "@value": "Reduce inequality within and among countries"
+            },
+            "cids:hasDescription": "Reduce inequality within and among countries",
+            "skos:prefLabel": {
+                "@language": "en",
+                "@value": "Goal 10: Reduced inequalities"
+            },
+            "org:hasName": "Goal 10: Reduced inequalities",
+            "@type": [
+                "cids:Theme",
+                "cids:Code",
+                "skos:Concept"
+            ]
+        },
+        {
+            "@id": "https://codelist.commonapproach.org/SDGImpacts#SDG9",
+            "rdfs:comment": {
+                "@language": "en",
+                "@value": "This IRI is deprecated and has been replaced by https://metadata.un.org/sdg/9. It is retained for backward compatibility."
+            },
+            "rdfs:label": {
+                "@language": "en",
+                "@value": "Legacy IRI for SDG 9"
+            },
+            "owl:deprecated": {
+                "@value": "true",
+                "@type": "xsd:boolean"
+            },
+            "owl:sameAs": {
+                "@id": "https://metadata.un.org/sdg/9"
+            }
+        },
+        {
+            "@id": "https://metadata.un.org/sdg/9",
+            "skos:inScheme": {
+                "@id": "https://metadata.un.org/sdg"
+            },
+            "rdfs:isDefinedBy": {
+                "@id": "https://codelist.commonapproach.org/SDGImpacts"
+            },
+            "cids:hasSpecification": {
+                "@id": "https://codelist.commonapproach.org/SDGImpacts"
+            },
+            "cids:definedBy": {
+                "@id": "cids:ac"
+            },
+            "prov:hadPrimarySource": {
+                "@id": "https://sdgs.un.org/goals/goal9"
+            },
+            "skos:notation": "9",
+            "org:hasIdentifier": "9",
+            "skos:definition": {
+                "@language": "en",
+                "@value": "Build resilient infrastructure, promote inclusive and sustainable industrialization and foster innovation"
+            },
+            "cids:hasDescription": "Build resilient infrastructure, promote inclusive and sustainable industrialization and foster innovation",
+            "skos:prefLabel": {
+                "@language": "en",
+                "@value": "Goal 9: Industry, innovation and infrastructure"
+            },
+            "org:hasName": "Goal 9: Industry, innovation and infrastructure",
+            "@type": [
+                "cids:Theme",
+                "cids:Code",
+                "skos:Concept"
+            ]
+        },
+        {
+            "@id": "https://codelist.commonapproach.org/SDGImpacts#SDG8",
+            "rdfs:comment": {
+                "@language": "en",
+                "@value": "This IRI is deprecated and has been replaced by https://metadata.un.org/sdg/8. It is retained for backward compatibility."
+            },
+            "rdfs:label": {
+                "@language": "en",
+                "@value": "Legacy IRI for SDG 8"
+            },
+            "owl:deprecated": {
+                "@value": "true",
+                "@type": "xsd:boolean"
+            },
+            "owl:sameAs": {
+                "@id": "https://metadata.un.org/sdg/8"
+            }
+        },
+        {
+            "@id": "https://metadata.un.org/sdg/8",
+            "skos:inScheme": {
+                "@id": "https://metadata.un.org/sdg"
+            },
+            "rdfs:isDefinedBy": {
+                "@id": "https://codelist.commonapproach.org/SDGImpacts"
+            },
+            "cids:hasSpecification": {
+                "@id": "https://codelist.commonapproach.org/SDGImpacts"
+            },
+            "cids:definedBy": {
+                "@id": "cids:ac"
+            },
+            "prov:hadPrimarySource": {
+                "@id": "https://sdgs.un.org/goals/goal8"
+            },
+            "skos:notation": "8",
+            "org:hasIdentifier": "8",
+            "skos:definition": {
+                "@language": "en",
+                "@value": "Promote sustained, inclusive and sustainable economic growth, full and productive employment and decent work for all"
+            },
+            "cids:hasDescription": "Promote sustained, inclusive and sustainable economic growth, full and productive employment and decent work for all",
+            "skos:prefLabel": {
+                "@language": "en",
+                "@value": "Goal 8: Decent work and economic growth"
+            },
+            "org:hasName": "Goal 8: Decent work and economic growth",
+            "@type": [
+                "cids:Theme",
+                "cids:Code",
+                "skos:Concept"
+            ]
+        },
+        {
+            "@id": "https://codelist.commonapproach.org/SDGImpacts#SDG7",
+            "rdfs:comment": {
+                "@language": "en",
+                "@value": "This IRI is deprecated and has been replaced by https://metadata.un.org/sdg/7. It is retained for backward compatibility."
+            },
+            "rdfs:label": {
+                "@language": "en",
+                "@value": "Legacy IRI for SDG 7"
+            },
+            "owl:deprecated": {
+                "@value": "true",
+                "@type": "xsd:boolean"
+            },
+            "owl:sameAs": {
+                "@id": "https://metadata.un.org/sdg/7"
+            }
+        },
+        {
+            "@id": "https://metadata.un.org/sdg/7",
+            "skos:inScheme": {
+                "@id": "https://metadata.un.org/sdg"
+            },
+            "rdfs:isDefinedBy": {
+                "@id": "https://codelist.commonapproach.org/SDGImpacts"
+            },
+            "cids:hasSpecification": {
+                "@id": "https://codelist.commonapproach.org/SDGImpacts"
+            },
+            "cids:definedBy": {
+                "@id": "cids:ac"
+            },
+            "prov:hadPrimarySource": {
+                "@id": "https://sdgs.un.org/goals/goal7"
+            },
+            "skos:notation": "7",
+            "org:hasIdentifier": "7",
+            "skos:definition": {
+                "@language": "en",
+                "@value": "Ensure access to affordable, reliable, sustainable and modern energy for all"
+            },
+            "cids:hasDescription": "Ensure access to affordable, reliable, sustainable and modern energy for all",
+            "skos:prefLabel": {
+                "@language": "en",
+                "@value": "Goal 7: Affordable and clean energy"
+            },
+            "org:hasName": "Goal 7: Affordable and clean energy",
+            "@type": [
+                "cids:Theme",
+                "cids:Code",
+                "skos:Concept"
+            ]
+        },
+        {
+            "@id": "https://codelist.commonapproach.org/SDGImpacts#SDG6",
+            "rdfs:comment": {
+                "@language": "en",
+                "@value": "This IRI is deprecated and has been replaced by https://metadata.un.org/sdg/6. It is retained for backward compatibility."
+            },
+            "rdfs:label": {
+                "@language": "en",
+                "@value": "Legacy IRI for SDG 6"
+            },
+            "owl:deprecated": {
+                "@value": "true",
+                "@type": "xsd:boolean"
+            },
+            "owl:sameAs": {
+                "@id": "https://metadata.un.org/sdg/6"
+            }
+        },
+        {
+            "@id": "https://metadata.un.org/sdg/6",
+            "skos:inScheme": {
+                "@id": "https://metadata.un.org/sdg"
+            },
+            "rdfs:isDefinedBy": {
+                "@id": "https://codelist.commonapproach.org/SDGImpacts"
+            },
+            "cids:hasSpecification": {
+                "@id": "https://codelist.commonapproach.org/SDGImpacts"
+            },
+            "cids:definedBy": {
+                "@id": "cids:ac"
+            },
+            "prov:hadPrimarySource": {
+                "@id": "https://sdgs.un.org/goals/goal6"
+            },
+            "skos:notation": "6",
+            "org:hasIdentifier": "6",
+            "skos:definition": {
+                "@language": "en",
+                "@value": "Ensure availability and sustainable management of water and sanitation for all"
+            },
+            "cids:hasDescription": "Ensure availability and sustainable management of water and sanitation for all",
+            "skos:prefLabel": {
+                "@language": "en",
+                "@value": "Goal 6: Clean water and sanitation"
+            },
+            "org:hasName": "Goal 6: Clean water and sanitation",
+            "@type": [
+                "cids:Theme",
+                "cids:Code",
+                "skos:Concept"
+            ]
+        },
+        {
+            "@id": "https://codelist.commonapproach.org/SDGImpacts#SDG5",
+            "rdfs:comment": {
+                "@language": "en",
+                "@value": "This IRI is deprecated and has been replaced by https://metadata.un.org/sdg/5. It is retained for backward compatibility."
+            },
+            "rdfs:label": {
+                "@language": "en",
+                "@value": "Legacy IRI for SDG 5"
+            },
+            "owl:deprecated": {
+                "@value": "true",
+                "@type": "xsd:boolean"
+            },
+            "owl:sameAs": {
+                "@id": "https://metadata.un.org/sdg/5"
+            }
+        },
+        {
+            "@id": "https://metadata.un.org/sdg/5",
+            "skos:inScheme": {
+                "@id": "https://metadata.un.org/sdg"
+            },
+            "rdfs:isDefinedBy": {
+                "@id": "https://codelist.commonapproach.org/SDGImpacts"
+            },
+            "cids:hasSpecification": {
+                "@id": "https://codelist.commonapproach.org/SDGImpacts"
+            },
+            "cids:definedBy": {
+                "@id": "cids:ac"
+            },
+            "prov:hadPrimarySource": {
+                "@id": "https://sdgs.un.org/goals/goal5"
+            },
+            "skos:notation": "5",
+            "org:hasIdentifier": "5",
+            "skos:definition": {
+                "@language": "en",
+                "@value": "Achieve gender equality and empower all women and girls"
+            },
+            "cids:hasDescription": "Achieve gender equality and empower all women and girls",
+            "skos:prefLabel": {
+                "@language": "en",
+                "@value": "Goal 5: Gender equality"
+            },
+            "org:hasName": "Goal 5: Gender equality",
+            "@type": [
+                "cids:Theme",
+                "cids:Code",
+                "skos:Concept"
+            ]
+        },
+        {
+            "@id": "https://codelist.commonapproach.org/SDGImpacts#SDG4",
+            "rdfs:comment": {
+                "@language": "en",
+                "@value": "This IRI is deprecated and has been replaced by https://metadata.un.org/sdg/4. It is retained for backward compatibility."
+            },
+            "rdfs:label": {
+                "@language": "en",
+                "@value": "Legacy IRI for SDG 4"
+            },
+            "owl:deprecated": {
+                "@value": "true",
+                "@type": "xsd:boolean"
+            },
+            "owl:sameAs": {
+                "@id": "https://metadata.un.org/sdg/4"
+            }
+        },
+        {
+            "@id": "https://metadata.un.org/sdg/4",
+            "skos:inScheme": {
+                "@id": "https://metadata.un.org/sdg"
+            },
+            "rdfs:label": {
+                "@language": "en",
+                "@value": "Ensure inclusive and equitable quality education and promote lifelong learning opportunities for all."
+            },
+            "rdfs:isDefinedBy": {
+                "@id": "https://codelist.commonapproach.org/SDGImpacts"
+            },
+            "cids:hasSpecification": {
+                "@id": "https://codelist.commonapproach.org/SDGImpacts"
+            },
+            "cids:definedBy": {
+                "@id": "cids:ac"
+            },
+            "prov:hadPrimarySource": {
+                "@id": "https://sdgs.un.org/goals/goal4"
+            },
+            "skos:notation": "4",
+            "org:hasIdentifier": "4",
+            "skos:definition": {
+                "@language": "en",
+                "@value": "Ensure inclusive and equitable quality education and promote lifelong learning opportunities for all"
+            },
+            "cids:hasDescription": "Ensure inclusive and equitable quality education and promote lifelong learning opportunities for all",
+            "skos:prefLabel": {
+                "@language": "en",
+                "@value": "Goal 4: Quality education"
+            },
+            "org:hasName": "Goal 4: Quality education",
+            "@type": [
+                "cids:Theme",
+                "cids:Code",
+                "skos:Concept"
+            ]
+        },
+        {
+            "@id": "https://codelist.commonapproach.org/SDGImpacts#SDG3",
+            "rdfs:comment": {
+                "@language": "en",
+                "@value": "This IRI is deprecated and has been replaced by https://metadata.un.org/sdg/3. It is retained for backward compatibility."
+            },
+            "rdfs:label": {
+                "@language": "en",
+                "@value": "Legacy IRI for SDG 3"
+            },
+            "owl:deprecated": {
+                "@value": "true",
+                "@type": "xsd:boolean"
+            },
+            "owl:sameAs": {
+                "@id": "https://metadata.un.org/sdg/3"
+            }
+        },
+        {
+            "@id": "https://metadata.un.org/sdg/3",
+            "skos:inScheme": {
+                "@id": "https://metadata.un.org/sdg"
+            },
+            "rdfs:isDefinedBy": {
+                "@id": "https://codelist.commonapproach.org/SDGImpacts"
+            },
+            "cids:hasSpecification": {
+                "@id": "https://codelist.commonapproach.org/SDGImpacts"
+            },
+            "cids:definedBy": {
+                "@id": "cids:ac"
+            },
+            "prov:hadPrimarySource": {
+                "@id": "https://sdgs.un.org/goals/goal3"
+            },
+            "skos:notation": "3",
+            "cids:hasIdentifier": "3",
+            "skos:definition": {
+                "@language": "en",
+                "@value": "Ensure healthy lives and promote well-being for all at all ages"
+            },
+            "cids:hasDescription": "Ensure healthy lives and promote well-being for all at all ages",
+            "skos:prefLabel": {
+                "@language": "en",
+                "@value": "Goal 3: Good health and well-being"
+            },
+            "org:hasName": "Goal 3: Good health and well-being",
+            "@type": [
+                "cids:Theme",
+                "cids:Code",
+                "skos:Concept"
+            ]
+        },
+        {
+            "@id": "https://codelist.commonapproach.org/SDGImpacts#SDG2",
+            "rdfs:comment": {
+                "@language": "en",
+                "@value": "This IRI is deprecated and has been replaced by https://metadata.un.org/sdg/2. It is retained for backward compatibility."
+            },
+            "rdfs:label": {
+                "@language": "en",
+                "@value": "Legacy IRI for SDG 2"
+            },
+            "owl:deprecated": {
+                "@value": "true",
+                "@type": "xsd:boolean"
+            },
+            "owl:sameAs": {
+                "@id": "https://metadata.un.org/sdg/2"
+            }
+        },
+        {
+            "@id": "https://metadata.un.org/sdg/2",
+            "skos:inScheme": {
+                "@id": "https://metadata.un.org/sdg"
+            },
+            "rdfs:isDefinedBy": {
+                "@id": "https://codelist.commonapproach.org/SDGImpact"
+            },
+            "cids:hasSpecification": {
+                "@id": "https://codelist.commonapproach.org/SDGImpacts"
+            },
+            "cids:definedBy": {
+                "@id": "cids:ac"
+            },
+            "prov:hadPrimarySource": {
+                "@id": "https://sdgs.un.org/goals/goal2"
+            },
+            "skos:notation": "2",
+            "cids:hasIdentifier": "2",
+            "skos:definition": {
+                "@language": "en",
+                "@value": "End hunger, achieve food security and improved nutrition and promote sustainable agriculture"
+            },
+            "cids:hasDescription": "End hunger, achieve food security and improved nutrition and promote sustainable agriculture",
+            "skos:prefLabel": {
+                "@language": "en",
+                "@value": "Goal 2: Zero hunger"
+            },
+            "org:hasName": "Goal 2: Zero hunger",
+            "@type": [
+                "cids:Theme",
+                "cids:Code",
+                "skos:Concept"
+            ]
+        },
+        {
+            "@id": "https://codelist.commonapproach.org/SDGImpacts#SDG1",
+            "rdfs:comment": {
+                "@language": "en",
+                "@value": "This IRI is deprecated and has been replaced by https://metadata.un.org/sdg/1. It is retained for backward compatibility."
+            },
+            "rdfs:label": {
+                "@language": "en",
+                "@value": "Legacy IRI for SDG 1"
+            },
+            "owl:deprecated": {
+                "@value": "true",
+                "@type": "xsd:boolean"
+            },
+            "owl:sameAs": {
+                "@id": "https://metadata.un.org/sdg/1"
+            }
+        },
+        {
+            "@id": "https://metadata.un.org/sdg/1",
+            "skos:inScheme": {
+                "@id": "https://metadata.un.org/sdg"
+            },
+            "rdfs:isDefinedBy": {
+                "@id": "https://codelist.commonapproach.org/SDGImpacts"
+            },
+            "cids:hasSpecification": {
+                "@id": "https://codelist.commonapproach.org/SDGImpacts"
+            },
+            "cids:definedBy": {
+                "@id": "cids:ac"
+            },
+            "prov:hadPrimarySource": {
+                "@id": "https://sdgs.un.org/goals/goal1"
+            },
+            "skos:notation": "1",
+            "org:hasIdentifier": "1",
+            "skos:definition": {
+                "@language": "en",
+                "@value": "End poverty in all its forms everywhere"
+            },
+            "cids:hasDescription": "End poverty in all its forms everywhere",
+            "skos:prefLabel": {
+                "@language": "en",
+                "@value": "Goal 1: No poverty"
+            },
+            "org:hasName": "Goal 1: No poverty",
+            "@type": [
+                "cids:Theme",
+                "cids:Code",
+                "skos:Concept"
+            ]
+        },
+        {
+            "@id": "https://metadata.un.org/sdg",
+            "dcterms:title": {
+                "@language": "en",
+                "@value": "Sustainable Development Goals Taxonomy"
+            },
+            "@type": "skos:ConceptScheme"
+        },
+        {
+            "@id": "https://codelist.commonapproach.org/SDGImpacts",
+            "dcterms:description": {
+                "@language": "en",
+                "@value": "A mirror of the official UN Sustainable Development Goals (SDGs) Taxonomy. This vocabulary uses the UN's official IRIs as the primary identifiers for each goal. It retains the original commonapproach.org IRIs, which are now marked as deprecated, for backward compatibility."
+            },
+            "dcterms:title": {
+                "@language": "en",
+                "@value": "Sustainable Development Goals Impact Themes"
+            },
+            "skos:prefLabel": {
+                "@language": "en",
+                "@value": "Sustainable Development Goals Impact Themes"
+            },
+            "owl:versionInfo": "2.0",
+            "dcterms:date": {
+                "@value": "2025-12-01",
+                "@type": "xsd:date"
+            },
+            "dcterms:creator": {
+                "@id": "cids:ac"
+            },
+            "owl:imports": {
+                "@id": "https://ontology.commonapproach.org/cids"
+            },
+            "@type": [
+                "skos:ConceptScheme",
+                "owl:Ontology",
+                "voaf:Vocabulary"
+            ]
+        }
+    ],
+    "@context": {
+        "org": "http://www.w3.org/ns/org#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "voaf": "http://purl.org/vocommons/voaf#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "cids": "https://ontology.commonapproach.org/cids#",
+        "prov": "http://www.w3.org/ns/prov#",
+        "@vocab": "https://codelist.commonapproach.org/SDGImpacts#"
     }
-  ]
 }

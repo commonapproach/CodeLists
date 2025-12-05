@@ -1,15 +1,15 @@
 {
     "@graph": [
         {
-            "@id": "iristheme:GenderLens",
+            "@id": "https://codelist.commonapproach.org/IRISImpactTheme#GenderLens",
             "skos:inScheme": {
-                "@id": "https://codelist.commonapproach.org/RallyImpactArea"
+                "@id": "https://codelist.commonapproach.org/IRISImpactTheme"
             },
             "rdfs:isDefinedBy": {
-                "@id": "https://codelist.commonapproach.org/RallyImpactArea"
+                "@id": "https://codelist.commonapproach.org/IRISImpactTheme"
             },
             "cids:hasSpecification": {
-                "@id": "https://codelist.commonapproach.org/RallyImpactArea"
+                "@id": "https://codelist.commonapproach.org/IRISImpactTheme"
             },
             "cids:definedBy": {
                 "@id": "cids:giin"
@@ -33,20 +33,20 @@
             ]
         },
         {
-            "@id": "https://codelist.commonapproach.org/RallyImpactArea",
+            "@id": "https://codelist.commonapproach.org/IRISImpactTheme",
             "dcterms:description": {
                 "@language": "en",
-                "@value": "An RDF vocabulary of Rally Impact Areas."
+                "@value": "An RDF vocabulary of IRIS+ Impact Themes."
             },
             "dcterms:title": {
                 "@language": "en",
-                "@value": "Rally Impact Areas"
+                "@value": "IRIS+ Impact Themes"
             },
             "skos:prefLabel": {
                 "@language": "en",
-                "@value": "Rally Impact Areas"
+                "@value": "IRIS+ Impact Themes"
             },
-            "owl:versionInfo": "1.0",
+            "owl:versionInfo": "2.0",
             "dcterms:date": {
                 "@value": "2025-12-01",
                 "@type": "xsd:date"
@@ -64,15 +64,15 @@
             ]
         },
         {
-            "@id": "iristheme:WaterSanitationandHygiene",
+            "@id": "https://codelist.commonapproach.org/IRISImpactTheme#WaterSanitationandHygiene",
             "skos:inScheme": {
-                "@id": "https://codelist.commonapproach.org/RallyImpactArea"
+                "@id": "https://codelist.commonapproach.org/IRISImpactTheme"
             },
             "rdfs:isDefinedBy": {
-                "@id": "https://codelist.commonapproach.org/RallyImpactArea"
+                "@id": "https://codelist.commonapproach.org/IRISImpactTheme"
             },
             "cids:hasSpecification": {
-                "@id": "https://codelist.commonapproach.org/RallyImpactArea"
+                "@id": "https://codelist.commonapproach.org/IRISImpactTheme"
             },
             "cids:definedBy": {
                 "@id": "cids:giin"
@@ -96,15 +96,15 @@
             ]
         },
         {
-            "@id": "iristheme:WasteManagement",
+            "@id": "https://codelist.commonapproach.org/IRISImpactTheme#WasteManagement",
             "skos:inScheme": {
-                "@id": "https://codelist.commonapproach.org/RallyImpactArea"
+                "@id": "https://codelist.commonapproach.org/IRISImpactTheme"
             },
             "rdfs:isDefinedBy": {
-                "@id": "https://codelist.commonapproach.org/RallyImpactArea"
+                "@id": "https://codelist.commonapproach.org/IRISImpactTheme"
             },
             "cids:hasSpecification": {
-                "@id": "https://codelist.commonapproach.org/RallyImpactArea"
+                "@id": "https://codelist.commonapproach.org/IRISImpactTheme"
             },
             "cids:definedBy": {
                 "@id": "cids:giin"
@@ -128,15 +128,15 @@
             ]
         },
         {
-            "@id": "iristheme:SustainableWaterManagement",
+            "@id": "https://codelist.commonapproach.org/IRISImpactTheme#SustainableWaterManagement",
             "skos:inScheme": {
-                "@id": "https://codelist.commonapproach.org/RallyImpactArea"
+                "@id": "https://codelist.commonapproach.org/IRISImpactTheme"
             },
             "rdfs:isDefinedBy": {
-                "@id": "https://codelist.commonapproach.org/RallyImpactArea"
+                "@id": "https://codelist.commonapproach.org/IRISImpactTheme"
             },
             "cids:hasSpecification": {
-                "@id": "https://codelist.commonapproach.org/RallyImpactArea"
+                "@id": "https://codelist.commonapproach.org/IRISImpactTheme"
             },
             "cids:definedBy": {
                 "@id": "cids:giin"
@@ -160,15 +160,15 @@
             ]
         },
         {
-            "@id": "iristheme:SustainableLandManagement",
+            "@id": "https://codelist.commonapproach.org/IRISImpactTheme#SustainableLandManagement",
             "skos:inScheme": {
-                "@id": "https://codelist.commonapproach.org/RallyImpactArea"
+                "@id": "https://codelist.commonapproach.org/IRISImpactTheme"
             },
             "rdfs:isDefinedBy": {
-                "@id": "https://codelist.commonapproach.org/RallyImpactArea"
+                "@id": "https://codelist.commonapproach.org/IRISImpactTheme"
             },
             "cids:hasSpecification": {
-                "@id": "https://codelist.commonapproach.org/RallyImpactArea"
+                "@id": "https://codelist.commonapproach.org/IRISImpactTheme"
             },
             "cids:definedBy": {
                 "@id": "cids:giin"
@@ -192,15 +192,15 @@
             ]
         },
         {
-            "@id": "iristheme:SustainableForestry",
+            "@id": "https://codelist.commonapproach.org/IRISImpactTheme#SustainableForestry",
             "skos:inScheme": {
-                "@id": "https://codelist.commonapproach.org/RallyImpactArea"
+                "@id": "https://codelist.commonapproach.org/IRISImpactTheme"
             },
             "rdfs:isDefinedBy": {
-                "@id": "https://codelist.commonapproach.org/RallyImpactArea"
+                "@id": "https://codelist.commonapproach.org/IRISImpactTheme"
             },
             "cids:hasSpecification": {
-                "@id": "https://codelist.commonapproach.org/RallyImpactArea"
+                "@id": "https://codelist.commonapproach.org/IRISImpactTheme"
             },
             "cids:definedBy": {
                 "@id": "cids:giin"
@@ -224,15 +224,15 @@
             ]
         },
         {
-            "@id": "iristheme:SustainableAgriculture",
+            "@id": "https://codelist.commonapproach.org/IRISImpactTheme#SustainableAgriculture",
             "skos:inScheme": {
-                "@id": "https://codelist.commonapproach.org/RallyImpactArea"
+                "@id": "https://codelist.commonapproach.org/IRISImpactTheme"
             },
             "rdfs:isDefinedBy": {
-                "@id": "https://codelist.commonapproach.org/RallyImpactArea"
+                "@id": "https://codelist.commonapproach.org/IRISImpactTheme"
             },
             "cids:hasSpecification": {
-                "@id": "https://codelist.commonapproach.org/RallyImpactArea"
+                "@id": "https://codelist.commonapproach.org/IRISImpactTheme"
             },
             "cids:definedBy": {
                 "@id": "cids:giin"
@@ -256,15 +256,15 @@
             ]
         },
         {
-            "@id": "iristheme:SmallholderAgriculture",
+            "@id": "https://codelist.commonapproach.org/IRISImpactTheme#SmallholderAgriculture",
             "skos:inScheme": {
-                "@id": "https://codelist.commonapproach.org/RallyImpactArea"
+                "@id": "https://codelist.commonapproach.org/IRISImpactTheme"
             },
             "rdfs:isDefinedBy": {
-                "@id": "https://codelist.commonapproach.org/RallyImpactArea"
+                "@id": "https://codelist.commonapproach.org/IRISImpactTheme"
             },
             "cids:hasSpecification": {
-                "@id": "https://codelist.commonapproach.org/RallyImpactArea"
+                "@id": "https://codelist.commonapproach.org/IRISImpactTheme"
             },
             "cids:definedBy": {
                 "@id": "cids:giin"
@@ -288,15 +288,15 @@
             ]
         },
         {
-            "@id": "iristheme:ResilientInfrastructure",
+            "@id": "https://codelist.commonapproach.org/IRISImpactTheme#ResilientInfrastructure",
             "skos:inScheme": {
-                "@id": "https://codelist.commonapproach.org/RallyImpactArea"
+                "@id": "https://codelist.commonapproach.org/IRISImpactTheme"
             },
             "rdfs:isDefinedBy": {
-                "@id": "https://codelist.commonapproach.org/RallyImpactArea"
+                "@id": "https://codelist.commonapproach.org/IRISImpactTheme"
             },
             "cids:hasSpecification": {
-                "@id": "https://codelist.commonapproach.org/RallyImpactArea"
+                "@id": "https://codelist.commonapproach.org/IRISImpactTheme"
             },
             "cids:definedBy": {
                 "@id": "cids:giin"
@@ -320,15 +320,15 @@
             ]
         },
         {
-            "@id": "iristheme:RacialEquity",
+            "@id": "https://codelist.commonapproach.org/IRISImpactTheme#RacialEquity",
             "skos:inScheme": {
-                "@id": "https://codelist.commonapproach.org/RallyImpactArea"
+                "@id": "https://codelist.commonapproach.org/IRISImpactTheme"
             },
             "rdfs:isDefinedBy": {
-                "@id": "https://codelist.commonapproach.org/RallyImpactArea"
+                "@id": "https://codelist.commonapproach.org/IRISImpactTheme"
             },
             "cids:hasSpecification": {
-                "@id": "https://codelist.commonapproach.org/RallyImpactArea"
+                "@id": "https://codelist.commonapproach.org/IRISImpactTheme"
             },
             "cids:definedBy": {
                 "@id": "cids:giin"
@@ -352,15 +352,15 @@
             ]
         },
         {
-            "@id": "iristheme:QualityJobs",
+            "@id": "https://codelist.commonapproach.org/IRISImpactTheme#QualityJobs",
             "skos:inScheme": {
-                "@id": "https://codelist.commonapproach.org/RallyImpactArea"
+                "@id": "https://codelist.commonapproach.org/IRISImpactTheme"
             },
             "rdfs:isDefinedBy": {
-                "@id": "https://codelist.commonapproach.org/RallyImpactArea"
+                "@id": "https://codelist.commonapproach.org/IRISImpactTheme"
             },
             "cids:hasSpecification": {
-                "@id": "https://codelist.commonapproach.org/RallyImpactArea"
+                "@id": "https://codelist.commonapproach.org/IRISImpactTheme"
             },
             "cids:definedBy": {
                 "@id": "cids:giin"
@@ -384,15 +384,15 @@
             ]
         },
         {
-            "@id": "iristheme:AccesstoQualityHealthcare",
+            "@id": "https://codelist.commonapproach.org/IRISImpactTheme#AccesstoQualityHealthcare",
             "skos:inScheme": {
-                "@id": "https://codelist.commonapproach.org/RallyImpactArea"
+                "@id": "https://codelist.commonapproach.org/IRISImpactTheme"
             },
             "rdfs:isDefinedBy": {
-                "@id": "https://codelist.commonapproach.org/RallyImpactArea"
+                "@id": "https://codelist.commonapproach.org/IRISImpactTheme"
             },
             "cids:hasSpecification": {
-                "@id": "https://codelist.commonapproach.org/RallyImpactArea"
+                "@id": "https://codelist.commonapproach.org/IRISImpactTheme"
             },
             "cids:definedBy": {
                 "@id": "cids:giin"
@@ -416,15 +416,15 @@
             ]
         },
         {
-            "@id": "iristheme:AccesstoQualityEducation",
+            "@id": "https://codelist.commonapproach.org/IRISImpactTheme#AccesstoQualityEducation",
             "skos:inScheme": {
-                "@id": "https://codelist.commonapproach.org/RallyImpactArea"
+                "@id": "https://codelist.commonapproach.org/IRISImpactTheme"
             },
             "rdfs:isDefinedBy": {
-                "@id": "https://codelist.commonapproach.org/RallyImpactArea"
+                "@id": "https://codelist.commonapproach.org/IRISImpactTheme"
             },
             "cids:hasSpecification": {
-                "@id": "https://codelist.commonapproach.org/RallyImpactArea"
+                "@id": "https://codelist.commonapproach.org/IRISImpactTheme"
             },
             "cids:definedBy": {
                 "@id": "cids:giin"
@@ -448,15 +448,15 @@
             ]
         },
         {
-            "@id": "iristheme:PollutionPrevention",
+            "@id": "https://codelist.commonapproach.org/IRISImpactTheme#PollutionPrevention",
             "skos:inScheme": {
-                "@id": "https://codelist.commonapproach.org/RallyImpactArea"
+                "@id": "https://codelist.commonapproach.org/IRISImpactTheme"
             },
             "rdfs:isDefinedBy": {
-                "@id": "https://codelist.commonapproach.org/RallyImpactArea"
+                "@id": "https://codelist.commonapproach.org/IRISImpactTheme"
             },
             "cids:hasSpecification": {
-                "@id": "https://codelist.commonapproach.org/RallyImpactArea"
+                "@id": "https://codelist.commonapproach.org/IRISImpactTheme"
             },
             "cids:definedBy": {
                 "@id": "cids:giin"
@@ -480,15 +480,15 @@
             ]
         },
         {
-            "@id": "iristheme:Nutrition",
+            "@id": "https://codelist.commonapproach.org/IRISImpactTheme#Nutrition",
             "skos:inScheme": {
-                "@id": "https://codelist.commonapproach.org/RallyImpactArea"
+                "@id": "https://codelist.commonapproach.org/IRISImpactTheme"
             },
             "rdfs:isDefinedBy": {
-                "@id": "https://codelist.commonapproach.org/RallyImpactArea"
+                "@id": "https://codelist.commonapproach.org/IRISImpactTheme"
             },
             "cids:hasSpecification": {
-                "@id": "https://codelist.commonapproach.org/RallyImpactArea"
+                "@id": "https://codelist.commonapproach.org/IRISImpactTheme"
             },
             "cids:definedBy": {
                 "@id": "cids:giin"
@@ -512,15 +512,15 @@
             ]
         },
         {
-            "@id": "iristheme:NaturalResourcesConservation",
+            "@id": "https://codelist.commonapproach.org/IRISImpactTheme#NaturalResourcesConservation",
             "skos:inScheme": {
-                "@id": "https://codelist.commonapproach.org/RallyImpactArea"
+                "@id": "https://codelist.commonapproach.org/IRISImpactTheme"
             },
             "rdfs:isDefinedBy": {
-                "@id": "https://codelist.commonapproach.org/RallyImpactArea"
+                "@id": "https://codelist.commonapproach.org/IRISImpactTheme"
             },
             "cids:hasSpecification": {
-                "@id": "https://codelist.commonapproach.org/RallyImpactArea"
+                "@id": "https://codelist.commonapproach.org/IRISImpactTheme"
             },
             "cids:definedBy": {
                 "@id": "cids:giin"
@@ -544,15 +544,15 @@
             ]
         },
         {
-            "@id": "iristheme:MarineResourcesConservationandManagement",
+            "@id": "https://codelist.commonapproach.org/IRISImpactTheme#MarineResourcesConservationandManagement",
             "skos:inScheme": {
-                "@id": "https://codelist.commonapproach.org/RallyImpactArea"
+                "@id": "https://codelist.commonapproach.org/IRISImpactTheme"
             },
             "rdfs:isDefinedBy": {
-                "@id": "https://codelist.commonapproach.org/RallyImpactArea"
+                "@id": "https://codelist.commonapproach.org/IRISImpactTheme"
             },
             "cids:hasSpecification": {
-                "@id": "https://codelist.commonapproach.org/RallyImpactArea"
+                "@id": "https://codelist.commonapproach.org/IRISImpactTheme"
             },
             "cids:definedBy": {
                 "@id": "cids:giin"
@@ -576,15 +576,15 @@
             ]
         },
         {
-            "@id": "iristheme:GreenBuildings",
+            "@id": "https://codelist.commonapproach.org/IRISImpactTheme#GreenBuildings",
             "skos:inScheme": {
-                "@id": "https://codelist.commonapproach.org/RallyImpactArea"
+                "@id": "https://codelist.commonapproach.org/IRISImpactTheme"
             },
             "rdfs:isDefinedBy": {
-                "@id": "https://codelist.commonapproach.org/RallyImpactArea"
+                "@id": "https://codelist.commonapproach.org/IRISImpactTheme"
             },
             "cids:hasSpecification": {
-                "@id": "https://codelist.commonapproach.org/RallyImpactArea"
+                "@id": "https://codelist.commonapproach.org/IRISImpactTheme"
             },
             "cids:definedBy": {
                 "@id": "cids:giin"
@@ -608,15 +608,15 @@
             ]
         },
         {
-            "@id": "iristheme:FoodSecurity",
+            "@id": "https://codelist.commonapproach.org/IRISImpactTheme#FoodSecurity",
             "skos:inScheme": {
-                "@id": "https://codelist.commonapproach.org/RallyImpactArea"
+                "@id": "https://codelist.commonapproach.org/IRISImpactTheme"
             },
             "rdfs:isDefinedBy": {
-                "@id": "https://codelist.commonapproach.org/RallyImpactArea"
+                "@id": "https://codelist.commonapproach.org/IRISImpactTheme"
             },
             "cids:hasSpecification": {
-                "@id": "https://codelist.commonapproach.org/RallyImpactArea"
+                "@id": "https://codelist.commonapproach.org/IRISImpactTheme"
             },
             "cids:definedBy": {
                 "@id": "cids:giin"
@@ -640,15 +640,15 @@
             ]
         },
         {
-            "@id": "iristheme:FinancialInclusion",
+            "@id": "https://codelist.commonapproach.org/IRISImpactTheme#FinancialInclusion",
             "skos:inScheme": {
-                "@id": "https://codelist.commonapproach.org/RallyImpactArea"
+                "@id": "https://codelist.commonapproach.org/IRISImpactTheme"
             },
             "rdfs:isDefinedBy": {
-                "@id": "https://codelist.commonapproach.org/RallyImpactArea"
+                "@id": "https://codelist.commonapproach.org/IRISImpactTheme"
             },
             "cids:hasSpecification": {
-                "@id": "https://codelist.commonapproach.org/RallyImpactArea"
+                "@id": "https://codelist.commonapproach.org/IRISImpactTheme"
             },
             "cids:definedBy": {
                 "@id": "cids:giin"
@@ -672,15 +672,15 @@
             ]
         },
         {
-            "@id": "iristheme:EnergyEfficiency",
+            "@id": "https://codelist.commonapproach.org/IRISImpactTheme#EnergyEfficiency",
             "skos:inScheme": {
-                "@id": "https://codelist.commonapproach.org/RallyImpactArea"
+                "@id": "https://codelist.commonapproach.org/IRISImpactTheme"
             },
             "rdfs:isDefinedBy": {
-                "@id": "https://codelist.commonapproach.org/RallyImpactArea"
+                "@id": "https://codelist.commonapproach.org/IRISImpactTheme"
             },
             "cids:hasSpecification": {
-                "@id": "https://codelist.commonapproach.org/RallyImpactArea"
+                "@id": "https://codelist.commonapproach.org/IRISImpactTheme"
             },
             "cids:definedBy": {
                 "@id": "cids:giin"
@@ -704,15 +704,15 @@
             ]
         },
         {
-            "@id": "iristheme:EnergyAccess",
+            "@id": "https://codelist.commonapproach.org/IRISImpactTheme#EnergyAccess",
             "skos:inScheme": {
-                "@id": "https://codelist.commonapproach.org/RallyImpactArea"
+                "@id": "https://codelist.commonapproach.org/IRISImpactTheme"
             },
             "rdfs:isDefinedBy": {
-                "@id": "https://codelist.commonapproach.org/RallyImpactArea"
+                "@id": "https://codelist.commonapproach.org/IRISImpactTheme"
             },
             "cids:hasSpecification": {
-                "@id": "https://codelist.commonapproach.org/RallyImpactArea"
+                "@id": "https://codelist.commonapproach.org/IRISImpactTheme"
             },
             "cids:definedBy": {
                 "@id": "cids:giin"
@@ -736,15 +736,15 @@
             ]
         },
         {
-            "@id": "iristheme:ClimateChangeMitigation",
+            "@id": "https://codelist.commonapproach.org/IRISImpactTheme#ClimateChangeMitigation",
             "skos:inScheme": {
-                "@id": "https://codelist.commonapproach.org/RallyImpactArea"
+                "@id": "https://codelist.commonapproach.org/IRISImpactTheme"
             },
             "rdfs:isDefinedBy": {
-                "@id": "https://codelist.commonapproach.org/RallyImpactArea"
+                "@id": "https://codelist.commonapproach.org/IRISImpactTheme"
             },
             "cids:hasSpecification": {
-                "@id": "https://codelist.commonapproach.org/RallyImpactArea"
+                "@id": "https://codelist.commonapproach.org/IRISImpactTheme"
             },
             "cids:definedBy": {
                 "@id": "cids:giin"
@@ -768,15 +768,15 @@
             ]
         },
         {
-            "@id": "iristheme:ClimateResilienceandAdaptation",
+            "@id": "https://codelist.commonapproach.org/IRISImpactTheme#ClimateResilienceandAdaptation",
             "skos:inScheme": {
-                "@id": "https://codelist.commonapproach.org/RallyImpactArea"
+                "@id": "https://codelist.commonapproach.org/IRISImpactTheme"
             },
             "rdfs:isDefinedBy": {
-                "@id": "https://codelist.commonapproach.org/RallyImpactArea"
+                "@id": "https://codelist.commonapproach.org/IRISImpactTheme"
             },
             "cids:hasSpecification": {
-                "@id": "https://codelist.commonapproach.org/RallyImpactArea"
+                "@id": "https://codelist.commonapproach.org/IRISImpactTheme"
             },
             "cids:definedBy": {
                 "@id": "cids:giin"
@@ -800,15 +800,15 @@
             ]
         },
         {
-            "@id": "iristheme:CleanEnergy",
+            "@id": "https://codelist.commonapproach.org/IRISImpactTheme#CleanEnergy",
             "skos:inScheme": {
-                "@id": "https://codelist.commonapproach.org/RallyImpactArea"
+                "@id": "https://codelist.commonapproach.org/IRISImpactTheme"
             },
             "rdfs:isDefinedBy": {
-                "@id": "https://codelist.commonapproach.org/RallyImpactArea"
+                "@id": "https://codelist.commonapproach.org/IRISImpactTheme"
             },
             "cids:hasSpecification": {
-                "@id": "https://codelist.commonapproach.org/RallyImpactArea"
+                "@id": "https://codelist.commonapproach.org/IRISImpactTheme"
             },
             "cids:definedBy": {
                 "@id": "cids:giin"
@@ -832,15 +832,15 @@
             ]
         },
         {
-            "@id": "iristheme:CleanAir",
+            "@id": "https://codelist.commonapproach.org/IRISImpactTheme#CleanAir",
             "skos:inScheme": {
-                "@id": "https://codelist.commonapproach.org/RallyImpactArea"
+                "@id": "https://codelist.commonapproach.org/IRISImpactTheme"
             },
             "rdfs:isDefinedBy": {
-                "@id": "https://codelist.commonapproach.org/RallyImpactArea"
+                "@id": "https://codelist.commonapproach.org/IRISImpactTheme"
             },
             "cids:hasSpecification": {
-                "@id": "https://codelist.commonapproach.org/RallyImpactArea"
+                "@id": "https://codelist.commonapproach.org/IRISImpactTheme"
             },
             "cids:definedBy": {
                 "@id": "cids:giin"
@@ -864,15 +864,15 @@
             ]
         },
         {
-            "@id": "iristheme:BiodiversityandEcosystemConservation",
+            "@id": "https://codelist.commonapproach.org/IRISImpactTheme#BiodiversityandEcosystemConservation",
             "skos:inScheme": {
-                "@id": "https://codelist.commonapproach.org/RallyImpactArea"
+                "@id": "https://codelist.commonapproach.org/IRISImpactTheme"
             },
             "rdfs:isDefinedBy": {
-                "@id": "https://codelist.commonapproach.org/RallyImpactArea"
+                "@id": "https://codelist.commonapproach.org/IRISImpactTheme"
             },
             "cids:hasSpecification": {
-                "@id": "https://codelist.commonapproach.org/RallyImpactArea"
+                "@id": "https://codelist.commonapproach.org/IRISImpactTheme"
             },
             "cids:definedBy": {
                 "@id": "cids:giin"
@@ -896,15 +896,15 @@
             ]
         },
         {
-            "@id": "iristheme:AffordableQualityHousing",
+            "@id": "https://codelist.commonapproach.org/IRISImpactTheme#AffordableQualityHousing",
             "skos:inScheme": {
-                "@id": "https://codelist.commonapproach.org/RallyImpactArea"
+                "@id": "https://codelist.commonapproach.org/IRISImpactTheme"
             },
             "rdfs:isDefinedBy": {
-                "@id": "https://codelist.commonapproach.org/RallyImpactArea"
+                "@id": "https://codelist.commonapproach.org/IRISImpactTheme"
             },
             "cids:hasSpecification": {
-                "@id": "https://codelist.commonapproach.org/RallyImpactArea"
+                "@id": "https://codelist.commonapproach.org/IRISImpactTheme"
             },
             "cids:definedBy": {
                 "@id": "cids:giin"
@@ -926,79 +926,9 @@
                 "cids:Code",
                 "skos:Concept"
             ]
-        },
-        {
-            "@id": "https://codelist.commonapproach.org/RallyImpactArea#Other",
-            "skos:inScheme": {
-                "@id": "https://codelist.commonapproach.org/RallyImpactArea"
-            },
-            "rdfs:isDefinedBy": {
-                "@id": "https://codelist.commonapproach.org/RallyImpactArea"
-            },
-            "cids:hasSpecification": {
-                "@id": "https://codelist.commonapproach.org/RallyImpactArea"
-            },
-            "cids:definedBy": {
-                "@id": "cids:ac"
-            },
-            "skos:notation": "Other",
-            "org:hasIdentifier": "Other",
-            "skos:prefLabel": {
-                "@language": "en",
-                "@value": "Other"
-            },
-            "org:hasName": "Other",
-            "@type": "cids:Sector"
-        },
-        {
-            "@id": "https://codelist.commonapproach.org/RallyImpactArea#CommunityDevelopment",
-            "skos:inScheme": {
-                "@id": "https://codelist.commonapproach.org/RallyImpactArea"
-            },
-            "rdfs:isDefinedBy": {
-                "@id": "https://codelist.commonapproach.org/RallyImpactArea"
-            },
-            "cids:hasSpecification": {
-                "@id": "https://codelist.commonapproach.org/RallyImpactArea"
-            },
-            "cids:definedBy": {
-                "@id": "cids:ac"
-            },
-            "skos:notation": "CommunityDevelopment",
-            "org:hasIdentifier": "CommunityDevelopment",
-            "skos:prefLabel": {
-                "@language": "en",
-                "@value": "Community Development"
-            },
-            "org:hasName": "Community Development",
-            "@type": "cids:Sector"
-        },
-        {
-            "@id": "https://codelist.commonapproach.org/RallyImpactArea#ArtsandCulture",
-            "skos:inScheme": {
-                "@id": "https://codelist.commonapproach.org/RallyImpactArea"
-            },
-            "rdfs:isDefinedBy": {
-                "@id": "https://codelist.commonapproach.org/RallyImpactArea"
-            },
-            "cids:hasSpecification": {
-                "@id": "https://codelist.commonapproach.org/RallyImpactArea"
-            },
-            "cids:definedBy": {
-                "@id": "cids:ac"
-            },
-            "skos:notation": "ArtsandCulture",
-            "org:hasIdentifier": "ArtsandCulture",
-            "skos:prefLabel": {
-                "@language": "en",
-                "@value": "Arts and Culture"
-            },
-            "org:hasName": "Arts and Culture",
-            "@type": "cids:Sector"
         }
     ],
     "@context": {
-        "iristheme": "https://ontology.commonapproach.org/IRISImpactTheme#",
         "owl": "http://www.w3.org/2002/07/owl#",
         "org": "http://www.w3.org/ns/org#",
         "iriscategory": "https://ontology.commonapproach.org/IRISImpactCategory#",
@@ -1010,6 +940,6 @@
         "dcterms": "http://purl.org/dc/terms/",
         "cids": "https://ontology.commonapproach.org/cids#",
         "prov": "http://www.w3.org/ns/prov#",
-        "@vocab": "https://codelist.commonapproach.org/RallyImpactArea#"
+        "@vocab": "https://codelist.commonapproach.org/IRISImpactTheme#"
     }
 }
