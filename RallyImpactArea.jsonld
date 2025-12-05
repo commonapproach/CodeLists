@@ -1,0 +1,125 @@
+{
+    "@graph": [
+        {
+            "@id": "iristheme:AffordableQualityHousing",
+            "@type": [
+                "cids:Code",
+                "skos:Concept"
+            ]
+        },
+        {
+            "@id": "https://codelist.commonapproach.org/RallyImpactArea#Other",
+            "skos:inScheme": {
+                "@id": "https://codelist.commonapproach.org/RallyImpactArea"
+            },
+            "rdfs:isDefinedBy": {
+                "@id": "https://codelist.commonapproach.org/RallyImpactArea"
+            },
+            "cids:hasSpecification": {
+                "@id": "https://codelist.commonapproach.org/RallyImpactArea"
+            },
+            "cids:definedBy": {
+                "@id": "cids:ac"
+            },
+            "skos:notation": "Other",
+            "org:hasIdentifier": "Other",
+            "skos:prefLabel": {
+                "@language": "en",
+                "@value": "Other"
+            },
+            "org:hasName": "Other",
+            "@type": "cids:Sector"
+        },
+        {
+            "@id": "https://codelist.commonapproach.org/RallyImpactArea",
+            "dcterms:description": {
+                "@language": "en",
+                "@value": "An RDF vocabulary of Rally Impact Areas."
+            },
+            "dcterms:title": {
+                "@language": "en",
+                "@value": "Rally Impact Areas"
+            },
+            "skos:prefLabel": {
+                "@language": "en",
+                "@value": "Rally Impact Areas"
+            },
+            "owl:versionInfo": "1.0",
+            "dcterms:date": {
+                "@value": "2025-12-01",
+                "@type": "xsd:date"
+            },
+            "dcterms:creator": {
+                "@id": "cids:ac"
+            },
+            "owl:imports": {
+                "@id": "https://ontology.commonapproach.org/cids"
+            },
+            "@type": [
+                "skos:ConceptScheme",
+                "owl:Ontology",
+                "voaf:Vocabulary"
+            ]
+        },
+        {
+            "@id": "https://codelist.commonapproach.org/RallyImpactArea#CommunityDevelopment",
+            "skos:inScheme": {
+                "@id": "https://codelist.commonapproach.org/RallyImpactArea"
+            },
+            "rdfs:isDefinedBy": {
+                "@id": "https://codelist.commonapproach.org/RallyImpactArea"
+            },
+            "cids:hasSpecification": {
+                "@id": "https://codelist.commonapproach.org/RallyImpactArea"
+            },
+            "cids:definedBy": {
+                "@id": "cids:ac"
+            },
+            "skos:notation": "CommunityDevelopment",
+            "org:hasIdentifier": "CommunityDevelopment",
+            "skos:prefLabel": {
+                "@language": "en",
+                "@value": "Community Development"
+            },
+            "org:hasName": "Community Development",
+            "@type": "cids:Sector"
+        },
+        {
+            "@id": "https://codelist.commonapproach.org/RallyImpactArea#ArtsandCulture",
+            "skos:inScheme": {
+                "@id": "https://codelist.commonapproach.org/RallyImpactArea"
+            },
+            "rdfs:isDefinedBy": {
+                "@id": "https://codelist.commonapproach.org/RallyImpactArea"
+            },
+            "cids:hasSpecification": {
+                "@id": "https://codelist.commonapproach.org/RallyImpactArea"
+            },
+            "cids:definedBy": {
+                "@id": "cids:ac"
+            },
+            "skos:notation": "ArtsandCulture",
+            "org:hasIdentifier": "ArtsandCulture",
+            "skos:prefLabel": {
+                "@language": "en",
+                "@value": "Arts and Culture"
+            },
+            "org:hasName": "Arts and Culture",
+            "@type": "cids:Sector"
+        }
+    ],
+    "@context": {
+        "iristheme": "https://ontology.commonapproach.org/IRISImpactTheme#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "org": "http://www.w3.org/ns/org#",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "voaf": "http://purl.org/vocommons/voaf#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "cids": "https://ontology.commonapproach.org/cids#",
+        "prov": "http://www.w3.org/ns/prov#",
+        "@vocab": "https://codelist.commonapproach.org/RallyImpactArea#"
+    }
+}

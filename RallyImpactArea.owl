@@ -1,0 +1,63 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:prov="http://www.w3.org/ns/prov#"
+    xmlns="https://codelist.commonapproach.org/RallyImpactArea#"
+    xmlns:iristheme="https://ontology.commonapproach.org/IRISImpactTheme#"
+    xmlns:cids="https://ontology.commonapproach.org/cids#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:voaf="http://purl.org/vocommons/voaf#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:org="http://www.w3.org/ns/org#"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#" > 
+  <rdf:Description rdf:about="#Other">
+    <skos:inScheme rdf:resource=""/>
+    <rdfs:isDefinedBy rdf:resource=""/>
+    <cids:hasSpecification rdf:resource=""/>
+    <cids:definedBy rdf:resource="https://ontology.commonapproach.org/cids#ac"/>
+    <skos:notation>Other</skos:notation>
+    <org:hasIdentifier>Other</org:hasIdentifier>
+    <skos:prefLabel xml:lang="en">Other</skos:prefLabel>
+    <org:hasName>Other</org:hasName>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Sector"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#ArtsandCulture">
+    <skos:inScheme rdf:resource=""/>
+    <rdfs:isDefinedBy rdf:resource=""/>
+    <cids:hasSpecification rdf:resource=""/>
+    <cids:definedBy rdf:resource="https://ontology.commonapproach.org/cids#ac"/>
+    <skos:notation>ArtsandCulture</skos:notation>
+    <org:hasIdentifier>ArtsandCulture</org:hasIdentifier>
+    <skos:prefLabel xml:lang="en">Arts and Culture</skos:prefLabel>
+    <org:hasName>Arts and Culture</org:hasName>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Sector"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://ontology.commonapproach.org/IRISImpactTheme#AffordableQualityHousing">
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="">
+    <dcterms:description xml:lang="en">An RDF vocabulary of Rally Impact Areas.</dcterms:description>
+    <dcterms:title xml:lang="en">Rally Impact Areas</dcterms:title>
+    <skos:prefLabel xml:lang="en">Rally Impact Areas</skos:prefLabel>
+    <owl:versionInfo>1.0</owl:versionInfo>
+    <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-12-01</dcterms:date>
+    <dcterms:creator rdf:resource="https://ontology.commonapproach.org/cids#ac"/>
+    <owl:imports rdf:resource="https://ontology.commonapproach.org/cids"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
+    <rdf:type rdf:resource="http://purl.org/vocommons/voaf#Vocabulary"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#CommunityDevelopment">
+    <skos:inScheme rdf:resource=""/>
+    <rdfs:isDefinedBy rdf:resource=""/>
+    <cids:hasSpecification rdf:resource=""/>
+    <cids:definedBy rdf:resource="https://ontology.commonapproach.org/cids#ac"/>
+    <skos:notation>CommunityDevelopment</skos:notation>
+    <org:hasIdentifier>CommunityDevelopment</org:hasIdentifier>
+    <skos:prefLabel xml:lang="en">Community Development</skos:prefLabel>
+    <org:hasName>Community Development</org:hasName>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Sector"/>
+  </rdf:Description>
+</rdf:RDF>
