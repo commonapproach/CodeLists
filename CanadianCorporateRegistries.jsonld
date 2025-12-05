@@ -1,0 +1,588 @@
+{
+    "@graph": [
+        {
+            "@id": "https://codelist.commonapproach.org/CanadianCorporateRegistries#yk",
+            "rdfs:isDefinedBy": {
+                "@id": "https://codelist.commonapproach.org/CanadianCorporateRegistries"
+            },
+            "cids:hasSpecification": {
+                "@id": "https://codelist.commonapproach.org/CanadianCorporateRegistries"
+            },
+            "cids:definedBy": {
+                "@id": "cids:esdc"
+            },
+            "prov:hadPrimarySource": {
+                "@id": "https://ycor-reey.gov.yk.ca/"
+            },
+            "skos:notation": "yk",
+            "org:hasIdentifier": "yk",
+            "skos:definition": {
+                "@language": "en",
+                "@value": "Corporate Affairs - Department of Community Services"
+            },
+            "cids:hasDescription": "Corporate Affairs - Department of Community Services",
+            "org:hasLegalName": {
+                "@language": "en",
+                "@value": "Yukon"
+            },
+            "skos:prefLabel": {
+                "@language": "en",
+                "@value": "Yukon"
+            },
+            "org:hasName": "Yukon",
+            "@type": [
+                "cids:Organization",
+                "cids:Code",
+                "skos:Concept"
+            ]
+        },
+        {
+            "@id": "https://codelist.commonapproach.org/CanadianCorporateRegistries",
+            "dcterms:description": {
+                "@language": "en",
+                "@value": "An RDF vocabulary of Canadian Corporate Registries."
+            },
+            "dcterms:title": {
+                "@language": "en",
+                "@value": "Canadian Corporate Registries"
+            },
+            "skos:PrefLabel": {
+                "@language": "en",
+                "@value": "Canadian Corporate Registries Codelist"
+            },
+            "owl:versionInfo": "2.0",
+            "dcterms:date": {
+                "@value": "2025-12-01",
+                "@type": "xsd:date"
+            },
+            "dcterms:creator": {
+                "@id": "cids:ac"
+            },
+            "owl:imports": {
+                "@id": "https://ontology.commonapproach.org/cids"
+            },
+            "@type": [
+                "skos:ConceptScheme",
+                "owl:Ontology",
+                "voaf:Vocabulary"
+            ]
+        },
+        {
+            "@id": "https://codelist.commonapproach.org/CanadianCorporateRegistries#sk",
+            "rdfs:isDefinedBy": {
+                "@id": "https://codelist.commonapproach.org/CanadianCorporateRegistries"
+            },
+            "cids:hasSpecification": {
+                "@id": "https://codelist.commonapproach.org/CanadianCorporateRegistries"
+            },
+            "cids:definedBy": {
+                "@id": "cids:esdc"
+            },
+            "prov:hadPrimarySource": {
+                "@id": "https://www.isc.ca/CorporateRegistry"
+            },
+            "skos:notation": "sk",
+            "org:hasIdentifier": "sk",
+            "skos:definition": {
+                "@language": "en",
+                "@value": "Corporate Registry - Information Services Corporation (ISC)"
+            },
+            "cids:hasDescription": "Corporate Registry - Information Services Corporation (ISC)",
+            "org:hasLegalName": {
+                "@language": "en",
+                "@value": "Saskatchewan"
+            },
+            "skos:prefLabel": {
+                "@language": "en",
+                "@value": "Saskatchewan"
+            },
+            "org:hasName": "Saskatchewan",
+            "@type": [
+                "cids:Organization",
+                "cids:Code",
+                "skos:Concept"
+            ]
+        },
+        {
+            "@id": "https://codelist.commonapproach.org/CanadianCorporateRegistries#qc",
+            "rdfs:isDefinedBy": {
+                "@id": "https://codelist.commonapproach.org/CanadianCorporateRegistries"
+            },
+            "cids:hasSpecification": {
+                "@id": "https://codelist.commonapproach.org/CanadianCorporateRegistries"
+            },
+            "cids:definedBy": {
+                "@id": "cids:esdc"
+            },
+            "prov:hadPrimarySource": {
+                "@id": "https://www.registreentreprises.gouv.qc.ca/"
+            },
+            "skos:notation": "qc",
+            "org:hasIdentifier": "qc",
+            "skos:definition": {
+                "@language": "en",
+                "@value": "Registraire des entreprises du Québec"
+            },
+            "cids:hasDescription": "Registraire des entreprises du Québec",
+            "org:hasLegalName": {
+                "@language": "en",
+                "@value": "Quebec"
+            },
+            "skos:prefLabel": {
+                "@language": "en",
+                "@value": "Quebec"
+            },
+            "org:hasName": "Quebec",
+            "@type": [
+                "cids:Organization",
+                "cids:Code",
+                "skos:Concept"
+            ]
+        },
+        {
+            "@id": "https://codelist.commonapproach.org/CanadianCorporateRegistries#pe",
+            "rdfs:isDefinedBy": {
+                "@id": "https://codelist.commonapproach.org/CanadianCorporateRegistries"
+            },
+            "cids:hasSpecification": {
+                "@id": "https://codelist.commonapproach.org/CanadianCorporateRegistries"
+            },
+            "cids:definedBy": {
+                "@id": "cids:esdc"
+            },
+            "prov:hadPrimarySource": {
+                "@id": "https://www.princeedwardisland.ca/en/feature/pei-business-corporate-registry/"
+            },
+            "skos:notation": "pe",
+            "org:hasIdentifier": "pe",
+            "skos:definition": {
+                "@language": "en",
+                "@value": "Corporate Business Names Registry"
+            },
+            "cids:hasDescription": "Corporate Business Names Registry",
+            "org:hasLegalName": {
+                "@language": "en",
+                "@value": "Prince Edward Island"
+            },
+            "skos:prefLabel": {
+                "@language": "en",
+                "@value": "Prince Edward Island"
+            },
+            "org:hasName": "Prince Edward Island",
+            "@type": [
+                "cids:Organization",
+                "cids:Code",
+                "skos:Concept"
+            ]
+        },
+        {
+            "@id": "https://codelist.commonapproach.org/CanadianCorporateRegistries#on",
+            "rdfs:isDefinedBy": {
+                "@id": "https://codelist.commonapproach.org/CanadianCorporateRegistries"
+            },
+            "cids:hasSpecification": {
+                "@id": "https://codelist.commonapproach.org/CanadianCorporateRegistries"
+            },
+            "cids:definedBy": {
+                "@id": "cids:esdc"
+            },
+            "prov:hadPrimarySource": {
+                "@id": "https://www.ontario.ca/page/ontario-business-registry"
+            },
+            "skos:notation": "on",
+            "org:hasIdentifier": "on",
+            "skos:definition": {
+                "@language": "en",
+                "@value": "Ontario Business Registry"
+            },
+            "cids:hasDescription": "Ontario Business Registry",
+            "org:hasLegalName": {
+                "@language": "en",
+                "@value": "Ontario"
+            },
+            "skos:prefLabel": {
+                "@language": "en",
+                "@value": "Ontario"
+            },
+            "org:hasName": "Ontario",
+            "@type": [
+                "cids:Organization",
+                "cids:Code",
+                "skos:Concept"
+            ]
+        },
+        {
+            "@id": "https://codelist.commonapproach.org/CanadianCorporateRegistries#nu",
+            "rdfs:isDefinedBy": {
+                "@id": "https://codelist.commonapproach.org/CanadianCorporateRegistries"
+            },
+            "cids:hasSpecification": {
+                "@id": "https://codelist.commonapproach.org/CanadianCorporateRegistries"
+            },
+            "cids:definedBy": {
+                "@id": "cids:esdc"
+            },
+            "prov:hadPrimarySource": {
+                "@id": "https://www.gov.nu.ca/en/department-justice/corporate-and-securities-registries"
+            },
+            "skos:notation": "nu",
+            "org:hasIdentifier": "nu",
+            "skos:definition": {
+                "@language": "en",
+                "@value": "Corporate Registries - Department of Justice"
+            },
+            "cids:hasDescription": "Corporate Registries - Department of Justice",
+            "org:hasLegalName": {
+                "@language": "en",
+                "@value": "Nunavut"
+            },
+            "skos:prefLabel": {
+                "@language": "en",
+                "@value": "Nunavut"
+            },
+            "org:hasName": "Nunavut",
+            "@type": [
+                "cids:Organization",
+                "cids:Code",
+                "skos:Concept"
+            ]
+        },
+        {
+            "@id": "https://codelist.commonapproach.org/CanadianCorporateRegistries#ns",
+            "rdfs:isDefinedBy": {
+                "@id": "https://codelist.commonapproach.org/CanadianCorporateRegistries"
+            },
+            "cids:hasSpecification": {
+                "@id": "https://codelist.commonapproach.org/CanadianCorporateRegistries"
+            },
+            "cids:definedBy": {
+                "@id": "cids:esdc"
+            },
+            "prov:hadPrimarySource": {
+                "@id": "https://beta.novascotia.ca/programs-and-services/registry-joint-stock-companies"
+            },
+            "skos:notation": "ns",
+            "org:hasIdentifier": "ns",
+            "skos:definition": {
+                "@language": "en",
+                "@value": "Nova Scotia Registry of Joint Stock Companies"
+            },
+            "cids:hasDescription": "Nova Scotia Registry of Joint Stock Companies",
+            "org:hasLegalName": {
+                "@language": "en",
+                "@value": "Nova Scotia"
+            },
+            "skos:prefLabel": {
+                "@language": "en",
+                "@value": "Nova Scotia"
+            },
+            "org:hasName": "Nova Scotia",
+            "@type": [
+                "cids:Organization",
+                "cids:Code",
+                "skos:Concept"
+            ]
+        },
+        {
+            "@id": "https://codelist.commonapproach.org/CanadianCorporateRegistries#nt",
+            "rdfs:isDefinedBy": {
+                "@id": "https://codelist.commonapproach.org/CanadianCorporateRegistries"
+            },
+            "cids:hasSpecification": {
+                "@id": "https://codelist.commonapproach.org/CanadianCorporateRegistries"
+            },
+            "cids:definedBy": {
+                "@id": "cids:esdc"
+            },
+            "prov:hadPrimarySource": {
+                "@id": "https://www.justice.gov.nt.ca/en/boards-agencies/corporate-registries/"
+            },
+            "skos:notation": "nt",
+            "org:hasIdentifier": "nt",
+            "skos:definition": {
+                "@language": "en",
+                "@value": "Corporate Registries - Department of Justice"
+            },
+            "cids:hasDescription": "Corporate Registries - Department of Justice",
+            "org:hasLegalName": {
+                "@language": "en",
+                "@value": "Northwest Territories"
+            },
+            "skos:prefLabel": {
+                "@language": "en",
+                "@value": "Northwest Territories"
+            },
+            "org:hasName": "Northwest Territories",
+            "@type": [
+                "cids:Organization",
+                "cids:Code",
+                "skos:Concept"
+            ]
+        },
+        {
+            "@id": "https://codelist.commonapproach.org/CanadianCorporateRegistries#nl",
+            "rdfs:isDefinedBy": {
+                "@id": "https://codelist.commonapproach.org/CanadianCorporateRegistries"
+            },
+            "cids:hasSpecification": {
+                "@id": "https://codelist.commonapproach.org/CanadianCorporateRegistries"
+            },
+            "cids:definedBy": {
+                "@id": "cids:esdc"
+            },
+            "prov:hadPrimarySource": {
+                "@id": "https://www.gov.nl.ca/dgsnl/registries/companies/"
+            },
+            "skos:notation": "nl",
+            "org:hasIdentifier": "nl",
+            "skos:definition": {
+                "@language": "en",
+                "@value": "Registry of Companies and Deeds"
+            },
+            "cids:hasDescription": "Registry of Companies and Deeds",
+            "org:hasLegalName": {
+                "@language": "en",
+                "@value": "Newfoundland and Labrador"
+            },
+            "skos:prefLabel": {
+                "@language": "en",
+                "@value": "Newfoundland and Labrador"
+            },
+            "org:hasName": "Newfoundland and Labrador",
+            "@type": [
+                "cids:Organization",
+                "cids:Code",
+                "skos:Concept"
+            ]
+        },
+        {
+            "@id": "https://codelist.commonapproach.org/CanadianCorporateRegistries#nb",
+            "rdfs:isDefinedBy": {
+                "@id": "https://codelist.commonapproach.org/CanadianCorporateRegistries"
+            },
+            "cids:hasSpecification": {
+                "@id": "https://codelist.commonapproach.org/CanadianCorporateRegistries"
+            },
+            "cids:definedBy": {
+                "@id": "cids:esdc"
+            },
+            "prov:hadPrimarySource": {
+                "@id": "https://www2.snb.ca/content/snb/en/sites/corporate-registry.html"
+            },
+            "skos:notation": "nb",
+            "org:hasIdentifier": "nb",
+            "skos:definition": {
+                "@language": "en",
+                "@value": "Corporate Registry - Service New Brunswick"
+            },
+            "cids:hasDescription": "Corporate Registry - Service New Brunswick",
+            "org:hasLegalName": {
+                "@language": "en",
+                "@value": "New Brunswick"
+            },
+            "skos:prefLabel": {
+                "@language": "en",
+                "@value": "New Brunswick"
+            },
+            "org:hasName": "New Brunswick",
+            "@type": [
+                "cids:Organization",
+                "cids:Code",
+                "skos:Concept"
+            ]
+        },
+        {
+            "@id": "https://codelist.commonapproach.org/CanadianCorporateRegistries#mb",
+            "rdfs:isDefinedBy": {
+                "@id": "https://codelist.commonapproach.org/CanadianCorporateRegistries"
+            },
+            "cids:hasSpecification": {
+                "@id": "https://codelist.commonapproach.org/CanadianCorporateRegistries"
+            },
+            "cids:definedBy": {
+                "@id": "cids:esdc"
+            },
+            "prov:hadPrimarySource": {
+                "@id": "https://companiesoffice.gov.mb.ca/"
+            },
+            "skos:notation": "mb",
+            "org:hasIdentifier": "mb",
+            "skos:definition": {
+                "@language": "en",
+                "@value": "Manitoba Companies Office"
+            },
+            "cids:hasDescription": "Manitoba Companies Office",
+            "org:hasLegalName": {
+                "@language": "en",
+                "@value": "Manitoba"
+            },
+            "skos:prefLabel": {
+                "@language": "en",
+                "@value": "Manitoba"
+            },
+            "org:hasName": "Manitoba",
+            "@type": [
+                "cids:Organization",
+                "cids:Code",
+                "skos:Concept"
+            ]
+        },
+        {
+            "@id": "https://codelist.commonapproach.org/CanadianCorporateRegistries#bc",
+            "rdfs:isDefinedBy": {
+                "@id": "https://codelist.commonapproach.org/CanadianCorporateRegistries"
+            },
+            "cids:hasSpecification": {
+                "@id": "https://codelist.commonapproach.org/CanadianCorporateRegistries"
+            },
+            "cids:definedBy": {
+                "@id": "cids:esdc"
+            },
+            "prov:hadPrimarySource": {
+                "@id": "https://www2.gov.bc.ca/gov/content/governments/organizational-structure/ministries-organizations/ministries/citizens-services/bc-registries-online-services"
+            },
+            "skos:notation": "bc",
+            "org:hasIdentifier": "bc",
+            "skos:definition": {
+                "@language": "en",
+                "@value": "BC Registries and Online Services"
+            },
+            "cids:hasDescription": "BC Registries and Online Services",
+            "org:hasLegalName": {
+                "@language": "en",
+                "@value": "British Columbia"
+            },
+            "skos:prefLabel": {
+                "@language": "en",
+                "@value": "British Columbia"
+            },
+            "org:hasName": "British Columbia",
+            "@type": [
+                "cids:Organization",
+                "cids:Code",
+                "skos:Concept"
+            ]
+        },
+        {
+            "@id": "https://codelist.commonapproach.org/CanadianCorporateRegistries#ab",
+            "rdfs:isDefinedBy": {
+                "@id": "https://codelist.commonapproach.org/CanadianCorporateRegistries"
+            },
+            "cids:hasSpecification": {
+                "@id": "https://codelist.commonapproach.org/CanadianCorporateRegistries"
+            },
+            "cids:definedBy": {
+                "@id": "cids:esdc"
+            },
+            "prov:hadPrimarySource": {
+                "@id": "https://www.alberta.ca/business-licence-or-charitable-registration-in-alberta"
+            },
+            "skos:notation": "ab",
+            "org:hasIdentifier": "ab",
+            "skos:definition": {
+                "@language": "en",
+                "@value": "Alberta Corporate Registry"
+            },
+            "cids:hasDescription": "Alberta Corporate Registry",
+            "org:hasLegalName": {
+                "@language": "en",
+                "@value": "Alberta"
+            },
+            "skos:prefLabel": {
+                "@language": "en",
+                "@value": "Alberta"
+            },
+            "org:hasName": "Alberta",
+            "@type": [
+                "cids:Organization",
+                "cids:Code",
+                "skos:Concept"
+            ]
+        },
+        {
+            "@id": "https://codelist.commonapproach.org/CanadianCorporateRegistries#cra",
+            "rdfs:isDefinedBy": {
+                "@id": "https://codelist.commonapproach.org/CanadianCorporateRegistries"
+            },
+            "cids:hasSpecification": {
+                "@id": "https://codelist.commonapproach.org/CanadianCorporateRegistries"
+            },
+            "cids:definedBy": {
+                "@id": "cids:esdc"
+            },
+            "prov:hadPrimarySource": {
+                "@id": "https://www.canada.ca/en/revenue-agency/"
+            },
+            "skos:notation": "cra",
+            "org:hasIdentifier": "cra",
+            "skos:definition": {
+                "@language": "en",
+                "@value": "Canada Revenue Agency"
+            },
+            "cids:hasDescription": "Canada Revenue Agency",
+            "org:hasLegalName": {
+                "@language": "en",
+                "@value": "Canada Revenue Agency"
+            },
+            "skos:prefLabel": {
+                "@language": "en",
+                "@value": "Canada Revenue Agency"
+            },
+            "org:hasName": "Canada Revenue Agency",
+            "@type": [
+                "cids:Organization",
+                "cids:Code",
+                "skos:Concept"
+            ]
+        },
+        {
+            "@id": "https://codelist.commonapproach.org/CanadianCorporateRegistries#ca",
+            "rdfs:isDefinedBy": {
+                "@id": "https://codelist.commonapproach.org/CanadianCorporateRegistries"
+            },
+            "cids:hasSpecification": {
+                "@id": "https://codelist.commonapproach.org/CanadianCorporateRegistries"
+            },
+            "cids:definedBy": {
+                "@id": "cids:esdc"
+            },
+            "prov:hadPrimarySource": {
+                "@id": "https://ised-isde.canada.ca/cbr-rec/"
+            },
+            "skos:notation": "ca",
+            "org:hasIdentifier": "ca",
+            "skos:definition": {
+                "@language": "en",
+                "@value": "Corporations Canada"
+            },
+            "cids:hasDescription": "Corporations Canada",
+            "org:hasLegalName": {
+                "@language": "en",
+                "@value": "Corporations Canada"
+            },
+            "skos:prefLabel": {
+                "@language": "en",
+                "@value": "Corporations Canada"
+            },
+            "org:hasName": "Corporations Canada",
+            "@type": [
+                "cids:Organization",
+                "cids:Code",
+                "skos:Concept"
+            ]
+        }
+    ],
+    "@context": {
+        "org": "http://www.w3.org/ns/org#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "voaf": "http://purl.org/vocommons/voaf/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "cids": "https://ontology.commonapproach.org/cids#",
+        "prov": "http://www.w3.org/ns/prov#",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "@vocab": "https://codelist.commonapproach.org/CanadianCorporateRegistries#"
+    }
+}
