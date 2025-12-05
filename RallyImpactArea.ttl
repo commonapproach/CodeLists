@@ -11,6 +11,7 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix voaf: <http://purl.org/vocommons/voaf#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix iriscategory: <https://ontology.commonapproach.org/IRISImpactCategory#> .
 @prefix iristheme: <https://ontology.commonapproach.org/IRISImpactTheme#> .
 
 <>
@@ -60,7 +61,6 @@
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
     skos:inScheme <> .
-
 
 iristheme:AffordableQualityHousing
     a skos:Concept, cids:Code ;
