@@ -1,0 +1,134 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:i72="http://ontology.eil.utoronto.ca/ISO21972/iso21972#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:cids="https://ontology.commonapproach.org/cids#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#" > 
+  <rdf:Description rdf:about="https://ontology.commonapproach.org/cids#countUnit">
+    <rdfs:comment xml:lang="en">A count of discrete items. Use for Indicators multi-typed as i72:Cardinality. The 'unitDescription' should be used to create the i72:Population.</rdfs:comment>
+    <owl:sameAs rdf:resource="http://ontology.eil.utoronto.ca/ISO21972/iso21972#population_cardinality_unit"/>
+    <i72:symbol xml:lang="en">count</i72:symbol>
+    <rdfs:label xml:lang="en">Count</rdfs:label>
+    <rdf:type rdf:resource="http://ontology.eil.utoronto.ca/ISO21972/iso21972#Cardinality_unit"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://ontology.commonapproach.org/cids#squareMeter">
+    <i72:exponent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</i72:exponent>
+    <i72:base rdf:resource="http://ontology.eil.utoronto.ca/ISO21972/iso21972#metre"/>
+    <rdfs:comment xml:lang="en">A unit of area. Use for Indicators multi-typed as i72:Sum or i72:Mean.</rdfs:comment>
+    <i72:symbol xml:lang="en">m^2</i72:symbol>
+    <rdfs:label xml:lang="en">Square Meter</rdfs:label>
+    <rdf:type rdf:resource="http://ontology.eil.utoronto.ca/ISO21972/iso21972#Unit_exponentiation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://ontology.commonapproach.org/cids#ratioUnit">
+    <rdfs:comment xml:lang="en">A generic unit for ratios where the numerator and denominator are not specified. The Indicator should be multi-typed as i72:RatioIndicator.</rdfs:comment>
+    <i72:symbol xml:lang="en">ratio</i72:symbol>
+    <rdfs:label xml:lang="en">Ratio</rdfs:label>
+    <rdf:type rdf:resource="http://ontology.eil.utoronto.ca/ISO21972/iso21972#Compound_unit"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://ontology.commonapproach.org/cids#tonne">
+    <rdfs:comment xml:lang="en">A unit of mass equivalent to 1,000 kilograms. Use for Indicators multi-typed as i72:Sum or i72:Mean. Pragmatically defined as a singular unit for ease of use.</rdfs:comment>
+    <i72:symbol xml:lang="en">t</i72:symbol>
+    <rdfs:label xml:lang="en">Tonne</rdfs:label>
+    <rdf:type rdf:resource="http://ontology.eil.utoronto.ca/ISO21972/iso21972#Singular_unit"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://ontology.commonapproach.org/cids#kilowattHour">
+    <i72:term_2 rdf:resource="http://ontology.eil.utoronto.ca/ISO21972/iso21972#hour"/>
+    <i72:term_1 rdf:resource="http://ontology.eil.utoronto.ca/ISO21972/iso21972#kilowatt"/>
+    <rdfs:comment xml:lang="en">A unit of energy. Use for Indicators multi-typed as i72:Sum or i72:Mean.</rdfs:comment>
+    <i72:symbol xml:lang="en">kWh</i72:symbol>
+    <rdfs:label xml:lang="en">Kilowatt-hour</rdfs:label>
+    <rdf:type rdf:resource="http://ontology.eil.utoronto.ca/ISO21972/iso21972#Unit_multiplication"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://ontology.commonapproach.org/cids#kilogram">
+    <i72:singular_unit rdf:resource="http://ontology.eil.utoronto.ca/ISO21972/iso21972#gram"/>
+    <i72:prefix rdf:resource="http://ontology.eil.utoronto.ca/ISO21972/iso21972#kilo"/>
+    <rdfs:comment xml:lang="en">A unit of mass. Use for Indicators multi-typed as i72:Sum or i72:Mean.</rdfs:comment>
+    <i72:symbol xml:lang="en">kg</i72:symbol>
+    <rdfs:label xml:lang="en">Kilogram</rdfs:label>
+    <rdf:type rdf:resource="http://ontology.eil.utoronto.ca/ISO21972/iso21972#Unit_multiple_or_submultiple"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://ontology.commonapproach.org/cids#foot">
+    <rdfs:comment xml:lang="en">A non-SI unit of length.</rdfs:comment>
+    <i72:symbol xml:lang="en">ft</i72:symbol>
+    <rdfs:label xml:lang="en">Foot</rdfs:label>
+    <rdf:type rdf:resource="http://ontology.eil.utoronto.ca/ISO21972/iso21972#Singular_unit"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://ontology.commonapproach.org/cids#cadMillions">
+    <i72:singular_unit rdf:resource="https://ontology.commonapproach.org/cids#cad"/>
+    <i72:prefix rdf:resource="http://ontology.eil.utoronto.ca/ISO21972/iso21972#mega"/>
+    <rdfs:comment xml:lang="en">Use for Indicators multi-typed as i72:Sum or i72:Mean, representing a financial value.</rdfs:comment>
+    <i72:symbol xml:lang="en">$CAD(M)</i72:symbol>
+    <rdfs:label xml:lang="en">Millions of Canadian Dollars</rdfs:label>
+    <rdf:type rdf:resource="http://ontology.eil.utoronto.ca/ISO21972/iso21972#Unit_multiple_or_submultiple"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://ontology.commonapproach.org/cids#megawattHour">
+    <i72:term_2 rdf:resource="http://ontology.eil.utoronto.ca/ISO21972/iso21972#hour"/>
+    <i72:term_1 rdf:resource="https://ontology.commonapproach.org/cids#megawatt"/>
+    <rdfs:comment xml:lang="en">A unit of energy. Use for Indicators multi-typed as i72:Sum or i72:Mean.</rdfs:comment>
+    <i72:symbol xml:lang="en">MWh</i72:symbol>
+    <rdfs:label xml:lang="en">Megawatt-hour</rdfs:label>
+    <rdf:type rdf:resource="http://ontology.eil.utoronto.ca/ISO21972/iso21972#Unit_multiplication"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://ontology.commonapproach.org/cids#dayUnit">
+    <rdfs:comment xml:lang="en">A unit of time. Use for Indicators multi-typed as i72:Sum or i72:Mean, representing a duration.</rdfs:comment>
+    <i72:symbol xml:lang="en">days</i72:symbol>
+    <rdfs:label xml:lang="en">Days</rdfs:label>
+    <rdf:type rdf:resource="http://ontology.eil.utoronto.ca/ISO21972/iso21972#Singular_unit"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://ontology.commonapproach.org/cids#scoreUnit">
+    <rdfs:comment xml:lang="en">A generic unit for scores or points. The Indicator should be linked to a formal scale definition (e.g., i72:Ordinal_scale or a cids:Code) via the i72:measurement_scale property.</rdfs:comment>
+    <i72:symbol xml:lang="en">score</i72:symbol>
+    <rdfs:label xml:lang="en">Score</rdfs:label>
+    <rdf:type rdf:resource="http://ontology.eil.utoronto.ca/ISO21972/iso21972#Singular_unit"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://ontology.commonapproach.org/cids#squareFoot">
+    <i72:exponent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</i72:exponent>
+    <i72:base rdf:resource="https://ontology.commonapproach.org/cids#foot"/>
+    <rdfs:comment xml:lang="en">A non-SI unit of area. Use for Indicators multi-typed as i72:Sum or i72:Mean.</rdfs:comment>
+    <i72:symbol xml:lang="en">sq ft</i72:symbol>
+    <rdfs:label xml:lang="en">Square Foot</rdfs:label>
+    <rdf:type rdf:resource="http://ontology.eil.utoronto.ca/ISO21972/iso21972#Unit_exponentiation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://ontology.commonapproach.org/cids#megawatt">
+    <i72:singular_unit rdf:resource="http://ontology.eil.utoronto.ca/ISO21972/iso21972#watt"/>
+    <i72:prefix rdf:resource="http://ontology.eil.utoronto.ca/ISO21972/iso21972#mega"/>
+    <rdfs:comment xml:lang="en">A unit of power. Use for Indicators multi-typed as i72:Sum or i72:Mean.</rdfs:comment>
+    <i72:symbol xml:lang="en">MW</i72:symbol>
+    <rdfs:label xml:lang="en">Megawatt</rdfs:label>
+    <rdf:type rdf:resource="http://ontology.eil.utoronto.ca/ISO21972/iso21972#Unit_multiple_or_submultiple"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://ontology.commonapproach.org/cids#cad">
+    <rdfs:comment xml:lang="en">Use for Indicators multi-typed as i72:Sum or i72:Mean, representing a financial value.</rdfs:comment>
+    <i72:symbol xml:lang="en">$CAD</i72:symbol>
+    <rdfs:label xml:lang="en">Canadian Dollar</rdfs:label>
+    <rdf:type rdf:resource="http://ontology.eil.utoronto.ca/ISO21972/iso21972#Monetary_unit"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://ontology.commonapproach.org/cids#cubicMeter">
+    <i72:exponent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</i72:exponent>
+    <i72:base rdf:resource="http://ontology.eil.utoronto.ca/ISO21972/iso21972#metre"/>
+    <rdfs:comment xml:lang="en">A unit of volume. Use for Indicators multi-typed as i72:Sum or i72:Mean.</rdfs:comment>
+    <i72:symbol xml:lang="en">m^3</i72:symbol>
+    <rdfs:label xml:lang="en">Cubic Meter</rdfs:label>
+    <rdf:type rdf:resource="http://ontology.eil.utoronto.ca/ISO21972/iso21972#Unit_exponentiation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://ontology.commonapproach.org/cids#unspecifiedUnit">
+    <rdfs:comment xml:lang="en">A placeholder for unspecified units.</rdfs:comment>
+    <rdfs:label xml:lang="en">Unspecified Unit</rdfs:label>
+    <rdf:type rdf:resource="http://ontology.eil.utoronto.ca/ISO21972/iso21972#Singular_unit"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://ontology.commonapproach.org/cids#megatonne">
+    <i72:singular_unit rdf:resource="https://ontology.commonapproach.org/cids#tonne"/>
+    <i72:prefix rdf:resource="http://ontology.eil.utoronto.ca/ISO21972/iso21972#mega"/>
+    <rdfs:comment xml:lang="en">A unit of mass, typically for GHG emissions. Use for Indicators multi-typed as i72:Sum or i72:Mean.</rdfs:comment>
+    <i72:symbol xml:lang="en">Mt</i72:symbol>
+    <rdfs:label xml:lang="en">Megatonne</rdfs:label>
+    <rdf:type rdf:resource="http://ontology.eil.utoronto.ca/ISO21972/iso21972#Unit_multiple_or_submultiple"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://ontology.commonapproach.org/cids#percentUnit">
+    <rdfs:comment xml:lang="en">A generic unit for percentages. The Indicator should be multi-typed as i72:RatioIndicator for clarity.</rdfs:comment>
+    <i72:symbol xml:lang="en">%</i72:symbol>
+    <rdfs:label xml:lang="en">Percent</rdfs:label>
+    <rdf:type rdf:resource="http://ontology.eil.utoronto.ca/ISO21972/iso21972#Singular_unit"/>
+  </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,356 @@
+{
+    "@graph": [
+        {
+            "@id": "cids:unspecifiedUnit",
+            "rdfs:comment": {
+                "@language": "en",
+                "@value": "A placeholder for unspecified units."
+            },
+            "rdfs:label": {
+                "@language": "en",
+                "@value": "Unspecified Unit"
+            },
+            "@type": "i72:Singular_unit"
+        },
+        {
+            "@id": "cids:scoreUnit",
+            "rdfs:comment": {
+                "@language": "en",
+                "@value": "A generic unit for scores or points. The Indicator should be linked to a formal scale definition (e.g., i72:Ordinal_scale or a cids:Code) via the i72:measurement_scale property."
+            },
+            "i72:symbol": {
+                "@language": "en",
+                "@value": "score"
+            },
+            "rdfs:label": {
+                "@language": "en",
+                "@value": "Score"
+            },
+            "@type": "i72:Singular_unit"
+        },
+        {
+            "@id": "cids:ratioUnit",
+            "rdfs:comment": {
+                "@language": "en",
+                "@value": "A generic unit for ratios where the numerator and denominator are not specified. The Indicator should be multi-typed as i72:RatioIndicator."
+            },
+            "i72:symbol": {
+                "@language": "en",
+                "@value": "ratio"
+            },
+            "rdfs:label": {
+                "@language": "en",
+                "@value": "Ratio"
+            },
+            "@type": "i72:Compound_unit"
+        },
+        {
+            "@id": "cids:percentUnit",
+            "rdfs:comment": {
+                "@language": "en",
+                "@value": "A generic unit for percentages. The Indicator should be multi-typed as i72:RatioIndicator for clarity."
+            },
+            "i72:symbol": {
+                "@language": "en",
+                "@value": "%"
+            },
+            "rdfs:label": {
+                "@language": "en",
+                "@value": "Percent"
+            },
+            "@type": "i72:Singular_unit"
+        },
+        {
+            "@id": "cids:countUnit",
+            "rdfs:comment": {
+                "@language": "en",
+                "@value": "A count of discrete items. Use for Indicators multi-typed as i72:Cardinality. The 'unitDescription' should be used to create the i72:Population."
+            },
+            "owl:sameAs": {
+                "@id": "i72:population_cardinality_unit"
+            },
+            "i72:symbol": {
+                "@language": "en",
+                "@value": "count"
+            },
+            "rdfs:label": {
+                "@language": "en",
+                "@value": "Count"
+            },
+            "@type": "i72:Cardinality_unit"
+        },
+        {
+            "@id": "cids:squareFoot",
+            "i72:exponent": {
+                "@value": "2",
+                "@type": "xsd:integer"
+            },
+            "i72:base": {
+                "@id": "cids:foot"
+            },
+            "rdfs:comment": {
+                "@language": "en",
+                "@value": "A non-SI unit of area. Use for Indicators multi-typed as i72:Sum or i72:Mean."
+            },
+            "i72:symbol": {
+                "@language": "en",
+                "@value": "sq ft"
+            },
+            "rdfs:label": {
+                "@language": "en",
+                "@value": "Square Foot"
+            },
+            "@type": "i72:Unit_exponentiation"
+        },
+        {
+            "@id": "cids:foot",
+            "rdfs:comment": {
+                "@language": "en",
+                "@value": "A non-SI unit of length."
+            },
+            "i72:symbol": {
+                "@language": "en",
+                "@value": "ft"
+            },
+            "rdfs:label": {
+                "@language": "en",
+                "@value": "Foot"
+            },
+            "@type": "i72:Singular_unit"
+        },
+        {
+            "@id": "cids:cubicMeter",
+            "i72:exponent": {
+                "@value": "3",
+                "@type": "xsd:integer"
+            },
+            "i72:base": {
+                "@id": "i72:metre"
+            },
+            "rdfs:comment": {
+                "@language": "en",
+                "@value": "A unit of volume. Use for Indicators multi-typed as i72:Sum or i72:Mean."
+            },
+            "i72:symbol": {
+                "@language": "en",
+                "@value": "m^3"
+            },
+            "rdfs:label": {
+                "@language": "en",
+                "@value": "Cubic Meter"
+            },
+            "@type": "i72:Unit_exponentiation"
+        },
+        {
+            "@id": "cids:squareMeter",
+            "i72:exponent": {
+                "@value": "2",
+                "@type": "xsd:integer"
+            },
+            "i72:base": {
+                "@id": "i72:metre"
+            },
+            "rdfs:comment": {
+                "@language": "en",
+                "@value": "A unit of area. Use for Indicators multi-typed as i72:Sum or i72:Mean."
+            },
+            "i72:symbol": {
+                "@language": "en",
+                "@value": "m^2"
+            },
+            "rdfs:label": {
+                "@language": "en",
+                "@value": "Square Meter"
+            },
+            "@type": "i72:Unit_exponentiation"
+        },
+        {
+            "@id": "cids:megawattHour",
+            "i72:term_2": {
+                "@id": "i72:hour"
+            },
+            "i72:term_1": {
+                "@id": "cids:megawatt"
+            },
+            "rdfs:comment": {
+                "@language": "en",
+                "@value": "A unit of energy. Use for Indicators multi-typed as i72:Sum or i72:Mean."
+            },
+            "i72:symbol": {
+                "@language": "en",
+                "@value": "MWh"
+            },
+            "rdfs:label": {
+                "@language": "en",
+                "@value": "Megawatt-hour"
+            },
+            "@type": "i72:Unit_multiplication"
+        },
+        {
+            "@id": "cids:megawatt",
+            "i72:singular_unit": {
+                "@id": "i72:watt"
+            },
+            "i72:prefix": {
+                "@id": "i72:mega"
+            },
+            "rdfs:comment": {
+                "@language": "en",
+                "@value": "A unit of power. Use for Indicators multi-typed as i72:Sum or i72:Mean."
+            },
+            "i72:symbol": {
+                "@language": "en",
+                "@value": "MW"
+            },
+            "rdfs:label": {
+                "@language": "en",
+                "@value": "Megawatt"
+            },
+            "@type": "i72:Unit_multiple_or_submultiple"
+        },
+        {
+            "@id": "cids:kilowattHour",
+            "i72:term_2": {
+                "@id": "i72:hour"
+            },
+            "i72:term_1": {
+                "@id": "i72:kilowatt"
+            },
+            "rdfs:comment": {
+                "@language": "en",
+                "@value": "A unit of energy. Use for Indicators multi-typed as i72:Sum or i72:Mean."
+            },
+            "i72:symbol": {
+                "@language": "en",
+                "@value": "kWh"
+            },
+            "rdfs:label": {
+                "@language": "en",
+                "@value": "Kilowatt-hour"
+            },
+            "@type": "i72:Unit_multiplication"
+        },
+        {
+            "@id": "cids:megatonne",
+            "i72:singular_unit": {
+                "@id": "cids:tonne"
+            },
+            "i72:prefix": {
+                "@id": "i72:mega"
+            },
+            "rdfs:comment": {
+                "@language": "en",
+                "@value": "A unit of mass, typically for GHG emissions. Use for Indicators multi-typed as i72:Sum or i72:Mean."
+            },
+            "i72:symbol": {
+                "@language": "en",
+                "@value": "Mt"
+            },
+            "rdfs:label": {
+                "@language": "en",
+                "@value": "Megatonne"
+            },
+            "@type": "i72:Unit_multiple_or_submultiple"
+        },
+        {
+            "@id": "cids:tonne",
+            "rdfs:comment": {
+                "@language": "en",
+                "@value": "A unit of mass equivalent to 1,000 kilograms. Use for Indicators multi-typed as i72:Sum or i72:Mean. Pragmatically defined as a singular unit for ease of use."
+            },
+            "i72:symbol": {
+                "@language": "en",
+                "@value": "t"
+            },
+            "rdfs:label": {
+                "@language": "en",
+                "@value": "Tonne"
+            },
+            "@type": "i72:Singular_unit"
+        },
+        {
+            "@id": "cids:kilogram",
+            "i72:singular_unit": {
+                "@id": "i72:gram"
+            },
+            "i72:prefix": {
+                "@id": "i72:kilo"
+            },
+            "rdfs:comment": {
+                "@language": "en",
+                "@value": "A unit of mass. Use for Indicators multi-typed as i72:Sum or i72:Mean."
+            },
+            "i72:symbol": {
+                "@language": "en",
+                "@value": "kg"
+            },
+            "rdfs:label": {
+                "@language": "en",
+                "@value": "Kilogram"
+            },
+            "@type": "i72:Unit_multiple_or_submultiple"
+        },
+        {
+            "@id": "cids:cadMillions",
+            "i72:singular_unit": {
+                "@id": "cids:cad"
+            },
+            "i72:prefix": {
+                "@id": "i72:mega"
+            },
+            "rdfs:comment": {
+                "@language": "en",
+                "@value": "Use for Indicators multi-typed as i72:Sum or i72:Mean, representing a financial value."
+            },
+            "i72:symbol": {
+                "@language": "en",
+                "@value": "$CAD(M)"
+            },
+            "rdfs:label": {
+                "@language": "en",
+                "@value": "Millions of Canadian Dollars"
+            },
+            "@type": "i72:Unit_multiple_or_submultiple"
+        },
+        {
+            "@id": "cids:cad",
+            "rdfs:comment": {
+                "@language": "en",
+                "@value": "Use for Indicators multi-typed as i72:Sum or i72:Mean, representing a financial value."
+            },
+            "i72:symbol": {
+                "@language": "en",
+                "@value": "$CAD"
+            },
+            "rdfs:label": {
+                "@language": "en",
+                "@value": "Canadian Dollar"
+            },
+            "@type": "i72:Monetary_unit"
+        },
+        {
+            "@id": "cids:dayUnit",
+            "rdfs:comment": {
+                "@language": "en",
+                "@value": "A unit of time. Use for Indicators multi-typed as i72:Sum or i72:Mean, representing a duration."
+            },
+            "i72:symbol": {
+                "@language": "en",
+                "@value": "days"
+            },
+            "rdfs:label": {
+                "@language": "en",
+                "@value": "Days"
+            },
+            "@type": "i72:Singular_unit"
+        }
+    ],
+    "@context": {
+        "i72": "http://ontology.eil.utoronto.ca/ISO21972/iso21972#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "cids": "https://ontology.commonapproach.org/cids#"
+    }
+}

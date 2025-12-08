@@ -1,555 +1,325 @@
-[
-  {
-    "@id": "https://codelist.commonapproach.org/codeLists/ICNPOsector#sec3",
-    "@type": [
-      "https://ontology.commonapproach.org/cids#Code",
-      "https://ontology.commonapproach.org/cids#Sector",
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
-      {
-        "@id": "https://codelist.commonapproach.org/codeLists/ICNPOsector#"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#label": [
-      {
-        "@language": "en",
-        "@value": "Health"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://codelist.commonapproach.org/codeLists/ICNPOsector#dataset"
-      }
-    ],
-    "https://ontology.commonapproach.org/cids#definedBy": [
-      {
-        "@id": "https://ontology.commonapproach.org/cids#icnpo"
-      }
-    ],
-    "https://ontology.commonapproach.org/cids#hasIdentifier": [
-      {
-        "@value": "3"
-      }
-    ],
-    "https://ontology.commonapproach.org/cids#hasName": [
-      {
-        "@language": "en",
-        "@value": "Health"
-      }
-    ]
-  },
-  {
-    "@id": "https://codelist.commonapproach.org/codeLists/ICNPOsector#sec2",
-    "@type": [
-      "https://ontology.commonapproach.org/cids#Code",
-      "https://ontology.commonapproach.org/cids#Sector",
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
-      {
-        "@id": "https://codelist.commonapproach.org/codeLists/ICNPOsector#"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#label": [
-      {
-        "@language": "en",
-        "@value": "Education and Research"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://codelist.commonapproach.org/codeLists/ICNPOsector#dataset"
-      }
-    ],
-    "https://ontology.commonapproach.org/cids#definedBy": [
-      {
-        "@id": "https://ontology.commonapproach.org/cids#icnpo"
-      }
-    ],
-    "https://ontology.commonapproach.org/cids#hasIdentifier": [
-      {
-        "@value": "2"
-      }
-    ],
-    "https://ontology.commonapproach.org/cids#hasName": [
-      {
-        "@language": "en",
-        "@value": "Education and Research"
-      }
-    ]
-  },
-  {
-    "@id": "https://codelist.commonapproach.org/codeLists/ICNPOsector#sec1",
-    "@type": [
-      "https://ontology.commonapproach.org/cids#Sector",
-      "https://ontology.commonapproach.org/cids#Code",
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
-      {
-        "@id": "https://codelist.commonapproach.org/codeLists/ICNPOsector#"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#label": [
-      {
-        "@language": "en",
-        "@value": "Culture and Recreation"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://codelist.commonapproach.org/codeLists/ICNPOsector#dataset"
-      }
-    ],
-    "https://ontology.commonapproach.org/cids#definedBy": [
-      {
-        "@id": "https://ontology.commonapproach.org/cids#icnpo"
-      }
-    ],
-    "https://ontology.commonapproach.org/cids#hasIdentifier": [
-      {
-        "@value": "1"
-      }
-    ],
-    "https://ontology.commonapproach.org/cids#hasName": [
-      {
-        "@language": "en",
-        "@value": "Culture and Recreation"
-      }
-    ]
-  },
-  {
-    "@id": "https://codelist.commonapproach.org/codeLists/ICNPOsector#sec5",
-    "@type": [
-      "https://ontology.commonapproach.org/cids#Code",
-      "https://ontology.commonapproach.org/cids#Sector",
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
-      {
-        "@id": "https://codelist.commonapproach.org/codeLists/ICNPOsector#"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#label": [
-      {
-        "@language": "en",
-        "@value": "Environment"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://codelist.commonapproach.org/codeLists/ICNPOsector#dataset"
-      }
-    ],
-    "https://ontology.commonapproach.org/cids#definedBy": [
-      {
-        "@id": "https://ontology.commonapproach.org/cids#icnpo"
-      }
-    ],
-    "https://ontology.commonapproach.org/cids#hasIdentifier": [
-      {
-        "@value": "5"
-      }
-    ],
-    "https://ontology.commonapproach.org/cids#hasName": [
-      {
-        "@language": "en",
-        "@value": "Environment"
-      }
-    ]
-  },
-  {
-    "@id": "https://codelist.commonapproach.org/codeLists/ICNPOsector#sec12",
-    "@type": [
-      "https://ontology.commonapproach.org/cids#Code",
-      "https://ontology.commonapproach.org/cids#Sector",
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
-      {
-        "@id": "https://codelist.commonapproach.org/codeLists/ICNPOsector#"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#label": [
-      {
-        "@language": "en",
-        "@value": "Not Elsewhere Classified"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://codelist.commonapproach.org/codeLists/ICNPOsector#dataset"
-      }
-    ],
-    "https://ontology.commonapproach.org/cids#definedBy": [
-      {
-        "@id": "https://ontology.commonapproach.org/cids#icnpo"
-      }
-    ],
-    "https://ontology.commonapproach.org/cids#hasIdentifier": [
-      {
-        "@value": "12"
-      }
-    ],
-    "https://ontology.commonapproach.org/cids#hasName": [
-      {
-        "@language": "en",
-        "@value": "Not Elsewhere Classified"
-      }
-    ]
-  },
-  {
-    "@id": "https://codelist.commonapproach.org/codeLists/ICNPOsector#sec10",
-    "@type": [
-      "https://ontology.commonapproach.org/cids#Code",
-      "https://ontology.commonapproach.org/cids#Sector",
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
-      {
-        "@id": "https://codelist.commonapproach.org/codeLists/ICNPOsector#"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#label": [
-      {
-        "@language": "en",
-        "@value": "Religion"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://codelist.commonapproach.org/codeLists/ICNPOsector#dataset"
-      }
-    ],
-    "https://ontology.commonapproach.org/cids#definedBy": [
-      {
-        "@id": "https://ontology.commonapproach.org/cids#icnpo"
-      }
-    ],
-    "https://ontology.commonapproach.org/cids#hasIdentifier": [
-      {
-        "@value": "10"
-      }
-    ],
-    "https://ontology.commonapproach.org/cids#hasName": [
-      {
-        "@language": "en",
-        "@value": "Religion"
-      }
-    ]
-  },
-  {
-    "@id": "https://codelist.commonapproach.org/codeLists/ICNPOsector#dataset",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#ConceptScheme"
-    ]
-  },
-  {
-    "@id": "https://codelist.commonapproach.org/codeLists/ICNPOsector#sec8",
-    "@type": [
-      "https://ontology.commonapproach.org/cids#Code",
-      "https://ontology.commonapproach.org/cids#Sector",
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
-      {
-        "@id": "https://codelist.commonapproach.org/codeLists/ICNPOsector#"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#label": [
-      {
-        "@language": "en",
-        "@value": "Philanthropic Intermediaries and Voluntarism Promotion"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://codelist.commonapproach.org/codeLists/ICNPOsector#dataset"
-      }
-    ],
-    "https://ontology.commonapproach.org/cids#definedBy": [
-      {
-        "@id": "https://ontology.commonapproach.org/cids#icnpo"
-      }
-    ],
-    "https://ontology.commonapproach.org/cids#hasIdentifier": [
-      {
-        "@value": "8"
-      }
-    ],
-    "https://ontology.commonapproach.org/cids#hasName": [
-      {
-        "@language": "en",
-        "@value": "Philanthropic Intermediaries and Voluntarism Promotion"
-      }
-    ]
-  },
-  {
-    "@id": "https://codelist.commonapproach.org/codeLists/ICNPOsector#sec11",
-    "@type": [
-      "https://ontology.commonapproach.org/cids#Code",
-      "https://ontology.commonapproach.org/cids#Sector",
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
-      {
-        "@id": "https://codelist.commonapproach.org/codeLists/ICNPOsector#"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#label": [
-      {
-        "@language": "en",
-        "@value": "Business and Professional Associations, Unions"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://codelist.commonapproach.org/codeLists/ICNPOsector#dataset"
-      }
-    ],
-    "https://ontology.commonapproach.org/cids#definedBy": [
-      {
-        "@id": "https://ontology.commonapproach.org/cids#icnpo"
-      }
-    ],
-    "https://ontology.commonapproach.org/cids#hasIdentifier": [
-      {
-        "@value": "11"
-      }
-    ],
-    "https://ontology.commonapproach.org/cids#hasName": [
-      {
-        "@language": "en",
-        "@value": "Business and Professional Associations, Unions"
-      }
-    ]
-  },
-  {
-    "@id": "https://codelist.commonapproach.org/codeLists/ICNPOsector#sec9",
-    "@type": [
-      "https://ontology.commonapproach.org/cids#Code",
-      "https://ontology.commonapproach.org/cids#Sector",
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
-      {
-        "@id": "https://codelist.commonapproach.org/codeLists/ICNPOsector#"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#label": [
-      {
-        "@language": "en",
-        "@value": "International"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://codelist.commonapproach.org/codeLists/ICNPOsector#dataset"
-      }
-    ],
-    "https://ontology.commonapproach.org/cids#definedBy": [
-      {
-        "@id": "https://ontology.commonapproach.org/cids#icnpo"
-      }
-    ],
-    "https://ontology.commonapproach.org/cids#hasIdentifier": [
-      {
-        "@value": "9"
-      }
-    ],
-    "https://ontology.commonapproach.org/cids#hasName": [
-      {
-        "@language": "en",
-        "@value": "International"
-      }
-    ]
-  },
-  {
-    "@id": "https://codelist.commonapproach.org/codeLists/ICNPOsector#sec4",
-    "@type": [
-      "https://ontology.commonapproach.org/cids#Code",
-      "https://ontology.commonapproach.org/cids#Sector",
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
-      {
-        "@id": "https://codelist.commonapproach.org/codeLists/ICNPOsector#"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#label": [
-      {
-        "@language": "en",
-        "@value": "Social Services"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://codelist.commonapproach.org/codeLists/ICNPOsector#dataset"
-      }
-    ],
-    "https://ontology.commonapproach.org/cids#definedBy": [
-      {
-        "@id": "https://ontology.commonapproach.org/cids#icnpo"
-      }
-    ],
-    "https://ontology.commonapproach.org/cids#hasIdentifier": [
-      {
-        "@value": "4"
-      }
-    ],
-    "https://ontology.commonapproach.org/cids#hasName": [
-      {
-        "@language": "en",
-        "@value": "Social Services"
-      }
-    ]
-  },
-  {
-    "@id": "https://codelist.commonapproach.org/codeLists/ICNPOsector#sec7",
-    "@type": [
-      "https://ontology.commonapproach.org/cids#Code",
-      "https://ontology.commonapproach.org/cids#Sector",
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
-      {
-        "@id": "https://codelist.commonapproach.org/codeLists/ICNPOsector#"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#label": [
-      {
-        "@language": "en",
-        "@value": "Law, Advocacy, and Politics"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://codelist.commonapproach.org/codeLists/ICNPOsector#dataset"
-      }
-    ],
-    "https://ontology.commonapproach.org/cids#definedBy": [
-      {
-        "@id": "https://ontology.commonapproach.org/cids#icnpo"
-      }
-    ],
-    "https://ontology.commonapproach.org/cids#hasIdentifier": [
-      {
-        "@value": "7"
-      }
-    ],
-    "https://ontology.commonapproach.org/cids#hasName": [
-      {
-        "@language": "en",
-        "@value": "Law, Advocacy, and Politics"
-      }
-    ]
-  },
-  {
-    "@id": "https://codelist.commonapproach.org/codeLists/ICNPOsector#sec6",
-    "@type": [
-      "https://ontology.commonapproach.org/cids#Code",
-      "https://ontology.commonapproach.org/cids#Sector",
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
-      {
-        "@id": "https://codelist.commonapproach.org/codeLists/ICNPOsector#"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#label": [
-      {
-        "@language": "en",
-        "@value": "Development and Housing"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://codelist.commonapproach.org/codeLists/ICNPOsector#dataset"
-      }
-    ],
-    "https://ontology.commonapproach.org/cids#definedBy": [
-      {
-        "@id": "https://ontology.commonapproach.org/cids#icnpo"
-      }
-    ],
-    "https://ontology.commonapproach.org/cids#hasIdentifier": [
-      {
-        "@value": "6"
-      }
-    ],
-    "https://ontology.commonapproach.org/cids#hasName": [
-      {
-        "@language": "en",
-        "@value": "Development and Housing"
-      }
-    ]
-  },
-  {
-    "@id": "https://codelist.commonapproach.org/codeLists/ICNPOsector",
-    "@type": [
-      "http://www.w3.org/2002/07/owl#Ontology",
-      "http://purl.org/vocommons/voafVocabulary"
-    ],
-    "http://purl.org/dc/terms/creator": [
-      {
-        "@id": "https://ontology.commonapproach.org/cids#ac"
-      }
-    ],
-    "http://purl.org/dc/terms/date": [
-      {
-        "@value": "02-10-2024"
-      }
-    ],
-    "http://purl.org/dc/terms/description": [
-      {
-        "@language": "en",
-        "@value": "A codelist vocabulary of ICNPO Sector"
-      }
-    ],
-    "http://purl.org/dc/terms/title": [
-      {
-        "@language": "en",
-        "@value": "ICNPO Sector"
-      }
-    ],
-    "http://purl.org/vocab/vann/preferredNamespacePrefix": [
-      {
-        "@value": "ICNOPsector"
-      }
-    ],
-    "http://purl.org/vocab/vann/preferredNamespaceUri": [
-      {
-        "@id": "https://codelist.commonapproach.org/codeLists/ICNPOsector#"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#label": [
-      {
-        "@value": "ICNPO Sector"
-      }
-    ],
-    "http://www.w3.org/2002/07/owl#imports": [
-      {
-        "@id": "https://ontology.commonapproach.org/owl/cids"
-      },
-      {
-        "@id": "http://www.w3.org/2006/time"
-      }
-    ],
-    "http://www.w3.org/2002/07/owl#versionInfo": [
-      {
-        "@value": "1.0"
-      }
-    ],
-    "http://xmlns.com/foaf/0.1/name": [
-      {
-        "@value": "ICNPO Sector"
-      }
-    ],
-    "https://ontology.commonapproach.org/cids#hasName": [
-      {
-        "@value": "ICNPO Sector"
-      }
-    ]
-  }
-]
+{
+    "@graph": [
+        {
+            "@id": "https://codelist.commonapproach.org/ICNPOSector#sec9",
+            "skos:inScheme": {
+                "@id": "https://codelist.commonapproach.org/ICNPOSector"
+            },
+            "rdfs:isDefinedBy": {
+                "@id": "https://codelist.commonapproach.org/ICNPOSector"
+            },
+            "cids:hasSpecification": {
+                "@id": "https://codelist.commonapproach.org/ICNPOSector"
+            },
+            "cids:definedBy": {
+                "@id": "cids:ac"
+            },
+            "skos:notation": "9",
+            "cids:hasIdentifier": "9",
+            "skos:prefLabel": {
+                "@language": "en",
+                "@value": "International"
+            },
+            "org:hasName": "International",
+            "@type": "cids:Sector"
+        },
+        {
+            "@id": "https://codelist.commonapproach.org/ICNPOSector",
+            "dcterms:description": {
+                "@language": "en",
+                "@value": "A codelist vocabulary of ICNPO Sector"
+            },
+            "dcterms:title": {
+                "@language": "en",
+                "@value": "ICNPO Sector"
+            },
+            "skos:prefLabel": {
+                "@language": "en",
+                "@value": "ICNPO Sector"
+            },
+            "owl:versionInfo": "2.0",
+            "dcterms:date": {
+                "@value": "2025-12-01",
+                "@type": "xsd:date"
+            },
+            "dcterms:creator": {
+                "@id": "cids:ac"
+            },
+            "owl:imports": {
+                "@id": "https://ontology.commonapproach.org/owl/cids"
+            },
+            "@type": [
+                "skos:ConceptScheme",
+                "owl:Ontology",
+                "voaf:Vocabulary"
+            ]
+        },
+        {
+            "@id": "https://codelist.commonapproach.org/ICNPOSector#sec8",
+            "skos:inScheme": {
+                "@id": "https://codelist.commonapproach.org/ICNPOSector"
+            },
+            "rdfs:isDefinedBy": {
+                "@id": "https://codelist.commonapproach.org/ICNPOSector"
+            },
+            "cids:hasSpecification": {
+                "@id": "https://codelist.commonapproach.org/ICNPOSector"
+            },
+            "cids:definedBy": {
+                "@id": "cids:ac"
+            },
+            "skos:notation": "8",
+            "cids:hasIdentifier": "8",
+            "skos:prefLabel": {
+                "@language": "en",
+                "@value": "Philanthropic Intermediaries and Voluntarism Promotion"
+            },
+            "org:hasName": "Philanthropic Intermediaries and Voluntarism Promotion",
+            "@type": "cids:Sector"
+        },
+        {
+            "@id": "https://codelist.commonapproach.org/ICNPOSector#sec7",
+            "skos:inScheme": {
+                "@id": "https://codelist.commonapproach.org/ICNPOSector"
+            },
+            "rdfs:isDefinedBy": {
+                "@id": "https://codelist.commonapproach.org/ICNPOSector"
+            },
+            "cids:hasSpecification": {
+                "@id": "https://codelist.commonapproach.org/ICNPOSector"
+            },
+            "cids:definedBy": {
+                "@id": "cids:ac"
+            },
+            "skos:notation": "7",
+            "cids:hasIdentifier": "7",
+            "skos:prefLabel": {
+                "@language": "en",
+                "@value": "Law, Advocacy, and Politics"
+            },
+            "org:hasName": "Law, Advocacy, and Politics",
+            "@type": "cids:Sector"
+        },
+        {
+            "@id": "https://codelist.commonapproach.org/ICNPOSector#sec6",
+            "skos:inScheme": {
+                "@id": "https://codelist.commonapproach.org/ICNPOSector"
+            },
+            "rdfs:isDefinedBy": {
+                "@id": "https://codelist.commonapproach.org/ICNPOSector"
+            },
+            "cids:hasSpecification": {
+                "@id": "https://codelist.commonapproach.org/ICNPOSector"
+            },
+            "cids:definedBy": {
+                "@id": "cids:ac"
+            },
+            "skos:notation": "6",
+            "cids:hasIdentifier": "6",
+            "skos:prefLabel": {
+                "@language": "en",
+                "@value": "Development and Housing"
+            },
+            "org:hasName": "Development and Housing",
+            "@type": "cids:Sector"
+        },
+        {
+            "@id": "https://codelist.commonapproach.org/ICNPOSector#sec5",
+            "skos:inScheme": {
+                "@id": "https://codelist.commonapproach.org/ICNPOSector"
+            },
+            "rdfs:isDefinedBy": {
+                "@id": "https://codelist.commonapproach.org/ICNPOSector"
+            },
+            "cids:hasSpecification": {
+                "@id": "https://codelist.commonapproach.org/ICNPOSector"
+            },
+            "cids:definedBy": {
+                "@id": "cids:ac"
+            },
+            "skos:notation": "5",
+            "cids:hasIdentifier": "5",
+            "skos:prefLabel": {
+                "@language": "en",
+                "@value": "Environment"
+            },
+            "org:hasName": "Environment",
+            "@type": "cids:Sector"
+        },
+        {
+            "@id": "https://codelist.commonapproach.org/ICNPOSector#sec4",
+            "skos:inScheme": {
+                "@id": "https://codelist.commonapproach.org/ICNPOSector"
+            },
+            "rdfs:isDefinedBy": {
+                "@id": "https://codelist.commonapproach.org/ICNPOSector"
+            },
+            "cids:hasSpecification": {
+                "@id": "https://codelist.commonapproach.org/ICNPOSector"
+            },
+            "cids:definedBy": {
+                "@id": "cids:ac"
+            },
+            "skos:notation": "4",
+            "cids:hasIdentifier": "4",
+            "skos:prefLabel": {
+                "@language": "en",
+                "@value": "Social Services"
+            },
+            "org:hasName": "Social Services",
+            "@type": "cids:Sector"
+        },
+        {
+            "@id": "https://codelist.commonapproach.org/ICNPOSector#sec3",
+            "skos:inScheme": {
+                "@id": "https://codelist.commonapproach.org/ICNPOSector"
+            },
+            "rdfs:isDefinedBy": {
+                "@id": "https://codelist.commonapproach.org/ICNPOSector"
+            },
+            "cids:hasSpecification": {
+                "@id": "https://codelist.commonapproach.org/ICNPOSector"
+            },
+            "cids:definedBy": {
+                "@id": "cids:ac"
+            },
+            "skos:notation": "3",
+            "cids:hasIdentifier": "3",
+            "skos:prefLabel": {
+                "@language": "en",
+                "@value": "Health"
+            },
+            "org:hasName": "Health",
+            "@type": "cids:Sector"
+        },
+        {
+            "@id": "https://codelist.commonapproach.org/ICNPOSector#sec2",
+            "skos:inScheme": {
+                "@id": "https://codelist.commonapproach.org/ICNPOSector"
+            },
+            "rdfs:isDefinedBy": {
+                "@id": "https://codelist.commonapproach.org/ICNPOSector"
+            },
+            "cids:hasSpecification": {
+                "@id": "https://codelist.commonapproach.org/ICNPOSector"
+            },
+            "cids:definedBy": {
+                "@id": "cids:ac"
+            },
+            "skos:notation": "2",
+            "cids:hasIdentifier": "2",
+            "skos:prefLabel": {
+                "@language": "en",
+                "@value": "Education and Research"
+            },
+            "org:hasName": "Education and Research",
+            "@type": "cids:Sector"
+        },
+        {
+            "@id": "https://codelist.commonapproach.org/ICNPOSector#sec12",
+            "skos:inScheme": {
+                "@id": "https://codelist.commonapproach.org/ICNPOSector"
+            },
+            "rdfs:isDefinedBy": {
+                "@id": "https://codelist.commonapproach.org/ICNPOSector"
+            },
+            "cids:hasSpecification": {
+                "@id": "https://codelist.commonapproach.org/ICNPOSector"
+            },
+            "cids:definedBy": {
+                "@id": "cids:ac"
+            },
+            "skos:notation": "12",
+            "cids:hasIdentifier": "12",
+            "skos:prefLabel": {
+                "@language": "en",
+                "@value": "Not Elsewhere Classified"
+            },
+            "org:hasName": "Not Elsewhere Classified",
+            "@type": "cids:Sector"
+        },
+        {
+            "@id": "https://codelist.commonapproach.org/ICNPOSector#sec11",
+            "skos:inScheme": {
+                "@id": "https://codelist.commonapproach.org/ICNPOSector"
+            },
+            "rdfs:isDefinedBy": {
+                "@id": "https://codelist.commonapproach.org/ICNPOSector"
+            },
+            "cids:hasSpecification": {
+                "@id": "https://codelist.commonapproach.org/ICNPOSector"
+            },
+            "cids:definedBy": {
+                "@id": "cids:ac"
+            },
+            "skos:notation": "11",
+            "cids:hasIdentifier": "11",
+            "skos:prefLabel": {
+                "@language": "en",
+                "@value": "Business and Professional Associations, Unions"
+            },
+            "org:hasName": "Business and Professional Associations, Unions",
+            "@type": "cids:Sector"
+        },
+        {
+            "@id": "https://codelist.commonapproach.org/ICNPOSector#sec10",
+            "skos:inScheme": {
+                "@id": "https://codelist.commonapproach.org/ICNPOSector"
+            },
+            "rdfs:isDefinedBy": {
+                "@id": "https://codelist.commonapproach.org/ICNPOSector"
+            },
+            "cids:hasSpecification": {
+                "@id": "https://codelist.commonapproach.org/ICNPOSector"
+            },
+            "cids:definedBy": {
+                "@id": "cids:ac"
+            },
+            "skos:notation": "10",
+            "cids:hasIdentifier": "10",
+            "skos:prefLabel": {
+                "@language": "en",
+                "@value": "Religion"
+            },
+            "org:hasName": "Religion",
+            "@type": "cids:Sector"
+        },
+        {
+            "@id": "https://codelist.commonapproach.org/ICNPOSector#sec1",
+            "skos:inScheme": {
+                "@id": "https://codelist.commonapproach.org/ICNPOSector"
+            },
+            "rdfs:isDefinedBy": {
+                "@id": "https://codelist.commonapproach.org/ICNPOSector"
+            },
+            "cids:hasSpecification": {
+                "@id": "https://codelist.commonapproach.org/ICNPOSector"
+            },
+            "cids:definedBy": {
+                "@id": "cids:ac"
+            },
+            "skos:notation": "1",
+            "org:hasIdentifier": "1",
+            "skos:prefLabel": {
+                "@language": "en",
+                "@value": "Culture and Recreation"
+            },
+            "org:hasName": "Culture and Recreation",
+            "@type": "cids:Sector"
+        }
+    ],
+    "@context": {
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "org": "http://www.w3.org/ns/org#",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "voaf": "http://purl.org/vocommons/voaf#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "cids": "https://ontology.commonapproach.org/cids#",
+        "prov": "http://www.w3.org/ns/prov#",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "@vocab": "https://codelist.commonapproach.org/ICNPOSector#"
+    }
+}

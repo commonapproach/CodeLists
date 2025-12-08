@@ -1,0 +1,945 @@
+{
+    "@graph": [
+        {
+            "@id": "https://codelist.commonapproach.org/IRISImpactTheme#GenderLens",
+            "skos:inScheme": {
+                "@id": "https://codelist.commonapproach.org/IRISImpactTheme"
+            },
+            "rdfs:isDefinedBy": {
+                "@id": "https://codelist.commonapproach.org/IRISImpactTheme"
+            },
+            "cids:hasSpecification": {
+                "@id": "https://codelist.commonapproach.org/IRISImpactTheme"
+            },
+            "cids:definedBy": {
+                "@id": "cids:giin"
+            },
+            "prov:hadPrimarySource": {
+                "@id": "https://iris.thegiin.org/metrics/"
+            },
+            "skos:notation": "GenderLens",
+            "org:hasIdentifier": "GenderLens",
+            "skos:prefLabel": {
+                "@language": "en",
+                "@value": "Gender Lens"
+            },
+            "org:hasName": "Gender Lens",
+            "skos:broader": {
+                "@id": "iriscategory:DiversityandInclusion"
+            },
+            "@type": [
+                "cids:Code",
+                "skos:Concept"
+            ]
+        },
+        {
+            "@id": "https://codelist.commonapproach.org/IRISImpactTheme",
+            "dcterms:description": {
+                "@language": "en",
+                "@value": "An RDF vocabulary of IRIS+ Impact Themes."
+            },
+            "dcterms:title": {
+                "@language": "en",
+                "@value": "IRIS+ Impact Themes"
+            },
+            "skos:prefLabel": {
+                "@language": "en",
+                "@value": "IRIS+ Impact Themes"
+            },
+            "owl:versionInfo": "2.0",
+            "dcterms:date": {
+                "@value": "2025-12-01",
+                "@type": "xsd:date"
+            },
+            "dcterms:creator": {
+                "@id": "cids:ac"
+            },
+            "owl:imports": {
+                "@id": "https://ontology.commonapproach.org/cids"
+            },
+            "@type": [
+                "skos:ConceptScheme",
+                "owl:Ontology",
+                "voaf:Vocabulary"
+            ]
+        },
+        {
+            "@id": "https://codelist.commonapproach.org/IRISImpactTheme#WaterSanitationandHygiene",
+            "skos:inScheme": {
+                "@id": "https://codelist.commonapproach.org/IRISImpactTheme"
+            },
+            "rdfs:isDefinedBy": {
+                "@id": "https://codelist.commonapproach.org/IRISImpactTheme"
+            },
+            "cids:hasSpecification": {
+                "@id": "https://codelist.commonapproach.org/IRISImpactTheme"
+            },
+            "cids:definedBy": {
+                "@id": "cids:giin"
+            },
+            "prov:hadPrimarySource": {
+                "@id": "https://iris.thegiin.org/metrics/"
+            },
+            "skos:notation": "WaterSanitationandHygiene",
+            "org:hasIdentifier": "WaterSanitationandHygiene",
+            "skos:prefLabel": {
+                "@language": "en",
+                "@value": "Water Sanitation and Hygiene (WASH)"
+            },
+            "org:hasName": "Water Sanitation and Hygiene (WASH)",
+            "skos:broader": {
+                "@id": "iriscategory:Water"
+            },
+            "@type": [
+                "cids:Code",
+                "skos:Concept"
+            ]
+        },
+        {
+            "@id": "https://codelist.commonapproach.org/IRISImpactTheme#WasteManagement",
+            "skos:inScheme": {
+                "@id": "https://codelist.commonapproach.org/IRISImpactTheme"
+            },
+            "rdfs:isDefinedBy": {
+                "@id": "https://codelist.commonapproach.org/IRISImpactTheme"
+            },
+            "cids:hasSpecification": {
+                "@id": "https://codelist.commonapproach.org/IRISImpactTheme"
+            },
+            "cids:definedBy": {
+                "@id": "cids:giin"
+            },
+            "prov:hadPrimarySource": {
+                "@id": "https://iris.thegiin.org/metrics/"
+            },
+            "skos:notation": "WasteManagement",
+            "org:hasIdentifier": "WasteManagement",
+            "skos:prefLabel": {
+                "@language": "en",
+                "@value": "Waste Management"
+            },
+            "org:hasName": "Waste Management",
+            "skos:broader": {
+                "@id": "iriscategory:Waste"
+            },
+            "@type": [
+                "cids:Code",
+                "skos:Concept"
+            ]
+        },
+        {
+            "@id": "https://codelist.commonapproach.org/IRISImpactTheme#SustainableWaterManagement",
+            "skos:inScheme": {
+                "@id": "https://codelist.commonapproach.org/IRISImpactTheme"
+            },
+            "rdfs:isDefinedBy": {
+                "@id": "https://codelist.commonapproach.org/IRISImpactTheme"
+            },
+            "cids:hasSpecification": {
+                "@id": "https://codelist.commonapproach.org/IRISImpactTheme"
+            },
+            "cids:definedBy": {
+                "@id": "cids:giin"
+            },
+            "prov:hadPrimarySource": {
+                "@id": "https://iris.thegiin.org/metrics/"
+            },
+            "skos:notation": "SustainableWaterManagement",
+            "org:hasIdentifier": "SustainableWaterManagement",
+            "skos:prefLabel": {
+                "@language": "en",
+                "@value": "Sustainable Water Management"
+            },
+            "org:hasName": "Sustainable Water Management",
+            "skos:broader": {
+                "@id": "iriscategory:Water"
+            },
+            "@type": [
+                "cids:Code",
+                "skos:Concept"
+            ]
+        },
+        {
+            "@id": "https://codelist.commonapproach.org/IRISImpactTheme#SustainableLandManagement",
+            "skos:inScheme": {
+                "@id": "https://codelist.commonapproach.org/IRISImpactTheme"
+            },
+            "rdfs:isDefinedBy": {
+                "@id": "https://codelist.commonapproach.org/IRISImpactTheme"
+            },
+            "cids:hasSpecification": {
+                "@id": "https://codelist.commonapproach.org/IRISImpactTheme"
+            },
+            "cids:definedBy": {
+                "@id": "cids:giin"
+            },
+            "prov:hadPrimarySource": {
+                "@id": "https://iris.thegiin.org/metrics/"
+            },
+            "skos:notation": "SustainableLandManagement",
+            "org:hasIdentifier": "SustainableLandManagement",
+            "skos:prefLabel": {
+                "@language": "en",
+                "@value": "Sustainable Land Management"
+            },
+            "org:hasName": "Sustainable Land Management",
+            "skos:broader": {
+                "@id": "iriscategory:Land"
+            },
+            "@type": [
+                "cids:Code",
+                "skos:Concept"
+            ]
+        },
+        {
+            "@id": "https://codelist.commonapproach.org/IRISImpactTheme#SustainableForestry",
+            "skos:inScheme": {
+                "@id": "https://codelist.commonapproach.org/IRISImpactTheme"
+            },
+            "rdfs:isDefinedBy": {
+                "@id": "https://codelist.commonapproach.org/IRISImpactTheme"
+            },
+            "cids:hasSpecification": {
+                "@id": "https://codelist.commonapproach.org/IRISImpactTheme"
+            },
+            "cids:definedBy": {
+                "@id": "cids:giin"
+            },
+            "prov:hadPrimarySource": {
+                "@id": "https://iris.thegiin.org/metrics/"
+            },
+            "skos:notation": "SustainableForestry",
+            "org:hasIdentifier": "SustainableForestry",
+            "skos:prefLabel": {
+                "@language": "en",
+                "@value": "Sustainable Forestry"
+            },
+            "org:hasName": "Sustainable Forestry",
+            "skos:broader": {
+                "@id": "iriscategory:Land"
+            },
+            "@type": [
+                "cids:Code",
+                "skos:Concept"
+            ]
+        },
+        {
+            "@id": "https://codelist.commonapproach.org/IRISImpactTheme#SustainableAgriculture",
+            "skos:inScheme": {
+                "@id": "https://codelist.commonapproach.org/IRISImpactTheme"
+            },
+            "rdfs:isDefinedBy": {
+                "@id": "https://codelist.commonapproach.org/IRISImpactTheme"
+            },
+            "cids:hasSpecification": {
+                "@id": "https://codelist.commonapproach.org/IRISImpactTheme"
+            },
+            "cids:definedBy": {
+                "@id": "cids:giin"
+            },
+            "prov:hadPrimarySource": {
+                "@id": "https://iris.thegiin.org/metrics/"
+            },
+            "skos:notation": "SustainableAgriculture",
+            "org:hasIdentifier": "SustainableAgriculture",
+            "skos:prefLabel": {
+                "@language": "en",
+                "@value": "Sustainable Agriculture"
+            },
+            "org:hasName": "Sustainable Agriculture",
+            "skos:broader": {
+                "@id": "iriscategory:Agriculture"
+            },
+            "@type": [
+                "cids:Code",
+                "skos:Concept"
+            ]
+        },
+        {
+            "@id": "https://codelist.commonapproach.org/IRISImpactTheme#SmallholderAgriculture",
+            "skos:inScheme": {
+                "@id": "https://codelist.commonapproach.org/IRISImpactTheme"
+            },
+            "rdfs:isDefinedBy": {
+                "@id": "https://codelist.commonapproach.org/IRISImpactTheme"
+            },
+            "cids:hasSpecification": {
+                "@id": "https://codelist.commonapproach.org/IRISImpactTheme"
+            },
+            "cids:definedBy": {
+                "@id": "cids:giin"
+            },
+            "prov:hadPrimarySource": {
+                "@id": "https://iris.thegiin.org/metrics/"
+            },
+            "skos:notation": "SmallholderAgriculture",
+            "org:hasIdentifier": "SmallholderAgriculture",
+            "skos:prefLabel": {
+                "@language": "en",
+                "@value": "Smallholder Agriculture"
+            },
+            "org:hasName": "Smallholder Agriculture",
+            "skos:broader": {
+                "@id": "iriscategory:Agriculture"
+            },
+            "@type": [
+                "cids:Code",
+                "skos:Concept"
+            ]
+        },
+        {
+            "@id": "https://codelist.commonapproach.org/IRISImpactTheme#ResilientInfrastructure",
+            "skos:inScheme": {
+                "@id": "https://codelist.commonapproach.org/IRISImpactTheme"
+            },
+            "rdfs:isDefinedBy": {
+                "@id": "https://codelist.commonapproach.org/IRISImpactTheme"
+            },
+            "cids:hasSpecification": {
+                "@id": "https://codelist.commonapproach.org/IRISImpactTheme"
+            },
+            "cids:definedBy": {
+                "@id": "cids:giin"
+            },
+            "prov:hadPrimarySource": {
+                "@id": "https://iris.thegiin.org/metrics/"
+            },
+            "skos:notation": "ResilientInfrastructure",
+            "org:hasIdentifier": "ResilientInfrastructure",
+            "skos:prefLabel": {
+                "@language": "en",
+                "@value": "Resilient Infrastructure"
+            },
+            "org:hasName": "Resilient Infrastructure",
+            "skos:broader": {
+                "@id": "iriscategory:Infrastructure"
+            },
+            "@type": [
+                "cids:Code",
+                "skos:Concept"
+            ]
+        },
+        {
+            "@id": "https://codelist.commonapproach.org/IRISImpactTheme#RacialEquity",
+            "skos:inScheme": {
+                "@id": "https://codelist.commonapproach.org/IRISImpactTheme"
+            },
+            "rdfs:isDefinedBy": {
+                "@id": "https://codelist.commonapproach.org/IRISImpactTheme"
+            },
+            "cids:hasSpecification": {
+                "@id": "https://codelist.commonapproach.org/IRISImpactTheme"
+            },
+            "cids:definedBy": {
+                "@id": "cids:giin"
+            },
+            "prov:hadPrimarySource": {
+                "@id": "https://iris.thegiin.org/metrics/"
+            },
+            "skos:notation": "RacialEquity",
+            "org:hasIdentifier": "RacialEquity",
+            "skos:prefLabel": {
+                "@language": "en",
+                "@value": "Racial Equity"
+            },
+            "org:hasName": "Racial Equity",
+            "skos:broader": {
+                "@id": "iriscategory:DiversityandInclusion"
+            },
+            "@type": [
+                "cids:Code",
+                "skos:Concept"
+            ]
+        },
+        {
+            "@id": "https://codelist.commonapproach.org/IRISImpactTheme#QualityJobs",
+            "skos:inScheme": {
+                "@id": "https://codelist.commonapproach.org/IRISImpactTheme"
+            },
+            "rdfs:isDefinedBy": {
+                "@id": "https://codelist.commonapproach.org/IRISImpactTheme"
+            },
+            "cids:hasSpecification": {
+                "@id": "https://codelist.commonapproach.org/IRISImpactTheme"
+            },
+            "cids:definedBy": {
+                "@id": "cids:giin"
+            },
+            "prov:hadPrimarySource": {
+                "@id": "https://iris.thegiin.org/metrics/"
+            },
+            "skos:notation": "QualityJobs",
+            "org:hasIdentifier": "QualityJobs",
+            "skos:prefLabel": {
+                "@language": "en",
+                "@value": "Quality Jobs"
+            },
+            "org:hasName": "Quality Jobs",
+            "skos:broader": {
+                "@id": "iriscategory:Employment"
+            },
+            "@type": [
+                "cids:Code",
+                "skos:Concept"
+            ]
+        },
+        {
+            "@id": "https://codelist.commonapproach.org/IRISImpactTheme#AccesstoQualityHealthcare",
+            "skos:inScheme": {
+                "@id": "https://codelist.commonapproach.org/IRISImpactTheme"
+            },
+            "rdfs:isDefinedBy": {
+                "@id": "https://codelist.commonapproach.org/IRISImpactTheme"
+            },
+            "cids:hasSpecification": {
+                "@id": "https://codelist.commonapproach.org/IRISImpactTheme"
+            },
+            "cids:definedBy": {
+                "@id": "cids:giin"
+            },
+            "prov:hadPrimarySource": {
+                "@id": "https://iris.thegiin.org/metrics/"
+            },
+            "skos:notation": "AccesstoQualityHealthcare",
+            "org:hasIdentifier": "AccesstoQualityHealthcare",
+            "skos:prefLabel": {
+                "@language": "en",
+                "@value": "Access to Quality Healthcare"
+            },
+            "org:hasName": "Access to Quality Healthcare",
+            "skos:broader": {
+                "@id": "iriscategory:Health"
+            },
+            "@type": [
+                "cids:Code",
+                "skos:Concept"
+            ]
+        },
+        {
+            "@id": "https://codelist.commonapproach.org/IRISImpactTheme#AccesstoQualityEducation",
+            "skos:inScheme": {
+                "@id": "https://codelist.commonapproach.org/IRISImpactTheme"
+            },
+            "rdfs:isDefinedBy": {
+                "@id": "https://codelist.commonapproach.org/IRISImpactTheme"
+            },
+            "cids:hasSpecification": {
+                "@id": "https://codelist.commonapproach.org/IRISImpactTheme"
+            },
+            "cids:definedBy": {
+                "@id": "cids:giin"
+            },
+            "prov:hadPrimarySource": {
+                "@id": "https://iris.thegiin.org/metrics/"
+            },
+            "skos:notation": "AccesstoQualityEducation",
+            "org:hasIdentifier": "AccesstoQualityEducation",
+            "skos:prefLabel": {
+                "@language": "en",
+                "@value": "Access to Quality Education"
+            },
+            "org:hasName": "Access to Quality Education",
+            "skos:broader": {
+                "@id": "iriscategory:Education"
+            },
+            "@type": [
+                "cids:Code",
+                "skos:Concept"
+            ]
+        },
+        {
+            "@id": "https://codelist.commonapproach.org/IRISImpactTheme#PollutionPrevention",
+            "skos:inScheme": {
+                "@id": "https://codelist.commonapproach.org/IRISImpactTheme"
+            },
+            "rdfs:isDefinedBy": {
+                "@id": "https://codelist.commonapproach.org/IRISImpactTheme"
+            },
+            "cids:hasSpecification": {
+                "@id": "https://codelist.commonapproach.org/IRISImpactTheme"
+            },
+            "cids:definedBy": {
+                "@id": "cids:giin"
+            },
+            "prov:hadPrimarySource": {
+                "@id": "https://iris.thegiin.org/metrics/"
+            },
+            "skos:notation": "PollutionPrevention",
+            "org:hasIdentifier": "PollutionPrevention",
+            "skos:prefLabel": {
+                "@language": "en",
+                "@value": "Pollution Prevention"
+            },
+            "org:hasName": "Pollution Prevention",
+            "skos:broader": {
+                "@id": "iriscategory:Pollution"
+            },
+            "@type": [
+                "cids:Code",
+                "skos:Concept"
+            ]
+        },
+        {
+            "@id": "https://codelist.commonapproach.org/IRISImpactTheme#Nutrition",
+            "skos:inScheme": {
+                "@id": "https://codelist.commonapproach.org/IRISImpactTheme"
+            },
+            "rdfs:isDefinedBy": {
+                "@id": "https://codelist.commonapproach.org/IRISImpactTheme"
+            },
+            "cids:hasSpecification": {
+                "@id": "https://codelist.commonapproach.org/IRISImpactTheme"
+            },
+            "cids:definedBy": {
+                "@id": "cids:giin"
+            },
+            "prov:hadPrimarySource": {
+                "@id": "https://iris.thegiin.org/metrics/"
+            },
+            "skos:notation": "Nutrition",
+            "org:hasIdentifier": "Nutrition",
+            "skos:prefLabel": {
+                "@language": "en",
+                "@value": "Nutrition"
+            },
+            "org:hasName": "Nutrition",
+            "skos:broader": {
+                "@id": "iriscategory:Health"
+            },
+            "@type": [
+                "cids:Code",
+                "skos:Concept"
+            ]
+        },
+        {
+            "@id": "https://codelist.commonapproach.org/IRISImpactTheme#NaturalResourcesConservation",
+            "skos:inScheme": {
+                "@id": "https://codelist.commonapproach.org/IRISImpactTheme"
+            },
+            "rdfs:isDefinedBy": {
+                "@id": "https://codelist.commonapproach.org/IRISImpactTheme"
+            },
+            "cids:hasSpecification": {
+                "@id": "https://codelist.commonapproach.org/IRISImpactTheme"
+            },
+            "cids:definedBy": {
+                "@id": "cids:giin"
+            },
+            "prov:hadPrimarySource": {
+                "@id": "https://iris.thegiin.org/metrics/"
+            },
+            "skos:notation": "NaturalResourcesConservation",
+            "org:hasIdentifier": "NaturalResourcesConservation",
+            "skos:prefLabel": {
+                "@language": "en",
+                "@value": "Natural Resources Conservation"
+            },
+            "org:hasName": "Natural Resources Conservation",
+            "skos:broader": {
+                "@id": "iriscategory:Land"
+            },
+            "@type": [
+                "cids:Code",
+                "skos:Concept"
+            ]
+        },
+        {
+            "@id": "https://codelist.commonapproach.org/IRISImpactTheme#MarineResourcesConservationandManagement",
+            "skos:inScheme": {
+                "@id": "https://codelist.commonapproach.org/IRISImpactTheme"
+            },
+            "rdfs:isDefinedBy": {
+                "@id": "https://codelist.commonapproach.org/IRISImpactTheme"
+            },
+            "cids:hasSpecification": {
+                "@id": "https://codelist.commonapproach.org/IRISImpactTheme"
+            },
+            "cids:definedBy": {
+                "@id": "cids:giin"
+            },
+            "prov:hadPrimarySource": {
+                "@id": "https://iris.thegiin.org/metrics/"
+            },
+            "skos:notation": "MarineResourcesConservationandManagement",
+            "org:hasIdentifier": "MarineResourcesConservationandManagement",
+            "skos:prefLabel": {
+                "@language": "en",
+                "@value": "Marine Resources Conservation & Management"
+            },
+            "org:hasName": "Marine Resources Conservation & Management",
+            "skos:broader": {
+                "@id": "iriscategory:OceansandCoastalZones"
+            },
+            "@type": [
+                "cids:Code",
+                "skos:Concept"
+            ]
+        },
+        {
+            "@id": "https://codelist.commonapproach.org/IRISImpactTheme#GreenBuildings",
+            "skos:inScheme": {
+                "@id": "https://codelist.commonapproach.org/IRISImpactTheme"
+            },
+            "rdfs:isDefinedBy": {
+                "@id": "https://codelist.commonapproach.org/IRISImpactTheme"
+            },
+            "cids:hasSpecification": {
+                "@id": "https://codelist.commonapproach.org/IRISImpactTheme"
+            },
+            "cids:definedBy": {
+                "@id": "cids:giin"
+            },
+            "prov:hadPrimarySource": {
+                "@id": "https://iris.thegiin.org/metrics/"
+            },
+            "skos:notation": "GreenBuildings",
+            "org:hasIdentifier": "GreenBuildings",
+            "skos:prefLabel": {
+                "@language": "en",
+                "@value": "Green Buildings"
+            },
+            "org:hasName": "Green Buildings",
+            "skos:broader": {
+                "@id": "iriscategory:RealEstate"
+            },
+            "@type": [
+                "cids:Code",
+                "skos:Concept"
+            ]
+        },
+        {
+            "@id": "https://codelist.commonapproach.org/IRISImpactTheme#FoodSecurity",
+            "skos:inScheme": {
+                "@id": "https://codelist.commonapproach.org/IRISImpactTheme"
+            },
+            "rdfs:isDefinedBy": {
+                "@id": "https://codelist.commonapproach.org/IRISImpactTheme"
+            },
+            "cids:hasSpecification": {
+                "@id": "https://codelist.commonapproach.org/IRISImpactTheme"
+            },
+            "cids:definedBy": {
+                "@id": "cids:giin"
+            },
+            "prov:hadPrimarySource": {
+                "@id": "https://iris.thegiin.org/metrics/"
+            },
+            "skos:notation": "FoodSecurity",
+            "org:hasIdentifier": "FoodSecurity",
+            "skos:prefLabel": {
+                "@language": "en",
+                "@value": "Food Security"
+            },
+            "org:hasName": "Food Security",
+            "skos:broader": {
+                "@id": "iriscategory:Agriculture"
+            },
+            "@type": [
+                "cids:Code",
+                "skos:Concept"
+            ]
+        },
+        {
+            "@id": "https://codelist.commonapproach.org/IRISImpactTheme#FinancialInclusion",
+            "skos:inScheme": {
+                "@id": "https://codelist.commonapproach.org/IRISImpactTheme"
+            },
+            "rdfs:isDefinedBy": {
+                "@id": "https://codelist.commonapproach.org/IRISImpactTheme"
+            },
+            "cids:hasSpecification": {
+                "@id": "https://codelist.commonapproach.org/IRISImpactTheme"
+            },
+            "cids:definedBy": {
+                "@id": "cids:giin"
+            },
+            "prov:hadPrimarySource": {
+                "@id": "https://iris.thegiin.org/metrics/"
+            },
+            "skos:notation": "FinancialInclusion",
+            "org:hasIdentifier": "FinancialInclusion",
+            "skos:prefLabel": {
+                "@language": "en",
+                "@value": "Financial Inclusion"
+            },
+            "org:hasName": "Financial Inclusion",
+            "skos:broader": {
+                "@id": "iriscategory:FinancialServices"
+            },
+            "@type": [
+                "cids:Code",
+                "skos:Concept"
+            ]
+        },
+        {
+            "@id": "https://codelist.commonapproach.org/IRISImpactTheme#EnergyEfficiency",
+            "skos:inScheme": {
+                "@id": "https://codelist.commonapproach.org/IRISImpactTheme"
+            },
+            "rdfs:isDefinedBy": {
+                "@id": "https://codelist.commonapproach.org/IRISImpactTheme"
+            },
+            "cids:hasSpecification": {
+                "@id": "https://codelist.commonapproach.org/IRISImpactTheme"
+            },
+            "cids:definedBy": {
+                "@id": "cids:giin"
+            },
+            "prov:hadPrimarySource": {
+                "@id": "https://iris.thegiin.org/metrics/"
+            },
+            "skos:notation": "EnergyEfficiency",
+            "org:hasIdentifier": "EnergyEfficiency",
+            "skos:prefLabel": {
+                "@language": "en",
+                "@value": "Energy Efficiency"
+            },
+            "org:hasName": "Energy Efficiency",
+            "skos:broader": {
+                "@id": "iriscategory:Energy"
+            },
+            "@type": [
+                "cids:Code",
+                "skos:Concept"
+            ]
+        },
+        {
+            "@id": "https://codelist.commonapproach.org/IRISImpactTheme#EnergyAccess",
+            "skos:inScheme": {
+                "@id": "https://codelist.commonapproach.org/IRISImpactTheme"
+            },
+            "rdfs:isDefinedBy": {
+                "@id": "https://codelist.commonapproach.org/IRISImpactTheme"
+            },
+            "cids:hasSpecification": {
+                "@id": "https://codelist.commonapproach.org/IRISImpactTheme"
+            },
+            "cids:definedBy": {
+                "@id": "cids:giin"
+            },
+            "prov:hadPrimarySource": {
+                "@id": "https://iris.thegiin.org/metrics/"
+            },
+            "skos:notation": "EnergyAccess",
+            "org:hasIdentifier": "EnergyAccess",
+            "skos:prefLabel": {
+                "@language": "en",
+                "@value": "Energy Access"
+            },
+            "org:hasName": "Energy Access",
+            "skos:broader": {
+                "@id": "iriscategory:Energy"
+            },
+            "@type": [
+                "cids:Code",
+                "skos:Concept"
+            ]
+        },
+        {
+            "@id": "https://codelist.commonapproach.org/IRISImpactTheme#ClimateChangeMitigation",
+            "skos:inScheme": {
+                "@id": "https://codelist.commonapproach.org/IRISImpactTheme"
+            },
+            "rdfs:isDefinedBy": {
+                "@id": "https://codelist.commonapproach.org/IRISImpactTheme"
+            },
+            "cids:hasSpecification": {
+                "@id": "https://codelist.commonapproach.org/IRISImpactTheme"
+            },
+            "cids:definedBy": {
+                "@id": "cids:giin"
+            },
+            "prov:hadPrimarySource": {
+                "@id": "https://iris.thegiin.org/metrics/"
+            },
+            "skos:notation": "ClimateChangeMitigation",
+            "org:hasIdentifier": "ClimateChangeMitigation",
+            "skos:prefLabel": {
+                "@language": "en",
+                "@value": "Climate Change Mitigation"
+            },
+            "org:hasName": "Climate Change Mitigation",
+            "skos:broader": {
+                "@id": "iriscategory:Climate"
+            },
+            "@type": [
+                "cids:Code",
+                "skos:Concept"
+            ]
+        },
+        {
+            "@id": "https://codelist.commonapproach.org/IRISImpactTheme#ClimateResilienceandAdaptation",
+            "skos:inScheme": {
+                "@id": "https://codelist.commonapproach.org/IRISImpactTheme"
+            },
+            "rdfs:isDefinedBy": {
+                "@id": "https://codelist.commonapproach.org/IRISImpactTheme"
+            },
+            "cids:hasSpecification": {
+                "@id": "https://codelist.commonapproach.org/IRISImpactTheme"
+            },
+            "cids:definedBy": {
+                "@id": "cids:giin"
+            },
+            "prov:hadPrimarySource": {
+                "@id": "https://iris.thegiin.org/metrics/"
+            },
+            "skos:notation": "ClimateResilienceandAdaptation",
+            "org:hasIdentifier": "ClimateResilienceandAdaptation",
+            "skos:prefLabel": {
+                "@language": "en",
+                "@value": "Climate Resilience and Adaptation"
+            },
+            "org:hasName": "Climate Resilience and Adaptation",
+            "skos:broader": {
+                "@id": "iriscategory:Climate"
+            },
+            "@type": [
+                "cids:Code",
+                "skos:Concept"
+            ]
+        },
+        {
+            "@id": "https://codelist.commonapproach.org/IRISImpactTheme#CleanEnergy",
+            "skos:inScheme": {
+                "@id": "https://codelist.commonapproach.org/IRISImpactTheme"
+            },
+            "rdfs:isDefinedBy": {
+                "@id": "https://codelist.commonapproach.org/IRISImpactTheme"
+            },
+            "cids:hasSpecification": {
+                "@id": "https://codelist.commonapproach.org/IRISImpactTheme"
+            },
+            "cids:definedBy": {
+                "@id": "cids:giin"
+            },
+            "prov:hadPrimarySource": {
+                "@id": "https://iris.thegiin.org/metrics/"
+            },
+            "skos:notation": "CleanEnergy",
+            "org:hasIdentifier": "CleanEnergy",
+            "skos:prefLabel": {
+                "@language": "en",
+                "@value": "Clean Energy"
+            },
+            "org:hasName": "Clean Energy",
+            "skos:broader": {
+                "@id": "iriscategory:Energy"
+            },
+            "@type": [
+                "cids:Code",
+                "skos:Concept"
+            ]
+        },
+        {
+            "@id": "https://codelist.commonapproach.org/IRISImpactTheme#CleanAir",
+            "skos:inScheme": {
+                "@id": "https://codelist.commonapproach.org/IRISImpactTheme"
+            },
+            "rdfs:isDefinedBy": {
+                "@id": "https://codelist.commonapproach.org/IRISImpactTheme"
+            },
+            "cids:hasSpecification": {
+                "@id": "https://codelist.commonapproach.org/IRISImpactTheme"
+            },
+            "cids:definedBy": {
+                "@id": "cids:giin"
+            },
+            "prov:hadPrimarySource": {
+                "@id": "https://iris.thegiin.org/metrics/"
+            },
+            "skos:notation": "CleanAir",
+            "org:hasIdentifier": "CleanAir",
+            "skos:prefLabel": {
+                "@language": "en",
+                "@value": "Clean Air"
+            },
+            "org:hasName": "Clean Air",
+            "skos:broader": {
+                "@id": "iriscategory:Air"
+            },
+            "@type": [
+                "cids:Code",
+                "skos:Concept"
+            ]
+        },
+        {
+            "@id": "https://codelist.commonapproach.org/IRISImpactTheme#BiodiversityandEcosystemConservation",
+            "skos:inScheme": {
+                "@id": "https://codelist.commonapproach.org/IRISImpactTheme"
+            },
+            "rdfs:isDefinedBy": {
+                "@id": "https://codelist.commonapproach.org/IRISImpactTheme"
+            },
+            "cids:hasSpecification": {
+                "@id": "https://codelist.commonapproach.org/IRISImpactTheme"
+            },
+            "cids:definedBy": {
+                "@id": "cids:giin"
+            },
+            "prov:hadPrimarySource": {
+                "@id": "https://iris.thegiin.org/metrics/"
+            },
+            "skos:notation": "BiodiversityandEcosystemConservation",
+            "org:hasIdentifier": "BiodiversityandEcosystemConservation",
+            "skos:prefLabel": {
+                "@language": "en",
+                "@value": "Biodiversity and Ecosystem Conservation"
+            },
+            "org:hasName": "Biodiversity and Ecosystem Conservation",
+            "skos:broader": {
+                "@id": "iriscategory:BiodiversityandEcosystems"
+            },
+            "@type": [
+                "cids:Code",
+                "skos:Concept"
+            ]
+        },
+        {
+            "@id": "https://codelist.commonapproach.org/IRISImpactTheme#AffordableQualityHousing",
+            "skos:inScheme": {
+                "@id": "https://codelist.commonapproach.org/IRISImpactTheme"
+            },
+            "rdfs:isDefinedBy": {
+                "@id": "https://codelist.commonapproach.org/IRISImpactTheme"
+            },
+            "cids:hasSpecification": {
+                "@id": "https://codelist.commonapproach.org/IRISImpactTheme"
+            },
+            "cids:definedBy": {
+                "@id": "cids:giin"
+            },
+            "prov:hadPrimarySource": {
+                "@id": "https://iris.thegiin.org/metrics/"
+            },
+            "skos:notation": "AffordableQualityHousing",
+            "org:hasIdentifier": "AffordableQualityHousing",
+            "skos:prefLabel": {
+                "@language": "en",
+                "@value": "Affordable Quality Housing"
+            },
+            "org:hasName": "Affordable Quality Housing",
+            "skos:broader": {
+                "@id": "iriscategory:RealEstate"
+            },
+            "@type": [
+                "cids:Code",
+                "skos:Concept"
+            ]
+        }
+    ],
+    "@context": {
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "org": "http://www.w3.org/ns/org#",
+        "iriscategory": "https://ontology.commonapproach.org/IRISImpactCategory#",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "voaf": "http://purl.org/vocommons/voaf#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "cids": "https://ontology.commonapproach.org/cids#",
+        "prov": "http://www.w3.org/ns/prov#",
+        "@vocab": "https://codelist.commonapproach.org/IRISImpactTheme#"
+    }
+}

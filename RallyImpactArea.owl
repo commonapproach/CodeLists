@@ -1,24 +1,100 @@
 <rdf:RDF
     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:iriscategory="https://codelist.commonapproach.org/IRISImpactCategory#"
+    xmlns:cids="https://ontology.commonapproach.org/cids#"
+    xmlns:voaf="http://purl.org/vocommons/voaf#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
     xmlns:dcterms="http://purl.org/dc/terms/"
     xmlns:owl="http://www.w3.org/2002/07/owl#"
     xmlns:prov="http://www.w3.org/ns/prov#"
     xmlns="https://codelist.commonapproach.org/RallyImpactArea#"
-    xmlns:iristheme="https://ontology.commonapproach.org/IRISImpactTheme#"
-    xmlns:cids="https://ontology.commonapproach.org/cids#"
     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
-    xmlns:voaf="http://purl.org/vocommons/voaf#"
-    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:iristheme="https://codelist.commonapproach.org/IRISImpactTheme#"
     xmlns:org="http://www.w3.org/ns/org#"
     xmlns:xsd="http://www.w3.org/2001/XMLSchema#" > 
-  <rdf:Description rdf:about="https://ontology.commonapproach.org/IRISImpactTheme#ClimateResilienceandAdaptation">
+  <rdf:Description rdf:about="IRISImpactTheme#MarineResourcesConservationandManagement">
     <skos:inScheme rdf:resource=""/>
+    <rdfs:isDefinedBy rdf:resource=""/>
+    <cids:hasSpecification rdf:resource=""/>
+    <cids:definedBy rdf:resource="https://ontology.commonapproach.org/cids#giin"/>
+    <prov:hadPrimarySource rdf:resource="https://iris.thegiin.org/metrics/"/>
+    <skos:notation>MarineResourcesConservationandManagement</skos:notation>
+    <org:hasIdentifier>MarineResourcesConservationandManagement</org:hasIdentifier>
+    <skos:prefLabel xml:lang="en">Marine Resources Conservation &amp; Management</skos:prefLabel>
+    <org:hasName>Marine Resources Conservation &amp; Management</org:hasName>
+    <skos:broader rdf:resource="IRISImpactCategory#OceansandCoastalZones"/>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://ontology.commonapproach.org/IRISImpactTheme#WasteManagement">
+  <rdf:Description rdf:about="IRISImpactTheme#SustainableWaterManagement">
     <skos:inScheme rdf:resource=""/>
+    <rdfs:isDefinedBy rdf:resource=""/>
+    <cids:hasSpecification rdf:resource=""/>
+    <cids:definedBy rdf:resource="https://ontology.commonapproach.org/cids#giin"/>
+    <prov:hadPrimarySource rdf:resource="https://iris.thegiin.org/metrics/"/>
+    <skos:notation>SustainableWaterManagement</skos:notation>
+    <org:hasIdentifier>SustainableWaterManagement</org:hasIdentifier>
+    <skos:prefLabel xml:lang="en">Sustainable Water Management</skos:prefLabel>
+    <org:hasName>Sustainable Water Management</org:hasName>
+    <skos:broader rdf:resource="IRISImpactCategory#Water"/>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://ontology.commonapproach.org/IRISImpactTheme#SmallholderAgriculture">
+  <rdf:Description rdf:about="IRISImpactTheme#ResilientInfrastructure">
     <skos:inScheme rdf:resource=""/>
+    <rdfs:isDefinedBy rdf:resource=""/>
+    <cids:hasSpecification rdf:resource=""/>
+    <cids:definedBy rdf:resource="https://ontology.commonapproach.org/cids#giin"/>
+    <prov:hadPrimarySource rdf:resource="https://iris.thegiin.org/metrics/"/>
+    <skos:notation>ResilientInfrastructure</skos:notation>
+    <org:hasIdentifier>ResilientInfrastructure</org:hasIdentifier>
+    <skos:prefLabel xml:lang="en">Resilient Infrastructure</skos:prefLabel>
+    <org:hasName>Resilient Infrastructure</org:hasName>
+    <skos:broader rdf:resource="IRISImpactCategory#Infrastructure"/>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="IRISImpactTheme#AccesstoQualityHealthcare">
+    <skos:inScheme rdf:resource=""/>
+    <rdfs:isDefinedBy rdf:resource=""/>
+    <cids:hasSpecification rdf:resource=""/>
+    <cids:definedBy rdf:resource="https://ontology.commonapproach.org/cids#giin"/>
+    <prov:hadPrimarySource rdf:resource="https://iris.thegiin.org/metrics/"/>
+    <skos:notation>AccesstoQualityHealthcare</skos:notation>
+    <org:hasIdentifier>AccesstoQualityHealthcare</org:hasIdentifier>
+    <skos:prefLabel xml:lang="en">Access to Quality Healthcare</skos:prefLabel>
+    <org:hasName>Access to Quality Healthcare</org:hasName>
+    <skos:broader rdf:resource="IRISImpactCategory#Health"/>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="IRISImpactTheme#GenderLens">
+    <skos:inScheme rdf:resource=""/>
+    <rdfs:isDefinedBy rdf:resource=""/>
+    <cids:hasSpecification rdf:resource=""/>
+    <cids:definedBy rdf:resource="https://ontology.commonapproach.org/cids#giin"/>
+    <prov:hadPrimarySource rdf:resource="https://iris.thegiin.org/metrics/"/>
+    <skos:notation>GenderLens</skos:notation>
+    <org:hasIdentifier>GenderLens</org:hasIdentifier>
+    <skos:prefLabel xml:lang="en">Gender Lens</skos:prefLabel>
+    <org:hasName>Gender Lens</org:hasName>
+    <skos:broader rdf:resource="IRISImpactCategory#DiversityandInclusion"/>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="IRISImpactTheme#SustainableAgriculture">
+    <skos:inScheme rdf:resource=""/>
+    <rdfs:isDefinedBy rdf:resource=""/>
+    <cids:hasSpecification rdf:resource=""/>
+    <cids:definedBy rdf:resource="https://ontology.commonapproach.org/cids#giin"/>
+    <prov:hadPrimarySource rdf:resource="https://iris.thegiin.org/metrics/"/>
+    <skos:notation>SustainableAgriculture</skos:notation>
+    <org:hasIdentifier>SustainableAgriculture</org:hasIdentifier>
+    <skos:prefLabel xml:lang="en">Sustainable Agriculture</skos:prefLabel>
+    <org:hasName>Sustainable Agriculture</org:hasName>
+    <skos:broader rdf:resource="IRISImpactCategory#Agriculture"/>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
   </rdf:Description>
   <rdf:Description rdf:about="#ArtsandCulture">
     <skos:inScheme rdf:resource=""/>
@@ -31,26 +107,47 @@
     <org:hasName>Arts and Culture</org:hasName>
     <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Sector"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://ontology.commonapproach.org/IRISImpactTheme#EnergyEfficiency">
+  <rdf:Description rdf:about="IRISImpactTheme#NaturalResourcesConservation">
     <skos:inScheme rdf:resource=""/>
+    <rdfs:isDefinedBy rdf:resource=""/>
+    <cids:hasSpecification rdf:resource=""/>
+    <cids:definedBy rdf:resource="https://ontology.commonapproach.org/cids#giin"/>
+    <prov:hadPrimarySource rdf:resource="https://iris.thegiin.org/metrics/"/>
+    <skos:notation>NaturalResourcesConservation</skos:notation>
+    <org:hasIdentifier>NaturalResourcesConservation</org:hasIdentifier>
+    <skos:prefLabel xml:lang="en">Natural Resources Conservation</skos:prefLabel>
+    <org:hasName>Natural Resources Conservation</org:hasName>
+    <skos:broader rdf:resource="IRISImpactCategory#Land"/>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://ontology.commonapproach.org/IRISImpactTheme#SustainableForestry">
+  <rdf:Description rdf:about="IRISImpactTheme#CleanEnergy">
     <skos:inScheme rdf:resource=""/>
+    <rdfs:isDefinedBy rdf:resource=""/>
+    <cids:hasSpecification rdf:resource=""/>
+    <cids:definedBy rdf:resource="https://ontology.commonapproach.org/cids#giin"/>
+    <prov:hadPrimarySource rdf:resource="https://iris.thegiin.org/metrics/"/>
+    <skos:notation>CleanEnergy</skos:notation>
+    <org:hasIdentifier>CleanEnergy</org:hasIdentifier>
+    <skos:prefLabel xml:lang="en">Clean Energy</skos:prefLabel>
+    <org:hasName>Clean Energy</org:hasName>
+    <skos:broader rdf:resource="IRISImpactCategory#Energy"/>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://ontology.commonapproach.org/IRISImpactTheme#SustainableAgriculture">
+  <rdf:Description rdf:about="IRISImpactTheme#EnergyAccess">
     <skos:inScheme rdf:resource=""/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://ontology.commonapproach.org/IRISImpactTheme#Nutrition">
-    <skos:inScheme rdf:resource=""/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://ontology.commonapproach.org/IRISImpactTheme#NaturalResourcesConservation">
-    <skos:inScheme rdf:resource=""/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://ontology.commonapproach.org/IRISImpactTheme#FinancialInclusion">
-    <skos:inScheme rdf:resource=""/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://ontology.commonapproach.org/IRISImpactTheme#GreenBuildings">
-    <skos:inScheme rdf:resource=""/>
+    <rdfs:isDefinedBy rdf:resource=""/>
+    <cids:hasSpecification rdf:resource=""/>
+    <cids:definedBy rdf:resource="https://ontology.commonapproach.org/cids#giin"/>
+    <prov:hadPrimarySource rdf:resource="https://iris.thegiin.org/metrics/"/>
+    <skos:notation>EnergyAccess</skos:notation>
+    <org:hasIdentifier>EnergyAccess</org:hasIdentifier>
+    <skos:prefLabel xml:lang="en">Energy Access</skos:prefLabel>
+    <org:hasName>Energy Access</org:hasName>
+    <skos:broader rdf:resource="IRISImpactCategory#Energy"/>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
   </rdf:Description>
   <rdf:Description rdf:about="#Other">
     <skos:inScheme rdf:resource=""/>
@@ -63,20 +160,47 @@
     <org:hasName>Other</org:hasName>
     <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Sector"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://ontology.commonapproach.org/IRISImpactTheme#ResilientInfrastructure">
+  <rdf:Description rdf:about="IRISImpactTheme#SustainableLandManagement">
     <skos:inScheme rdf:resource=""/>
+    <rdfs:isDefinedBy rdf:resource=""/>
+    <cids:hasSpecification rdf:resource=""/>
+    <cids:definedBy rdf:resource="https://ontology.commonapproach.org/cids#giin"/>
+    <prov:hadPrimarySource rdf:resource="https://iris.thegiin.org/metrics/"/>
+    <skos:notation>SustainableLandManagement</skos:notation>
+    <org:hasIdentifier>SustainableLandManagement</org:hasIdentifier>
+    <skos:prefLabel xml:lang="en">Sustainable Land Management</skos:prefLabel>
+    <org:hasName>Sustainable Land Management</org:hasName>
+    <skos:broader rdf:resource="IRISImpactCategory#Land"/>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://ontology.commonapproach.org/IRISImpactTheme#BiodiversityandEcosystemConservation">
+  <rdf:Description rdf:about="IRISImpactTheme#GreenBuildings">
     <skos:inScheme rdf:resource=""/>
+    <rdfs:isDefinedBy rdf:resource=""/>
+    <cids:hasSpecification rdf:resource=""/>
+    <cids:definedBy rdf:resource="https://ontology.commonapproach.org/cids#giin"/>
+    <prov:hadPrimarySource rdf:resource="https://iris.thegiin.org/metrics/"/>
+    <skos:notation>GreenBuildings</skos:notation>
+    <org:hasIdentifier>GreenBuildings</org:hasIdentifier>
+    <skos:prefLabel xml:lang="en">Green Buildings</skos:prefLabel>
+    <org:hasName>Green Buildings</org:hasName>
+    <skos:broader rdf:resource="IRISImpactCategory#RealEstate"/>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://ontology.commonapproach.org/IRISImpactTheme#PollutionPrevention">
+  <rdf:Description rdf:about="IRISImpactTheme#AccesstoQualityEducation">
     <skos:inScheme rdf:resource=""/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://ontology.commonapproach.org/IRISImpactTheme#CleanAir">
-    <skos:inScheme rdf:resource=""/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://ontology.commonapproach.org/IRISImpactTheme#AffordableQualityHousing">
-    <skos:inScheme rdf:resource=""/>
+    <rdfs:isDefinedBy rdf:resource=""/>
+    <cids:hasSpecification rdf:resource=""/>
+    <cids:definedBy rdf:resource="https://ontology.commonapproach.org/cids#giin"/>
+    <prov:hadPrimarySource rdf:resource="https://iris.thegiin.org/metrics/"/>
+    <skos:notation>AccesstoQualityEducation</skos:notation>
+    <org:hasIdentifier>AccesstoQualityEducation</org:hasIdentifier>
+    <skos:prefLabel xml:lang="en">Access to Quality Education</skos:prefLabel>
+    <org:hasName>Access to Quality Education</org:hasName>
+    <skos:broader rdf:resource="IRISImpactCategory#Education"/>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
   </rdf:Description>
   <rdf:Description rdf:about="">
     <dcterms:description xml:lang="en">An RDF vocabulary of Rally Impact Areas.</dcterms:description>
@@ -90,44 +214,201 @@
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
     <rdf:type rdf:resource="http://purl.org/vocommons/voaf#Vocabulary"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://ontology.commonapproach.org/IRISImpactTheme#WaterSanitationandHygiene">
+  <rdf:Description rdf:about="IRISImpactTheme#FinancialInclusion">
     <skos:inScheme rdf:resource=""/>
+    <rdfs:isDefinedBy rdf:resource=""/>
+    <cids:hasSpecification rdf:resource=""/>
+    <cids:definedBy rdf:resource="https://ontology.commonapproach.org/cids#giin"/>
+    <prov:hadPrimarySource rdf:resource="https://iris.thegiin.org/metrics/"/>
+    <skos:notation>FinancialInclusion</skos:notation>
+    <org:hasIdentifier>FinancialInclusion</org:hasIdentifier>
+    <skos:prefLabel xml:lang="en">Financial Inclusion</skos:prefLabel>
+    <org:hasName>Financial Inclusion</org:hasName>
+    <skos:broader rdf:resource="IRISImpactCategory#FinancialServices"/>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://ontology.commonapproach.org/IRISImpactTheme#AccesstoQualityHealthcare">
+  <rdf:Description rdf:about="IRISImpactTheme#ClimateResilienceandAdaptation">
     <skos:inScheme rdf:resource=""/>
+    <rdfs:isDefinedBy rdf:resource=""/>
+    <cids:hasSpecification rdf:resource=""/>
+    <cids:definedBy rdf:resource="https://ontology.commonapproach.org/cids#giin"/>
+    <prov:hadPrimarySource rdf:resource="https://iris.thegiin.org/metrics/"/>
+    <skos:notation>ClimateResilienceandAdaptation</skos:notation>
+    <org:hasIdentifier>ClimateResilienceandAdaptation</org:hasIdentifier>
+    <skos:prefLabel xml:lang="en">Climate Resilience and Adaptation</skos:prefLabel>
+    <org:hasName>Climate Resilience and Adaptation</org:hasName>
+    <skos:broader rdf:resource="IRISImpactCategory#Climate"/>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://ontology.commonapproach.org/IRISImpactTheme#SustainableWaterManagement">
+  <rdf:Description rdf:about="IRISImpactTheme#CleanAir">
     <skos:inScheme rdf:resource=""/>
+    <rdfs:isDefinedBy rdf:resource=""/>
+    <cids:hasSpecification rdf:resource=""/>
+    <cids:definedBy rdf:resource="https://ontology.commonapproach.org/cids#giin"/>
+    <prov:hadPrimarySource rdf:resource="https://iris.thegiin.org/metrics/"/>
+    <skos:notation>CleanAir</skos:notation>
+    <org:hasIdentifier>CleanAir</org:hasIdentifier>
+    <skos:prefLabel xml:lang="en">Clean Air</skos:prefLabel>
+    <org:hasName>Clean Air</org:hasName>
+    <skos:broader rdf:resource="IRISImpactCategory#Air"/>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://ontology.commonapproach.org/IRISImpactTheme#FoodSecurity">
+  <rdf:Description rdf:about="IRISImpactTheme#SustainableForestry">
     <skos:inScheme rdf:resource=""/>
+    <rdfs:isDefinedBy rdf:resource=""/>
+    <cids:hasSpecification rdf:resource=""/>
+    <cids:definedBy rdf:resource="https://ontology.commonapproach.org/cids#giin"/>
+    <prov:hadPrimarySource rdf:resource="https://iris.thegiin.org/metrics/"/>
+    <skos:notation>SustainableForestry</skos:notation>
+    <org:hasIdentifier>SustainableForestry</org:hasIdentifier>
+    <skos:prefLabel xml:lang="en">Sustainable Forestry</skos:prefLabel>
+    <org:hasName>Sustainable Forestry</org:hasName>
+    <skos:broader rdf:resource="IRISImpactCategory#Land"/>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://ontology.commonapproach.org/IRISImpactTheme#QualityJobs">
+  <rdf:Description rdf:about="IRISImpactTheme#FoodSecurity">
     <skos:inScheme rdf:resource=""/>
+    <rdfs:isDefinedBy rdf:resource=""/>
+    <cids:hasSpecification rdf:resource=""/>
+    <cids:definedBy rdf:resource="https://ontology.commonapproach.org/cids#giin"/>
+    <prov:hadPrimarySource rdf:resource="https://iris.thegiin.org/metrics/"/>
+    <skos:notation>FoodSecurity</skos:notation>
+    <org:hasIdentifier>FoodSecurity</org:hasIdentifier>
+    <skos:prefLabel xml:lang="en">Food Security</skos:prefLabel>
+    <org:hasName>Food Security</org:hasName>
+    <skos:broader rdf:resource="IRISImpactCategory#Agriculture"/>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://ontology.commonapproach.org/IRISImpactTheme#EnergyAccess">
+  <rdf:Description rdf:about="IRISImpactTheme#WasteManagement">
     <skos:inScheme rdf:resource=""/>
+    <rdfs:isDefinedBy rdf:resource=""/>
+    <cids:hasSpecification rdf:resource=""/>
+    <cids:definedBy rdf:resource="https://ontology.commonapproach.org/cids#giin"/>
+    <prov:hadPrimarySource rdf:resource="https://iris.thegiin.org/metrics/"/>
+    <skos:notation>WasteManagement</skos:notation>
+    <org:hasIdentifier>WasteManagement</org:hasIdentifier>
+    <skos:prefLabel xml:lang="en">Waste Management</skos:prefLabel>
+    <org:hasName>Waste Management</org:hasName>
+    <skos:broader rdf:resource="IRISImpactCategory#Waste"/>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://ontology.commonapproach.org/IRISImpactTheme#ClimateChangeMitigation">
+  <rdf:Description rdf:about="IRISImpactTheme#WaterSanitationandHygiene">
     <skos:inScheme rdf:resource=""/>
+    <rdfs:isDefinedBy rdf:resource=""/>
+    <cids:hasSpecification rdf:resource=""/>
+    <cids:definedBy rdf:resource="https://ontology.commonapproach.org/cids#giin"/>
+    <prov:hadPrimarySource rdf:resource="https://iris.thegiin.org/metrics/"/>
+    <skos:notation>WaterSanitationandHygiene</skos:notation>
+    <org:hasIdentifier>WaterSanitationandHygiene</org:hasIdentifier>
+    <skos:prefLabel xml:lang="en">Water Sanitation and Hygiene (WASH)</skos:prefLabel>
+    <org:hasName>Water Sanitation and Hygiene (WASH)</org:hasName>
+    <skos:broader rdf:resource="IRISImpactCategory#Water"/>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://ontology.commonapproach.org/IRISImpactTheme#SustainableLandManagement">
+  <rdf:Description rdf:about="IRISImpactTheme#QualityJobs">
     <skos:inScheme rdf:resource=""/>
+    <rdfs:isDefinedBy rdf:resource=""/>
+    <cids:hasSpecification rdf:resource=""/>
+    <cids:definedBy rdf:resource="https://ontology.commonapproach.org/cids#giin"/>
+    <prov:hadPrimarySource rdf:resource="https://iris.thegiin.org/metrics/"/>
+    <skos:notation>QualityJobs</skos:notation>
+    <org:hasIdentifier>QualityJobs</org:hasIdentifier>
+    <skos:prefLabel xml:lang="en">Quality Jobs</skos:prefLabel>
+    <org:hasName>Quality Jobs</org:hasName>
+    <skos:broader rdf:resource="IRISImpactCategory#Employment"/>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://ontology.commonapproach.org/IRISImpactTheme#GenderLens">
+  <rdf:Description rdf:about="IRISImpactTheme#ClimateChangeMitigation">
     <skos:inScheme rdf:resource=""/>
+    <rdfs:isDefinedBy rdf:resource=""/>
+    <cids:hasSpecification rdf:resource=""/>
+    <cids:definedBy rdf:resource="https://ontology.commonapproach.org/cids#giin"/>
+    <prov:hadPrimarySource rdf:resource="https://iris.thegiin.org/metrics/"/>
+    <skos:notation>ClimateChangeMitigation</skos:notation>
+    <org:hasIdentifier>ClimateChangeMitigation</org:hasIdentifier>
+    <skos:prefLabel xml:lang="en">Climate Change Mitigation</skos:prefLabel>
+    <org:hasName>Climate Change Mitigation</org:hasName>
+    <skos:broader rdf:resource="IRISImpactCategory#Climate"/>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://ontology.commonapproach.org/IRISImpactTheme#MarineResourcesConservationandManagement">
+  <rdf:Description rdf:about="IRISImpactTheme#AffordableQualityHousing">
     <skos:inScheme rdf:resource=""/>
+    <rdfs:isDefinedBy rdf:resource=""/>
+    <cids:hasSpecification rdf:resource=""/>
+    <cids:definedBy rdf:resource="https://ontology.commonapproach.org/cids#giin"/>
+    <prov:hadPrimarySource rdf:resource="https://iris.thegiin.org/metrics/"/>
+    <skos:notation>AffordableQualityHousing</skos:notation>
+    <org:hasIdentifier>AffordableQualityHousing</org:hasIdentifier>
+    <skos:prefLabel xml:lang="en">Affordable Quality Housing</skos:prefLabel>
+    <org:hasName>Affordable Quality Housing</org:hasName>
+    <skos:broader rdf:resource="IRISImpactCategory#RealEstate"/>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://ontology.commonapproach.org/IRISImpactTheme#RacialEquity">
+  <rdf:Description rdf:about="IRISImpactTheme#BiodiversityandEcosystemConservation">
     <skos:inScheme rdf:resource=""/>
+    <rdfs:isDefinedBy rdf:resource=""/>
+    <cids:hasSpecification rdf:resource=""/>
+    <cids:definedBy rdf:resource="https://ontology.commonapproach.org/cids#giin"/>
+    <prov:hadPrimarySource rdf:resource="https://iris.thegiin.org/metrics/"/>
+    <skos:notation>BiodiversityandEcosystemConservation</skos:notation>
+    <org:hasIdentifier>BiodiversityandEcosystemConservation</org:hasIdentifier>
+    <skos:prefLabel xml:lang="en">Biodiversity and Ecosystem Conservation</skos:prefLabel>
+    <org:hasName>Biodiversity and Ecosystem Conservation</org:hasName>
+    <skos:broader rdf:resource="IRISImpactCategory#BiodiversityandEcosystems"/>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://ontology.commonapproach.org/IRISImpactTheme#CleanEnergy">
+  <rdf:Description rdf:about="IRISImpactTheme#SmallholderAgriculture">
     <skos:inScheme rdf:resource=""/>
+    <rdfs:isDefinedBy rdf:resource=""/>
+    <cids:hasSpecification rdf:resource=""/>
+    <cids:definedBy rdf:resource="https://ontology.commonapproach.org/cids#giin"/>
+    <prov:hadPrimarySource rdf:resource="https://iris.thegiin.org/metrics/"/>
+    <skos:notation>SmallholderAgriculture</skos:notation>
+    <org:hasIdentifier>SmallholderAgriculture</org:hasIdentifier>
+    <skos:prefLabel xml:lang="en">Smallholder Agriculture</skos:prefLabel>
+    <org:hasName>Smallholder Agriculture</org:hasName>
+    <skos:broader rdf:resource="IRISImpactCategory#Agriculture"/>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://ontology.commonapproach.org/IRISImpactTheme#AccesstoQualityEducation">
+  <rdf:Description rdf:about="IRISImpactTheme#Nutrition">
     <skos:inScheme rdf:resource=""/>
+    <rdfs:isDefinedBy rdf:resource=""/>
+    <cids:hasSpecification rdf:resource=""/>
+    <cids:definedBy rdf:resource="https://ontology.commonapproach.org/cids#giin"/>
+    <prov:hadPrimarySource rdf:resource="https://iris.thegiin.org/metrics/"/>
+    <skos:notation>Nutrition</skos:notation>
+    <org:hasIdentifier>Nutrition</org:hasIdentifier>
+    <skos:prefLabel xml:lang="en">Nutrition</skos:prefLabel>
+    <org:hasName>Nutrition</org:hasName>
+    <skos:broader rdf:resource="IRISImpactCategory#Health"/>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="IRISImpactTheme#PollutionPrevention">
+    <skos:inScheme rdf:resource=""/>
+    <rdfs:isDefinedBy rdf:resource=""/>
+    <cids:hasSpecification rdf:resource=""/>
+    <cids:definedBy rdf:resource="https://ontology.commonapproach.org/cids#giin"/>
+    <prov:hadPrimarySource rdf:resource="https://iris.thegiin.org/metrics/"/>
+    <skos:notation>PollutionPrevention</skos:notation>
+    <org:hasIdentifier>PollutionPrevention</org:hasIdentifier>
+    <skos:prefLabel xml:lang="en">Pollution Prevention</skos:prefLabel>
+    <org:hasName>Pollution Prevention</org:hasName>
+    <skos:broader rdf:resource="IRISImpactCategory#Pollution"/>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
   </rdf:Description>
   <rdf:Description rdf:about="#CommunityDevelopment">
     <skos:inScheme rdf:resource=""/>
@@ -139,5 +420,33 @@
     <skos:prefLabel xml:lang="en">Community Development</skos:prefLabel>
     <org:hasName>Community Development</org:hasName>
     <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Sector"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="IRISImpactTheme#EnergyEfficiency">
+    <skos:inScheme rdf:resource=""/>
+    <rdfs:isDefinedBy rdf:resource=""/>
+    <cids:hasSpecification rdf:resource=""/>
+    <cids:definedBy rdf:resource="https://ontology.commonapproach.org/cids#giin"/>
+    <prov:hadPrimarySource rdf:resource="https://iris.thegiin.org/metrics/"/>
+    <skos:notation>EnergyEfficiency</skos:notation>
+    <org:hasIdentifier>EnergyEfficiency</org:hasIdentifier>
+    <skos:prefLabel xml:lang="en">Energy Efficiency</skos:prefLabel>
+    <org:hasName>Energy Efficiency</org:hasName>
+    <skos:broader rdf:resource="IRISImpactCategory#Energy"/>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="IRISImpactTheme#RacialEquity">
+    <skos:inScheme rdf:resource=""/>
+    <rdfs:isDefinedBy rdf:resource=""/>
+    <cids:hasSpecification rdf:resource=""/>
+    <cids:definedBy rdf:resource="https://ontology.commonapproach.org/cids#giin"/>
+    <prov:hadPrimarySource rdf:resource="https://iris.thegiin.org/metrics/"/>
+    <skos:notation>RacialEquity</skos:notation>
+    <org:hasIdentifier>RacialEquity</org:hasIdentifier>
+    <skos:prefLabel xml:lang="en">Racial Equity</skos:prefLabel>
+    <org:hasName>Racial Equity</org:hasName>
+    <skos:broader rdf:resource="IRISImpactCategory#DiversityandInclusion"/>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
   </rdf:Description>
 </rdf:RDF>

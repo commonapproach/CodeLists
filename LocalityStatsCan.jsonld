@@ -1,442 +1,250 @@
-[
-  {
-    "@id": "https://codelist.commonapproach.org/codeLists/LocalityStatsCan",
-    "@type": [
-      "http://www.w3.org/2002/07/owl#Ontology",
-      "http://purl.org/vocommons/voafVocabulary"
-    ],
-    "http://purl.org/dc/terms/creator": [
-      {
-        "@id": "https://ontology.commonapproach.org/cids#ac"
-      }
-    ],
-    "http://purl.org/dc/terms/date": [
-      {
-        "@value": "08-10-2024"
-      }
-    ],
-    "http://purl.org/dc/terms/description": [
-      {
-        "@language": "en",
-        "@value": "A codelist vocabulary of Locality Codelists according to Statistics Canada definitions."
-      }
-    ],
-    "http://purl.org/dc/terms/title": [
-      {
-        "@language": "en",
-        "@value": "Locality Codelist"
-      }
-    ],
-    "http://purl.org/vocab/vann/preferredNamespacePrefix": [
-      {
-        "@value": "LocalityStatsCan"
-      }
-    ],
-    "http://purl.org/vocab/vann/preferredNamespaceUri": [
-      {
-        "@id": "https://codelist.commonapproach.org/codeLists/LocalityStatsCan#"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#label": [
-      {
-        "@language": "en",
-        "@value": "Locality Codelist"
-      }
-    ],
-    "http://www.w3.org/2002/07/owl#imports": [
-      {
-        "@id": "https://ontology.commonapproach.org/owl/cids"
-      },
-      {
-        "@id": "http://www.w3.org/2006/time"
-      }
-    ],
-    "http://www.w3.org/2002/07/owl#versionInfo": [
-      {
-        "@value": "1.0"
-      }
-    ],
-    "http://xmlns.com/foaf/0.1/name": [
-      {
-        "@language": "en",
-        "@value": "Locality Codelist"
-      }
-    ],
-    "https://ontology.commonapproach.org/cids#hasName": [
-      {
-        "@language": "en",
-        "@value": "Locality Codelist"
-      }
-    ]
-  },
-  {
-    "@id": "https://codelist.commonapproach.org/codeLists/LocalityStatsCan#loc7",
-    "@type": [
-      "https://ontology.commonapproach.org/cids#Locality",
-      "https://ontology.commonapproach.org/cids#Code",
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
-      {
-        "@id": "https://codelist.commonapproach.org/codeLists/LocalityStatsCan#"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#label": [
-      {
-        "@language": "en",
-        "@value": "All of Canada"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "en",
-        "@value": ""
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://codelist.commonapproach.org/codeLists/LocalityStatsCan#dataset"
-      }
-    ],
-    "https://ontology.commonapproach.org/cids#definedBy": [
-      {
-        "@id": "https://ontology.commonapproach.org/cids#statsCan"
-      }
-    ],
-    "https://ontology.commonapproach.org/cids#hasDefinition": [
-      {
-        "@language": "en",
-        "@value": ""
-      }
-    ],
-    "https://ontology.commonapproach.org/cids#hasIdentifier": [
-      {
-        "@value": "loc7"
-      }
-    ],
-    "https://ontology.commonapproach.org/cids#hasName": [
-      {
-        "@language": "en",
-        "@value": "All of Canada"
-      }
-    ]
-  },
-  {
-    "@id": "https://codelist.commonapproach.org/codeLists/LocalityStatsCan#loc4",
-    "@type": [
-      "https://ontology.commonapproach.org/cids#Locality",
-      "https://ontology.commonapproach.org/cids#Code",
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
-      {
-        "@id": "https://codelist.commonapproach.org/codeLists/LocalityStatsCan#"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#label": [
-      {
-        "@language": "en",
-        "@value": "Rural Areas"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "en",
-        "@value": "All areas outside population centres are classified as rural areas."
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://codelist.commonapproach.org/codeLists/LocalityStatsCan#dataset"
-      }
-    ],
-    "https://ontology.commonapproach.org/cids#definedBy": [
-      {
-        "@id": "https://ontology.commonapproach.org/cids#statsCan"
-      }
-    ],
-    "https://ontology.commonapproach.org/cids#hasDefinition": [
-      {
-        "@language": "en",
-        "@value": "All areas outside population centres are classified as rural areas."
-      }
-    ],
-    "https://ontology.commonapproach.org/cids#hasIdentifier": [
-      {
-        "@value": "loc4"
-      }
-    ],
-    "https://ontology.commonapproach.org/cids#hasName": [
-      {
-        "@language": "en",
-        "@value": "Rural Areas"
-      }
-    ]
-  },
-  {
-    "@id": "https://codelist.commonapproach.org/codeLists/LocalityStatsCan#loc6",
-    "@type": [
-      "https://ontology.commonapproach.org/cids#Locality",
-      "https://ontology.commonapproach.org/cids#Code",
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
-      {
-        "@id": "https://codelist.commonapproach.org/codeLists/LocalityStatsCan#"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#label": [
-      {
-        "@language": "en",
-        "@value": "Northern Canada"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "en",
-        "@value": ""
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://codelist.commonapproach.org/codeLists/LocalityStatsCan#dataset"
-      }
-    ],
-    "https://ontology.commonapproach.org/cids#definedBy": [
-      {
-        "@id": "https://ontology.commonapproach.org/cids#statsCan"
-      }
-    ],
-    "https://ontology.commonapproach.org/cids#hasDefinition": [
-      {
-        "@language": "en",
-        "@value": ""
-      }
-    ],
-    "https://ontology.commonapproach.org/cids#hasIdentifier": [
-      {
-        "@value": "loc6"
-      }
-    ],
-    "https://ontology.commonapproach.org/cids#hasName": [
-      {
-        "@language": "en",
-        "@value": "Northern Canada"
-      }
-    ]
-  },
-  {
-    "@id": "https://codelist.commonapproach.org/codeLists/LocalityStatsCan#loc3",
-    "@type": [
-      "https://ontology.commonapproach.org/cids#Locality",
-      "https://ontology.commonapproach.org/cids#Code",
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
-      {
-        "@id": "https://codelist.commonapproach.org/codeLists/LocalityStatsCan#"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#label": [
-      {
-        "@language": "en",
-        "@value": "Small Population Centre"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "en",
-        "@value": "A small population centres, with a population between 1,000 and 29,999."
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://codelist.commonapproach.org/codeLists/LocalityStatsCan#dataset"
-      }
-    ],
-    "https://ontology.commonapproach.org/cids#definedBy": [
-      {
-        "@id": "https://ontology.commonapproach.org/cids#statsCan"
-      }
-    ],
-    "https://ontology.commonapproach.org/cids#hasDefinition": [
-      {
-        "@language": "en",
-        "@value": "A small population centres, with a population between 1,000 and 29,999."
-      }
-    ],
-    "https://ontology.commonapproach.org/cids#hasIdentifier": [
-      {
-        "@value": "loc3"
-      }
-    ],
-    "https://ontology.commonapproach.org/cids#hasName": [
-      {
-        "@language": "en",
-        "@value": "Small Population Centre"
-      }
-    ]
-  },
-  {
-    "@id": "https://codelist.commonapproach.org/codeLists/LocalityStatsCan#loc2",
-    "@type": [
-      "https://ontology.commonapproach.org/cids#Locality",
-      "https://ontology.commonapproach.org/cids#Code",
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
-      {
-        "@id": "https://codelist.commonapproach.org/codeLists/LocalityStatsCan#"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#label": [
-      {
-        "@language": "en",
-        "@value": "Medium Population Centre"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "en",
-        "@value": "A medium population centres, with a population between 30,000 and 99,999."
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://codelist.commonapproach.org/codeLists/LocalityStatsCan#dataset"
-      }
-    ],
-    "https://ontology.commonapproach.org/cids#definedBy": [
-      {
-        "@id": "https://ontology.commonapproach.org/cids#statsCan"
-      }
-    ],
-    "https://ontology.commonapproach.org/cids#hasDefinition": [
-      {
-        "@language": "en",
-        "@value": "medium population centres, with a population between 30,000 and 99,999."
-      }
-    ],
-    "https://ontology.commonapproach.org/cids#hasIdentifier": [
-      {
-        "@value": "loc2"
-      }
-    ],
-    "https://ontology.commonapproach.org/cids#hasName": [
-      {
-        "@language": "en",
-        "@value": "Medium Population Centre"
-      }
-    ]
-  },
-  {
-    "@id": "https://codelist.commonapproach.org/codeLists/LocalityStatsCan#loc1",
-    "@type": [
-      "https://ontology.commonapproach.org/cids#Locality",
-      "https://ontology.commonapproach.org/cids#Code",
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
-      {
-        "@id": "https://codelist.commonapproach.org/codeLists/LocalityStatsCan#"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#label": [
-      {
-        "@language": "en",
-        "@value": "Large Urban Population Centre"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "en",
-        "@value": "A large urban population centres, with a population of 100,000 or more."
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://codelist.commonapproach.org/codeLists/LocalityStatsCan#dataset"
-      }
-    ],
-    "https://ontology.commonapproach.org/cids#definedBy": [
-      {
-        "@id": "https://ontology.commonapproach.org/cids#statsCan"
-      }
-    ],
-    "https://ontology.commonapproach.org/cids#hasDefinition": [
-      {
-        "@language": "en",
-        "@value": "A large urban population centres, with a population of 100,000 or more."
-      }
-    ],
-    "https://ontology.commonapproach.org/cids#hasIdentifier": [
-      {
-        "@value": "loc1"
-      }
-    ],
-    "https://ontology.commonapproach.org/cids#hasName": [
-      {
-        "@language": "en",
-        "@value": "Large Urban Population Centre"
-      }
-    ]
-  },
-  {
-    "@id": "https://codelist.commonapproach.org/codeLists/LocalityStatsCan#dataset",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#ConceptScheme"
-    ]
-  },
-  {
-    "@id": "https://codelist.commonapproach.org/codeLists/LocalityStatsCan#loc5",
-    "@type": [
-      "https://ontology.commonapproach.org/cids#Locality",
-      "https://ontology.commonapproach.org/cids#Code",
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
-      {
-        "@id": "https://codelist.commonapproach.org/codeLists/LocalityStatsCan#"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#label": [
-      {
-        "@language": "en",
-        "@value": "Indigenous Communities and Lands"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "en",
-        "@value": ""
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://codelist.commonapproach.org/codeLists/LocalityStatsCan#dataset"
-      }
-    ],
-    "https://ontology.commonapproach.org/cids#definedBy": [
-      {
-        "@id": "https://ontology.commonapproach.org/cids#statsCan"
-      }
-    ],
-    "https://ontology.commonapproach.org/cids#hasDefinition": [
-      {
-        "@language": "en",
-        "@value": ""
-      }
-    ],
-    "https://ontology.commonapproach.org/cids#hasIdentifier": [
-      {
-        "@value": "loc5"
-      }
-    ],
-    "https://ontology.commonapproach.org/cids#hasName": [
-      {
-        "@language": "en",
-        "@value": "Indigenous Communities and Lands"
-      }
-    ]
-  }
-]
+{
+    "@graph": [
+        {
+            "@id": "https://codelist.commonapproach.org/LocalityStatsCan#loc7",
+            "skos:inScheme": {
+                "@id": "https://codelist.commonapproach.org/LocalityStatsCan"
+            },
+            "rdfs:isDefinedBy": {
+                "@id": "https://codelist.commonapproach.org/LocalityStatsCan"
+            },
+            "cids:hasSpecification": {
+                "@id": "https://codelist.commonapproach.org/LocalityStatsCan"
+            },
+            "cids:definedBy": {
+                "@id": "cids:statsCan"
+            },
+            "skos:notation": "loc7",
+            "skos:definition": {
+                "@language": "en",
+                "@value": ""
+            },
+            "org:hasIdentifier": "loc7",
+            "cids:hasDescription": "",
+            "skos:prefLabel": {
+                "@language": "en",
+                "@value": "All of Canada"
+            },
+            "org:hasName": "All of Canada",
+            "@type": "cids:Locality"
+        },
+        {
+            "@id": "https://codelist.commonapproach.org/LocalityStatsCan",
+            "dcterms:description": {
+                "@language": "en",
+                "@value": "A codelist vocabulary of Locality Codelists according to Statistics Canada definitions."
+            },
+            "dcterms:title": {
+                "@language": "en",
+                "@value": "Locality Codelist"
+            },
+            "skos:prefLabel": {
+                "@language": "en",
+                "@value": "Locality Codelist"
+            },
+            "owl:versionInfo": "2.0",
+            "dcterms:date": {
+                "@value": "2025-12-01",
+                "@type": "xsd:date"
+            },
+            "dcterms:creator": {
+                "@id": "cids:ac"
+            },
+            "owl:imports": [
+                {
+                    "@id": "https://ontology.commonapproach.org/owl/cids"
+                },
+                {
+                    "@id": "http://www.w3.org/2006/time"
+                }
+            ],
+            "@type": [
+                "skos:ConceptScheme",
+                "owl:Ontology",
+                "voaf:Vocabulary"
+            ]
+        },
+        {
+            "@id": "https://codelist.commonapproach.org/LocalityStatsCan#loc6",
+            "skos:inScheme": {
+                "@id": "https://codelist.commonapproach.org/LocalityStatsCan"
+            },
+            "rdfs:isDefinedBy": {
+                "@id": "https://codelist.commonapproach.org/LocalityStatsCan"
+            },
+            "cids:hasSpecification": {
+                "@id": "https://codelist.commonapproach.org/LocalityStatsCan"
+            },
+            "cids:definedBy": {
+                "@id": "cids:statsCan"
+            },
+            "skos:notation": "loc6",
+            "skos:definition": {
+                "@language": "en",
+                "@value": ""
+            },
+            "org:hasIdentifier": "loc6",
+            "cids:hasDescription": "",
+            "skos:prefLabel": {
+                "@language": "en",
+                "@value": "Northern Canada"
+            },
+            "org:hasName": "Northern Canada",
+            "@type": "cids:Locality"
+        },
+        {
+            "@id": "https://codelist.commonapproach.org/LocalityStatsCan#loc5",
+            "skos:inScheme": {
+                "@id": "https://codelist.commonapproach.org/LocalityStatsCan"
+            },
+            "rdfs:isDefinedBy": {
+                "@id": "https://codelist.commonapproach.org/LocalityStatsCan"
+            },
+            "cids:hasSpecification": {
+                "@id": "https://codelist.commonapproach.org/LocalityStatsCan"
+            },
+            "cids:definedBy": {
+                "@id": "cids:statsCan"
+            },
+            "skos:notation": "loc5",
+            "skos:definition": {
+                "@language": "en",
+                "@value": ""
+            },
+            "org:hasIdentifier": "loc5",
+            "cids:hasDescription": "",
+            "skos:prefLabel": {
+                "@language": "en",
+                "@value": "Indigenous Communities and Lands"
+            },
+            "org:hasName": "Indigenous Communities and Lands",
+            "@type": "cids:Locality"
+        },
+        {
+            "@id": "https://codelist.commonapproach.org/LocalityStatsCan#loc4",
+            "skos:inScheme": {
+                "@id": "https://codelist.commonapproach.org/LocalityStatsCan"
+            },
+            "rdfs:isDefinedBy": {
+                "@id": "https://codelist.commonapproach.org/LocalityStatsCan"
+            },
+            "cids:hasSpecification": {
+                "@id": "https://codelist.commonapproach.org/LocalityStatsCan"
+            },
+            "cids:definedBy": {
+                "@id": "cids:statsCan"
+            },
+            "skos:notation": "loc4",
+            "skos:definition": {
+                "@language": "en",
+                "@value": "All areas outside population centres are classified as rural areas."
+            },
+            "org:hasIdentifier": "loc4",
+            "cids:hasDescription": "All areas outside population centres are classified as rural areas.",
+            "skos:prefLabel": {
+                "@language": "en",
+                "@value": "Rural Areas"
+            },
+            "org:hasName": "Rural Areas",
+            "@type": "cids:Locality"
+        },
+        {
+            "@id": "https://codelist.commonapproach.org/LocalityStatsCan#loc3",
+            "skos:inScheme": {
+                "@id": "https://codelist.commonapproach.org/LocalityStatsCan"
+            },
+            "rdfs:isDefinedBy": {
+                "@id": "https://codelist.commonapproach.org/LocalityStatsCan"
+            },
+            "cids:hasSpecification": {
+                "@id": "https://codelist.commonapproach.org/LocalityStatsCan"
+            },
+            "cids:definedBy": {
+                "@id": "cids:statsCan"
+            },
+            "skos:notation": "loc3",
+            "skos:definition": {
+                "@language": "en",
+                "@value": "A small population centres, with a population between 1,000 and 29,999."
+            },
+            "org:hasIdentifier": "loc3",
+            "cids:hasDescription": "A small population centres, with a population between 1,000 and 29,999.",
+            "skos:prefLabel": {
+                "@language": "en",
+                "@value": "Small Population Centre"
+            },
+            "org:hasName": "Small Population Centre",
+            "@type": "cids:Locality"
+        },
+        {
+            "@id": "https://codelist.commonapproach.org/LocalityStatsCan#loc2",
+            "skos:inScheme": {
+                "@id": "https://codelist.commonapproach.org/LocalityStatsCan"
+            },
+            "rdfs:isDefinedBy": {
+                "@id": "https://codelist.commonapproach.org/LocalityStatsCan"
+            },
+            "cids:hasSpecification": {
+                "@id": "https://codelist.commonapproach.org/LocalityStatsCan"
+            },
+            "cids:definedBy": {
+                "@id": "cids:statsCan"
+            },
+            "skos:notation": "loc2",
+            "skos:definition": {
+                "@language": "en",
+                "@value": "medium population centres, with a population between 30,000 and 99,999."
+            },
+            "org:hasIdentifier": "loc2",
+            "cids:hasDescription": "medium population centres, with a population between 30,000 and 99,999.",
+            "skos:prefLabel": {
+                "@language": "en",
+                "@value": "Medium Population Centre"
+            },
+            "org:hasName": "Medium Population Centre",
+            "@type": "cids:Locality"
+        },
+        {
+            "@id": "https://codelist.commonapproach.org/LocalityStatsCan#loc1",
+            "skos:inScheme": {
+                "@id": "https://codelist.commonapproach.org/LocalityStatsCan"
+            },
+            "rdfs:isDefinedBy": {
+                "@id": "https://codelist.commonapproach.org/LocalityStatsCan"
+            },
+            "cids:hasSpecification": {
+                "@id": "https://codelist.commonapproach.org/LocalityStatsCan"
+            },
+            "cids:definedBy": {
+                "@id": "cids:statsCan"
+            },
+            "skos:notation": "loc1",
+            "org:hasIdentifier": "loc1",
+            "skos:definition": {
+                "@language": "en",
+                "@value": "A large urban population centres, with a population of 100,000 or more."
+            },
+            "cids:hasDescription": "A large urban population centres, with a population of 100,000 or more.",
+            "skos:prefLabel": {
+                "@language": "en",
+                "@value": "Large Urban Population Centre"
+            },
+            "org:hasName": "Large Urban Population Centre",
+            "@type": "cids:Locality"
+        }
+    ],
+    "@context": {
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "org": "http://www.w3.org/ns/org#",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "voaf": "http://purl.org/vocommons/voaf#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "cids": "https://ontology.commonapproach.org/cids#",
+        "prov": "http://www.w3.org/ns/prov#",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "@vocab": "https://codelist.commonapproach.org/LocalityStatsCan#"
+    }
+}

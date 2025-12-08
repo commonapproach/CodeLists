@@ -1,0 +1,90 @@
+<https://ontology.commonapproach.org/cids#dayUnit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ontology.eil.utoronto.ca/ISO21972/iso21972#Singular_unit> .
+<https://ontology.commonapproach.org/cids#dayUnit> <http://www.w3.org/2000/01/rdf-schema#label> "Days"@en .
+<https://ontology.commonapproach.org/cids#dayUnit> <http://ontology.eil.utoronto.ca/ISO21972/iso21972#symbol> "days"@en .
+<https://ontology.commonapproach.org/cids#dayUnit> <http://www.w3.org/2000/01/rdf-schema#comment> "A unit of time. Use for Indicators multi-typed as i72:Sum or i72:Mean, representing a duration."@en .
+<https://ontology.commonapproach.org/cids#foot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ontology.eil.utoronto.ca/ISO21972/iso21972#Singular_unit> .
+<https://ontology.commonapproach.org/cids#foot> <http://www.w3.org/2000/01/rdf-schema#label> "Foot"@en .
+<https://ontology.commonapproach.org/cids#foot> <http://ontology.eil.utoronto.ca/ISO21972/iso21972#symbol> "ft"@en .
+<https://ontology.commonapproach.org/cids#foot> <http://www.w3.org/2000/01/rdf-schema#comment> "A non-SI unit of length."@en .
+<https://ontology.commonapproach.org/cids#tonne> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ontology.eil.utoronto.ca/ISO21972/iso21972#Singular_unit> .
+<https://ontology.commonapproach.org/cids#tonne> <http://www.w3.org/2000/01/rdf-schema#label> "Tonne"@en .
+<https://ontology.commonapproach.org/cids#tonne> <http://ontology.eil.utoronto.ca/ISO21972/iso21972#symbol> "t"@en .
+<https://ontology.commonapproach.org/cids#tonne> <http://www.w3.org/2000/01/rdf-schema#comment> "A unit of mass equivalent to 1,000 kilograms. Use for Indicators multi-typed as i72:Sum or i72:Mean. Pragmatically defined as a singular unit for ease of use."@en .
+<https://ontology.commonapproach.org/cids#cad> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ontology.eil.utoronto.ca/ISO21972/iso21972#Monetary_unit> .
+<https://ontology.commonapproach.org/cids#cad> <http://www.w3.org/2000/01/rdf-schema#label> "Canadian Dollar"@en .
+<https://ontology.commonapproach.org/cids#cad> <http://ontology.eil.utoronto.ca/ISO21972/iso21972#symbol> "$CAD"@en .
+<https://ontology.commonapproach.org/cids#cad> <http://www.w3.org/2000/01/rdf-schema#comment> "Use for Indicators multi-typed as i72:Sum or i72:Mean, representing a financial value."@en .
+<https://ontology.commonapproach.org/cids#cadMillions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ontology.eil.utoronto.ca/ISO21972/iso21972#Unit_multiple_or_submultiple> .
+<https://ontology.commonapproach.org/cids#cadMillions> <http://www.w3.org/2000/01/rdf-schema#label> "Millions of Canadian Dollars"@en .
+<https://ontology.commonapproach.org/cids#cadMillions> <http://ontology.eil.utoronto.ca/ISO21972/iso21972#symbol> "$CAD(M)"@en .
+<https://ontology.commonapproach.org/cids#cadMillions> <http://www.w3.org/2000/01/rdf-schema#comment> "Use for Indicators multi-typed as i72:Sum or i72:Mean, representing a financial value."@en .
+<https://ontology.commonapproach.org/cids#cadMillions> <http://ontology.eil.utoronto.ca/ISO21972/iso21972#prefix> <http://ontology.eil.utoronto.ca/ISO21972/iso21972#mega> .
+<https://ontology.commonapproach.org/cids#cadMillions> <http://ontology.eil.utoronto.ca/ISO21972/iso21972#singular_unit> <https://ontology.commonapproach.org/cids#cad> .
+<https://ontology.commonapproach.org/cids#kilogram> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ontology.eil.utoronto.ca/ISO21972/iso21972#Unit_multiple_or_submultiple> .
+<https://ontology.commonapproach.org/cids#kilogram> <http://www.w3.org/2000/01/rdf-schema#label> "Kilogram"@en .
+<https://ontology.commonapproach.org/cids#kilogram> <http://ontology.eil.utoronto.ca/ISO21972/iso21972#symbol> "kg"@en .
+<https://ontology.commonapproach.org/cids#kilogram> <http://www.w3.org/2000/01/rdf-schema#comment> "A unit of mass. Use for Indicators multi-typed as i72:Sum or i72:Mean."@en .
+<https://ontology.commonapproach.org/cids#kilogram> <http://ontology.eil.utoronto.ca/ISO21972/iso21972#prefix> <http://ontology.eil.utoronto.ca/ISO21972/iso21972#kilo> .
+<https://ontology.commonapproach.org/cids#kilogram> <http://ontology.eil.utoronto.ca/ISO21972/iso21972#singular_unit> <http://ontology.eil.utoronto.ca/ISO21972/iso21972#gram> .
+<https://ontology.commonapproach.org/cids#megatonne> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ontology.eil.utoronto.ca/ISO21972/iso21972#Unit_multiple_or_submultiple> .
+<https://ontology.commonapproach.org/cids#megatonne> <http://www.w3.org/2000/01/rdf-schema#label> "Megatonne"@en .
+<https://ontology.commonapproach.org/cids#megatonne> <http://ontology.eil.utoronto.ca/ISO21972/iso21972#symbol> "Mt"@en .
+<https://ontology.commonapproach.org/cids#megatonne> <http://www.w3.org/2000/01/rdf-schema#comment> "A unit of mass, typically for GHG emissions. Use for Indicators multi-typed as i72:Sum or i72:Mean."@en .
+<https://ontology.commonapproach.org/cids#megatonne> <http://ontology.eil.utoronto.ca/ISO21972/iso21972#prefix> <http://ontology.eil.utoronto.ca/ISO21972/iso21972#mega> .
+<https://ontology.commonapproach.org/cids#megatonne> <http://ontology.eil.utoronto.ca/ISO21972/iso21972#singular_unit> <https://ontology.commonapproach.org/cids#tonne> .
+<https://ontology.commonapproach.org/cids#megawatt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ontology.eil.utoronto.ca/ISO21972/iso21972#Unit_multiple_or_submultiple> .
+<https://ontology.commonapproach.org/cids#megawatt> <http://www.w3.org/2000/01/rdf-schema#label> "Megawatt"@en .
+<https://ontology.commonapproach.org/cids#megawatt> <http://ontology.eil.utoronto.ca/ISO21972/iso21972#symbol> "MW"@en .
+<https://ontology.commonapproach.org/cids#megawatt> <http://www.w3.org/2000/01/rdf-schema#comment> "A unit of power. Use for Indicators multi-typed as i72:Sum or i72:Mean."@en .
+<https://ontology.commonapproach.org/cids#megawatt> <http://ontology.eil.utoronto.ca/ISO21972/iso21972#prefix> <http://ontology.eil.utoronto.ca/ISO21972/iso21972#mega> .
+<https://ontology.commonapproach.org/cids#megawatt> <http://ontology.eil.utoronto.ca/ISO21972/iso21972#singular_unit> <http://ontology.eil.utoronto.ca/ISO21972/iso21972#watt> .
+<https://ontology.commonapproach.org/cids#kilowattHour> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ontology.eil.utoronto.ca/ISO21972/iso21972#Unit_multiplication> .
+<https://ontology.commonapproach.org/cids#kilowattHour> <http://www.w3.org/2000/01/rdf-schema#label> "Kilowatt-hour"@en .
+<https://ontology.commonapproach.org/cids#kilowattHour> <http://ontology.eil.utoronto.ca/ISO21972/iso21972#symbol> "kWh"@en .
+<https://ontology.commonapproach.org/cids#kilowattHour> <http://www.w3.org/2000/01/rdf-schema#comment> "A unit of energy. Use for Indicators multi-typed as i72:Sum or i72:Mean."@en .
+<https://ontology.commonapproach.org/cids#kilowattHour> <http://ontology.eil.utoronto.ca/ISO21972/iso21972#term_1> <http://ontology.eil.utoronto.ca/ISO21972/iso21972#kilowatt> .
+<https://ontology.commonapproach.org/cids#kilowattHour> <http://ontology.eil.utoronto.ca/ISO21972/iso21972#term_2> <http://ontology.eil.utoronto.ca/ISO21972/iso21972#hour> .
+<https://ontology.commonapproach.org/cids#megawattHour> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ontology.eil.utoronto.ca/ISO21972/iso21972#Unit_multiplication> .
+<https://ontology.commonapproach.org/cids#megawattHour> <http://www.w3.org/2000/01/rdf-schema#label> "Megawatt-hour"@en .
+<https://ontology.commonapproach.org/cids#megawattHour> <http://ontology.eil.utoronto.ca/ISO21972/iso21972#symbol> "MWh"@en .
+<https://ontology.commonapproach.org/cids#megawattHour> <http://www.w3.org/2000/01/rdf-schema#comment> "A unit of energy. Use for Indicators multi-typed as i72:Sum or i72:Mean."@en .
+<https://ontology.commonapproach.org/cids#megawattHour> <http://ontology.eil.utoronto.ca/ISO21972/iso21972#term_1> <https://ontology.commonapproach.org/cids#megawatt> .
+<https://ontology.commonapproach.org/cids#megawattHour> <http://ontology.eil.utoronto.ca/ISO21972/iso21972#term_2> <http://ontology.eil.utoronto.ca/ISO21972/iso21972#hour> .
+<https://ontology.commonapproach.org/cids#squareMeter> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ontology.eil.utoronto.ca/ISO21972/iso21972#Unit_exponentiation> .
+<https://ontology.commonapproach.org/cids#squareMeter> <http://www.w3.org/2000/01/rdf-schema#label> "Square Meter"@en .
+<https://ontology.commonapproach.org/cids#squareMeter> <http://ontology.eil.utoronto.ca/ISO21972/iso21972#symbol> "m^2"@en .
+<https://ontology.commonapproach.org/cids#squareMeter> <http://www.w3.org/2000/01/rdf-schema#comment> "A unit of area. Use for Indicators multi-typed as i72:Sum or i72:Mean."@en .
+<https://ontology.commonapproach.org/cids#squareMeter> <http://ontology.eil.utoronto.ca/ISO21972/iso21972#base> <http://ontology.eil.utoronto.ca/ISO21972/iso21972#metre> .
+<https://ontology.commonapproach.org/cids#squareMeter> <http://ontology.eil.utoronto.ca/ISO21972/iso21972#exponent> "2"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://ontology.commonapproach.org/cids#cubicMeter> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ontology.eil.utoronto.ca/ISO21972/iso21972#Unit_exponentiation> .
+<https://ontology.commonapproach.org/cids#cubicMeter> <http://www.w3.org/2000/01/rdf-schema#label> "Cubic Meter"@en .
+<https://ontology.commonapproach.org/cids#cubicMeter> <http://ontology.eil.utoronto.ca/ISO21972/iso21972#symbol> "m^3"@en .
+<https://ontology.commonapproach.org/cids#cubicMeter> <http://www.w3.org/2000/01/rdf-schema#comment> "A unit of volume. Use for Indicators multi-typed as i72:Sum or i72:Mean."@en .
+<https://ontology.commonapproach.org/cids#cubicMeter> <http://ontology.eil.utoronto.ca/ISO21972/iso21972#base> <http://ontology.eil.utoronto.ca/ISO21972/iso21972#metre> .
+<https://ontology.commonapproach.org/cids#cubicMeter> <http://ontology.eil.utoronto.ca/ISO21972/iso21972#exponent> "3"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://ontology.commonapproach.org/cids#squareFoot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ontology.eil.utoronto.ca/ISO21972/iso21972#Unit_exponentiation> .
+<https://ontology.commonapproach.org/cids#squareFoot> <http://www.w3.org/2000/01/rdf-schema#label> "Square Foot"@en .
+<https://ontology.commonapproach.org/cids#squareFoot> <http://ontology.eil.utoronto.ca/ISO21972/iso21972#symbol> "sq ft"@en .
+<https://ontology.commonapproach.org/cids#squareFoot> <http://www.w3.org/2000/01/rdf-schema#comment> "A non-SI unit of area. Use for Indicators multi-typed as i72:Sum or i72:Mean."@en .
+<https://ontology.commonapproach.org/cids#squareFoot> <http://ontology.eil.utoronto.ca/ISO21972/iso21972#base> <https://ontology.commonapproach.org/cids#foot> .
+<https://ontology.commonapproach.org/cids#squareFoot> <http://ontology.eil.utoronto.ca/ISO21972/iso21972#exponent> "2"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://ontology.commonapproach.org/cids#countUnit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ontology.eil.utoronto.ca/ISO21972/iso21972#Cardinality_unit> .
+<https://ontology.commonapproach.org/cids#countUnit> <http://www.w3.org/2000/01/rdf-schema#label> "Count"@en .
+<https://ontology.commonapproach.org/cids#countUnit> <http://ontology.eil.utoronto.ca/ISO21972/iso21972#symbol> "count"@en .
+<https://ontology.commonapproach.org/cids#countUnit> <http://www.w3.org/2002/07/owl#sameAs> <http://ontology.eil.utoronto.ca/ISO21972/iso21972#population_cardinality_unit> .
+<https://ontology.commonapproach.org/cids#countUnit> <http://www.w3.org/2000/01/rdf-schema#comment> "A count of discrete items. Use for Indicators multi-typed as i72:Cardinality. The 'unitDescription' should be used to create the i72:Population."@en .
+<https://ontology.commonapproach.org/cids#percentUnit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ontology.eil.utoronto.ca/ISO21972/iso21972#Singular_unit> .
+<https://ontology.commonapproach.org/cids#percentUnit> <http://www.w3.org/2000/01/rdf-schema#label> "Percent"@en .
+<https://ontology.commonapproach.org/cids#percentUnit> <http://ontology.eil.utoronto.ca/ISO21972/iso21972#symbol> "%"@en .
+<https://ontology.commonapproach.org/cids#percentUnit> <http://www.w3.org/2000/01/rdf-schema#comment> "A generic unit for percentages. The Indicator should be multi-typed as i72:RatioIndicator for clarity."@en .
+<https://ontology.commonapproach.org/cids#ratioUnit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ontology.eil.utoronto.ca/ISO21972/iso21972#Compound_unit> .
+<https://ontology.commonapproach.org/cids#ratioUnit> <http://www.w3.org/2000/01/rdf-schema#label> "Ratio"@en .
+<https://ontology.commonapproach.org/cids#ratioUnit> <http://ontology.eil.utoronto.ca/ISO21972/iso21972#symbol> "ratio"@en .
+<https://ontology.commonapproach.org/cids#ratioUnit> <http://www.w3.org/2000/01/rdf-schema#comment> "A generic unit for ratios where the numerator and denominator are not specified. The Indicator should be multi-typed as i72:RatioIndicator."@en .
+<https://ontology.commonapproach.org/cids#scoreUnit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ontology.eil.utoronto.ca/ISO21972/iso21972#Singular_unit> .
+<https://ontology.commonapproach.org/cids#scoreUnit> <http://www.w3.org/2000/01/rdf-schema#label> "Score"@en .
+<https://ontology.commonapproach.org/cids#scoreUnit> <http://ontology.eil.utoronto.ca/ISO21972/iso21972#symbol> "score"@en .
+<https://ontology.commonapproach.org/cids#scoreUnit> <http://www.w3.org/2000/01/rdf-schema#comment> "A generic unit for scores or points. The Indicator should be linked to a formal scale definition (e.g., i72:Ordinal_scale or a cids:Code) via the i72:measurement_scale property."@en .
+<https://ontology.commonapproach.org/cids#unspecifiedUnit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ontology.eil.utoronto.ca/ISO21972/iso21972#Singular_unit> .
+<https://ontology.commonapproach.org/cids#unspecifiedUnit> <http://www.w3.org/2000/01/rdf-schema#label> "Unspecified Unit"@en .
+<https://ontology.commonapproach.org/cids#unspecifiedUnit> <http://www.w3.org/2000/01/rdf-schema#comment> "A placeholder for unspecified units."@en .
