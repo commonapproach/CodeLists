@@ -1,0 +1,220 @@
+<https://codelist.commonapproach.org/CanadianCorporateRegistries> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocommons/voaf/Vocabulary> .
+<https://codelist.commonapproach.org/CanadianCorporateRegistries> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<https://codelist.commonapproach.org/CanadianCorporateRegistries> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
+<https://codelist.commonapproach.org/CanadianCorporateRegistries> <http://www.w3.org/2002/07/owl#imports> <https://ontology.commonapproach.org/cids> .
+<https://codelist.commonapproach.org/CanadianCorporateRegistries> <http://purl.org/dc/terms/creator> <https://ontology.commonapproach.org/cids#ac> .
+<https://codelist.commonapproach.org/CanadianCorporateRegistries> <http://purl.org/dc/terms/date> "2025-12-01"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://codelist.commonapproach.org/CanadianCorporateRegistries> <http://www.w3.org/2002/07/owl#versionInfo> "2.0" .
+<https://codelist.commonapproach.org/CanadianCorporateRegistries> <http://www.w3.org/2004/02/skos/core#PrefLabel> "Canadian Corporate Registries Codelist"@en .
+<https://codelist.commonapproach.org/CanadianCorporateRegistries> <http://purl.org/dc/terms/title> "Canadian Corporate Registries"@en .
+<https://codelist.commonapproach.org/CanadianCorporateRegistries> <http://purl.org/dc/terms/description> "An RDF vocabulary of Canadian Corporate Registries."@en .
+<https://codelist.commonapproach.org/CanadianCorporateRegistries#ca> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://codelist.commonapproach.org/CanadianCorporateRegistries#ca> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#Code> .
+<https://codelist.commonapproach.org/CanadianCorporateRegistries#ca> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#Organization> .
+<https://codelist.commonapproach.org/CanadianCorporateRegistries#ca> <http://www.w3.org/ns/org#hasName> "Corporations Canada" .
+<https://codelist.commonapproach.org/CanadianCorporateRegistries#ca> <http://www.w3.org/2004/02/skos/core#prefLabel> "Corporations Canada"@en .
+<https://codelist.commonapproach.org/CanadianCorporateRegistries#ca> <http://www.w3.org/ns/org#hasLegalName> "Corporations Canada"@en .
+<https://codelist.commonapproach.org/CanadianCorporateRegistries#ca> <https://ontology.commonapproach.org/cids#hasDescription> "Corporations Canada" .
+<https://codelist.commonapproach.org/CanadianCorporateRegistries#ca> <http://www.w3.org/2004/02/skos/core#definition> "Corporations Canada"@en .
+<https://codelist.commonapproach.org/CanadianCorporateRegistries#ca> <http://www.w3.org/ns/org#hasIdentifier> "ca" .
+<https://codelist.commonapproach.org/CanadianCorporateRegistries#ca> <http://www.w3.org/2004/02/skos/core#notation> "ca" .
+<https://codelist.commonapproach.org/CanadianCorporateRegistries#ca> <http://www.w3.org/ns/prov#hadPrimarySource> <https://ised-isde.canada.ca/cbr-rec/> .
+<https://codelist.commonapproach.org/CanadianCorporateRegistries#ca> <https://ontology.commonapproach.org/cids#definedBy> <https://ontology.commonapproach.org/cids#esdc> .
+<https://codelist.commonapproach.org/CanadianCorporateRegistries#ca> <https://ontology.commonapproach.org/cids#hasSpecification> <https://codelist.commonapproach.org/CanadianCorporateRegistries> .
+<https://codelist.commonapproach.org/CanadianCorporateRegistries#ca> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://codelist.commonapproach.org/CanadianCorporateRegistries> .
+<https://codelist.commonapproach.org/CanadianCorporateRegistries#cra> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://codelist.commonapproach.org/CanadianCorporateRegistries#cra> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#Code> .
+<https://codelist.commonapproach.org/CanadianCorporateRegistries#cra> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#Organization> .
+<https://codelist.commonapproach.org/CanadianCorporateRegistries#cra> <http://www.w3.org/ns/org#hasName> "Canada Revenue Agency" .
+<https://codelist.commonapproach.org/CanadianCorporateRegistries#cra> <http://www.w3.org/2004/02/skos/core#prefLabel> "Canada Revenue Agency"@en .
+<https://codelist.commonapproach.org/CanadianCorporateRegistries#cra> <http://www.w3.org/ns/org#hasLegalName> "Canada Revenue Agency"@en .
+<https://codelist.commonapproach.org/CanadianCorporateRegistries#cra> <https://ontology.commonapproach.org/cids#hasDescription> "Canada Revenue Agency" .
+<https://codelist.commonapproach.org/CanadianCorporateRegistries#cra> <http://www.w3.org/2004/02/skos/core#definition> "Canada Revenue Agency"@en .
+<https://codelist.commonapproach.org/CanadianCorporateRegistries#cra> <http://www.w3.org/ns/org#hasIdentifier> "cra" .
+<https://codelist.commonapproach.org/CanadianCorporateRegistries#cra> <http://www.w3.org/2004/02/skos/core#notation> "cra" .
+<https://codelist.commonapproach.org/CanadianCorporateRegistries#cra> <http://www.w3.org/ns/prov#hadPrimarySource> <https://www.canada.ca/en/revenue-agency/> .
+<https://codelist.commonapproach.org/CanadianCorporateRegistries#cra> <https://ontology.commonapproach.org/cids#definedBy> <https://ontology.commonapproach.org/cids#esdc> .
+<https://codelist.commonapproach.org/CanadianCorporateRegistries#cra> <https://ontology.commonapproach.org/cids#hasSpecification> <https://codelist.commonapproach.org/CanadianCorporateRegistries> .
+<https://codelist.commonapproach.org/CanadianCorporateRegistries#cra> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://codelist.commonapproach.org/CanadianCorporateRegistries> .
+<https://codelist.commonapproach.org/CanadianCorporateRegistries#ab> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://codelist.commonapproach.org/CanadianCorporateRegistries#ab> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#Code> .
+<https://codelist.commonapproach.org/CanadianCorporateRegistries#ab> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#Organization> .
+<https://codelist.commonapproach.org/CanadianCorporateRegistries#ab> <http://www.w3.org/ns/org#hasName> "Alberta" .
+<https://codelist.commonapproach.org/CanadianCorporateRegistries#ab> <http://www.w3.org/2004/02/skos/core#prefLabel> "Alberta"@en .
+<https://codelist.commonapproach.org/CanadianCorporateRegistries#ab> <http://www.w3.org/ns/org#hasLegalName> "Alberta"@en .
+<https://codelist.commonapproach.org/CanadianCorporateRegistries#ab> <https://ontology.commonapproach.org/cids#hasDescription> "Alberta Corporate Registry" .
+<https://codelist.commonapproach.org/CanadianCorporateRegistries#ab> <http://www.w3.org/2004/02/skos/core#definition> "Alberta Corporate Registry"@en .
+<https://codelist.commonapproach.org/CanadianCorporateRegistries#ab> <http://www.w3.org/ns/org#hasIdentifier> "ab" .
+<https://codelist.commonapproach.org/CanadianCorporateRegistries#ab> <http://www.w3.org/2004/02/skos/core#notation> "ab" .
+<https://codelist.commonapproach.org/CanadianCorporateRegistries#ab> <http://www.w3.org/ns/prov#hadPrimarySource> <https://www.alberta.ca/business-licence-or-charitable-registration-in-alberta> .
+<https://codelist.commonapproach.org/CanadianCorporateRegistries#ab> <https://ontology.commonapproach.org/cids#definedBy> <https://ontology.commonapproach.org/cids#esdc> .
+<https://codelist.commonapproach.org/CanadianCorporateRegistries#ab> <https://ontology.commonapproach.org/cids#hasSpecification> <https://codelist.commonapproach.org/CanadianCorporateRegistries> .
+<https://codelist.commonapproach.org/CanadianCorporateRegistries#ab> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://codelist.commonapproach.org/CanadianCorporateRegistries> .
+<https://codelist.commonapproach.org/CanadianCorporateRegistries#bc> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://codelist.commonapproach.org/CanadianCorporateRegistries#bc> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#Code> .
+<https://codelist.commonapproach.org/CanadianCorporateRegistries#bc> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#Organization> .
+<https://codelist.commonapproach.org/CanadianCorporateRegistries#bc> <http://www.w3.org/ns/org#hasName> "British Columbia" .
+<https://codelist.commonapproach.org/CanadianCorporateRegistries#bc> <http://www.w3.org/2004/02/skos/core#prefLabel> "British Columbia"@en .
+<https://codelist.commonapproach.org/CanadianCorporateRegistries#bc> <http://www.w3.org/ns/org#hasLegalName> "British Columbia"@en .
+<https://codelist.commonapproach.org/CanadianCorporateRegistries#bc> <https://ontology.commonapproach.org/cids#hasDescription> "BC Registries and Online Services" .
+<https://codelist.commonapproach.org/CanadianCorporateRegistries#bc> <http://www.w3.org/2004/02/skos/core#definition> "BC Registries and Online Services"@en .
+<https://codelist.commonapproach.org/CanadianCorporateRegistries#bc> <http://www.w3.org/ns/org#hasIdentifier> "bc" .
+<https://codelist.commonapproach.org/CanadianCorporateRegistries#bc> <http://www.w3.org/2004/02/skos/core#notation> "bc" .
+<https://codelist.commonapproach.org/CanadianCorporateRegistries#bc> <http://www.w3.org/ns/prov#hadPrimarySource> <https://www2.gov.bc.ca/gov/content/governments/organizational-structure/ministries-organizations/ministries/citizens-services/bc-registries-online-services> .
+<https://codelist.commonapproach.org/CanadianCorporateRegistries#bc> <https://ontology.commonapproach.org/cids#definedBy> <https://ontology.commonapproach.org/cids#esdc> .
+<https://codelist.commonapproach.org/CanadianCorporateRegistries#bc> <https://ontology.commonapproach.org/cids#hasSpecification> <https://codelist.commonapproach.org/CanadianCorporateRegistries> .
+<https://codelist.commonapproach.org/CanadianCorporateRegistries#bc> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://codelist.commonapproach.org/CanadianCorporateRegistries> .
+<https://codelist.commonapproach.org/CanadianCorporateRegistries#mb> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://codelist.commonapproach.org/CanadianCorporateRegistries#mb> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#Code> .
+<https://codelist.commonapproach.org/CanadianCorporateRegistries#mb> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#Organization> .
+<https://codelist.commonapproach.org/CanadianCorporateRegistries#mb> <http://www.w3.org/ns/org#hasName> "Manitoba" .
+<https://codelist.commonapproach.org/CanadianCorporateRegistries#mb> <http://www.w3.org/2004/02/skos/core#prefLabel> "Manitoba"@en .
+<https://codelist.commonapproach.org/CanadianCorporateRegistries#mb> <http://www.w3.org/ns/org#hasLegalName> "Manitoba"@en .
+<https://codelist.commonapproach.org/CanadianCorporateRegistries#mb> <https://ontology.commonapproach.org/cids#hasDescription> "Manitoba Companies Office" .
+<https://codelist.commonapproach.org/CanadianCorporateRegistries#mb> <http://www.w3.org/2004/02/skos/core#definition> "Manitoba Companies Office"@en .
+<https://codelist.commonapproach.org/CanadianCorporateRegistries#mb> <http://www.w3.org/ns/org#hasIdentifier> "mb" .
+<https://codelist.commonapproach.org/CanadianCorporateRegistries#mb> <http://www.w3.org/2004/02/skos/core#notation> "mb" .
+<https://codelist.commonapproach.org/CanadianCorporateRegistries#mb> <http://www.w3.org/ns/prov#hadPrimarySource> <https://companiesoffice.gov.mb.ca/> .
+<https://codelist.commonapproach.org/CanadianCorporateRegistries#mb> <https://ontology.commonapproach.org/cids#definedBy> <https://ontology.commonapproach.org/cids#esdc> .
+<https://codelist.commonapproach.org/CanadianCorporateRegistries#mb> <https://ontology.commonapproach.org/cids#hasSpecification> <https://codelist.commonapproach.org/CanadianCorporateRegistries> .
+<https://codelist.commonapproach.org/CanadianCorporateRegistries#mb> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://codelist.commonapproach.org/CanadianCorporateRegistries> .
+<https://codelist.commonapproach.org/CanadianCorporateRegistries#nb> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://codelist.commonapproach.org/CanadianCorporateRegistries#nb> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#Code> .
+<https://codelist.commonapproach.org/CanadianCorporateRegistries#nb> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#Organization> .
+<https://codelist.commonapproach.org/CanadianCorporateRegistries#nb> <http://www.w3.org/ns/org#hasName> "New Brunswick" .
+<https://codelist.commonapproach.org/CanadianCorporateRegistries#nb> <http://www.w3.org/2004/02/skos/core#prefLabel> "New Brunswick"@en .
+<https://codelist.commonapproach.org/CanadianCorporateRegistries#nb> <http://www.w3.org/ns/org#hasLegalName> "New Brunswick"@en .
+<https://codelist.commonapproach.org/CanadianCorporateRegistries#nb> <https://ontology.commonapproach.org/cids#hasDescription> "Corporate Registry - Service New Brunswick" .
+<https://codelist.commonapproach.org/CanadianCorporateRegistries#nb> <http://www.w3.org/2004/02/skos/core#definition> "Corporate Registry - Service New Brunswick"@en .
+<https://codelist.commonapproach.org/CanadianCorporateRegistries#nb> <http://www.w3.org/ns/org#hasIdentifier> "nb" .
+<https://codelist.commonapproach.org/CanadianCorporateRegistries#nb> <http://www.w3.org/2004/02/skos/core#notation> "nb" .
+<https://codelist.commonapproach.org/CanadianCorporateRegistries#nb> <http://www.w3.org/ns/prov#hadPrimarySource> <https://www2.snb.ca/content/snb/en/sites/corporate-registry.html> .
+<https://codelist.commonapproach.org/CanadianCorporateRegistries#nb> <https://ontology.commonapproach.org/cids#definedBy> <https://ontology.commonapproach.org/cids#esdc> .
+<https://codelist.commonapproach.org/CanadianCorporateRegistries#nb> <https://ontology.commonapproach.org/cids#hasSpecification> <https://codelist.commonapproach.org/CanadianCorporateRegistries> .
+<https://codelist.commonapproach.org/CanadianCorporateRegistries#nb> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://codelist.commonapproach.org/CanadianCorporateRegistries> .
+<https://codelist.commonapproach.org/CanadianCorporateRegistries#nl> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://codelist.commonapproach.org/CanadianCorporateRegistries#nl> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#Code> .
+<https://codelist.commonapproach.org/CanadianCorporateRegistries#nl> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#Organization> .
+<https://codelist.commonapproach.org/CanadianCorporateRegistries#nl> <http://www.w3.org/ns/org#hasName> "Newfoundland and Labrador" .
+<https://codelist.commonapproach.org/CanadianCorporateRegistries#nl> <http://www.w3.org/2004/02/skos/core#prefLabel> "Newfoundland and Labrador"@en .
+<https://codelist.commonapproach.org/CanadianCorporateRegistries#nl> <http://www.w3.org/ns/org#hasLegalName> "Newfoundland and Labrador"@en .
+<https://codelist.commonapproach.org/CanadianCorporateRegistries#nl> <https://ontology.commonapproach.org/cids#hasDescription> "Registry of Companies and Deeds" .
+<https://codelist.commonapproach.org/CanadianCorporateRegistries#nl> <http://www.w3.org/2004/02/skos/core#definition> "Registry of Companies and Deeds"@en .
+<https://codelist.commonapproach.org/CanadianCorporateRegistries#nl> <http://www.w3.org/ns/org#hasIdentifier> "nl" .
+<https://codelist.commonapproach.org/CanadianCorporateRegistries#nl> <http://www.w3.org/2004/02/skos/core#notation> "nl" .
+<https://codelist.commonapproach.org/CanadianCorporateRegistries#nl> <http://www.w3.org/ns/prov#hadPrimarySource> <https://www.gov.nl.ca/dgsnl/registries/companies/> .
+<https://codelist.commonapproach.org/CanadianCorporateRegistries#nl> <https://ontology.commonapproach.org/cids#definedBy> <https://ontology.commonapproach.org/cids#esdc> .
+<https://codelist.commonapproach.org/CanadianCorporateRegistries#nl> <https://ontology.commonapproach.org/cids#hasSpecification> <https://codelist.commonapproach.org/CanadianCorporateRegistries> .
+<https://codelist.commonapproach.org/CanadianCorporateRegistries#nl> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://codelist.commonapproach.org/CanadianCorporateRegistries> .
+<https://codelist.commonapproach.org/CanadianCorporateRegistries#nt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://codelist.commonapproach.org/CanadianCorporateRegistries#nt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#Code> .
+<https://codelist.commonapproach.org/CanadianCorporateRegistries#nt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#Organization> .
+<https://codelist.commonapproach.org/CanadianCorporateRegistries#nt> <http://www.w3.org/ns/org#hasName> "Northwest Territories" .
+<https://codelist.commonapproach.org/CanadianCorporateRegistries#nt> <http://www.w3.org/2004/02/skos/core#prefLabel> "Northwest Territories"@en .
+<https://codelist.commonapproach.org/CanadianCorporateRegistries#nt> <http://www.w3.org/ns/org#hasLegalName> "Northwest Territories"@en .
+<https://codelist.commonapproach.org/CanadianCorporateRegistries#nt> <https://ontology.commonapproach.org/cids#hasDescription> "Corporate Registries - Department of Justice" .
+<https://codelist.commonapproach.org/CanadianCorporateRegistries#nt> <http://www.w3.org/2004/02/skos/core#definition> "Corporate Registries - Department of Justice"@en .
+<https://codelist.commonapproach.org/CanadianCorporateRegistries#nt> <http://www.w3.org/ns/org#hasIdentifier> "nt" .
+<https://codelist.commonapproach.org/CanadianCorporateRegistries#nt> <http://www.w3.org/2004/02/skos/core#notation> "nt" .
+<https://codelist.commonapproach.org/CanadianCorporateRegistries#nt> <http://www.w3.org/ns/prov#hadPrimarySource> <https://www.justice.gov.nt.ca/en/boards-agencies/corporate-registries/> .
+<https://codelist.commonapproach.org/CanadianCorporateRegistries#nt> <https://ontology.commonapproach.org/cids#definedBy> <https://ontology.commonapproach.org/cids#esdc> .
+<https://codelist.commonapproach.org/CanadianCorporateRegistries#nt> <https://ontology.commonapproach.org/cids#hasSpecification> <https://codelist.commonapproach.org/CanadianCorporateRegistries> .
+<https://codelist.commonapproach.org/CanadianCorporateRegistries#nt> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://codelist.commonapproach.org/CanadianCorporateRegistries> .
+<https://codelist.commonapproach.org/CanadianCorporateRegistries#ns> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://codelist.commonapproach.org/CanadianCorporateRegistries#ns> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#Code> .
+<https://codelist.commonapproach.org/CanadianCorporateRegistries#ns> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#Organization> .
+<https://codelist.commonapproach.org/CanadianCorporateRegistries#ns> <http://www.w3.org/ns/org#hasName> "Nova Scotia" .
+<https://codelist.commonapproach.org/CanadianCorporateRegistries#ns> <http://www.w3.org/2004/02/skos/core#prefLabel> "Nova Scotia"@en .
+<https://codelist.commonapproach.org/CanadianCorporateRegistries#ns> <http://www.w3.org/ns/org#hasLegalName> "Nova Scotia"@en .
+<https://codelist.commonapproach.org/CanadianCorporateRegistries#ns> <https://ontology.commonapproach.org/cids#hasDescription> "Nova Scotia Registry of Joint Stock Companies" .
+<https://codelist.commonapproach.org/CanadianCorporateRegistries#ns> <http://www.w3.org/2004/02/skos/core#definition> "Nova Scotia Registry of Joint Stock Companies"@en .
+<https://codelist.commonapproach.org/CanadianCorporateRegistries#ns> <http://www.w3.org/ns/org#hasIdentifier> "ns" .
+<https://codelist.commonapproach.org/CanadianCorporateRegistries#ns> <http://www.w3.org/2004/02/skos/core#notation> "ns" .
+<https://codelist.commonapproach.org/CanadianCorporateRegistries#ns> <http://www.w3.org/ns/prov#hadPrimarySource> <https://beta.novascotia.ca/programs-and-services/registry-joint-stock-companies> .
+<https://codelist.commonapproach.org/CanadianCorporateRegistries#ns> <https://ontology.commonapproach.org/cids#definedBy> <https://ontology.commonapproach.org/cids#esdc> .
+<https://codelist.commonapproach.org/CanadianCorporateRegistries#ns> <https://ontology.commonapproach.org/cids#hasSpecification> <https://codelist.commonapproach.org/CanadianCorporateRegistries> .
+<https://codelist.commonapproach.org/CanadianCorporateRegistries#ns> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://codelist.commonapproach.org/CanadianCorporateRegistries> .
+<https://codelist.commonapproach.org/CanadianCorporateRegistries#nu> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://codelist.commonapproach.org/CanadianCorporateRegistries#nu> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#Code> .
+<https://codelist.commonapproach.org/CanadianCorporateRegistries#nu> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#Organization> .
+<https://codelist.commonapproach.org/CanadianCorporateRegistries#nu> <http://www.w3.org/ns/org#hasName> "Nunavut" .
+<https://codelist.commonapproach.org/CanadianCorporateRegistries#nu> <http://www.w3.org/2004/02/skos/core#prefLabel> "Nunavut"@en .
+<https://codelist.commonapproach.org/CanadianCorporateRegistries#nu> <http://www.w3.org/ns/org#hasLegalName> "Nunavut"@en .
+<https://codelist.commonapproach.org/CanadianCorporateRegistries#nu> <https://ontology.commonapproach.org/cids#hasDescription> "Corporate Registries - Department of Justice" .
+<https://codelist.commonapproach.org/CanadianCorporateRegistries#nu> <http://www.w3.org/2004/02/skos/core#definition> "Corporate Registries - Department of Justice"@en .
+<https://codelist.commonapproach.org/CanadianCorporateRegistries#nu> <http://www.w3.org/ns/org#hasIdentifier> "nu" .
+<https://codelist.commonapproach.org/CanadianCorporateRegistries#nu> <http://www.w3.org/2004/02/skos/core#notation> "nu" .
+<https://codelist.commonapproach.org/CanadianCorporateRegistries#nu> <http://www.w3.org/ns/prov#hadPrimarySource> <https://www.gov.nu.ca/en/department-justice/corporate-and-securities-registries> .
+<https://codelist.commonapproach.org/CanadianCorporateRegistries#nu> <https://ontology.commonapproach.org/cids#definedBy> <https://ontology.commonapproach.org/cids#esdc> .
+<https://codelist.commonapproach.org/CanadianCorporateRegistries#nu> <https://ontology.commonapproach.org/cids#hasSpecification> <https://codelist.commonapproach.org/CanadianCorporateRegistries> .
+<https://codelist.commonapproach.org/CanadianCorporateRegistries#nu> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://codelist.commonapproach.org/CanadianCorporateRegistries> .
+<https://codelist.commonapproach.org/CanadianCorporateRegistries#on> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://codelist.commonapproach.org/CanadianCorporateRegistries#on> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#Code> .
+<https://codelist.commonapproach.org/CanadianCorporateRegistries#on> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#Organization> .
+<https://codelist.commonapproach.org/CanadianCorporateRegistries#on> <http://www.w3.org/ns/org#hasName> "Ontario" .
+<https://codelist.commonapproach.org/CanadianCorporateRegistries#on> <http://www.w3.org/2004/02/skos/core#prefLabel> "Ontario"@en .
+<https://codelist.commonapproach.org/CanadianCorporateRegistries#on> <http://www.w3.org/ns/org#hasLegalName> "Ontario"@en .
+<https://codelist.commonapproach.org/CanadianCorporateRegistries#on> <https://ontology.commonapproach.org/cids#hasDescription> "Ontario Business Registry" .
+<https://codelist.commonapproach.org/CanadianCorporateRegistries#on> <http://www.w3.org/2004/02/skos/core#definition> "Ontario Business Registry"@en .
+<https://codelist.commonapproach.org/CanadianCorporateRegistries#on> <http://www.w3.org/ns/org#hasIdentifier> "on" .
+<https://codelist.commonapproach.org/CanadianCorporateRegistries#on> <http://www.w3.org/2004/02/skos/core#notation> "on" .
+<https://codelist.commonapproach.org/CanadianCorporateRegistries#on> <http://www.w3.org/ns/prov#hadPrimarySource> <https://www.ontario.ca/page/ontario-business-registry> .
+<https://codelist.commonapproach.org/CanadianCorporateRegistries#on> <https://ontology.commonapproach.org/cids#definedBy> <https://ontology.commonapproach.org/cids#esdc> .
+<https://codelist.commonapproach.org/CanadianCorporateRegistries#on> <https://ontology.commonapproach.org/cids#hasSpecification> <https://codelist.commonapproach.org/CanadianCorporateRegistries> .
+<https://codelist.commonapproach.org/CanadianCorporateRegistries#on> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://codelist.commonapproach.org/CanadianCorporateRegistries> .
+<https://codelist.commonapproach.org/CanadianCorporateRegistries#pe> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://codelist.commonapproach.org/CanadianCorporateRegistries#pe> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#Code> .
+<https://codelist.commonapproach.org/CanadianCorporateRegistries#pe> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#Organization> .
+<https://codelist.commonapproach.org/CanadianCorporateRegistries#pe> <http://www.w3.org/ns/org#hasName> "Prince Edward Island" .
+<https://codelist.commonapproach.org/CanadianCorporateRegistries#pe> <http://www.w3.org/2004/02/skos/core#prefLabel> "Prince Edward Island"@en .
+<https://codelist.commonapproach.org/CanadianCorporateRegistries#pe> <http://www.w3.org/ns/org#hasLegalName> "Prince Edward Island"@en .
+<https://codelist.commonapproach.org/CanadianCorporateRegistries#pe> <https://ontology.commonapproach.org/cids#hasDescription> "Corporate Business Names Registry" .
+<https://codelist.commonapproach.org/CanadianCorporateRegistries#pe> <http://www.w3.org/2004/02/skos/core#definition> "Corporate Business Names Registry"@en .
+<https://codelist.commonapproach.org/CanadianCorporateRegistries#pe> <http://www.w3.org/ns/org#hasIdentifier> "pe" .
+<https://codelist.commonapproach.org/CanadianCorporateRegistries#pe> <http://www.w3.org/2004/02/skos/core#notation> "pe" .
+<https://codelist.commonapproach.org/CanadianCorporateRegistries#pe> <http://www.w3.org/ns/prov#hadPrimarySource> <https://www.princeedwardisland.ca/en/feature/pei-business-corporate-registry/> .
+<https://codelist.commonapproach.org/CanadianCorporateRegistries#pe> <https://ontology.commonapproach.org/cids#definedBy> <https://ontology.commonapproach.org/cids#esdc> .
+<https://codelist.commonapproach.org/CanadianCorporateRegistries#pe> <https://ontology.commonapproach.org/cids#hasSpecification> <https://codelist.commonapproach.org/CanadianCorporateRegistries> .
+<https://codelist.commonapproach.org/CanadianCorporateRegistries#pe> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://codelist.commonapproach.org/CanadianCorporateRegistries> .
+<https://codelist.commonapproach.org/CanadianCorporateRegistries#qc> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://codelist.commonapproach.org/CanadianCorporateRegistries#qc> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#Code> .
+<https://codelist.commonapproach.org/CanadianCorporateRegistries#qc> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#Organization> .
+<https://codelist.commonapproach.org/CanadianCorporateRegistries#qc> <http://www.w3.org/ns/org#hasName> "Quebec" .
+<https://codelist.commonapproach.org/CanadianCorporateRegistries#qc> <http://www.w3.org/2004/02/skos/core#prefLabel> "Quebec"@en .
+<https://codelist.commonapproach.org/CanadianCorporateRegistries#qc> <http://www.w3.org/ns/org#hasLegalName> "Quebec"@en .
+<https://codelist.commonapproach.org/CanadianCorporateRegistries#qc> <https://ontology.commonapproach.org/cids#hasDescription> "Registraire des entreprises du Québec" .
+<https://codelist.commonapproach.org/CanadianCorporateRegistries#qc> <http://www.w3.org/2004/02/skos/core#definition> "Registraire des entreprises du Québec"@en .
+<https://codelist.commonapproach.org/CanadianCorporateRegistries#qc> <http://www.w3.org/ns/org#hasIdentifier> "qc" .
+<https://codelist.commonapproach.org/CanadianCorporateRegistries#qc> <http://www.w3.org/2004/02/skos/core#notation> "qc" .
+<https://codelist.commonapproach.org/CanadianCorporateRegistries#qc> <http://www.w3.org/ns/prov#hadPrimarySource> <https://www.registreentreprises.gouv.qc.ca/> .
+<https://codelist.commonapproach.org/CanadianCorporateRegistries#qc> <https://ontology.commonapproach.org/cids#definedBy> <https://ontology.commonapproach.org/cids#esdc> .
+<https://codelist.commonapproach.org/CanadianCorporateRegistries#qc> <https://ontology.commonapproach.org/cids#hasSpecification> <https://codelist.commonapproach.org/CanadianCorporateRegistries> .
+<https://codelist.commonapproach.org/CanadianCorporateRegistries#qc> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://codelist.commonapproach.org/CanadianCorporateRegistries> .
+<https://codelist.commonapproach.org/CanadianCorporateRegistries#sk> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://codelist.commonapproach.org/CanadianCorporateRegistries#sk> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#Code> .
+<https://codelist.commonapproach.org/CanadianCorporateRegistries#sk> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#Organization> .
+<https://codelist.commonapproach.org/CanadianCorporateRegistries#sk> <http://www.w3.org/ns/org#hasName> "Saskatchewan" .
+<https://codelist.commonapproach.org/CanadianCorporateRegistries#sk> <http://www.w3.org/2004/02/skos/core#prefLabel> "Saskatchewan"@en .
+<https://codelist.commonapproach.org/CanadianCorporateRegistries#sk> <http://www.w3.org/ns/org#hasLegalName> "Saskatchewan"@en .
+<https://codelist.commonapproach.org/CanadianCorporateRegistries#sk> <https://ontology.commonapproach.org/cids#hasDescription> "Corporate Registry - Information Services Corporation (ISC)" .
+<https://codelist.commonapproach.org/CanadianCorporateRegistries#sk> <http://www.w3.org/2004/02/skos/core#definition> "Corporate Registry - Information Services Corporation (ISC)"@en .
+<https://codelist.commonapproach.org/CanadianCorporateRegistries#sk> <http://www.w3.org/ns/org#hasIdentifier> "sk" .
+<https://codelist.commonapproach.org/CanadianCorporateRegistries#sk> <http://www.w3.org/2004/02/skos/core#notation> "sk" .
+<https://codelist.commonapproach.org/CanadianCorporateRegistries#sk> <http://www.w3.org/ns/prov#hadPrimarySource> <https://www.isc.ca/CorporateRegistry> .
+<https://codelist.commonapproach.org/CanadianCorporateRegistries#sk> <https://ontology.commonapproach.org/cids#definedBy> <https://ontology.commonapproach.org/cids#esdc> .
+<https://codelist.commonapproach.org/CanadianCorporateRegistries#sk> <https://ontology.commonapproach.org/cids#hasSpecification> <https://codelist.commonapproach.org/CanadianCorporateRegistries> .
+<https://codelist.commonapproach.org/CanadianCorporateRegistries#sk> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://codelist.commonapproach.org/CanadianCorporateRegistries> .
+<https://codelist.commonapproach.org/CanadianCorporateRegistries#yk> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://codelist.commonapproach.org/CanadianCorporateRegistries#yk> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#Code> .
+<https://codelist.commonapproach.org/CanadianCorporateRegistries#yk> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#Organization> .
+<https://codelist.commonapproach.org/CanadianCorporateRegistries#yk> <http://www.w3.org/ns/org#hasName> "Yukon" .
+<https://codelist.commonapproach.org/CanadianCorporateRegistries#yk> <http://www.w3.org/2004/02/skos/core#prefLabel> "Yukon"@en .
+<https://codelist.commonapproach.org/CanadianCorporateRegistries#yk> <http://www.w3.org/ns/org#hasLegalName> "Yukon"@en .
+<https://codelist.commonapproach.org/CanadianCorporateRegistries#yk> <https://ontology.commonapproach.org/cids#hasDescription> "Corporate Affairs - Department of Community Services" .
+<https://codelist.commonapproach.org/CanadianCorporateRegistries#yk> <http://www.w3.org/2004/02/skos/core#definition> "Corporate Affairs - Department of Community Services"@en .
+<https://codelist.commonapproach.org/CanadianCorporateRegistries#yk> <http://www.w3.org/ns/org#hasIdentifier> "yk" .
+<https://codelist.commonapproach.org/CanadianCorporateRegistries#yk> <http://www.w3.org/2004/02/skos/core#notation> "yk" .
+<https://codelist.commonapproach.org/CanadianCorporateRegistries#yk> <http://www.w3.org/ns/prov#hadPrimarySource> <https://ycor-reey.gov.yk.ca/> .
+<https://codelist.commonapproach.org/CanadianCorporateRegistries#yk> <https://ontology.commonapproach.org/cids#definedBy> <https://ontology.commonapproach.org/cids#esdc> .
+<https://codelist.commonapproach.org/CanadianCorporateRegistries#yk> <https://ontology.commonapproach.org/cids#hasSpecification> <https://codelist.commonapproach.org/CanadianCorporateRegistries> .
+<https://codelist.commonapproach.org/CanadianCorporateRegistries#yk> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://codelist.commonapproach.org/CanadianCorporateRegistries> .

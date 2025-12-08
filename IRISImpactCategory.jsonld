@@ -1,0 +1,570 @@
+{
+    "@graph": [
+        {
+            "@id": "https://codelist.commonapproach.org/IRISImpactCategory#CrossCategory",
+            "skos:inScheme": {
+                "@id": "https://codelist.commonapproach.org/IRISImpactCategory"
+            },
+            "rdfs:isDefinedBy": {
+                "@id": "https://codelist.commonapproach.org/IRISImpactCategory"
+            },
+            "cids:hasSpecification": {
+                "@id": "https://codelist.commonapproach.org/IRISImpactCategory"
+            },
+            "cids:definedBy": {
+                "@id": "cids:giin"
+            },
+            "prov:hadPrimarySource": {
+                "@id": "https://iris.thegiin.org/metrics/"
+            },
+            "skos:notation": "CrossCategory",
+            "org:hasIdentifier": "CrossCategory",
+            "@type": [
+                "cids:Code",
+                "skos:Concept"
+            ],
+            "skos:prefLabel": {
+                "@language": "en",
+                "@value": "Cross Category"
+            },
+            "org:hasName": "Cross Category"
+        },
+        {
+            "@id": "https://codelist.commonapproach.org/IRISImpactCategory",
+            "dcterms:description": {
+                "@language": "en",
+                "@value": "An RDF vocabulary of IRIS+ Impact Categories."
+            },
+            "dcterms:title": {
+                "@language": "en",
+                "@value": "IRIS+ Impact Categories"
+            },
+            "skos:prefLabel": {
+                "@language": "en",
+                "@value": "IRIS+ Impact Categories"
+            },
+            "owl:versionInfo": "2.0",
+            "dcterms:date": {
+                "@value": "2025-12-01",
+                "@type": "xsd:date"
+            },
+            "dcterms:creator": {
+                "@id": "cids:ac"
+            },
+            "owl:imports": {
+                "@id": "https://ontology.commonapproach.org/cids"
+            },
+            "@type": [
+                "skos:ConceptScheme",
+                "owl:Ontology",
+                "voaf:Vocabulary"
+            ]
+        },
+        {
+            "@id": "https://codelist.commonapproach.org/IRISImpactCategory#Water",
+            "skos:inScheme": {
+                "@id": "https://codelist.commonapproach.org/IRISImpactCategory"
+            },
+            "rdfs:isDefinedBy": {
+                "@id": "https://codelist.commonapproach.org/IRISImpactCategory"
+            },
+            "cids:hasSpecification": {
+                "@id": "https://codelist.commonapproach.org/IRISImpactCategory"
+            },
+            "cids:definedBy": {
+                "@id": "cids:giin"
+            },
+            "prov:hadPrimarySource": {
+                "@id": "https://iris.thegiin.org/metrics/"
+            },
+            "skos:notation": "Water",
+            "org:hasIdentifier": "Water",
+            "skos:prefLabel": {
+                "@language": "en",
+                "@value": "Water"
+            },
+            "org:hasName": "Water",
+            "@type": [
+                "cids:Code",
+                "skos:Concept"
+            ]
+        },
+        {
+            "@id": "https://codelist.commonapproach.org/IRISImpactCategory#Waste",
+            "skos:inScheme": {
+                "@id": "https://codelist.commonapproach.org/IRISImpactCategory"
+            },
+            "rdfs:isDefinedBy": {
+                "@id": "https://codelist.commonapproach.org/IRISImpactCategory"
+            },
+            "cids:hasSpecification": {
+                "@id": "https://codelist.commonapproach.org/IRISImpactCategory"
+            },
+            "cids:definedBy": {
+                "@id": "cids:giin"
+            },
+            "prov:hadPrimarySource": {
+                "@id": "https://iris.thegiin.org/metrics/"
+            },
+            "skos:notation": "Waste",
+            "org:hasIdentifier": "Waste",
+            "skos:prefLabel": {
+                "@language": "en",
+                "@value": "Waste"
+            },
+            "org:hasName": "Waste",
+            "@type": [
+                "cids:Code",
+                "skos:Concept"
+            ]
+        },
+        {
+            "@id": "https://codelist.commonapproach.org/IRISImpactCategory#RealEstate",
+            "skos:inScheme": {
+                "@id": "https://codelist.commonapproach.org/IRISImpactCategory"
+            },
+            "rdfs:isDefinedBy": {
+                "@id": "https://codelist.commonapproach.org/IRISImpactCategory"
+            },
+            "cids:hasSpecification": {
+                "@id": "https://codelist.commonapproach.org/IRISImpactCategory"
+            },
+            "cids:definedBy": {
+                "@id": "cids:giin"
+            },
+            "prov:hadPrimarySource": {
+                "@id": "https://iris.thegiin.org/metrics/"
+            },
+            "skos:notation": "RealEstate",
+            "org:hasIdentifier": "RealEstate",
+            "skos:prefLabel": {
+                "@language": "en",
+                "@value": "Real Estate"
+            },
+            "org:hasName": "Real Estate",
+            "@type": [
+                "cids:Code",
+                "skos:Concept"
+            ]
+        },
+        {
+            "@id": "https://codelist.commonapproach.org/IRISImpactCategory#Pollution",
+            "skos:inScheme": {
+                "@id": "https://codelist.commonapproach.org/IRISImpactCategory"
+            },
+            "rdfs:isDefinedBy": {
+                "@id": "https://codelist.commonapproach.org/IRISImpactCategory"
+            },
+            "cids:hasSpecification": {
+                "@id": "https://codelist.commonapproach.org/IRISImpactCategory"
+            },
+            "cids:definedBy": {
+                "@id": "cids:giin"
+            },
+            "prov:hadPrimarySource": {
+                "@id": "https://iris.thegiin.org/metrics/"
+            },
+            "skos:notation": "Pollution",
+            "org:hasIdentifier": "Pollution",
+            "skos:prefLabel": {
+                "@language": "en",
+                "@value": "Pollution"
+            },
+            "org:hasName": "Pollution",
+            "@type": [
+                "cids:Code",
+                "skos:Concept"
+            ]
+        },
+        {
+            "@id": "https://codelist.commonapproach.org/IRISImpactCategory#OceansandCoastalZones",
+            "skos:inScheme": {
+                "@id": "https://codelist.commonapproach.org/IRISImpactCategory"
+            },
+            "rdfs:isDefinedBy": {
+                "@id": "https://codelist.commonapproach.org/IRISImpactCategory"
+            },
+            "cids:hasSpecification": {
+                "@id": "https://codelist.commonapproach.org/IRISImpactCategory"
+            },
+            "cids:definedBy": {
+                "@id": "cids:giin"
+            },
+            "prov:hadPrimarySource": {
+                "@id": "https://iris.thegiin.org/metrics/"
+            },
+            "skos:notation": "OceansandCoastalZones",
+            "org:hasIdentifier": "OceansandCoastalZones",
+            "skos:prefLabel": {
+                "@language": "en",
+                "@value": "Oceans and Coastal Zones"
+            },
+            "org:hasName": "Oceans and Coastal Zones",
+            "@type": [
+                "cids:Code",
+                "skos:Concept"
+            ]
+        },
+        {
+            "@id": "https://codelist.commonapproach.org/IRISImpactCategory#Land",
+            "skos:inScheme": {
+                "@id": "https://codelist.commonapproach.org/IRISImpactCategory"
+            },
+            "rdfs:isDefinedBy": {
+                "@id": "https://codelist.commonapproach.org/IRISImpactCategory"
+            },
+            "cids:hasSpecification": {
+                "@id": "https://codelist.commonapproach.org/IRISImpactCategory"
+            },
+            "cids:definedBy": {
+                "@id": "cids:giin"
+            },
+            "prov:hadPrimarySource": {
+                "@id": "https://iris.thegiin.org/metrics/"
+            },
+            "skos:notation": "Land",
+            "org:hasIdentifier": "Land",
+            "skos:prefLabel": {
+                "@language": "en",
+                "@value": "Land"
+            },
+            "org:hasName": "Land",
+            "@type": [
+                "cids:Code",
+                "skos:Concept"
+            ]
+        },
+        {
+            "@id": "https://codelist.commonapproach.org/IRISImpactCategory#Infrastructure",
+            "skos:inScheme": {
+                "@id": "https://codelist.commonapproach.org/IRISImpactCategory"
+            },
+            "rdfs:isDefinedBy": {
+                "@id": "https://codelist.commonapproach.org/IRISImpactCategory"
+            },
+            "cids:hasSpecification": {
+                "@id": "https://codelist.commonapproach.org/IRISImpactCategory"
+            },
+            "cids:definedBy": {
+                "@id": "cids:giin"
+            },
+            "prov:hadPrimarySource": {
+                "@id": "https://iris.thegiin.org/metrics/"
+            },
+            "skos:notation": "Infrastructure",
+            "org:hasIdentifier": "Infrastructure",
+            "skos:prefLabel": {
+                "@language": "en",
+                "@value": "Infrastructure"
+            },
+            "org:hasName": "Infrastructure",
+            "@type": [
+                "cids:Code",
+                "skos:Concept"
+            ]
+        },
+        {
+            "@id": "https://codelist.commonapproach.org/IRISImpactCategory#Health",
+            "skos:inScheme": {
+                "@id": "https://codelist.commonapproach.org/IRISImpactCategory"
+            },
+            "rdfs:isDefinedBy": {
+                "@id": "https://codelist.commonapproach.org/IRISImpactCategory"
+            },
+            "cids:hasSpecification": {
+                "@id": "https://codelist.commonapproach.org/IRISImpactCategory"
+            },
+            "cids:definedBy": {
+                "@id": "cids:giin"
+            },
+            "prov:hadPrimarySource": {
+                "@id": "https://iris.thegiin.org/metrics/"
+            },
+            "skos:notation": "Health",
+            "org:hasIdentifier": "Health",
+            "skos:prefLabel": {
+                "@language": "en",
+                "@value": "Health"
+            },
+            "org:hasName": "Health",
+            "@type": [
+                "cids:Code",
+                "skos:Concept"
+            ]
+        },
+        {
+            "@id": "https://codelist.commonapproach.org/IRISImpactCategory#FinancialServices",
+            "skos:inScheme": {
+                "@id": "https://codelist.commonapproach.org/IRISImpactCategory"
+            },
+            "rdfs:isDefinedBy": {
+                "@id": "https://codelist.commonapproach.org/IRISImpactCategory"
+            },
+            "cids:hasSpecification": {
+                "@id": "https://codelist.commonapproach.org/IRISImpactCategory"
+            },
+            "cids:definedBy": {
+                "@id": "cids:giin"
+            },
+            "prov:hadPrimarySource": {
+                "@id": "https://iris.thegiin.org/metrics/"
+            },
+            "skos:notation": "FinancialServices",
+            "org:hasIdentifier": "FinancialServices",
+            "skos:prefLabel": {
+                "@language": "en",
+                "@value": "Financial Services"
+            },
+            "org:hasName": "Financial Services",
+            "@type": [
+                "cids:Code",
+                "skos:Concept"
+            ]
+        },
+        {
+            "@id": "https://codelist.commonapproach.org/IRISImpactCategory#Energy",
+            "skos:inScheme": {
+                "@id": "https://codelist.commonapproach.org/IRISImpactCategory"
+            },
+            "rdfs:isDefinedBy": {
+                "@id": "https://codelist.commonapproach.org/IRISImpactCategory"
+            },
+            "cids:hasSpecification": {
+                "@id": "https://codelist.commonapproach.org/IRISImpactCategory"
+            },
+            "cids:definedBy": {
+                "@id": "cids:giin"
+            },
+            "prov:hadPrimarySource": {
+                "@id": "https://iris.thegiin.org/metrics/"
+            },
+            "skos:notation": "Energy",
+            "org:hasIdentifier": "Energy",
+            "skos:prefLabel": {
+                "@language": "en",
+                "@value": "Energy"
+            },
+            "org:hasName": "Energy",
+            "@type": [
+                "cids:Code",
+                "skos:Concept"
+            ]
+        },
+        {
+            "@id": "https://codelist.commonapproach.org/IRISImpactCategory#Employment",
+            "skos:inScheme": {
+                "@id": "https://codelist.commonapproach.org/IRISImpactCategory"
+            },
+            "rdfs:isDefinedBy": {
+                "@id": "https://codelist.commonapproach.org/IRISImpactCategory"
+            },
+            "cids:hasSpecification": {
+                "@id": "https://codelist.commonapproach.org/IRISImpactCategory"
+            },
+            "cids:definedBy": {
+                "@id": "cids:giin"
+            },
+            "prov:hadPrimarySource": {
+                "@id": "https://iris.thegiin.org/metrics/"
+            },
+            "skos:notation": "Employment",
+            "org:hasIdentifier": "Employment",
+            "skos:prefLabel": {
+                "@language": "en",
+                "@value": "Employment"
+            },
+            "org:hasName": "Employment",
+            "@type": [
+                "cids:Code",
+                "skos:Concept"
+            ]
+        },
+        {
+            "@id": "https://codelist.commonapproach.org/IRISImpactCategory#Education",
+            "skos:inScheme": {
+                "@id": "https://codelist.commonapproach.org/IRISImpactCategory"
+            },
+            "rdfs:isDefinedBy": {
+                "@id": "https://codelist.commonapproach.org/IRISImpactCategory"
+            },
+            "cids:hasSpecification": {
+                "@id": "https://codelist.commonapproach.org/IRISImpactCategory"
+            },
+            "cids:definedBy": {
+                "@id": "cids:giin"
+            },
+            "prov:hadPrimarySource": {
+                "@id": "https://iris.thegiin.org/metrics/"
+            },
+            "skos:notation": "Education",
+            "org:hasIdentifier": "Education",
+            "skos:prefLabel": {
+                "@language": "en",
+                "@value": "Education"
+            },
+            "org:hasName": "Education",
+            "@type": [
+                "cids:Code",
+                "skos:Concept"
+            ]
+        },
+        {
+            "@id": "https://codelist.commonapproach.org/IRISImpactCategory#DiversityandInclusion",
+            "skos:inScheme": {
+                "@id": "https://codelist.commonapproach.org/IRISImpactCategory"
+            },
+            "rdfs:isDefinedBy": {
+                "@id": "https://codelist.commonapproach.org/IRISImpactCategory"
+            },
+            "cids:hasSpecification": {
+                "@id": "https://codelist.commonapproach.org/IRISImpactCategory"
+            },
+            "cids:definedBy": {
+                "@id": "cids:giin"
+            },
+            "prov:hadPrimarySource": {
+                "@id": "https://iris.thegiin.org/metrics/"
+            },
+            "skos:notation": "DiversityandInclusion",
+            "org:hasIdentifier": "DiversityandInclusion",
+            "skos:prefLabel": {
+                "@language": "en",
+                "@value": "Diversity and Inclusion"
+            },
+            "org:hasName": "Diversity and Inclusion",
+            "@type": [
+                "cids:Code",
+                "skos:Concept"
+            ]
+        },
+        {
+            "@id": "https://codelist.commonapproach.org/IRISImpactCategory#Climate",
+            "skos:inScheme": {
+                "@id": "https://codelist.commonapproach.org/IRISImpactCategory"
+            },
+            "rdfs:isDefinedBy": {
+                "@id": "https://codelist.commonapproach.org/IRISImpactCategory"
+            },
+            "cids:hasSpecification": {
+                "@id": "https://codelist.commonapproach.org/IRISImpactCategory"
+            },
+            "cids:definedBy": {
+                "@id": "cids:giin"
+            },
+            "prov:hadPrimarySource": {
+                "@id": "https://iris.thegiin.org/metrics/"
+            },
+            "skos:notation": "Climate",
+            "org:hasIdentifier": "Climate",
+            "skos:prefLabel": {
+                "@language": "en",
+                "@value": "Climate"
+            },
+            "org:hasName": "Climate",
+            "@type": [
+                "cids:Code",
+                "skos:Concept"
+            ]
+        },
+        {
+            "@id": "https://codelist.commonapproach.org/IRISImpactCategory#BiodiversityandEcosystems",
+            "skos:inScheme": {
+                "@id": "https://codelist.commonapproach.org/IRISImpactCategory"
+            },
+            "rdfs:isDefinedBy": {
+                "@id": "https://codelist.commonapproach.org/IRISImpactCategory"
+            },
+            "cids:hasSpecification": {
+                "@id": "https://codelist.commonapproach.org/IRISImpactCategory"
+            },
+            "cids:definedBy": {
+                "@id": "cids:giin"
+            },
+            "prov:hadPrimarySource": {
+                "@id": "https://iris.thegiin.org/metrics/"
+            },
+            "skos:notation": "BiodiversityandEcosystems",
+            "org:hasIdentifier": "BiodiversityandEcosystems",
+            "skos:prefLabel": {
+                "@language": "en",
+                "@value": "Biodiversity and Ecosystems"
+            },
+            "org:hasName": "Biodiversity and Ecosystems",
+            "@type": [
+                "cids:Code",
+                "skos:Concept"
+            ]
+        },
+        {
+            "@id": "https://codelist.commonapproach.org/IRISImpactCategory#Air",
+            "skos:inScheme": {
+                "@id": "https://codelist.commonapproach.org/IRISImpactCategory"
+            },
+            "rdfs:isDefinedBy": {
+                "@id": "https://codelist.commonapproach.org/IRISImpactCategory"
+            },
+            "cids:hasSpecification": {
+                "@id": "https://codelist.commonapproach.org/IRISImpactCategory"
+            },
+            "cids:definedBy": {
+                "@id": "cids:giin"
+            },
+            "prov:hadPrimarySource": {
+                "@id": "https://iris.thegiin.org/metrics/"
+            },
+            "skos:notation": "Air",
+            "org:hasIdentifier": "Air",
+            "skos:prefLabel": {
+                "@language": "en",
+                "@value": "Air"
+            },
+            "org:hasName": "Air",
+            "@type": [
+                "cids:Code",
+                "skos:Concept"
+            ]
+        },
+        {
+            "@id": "https://codelist.commonapproach.org/IRISImpactCategory#Agriculture",
+            "skos:inScheme": {
+                "@id": "https://codelist.commonapproach.org/IRISImpactCategory"
+            },
+            "rdfs:isDefinedBy": {
+                "@id": "https://codelist.commonapproach.org/IRISImpactCategory"
+            },
+            "cids:hasSpecification": {
+                "@id": "https://codelist.commonapproach.org/IRISImpactCategory"
+            },
+            "cids:definedBy": {
+                "@id": "cids:giin"
+            },
+            "prov:hadPrimarySource": {
+                "@id": "https://iris.thegiin.org/metrics/"
+            },
+            "skos:notation": "Agriculture",
+            "org:hasIdentifier": "Agriculture",
+            "skos:prefLabel": {
+                "@language": "en",
+                "@value": "Agriculture"
+            },
+            "org:hasName": "Agriculture",
+            "@type": [
+                "cids:Code",
+                "skos:Concept"
+            ]
+        }
+    ],
+    "@context": {
+        "org": "http://www.w3.org/ns/org#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "voaf": "http://purl.org/vocommons/voaf#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "cids": "https://ontology.commonapproach.org/cids#",
+        "prov": "http://www.w3.org/ns/prov#",
+        "@vocab": "https://codelist.commonapproach.org/IRISImpactCategory#"
+    }
+}

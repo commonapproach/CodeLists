@@ -1,0 +1,266 @@
+<rdf:RDF
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:prov="http://www.w3.org/ns/prov#"
+    xmlns:cids="https://ontology.commonapproach.org/cids#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:org="http://www.w3.org/ns/org#"
+    xmlns:voaf="http://purl.org/vocommons/voaf/"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns="https://codelist.commonapproach.org/CanadianCorporateRegistries#"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#" > 
+  <rdf:Description rdf:about="#cra">
+    <rdfs:isDefinedBy rdf:resource=""/>
+    <cids:hasSpecification rdf:resource=""/>
+    <cids:definedBy rdf:resource="https://ontology.commonapproach.org/cids#esdc"/>
+    <prov:hadPrimarySource rdf:resource="https://www.canada.ca/en/revenue-agency/"/>
+    <skos:notation>cra</skos:notation>
+    <org:hasIdentifier>cra</org:hasIdentifier>
+    <skos:definition xml:lang="en">Canada Revenue Agency</skos:definition>
+    <cids:hasDescription>Canada Revenue Agency</cids:hasDescription>
+    <org:hasLegalName xml:lang="en">Canada Revenue Agency</org:hasLegalName>
+    <skos:prefLabel xml:lang="en">Canada Revenue Agency</skos:prefLabel>
+    <org:hasName>Canada Revenue Agency</org:hasName>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Organization"/>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#nb">
+    <rdfs:isDefinedBy rdf:resource=""/>
+    <cids:hasSpecification rdf:resource=""/>
+    <cids:definedBy rdf:resource="https://ontology.commonapproach.org/cids#esdc"/>
+    <prov:hadPrimarySource rdf:resource="https://www2.snb.ca/content/snb/en/sites/corporate-registry.html"/>
+    <skos:notation>nb</skos:notation>
+    <org:hasIdentifier>nb</org:hasIdentifier>
+    <skos:definition xml:lang="en">Corporate Registry - Service New Brunswick</skos:definition>
+    <cids:hasDescription>Corporate Registry - Service New Brunswick</cids:hasDescription>
+    <org:hasLegalName xml:lang="en">New Brunswick</org:hasLegalName>
+    <skos:prefLabel xml:lang="en">New Brunswick</skos:prefLabel>
+    <org:hasName>New Brunswick</org:hasName>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Organization"/>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#pe">
+    <rdfs:isDefinedBy rdf:resource=""/>
+    <cids:hasSpecification rdf:resource=""/>
+    <cids:definedBy rdf:resource="https://ontology.commonapproach.org/cids#esdc"/>
+    <prov:hadPrimarySource rdf:resource="https://www.princeedwardisland.ca/en/feature/pei-business-corporate-registry/"/>
+    <skos:notation>pe</skos:notation>
+    <org:hasIdentifier>pe</org:hasIdentifier>
+    <skos:definition xml:lang="en">Corporate Business Names Registry</skos:definition>
+    <cids:hasDescription>Corporate Business Names Registry</cids:hasDescription>
+    <org:hasLegalName xml:lang="en">Prince Edward Island</org:hasLegalName>
+    <skos:prefLabel xml:lang="en">Prince Edward Island</skos:prefLabel>
+    <org:hasName>Prince Edward Island</org:hasName>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Organization"/>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#mb">
+    <rdfs:isDefinedBy rdf:resource=""/>
+    <cids:hasSpecification rdf:resource=""/>
+    <cids:definedBy rdf:resource="https://ontology.commonapproach.org/cids#esdc"/>
+    <prov:hadPrimarySource rdf:resource="https://companiesoffice.gov.mb.ca/"/>
+    <skos:notation>mb</skos:notation>
+    <org:hasIdentifier>mb</org:hasIdentifier>
+    <skos:definition xml:lang="en">Manitoba Companies Office</skos:definition>
+    <cids:hasDescription>Manitoba Companies Office</cids:hasDescription>
+    <org:hasLegalName xml:lang="en">Manitoba</org:hasLegalName>
+    <skos:prefLabel xml:lang="en">Manitoba</skos:prefLabel>
+    <org:hasName>Manitoba</org:hasName>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Organization"/>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#yk">
+    <rdfs:isDefinedBy rdf:resource=""/>
+    <cids:hasSpecification rdf:resource=""/>
+    <cids:definedBy rdf:resource="https://ontology.commonapproach.org/cids#esdc"/>
+    <prov:hadPrimarySource rdf:resource="https://ycor-reey.gov.yk.ca/"/>
+    <skos:notation>yk</skos:notation>
+    <org:hasIdentifier>yk</org:hasIdentifier>
+    <skos:definition xml:lang="en">Corporate Affairs - Department of Community Services</skos:definition>
+    <cids:hasDescription>Corporate Affairs - Department of Community Services</cids:hasDescription>
+    <org:hasLegalName xml:lang="en">Yukon</org:hasLegalName>
+    <skos:prefLabel xml:lang="en">Yukon</skos:prefLabel>
+    <org:hasName>Yukon</org:hasName>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Organization"/>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#qc">
+    <rdfs:isDefinedBy rdf:resource=""/>
+    <cids:hasSpecification rdf:resource=""/>
+    <cids:definedBy rdf:resource="https://ontology.commonapproach.org/cids#esdc"/>
+    <prov:hadPrimarySource rdf:resource="https://www.registreentreprises.gouv.qc.ca/"/>
+    <skos:notation>qc</skos:notation>
+    <org:hasIdentifier>qc</org:hasIdentifier>
+    <skos:definition xml:lang="en">Registraire des entreprises du Québec</skos:definition>
+    <cids:hasDescription>Registraire des entreprises du Québec</cids:hasDescription>
+    <org:hasLegalName xml:lang="en">Quebec</org:hasLegalName>
+    <skos:prefLabel xml:lang="en">Quebec</skos:prefLabel>
+    <org:hasName>Quebec</org:hasName>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Organization"/>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#sk">
+    <rdfs:isDefinedBy rdf:resource=""/>
+    <cids:hasSpecification rdf:resource=""/>
+    <cids:definedBy rdf:resource="https://ontology.commonapproach.org/cids#esdc"/>
+    <prov:hadPrimarySource rdf:resource="https://www.isc.ca/CorporateRegistry"/>
+    <skos:notation>sk</skos:notation>
+    <org:hasIdentifier>sk</org:hasIdentifier>
+    <skos:definition xml:lang="en">Corporate Registry - Information Services Corporation (ISC)</skos:definition>
+    <cids:hasDescription>Corporate Registry - Information Services Corporation (ISC)</cids:hasDescription>
+    <org:hasLegalName xml:lang="en">Saskatchewan</org:hasLegalName>
+    <skos:prefLabel xml:lang="en">Saskatchewan</skos:prefLabel>
+    <org:hasName>Saskatchewan</org:hasName>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Organization"/>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#bc">
+    <rdfs:isDefinedBy rdf:resource=""/>
+    <cids:hasSpecification rdf:resource=""/>
+    <cids:definedBy rdf:resource="https://ontology.commonapproach.org/cids#esdc"/>
+    <prov:hadPrimarySource rdf:resource="https://www2.gov.bc.ca/gov/content/governments/organizational-structure/ministries-organizations/ministries/citizens-services/bc-registries-online-services"/>
+    <skos:notation>bc</skos:notation>
+    <org:hasIdentifier>bc</org:hasIdentifier>
+    <skos:definition xml:lang="en">BC Registries and Online Services</skos:definition>
+    <cids:hasDescription>BC Registries and Online Services</cids:hasDescription>
+    <org:hasLegalName xml:lang="en">British Columbia</org:hasLegalName>
+    <skos:prefLabel xml:lang="en">British Columbia</skos:prefLabel>
+    <org:hasName>British Columbia</org:hasName>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Organization"/>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#ab">
+    <rdfs:isDefinedBy rdf:resource=""/>
+    <cids:hasSpecification rdf:resource=""/>
+    <cids:definedBy rdf:resource="https://ontology.commonapproach.org/cids#esdc"/>
+    <prov:hadPrimarySource rdf:resource="https://www.alberta.ca/business-licence-or-charitable-registration-in-alberta"/>
+    <skos:notation>ab</skos:notation>
+    <org:hasIdentifier>ab</org:hasIdentifier>
+    <skos:definition xml:lang="en">Alberta Corporate Registry</skos:definition>
+    <cids:hasDescription>Alberta Corporate Registry</cids:hasDescription>
+    <org:hasLegalName xml:lang="en">Alberta</org:hasLegalName>
+    <skos:prefLabel xml:lang="en">Alberta</skos:prefLabel>
+    <org:hasName>Alberta</org:hasName>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Organization"/>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#nl">
+    <rdfs:isDefinedBy rdf:resource=""/>
+    <cids:hasSpecification rdf:resource=""/>
+    <cids:definedBy rdf:resource="https://ontology.commonapproach.org/cids#esdc"/>
+    <prov:hadPrimarySource rdf:resource="https://www.gov.nl.ca/dgsnl/registries/companies/"/>
+    <skos:notation>nl</skos:notation>
+    <org:hasIdentifier>nl</org:hasIdentifier>
+    <skos:definition xml:lang="en">Registry of Companies and Deeds</skos:definition>
+    <cids:hasDescription>Registry of Companies and Deeds</cids:hasDescription>
+    <org:hasLegalName xml:lang="en">Newfoundland and Labrador</org:hasLegalName>
+    <skos:prefLabel xml:lang="en">Newfoundland and Labrador</skos:prefLabel>
+    <org:hasName>Newfoundland and Labrador</org:hasName>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Organization"/>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#ca">
+    <rdfs:isDefinedBy rdf:resource=""/>
+    <cids:hasSpecification rdf:resource=""/>
+    <cids:definedBy rdf:resource="https://ontology.commonapproach.org/cids#esdc"/>
+    <prov:hadPrimarySource rdf:resource="https://ised-isde.canada.ca/cbr-rec/"/>
+    <skos:notation>ca</skos:notation>
+    <org:hasIdentifier>ca</org:hasIdentifier>
+    <skos:definition xml:lang="en">Corporations Canada</skos:definition>
+    <cids:hasDescription>Corporations Canada</cids:hasDescription>
+    <org:hasLegalName xml:lang="en">Corporations Canada</org:hasLegalName>
+    <skos:prefLabel xml:lang="en">Corporations Canada</skos:prefLabel>
+    <org:hasName>Corporations Canada</org:hasName>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Organization"/>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#on">
+    <rdfs:isDefinedBy rdf:resource=""/>
+    <cids:hasSpecification rdf:resource=""/>
+    <cids:definedBy rdf:resource="https://ontology.commonapproach.org/cids#esdc"/>
+    <prov:hadPrimarySource rdf:resource="https://www.ontario.ca/page/ontario-business-registry"/>
+    <skos:notation>on</skos:notation>
+    <org:hasIdentifier>on</org:hasIdentifier>
+    <skos:definition xml:lang="en">Ontario Business Registry</skos:definition>
+    <cids:hasDescription>Ontario Business Registry</cids:hasDescription>
+    <org:hasLegalName xml:lang="en">Ontario</org:hasLegalName>
+    <skos:prefLabel xml:lang="en">Ontario</skos:prefLabel>
+    <org:hasName>Ontario</org:hasName>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Organization"/>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="">
+    <dcterms:description xml:lang="en">An RDF vocabulary of Canadian Corporate Registries.</dcterms:description>
+    <dcterms:title xml:lang="en">Canadian Corporate Registries</dcterms:title>
+    <skos:PrefLabel xml:lang="en">Canadian Corporate Registries Codelist</skos:PrefLabel>
+    <owl:versionInfo>2.0</owl:versionInfo>
+    <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-12-01</dcterms:date>
+    <dcterms:creator rdf:resource="https://ontology.commonapproach.org/cids#ac"/>
+    <owl:imports rdf:resource="https://ontology.commonapproach.org/cids"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
+    <rdf:type rdf:resource="http://purl.org/vocommons/voaf/Vocabulary"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#ns">
+    <rdfs:isDefinedBy rdf:resource=""/>
+    <cids:hasSpecification rdf:resource=""/>
+    <cids:definedBy rdf:resource="https://ontology.commonapproach.org/cids#esdc"/>
+    <prov:hadPrimarySource rdf:resource="https://beta.novascotia.ca/programs-and-services/registry-joint-stock-companies"/>
+    <skos:notation>ns</skos:notation>
+    <org:hasIdentifier>ns</org:hasIdentifier>
+    <skos:definition xml:lang="en">Nova Scotia Registry of Joint Stock Companies</skos:definition>
+    <cids:hasDescription>Nova Scotia Registry of Joint Stock Companies</cids:hasDescription>
+    <org:hasLegalName xml:lang="en">Nova Scotia</org:hasLegalName>
+    <skos:prefLabel xml:lang="en">Nova Scotia</skos:prefLabel>
+    <org:hasName>Nova Scotia</org:hasName>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Organization"/>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#nt">
+    <rdfs:isDefinedBy rdf:resource=""/>
+    <cids:hasSpecification rdf:resource=""/>
+    <cids:definedBy rdf:resource="https://ontology.commonapproach.org/cids#esdc"/>
+    <prov:hadPrimarySource rdf:resource="https://www.justice.gov.nt.ca/en/boards-agencies/corporate-registries/"/>
+    <skos:notation>nt</skos:notation>
+    <org:hasIdentifier>nt</org:hasIdentifier>
+    <skos:definition xml:lang="en">Corporate Registries - Department of Justice</skos:definition>
+    <cids:hasDescription>Corporate Registries - Department of Justice</cids:hasDescription>
+    <org:hasLegalName xml:lang="en">Northwest Territories</org:hasLegalName>
+    <skos:prefLabel xml:lang="en">Northwest Territories</skos:prefLabel>
+    <org:hasName>Northwest Territories</org:hasName>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Organization"/>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#nu">
+    <rdfs:isDefinedBy rdf:resource=""/>
+    <cids:hasSpecification rdf:resource=""/>
+    <cids:definedBy rdf:resource="https://ontology.commonapproach.org/cids#esdc"/>
+    <prov:hadPrimarySource rdf:resource="https://www.gov.nu.ca/en/department-justice/corporate-and-securities-registries"/>
+    <skos:notation>nu</skos:notation>
+    <org:hasIdentifier>nu</org:hasIdentifier>
+    <skos:definition xml:lang="en">Corporate Registries - Department of Justice</skos:definition>
+    <cids:hasDescription>Corporate Registries - Department of Justice</cids:hasDescription>
+    <org:hasLegalName xml:lang="en">Nunavut</org:hasLegalName>
+    <skos:prefLabel xml:lang="en">Nunavut</skos:prefLabel>
+    <org:hasName>Nunavut</org:hasName>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Organization"/>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+</rdf:RDF>

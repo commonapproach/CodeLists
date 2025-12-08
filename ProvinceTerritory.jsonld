@@ -1,708 +1,451 @@
-[
-  {
-    "@id": "https://codelist.commonapproach.org/codeLists/ProvinceTerritory#PE",
-    "@type": [
-      "https://ontology.commonapproach.org/cids#Locality",
-      "https://ontology.commonapproach.org/cids#Code",
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
-      {
-        "@id": "https://codelist.commonapproach.org/codeLists/ProvinceTerritory#"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#label": [
-      {
-        "@language": "en",
-        "@value": "Prince Edward Island"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://codelist.commonapproach.org/codeLists/ProvinceTerritory#dataset"
-      }
-    ],
-    "http://www.w3.org/ns/prov#hadPrimarySource": [
-      {
-        "@id": "https://www12.statcan.gc.ca/census-recensement/2021/ref/dict/tab/index-eng.cfm?ID=t1_8"
-      }
-    ],
-    "https://ontology.commonapproach.org/cids#definedBy": [
-      {
-        "@id": "https://ontology.commonapproach.org/cids#statsCan"
-      }
-    ],
-    "https://ontology.commonapproach.org/cids#hasIdentifier": [
-      {
-        "@value": "PE"
-      }
-    ],
-    "https://ontology.commonapproach.org/cids#hasName": [
-      {
-        "@language": "en",
-        "@value": "Prince Edward Island"
-      }
-    ]
-  },
-  {
-    "@id": "https://codelist.commonapproach.org/codeLists/ProvinceTerritory#NU",
-    "@type": [
-      "https://ontology.commonapproach.org/cids#Locality",
-      "https://ontology.commonapproach.org/cids#Code",
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
-      {
-        "@id": "https://codelist.commonapproach.org/codeLists/ProvinceTerritory#"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#label": [
-      {
-        "@language": "en",
-        "@value": "Nunavut"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://codelist.commonapproach.org/codeLists/ProvinceTerritory#dataset"
-      }
-    ],
-    "http://www.w3.org/ns/prov#hadPrimarySource": [
-      {
-        "@id": "https://www12.statcan.gc.ca/census-recensement/2021/ref/dict/tab/index-eng.cfm?ID=t1_8"
-      }
-    ],
-    "https://ontology.commonapproach.org/cids#definedBy": [
-      {
-        "@id": "https://ontology.commonapproach.org/cids#statsCan"
-      }
-    ],
-    "https://ontology.commonapproach.org/cids#hasIdentifier": [
-      {
-        "@value": "NU"
-      }
-    ],
-    "https://ontology.commonapproach.org/cids#hasName": [
-      {
-        "@language": "en",
-        "@value": "Nunavut"
-      }
-    ]
-  },
-  {
-    "@id": "https://codelist.commonapproach.org/codeLists/ProvinceTerritory#SK",
-    "@type": [
-      "https://ontology.commonapproach.org/cids#Locality",
-      "https://ontology.commonapproach.org/cids#Code",
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
-      {
-        "@id": "https://codelist.commonapproach.org/codeLists/ProvinceTerritory#"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#label": [
-      {
-        "@language": "en",
-        "@value": "Saskatchewan"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://codelist.commonapproach.org/codeLists/ProvinceTerritory#dataset"
-      }
-    ],
-    "http://www.w3.org/ns/prov#hadPrimarySource": [
-      {
-        "@id": "https://www12.statcan.gc.ca/census-recensement/2021/ref/dict/tab/index-eng.cfm?ID=t1_8"
-      }
-    ],
-    "https://ontology.commonapproach.org/cids#definedBy": [
-      {
-        "@id": "https://ontology.commonapproach.org/cids#statsCan"
-      }
-    ],
-    "https://ontology.commonapproach.org/cids#hasIdentifier": [
-      {
-        "@value": "SK"
-      }
-    ],
-    "https://ontology.commonapproach.org/cids#hasName": [
-      {
-        "@language": "en",
-        "@value": "Saskatchewan"
-      }
-    ]
-  },
-  {
-    "@id": "https://codelist.commonapproach.org/codeLists/ProvinceTerritory#BC",
-    "@type": [
-      "https://ontology.commonapproach.org/cids#Locality",
-      "https://ontology.commonapproach.org/cids#Code",
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
-      {
-        "@id": "https://codelist.commonapproach.org/codeLists/ProvinceTerritory#"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#label": [
-      {
-        "@language": "en",
-        "@value": "British Columbia"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://codelist.commonapproach.org/codeLists/ProvinceTerritory#dataset"
-      }
-    ],
-    "http://www.w3.org/ns/prov#hadPrimarySource": [
-      {
-        "@id": "https://www12.statcan.gc.ca/census-recensement/2021/ref/dict/tab/index-eng.cfm?ID=t1_8"
-      }
-    ],
-    "https://ontology.commonapproach.org/cids#definedBy": [
-      {
-        "@id": "https://ontology.commonapproach.org/cids#statsCan"
-      }
-    ],
-    "https://ontology.commonapproach.org/cids#hasIdentifier": [
-      {
-        "@value": "BC"
-      }
-    ],
-    "https://ontology.commonapproach.org/cids#hasName": [
-      {
-        "@language": "en",
-        "@value": "British Columbia"
-      }
-    ]
-  },
-  {
-    "@id": "https://codelist.commonapproach.org/codeLists/ProvinceTerritory#ON",
-    "@type": [
-      "https://ontology.commonapproach.org/cids#Locality",
-      "https://ontology.commonapproach.org/cids#Code",
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
-      {
-        "@id": "https://codelist.commonapproach.org/codeLists/ProvinceTerritory#"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#label": [
-      {
-        "@language": "en",
-        "@value": "Ontario"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://codelist.commonapproach.org/codeLists/ProvinceTerritory#dataset"
-      }
-    ],
-    "http://www.w3.org/ns/prov#hadPrimarySource": [
-      {
-        "@id": "https://www12.statcan.gc.ca/census-recensement/2021/ref/dict/tab/index-eng.cfm?ID=t1_8"
-      }
-    ],
-    "https://ontology.commonapproach.org/cids#definedBy": [
-      {
-        "@id": "https://ontology.commonapproach.org/cids#statsCan"
-      }
-    ],
-    "https://ontology.commonapproach.org/cids#hasIdentifier": [
-      {
-        "@value": "ON"
-      }
-    ],
-    "https://ontology.commonapproach.org/cids#hasName": [
-      {
-        "@language": "en",
-        "@value": "Ontario"
-      }
-    ]
-  },
-  {
-    "@id": "https://codelist.commonapproach.org/codeLists/ProvinceTerritory#dataset",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#ConceptScheme"
-    ]
-  },
-  {
-    "@id": "https://codelist.commonapproach.org/codeLists/ProvinceTerritory#CAN",
-    "@type": [
-      "https://ontology.commonapproach.org/cids#Locality",
-      "https://ontology.commonapproach.org/cids#Code",
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
-      {
-        "@id": "https://codelist.commonapproach.org/codeLists/ProvinceTerritory#"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#label": [
-      {
-        "@language": "en",
-        "@value": "All of Canada"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://codelist.commonapproach.org/codeLists/ProvinceTerritory#dataset"
-      }
-    ],
-    "http://www.w3.org/ns/prov#hadPrimarySource": [
-      {
-        "@id": "https://www12.statcan.gc.ca/census-recensement/2021/ref/dict/tab/index-eng.cfm?ID=t1_8"
-      }
-    ],
-    "https://ontology.commonapproach.org/cids#definedBy": [
-      {
-        "@id": "https://ontology.commonapproach.org/cids#statsCan"
-      }
-    ],
-    "https://ontology.commonapproach.org/cids#hasIdentifier": [
-      {
-        "@value": "CAN"
-      }
-    ],
-    "https://ontology.commonapproach.org/cids#hasName": [
-      {
-        "@language": "en",
-        "@value": "All of Canada"
-      }
-    ]
-  },
-  {
-    "@id": "https://codelist.commonapproach.org/codeLists/ProvinceTerritory#YT",
-    "@type": [
-      "https://ontology.commonapproach.org/cids#Locality",
-      "https://ontology.commonapproach.org/cids#Code",
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
-      {
-        "@id": "https://codelist.commonapproach.org/codeLists/ProvinceTerritory#"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#label": [
-      {
-        "@language": "en",
-        "@value": "Yukon"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://codelist.commonapproach.org/codeLists/ProvinceTerritory#dataset"
-      }
-    ],
-    "http://www.w3.org/ns/prov#hadPrimarySource": [
-      {
-        "@id": "https://www12.statcan.gc.ca/census-recensement/2021/ref/dict/tab/index-eng.cfm?ID=t1_8"
-      }
-    ],
-    "https://ontology.commonapproach.org/cids#definedBy": [
-      {
-        "@id": "https://ontology.commonapproach.org/cids#statsCan"
-      }
-    ],
-    "https://ontology.commonapproach.org/cids#hasIdentifier": [
-      {
-        "@value": "YT"
-      }
-    ],
-    "https://ontology.commonapproach.org/cids#hasName": [
-      {
-        "@language": "en",
-        "@value": "Yukon"
-      }
-    ]
-  },
-  {
-    "@id": "https://codelist.commonapproach.org/codeLists/ProvinceTerritory#NS",
-    "@type": [
-      "https://ontology.commonapproach.org/cids#Locality",
-      "https://ontology.commonapproach.org/cids#Code",
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
-      {
-        "@id": "https://codelist.commonapproach.org/codeLists/ProvinceTerritory#"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#label": [
-      {
-        "@language": "en",
-        "@value": "Nova Scotia"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://codelist.commonapproach.org/codeLists/ProvinceTerritory#dataset"
-      }
-    ],
-    "http://www.w3.org/ns/prov#hadPrimarySource": [
-      {
-        "@id": "https://www12.statcan.gc.ca/census-recensement/2021/ref/dict/tab/index-eng.cfm?ID=t1_8"
-      }
-    ],
-    "https://ontology.commonapproach.org/cids#definedBy": [
-      {
-        "@id": "https://ontology.commonapproach.org/cids#statsCan"
-      }
-    ],
-    "https://ontology.commonapproach.org/cids#hasIdentifier": [
-      {
-        "@value": "NS"
-      }
-    ],
-    "https://ontology.commonapproach.org/cids#hasName": [
-      {
-        "@language": "en",
-        "@value": "Nova Scotia"
-      }
-    ]
-  },
-  {
-    "@id": "https://codelist.commonapproach.org/codeLists/ProvinceTerritory#NL",
-    "@type": [
-      "https://ontology.commonapproach.org/cids#Locality",
-      "https://ontology.commonapproach.org/cids#Code",
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
-      {
-        "@id": "https://codelist.commonapproach.org/codeLists/ProvinceTerritory#"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#label": [
-      {
-        "@language": "en",
-        "@value": "Newfoundland and Labrador"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://codelist.commonapproach.org/codeLists/ProvinceTerritory#dataset"
-      }
-    ],
-    "http://www.w3.org/ns/prov#hadPrimarySource": [
-      {
-        "@id": "https://www12.statcan.gc.ca/census-recensement/2021/ref/dict/tab/index-eng.cfm?ID=t1_8"
-      }
-    ],
-    "https://ontology.commonapproach.org/cids#definedBy": [
-      {
-        "@id": "https://ontology.commonapproach.org/cids#statsCan"
-      }
-    ],
-    "https://ontology.commonapproach.org/cids#hasIdentifier": [
-      {
-        "@value": "NL"
-      }
-    ],
-    "https://ontology.commonapproach.org/cids#hasName": [
-      {
-        "@language": "en",
-        "@value": "Newfoundland and Labrador"
-      }
-    ]
-  },
-  {
-    "@id": "https://codelist.commonapproach.org/codeLists/ProvinceTerritory#NT",
-    "@type": [
-      "https://ontology.commonapproach.org/cids#Locality",
-      "https://ontology.commonapproach.org/cids#Code",
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
-      {
-        "@id": "https://codelist.commonapproach.org/codeLists/ProvinceTerritory#"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#label": [
-      {
-        "@language": "en",
-        "@value": "Northwest Territories"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://codelist.commonapproach.org/codeLists/ProvinceTerritory#dataset"
-      }
-    ],
-    "http://www.w3.org/ns/prov#hadPrimarySource": [
-      {
-        "@id": "https://www12.statcan.gc.ca/census-recensement/2021/ref/dict/tab/index-eng.cfm?ID=t1_8"
-      }
-    ],
-    "https://ontology.commonapproach.org/cids#definedBy": [
-      {
-        "@id": "https://ontology.commonapproach.org/cids#statsCan"
-      }
-    ],
-    "https://ontology.commonapproach.org/cids#hasIdentifier": [
-      {
-        "@value": "NT"
-      }
-    ],
-    "https://ontology.commonapproach.org/cids#hasName": [
-      {
-        "@language": "en",
-        "@value": "Northwest Territories"
-      }
-    ]
-  },
-  {
-    "@id": "https://codelist.commonapproach.org/codeLists/ProvinceTerritory#MB",
-    "@type": [
-      "https://ontology.commonapproach.org/cids#Locality",
-      "https://ontology.commonapproach.org/cids#Code",
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
-      {
-        "@id": "https://codelist.commonapproach.org/codeLists/ProvinceTerritory#"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#label": [
-      {
-        "@language": "en",
-        "@value": "Manitoba"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://codelist.commonapproach.org/codeLists/ProvinceTerritory#dataset"
-      }
-    ],
-    "http://www.w3.org/ns/prov#hadPrimarySource": [
-      {
-        "@id": "https://www12.statcan.gc.ca/census-recensement/2021/ref/dict/tab/index-eng.cfm?ID=t1_8"
-      }
-    ],
-    "https://ontology.commonapproach.org/cids#definedBy": [
-      {
-        "@id": "https://ontology.commonapproach.org/cids#statsCan"
-      }
-    ],
-    "https://ontology.commonapproach.org/cids#hasIdentifier": [
-      {
-        "@value": "MB"
-      }
-    ],
-    "https://ontology.commonapproach.org/cids#hasName": [
-      {
-        "@language": "en",
-        "@value": "Manitoba"
-      }
-    ]
-  },
-  {
-    "@id": "https://codelist.commonapproach.org/codeLists/ProvinceTerritory#QC",
-    "@type": [
-      "https://ontology.commonapproach.org/cids#Locality",
-      "https://ontology.commonapproach.org/cids#Code",
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
-      {
-        "@id": "https://codelist.commonapproach.org/codeLists/ProvinceTerritory#"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#label": [
-      {
-        "@language": "en",
-        "@value": "Quebec"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://codelist.commonapproach.org/codeLists/ProvinceTerritory#dataset"
-      }
-    ],
-    "http://www.w3.org/ns/prov#hadPrimarySource": [
-      {
-        "@id": "https://www12.statcan.gc.ca/census-recensement/2021/ref/dict/tab/index-eng.cfm?ID=t1_8"
-      }
-    ],
-    "https://ontology.commonapproach.org/cids#definedBy": [
-      {
-        "@id": "https://ontology.commonapproach.org/cids#statsCan"
-      }
-    ],
-    "https://ontology.commonapproach.org/cids#hasIdentifier": [
-      {
-        "@value": "QC"
-      }
-    ],
-    "https://ontology.commonapproach.org/cids#hasName": [
-      {
-        "@language": "en",
-        "@value": "Quebec"
-      }
-    ]
-  },
-  {
-    "@id": "https://codelist.commonapproach.org/codeLists/ProvinceTerritory#NB",
-    "@type": [
-      "https://ontology.commonapproach.org/cids#Locality",
-      "https://ontology.commonapproach.org/cids#Code",
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
-      {
-        "@id": "https://codelist.commonapproach.org/codeLists/ProvinceTerritory#"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#label": [
-      {
-        "@language": "en",
-        "@value": "New Brunswick"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://codelist.commonapproach.org/codeLists/ProvinceTerritory#dataset"
-      }
-    ],
-    "http://www.w3.org/ns/prov#hadPrimarySource": [
-      {
-        "@id": "https://www12.statcan.gc.ca/census-recensement/2021/ref/dict/tab/index-eng.cfm?ID=t1_8"
-      }
-    ],
-    "https://ontology.commonapproach.org/cids#definedBy": [
-      {
-        "@id": "https://ontology.commonapproach.org/cids#statsCan"
-      }
-    ],
-    "https://ontology.commonapproach.org/cids#hasIdentifier": [
-      {
-        "@value": "NB"
-      }
-    ],
-    "https://ontology.commonapproach.org/cids#hasName": [
-      {
-        "@language": "en",
-        "@value": "New Brunswick"
-      }
-    ]
-  },
-  {
-    "@id": "https://codelist.commonapproach.org/codeLists/ProvinceTerritory",
-    "@type": [
-      "http://www.w3.org/2002/07/owl#Ontology",
-      "http://purl.org/vocommons/voafVocabulary"
-    ],
-    "http://purl.org/dc/terms/creator": [
-      {
-        "@id": "https://ontology.commonapproach.org/cids#ac"
-      }
-    ],
-    "http://purl.org/dc/terms/date": [
-      {
-        "@value": "08-10-2024"
-      }
-    ],
-    "http://purl.org/dc/terms/description": [
-      {
-        "@language": "en",
-        "@value": "A codelist vocabulary of Province and Territory Codelists according to Statistics Canada definitions."
-      }
-    ],
-    "http://purl.org/dc/terms/title": [
-      {
-        "@language": "en",
-        "@value": "Province and Territory Codelist"
-      }
-    ],
-    "http://purl.org/vocab/vann/preferredNamespacePrefix": [
-      {
-        "@value": "ProvinceTerritory"
-      }
-    ],
-    "http://purl.org/vocab/vann/preferredNamespaceUri": [
-      {
-        "@id": "https://codelist.commonapproach.org/codeLists/ProvinceTerritory#"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#label": [
-      {
-        "@language": "en",
-        "@value": "Province and Territory Codelist"
-      }
-    ],
-    "http://www.w3.org/2002/07/owl#imports": [
-      {
-        "@id": "https://ontology.commonapproach.org/owl/cids"
-      },
-      {
-        "@id": "http://www.w3.org/2006/time"
-      }
-    ],
-    "http://www.w3.org/2002/07/owl#versionInfo": [
-      {
-        "@value": "1.0"
-      }
-    ],
-    "http://xmlns.com/foaf/0.1/name": [
-      {
-        "@language": "en",
-        "@value": "Province and Territory Codelist"
-      }
-    ],
-    "https://ontology.commonapproach.org/cids#hasName": [
-      {
-        "@language": "en",
-        "@value": "Province and Territory Codelist"
-      }
-    ]
-  },
-  {
-    "@id": "https://codelist.commonapproach.org/codeLists/ProvinceTerritory#AB",
-    "@type": [
-      "https://ontology.commonapproach.org/cids#Locality",
-      "https://ontology.commonapproach.org/cids#Code",
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
-      {
-        "@id": "https://codelist.commonapproach.org/codeLists/ProvinceTerritory#"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#label": [
-      {
-        "@language": "en",
-        "@value": "Alberta"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://codelist.commonapproach.org/codeLists/ProvinceTerritory#dataset"
-      }
-    ],
-    "http://www.w3.org/ns/prov#hadPrimarySource": [
-      {
-        "@id": "https://www12.statcan.gc.ca/census-recensement/2021/ref/dict/tab/index-eng.cfm?ID=t1_8"
-      }
-    ],
-    "https://ontology.commonapproach.org/cids#definedBy": [
-      {
-        "@id": "https://ontology.commonapproach.org/cids#statsCan"
-      }
-    ],
-    "https://ontology.commonapproach.org/cids#hasIdentifier": [
-      {
-        "@value": "AB"
-      }
-    ],
-    "https://ontology.commonapproach.org/cids#hasName": [
-      {
-        "@language": "en",
-        "@value": "Alberta"
-      }
-    ]
-  }
-]
+{
+    "@graph": [
+        {
+            "@id": "https://codelist.commonapproach.org/ProvinceTerritory#YT",
+            "skos:inScheme": {
+                "@id": "https://codelist.commonapproach.org/ProvinceTerritory"
+            },
+            "rdfs:isDefinedBy": {
+                "@id": "https://codelist.commonapproach.org/ProvinceTerritory"
+            },
+            "cids:hasSpecification": {
+                "@id": "https://codelist.commonapproach.org/ProvinceTerritory"
+            },
+            "cids:definedBy": {
+                "@id": "cids:statsCan"
+            },
+            "prov:hadPrimarySource": {
+                "@id": "https://www12.statcan.gc.ca/census-recensement/2021/ref/dict/tab/index-eng.cfm?ID=t1_8"
+            },
+            "skos:notation": "YT",
+            "cids:hasIdentifier": "YT",
+            "skos:prefLabel": {
+                "@language": "en",
+                "@value": "Yukon"
+            },
+            "org:hasName": "Yukon",
+            "@type": [
+                "cids:Locality",
+                "cids:ProvinceTerritory"
+            ]
+        },
+        {
+            "@id": "https://codelist.commonapproach.org/ProvinceTerritory",
+            "dcterms:description": {
+                "@language": "en",
+                "@value": "A codelist vocabulary of Province and Territory Codelists according to Statistics Canada definitions."
+            },
+            "dcterms:title": {
+                "@language": "en",
+                "@value": "Province and Territory Codelist"
+            },
+            "skos:prefLabel": {
+                "@language": "en",
+                "@value": "Province and Territory Codelist"
+            },
+            "owl:versionInfo": "2.0",
+            "dcterms:date": {
+                "@value": "2025-12-01",
+                "@type": "xsd:date"
+            },
+            "dcterms:creator": {
+                "@id": "cids:ac"
+            },
+            "owl:imports": {
+                "@id": "https://ontology.commonapproach.org/cids"
+            },
+            "@type": [
+                "skos:ConceptScheme",
+                "owl:Ontology",
+                "voaf:Vocabulary"
+            ]
+        },
+        {
+            "@id": "https://codelist.commonapproach.org/ProvinceTerritory#SK",
+            "skos:inScheme": {
+                "@id": "https://codelist.commonapproach.org/ProvinceTerritory"
+            },
+            "rdfs:isDefinedBy": {
+                "@id": "https://codelist.commonapproach.org/ProvinceTerritory"
+            },
+            "cids:hasSpecification": {
+                "@id": "https://codelist.commonapproach.org/ProvinceTerritory"
+            },
+            "cids:definedBy": {
+                "@id": "cids:statsCan"
+            },
+            "prov:hadPrimarySource": {
+                "@id": "https://www12.statcan.gc.ca/census-recensement/2021/ref/dict/tab/index-eng.cfm?ID=t1_8"
+            },
+            "skos:notation": "SK",
+            "cids:hasIdentifier": "SK",
+            "skos:prefLabel": {
+                "@language": "en",
+                "@value": "Saskatchewan"
+            },
+            "org:hasName": "Saskatchewan",
+            "@type": [
+                "cids:Locality",
+                "cids:ProvinceTerritory"
+            ]
+        },
+        {
+            "@id": "https://codelist.commonapproach.org/ProvinceTerritory#QC",
+            "skos:inScheme": {
+                "@id": "https://codelist.commonapproach.org/ProvinceTerritory"
+            },
+            "rdfs:isDefinedBy": {
+                "@id": "https://codelist.commonapproach.org/ProvinceTerritory"
+            },
+            "cids:hasSpecification": {
+                "@id": "https://codelist.commonapproach.org/ProvinceTerritory"
+            },
+            "cids:definedBy": {
+                "@id": "cids:statsCan"
+            },
+            "prov:hadPrimarySource": {
+                "@id": "https://www12.statcan.gc.ca/census-recensement/2021/ref/dict/tab/index-eng.cfm?ID=t1_8"
+            },
+            "skos:notation": "QC",
+            "cids:hasIdentifier": "QC",
+            "skos:prefLabel": {
+                "@language": "en",
+                "@value": "Quebec"
+            },
+            "org:hasName": "Quebec",
+            "@type": [
+                "cids:Locality",
+                "cids:ProvinceTerritory"
+            ]
+        },
+        {
+            "@id": "https://codelist.commonapproach.org/ProvinceTerritory#PE",
+            "skos:inScheme": {
+                "@id": "https://codelist.commonapproach.org/ProvinceTerritory"
+            },
+            "rdfs:isDefinedBy": {
+                "@id": "https://codelist.commonapproach.org/ProvinceTerritory"
+            },
+            "cids:hasSpecification": {
+                "@id": "https://codelist.commonapproach.org/ProvinceTerritory"
+            },
+            "cids:definedBy": {
+                "@id": "cids:statsCan"
+            },
+            "prov:hadPrimarySource": {
+                "@id": "https://www12.statcan.gc.ca/census-recensement/2021/ref/dict/tab/index-eng.cfm?ID=t1_8"
+            },
+            "skos:notation": "PE",
+            "cids:hasIdentifier": "PE",
+            "skos:prefLabel": {
+                "@language": "en",
+                "@value": "Prince Edward Island"
+            },
+            "org:hasName": "Prince Edward Island",
+            "@type": [
+                "cids:Locality",
+                "cids:ProvinceTerritory"
+            ]
+        },
+        {
+            "@id": "https://codelist.commonapproach.org/ProvinceTerritory#ON",
+            "skos:inScheme": {
+                "@id": "https://codelist.commonapproach.org/ProvinceTerritory"
+            },
+            "rdfs:isDefinedBy": {
+                "@id": "https://codelist.commonapproach.org/ProvinceTerritory"
+            },
+            "cids:hasSpecification": {
+                "@id": "https://codelist.commonapproach.org/ProvinceTerritory"
+            },
+            "cids:definedBy": {
+                "@id": "cids:statsCan"
+            },
+            "prov:hadPrimarySource": {
+                "@id": "https://www12.statcan.gc.ca/census-recensement/2021/ref/dict/tab/index-eng.cfm?ID=t1_8"
+            },
+            "skos:notation": "ON",
+            "cids:hasIdentifier": "ON",
+            "skos:prefLabel": {
+                "@language": "en",
+                "@value": "Ontario"
+            },
+            "org:hasName": "Ontario",
+            "@type": [
+                "cids:Locality",
+                "cids:ProvinceTerritory"
+            ]
+        },
+        {
+            "@id": "https://codelist.commonapproach.org/ProvinceTerritory#NU",
+            "skos:inScheme": {
+                "@id": "https://codelist.commonapproach.org/ProvinceTerritory"
+            },
+            "rdfs:isDefinedBy": {
+                "@id": "https://codelist.commonapproach.org/ProvinceTerritory"
+            },
+            "cids:hasSpecification": {
+                "@id": "https://codelist.commonapproach.org/ProvinceTerritory"
+            },
+            "cids:definedBy": {
+                "@id": "cids:statsCan"
+            },
+            "prov:hadPrimarySource": {
+                "@id": "https://www12.statcan.gc.ca/census-recensement/2021/ref/dict/tab/index-eng.cfm?ID=t1_8"
+            },
+            "skos:notation": "NU",
+            "cids:hasIdentifier": "NU",
+            "skos:prefLabel": {
+                "@language": "en",
+                "@value": "Nunavut"
+            },
+            "org:hasName": "Nunavut",
+            "@type": [
+                "cids:Locality",
+                "cids:ProvinceTerritory"
+            ]
+        },
+        {
+            "@id": "https://codelist.commonapproach.org/ProvinceTerritory#NT",
+            "skos:inScheme": {
+                "@id": "https://codelist.commonapproach.org/ProvinceTerritory"
+            },
+            "rdfs:isDefinedBy": {
+                "@id": "https://codelist.commonapproach.org/ProvinceTerritory"
+            },
+            "cids:hasSpecification": {
+                "@id": "https://codelist.commonapproach.org/ProvinceTerritory"
+            },
+            "cids:definedBy": {
+                "@id": "cids:statsCan"
+            },
+            "prov:hadPrimarySource": {
+                "@id": "https://www12.statcan.gc.ca/census-recensement/2021/ref/dict/tab/index-eng.cfm?ID=t1_8"
+            },
+            "skos:notation": "NT",
+            "cids:hasIdentifier": "NT",
+            "skos:prefLabel": {
+                "@language": "en",
+                "@value": "Northwest Territories"
+            },
+            "org:hasName": "Northwest Territories",
+            "@type": [
+                "cids:Locality",
+                "cids:ProvinceTerritory"
+            ]
+        },
+        {
+            "@id": "https://codelist.commonapproach.org/ProvinceTerritory#NS",
+            "skos:inScheme": {
+                "@id": "https://codelist.commonapproach.org/ProvinceTerritory"
+            },
+            "rdfs:isDefinedBy": {
+                "@id": "https://codelist.commonapproach.org/ProvinceTerritory"
+            },
+            "cids:hasSpecification": {
+                "@id": "https://codelist.commonapproach.org/ProvinceTerritory"
+            },
+            "cids:definedBy": {
+                "@id": "cids:statsCan"
+            },
+            "prov:hadPrimarySource": {
+                "@id": "https://www12.statcan.gc.ca/census-recensement/2021/ref/dict/tab/index-eng.cfm?ID=t1_8"
+            },
+            "skos:notation": "NS",
+            "cids:hasIdentifier": "NS",
+            "skos:prefLabel": {
+                "@language": "en",
+                "@value": "Nova Scotia"
+            },
+            "org:hasName": "Nova Scotia",
+            "@type": [
+                "cids:Locality",
+                "cids:ProvinceTerritory"
+            ]
+        },
+        {
+            "@id": "https://codelist.commonapproach.org/ProvinceTerritory#NL",
+            "skos:inScheme": {
+                "@id": "https://codelist.commonapproach.org/ProvinceTerritory"
+            },
+            "rdfs:isDefinedBy": {
+                "@id": "https://codelist.commonapproach.org/ProvinceTerritory"
+            },
+            "cids:hasSpecification": {
+                "@id": "https://codelist.commonapproach.org/ProvinceTerritory"
+            },
+            "cids:definedBy": {
+                "@id": "cids:statsCan"
+            },
+            "prov:hadPrimarySource": {
+                "@id": "https://www12.statcan.gc.ca/census-recensement/2021/ref/dict/tab/index-eng.cfm?ID=t1_8"
+            },
+            "skos:notation": "NL",
+            "cids:hasIdentifier": "NL",
+            "skos:prefLabel": {
+                "@language": "en",
+                "@value": "Newfoundland and Labrador"
+            },
+            "org:hasName": "Newfoundland and Labrador",
+            "@type": [
+                "cids:Locality",
+                "cids:ProvinceTerritory"
+            ]
+        },
+        {
+            "@id": "https://codelist.commonapproach.org/ProvinceTerritory#NB",
+            "skos:inScheme": {
+                "@id": "https://codelist.commonapproach.org/ProvinceTerritory"
+            },
+            "rdfs:isDefinedBy": {
+                "@id": "https://codelist.commonapproach.org/ProvinceTerritory"
+            },
+            "cids:hasSpecification": {
+                "@id": "https://codelist.commonapproach.org/ProvinceTerritory"
+            },
+            "cids:definedBy": {
+                "@id": "cids:statsCan"
+            },
+            "prov:hadPrimarySource": {
+                "@id": "https://www12.statcan.gc.ca/census-recensement/2021/ref/dict/tab/index-eng.cfm?ID=t1_8"
+            },
+            "skos:notation": "NB",
+            "cids:hasIdentifier": "NB",
+            "skos:prefLabel": {
+                "@language": "en",
+                "@value": "New Brunswick"
+            },
+            "org:hasName": "New Brunswick",
+            "@type": [
+                "cids:Locality",
+                "cids:ProvinceTerritory"
+            ]
+        },
+        {
+            "@id": "https://codelist.commonapproach.org/ProvinceTerritory#MB",
+            "skos:inScheme": {
+                "@id": "https://codelist.commonapproach.org/ProvinceTerritory"
+            },
+            "rdfs:isDefinedBy": {
+                "@id": "https://codelist.commonapproach.org/ProvinceTerritory"
+            },
+            "cids:hasSpecification": {
+                "@id": "https://codelist.commonapproach.org/ProvinceTerritory"
+            },
+            "cids:definedBy": {
+                "@id": "cids:statsCan"
+            },
+            "prov:hadPrimarySource": {
+                "@id": "https://www12.statcan.gc.ca/census-recensement/2021/ref/dict/tab/index-eng.cfm?ID=t1_8"
+            },
+            "skos:notation": "MB",
+            "cids:hasIdentifier": "MB",
+            "skos:prefLabel": {
+                "@language": "en",
+                "@value": "Manitoba"
+            },
+            "org:hasName": "Manitoba",
+            "@type": [
+                "cids:Locality",
+                "cids:ProvinceTerritory"
+            ]
+        },
+        {
+            "@id": "https://codelist.commonapproach.org/ProvinceTerritory#CAN",
+            "skos:inScheme": {
+                "@id": "https://codelist.commonapproach.org/ProvinceTerritory"
+            },
+            "rdfs:isDefinedBy": {
+                "@id": "https://codelist.commonapproach.org/ProvinceTerritory"
+            },
+            "cids:hasSpecification": {
+                "@id": "https://codelist.commonapproach.org/ProvinceTerritory"
+            },
+            "cids:definedBy": {
+                "@id": "cids:statsCan"
+            },
+            "prov:hadPrimarySource": {
+                "@id": "https://www12.statcan.gc.ca/census-recensement/2021/ref/dict/tab/index-eng.cfm?ID=t1_8"
+            },
+            "skos:notation": "CAN",
+            "cids:hasIdentifier": "CAN",
+            "skos:prefLabel": {
+                "@language": "en",
+                "@value": "All of Canada"
+            },
+            "org:hasName": "All of Canada",
+            "@type": "cids:Locality"
+        },
+        {
+            "@id": "https://codelist.commonapproach.org/ProvinceTerritory#BC",
+            "skos:inScheme": {
+                "@id": "https://codelist.commonapproach.org/ProvinceTerritory"
+            },
+            "rdfs:isDefinedBy": {
+                "@id": "https://codelist.commonapproach.org/ProvinceTerritory"
+            },
+            "cids:hasSpecification": {
+                "@id": "https://codelist.commonapproach.org/ProvinceTerritory"
+            },
+            "cids:definedBy": {
+                "@id": "cids:statsCan"
+            },
+            "prov:hadPrimarySource": {
+                "@id": "https://www12.statcan.gc.ca/census-recensement/2021/ref/dict/tab/index-eng.cfm?ID=t1_8"
+            },
+            "skos:notation": "BC",
+            "cids:hasIdentifier": "BC",
+            "skos:prefLabel": {
+                "@language": "en",
+                "@value": "British Columbia"
+            },
+            "org:hasName": "British Columbia",
+            "@type": [
+                "cids:Locality",
+                "cids:ProvinceTerritory"
+            ]
+        },
+        {
+            "@id": "https://codelist.commonapproach.org/ProvinceTerritory#AB",
+            "skos:inScheme": {
+                "@id": "https://codelist.commonapproach.org/ProvinceTerritory"
+            },
+            "rdfs:isDefinedBy": {
+                "@id": "https://codelist.commonapproach.org/ProvinceTerritory"
+            },
+            "cids:hasSpecification": {
+                "@id": "https://codelist.commonapproach.org/ProvinceTerritory"
+            },
+            "cids:definedBy": {
+                "@id": "cids:statsCan"
+            },
+            "prov:hadPrimarySource": {
+                "@id": "https://www12.statcan.gc.ca/census-recensement/2021/ref/dict/tab/index-eng.cfm?ID=t1_8"
+            },
+            "skos:notation": "AB",
+            "cids:hasIdentifier": "AB",
+            "skos:prefLabel": {
+                "@language": "en",
+                "@value": "Alberta"
+            },
+            "org:hasName": "Alberta",
+            "@type": [
+                "cids:Locality",
+                "cids:ProvinceTerritory"
+            ]
+        }
+    ],
+    "@context": {
+        "org": "http://www.w3.org/ns/org#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "voaf": "http://purl.org/vocommons/voaf#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "cids": "https://ontology.commonapproach.org/cids#",
+        "prov": "http://www.w3.org/ns/prov#",
+        "@vocab": "https://codelist.commonapproach.org/ProvinceTerritory#"
+    }
+}
