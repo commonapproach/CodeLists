@@ -1,0 +1,64 @@
+<https://codelist.commonapproach.org/FundingState> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocommons/voaf#Vocabulary> .
+<https://codelist.commonapproach.org/FundingState> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<https://codelist.commonapproach.org/FundingState> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
+<https://codelist.commonapproach.org/FundingState> <http://www.w3.org/2002/07/owl#imports> <https://ontology.commonapproach.org/cids> .
+<https://codelist.commonapproach.org/FundingState> <http://purl.org/vocab/vann/preferredNamespacePrefix> "fstate" .
+<https://codelist.commonapproach.org/FundingState> <http://purl.org/vocab/vann/preferredNamespaceUri> <https://codelist.commonapproach.org/FundingState> .
+<https://codelist.commonapproach.org/FundingState> <http://purl.org/dc/terms/creator> <https://ontology.commonapproach.org/cids#ac> .
+<https://codelist.commonapproach.org/FundingState> <http://purl.org/dc/terms/date> "2025-11-05"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://codelist.commonapproach.org/FundingState> <http://www.w3.org/2002/07/owl#versionInfo> "1.0" .
+<https://codelist.commonapproach.org/FundingState> <http://www.w3.org/2004/02/skos/core#prefLabel> "FundingState Codelist"@en .
+<https://codelist.commonapproach.org/FundingState> <http://purl.org/dc/terms/title> "FundingState Codelist"@en .
+<https://codelist.commonapproach.org/FundingState> <http://purl.org/dc/terms/description> "A codelist vocabulary of funding states to describe funding applications to funders or investors. The list items convey whether the organization is an applicant, rejected, or invested in."@en .
+<https://codelist.commonapproach.org/FundingState#applied> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#FundingState> .
+<https://codelist.commonapproach.org/FundingState#applied> <http://www.w3.org/ns/org#hasName> "Applied" .
+<https://codelist.commonapproach.org/FundingState#applied> <http://www.w3.org/2004/02/skos/core#prefLabel> "Applied"@en .
+<https://codelist.commonapproach.org/FundingState#applied> <http://www.w3.org/2004/02/skos/core#prefLabel> "Appliqué"@fr .
+<https://codelist.commonapproach.org/FundingState#applied> <https://ontology.commonapproach.org/cids#hasDescription> "The funding proposal has been submitted." .
+<https://codelist.commonapproach.org/FundingState#applied> <http://www.w3.org/2004/02/skos/core#definition> "The funding proposal has been submitted."@en .
+<https://codelist.commonapproach.org/FundingState#applied> <http://www.w3.org/2004/02/skos/core#definition> "La proposition de financement a été soumise."@fr .
+<https://codelist.commonapproach.org/FundingState#applied> <http://www.w3.org/ns/org#hasIdentifier> "applied" .
+<https://codelist.commonapproach.org/FundingState#applied> <http://www.w3.org/2004/02/skos/core#notation> "applied" .
+<https://codelist.commonapproach.org/FundingState#applied> <https://ontology.commonapproach.org/cids#definedBy> <https://ontology.commonapproach.org/cids#ac> .
+<https://codelist.commonapproach.org/FundingState#applied> <https://ontology.commonapproach.org/cids#hasSpecification> <https://codelist.commonapproach.org/FundingState> .
+<https://codelist.commonapproach.org/FundingState#applied> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://codelist.commonapproach.org/FundingState> .
+<https://codelist.commonapproach.org/FundingState#applied> <http://www.w3.org/2004/02/skos/core#inScheme> <https://codelist.commonapproach.org/FundingState> .
+<https://codelist.commonapproach.org/FundingState#rejected> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#FundingState> .
+<https://codelist.commonapproach.org/FundingState#rejected> <http://www.w3.org/ns/org#hasName> "Rejected" .
+<https://codelist.commonapproach.org/FundingState#rejected> <http://www.w3.org/2004/02/skos/core#prefLabel> "Rejected"@en .
+<https://codelist.commonapproach.org/FundingState#rejected> <http://www.w3.org/2004/02/skos/core#prefLabel> "Rejetée"@fr .
+<https://codelist.commonapproach.org/FundingState#rejected> <https://ontology.commonapproach.org/cids#hasDescription> "The funding proposal has been rejected." .
+<https://codelist.commonapproach.org/FundingState#rejected> <http://www.w3.org/2004/02/skos/core#definition> "The funding proposal has been rejected."@en .
+<https://codelist.commonapproach.org/FundingState#rejected> <http://www.w3.org/2004/02/skos/core#definition> "La proposition de financement a été rejetée."@fr .
+<https://codelist.commonapproach.org/FundingState#rejected> <http://www.w3.org/ns/org#hasIdentifier> "rejected" .
+<https://codelist.commonapproach.org/FundingState#rejected> <http://www.w3.org/2004/02/skos/core#notation> "rejected" .
+<https://codelist.commonapproach.org/FundingState#rejected> <https://ontology.commonapproach.org/cids#definedBy> <https://ontology.commonapproach.org/cids#ac> .
+<https://codelist.commonapproach.org/FundingState#rejected> <https://ontology.commonapproach.org/cids#hasSpecification> <https://codelist.commonapproach.org/FundingState> .
+<https://codelist.commonapproach.org/FundingState#rejected> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://codelist.commonapproach.org/FundingState> .
+<https://codelist.commonapproach.org/FundingState#rejected> <http://www.w3.org/2004/02/skos/core#inScheme> <https://codelist.commonapproach.org/FundingState> .
+<https://codelist.commonapproach.org/FundingState#funded> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#FundingState> .
+<https://codelist.commonapproach.org/FundingState#funded> <http://www.w3.org/ns/org#hasName> "Funded" .
+<https://codelist.commonapproach.org/FundingState#funded> <http://www.w3.org/2004/02/skos/core#prefLabel> "Funded"@en .
+<https://codelist.commonapproach.org/FundingState#funded> <http://www.w3.org/2004/02/skos/core#prefLabel> "Alloué"@fr .
+<https://codelist.commonapproach.org/FundingState#funded> <https://ontology.commonapproach.org/cids#hasDescription> "The funding proposal has been accepted and funding has been allocated." .
+<https://codelist.commonapproach.org/FundingState#funded> <http://www.w3.org/2004/02/skos/core#definition> "The funding proposal has been accepted and funding has been allocated."@en .
+<https://codelist.commonapproach.org/FundingState#funded> <http://www.w3.org/2004/02/skos/core#definition> "La proposition de financement a été acceptée et le financement a été alloué."@fr .
+<https://codelist.commonapproach.org/FundingState#funded> <http://www.w3.org/ns/org#hasIdentifier> "invested" .
+<https://codelist.commonapproach.org/FundingState#funded> <http://www.w3.org/2004/02/skos/core#notation> "invested" .
+<https://codelist.commonapproach.org/FundingState#funded> <https://ontology.commonapproach.org/cids#definedBy> <https://ontology.commonapproach.org/cids#ac> .
+<https://codelist.commonapproach.org/FundingState#funded> <https://ontology.commonapproach.org/cids#hasSpecification> <https://codelist.commonapproach.org/FundingState> .
+<https://codelist.commonapproach.org/FundingState#funded> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://codelist.commonapproach.org/FundingState> .
+<https://codelist.commonapproach.org/FundingState#funded> <http://www.w3.org/2004/02/skos/core#inScheme> <https://codelist.commonapproach.org/FundingState> .
+<https://codelist.commonapproach.org/FundingState#inReview> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#FundingState> .
+<https://codelist.commonapproach.org/FundingState#inReview> <http://www.w3.org/ns/org#hasName> "In Review" .
+<https://codelist.commonapproach.org/FundingState#inReview> <http://www.w3.org/2004/02/skos/core#prefLabel> "In Review"@en .
+<https://codelist.commonapproach.org/FundingState#inReview> <http://www.w3.org/2004/02/skos/core#prefLabel> "Sous-évaluation"@fr .
+<https://codelist.commonapproach.org/FundingState#inReview> <https://ontology.commonapproach.org/cids#hasDescription> "The funding proposal is being processed by the evaluating organization and is under review." .
+<https://codelist.commonapproach.org/FundingState#inReview> <http://www.w3.org/2004/02/skos/core#definition> "The funding proposal is being processed by the evaluating organization and is under review."@en .
+<https://codelist.commonapproach.org/FundingState#inReview> <http://www.w3.org/2004/02/skos/core#definition> "La proposition de financement est en cours de traitement par l’organisme évaluateur et est en cours d’examen."@fr .
+<https://codelist.commonapproach.org/FundingState#inReview> <http://www.w3.org/ns/org#hasIdentifier> "inReview" .
+<https://codelist.commonapproach.org/FundingState#inReview> <http://www.w3.org/2004/02/skos/core#notation> "inReview" .
+<https://codelist.commonapproach.org/FundingState#inReview> <https://ontology.commonapproach.org/cids#definedBy> <https://ontology.commonapproach.org/cids#ac> .
+<https://codelist.commonapproach.org/FundingState#inReview> <https://ontology.commonapproach.org/cids#hasSpecification> <https://codelist.commonapproach.org/FundingState> .
+<https://codelist.commonapproach.org/FundingState#inReview> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://codelist.commonapproach.org/FundingState> .
+<https://codelist.commonapproach.org/FundingState#inReview> <http://www.w3.org/2004/02/skos/core#inScheme> <https://codelist.commonapproach.org/FundingState> .

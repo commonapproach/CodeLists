@@ -12,6 +12,7 @@
 @prefix voaf: <http://purl.org/vocommons/voaf#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix iristheme: <https://codelist.commonapproach.org/IRISImpactTheme#> .
+@prefix iriscategory: <https://codelist.commonapproach.org/IRISImpactCategory#> .
 
 <>
     a voaf:Vocabulary, owl:Ontology, skos:ConceptScheme ;

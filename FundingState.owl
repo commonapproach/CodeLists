@@ -1,0 +1,87 @@
+<rdf:RDF
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns="https://codelist.commonapproach.org/FundingState#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:cids="https://ontology.commonapproach.org/cids#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:voaf="http://purl.org/vocommons/voaf#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:org="http://www.w3.org/ns/org#"
+    xmlns:vann="http://purl.org/vocab/vann/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#" > 
+  <rdf:Description rdf:about="#funded">
+    <skos:inScheme rdf:resource=""/>
+    <rdfs:isDefinedBy rdf:resource=""/>
+    <cids:hasSpecification rdf:resource=""/>
+    <cids:definedBy rdf:resource="https://ontology.commonapproach.org/cids#ac"/>
+    <skos:notation>invested</skos:notation>
+    <org:hasIdentifier>invested</org:hasIdentifier>
+    <skos:definition xml:lang="fr">La proposition de financement a été acceptée et le financement a été alloué.</skos:definition>
+    <skos:definition xml:lang="en">The funding proposal has been accepted and funding has been allocated.</skos:definition>
+    <cids:hasDescription>The funding proposal has been accepted and funding has been allocated.</cids:hasDescription>
+    <skos:prefLabel xml:lang="fr">Alloué</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Funded</skos:prefLabel>
+    <org:hasName>Funded</org:hasName>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#FundingState"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#applied">
+    <skos:inScheme rdf:resource=""/>
+    <rdfs:isDefinedBy rdf:resource=""/>
+    <cids:hasSpecification rdf:resource=""/>
+    <cids:definedBy rdf:resource="https://ontology.commonapproach.org/cids#ac"/>
+    <skos:notation>applied</skos:notation>
+    <org:hasIdentifier>applied</org:hasIdentifier>
+    <skos:definition xml:lang="fr">La proposition de financement a été soumise.</skos:definition>
+    <skos:definition xml:lang="en">The funding proposal has been submitted.</skos:definition>
+    <cids:hasDescription>The funding proposal has been submitted.</cids:hasDescription>
+    <skos:prefLabel xml:lang="fr">Appliqué</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Applied</skos:prefLabel>
+    <org:hasName>Applied</org:hasName>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#FundingState"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="">
+    <dcterms:description xml:lang="en">A codelist vocabulary of funding states to describe funding applications to funders or investors. The list items convey whether the organization is an applicant, rejected, or invested in.</dcterms:description>
+    <dcterms:title xml:lang="en">FundingState Codelist</dcterms:title>
+    <skos:prefLabel xml:lang="en">FundingState Codelist</skos:prefLabel>
+    <owl:versionInfo>1.0</owl:versionInfo>
+    <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-11-05</dcterms:date>
+    <dcterms:creator rdf:resource="https://ontology.commonapproach.org/cids#ac"/>
+    <vann:preferredNamespaceUri rdf:resource=""/>
+    <vann:preferredNamespacePrefix>fstate</vann:preferredNamespacePrefix>
+    <owl:imports rdf:resource="https://ontology.commonapproach.org/cids"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
+    <rdf:type rdf:resource="http://purl.org/vocommons/voaf#Vocabulary"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#rejected">
+    <skos:inScheme rdf:resource=""/>
+    <rdfs:isDefinedBy rdf:resource=""/>
+    <cids:hasSpecification rdf:resource=""/>
+    <cids:definedBy rdf:resource="https://ontology.commonapproach.org/cids#ac"/>
+    <skos:notation>rejected</skos:notation>
+    <org:hasIdentifier>rejected</org:hasIdentifier>
+    <skos:definition xml:lang="fr">La proposition de financement a été rejetée.</skos:definition>
+    <skos:definition xml:lang="en">The funding proposal has been rejected.</skos:definition>
+    <cids:hasDescription>The funding proposal has been rejected.</cids:hasDescription>
+    <skos:prefLabel xml:lang="fr">Rejetée</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Rejected</skos:prefLabel>
+    <org:hasName>Rejected</org:hasName>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#FundingState"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#inReview">
+    <skos:inScheme rdf:resource=""/>
+    <rdfs:isDefinedBy rdf:resource=""/>
+    <cids:hasSpecification rdf:resource=""/>
+    <cids:definedBy rdf:resource="https://ontology.commonapproach.org/cids#ac"/>
+    <skos:notation>inReview</skos:notation>
+    <org:hasIdentifier>inReview</org:hasIdentifier>
+    <skos:definition xml:lang="fr">La proposition de financement est en cours de traitement par l’organisme évaluateur et est en cours d’examen.</skos:definition>
+    <skos:definition xml:lang="en">The funding proposal is being processed by the evaluating organization and is under review.</skos:definition>
+    <cids:hasDescription>The funding proposal is being processed by the evaluating organization and is under review.</cids:hasDescription>
+    <skos:prefLabel xml:lang="fr">Sous-évaluation</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">In Review</skos:prefLabel>
+    <org:hasName>In Review</org:hasName>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#FundingState"/>
+  </rdf:Description>
+</rdf:RDF>

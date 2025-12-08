@@ -1,193 +1,158 @@
-<?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF
-   xmlns:cids="https://ontology.commonapproach.org/cids#"
-   xmlns:dcterms="http://purl.org/dc/terms/"
-   xmlns:foaf="http://xmlns.com/foaf/0.1/"
-   xmlns:org="http://www.w3.org/ns/org#"
-   xmlns:owl="http://www.w3.org/2002/07/owl#"
-   xmlns:prov="http://www.w3.org/ns/prov#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-   xmlns:skos="http://www.w3.org/2004/02/skos/core#"
-   xmlns:vann="http://purl.org/vocab/vann/"
-   xml:base="https://codelist.commonapproach.org/codeLists/ICNPOsector#"
-   xmlns="https://codelist.commonapproach.org/codeLists/ICNPOsector#"
->
-  <rdf:Description rdf:about="https://codelist.commonapproach.org/codeLists/ICNPOsector">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
-    <rdf:type rdf:resource="http://purl.org/vocommons/voafVocabulary"/>
-    <vann:preferredNamespacePrefix>ICNOPsector</vann:preferredNamespacePrefix>
-    <owl:versionInfo>1.0</owl:versionInfo>
-    <dcterms:date>02-10-2024</dcterms:date>
-    <vann:preferredNamespaceUri rdf:resource="https://codelist.commonapproach.org/codeLists/ICNPOsector#"/>
-    <owl:imports rdf:resource="https://ontology.commonapproach.org/owl/cids"/>
-    <owl:imports rdf:resource="http://www.w3.org/2006/time"/>
-    <cids:hasName>ICNPO Sector</cids:hasName>
-    <dcterms:title xml:lang="en">ICNPO Sector</dcterms:title>
-    <dcterms:description xml:lang="en">A codelist vocabulary of ICNPO Sector</dcterms:description>
-    <foaf:name>ICNPO Sector</foaf:name>
-    <rdfs:label>ICNPO Sector</rdfs:label>
-    <dcterms:creator rdf:resource="https://ontology.commonapproach.org/cids#ac"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://codelist.commonapproach.org/codeLists/ICNPOsector#dataset">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
-  </rdf:Description>
-
-  <rdf:Description rdf:about="https://codelist.commonapproach.org/codeLists/ICNPOsector#sec1">
-    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Sector"/>
-    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:inScheme rdf:resource="https://codelist.commonapproach.org/codeLists/ICNPOsector#dataset"/>
-    <rdfs:isDefinedBy rdf:resource="https://codelist.commonapproach.org/codeLists/ICNPOsector#"/>
-    <cids:hasName xml:lang="en">Culture and Recreation</cids:hasName>
-    <rdfs:label xml:lang="en">Culture and Recreation</rdfs:label>
-    <cids:definedBy rdf:resource="https://ontology.commonapproach.org/cids#icnpo"/>
-    <cids:hasIdentifier>1</cids:hasIdentifier>
-  </rdf:Description>
-
-
-  <rdf:Description rdf:about="https://codelist.commonapproach.org/codeLists/ICNPOsector#sec2">
-    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
-    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Sector"/>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:inScheme rdf:resource="https://codelist.commonapproach.org/codeLists/ICNPOsector#dataset"/>
-    <rdfs:isDefinedBy rdf:resource="https://codelist.commonapproach.org/codeLists/ICNPOsector#"/>
-    <cids:hasName xml:lang="en">Education and Research</cids:hasName>
-    <rdfs:label xml:lang="en">Education and Research</rdfs:label>
-    <cids:definedBy rdf:resource="https://ontology.commonapproach.org/cids#icnpo"/>
-    <cids:hasIdentifier>2</cids:hasIdentifier>
-  </rdf:Description>
-
-
-  <rdf:Description rdf:about="https://codelist.commonapproach.org/codeLists/ICNPOsector#sec3">
-    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
-    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Sector"/>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:inScheme rdf:resource="https://codelist.commonapproach.org/codeLists/ICNPOsector#dataset"/>
-    <rdfs:isDefinedBy rdf:resource="https://codelist.commonapproach.org/codeLists/ICNPOsector#"/>
-    <cids:hasName xml:lang="en">Health</cids:hasName>
-    <rdfs:label xml:lang="en">Health</rdfs:label>
-    <cids:definedBy rdf:resource="https://ontology.commonapproach.org/cids#icnpo"/>
-    <cids:hasIdentifier>3</cids:hasIdentifier>
-  </rdf:Description>
-
-
-  <rdf:Description rdf:about="https://codelist.commonapproach.org/codeLists/ICNPOsector#sec4">
-    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
-    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Sector"/>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:inScheme rdf:resource="https://codelist.commonapproach.org/codeLists/ICNPOsector#dataset"/>
-    <rdfs:isDefinedBy rdf:resource="https://codelist.commonapproach.org/codeLists/ICNPOsector#"/>
-    <cids:hasName xml:lang="en">Social Services</cids:hasName>
-    <rdfs:label xml:lang="en">Social Services</rdfs:label>
-    <cids:definedBy rdf:resource="https://ontology.commonapproach.org/cids#icnpo"/>
-    <cids:hasIdentifier>4</cids:hasIdentifier>
-  </rdf:Description>
-
-
-  <rdf:Description rdf:about="https://codelist.commonapproach.org/codeLists/ICNPOsector#sec5">
-    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
-    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Sector"/>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:inScheme rdf:resource="https://codelist.commonapproach.org/codeLists/ICNPOsector#dataset"/>
-    <rdfs:isDefinedBy rdf:resource="https://codelist.commonapproach.org/codeLists/ICNPOsector#"/>
-    <cids:hasName xml:lang="en">Environment</cids:hasName>
-    <rdfs:label xml:lang="en">Environment</rdfs:label>
-    <cids:definedBy rdf:resource="https://ontology.commonapproach.org/cids#icnpo"/>
-    <cids:hasIdentifier>5</cids:hasIdentifier>
-  </rdf:Description>
-
-
-  <rdf:Description rdf:about="https://codelist.commonapproach.org/codeLists/ICNPOsector#sec6">
-    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
-    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Sector"/>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:inScheme rdf:resource="https://codelist.commonapproach.org/codeLists/ICNPOsector#dataset"/>
-    <rdfs:isDefinedBy rdf:resource="https://codelist.commonapproach.org/codeLists/ICNPOsector#"/>
-    <cids:hasName xml:lang="en">Development and Housing</cids:hasName>
-    <rdfs:label xml:lang="en">Development and Housing</rdfs:label>
-    <cids:definedBy rdf:resource="https://ontology.commonapproach.org/cids#icnpo"/>
-    <cids:hasIdentifier>6</cids:hasIdentifier>
-  </rdf:Description>
-
-
-  <rdf:Description rdf:about="https://codelist.commonapproach.org/codeLists/ICNPOsector#sec7">
-    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
-    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Sector"/>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:inScheme rdf:resource="https://codelist.commonapproach.org/codeLists/ICNPOsector#dataset"/>
-    <rdfs:isDefinedBy rdf:resource="https://codelist.commonapproach.org/codeLists/ICNPOsector#"/>
-    <cids:hasName xml:lang="en">Law, Advocacy, and Politics</cids:hasName>
-    <rdfs:label xml:lang="en">Law, Advocacy, and Politics</rdfs:label>
-    <cids:definedBy rdf:resource="https://ontology.commonapproach.org/cids#icnpo"/>
-    <cids:hasIdentifier>7</cids:hasIdentifier>
-  </rdf:Description>
-
-
-  <rdf:Description rdf:about="https://codelist.commonapproach.org/codeLists/ICNPOsector#sec8">
-    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
-    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Sector"/>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:inScheme rdf:resource="https://codelist.commonapproach.org/codeLists/ICNPOsector#dataset"/>
-    <rdfs:isDefinedBy rdf:resource="https://codelist.commonapproach.org/codeLists/ICNPOsector#"/>
-    <cids:hasName xml:lang="en">Philanthropic Intermediaries and Voluntarism Promotion</cids:hasName>
-    <rdfs:label xml:lang="en">Philanthropic Intermediaries and Voluntarism Promotion</rdfs:label>
-    <cids:definedBy rdf:resource="https://ontology.commonapproach.org/cids#icnpo"/>
-    <cids:hasIdentifier>8</cids:hasIdentifier>
-  </rdf:Description>
-
-
-  <rdf:Description rdf:about="https://codelist.commonapproach.org/codeLists/ICNPOsector#sec9">
-    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
-    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Sector"/>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:inScheme rdf:resource="https://codelist.commonapproach.org/codeLists/ICNPOsector#dataset"/>
-    <rdfs:isDefinedBy rdf:resource="https://codelist.commonapproach.org/codeLists/ICNPOsector#"/>
-    <cids:hasName xml:lang="en">International</cids:hasName>
-    <rdfs:label xml:lang="en">International</rdfs:label>
-    <cids:definedBy rdf:resource="https://ontology.commonapproach.org/cids#icnpo"/>
-    <cids:hasIdentifier>9</cids:hasIdentifier>
-  </rdf:Description>
-
-
-  <rdf:Description rdf:about="https://codelist.commonapproach.org/codeLists/ICNPOsector#sec10">
-    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
-    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Sector"/>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:inScheme rdf:resource="https://codelist.commonapproach.org/codeLists/ICNPOsector#dataset"/>
-    <rdfs:isDefinedBy rdf:resource="https://codelist.commonapproach.org/codeLists/ICNPOsector#"/>
-    <cids:hasName xml:lang="en">Religion</cids:hasName>
-    <rdfs:label xml:lang="en">Religion</rdfs:label>
-    <cids:definedBy rdf:resource="https://ontology.commonapproach.org/cids#icnpo"/>
-    <cids:hasIdentifier>10</cids:hasIdentifier>
-  </rdf:Description>
-
-
-  <rdf:Description rdf:about="https://codelist.commonapproach.org/codeLists/ICNPOsector#sec11">
-    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
-    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Sector"/>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:inScheme rdf:resource="https://codelist.commonapproach.org/codeLists/ICNPOsector#dataset"/>
-    <rdfs:isDefinedBy rdf:resource="https://codelist.commonapproach.org/codeLists/ICNPOsector#"/>
-    <cids:hasName xml:lang="en">Business and Professional Associations, Unions</cids:hasName>
-    <rdfs:label xml:lang="en">Business and Professional Associations, Unions</rdfs:label>
-    <cids:definedBy rdf:resource="https://ontology.commonapproach.org/cids#icnpo"/>
-    <cids:hasIdentifier>11</cids:hasIdentifier>
-  </rdf:Description>
-
-
-  <rdf:Description rdf:about="https://codelist.commonapproach.org/codeLists/ICNPOsector#sec12">
-    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
-    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Sector"/>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:inScheme rdf:resource="https://codelist.commonapproach.org/codeLists/ICNPOsector#dataset"/>
-    <rdfs:isDefinedBy rdf:resource="https://codelist.commonapproach.org/codeLists/ICNPOsector#"/>
-    <cids:hasName xml:lang="en">Not Elsewhere Classified</cids:hasName>
-    <rdfs:label xml:lang="en">Not Elsewhere Classified</rdfs:label>
-    <cids:definedBy rdf:resource="https://ontology.commonapproach.org/cids#icnpo"/>
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:prov="http://www.w3.org/ns/prov#"
+    xmlns:cids="https://ontology.commonapproach.org/cids#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns="https://codelist.commonapproach.org/ICNPOSector#"
+    xmlns:voaf="http://purl.org/vocommons/voaf#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:org="http://www.w3.org/ns/org#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#" > 
+  <rdf:Description rdf:about="ICNPOSector#sec12">
+    <skos:inScheme rdf:resource="ICNPOSector"/>
+    <rdfs:isDefinedBy rdf:resource="ICNPOSector"/>
+    <cids:hasSpecification rdf:resource="ICNPOSector"/>
+    <cids:definedBy rdf:resource="https://ontology.commonapproach.org/cids#ac"/>
+    <skos:notation>12</skos:notation>
     <cids:hasIdentifier>12</cids:hasIdentifier>
+    <skos:prefLabel xml:lang="en">Not Elsewhere Classified</skos:prefLabel>
+    <org:hasName>Not Elsewhere Classified</org:hasName>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Sector"/>
   </rdf:Description>
-
-
-
+  <rdf:Description rdf:about="ICNPOSector#sec1">
+    <skos:inScheme rdf:resource="ICNPOSector"/>
+    <rdfs:isDefinedBy rdf:resource="ICNPOSector"/>
+    <cids:hasSpecification rdf:resource="ICNPOSector"/>
+    <cids:definedBy rdf:resource="https://ontology.commonapproach.org/cids#ac"/>
+    <skos:notation>1</skos:notation>
+    <org:hasIdentifier>1</org:hasIdentifier>
+    <skos:prefLabel xml:lang="en">Culture and Recreation</skos:prefLabel>
+    <org:hasName>Culture and Recreation</org:hasName>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Sector"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="ICNPOSector#sec2">
+    <skos:inScheme rdf:resource="ICNPOSector"/>
+    <rdfs:isDefinedBy rdf:resource="ICNPOSector"/>
+    <cids:hasSpecification rdf:resource="ICNPOSector"/>
+    <cids:definedBy rdf:resource="https://ontology.commonapproach.org/cids#ac"/>
+    <skos:notation>2</skos:notation>
+    <cids:hasIdentifier>2</cids:hasIdentifier>
+    <skos:prefLabel xml:lang="en">Education and Research</skos:prefLabel>
+    <org:hasName>Education and Research</org:hasName>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Sector"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="ICNPOSector#sec5">
+    <skos:inScheme rdf:resource="ICNPOSector"/>
+    <rdfs:isDefinedBy rdf:resource="ICNPOSector"/>
+    <cids:hasSpecification rdf:resource="ICNPOSector"/>
+    <cids:definedBy rdf:resource="https://ontology.commonapproach.org/cids#ac"/>
+    <skos:notation>5</skos:notation>
+    <cids:hasIdentifier>5</cids:hasIdentifier>
+    <skos:prefLabel xml:lang="en">Environment</skos:prefLabel>
+    <org:hasName>Environment</org:hasName>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Sector"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="ICNPOSector#sec6">
+    <skos:inScheme rdf:resource="ICNPOSector"/>
+    <rdfs:isDefinedBy rdf:resource="ICNPOSector"/>
+    <cids:hasSpecification rdf:resource="ICNPOSector"/>
+    <cids:definedBy rdf:resource="https://ontology.commonapproach.org/cids#ac"/>
+    <skos:notation>6</skos:notation>
+    <cids:hasIdentifier>6</cids:hasIdentifier>
+    <skos:prefLabel xml:lang="en">Development and Housing</skos:prefLabel>
+    <org:hasName>Development and Housing</org:hasName>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Sector"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="ICNPOSector#sec3">
+    <skos:inScheme rdf:resource="ICNPOSector"/>
+    <rdfs:isDefinedBy rdf:resource="ICNPOSector"/>
+    <cids:hasSpecification rdf:resource="ICNPOSector"/>
+    <cids:definedBy rdf:resource="https://ontology.commonapproach.org/cids#ac"/>
+    <skos:notation>3</skos:notation>
+    <cids:hasIdentifier>3</cids:hasIdentifier>
+    <skos:prefLabel xml:lang="en">Health</skos:prefLabel>
+    <org:hasName>Health</org:hasName>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Sector"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="ICNPOSector#sec10">
+    <skos:inScheme rdf:resource="ICNPOSector"/>
+    <rdfs:isDefinedBy rdf:resource="ICNPOSector"/>
+    <cids:hasSpecification rdf:resource="ICNPOSector"/>
+    <cids:definedBy rdf:resource="https://ontology.commonapproach.org/cids#ac"/>
+    <skos:notation>10</skos:notation>
+    <cids:hasIdentifier>10</cids:hasIdentifier>
+    <skos:prefLabel xml:lang="en">Religion</skos:prefLabel>
+    <org:hasName>Religion</org:hasName>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Sector"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="ICNPOSector#sec4">
+    <skos:inScheme rdf:resource="ICNPOSector"/>
+    <rdfs:isDefinedBy rdf:resource="ICNPOSector"/>
+    <cids:hasSpecification rdf:resource="ICNPOSector"/>
+    <cids:definedBy rdf:resource="https://ontology.commonapproach.org/cids#ac"/>
+    <skos:notation>4</skos:notation>
+    <cids:hasIdentifier>4</cids:hasIdentifier>
+    <skos:prefLabel xml:lang="en">Social Services</skos:prefLabel>
+    <org:hasName>Social Services</org:hasName>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Sector"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="ICNPOSector#sec11">
+    <skos:inScheme rdf:resource="ICNPOSector"/>
+    <rdfs:isDefinedBy rdf:resource="ICNPOSector"/>
+    <cids:hasSpecification rdf:resource="ICNPOSector"/>
+    <cids:definedBy rdf:resource="https://ontology.commonapproach.org/cids#ac"/>
+    <skos:notation>11</skos:notation>
+    <cids:hasIdentifier>11</cids:hasIdentifier>
+    <skos:prefLabel xml:lang="en">Business and Professional Associations, Unions</skos:prefLabel>
+    <org:hasName>Business and Professional Associations, Unions</org:hasName>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Sector"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="ICNPOSector">
+    <dcterms:description xml:lang="en">A codelist vocabulary of ICNPO Sector</dcterms:description>
+    <dcterms:title xml:lang="en">ICNPO Sector</dcterms:title>
+    <skos:prefLabel xml:lang="en">ICNPO Sector</skos:prefLabel>
+    <owl:versionInfo>2.0</owl:versionInfo>
+    <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-12-01</dcterms:date>
+    <dcterms:creator rdf:resource="https://ontology.commonapproach.org/cids#ac"/>
+    <owl:imports rdf:resource="https://ontology.commonapproach.org/owl/cids"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
+    <rdf:type rdf:resource="http://purl.org/vocommons/voaf#Vocabulary"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="ICNPOSector#sec9">
+    <skos:inScheme rdf:resource="ICNPOSector"/>
+    <rdfs:isDefinedBy rdf:resource="ICNPOSector"/>
+    <cids:hasSpecification rdf:resource="ICNPOSector"/>
+    <cids:definedBy rdf:resource="https://ontology.commonapproach.org/cids#ac"/>
+    <skos:notation>9</skos:notation>
+    <cids:hasIdentifier>9</cids:hasIdentifier>
+    <skos:prefLabel xml:lang="en">International</skos:prefLabel>
+    <org:hasName>International</org:hasName>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Sector"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="ICNPOSector#sec7">
+    <skos:inScheme rdf:resource="ICNPOSector"/>
+    <rdfs:isDefinedBy rdf:resource="ICNPOSector"/>
+    <cids:hasSpecification rdf:resource="ICNPOSector"/>
+    <cids:definedBy rdf:resource="https://ontology.commonapproach.org/cids#ac"/>
+    <skos:notation>7</skos:notation>
+    <cids:hasIdentifier>7</cids:hasIdentifier>
+    <skos:prefLabel xml:lang="en">Law, Advocacy, and Politics</skos:prefLabel>
+    <org:hasName>Law, Advocacy, and Politics</org:hasName>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Sector"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="ICNPOSector#sec8">
+    <skos:inScheme rdf:resource="ICNPOSector"/>
+    <rdfs:isDefinedBy rdf:resource="ICNPOSector"/>
+    <cids:hasSpecification rdf:resource="ICNPOSector"/>
+    <cids:definedBy rdf:resource="https://ontology.commonapproach.org/cids#ac"/>
+    <skos:notation>8</skos:notation>
+    <cids:hasIdentifier>8</cids:hasIdentifier>
+    <skos:prefLabel xml:lang="en">Philanthropic Intermediaries and Voluntarism Promotion</skos:prefLabel>
+    <org:hasName>Philanthropic Intermediaries and Voluntarism Promotion</org:hasName>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Sector"/>
+  </rdf:Description>
 </rdf:RDF>

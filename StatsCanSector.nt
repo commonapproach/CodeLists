@@ -1,199 +1,198 @@
-<https://codelist.commonapproach.org/codeLists/StatsCanSector> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
-<https://codelist.commonapproach.org/codeLists/StatsCanSector> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocommons/voafVocabulary> .
-<https://codelist.commonapproach.org/codeLists/StatsCanSector> <http://purl.org/vocab/vann/preferredNamespacePrefix> "StatsCanSector" .
-<https://codelist.commonapproach.org/codeLists/StatsCanSector> <http://www.w3.org/2002/07/owl#versionInfo> "1.0" .
-<https://codelist.commonapproach.org/codeLists/StatsCanSector> <http://purl.org/dc/terms/date> "03-10-2024" .
-<https://codelist.commonapproach.org/codeLists/StatsCanSector> <http://purl.org/vocab/vann/preferredNamespaceUri> <https://codelist.commonapproach.org/codeLists/StatsCanSector#> .
-<https://codelist.commonapproach.org/codeLists/StatsCanSector> <http://www.w3.org/2002/07/owl#imports> <https://ontology.commonapproach.org/owl/cids> .
-<https://codelist.commonapproach.org/codeLists/StatsCanSector> <http://www.w3.org/2002/07/owl#imports> <http://www.w3.org/2006/time> .
-<https://codelist.commonapproach.org/codeLists/StatsCanSector> <https://ontology.commonapproach.org/cids#hasName> "Statistics Canada Sectors" .
-<https://codelist.commonapproach.org/codeLists/StatsCanSector> <http://purl.org/dc/terms/title> "Statistics Canada Sectors"@en .
-<https://codelist.commonapproach.org/codeLists/StatsCanSector> <http://purl.org/dc/terms/description> "A codelist vocabulary of Sectors as defined by Statistics Canada."@en .
-<https://codelist.commonapproach.org/codeLists/StatsCanSector> <http://xmlns.com/foaf/0.1/name> "Statistics Canada Sectors" .
-<https://codelist.commonapproach.org/codeLists/StatsCanSector> <http://www.w3.org/2000/01/rdf-schema#label> "Statistics Canada Sectors" .
-<https://codelist.commonapproach.org/codeLists/StatsCanSector> <http://purl.org/dc/terms/creator> <https://ontology.commonapproach.org/cids#ac> .
-<https://codelist.commonapproach.org/codeLists/StatsCanSector#dataset> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
-<https://codelist.commonapproach.org/codeLists/StatsCanSector#sec1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#Sector> .
-<https://codelist.commonapproach.org/codeLists/StatsCanSector#sec1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#CODE> .
-<https://codelist.commonapproach.org/codeLists/StatsCanSector#sec1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
-<https://codelist.commonapproach.org/codeLists/StatsCanSector#sec1> <http://www.w3.org/2004/02/skos/core#inScheme> <https://codelist.commonapproach.org/codeLists/StatsCanSector#dataset> .
-<https://codelist.commonapproach.org/codeLists/StatsCanSector#sec1> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://codelist.commonapproach.org/codeLists/StatsCanSector#> .
-<https://codelist.commonapproach.org/codeLists/StatsCanSector#sec1> <https://ontology.commonapproach.org/cids#hasName> "Agriculture, forestry, fishing and hunting"@en .
-<https://codelist.commonapproach.org/codeLists/StatsCanSector#sec1> <http://www.w3.org/2000/01/rdf-schema#label> "Agriculture, forestry, fishing and hunting"@en .
-<https://codelist.commonapproach.org/codeLists/StatsCanSector#sec1> <https://ontology.commonapproach.org/cids#definedBy> <https://ontology.commonapproach.org/cids#statsCan> .
-<https://codelist.commonapproach.org/codeLists/StatsCanSector#sec1> <https://ontology.commonapproach.org/cids#hasIdentifier> "11" .
-<https://codelist.commonapproach.org/codeLists/StatsCanSector#sec2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#Sector> .
-<https://codelist.commonapproach.org/codeLists/StatsCanSector#sec2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#CODE> .
-<https://codelist.commonapproach.org/codeLists/StatsCanSector#sec2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
-<https://codelist.commonapproach.org/codeLists/StatsCanSector#sec2> <http://www.w3.org/2004/02/skos/core#inScheme> <https://codelist.commonapproach.org/codeLists/StatsCanSector#dataset> .
-<https://codelist.commonapproach.org/codeLists/StatsCanSector#sec2> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://codelist.commonapproach.org/codeLists/StatsCanSector#> .
-<https://codelist.commonapproach.org/codeLists/StatsCanSector#sec2> <https://ontology.commonapproach.org/cids#hasName> "Mining, quarrying, and oil and gas extraction"@en .
-<https://codelist.commonapproach.org/codeLists/StatsCanSector#sec2> <http://www.w3.org/2000/01/rdf-schema#label> "Mining, quarrying, and oil and gas extraction"@en .
-<https://codelist.commonapproach.org/codeLists/StatsCanSector#sec2> <https://ontology.commonapproach.org/cids#definedBy> <https://ontology.commonapproach.org/cids#statsCan> .
-<https://codelist.commonapproach.org/codeLists/StatsCanSector#sec2> <https://ontology.commonapproach.org/cids#hasIdentifier> "21" .
-<https://codelist.commonapproach.org/codeLists/StatsCanSector#sec3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#Sector> .
-<https://codelist.commonapproach.org/codeLists/StatsCanSector#sec3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#CODE> .
-<https://codelist.commonapproach.org/codeLists/StatsCanSector#sec3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
-<https://codelist.commonapproach.org/codeLists/StatsCanSector#sec3> <http://www.w3.org/2004/02/skos/core#inScheme> <https://codelist.commonapproach.org/codeLists/StatsCanSector#dataset> .
-<https://codelist.commonapproach.org/codeLists/StatsCanSector#sec3> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://codelist.commonapproach.org/codeLists/StatsCanSector#> .
-<https://codelist.commonapproach.org/codeLists/StatsCanSector#sec3> <https://ontology.commonapproach.org/cids#hasName> "Utilities"@en .
-<https://codelist.commonapproach.org/codeLists/StatsCanSector#sec3> <http://www.w3.org/2000/01/rdf-schema#label> "Utilities"@en .
-<https://codelist.commonapproach.org/codeLists/StatsCanSector#sec3> <https://ontology.commonapproach.org/cids#definedBy> <https://ontology.commonapproach.org/cids#statsCan> .
-<https://codelist.commonapproach.org/codeLists/StatsCanSector#sec3> <https://ontology.commonapproach.org/cids#hasIdentifier> "22" .
-<https://codelist.commonapproach.org/codeLists/StatsCanSector#sec4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#Sector> .
-<https://codelist.commonapproach.org/codeLists/StatsCanSector#sec4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#CODE> .
-<https://codelist.commonapproach.org/codeLists/StatsCanSector#sec4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
-<https://codelist.commonapproach.org/codeLists/StatsCanSector#sec4> <http://www.w3.org/2004/02/skos/core#inScheme> <https://codelist.commonapproach.org/codeLists/StatsCanSector#dataset> .
-<https://codelist.commonapproach.org/codeLists/StatsCanSector#sec4> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://codelist.commonapproach.org/codeLists/StatsCanSector#> .
-<https://codelist.commonapproach.org/codeLists/StatsCanSector#sec4> <https://ontology.commonapproach.org/cids#hasName> "Construction"@en .
-<https://codelist.commonapproach.org/codeLists/StatsCanSector#sec4> <http://www.w3.org/2000/01/rdf-schema#label> "Construction"@en .
-<https://codelist.commonapproach.org/codeLists/StatsCanSector#sec4> <https://ontology.commonapproach.org/cids#definedBy> <https://ontology.commonapproach.org/cids#statsCan> .
-<https://codelist.commonapproach.org/codeLists/StatsCanSector#sec4> <https://ontology.commonapproach.org/cids#hasIdentifier> "23" .
-<https://codelist.commonapproach.org/codeLists/StatsCanSector#sec5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#Sector> .
-<https://codelist.commonapproach.org/codeLists/StatsCanSector#sec5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#CODE> .
-<https://codelist.commonapproach.org/codeLists/StatsCanSector#sec5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
-<https://codelist.commonapproach.org/codeLists/StatsCanSector#sec5> <http://www.w3.org/2004/02/skos/core#inScheme> <https://codelist.commonapproach.org/codeLists/StatsCanSector#dataset> .
-<https://codelist.commonapproach.org/codeLists/StatsCanSector#sec5> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://codelist.commonapproach.org/codeLists/StatsCanSector#> .
-<https://codelist.commonapproach.org/codeLists/StatsCanSector#sec5> <https://ontology.commonapproach.org/cids#hasName> "Manufacturing"@en .
-<https://codelist.commonapproach.org/codeLists/StatsCanSector#sec5> <http://www.w3.org/2000/01/rdf-schema#label> "Manufacturing"@en .
-<https://codelist.commonapproach.org/codeLists/StatsCanSector#sec5> <https://ontology.commonapproach.org/cids#definedBy> <https://ontology.commonapproach.org/cids#statsCan> .
-<https://codelist.commonapproach.org/codeLists/StatsCanSector#sec5> <https://ontology.commonapproach.org/cids#hasIdentifier> "31" .
-<https://codelist.commonapproach.org/codeLists/StatsCanSector#sec5> <https://ontology.commonapproach.org/cids#hasIdentifier> "32" .
-<https://codelist.commonapproach.org/codeLists/StatsCanSector#sec5> <https://ontology.commonapproach.org/cids#hasIdentifier> "33" .
-<https://codelist.commonapproach.org/codeLists/StatsCanSector#sec6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#Sector> .
-<https://codelist.commonapproach.org/codeLists/StatsCanSector#sec6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#CODE> .
-<https://codelist.commonapproach.org/codeLists/StatsCanSector#sec6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
-<https://codelist.commonapproach.org/codeLists/StatsCanSector#sec6> <http://www.w3.org/2004/02/skos/core#inScheme> <https://codelist.commonapproach.org/codeLists/StatsCanSector#dataset> .
-<https://codelist.commonapproach.org/codeLists/StatsCanSector#sec6> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://codelist.commonapproach.org/codeLists/StatsCanSector#> .
-<https://codelist.commonapproach.org/codeLists/StatsCanSector#sec6> <https://ontology.commonapproach.org/cids#hasName> "Wholesale trade"@en .
-<https://codelist.commonapproach.org/codeLists/StatsCanSector#sec6> <http://www.w3.org/2000/01/rdf-schema#label> "Wholesale trade"@en .
-<https://codelist.commonapproach.org/codeLists/StatsCanSector#sec6> <https://ontology.commonapproach.org/cids#definedBy> <https://ontology.commonapproach.org/cids#statsCan> .
-<https://codelist.commonapproach.org/codeLists/StatsCanSector#sec6> <https://ontology.commonapproach.org/cids#hasIdentifier> "41" .
-<https://codelist.commonapproach.org/codeLists/StatsCanSector#sec7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#Sector> .
-<https://codelist.commonapproach.org/codeLists/StatsCanSector#sec7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#CODE> .
-<https://codelist.commonapproach.org/codeLists/StatsCanSector#sec7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
-<https://codelist.commonapproach.org/codeLists/StatsCanSector#sec7> <http://www.w3.org/2004/02/skos/core#inScheme> <https://codelist.commonapproach.org/codeLists/StatsCanSector#dataset> .
-<https://codelist.commonapproach.org/codeLists/StatsCanSector#sec7> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://codelist.commonapproach.org/codeLists/StatsCanSector#> .
-<https://codelist.commonapproach.org/codeLists/StatsCanSector#sec7> <https://ontology.commonapproach.org/cids#hasName> "Retail trade"@en .
-<https://codelist.commonapproach.org/codeLists/StatsCanSector#sec7> <http://www.w3.org/2000/01/rdf-schema#label> "Retail trade"@en .
-<https://codelist.commonapproach.org/codeLists/StatsCanSector#sec7> <https://ontology.commonapproach.org/cids#definedBy> <https://ontology.commonapproach.org/cids#statsCan> .
-<https://codelist.commonapproach.org/codeLists/StatsCanSector#sec7> <https://ontology.commonapproach.org/cids#hasIdentifier> "44" .
-<https://codelist.commonapproach.org/codeLists/StatsCanSector#sec7> <https://ontology.commonapproach.org/cids#hasIdentifier> "45" .
-<https://codelist.commonapproach.org/codeLists/StatsCanSector#sec8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#Sector> .
-<https://codelist.commonapproach.org/codeLists/StatsCanSector#sec8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#CODE> .
-<https://codelist.commonapproach.org/codeLists/StatsCanSector#sec8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
-<https://codelist.commonapproach.org/codeLists/StatsCanSector#sec8> <http://www.w3.org/2004/02/skos/core#inScheme> <https://codelist.commonapproach.org/codeLists/StatsCanSector#dataset> .
-<https://codelist.commonapproach.org/codeLists/StatsCanSector#sec8> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://codelist.commonapproach.org/codeLists/StatsCanSector#> .
-<https://codelist.commonapproach.org/codeLists/StatsCanSector#sec8> <https://ontology.commonapproach.org/cids#hasName> "Transportation and warehousing"@en .
-<https://codelist.commonapproach.org/codeLists/StatsCanSector#sec8> <http://www.w3.org/2000/01/rdf-schema#label> "Transportation and warehousing"@en .
-<https://codelist.commonapproach.org/codeLists/StatsCanSector#sec8> <https://ontology.commonapproach.org/cids#definedBy> <https://ontology.commonapproach.org/cids#statsCan> .
-<https://codelist.commonapproach.org/codeLists/StatsCanSector#sec8> <https://ontology.commonapproach.org/cids#hasIdentifier> "48" .
-<https://codelist.commonapproach.org/codeLists/StatsCanSector#sec8> <https://ontology.commonapproach.org/cids#hasIdentifier> "49" .
-<https://codelist.commonapproach.org/codeLists/StatsCanSector#sec9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#Sector> .
-<https://codelist.commonapproach.org/codeLists/StatsCanSector#sec9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#CODE> .
-<https://codelist.commonapproach.org/codeLists/StatsCanSector#sec9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
-<https://codelist.commonapproach.org/codeLists/StatsCanSector#sec9> <http://www.w3.org/2004/02/skos/core#inScheme> <https://codelist.commonapproach.org/codeLists/StatsCanSector#dataset> .
-<https://codelist.commonapproach.org/codeLists/StatsCanSector#sec9> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://codelist.commonapproach.org/codeLists/StatsCanSector#> .
-<https://codelist.commonapproach.org/codeLists/StatsCanSector#sec9> <https://ontology.commonapproach.org/cids#hasName> "Information and cultural industries"@en .
-<https://codelist.commonapproach.org/codeLists/StatsCanSector#sec9> <http://www.w3.org/2000/01/rdf-schema#label> "Information and cultural industries"@en .
-<https://codelist.commonapproach.org/codeLists/StatsCanSector#sec9> <https://ontology.commonapproach.org/cids#definedBy> <https://ontology.commonapproach.org/cids#statsCan> .
-<https://codelist.commonapproach.org/codeLists/StatsCanSector#sec9> <https://ontology.commonapproach.org/cids#hasIdentifier> "51" .
-<https://codelist.commonapproach.org/codeLists/StatsCanSector#sec10> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#Sector> .
-<https://codelist.commonapproach.org/codeLists/StatsCanSector#sec10> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#CODE> .
-<https://codelist.commonapproach.org/codeLists/StatsCanSector#sec10> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
-<https://codelist.commonapproach.org/codeLists/StatsCanSector#sec10> <http://www.w3.org/2004/02/skos/core#inScheme> <https://codelist.commonapproach.org/codeLists/StatsCanSector#dataset> .
-<https://codelist.commonapproach.org/codeLists/StatsCanSector#sec10> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://codelist.commonapproach.org/codeLists/StatsCanSector#> .
-<https://codelist.commonapproach.org/codeLists/StatsCanSector#sec10> <https://ontology.commonapproach.org/cids#hasName> "Finance and insurance"@en .
-<https://codelist.commonapproach.org/codeLists/StatsCanSector#sec10> <http://www.w3.org/2000/01/rdf-schema#label> "Finance and insurance"@en .
-<https://codelist.commonapproach.org/codeLists/StatsCanSector#sec10> <https://ontology.commonapproach.org/cids#definedBy> <https://ontology.commonapproach.org/cids#statsCan> .
-<https://codelist.commonapproach.org/codeLists/StatsCanSector#sec10> <https://ontology.commonapproach.org/cids#hasIdentifier> "52" .
-<https://codelist.commonapproach.org/codeLists/StatsCanSector#sec11> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#Sector> .
-<https://codelist.commonapproach.org/codeLists/StatsCanSector#sec11> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#CODE> .
-<https://codelist.commonapproach.org/codeLists/StatsCanSector#sec11> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
-<https://codelist.commonapproach.org/codeLists/StatsCanSector#sec11> <http://www.w3.org/2004/02/skos/core#inScheme> <https://codelist.commonapproach.org/codeLists/StatsCanSector#dataset> .
-<https://codelist.commonapproach.org/codeLists/StatsCanSector#sec11> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://codelist.commonapproach.org/codeLists/StatsCanSector#> .
-<https://codelist.commonapproach.org/codeLists/StatsCanSector#sec11> <https://ontology.commonapproach.org/cids#hasName> "Real estate and rental and leasing"@en .
-<https://codelist.commonapproach.org/codeLists/StatsCanSector#sec11> <http://www.w3.org/2000/01/rdf-schema#label> "Real estate and rental and leasing"@en .
-<https://codelist.commonapproach.org/codeLists/StatsCanSector#sec11> <https://ontology.commonapproach.org/cids#definedBy> <https://ontology.commonapproach.org/cids#statsCan> .
-<https://codelist.commonapproach.org/codeLists/StatsCanSector#sec11> <https://ontology.commonapproach.org/cids#hasIdentifier> "53" .
-<https://codelist.commonapproach.org/codeLists/StatsCanSector#sec12> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#Sector> .
-<https://codelist.commonapproach.org/codeLists/StatsCanSector#sec12> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#CODE> .
-<https://codelist.commonapproach.org/codeLists/StatsCanSector#sec12> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
-<https://codelist.commonapproach.org/codeLists/StatsCanSector#sec12> <http://www.w3.org/2004/02/skos/core#inScheme> <https://codelist.commonapproach.org/codeLists/StatsCanSector#dataset> .
-<https://codelist.commonapproach.org/codeLists/StatsCanSector#sec12> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://codelist.commonapproach.org/codeLists/StatsCanSector#> .
-<https://codelist.commonapproach.org/codeLists/StatsCanSector#sec12> <https://ontology.commonapproach.org/cids#hasName> "Professional, scientific and technical services"@en .
-<https://codelist.commonapproach.org/codeLists/StatsCanSector#sec12> <http://www.w3.org/2000/01/rdf-schema#label> "Professional, scientific and technical services"@en .
-<https://codelist.commonapproach.org/codeLists/StatsCanSector#sec12> <https://ontology.commonapproach.org/cids#definedBy> <https://ontology.commonapproach.org/cids#statsCan> .
-<https://codelist.commonapproach.org/codeLists/StatsCanSector#sec12> <https://ontology.commonapproach.org/cids#hasIdentifier> "54" .
-<https://codelist.commonapproach.org/codeLists/StatsCanSector#sec13> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#Sector> .
-<https://codelist.commonapproach.org/codeLists/StatsCanSector#sec13> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#CODE> .
-<https://codelist.commonapproach.org/codeLists/StatsCanSector#sec13> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
-<https://codelist.commonapproach.org/codeLists/StatsCanSector#sec13> <http://www.w3.org/2004/02/skos/core#inScheme> <https://codelist.commonapproach.org/codeLists/StatsCanSector#dataset> .
-<https://codelist.commonapproach.org/codeLists/StatsCanSector#sec13> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://codelist.commonapproach.org/codeLists/StatsCanSector#> .
-<https://codelist.commonapproach.org/codeLists/StatsCanSector#sec13> <https://ontology.commonapproach.org/cids#hasName> "Management of companies and enterprises"@en .
-<https://codelist.commonapproach.org/codeLists/StatsCanSector#sec13> <http://www.w3.org/2000/01/rdf-schema#label> "Management of companies and enterprises"@en .
-<https://codelist.commonapproach.org/codeLists/StatsCanSector#sec13> <https://ontology.commonapproach.org/cids#definedBy> <https://ontology.commonapproach.org/cids#statsCan> .
-<https://codelist.commonapproach.org/codeLists/StatsCanSector#sec13> <https://ontology.commonapproach.org/cids#hasIdentifier> "55" .
-<https://codelist.commonapproach.org/codeLists/StatsCanSector#sec14> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#Sector> .
-<https://codelist.commonapproach.org/codeLists/StatsCanSector#sec14> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#CODE> .
-<https://codelist.commonapproach.org/codeLists/StatsCanSector#sec14> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
-<https://codelist.commonapproach.org/codeLists/StatsCanSector#sec14> <http://www.w3.org/2004/02/skos/core#inScheme> <https://codelist.commonapproach.org/codeLists/StatsCanSector#dataset> .
-<https://codelist.commonapproach.org/codeLists/StatsCanSector#sec14> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://codelist.commonapproach.org/codeLists/StatsCanSector#> .
-<https://codelist.commonapproach.org/codeLists/StatsCanSector#sec14> <https://ontology.commonapproach.org/cids#hasName> "Administrative and support, waste management and remediation services"@en .
-<https://codelist.commonapproach.org/codeLists/StatsCanSector#sec14> <http://www.w3.org/2000/01/rdf-schema#label> "Administrative and support, waste management and remediation services"@en .
-<https://codelist.commonapproach.org/codeLists/StatsCanSector#sec14> <https://ontology.commonapproach.org/cids#definedBy> <https://ontology.commonapproach.org/cids#statsCan> .
-<https://codelist.commonapproach.org/codeLists/StatsCanSector#sec14> <https://ontology.commonapproach.org/cids#hasIdentifier> "56" .
-<https://codelist.commonapproach.org/codeLists/StatsCanSector#sec15> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#Sector> .
-<https://codelist.commonapproach.org/codeLists/StatsCanSector#sec15> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#CODE> .
-<https://codelist.commonapproach.org/codeLists/StatsCanSector#sec15> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
-<https://codelist.commonapproach.org/codeLists/StatsCanSector#sec15> <http://www.w3.org/2004/02/skos/core#inScheme> <https://codelist.commonapproach.org/codeLists/StatsCanSector#dataset> .
-<https://codelist.commonapproach.org/codeLists/StatsCanSector#sec15> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://codelist.commonapproach.org/codeLists/StatsCanSector#> .
-<https://codelist.commonapproach.org/codeLists/StatsCanSector#sec15> <https://ontology.commonapproach.org/cids#hasName> "Educational services"@en .
-<https://codelist.commonapproach.org/codeLists/StatsCanSector#sec15> <http://www.w3.org/2000/01/rdf-schema#label> "Educational services"@en .
-<https://codelist.commonapproach.org/codeLists/StatsCanSector#sec15> <https://ontology.commonapproach.org/cids#definedBy> <https://ontology.commonapproach.org/cids#statsCan> .
-<https://codelist.commonapproach.org/codeLists/StatsCanSector#sec15> <https://ontology.commonapproach.org/cids#hasIdentifier> "61" .
-<https://codelist.commonapproach.org/codeLists/StatsCanSector#sec16> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#Sector> .
-<https://codelist.commonapproach.org/codeLists/StatsCanSector#sec16> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#CODE> .
-<https://codelist.commonapproach.org/codeLists/StatsCanSector#sec16> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
-<https://codelist.commonapproach.org/codeLists/StatsCanSector#sec16> <http://www.w3.org/2004/02/skos/core#inScheme> <https://codelist.commonapproach.org/codeLists/StatsCanSector#dataset> .
-<https://codelist.commonapproach.org/codeLists/StatsCanSector#sec16> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://codelist.commonapproach.org/codeLists/StatsCanSector#> .
-<https://codelist.commonapproach.org/codeLists/StatsCanSector#sec16> <https://ontology.commonapproach.org/cids#hasName> "Health care and social assistance"@en .
-<https://codelist.commonapproach.org/codeLists/StatsCanSector#sec16> <http://www.w3.org/2000/01/rdf-schema#label> "Health care and social assistance"@en .
-<https://codelist.commonapproach.org/codeLists/StatsCanSector#sec16> <https://ontology.commonapproach.org/cids#definedBy> <https://ontology.commonapproach.org/cids#statsCan> .
-<https://codelist.commonapproach.org/codeLists/StatsCanSector#sec16> <https://ontology.commonapproach.org/cids#hasIdentifier> "62" .
-<https://codelist.commonapproach.org/codeLists/StatsCanSector#sec17> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#Sector> .
-<https://codelist.commonapproach.org/codeLists/StatsCanSector#sec17> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#CODE> .
-<https://codelist.commonapproach.org/codeLists/StatsCanSector#sec17> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
-<https://codelist.commonapproach.org/codeLists/StatsCanSector#sec17> <http://www.w3.org/2004/02/skos/core#inScheme> <https://codelist.commonapproach.org/codeLists/StatsCanSector#dataset> .
-<https://codelist.commonapproach.org/codeLists/StatsCanSector#sec17> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://codelist.commonapproach.org/codeLists/StatsCanSector#> .
-<https://codelist.commonapproach.org/codeLists/StatsCanSector#sec17> <https://ontology.commonapproach.org/cids#hasName> "Arts, entertainment and recreation"@en .
-<https://codelist.commonapproach.org/codeLists/StatsCanSector#sec17> <http://www.w3.org/2000/01/rdf-schema#label> "Arts, entertainment and recreation"@en .
-<https://codelist.commonapproach.org/codeLists/StatsCanSector#sec17> <https://ontology.commonapproach.org/cids#definedBy> <https://ontology.commonapproach.org/cids#statsCan> .
-<https://codelist.commonapproach.org/codeLists/StatsCanSector#sec17> <https://ontology.commonapproach.org/cids#hasIdentifier> "71" .
-<https://codelist.commonapproach.org/codeLists/StatsCanSector#sec18> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#Sector> .
-<https://codelist.commonapproach.org/codeLists/StatsCanSector#sec18> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#CODE> .
-<https://codelist.commonapproach.org/codeLists/StatsCanSector#sec18> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
-<https://codelist.commonapproach.org/codeLists/StatsCanSector#sec18> <http://www.w3.org/2004/02/skos/core#inScheme> <https://codelist.commonapproach.org/codeLists/StatsCanSector#dataset> .
-<https://codelist.commonapproach.org/codeLists/StatsCanSector#sec18> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://codelist.commonapproach.org/codeLists/StatsCanSector#> .
-<https://codelist.commonapproach.org/codeLists/StatsCanSector#sec18> <https://ontology.commonapproach.org/cids#hasName> "Accommodation and food services"@en .
-<https://codelist.commonapproach.org/codeLists/StatsCanSector#sec18> <http://www.w3.org/2000/01/rdf-schema#label> "Accommodation and food services"@en .
-<https://codelist.commonapproach.org/codeLists/StatsCanSector#sec18> <https://ontology.commonapproach.org/cids#definedBy> <https://ontology.commonapproach.org/cids#statsCan> .
-<https://codelist.commonapproach.org/codeLists/StatsCanSector#sec18> <https://ontology.commonapproach.org/cids#hasIdentifier> "72" .
-<https://codelist.commonapproach.org/codeLists/StatsCanSector#sec19> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#Sector> .
-<https://codelist.commonapproach.org/codeLists/StatsCanSector#sec19> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#CODE> .
-<https://codelist.commonapproach.org/codeLists/StatsCanSector#sec19> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
-<https://codelist.commonapproach.org/codeLists/StatsCanSector#sec19> <http://www.w3.org/2004/02/skos/core#inScheme> <https://codelist.commonapproach.org/codeLists/StatsCanSector#dataset> .
-<https://codelist.commonapproach.org/codeLists/StatsCanSector#sec19> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://codelist.commonapproach.org/codeLists/StatsCanSector#> .
-<https://codelist.commonapproach.org/codeLists/StatsCanSector#sec19> <https://ontology.commonapproach.org/cids#hasName> "Other services (except public administration)"@en .
-<https://codelist.commonapproach.org/codeLists/StatsCanSector#sec19> <http://www.w3.org/2000/01/rdf-schema#label> "Other services (except public administration)"@en .
-<https://codelist.commonapproach.org/codeLists/StatsCanSector#sec19> <https://ontology.commonapproach.org/cids#definedBy> <https://ontology.commonapproach.org/cids#statsCan> .
-<https://codelist.commonapproach.org/codeLists/StatsCanSector#sec19> <https://ontology.commonapproach.org/cids#hasIdentifier> "81" .
-<https://codelist.commonapproach.org/codeLists/StatsCanSector#sec20> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#Sector> .
-<https://codelist.commonapproach.org/codeLists/StatsCanSector#sec20> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#CODE> .
-<https://codelist.commonapproach.org/codeLists/StatsCanSector#sec20> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
-<https://codelist.commonapproach.org/codeLists/StatsCanSector#sec20> <http://www.w3.org/2004/02/skos/core#inScheme> <https://codelist.commonapproach.org/codeLists/StatsCanSector#dataset> .
-<https://codelist.commonapproach.org/codeLists/StatsCanSector#sec20> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://codelist.commonapproach.org/codeLists/StatsCanSector#> .
-<https://codelist.commonapproach.org/codeLists/StatsCanSector#sec20> <https://ontology.commonapproach.org/cids#hasName> "Public administration"@en .
-<https://codelist.commonapproach.org/codeLists/StatsCanSector#sec20> <http://www.w3.org/2000/01/rdf-schema#label> "Public administration"@en .
-<https://codelist.commonapproach.org/codeLists/StatsCanSector#sec20> <https://ontology.commonapproach.org/cids#definedBy> <https://ontology.commonapproach.org/cids#statsCan> .
-<https://codelist.commonapproach.org/codeLists/StatsCanSector#sec20> <https://ontology.commonapproach.org/cids#hasIdentifier> "91" .
+<https://codelist.commonapproach.org/StatsCanSector> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocommons/voaf#Vocabulary> .
+<https://codelist.commonapproach.org/StatsCanSector> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<https://codelist.commonapproach.org/StatsCanSector> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
+<https://codelist.commonapproach.org/StatsCanSector> <http://www.w3.org/2002/07/owl#imports> <https://ontology.commonapproach.org/owl/cids> .
+<https://codelist.commonapproach.org/StatsCanSector> <http://purl.org/dc/terms/creator> <https://ontology.commonapproach.org/cids#ac> .
+<https://codelist.commonapproach.org/StatsCanSector> <http://purl.org/dc/terms/date> "2025-11-28"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://codelist.commonapproach.org/StatsCanSector> <http://www.w3.org/2002/07/owl#versionInfo> "2.0" .
+<https://codelist.commonapproach.org/StatsCanSector> <http://www.w3.org/2004/02/skos/core#prefLabel> "Statistics Canada Sectors"@en .
+<https://codelist.commonapproach.org/StatsCanSector> <http://purl.org/dc/terms/title> "Statistics Canada Sectors"@en .
+<https://codelist.commonapproach.org/StatsCanSector> <http://purl.org/dc/terms/description> "A codelist vocabulary of Sectors as defined by Statistics Canada."@en .
+<https://codelist.commonapproach.org/StatsCanSector#sec1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#Sector> .
+<https://codelist.commonapproach.org/StatsCanSector#sec1> <http://www.w3.org/ns/org#hasName> "Agriculture, forestry, fishing and hunting" .
+<https://codelist.commonapproach.org/StatsCanSector#sec1> <http://www.w3.org/2004/02/skos/core#prefLabel> "Agriculture, forestry, fishing and hunting"@en .
+<https://codelist.commonapproach.org/StatsCanSector#sec1> <http://www.w3.org/ns/org#hasIdentifier> "11" .
+<https://codelist.commonapproach.org/StatsCanSector#sec1> <http://www.w3.org/2004/02/skos/core#notation> "11" .
+<https://codelist.commonapproach.org/StatsCanSector#sec1> <https://ontology.commonapproach.org/cids#definedBy> <https://ontology.commonapproach.org/cids#statsCan> .
+<https://codelist.commonapproach.org/StatsCanSector#sec1> <https://ontology.commonapproach.org/cids#hasSpecification> <https://codelist.commonapproach.org/StatsCanSector> .
+<https://codelist.commonapproach.org/StatsCanSector#sec1> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://codelist.commonapproach.org/StatsCanSector> .
+<https://codelist.commonapproach.org/StatsCanSector#sec1> <http://www.w3.org/2004/02/skos/core#inScheme> <https://codelist.commonapproach.org/StatsCanSector> .
+<https://codelist.commonapproach.org/StatsCanSector#sec10> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#Sector> .
+<https://codelist.commonapproach.org/StatsCanSector#sec10> <http://www.w3.org/ns/org#hasName> "Finance and insurance" .
+<https://codelist.commonapproach.org/StatsCanSector#sec10> <http://www.w3.org/2004/02/skos/core#prefLabel> "Finance and insurance"@en .
+<https://codelist.commonapproach.org/StatsCanSector#sec10> <http://www.w3.org/ns/org#hasIdentifier> "52" .
+<https://codelist.commonapproach.org/StatsCanSector#sec10> <http://www.w3.org/2004/02/skos/core#notation> "52" .
+<https://codelist.commonapproach.org/StatsCanSector#sec10> <https://ontology.commonapproach.org/cids#definedBy> <https://ontology.commonapproach.org/cids#statsCan> .
+<https://codelist.commonapproach.org/StatsCanSector#sec10> <https://ontology.commonapproach.org/cids#hasSpecification> <https://codelist.commonapproach.org/StatsCanSector> .
+<https://codelist.commonapproach.org/StatsCanSector#sec10> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://codelist.commonapproach.org/StatsCanSector> .
+<https://codelist.commonapproach.org/StatsCanSector#sec10> <http://www.w3.org/2004/02/skos/core#inScheme> <https://codelist.commonapproach.org/StatsCanSector> .
+<https://codelist.commonapproach.org/StatsCanSector#sec11> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#Sector> .
+<https://codelist.commonapproach.org/StatsCanSector#sec11> <http://www.w3.org/ns/org#hasName> "Real estate and rental and leasing" .
+<https://codelist.commonapproach.org/StatsCanSector#sec11> <http://www.w3.org/2004/02/skos/core#prefLabel> "Real estate and rental and leasing"@en .
+<https://codelist.commonapproach.org/StatsCanSector#sec11> <http://www.w3.org/ns/org#hasIdentifier> "53" .
+<https://codelist.commonapproach.org/StatsCanSector#sec11> <http://www.w3.org/2004/02/skos/core#notation> "53" .
+<https://codelist.commonapproach.org/StatsCanSector#sec11> <https://ontology.commonapproach.org/cids#definedBy> <https://ontology.commonapproach.org/cids#statsCan> .
+<https://codelist.commonapproach.org/StatsCanSector#sec11> <https://ontology.commonapproach.org/cids#hasSpecification> <https://codelist.commonapproach.org/StatsCanSector> .
+<https://codelist.commonapproach.org/StatsCanSector#sec11> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://codelist.commonapproach.org/StatsCanSector> .
+<https://codelist.commonapproach.org/StatsCanSector#sec11> <http://www.w3.org/2004/02/skos/core#inScheme> <https://codelist.commonapproach.org/StatsCanSector> .
+<https://codelist.commonapproach.org/StatsCanSector#sec12> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#Sector> .
+<https://codelist.commonapproach.org/StatsCanSector#sec12> <http://www.w3.org/ns/org#hasName> "Professional, scientific and technical services" .
+<https://codelist.commonapproach.org/StatsCanSector#sec12> <http://www.w3.org/2004/02/skos/core#prefLabel> "Professional, scientific and technical services"@en .
+<https://codelist.commonapproach.org/StatsCanSector#sec12> <http://www.w3.org/ns/org#hasIdentifier> "54" .
+<https://codelist.commonapproach.org/StatsCanSector#sec12> <http://www.w3.org/2004/02/skos/core#notation> "54" .
+<https://codelist.commonapproach.org/StatsCanSector#sec12> <https://ontology.commonapproach.org/cids#definedBy> <https://ontology.commonapproach.org/cids#statsCan> .
+<https://codelist.commonapproach.org/StatsCanSector#sec12> <https://ontology.commonapproach.org/cids#hasSpecification> <https://codelist.commonapproach.org/StatsCanSector> .
+<https://codelist.commonapproach.org/StatsCanSector#sec12> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://codelist.commonapproach.org/StatsCanSector> .
+<https://codelist.commonapproach.org/StatsCanSector#sec12> <http://www.w3.org/2004/02/skos/core#inScheme> <https://codelist.commonapproach.org/StatsCanSector> .
+<https://codelist.commonapproach.org/StatsCanSector#sec13> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#Sector> .
+<https://codelist.commonapproach.org/StatsCanSector#sec13> <http://www.w3.org/ns/org#hasName> "Management of companies and enterprises" .
+<https://codelist.commonapproach.org/StatsCanSector#sec13> <http://www.w3.org/2004/02/skos/core#prefLabel> "Management of companies and enterprises"@en .
+<https://codelist.commonapproach.org/StatsCanSector#sec13> <http://www.w3.org/ns/org#hasIdentifier> "55" .
+<https://codelist.commonapproach.org/StatsCanSector#sec13> <http://www.w3.org/2004/02/skos/core#notation> "55" .
+<https://codelist.commonapproach.org/StatsCanSector#sec13> <https://ontology.commonapproach.org/cids#definedBy> <https://ontology.commonapproach.org/cids#statsCan> .
+<https://codelist.commonapproach.org/StatsCanSector#sec13> <https://ontology.commonapproach.org/cids#hasSpecification> <https://codelist.commonapproach.org/StatsCanSector> .
+<https://codelist.commonapproach.org/StatsCanSector#sec13> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://codelist.commonapproach.org/StatsCanSector> .
+<https://codelist.commonapproach.org/StatsCanSector#sec13> <http://www.w3.org/2004/02/skos/core#inScheme> <https://codelist.commonapproach.org/StatsCanSector> .
+<https://codelist.commonapproach.org/StatsCanSector#sec14> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#Sector> .
+<https://codelist.commonapproach.org/StatsCanSector#sec14> <http://www.w3.org/ns/org#hasName> "Administrative and support, waste management and remediation services" .
+<https://codelist.commonapproach.org/StatsCanSector#sec14> <http://www.w3.org/2004/02/skos/core#prefLabel> "Administrative and support, waste management and remediation services"@en .
+<https://codelist.commonapproach.org/StatsCanSector#sec14> <http://www.w3.org/ns/org#hasIdentifier> "56" .
+<https://codelist.commonapproach.org/StatsCanSector#sec14> <http://www.w3.org/2004/02/skos/core#notation> "56" .
+<https://codelist.commonapproach.org/StatsCanSector#sec14> <https://ontology.commonapproach.org/cids#definedBy> <https://ontology.commonapproach.org/cids#statsCan> .
+<https://codelist.commonapproach.org/StatsCanSector#sec14> <https://ontology.commonapproach.org/cids#hasSpecification> <https://codelist.commonapproach.org/StatsCanSector> .
+<https://codelist.commonapproach.org/StatsCanSector#sec14> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://codelist.commonapproach.org/StatsCanSector> .
+<https://codelist.commonapproach.org/StatsCanSector#sec14> <http://www.w3.org/2004/02/skos/core#inScheme> <https://codelist.commonapproach.org/StatsCanSector> .
+<https://codelist.commonapproach.org/StatsCanSector#sec15> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#Sector> .
+<https://codelist.commonapproach.org/StatsCanSector#sec15> <http://www.w3.org/ns/org#hasName> "Educational services" .
+<https://codelist.commonapproach.org/StatsCanSector#sec15> <http://www.w3.org/2004/02/skos/core#prefLabel> "Educational services"@en .
+<https://codelist.commonapproach.org/StatsCanSector#sec15> <http://www.w3.org/ns/org#hasIdentifier> "61" .
+<https://codelist.commonapproach.org/StatsCanSector#sec15> <http://www.w3.org/2004/02/skos/core#notation> "61" .
+<https://codelist.commonapproach.org/StatsCanSector#sec15> <https://ontology.commonapproach.org/cids#definedBy> <https://ontology.commonapproach.org/cids#statsCan> .
+<https://codelist.commonapproach.org/StatsCanSector#sec15> <https://ontology.commonapproach.org/cids#hasSpecification> <https://codelist.commonapproach.org/StatsCanSector> .
+<https://codelist.commonapproach.org/StatsCanSector#sec15> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://codelist.commonapproach.org/StatsCanSector> .
+<https://codelist.commonapproach.org/StatsCanSector#sec15> <http://www.w3.org/2004/02/skos/core#inScheme> <https://codelist.commonapproach.org/StatsCanSector> .
+<https://codelist.commonapproach.org/StatsCanSector#sec16> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#Sector> .
+<https://codelist.commonapproach.org/StatsCanSector#sec16> <http://www.w3.org/ns/org#hasName> "Health care and social assistance" .
+<https://codelist.commonapproach.org/StatsCanSector#sec16> <http://www.w3.org/2004/02/skos/core#prefLabel> "Health care and social assistance"@en .
+<https://codelist.commonapproach.org/StatsCanSector#sec16> <http://www.w3.org/ns/org#hasIdentifier> "62" .
+<https://codelist.commonapproach.org/StatsCanSector#sec16> <http://www.w3.org/2004/02/skos/core#notation> "62" .
+<https://codelist.commonapproach.org/StatsCanSector#sec16> <https://ontology.commonapproach.org/cids#definedBy> <https://ontology.commonapproach.org/cids#statsCan> .
+<https://codelist.commonapproach.org/StatsCanSector#sec16> <https://ontology.commonapproach.org/cids#hasSpecification> <https://codelist.commonapproach.org/StatsCanSector> .
+<https://codelist.commonapproach.org/StatsCanSector#sec16> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://codelist.commonapproach.org/StatsCanSector> .
+<https://codelist.commonapproach.org/StatsCanSector#sec16> <http://www.w3.org/2004/02/skos/core#inScheme> <https://codelist.commonapproach.org/StatsCanSector> .
+<https://codelist.commonapproach.org/StatsCanSector#sec17> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#Sector> .
+<https://codelist.commonapproach.org/StatsCanSector#sec17> <http://www.w3.org/ns/org#hasName> "Arts, entertainment and recreation" .
+<https://codelist.commonapproach.org/StatsCanSector#sec17> <http://www.w3.org/2004/02/skos/core#prefLabel> "Arts, entertainment and recreation"@en .
+<https://codelist.commonapproach.org/StatsCanSector#sec17> <http://www.w3.org/ns/org#hasIdentifier> "71" .
+<https://codelist.commonapproach.org/StatsCanSector#sec17> <http://www.w3.org/2004/02/skos/core#notation> "71" .
+<https://codelist.commonapproach.org/StatsCanSector#sec17> <https://ontology.commonapproach.org/cids#definedBy> <https://ontology.commonapproach.org/cids#statsCan> .
+<https://codelist.commonapproach.org/StatsCanSector#sec17> <https://ontology.commonapproach.org/cids#hasSpecification> <https://codelist.commonapproach.org/StatsCanSector> .
+<https://codelist.commonapproach.org/StatsCanSector#sec17> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://codelist.commonapproach.org/StatsCanSector> .
+<https://codelist.commonapproach.org/StatsCanSector#sec17> <http://www.w3.org/2004/02/skos/core#inScheme> <https://codelist.commonapproach.org/StatsCanSector> .
+<https://codelist.commonapproach.org/StatsCanSector#sec18> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#Sector> .
+<https://codelist.commonapproach.org/StatsCanSector#sec18> <http://www.w3.org/ns/org#hasName> "Accommodation and food services" .
+<https://codelist.commonapproach.org/StatsCanSector#sec18> <http://www.w3.org/2004/02/skos/core#prefLabel> "Accommodation and food services"@en .
+<https://codelist.commonapproach.org/StatsCanSector#sec18> <http://www.w3.org/ns/org#hasIdentifier> "72" .
+<https://codelist.commonapproach.org/StatsCanSector#sec18> <http://www.w3.org/2004/02/skos/core#notation> "72" .
+<https://codelist.commonapproach.org/StatsCanSector#sec18> <https://ontology.commonapproach.org/cids#definedBy> <https://ontology.commonapproach.org/cids#statsCan> .
+<https://codelist.commonapproach.org/StatsCanSector#sec18> <https://ontology.commonapproach.org/cids#hasSpecification> <https://codelist.commonapproach.org/StatsCanSector> .
+<https://codelist.commonapproach.org/StatsCanSector#sec18> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://codelist.commonapproach.org/StatsCanSector> .
+<https://codelist.commonapproach.org/StatsCanSector#sec18> <http://www.w3.org/2004/02/skos/core#inScheme> <https://codelist.commonapproach.org/StatsCanSector> .
+<https://codelist.commonapproach.org/StatsCanSector#sec19> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#Sector> .
+<https://codelist.commonapproach.org/StatsCanSector#sec19> <http://www.w3.org/ns/org#hasName> "Other services (except public administration)" .
+<https://codelist.commonapproach.org/StatsCanSector#sec19> <http://www.w3.org/2004/02/skos/core#prefLabel> "Other services (except public administration)"@en .
+<https://codelist.commonapproach.org/StatsCanSector#sec19> <http://www.w3.org/ns/org#hasIdentifier> "81" .
+<https://codelist.commonapproach.org/StatsCanSector#sec19> <http://www.w3.org/2004/02/skos/core#notation> "81" .
+<https://codelist.commonapproach.org/StatsCanSector#sec19> <https://ontology.commonapproach.org/cids#definedBy> <https://ontology.commonapproach.org/cids#statsCan> .
+<https://codelist.commonapproach.org/StatsCanSector#sec19> <https://ontology.commonapproach.org/cids#hasSpecification> <https://codelist.commonapproach.org/StatsCanSector> .
+<https://codelist.commonapproach.org/StatsCanSector#sec19> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://codelist.commonapproach.org/StatsCanSector> .
+<https://codelist.commonapproach.org/StatsCanSector#sec19> <http://www.w3.org/2004/02/skos/core#inScheme> <https://codelist.commonapproach.org/StatsCanSector> .
+<https://codelist.commonapproach.org/StatsCanSector#sec2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#Sector> .
+<https://codelist.commonapproach.org/StatsCanSector#sec2> <http://www.w3.org/ns/org#hasName> "Mining, quarrying, and oil and gas extraction" .
+<https://codelist.commonapproach.org/StatsCanSector#sec2> <http://www.w3.org/2004/02/skos/core#prefLabel> "Mining, quarrying, and oil and gas extraction"@en .
+<https://codelist.commonapproach.org/StatsCanSector#sec2> <http://www.w3.org/ns/org#hasIdentifier> "21" .
+<https://codelist.commonapproach.org/StatsCanSector#sec2> <http://www.w3.org/2004/02/skos/core#notation> "21" .
+<https://codelist.commonapproach.org/StatsCanSector#sec2> <https://ontology.commonapproach.org/cids#definedBy> <https://ontology.commonapproach.org/cids#statsCan> .
+<https://codelist.commonapproach.org/StatsCanSector#sec2> <https://ontology.commonapproach.org/cids#hasSpecification> <https://codelist.commonapproach.org/StatsCanSector> .
+<https://codelist.commonapproach.org/StatsCanSector#sec2> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://codelist.commonapproach.org/StatsCanSector> .
+<https://codelist.commonapproach.org/StatsCanSector#sec2> <http://www.w3.org/2004/02/skos/core#inScheme> <https://codelist.commonapproach.org/StatsCanSector> .
+<https://codelist.commonapproach.org/StatsCanSector#sec20> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#Sector> .
+<https://codelist.commonapproach.org/StatsCanSector#sec20> <http://www.w3.org/ns/org#hasName> "Public administration" .
+<https://codelist.commonapproach.org/StatsCanSector#sec20> <http://www.w3.org/2004/02/skos/core#prefLabel> "Public administration"@en .
+<https://codelist.commonapproach.org/StatsCanSector#sec20> <http://www.w3.org/ns/org#hasIdentifier> "91" .
+<https://codelist.commonapproach.org/StatsCanSector#sec20> <http://www.w3.org/2004/02/skos/core#notation> "91" .
+<https://codelist.commonapproach.org/StatsCanSector#sec20> <https://ontology.commonapproach.org/cids#definedBy> <https://ontology.commonapproach.org/cids#statsCan> .
+<https://codelist.commonapproach.org/StatsCanSector#sec20> <https://ontology.commonapproach.org/cids#hasSpecification> <https://codelist.commonapproach.org/StatsCanSector> .
+<https://codelist.commonapproach.org/StatsCanSector#sec20> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://codelist.commonapproach.org/StatsCanSector> .
+<https://codelist.commonapproach.org/StatsCanSector#sec20> <http://www.w3.org/2004/02/skos/core#inScheme> <https://codelist.commonapproach.org/StatsCanSector> .
+<https://codelist.commonapproach.org/StatsCanSector#sec3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#Sector> .
+<https://codelist.commonapproach.org/StatsCanSector#sec3> <http://www.w3.org/ns/org#hasName> "Utilities" .
+<https://codelist.commonapproach.org/StatsCanSector#sec3> <http://www.w3.org/2004/02/skos/core#prefLabel> "Utilities"@en .
+<https://codelist.commonapproach.org/StatsCanSector#sec3> <http://www.w3.org/ns/org#hasIdentifier> "22" .
+<https://codelist.commonapproach.org/StatsCanSector#sec3> <http://www.w3.org/2004/02/skos/core#notation> "22" .
+<https://codelist.commonapproach.org/StatsCanSector#sec3> <https://ontology.commonapproach.org/cids#definedBy> <https://ontology.commonapproach.org/cids#statsCan> .
+<https://codelist.commonapproach.org/StatsCanSector#sec3> <https://ontology.commonapproach.org/cids#hasSpecification> <https://codelist.commonapproach.org/StatsCanSector> .
+<https://codelist.commonapproach.org/StatsCanSector#sec3> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://codelist.commonapproach.org/StatsCanSector> .
+<https://codelist.commonapproach.org/StatsCanSector#sec3> <http://www.w3.org/2004/02/skos/core#inScheme> <https://codelist.commonapproach.org/StatsCanSector> .
+<https://codelist.commonapproach.org/StatsCanSector#sec4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#Sector> .
+<https://codelist.commonapproach.org/StatsCanSector#sec4> <http://www.w3.org/ns/org#hasName> "Construction" .
+<https://codelist.commonapproach.org/StatsCanSector#sec4> <http://www.w3.org/2004/02/skos/core#prefLabel> "Construction"@en .
+<https://codelist.commonapproach.org/StatsCanSector#sec4> <http://www.w3.org/ns/org#hasIdentifier> "23" .
+<https://codelist.commonapproach.org/StatsCanSector#sec4> <http://www.w3.org/2004/02/skos/core#notation> "23" .
+<https://codelist.commonapproach.org/StatsCanSector#sec4> <https://ontology.commonapproach.org/cids#definedBy> <https://ontology.commonapproach.org/cids#statsCan> .
+<https://codelist.commonapproach.org/StatsCanSector#sec4> <https://ontology.commonapproach.org/cids#hasSpecification> <https://codelist.commonapproach.org/StatsCanSector> .
+<https://codelist.commonapproach.org/StatsCanSector#sec4> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://codelist.commonapproach.org/StatsCanSector> .
+<https://codelist.commonapproach.org/StatsCanSector#sec4> <http://www.w3.org/2004/02/skos/core#inScheme> <https://codelist.commonapproach.org/StatsCanSector> .
+<https://codelist.commonapproach.org/StatsCanSector#sec5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#Sector> .
+<https://codelist.commonapproach.org/StatsCanSector#sec5> <http://www.w3.org/ns/org#hasName> "Manufacturing" .
+<https://codelist.commonapproach.org/StatsCanSector#sec5> <http://www.w3.org/2004/02/skos/core#prefLabel> "Manufacturing"@en .
+<https://codelist.commonapproach.org/StatsCanSector#sec5> <http://www.w3.org/ns/org#hasIdentifier> "31" .
+<https://codelist.commonapproach.org/StatsCanSector#sec5> <http://www.w3.org/ns/org#hasIdentifier> "32" .
+<https://codelist.commonapproach.org/StatsCanSector#sec5> <http://www.w3.org/ns/org#hasIdentifier> "33" .
+<https://codelist.commonapproach.org/StatsCanSector#sec5> <http://www.w3.org/2004/02/skos/core#notation> "31" .
+<https://codelist.commonapproach.org/StatsCanSector#sec5> <http://www.w3.org/2004/02/skos/core#notation> "32" .
+<https://codelist.commonapproach.org/StatsCanSector#sec5> <http://www.w3.org/2004/02/skos/core#notation> "33" .
+<https://codelist.commonapproach.org/StatsCanSector#sec5> <https://ontology.commonapproach.org/cids#definedBy> <https://ontology.commonapproach.org/cids#statsCan> .
+<https://codelist.commonapproach.org/StatsCanSector#sec5> <https://ontology.commonapproach.org/cids#hasSpecification> <https://codelist.commonapproach.org/StatsCanSector> .
+<https://codelist.commonapproach.org/StatsCanSector#sec5> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://codelist.commonapproach.org/StatsCanSector> .
+<https://codelist.commonapproach.org/StatsCanSector#sec5> <http://www.w3.org/2004/02/skos/core#inScheme> <https://codelist.commonapproach.org/StatsCanSector> .
+<https://codelist.commonapproach.org/StatsCanSector#sec6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#Sector> .
+<https://codelist.commonapproach.org/StatsCanSector#sec6> <http://www.w3.org/ns/org#hasName> "Wholesale trade" .
+<https://codelist.commonapproach.org/StatsCanSector#sec6> <http://www.w3.org/2004/02/skos/core#prefLabel> "Wholesale trade"@en .
+<https://codelist.commonapproach.org/StatsCanSector#sec6> <http://www.w3.org/ns/org#hasIdentifier> "41" .
+<https://codelist.commonapproach.org/StatsCanSector#sec6> <http://www.w3.org/2004/02/skos/core#notation> "41" .
+<https://codelist.commonapproach.org/StatsCanSector#sec6> <https://ontology.commonapproach.org/cids#definedBy> <https://ontology.commonapproach.org/cids#statsCan> .
+<https://codelist.commonapproach.org/StatsCanSector#sec6> <https://ontology.commonapproach.org/cids#hasSpecification> <https://codelist.commonapproach.org/StatsCanSector> .
+<https://codelist.commonapproach.org/StatsCanSector#sec6> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://codelist.commonapproach.org/StatsCanSector> .
+<https://codelist.commonapproach.org/StatsCanSector#sec6> <http://www.w3.org/2004/02/skos/core#inScheme> <https://codelist.commonapproach.org/StatsCanSector> .
+<https://codelist.commonapproach.org/StatsCanSector#sec7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#Sector> .
+<https://codelist.commonapproach.org/StatsCanSector#sec7> <http://www.w3.org/ns/org#hasName> "Retail trade" .
+<https://codelist.commonapproach.org/StatsCanSector#sec7> <http://www.w3.org/2004/02/skos/core#prefLabel> "Retail trade"@en .
+<https://codelist.commonapproach.org/StatsCanSector#sec7> <http://www.w3.org/ns/org#hasIdentifier> "44" .
+<https://codelist.commonapproach.org/StatsCanSector#sec7> <http://www.w3.org/ns/org#hasIdentifier> "45" .
+<https://codelist.commonapproach.org/StatsCanSector#sec7> <http://www.w3.org/2004/02/skos/core#notation> "44" .
+<https://codelist.commonapproach.org/StatsCanSector#sec7> <http://www.w3.org/2004/02/skos/core#notation> "45" .
+<https://codelist.commonapproach.org/StatsCanSector#sec7> <https://ontology.commonapproach.org/cids#definedBy> <https://ontology.commonapproach.org/cids#statsCan> .
+<https://codelist.commonapproach.org/StatsCanSector#sec7> <https://ontology.commonapproach.org/cids#hasSpecification> <https://codelist.commonapproach.org/StatsCanSector> .
+<https://codelist.commonapproach.org/StatsCanSector#sec7> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://codelist.commonapproach.org/StatsCanSector> .
+<https://codelist.commonapproach.org/StatsCanSector#sec7> <http://www.w3.org/2004/02/skos/core#inScheme> <https://codelist.commonapproach.org/StatsCanSector> .
+<https://codelist.commonapproach.org/StatsCanSector#sec8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#Sector> .
+<https://codelist.commonapproach.org/StatsCanSector#sec8> <http://www.w3.org/ns/org#hasName> "Transportation and warehousing" .
+<https://codelist.commonapproach.org/StatsCanSector#sec8> <http://www.w3.org/2004/02/skos/core#prefLabel> "Transportation and warehousing"@en .
+<https://codelist.commonapproach.org/StatsCanSector#sec8> <http://www.w3.org/ns/org#hasIdentifier> "48" .
+<https://codelist.commonapproach.org/StatsCanSector#sec8> <http://www.w3.org/ns/org#hasIdentifier> "49" .
+<https://codelist.commonapproach.org/StatsCanSector#sec8> <http://www.w3.org/2004/02/skos/core#notation> "48" .
+<https://codelist.commonapproach.org/StatsCanSector#sec8> <http://www.w3.org/2004/02/skos/core#notation> "49" .
+<https://codelist.commonapproach.org/StatsCanSector#sec8> <https://ontology.commonapproach.org/cids#definedBy> <https://ontology.commonapproach.org/cids#statsCan> .
+<https://codelist.commonapproach.org/StatsCanSector#sec8> <https://ontology.commonapproach.org/cids#hasSpecification> <https://codelist.commonapproach.org/StatsCanSector> .
+<https://codelist.commonapproach.org/StatsCanSector#sec8> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://codelist.commonapproach.org/StatsCanSector> .
+<https://codelist.commonapproach.org/StatsCanSector#sec8> <http://www.w3.org/2004/02/skos/core#inScheme> <https://codelist.commonapproach.org/StatsCanSector> .
+<https://codelist.commonapproach.org/StatsCanSector#sec9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#Sector> .
+<https://codelist.commonapproach.org/StatsCanSector#sec9> <http://www.w3.org/ns/org#hasName> "Information and cultural industries" .
+<https://codelist.commonapproach.org/StatsCanSector#sec9> <http://www.w3.org/2004/02/skos/core#prefLabel> "Information and cultural industries"@en .
+<https://codelist.commonapproach.org/StatsCanSector#sec9> <http://www.w3.org/ns/org#hasIdentifier> "51" .
+<https://codelist.commonapproach.org/StatsCanSector#sec9> <http://www.w3.org/2004/02/skos/core#notation> "51" .
+<https://codelist.commonapproach.org/StatsCanSector#sec9> <https://ontology.commonapproach.org/cids#definedBy> <https://ontology.commonapproach.org/cids#statsCan> .
+<https://codelist.commonapproach.org/StatsCanSector#sec9> <https://ontology.commonapproach.org/cids#hasSpecification> <https://codelist.commonapproach.org/StatsCanSector> .
+<https://codelist.commonapproach.org/StatsCanSector#sec9> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://codelist.commonapproach.org/StatsCanSector> .
+<https://codelist.commonapproach.org/StatsCanSector#sec9> <http://www.w3.org/2004/02/skos/core#inScheme> <https://codelist.commonapproach.org/StatsCanSector> .

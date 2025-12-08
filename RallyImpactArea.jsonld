@@ -998,10 +998,10 @@
         }
     ],
     "@context": {
-        "iristheme": "https://ontology.commonapproach.org/IRISImpactTheme#",
+        "iristheme": "https://codelist.commonapproach.org/IRISImpactTheme#",
         "owl": "http://www.w3.org/2002/07/owl#",
         "org": "http://www.w3.org/ns/org#",
-        "iriscategory": "https://ontology.commonapproach.org/IRISImpactCategory#",
+        "iriscategory": "https://codelist.commonapproach.org/IRISImpactCategory#",
         "xsd": "http://www.w3.org/2001/XMLSchema#",
         "skos": "http://www.w3.org/2004/02/skos/core#",
         "voaf": "http://purl.org/vocommons/voaf#",

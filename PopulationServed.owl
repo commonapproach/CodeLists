@@ -1,420 +1,426 @@
-<?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF
-   xmlns:cids="https://ontology.commonapproach.org/cids#"
-   xmlns:dcterms="http://purl.org/dc/terms/"
-   xmlns:foaf="http://xmlns.com/foaf/0.1/"
-   xmlns:org="http://www.w3.org/ns/org#"
-   xmlns:owl="http://www.w3.org/2002/07/owl#"
-   xmlns:prov="http://www.w3.org/ns/prov#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-   xmlns:skos="http://www.w3.org/2004/02/skos/core#"
-   xmlns:vann="http://purl.org/vocab/vann/"
-   xml:base="https://codelist.commonapproach.org/codeLists/PopulationServed#"
-   xmlns="https://codelist.commonapproach.org/codeLists/PopulationServed#"
->
-  <rdf:Description rdf:about="https://codelist.commonapproach.org/codeLists/PopulationServed">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
-    <rdf:type rdf:resource="http://purl.org/vocommons/voafVocabulary"/>
-    <vann:preferredNamespacePrefix>PopulationServed</vann:preferredNamespacePrefix>
-    <owl:versionInfo>1.0</owl:versionInfo>
-    <dcterms:date>08-10-2024</dcterms:date>
-    <vann:preferredNamespaceUri rdf:resource="https://codelist.commonapproach.org/codeLists/PopulationServed#"/>
-    <owl:imports rdf:resource="https://ontology.commonapproach.org/owl/cids"/>
-    <owl:imports rdf:resource="http://www.w3.org/2006/time"/>
-    <cids:hasName xml:lang="en">Population Served Codelist</cids:hasName>
-    <dcterms:title xml:lang="en">Equity Deserving Groups</dcterms:title>
-    <dcterms:description xml:lang="en">A codelist vocabulary of Populations Served.</dcterms:description>
-    <foaf:name xml:lang="en">Population Served Codelist</foaf:name>
-    <rdfs:label xml:lang="en">Population Served Codelist</rdfs:label>
-    <dcterms:creator rdf:resource="https://ontology.commonapproach.org/cids#ac"/>
-  </rdf:Description>
-
-  <rdf:Description rdf:about="https://codelist.commonapproach.org/codeLists/PopulationServed#dataset">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
-  </rdf:Description>
-
-  <rdf:Description rdf:about="#ps1">
-    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#PopulationServed"/>
-    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:inScheme rdf:resource="https://codelist.commonapproach.org/codeLists/PopulationServed#dataset"/>
-    <rdfs:isDefinedBy rdf:resource="https://codelist.commonapproach.org/codeLists/PopulationServed#"/>
-    <cids:hasName xml:lang="en">2SLGBTQIA+</cids:hasName>
-    <rdfs:label xml:lang="en">2SLGBTQIA+</rdfs:label>
-    <skos:definition xml:lang="en">People who identify as being two-spirit, lesbian, gay, bisexual, transgender, queer, intersex, asexual and others (“+”).</skos:definition>
-    <cids:hasDefinition xml:lang="en">People who identify as being two-spirit, lesbian, gay, bisexual, transgender, queer, intersex, asexual and others (“+”).</cids:hasDefinition>
-    <cids:definedBy rdf:resource="https://ontology.commonapproach.org/cids#ac"/>
-    <cids:hasIdentifier>ps1</cids:hasIdentifier>
-    <prov:hadPrimarySource rdf:resource="https://www.canada.ca/en/women-gender-equality/free-to-be-me/2slgbtqi-plus-glossary.html"/>
-  </rdf:Description>
-
-  <rdf:Description rdf:about="#ps2">
-    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#PopulationServed"/>
-    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:inScheme rdf:resource="https://codelist.commonapproach.org/codeLists/PopulationServed#dataset"/>
-    <rdfs:isDefinedBy rdf:resource="https://codelist.commonapproach.org/codeLists/PopulationServed#"/>
-    <cids:hasName xml:lang="en">Gender Diverse People: Agender</cids:hasName>
-    <rdfs:label xml:lang="en">Gender Diverse People: Agender</rdfs:label>
-    <skos:definition xml:lang="en">People who do not identify as, or with, any particular gender.</skos:definition>
-    <cids:hasDefinition xml:lang="en">People who do not identify as, or with, any particular gender.</cids:hasDefinition>
-    <cids:definedBy rdf:resource="https://ontology.commonapproach.org/cids#ac"/>
-    <cids:hasIdentifier>ps2</cids:hasIdentifier>
-    <prov:hadPrimarySource rdf:resource="https://dictionary.cambridge.org/dictionary/english/agender"/>
-  </rdf:Description>
-
-
-  <rdf:Description rdf:about="#ps3">
-    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#PopulationServed"/>
-    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:inScheme rdf:resource="https://codelist.commonapproach.org/codeLists/PopulationServed#dataset"/>
-    <rdfs:isDefinedBy rdf:resource="https://codelist.commonapproach.org/codeLists/PopulationServed#"/>
-    <cids:hasName xml:lang="en">Gender Diverse People: Non-Binary</cids:hasName>
-    <rdfs:label xml:lang="en">Gender Diverse People: Non-Binary</rdfs:label>
-    <skos:definition xml:lang="en">People whose gender identity does not align with a binary understanding of gender such as man or woman. It is a gender identity which may include man and woman, androgynous, fluid, multiple, no gender, or a different gender outside of the “woman—man” spectrum.</skos:definition>
-    <cids:hasDefinition xml:lang="en">People whose gender identity does not align with a binary understanding of gender such as man or woman. It is a gender identity which may include man and woman, androgynous, fluid, multiple, no gender, or a different gender outside of the “woman—man” spectrum.</cids:hasDefinition>
-    <cids:definedBy rdf:resource="https://ontology.commonapproach.org/cids#ac"/>
-    <cids:hasIdentifier>ps3</cids:hasIdentifier>
-    <prov:hadPrimarySource rdf:resource="https://www.canada.ca/en/women-gender-equality/free-to-be-me/2slgbtqi-plus-glossary.html"/>
-  </rdf:Description>
-
-  <rdf:Description rdf:about="#ps4">
-    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#PopulationServed"/>
-    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:inScheme rdf:resource="https://codelist.commonapproach.org/codeLists/PopulationServed#dataset"/>
-    <rdfs:isDefinedBy rdf:resource="https://codelist.commonapproach.org/codeLists/PopulationServed#"/>
-    <cids:hasName xml:lang="en">Gender Diverse People: Other</cids:hasName>
-    <rdfs:label xml:lang="en">Gender Diverse People: Other</rdfs:label>
-    <skos:definition xml:lang="en">People whose gender identity does not align with any of the other options provided.</skos:definition>
-    <cids:hasDefinition xml:lang="en">People whose gender identity does not align with any of the other options provided.</cids:hasDefinition>
-    <cids:definedBy rdf:resource="https://ontology.commonapproach.org/cids#ac"/>
-    <cids:hasIdentifier>ps4</cids:hasIdentifier>
-  </rdf:Description>
-
-  <rdf:Description rdf:about="#ps5">
-    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#PopulationServed"/>
-    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:inScheme rdf:resource="https://codelist.commonapproach.org/codeLists/PopulationServed#dataset"/>
-    <rdfs:isDefinedBy rdf:resource="https://codelist.commonapproach.org/codeLists/PopulationServed#"/>
-    <cids:hasName xml:lang="en">Black People</cids:hasName>
-    <rdfs:label xml:lang="en">Black People</rdfs:label>
-    <skos:definition xml:lang="en">People belonging to any of various population groups of especially African ancestry often considered as having dark pigmentation of the skin but in fact having a wide range of skin colours.</skos:definition>
-    <cids:hasDefinition xml:lang="en">People belonging to any of various population groups of especially African ancestry often considered as having dark pigmentation of the skin but in fact having a wide range of skin colours.</cids:hasDefinition>
-    <cids:definedBy rdf:resource="https://ontology.commonapproach.org/cids#ac"/>
-    <cids:hasIdentifier>ps5</cids:hasIdentifier>
-    <prov:hadPrimarySource rdf:resource="https://www.noslangues-ourlanguages.gc.ca/en/publications/equite-diversite-inclusion-equity-diversity-inclusion-eng#notion-69399"/>
-  </rdf:Description>
-
-
-  <rdf:Description rdf:about="#ps6">
-    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#PopulationServed"/>
-    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:inScheme rdf:resource="https://codelist.commonapproach.org/codeLists/PopulationServed#dataset"/>
-    <rdfs:isDefinedBy rdf:resource="https://codelist.commonapproach.org/codeLists/PopulationServed#"/>
-    <cids:hasName xml:lang="en">Indigenous Peoples: First Nations</cids:hasName>
-    <rdfs:label xml:lang="en">Indigenous Peoples: First Nations</rdfs:label>
-    <skos:definition xml:lang="en">In Canada, Indigenous people who are part of a First Nation or whose ancestors were part of a First Nation. A First Nation person can be a Status or Non-Status Indian.</skos:definition>
-    <cids:hasDefinition xml:lang="en">In Canada, Indigenous people who are part of a First Nation or whose ancestors were part of a First Nation. A First Nation person can be a Status or Non-Status Indian.</cids:hasDefinition>
-    <cids:definedBy rdf:resource="https://ontology.commonapproach.org/cids#ac"/>
-    <cids:hasIdentifier>ps6</cids:hasIdentifier>
-    <prov:hadPrimarySource rdf:resource="https://www.noslangues-ourlanguages.gc.ca/en/publications/equite-diversite-inclusion-equity-diversity-inclusion-eng#notion-69399"/>
-  </rdf:Description>
-
-
-  <rdf:Description rdf:about="#ps7">
-    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#PopulationServed"/>
-    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:inScheme rdf:resource="https://codelist.commonapproach.org/codeLists/PopulationServed#dataset"/>
-    <rdfs:isDefinedBy rdf:resource="https://codelist.commonapproach.org/codeLists/PopulationServed#"/>
-    <cids:hasName xml:lang="en">Indigenous Peoples: Inuit</cids:hasName>
-    <rdfs:label xml:lang="en">Indigenous Peoples: Inuit</rdfs:label>
-    <skos:definition xml:lang="en">In Canada, Indigenous People that inhabit or that traditionally inhabited the northern regions and Arctic coasts of Canada known as Inuit Nunangat, and whose members are united by a common origin, history and culture.</skos:definition>
-    <cids:hasDefinition xml:lang="en">In Canada, Indigenous People that inhabit or that traditionally inhabited the northern regions and Arctic coasts of Canada known as Inuit Nunangat, and whose members are united by a common origin, history and culture.</cids:hasDefinition>
-    <cids:definedBy rdf:resource="https://ontology.commonapproach.org/cids#ac"/>
-    <cids:hasIdentifier>ps7</cids:hasIdentifier>
-    <prov:hadPrimarySource rdf:resource="https://www.noslangues-ourlanguages.gc.ca/en/publications/equite-diversite-inclusion-equity-diversity-inclusion-eng#notion-69399"/>
-  </rdf:Description>
-
-  <rdf:Description rdf:about="#ps8">
-    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#PopulationServed"/>
-    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:inScheme rdf:resource="https://codelist.commonapproach.org/codeLists/PopulationServed#dataset"/>
-    <rdfs:isDefinedBy rdf:resource="https://codelist.commonapproach.org/codeLists/PopulationServed#"/>
-    <cids:hasName xml:lang="en">Indigenous Peoples: Métis</cids:hasName>
-    <rdfs:label xml:lang="en">Indigenous Peoples: Métis</rdfs:label>
-    <skos:definition xml:lang="en">In Canada, Indigenous People whose members are of mixed First Nations and European ancestry, are united by a common origin, history and culture, and are generally accepted by the Métis Nation.</skos:definition>
-    <cids:hasDefinition xml:lang="en">In Canada, Indigenous People whose members are of mixed First Nations and European ancestry, are united by a common origin, history and culture, and are generally accepted by the Métis Nation.</cids:hasDefinition>
-    <cids:definedBy rdf:resource="https://ontology.commonapproach.org/cids#ac"/>
-    <cids:hasIdentifier>ps8</cids:hasIdentifier>
-    <prov:hadPrimarySource rdf:resource="https://www.noslangues-ourlanguages.gc.ca/en/publications/equite-diversite-inclusion-equity-diversity-inclusion-eng#notion-69399"/>
-  </rdf:Description>
-
-  <rdf:Description rdf:about="#ps9">
-    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#PopulationServed"/>
-    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:inScheme rdf:resource="https://codelist.commonapproach.org/codeLists/PopulationServed#dataset"/>
-    <rdfs:isDefinedBy rdf:resource="https://codelist.commonapproach.org/codeLists/PopulationServed#"/>
-    <cids:hasName xml:lang="en">Other Racialized Peoples</cids:hasName>
-    <rdfs:label xml:lang="en">Other Racialized Peoples</rdfs:label>
-    <skos:definition xml:lang="en">People other than Indigenous peoples or Black Canadians who are non-Caucasian in race or non-white in colour (refer to the Statistics Canada definition for “visible minorities”).</skos:definition>
-    <cids:hasDefinition xml:lang="en">People other than Indigenous peoples or Black Canadians who are non-Caucasian in race or non-white in colour (refer to the Statistics Canada definition for “visible minorities”).</cids:hasDefinition>
-    <cids:definedBy rdf:resource="https://ontology.commonapproach.org/cids#ac"/>
-    <cids:hasIdentifier>ps9</cids:hasIdentifier>
-  </rdf:Description>
-
-  <rdf:Description rdf:about="#ps10">
-    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#PopulationServed"/>
-    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:inScheme rdf:resource="https://codelist.commonapproach.org/codeLists/PopulationServed#dataset"/>
-    <rdfs:isDefinedBy rdf:resource="https://codelist.commonapproach.org/codeLists/PopulationServed#"/>
-    <cids:hasName xml:lang="en">First Generation Immigrants, Refugees &amp; Newcomers</cids:hasName>
-    <rdfs:label xml:lang="en">First Generation Immigrants, Refugees &amp; Newcomers</rdfs:label>
-    <skos:definition xml:lang="en">People who were born outside Canada. For the most part, these are people who are now, or once were, immigrants to Canada. People who were forced to flee from persecution in their home country. This includes Convention refugees (as defined by the Immigration and Refugee Protection Act (S.C. 2001, c. 27)) and asylum-seekers or refugee claimants. Immigrants and Refugees that have been in Canada for less than five years.</skos:definition>
-    <cids:hasDefinition xml:lang="en">People who were born outside Canada. For the most part, these are people who are now, or once were, immigrants to Canada. People who were forced to flee from persecution in their home country. This includes Convention refugees (as defined by the Immigration and Refugee Protection Act (S.C. 2001, c. 27)) and asylum-seekers or refugee claimants. Immigrants and Refugees that have been in Canada for less than five years.</cids:hasDefinition>
-    <cids:definedBy rdf:resource="https://ontology.commonapproach.org/cids#ac"/>
-    <cids:hasIdentifier>ps10</cids:hasIdentifier>
-  </rdf:Description>
-
-  <rdf:Description rdf:about="#ps11">
-    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#PopulationServed"/>
-    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:inScheme rdf:resource="https://codelist.commonapproach.org/codeLists/PopulationServed#dataset"/>
-    <rdfs:isDefinedBy rdf:resource="https://codelist.commonapproach.org/codeLists/PopulationServed#"/>
-    <cids:hasName xml:lang="en">Lone Parent Families</cids:hasName>
-    <rdfs:label xml:lang="en">Lone Parent Families</rdfs:label>
-    <skos:definition xml:lang="en">Families or homes where there is one parent present or living there. The lone, or single, parent can be any sex or gender, any ethnicity, and any sexuality. They do not have to be blood-related parents either to be classed as a parent.</skos:definition>
-    <cids:hasDefinition xml:lang="en">Families or homes where there is one parent present or living there. The lone, or single, parent can be any sex or gender, any ethnicity, and any sexuality. They do not have to be blood-related parents either to be classed as a parent.</cids:hasDefinition>
-    <cids:definedBy rdf:resource="https://ontology.commonapproach.org/cids#ac"/>
-    <cids:hasIdentifier>ps11</cids:hasIdentifier>
-  </rdf:Description>
-
-  <rdf:Description rdf:about="#ps12">
-    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#PopulationServed"/>
-    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:inScheme rdf:resource="https://codelist.commonapproach.org/codeLists/PopulationServed#dataset"/>
-    <rdfs:isDefinedBy rdf:resource="https://codelist.commonapproach.org/codeLists/PopulationServed#"/>
-    <cids:hasName xml:lang="en">Northern Canadian Communities</cids:hasName>
-    <rdfs:label xml:lang="en">Northern Canadian Communities</rdfs:label>
-    <skos:definition xml:lang="en">Communities located, and people living, in Northern Canada, which is defined as: The three Canadian territories (Yukon, Northwest Territories, and Nunavut), and the northern extent of Newfoundland and Labrador, Quebec, Ontario, Manitoba, Saskatchewan, Alberta and British Columbia. North is based on provincially determined definitions that generally reflect administrative regions.</skos:definition>
-    <cids:hasDefinition xml:lang="en">Communities located, and people living, in Northern Canada, which is defined as: The three Canadian territories (Yukon, Northwest Territories, and Nunavut), and the northern extent of Newfoundland and Labrador, Quebec, Ontario, Manitoba, Saskatchewan, Alberta and British Columbia. North is based on provincially determined definitions that generally reflect administrative regions.</cids:hasDefinition>
-    <cids:definedBy rdf:resource="https://ontology.commonapproach.org/cids#ac"/>
-    <cids:hasIdentifier>ps12</cids:hasIdentifier>
-  </rdf:Description>
-
-  <rdf:Description rdf:about="#ps13">
-    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#PopulationServed"/>
-    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:inScheme rdf:resource="https://codelist.commonapproach.org/codeLists/PopulationServed#dataset"/>
-    <rdfs:isDefinedBy rdf:resource="https://codelist.commonapproach.org/codeLists/PopulationServed#"/>
-    <cids:hasName xml:lang="en">Official Languages Minority Communities</cids:hasName>
-    <rdfs:label xml:lang="en">Official Languages Minority Communities</rdfs:label>
-    <skos:definition xml:lang="en">In Canada, official-language minority communities are mainly French-speaking people living outside the province of Quebec and English-speaking people living in the province of Quebec.</skos:definition>
-    <cids:hasDefinition xml:lang="en">In Canada, official-language minority communities are mainly French-speaking people living outside the province of Quebec and English-speaking people living in the province of Quebec.</cids:hasDefinition>
-    <cids:definedBy rdf:resource="https://ontology.commonapproach.org/cids#ac"/>
-    <cids:hasIdentifier>ps13</cids:hasIdentifier>
-  </rdf:Description>
-
-
-
-  <rdf:Description rdf:about="#ps14">
-    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#PopulationServed"/>
-    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:inScheme rdf:resource="https://codelist.commonapproach.org/codeLists/PopulationServed#dataset"/>
-    <rdfs:isDefinedBy rdf:resource="https://codelist.commonapproach.org/codeLists/PopulationServed#"/>
-    <cids:hasName xml:lang="en">People Experiencing Homelessness or Housing Insecurities</cids:hasName>
-    <rdfs:label xml:lang="en">People Experiencing Homelessness or Housing Insecurities</rdfs:label>
-    <skos:definition xml:lang="en">People without stable, safe, permanent, appropriate housing, or the immediate prospect, means, and ability of acquiring it.</skos:definition>
-    <cids:hasDefinition xml:lang="en">People without stable, safe, permanent, appropriate housing, or the immediate prospect, means, and ability of acquiring it.</cids:hasDefinition>
-    <cids:definedBy rdf:resource="https://ontology.commonapproach.org/cids#ac"/>
-    <cids:hasIdentifier>ps14</cids:hasIdentifier>
-    <prov:hadPrimarySource rdf:resource="https://www.homelesshub.ca/sites/default/files/COHhomelessdefinition.pdf"/>
-  </rdf:Description>
-
-  <rdf:Description rdf:about="#ps15">
-    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#PopulationServed"/>
-    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:inScheme rdf:resource="https://codelist.commonapproach.org/codeLists/PopulationServed#dataset"/>
-    <rdfs:isDefinedBy rdf:resource="https://codelist.commonapproach.org/codeLists/PopulationServed#"/>
-    <cids:hasName xml:lang="en">People Living on Low Income</cids:hasName>
-    <rdfs:label xml:lang="en">People Living on Low Income</rdfs:label>
-    <skos:definition xml:lang="en">People living on low income as defined by any of several relative indicators/thresholds used by the Government of Canada to measure low income: low income cut-offs (LICOs), market basket measure (MBM), and/or low income measure (LIM).</skos:definition>
-    <cids:hasDefinition xml:lang="en">People living on low income as defined by any of several relative indicators/thresholds used by the Government of Canada to measure low income: low income cut-offs (LICOs), market basket measure (MBM), and/or low income measure (LIM).</cids:hasDefinition>
-    <cids:definedBy rdf:resource="https://ontology.commonapproach.org/cids#ac"/>
-    <cids:hasIdentifier>ps15</cids:hasIdentifier>
-    <prov:hadPrimarySource rdf:resource="https://www.canada.ca/en/employment-social-development/programs/poverty-reduction/backgrounder.html"/>
-  </rdf:Description>
-
-
-  <rdf:Description rdf:about="#ps16">
-    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#PopulationServed"/>
-    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:inScheme rdf:resource="https://codelist.commonapproach.org/codeLists/PopulationServed#dataset"/>
-    <rdfs:isDefinedBy rdf:resource="https://codelist.commonapproach.org/codeLists/PopulationServed#"/>
-    <cids:hasName xml:lang="en">People Living with Cognitive or Mental Health Related Issues</cids:hasName>
-    <rdfs:label xml:lang="en">People Living with Cognitive or Mental Health Related Issues</rdfs:label>
-    <skos:definition xml:lang="en">People living with disabilities, impairments, and/or functional limitations related to cognitive, learning, communication or mental health related issues, whether apparent or not, and permanent, temporary or episodic in nature, that hinders their full and equal participation in society when they face a barrier.</skos:definition>
-    <cids:hasDefinition xml:lang="en">People living with disabilities, impairments, and/or functional limitations related to cognitive, learning, communication or mental health related issues, whether apparent or not, and permanent, temporary or episodic in nature, that hinders their full and equal participation in society when they face a barrier.</cids:hasDefinition>
-    <cids:definedBy rdf:resource="https://ontology.commonapproach.org/cids#ac"/>
-    <cids:hasIdentifier>ps16</cids:hasIdentifier>
-    <prov:hadPrimarySource rdf:resource="https://laws-lois.justice.gc.ca/eng/acts/A-0.6/"/>
-  </rdf:Description>
-
-
-  <rdf:Description rdf:about="#ps17">
-    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#PopulationServed"/>
-    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:inScheme rdf:resource="https://codelist.commonapproach.org/codeLists/PopulationServed#dataset"/>
-    <rdfs:isDefinedBy rdf:resource="https://codelist.commonapproach.org/codeLists/PopulationServed#"/>
-    <cids:hasName xml:lang="en">People Living with Physical,Sensory or Pain Related Disabilities</cids:hasName>
-    <rdfs:label xml:lang="en">People Living with Physical,Sensory or Pain Related Disabilities</rdfs:label>
-    <skos:definition xml:lang="en">People living with disabilities, impairments, and/or functional limitations related to physical, sensory, or pain, whether apparent or not, and permanent, temporary or episodic in nature, that hinders their full and equal participation in society when they face a barrier.</skos:definition>
-    <cids:hasDefinition xml:lang="en">People living with disabilities, impairments, and/or functional limitations related to physical, sensory, or pain, whether apparent or not, and permanent, temporary or episodic in nature, that hinders their full and equal participation in society when they face a barrier.</cids:hasDefinition>
-    <cids:definedBy rdf:resource="https://ontology.commonapproach.org/cids#ac"/>
-    <cids:hasIdentifier>ps17</cids:hasIdentifier>
-    <prov:hadPrimarySource rdf:resource="https://laws-lois.justice.gc.ca/eng/acts/A-0.6/"/>
-  </rdf:Description>
-
-  <rdf:Description rdf:about="#ps18">
-    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#PopulationServed"/>
-    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:inScheme rdf:resource="https://codelist.commonapproach.org/codeLists/PopulationServed#dataset"/>
-    <rdfs:isDefinedBy rdf:resource="https://codelist.commonapproach.org/codeLists/PopulationServed#"/>
-    <cids:hasName xml:lang="en">People Living with Terminal or Chronic Illness/Diseases</cids:hasName>
-    <rdfs:label xml:lang="en">People Living with Terminal or Chronic Illness/Diseases</rdfs:label>
-    <skos:definition xml:lang="en">People living with disabilities, impairments, and/or functional limitations related to terminal or chronic illness/disease, whether apparent or not, and permanent, temporary or episodic in nature, that hinders their full and equal participation in society when they face a barrier.</skos:definition>
-    <cids:hasDefinition xml:lang="en">People living with disabilities, impairments, and/or functional limitations related to terminal or chronic illness/disease, whether apparent or not, and permanent, temporary or episodic in nature, that hinders their full and equal participation in society when they face a barrier.</cids:hasDefinition>
-    <cids:definedBy rdf:resource="https://ontology.commonapproach.org/cids#ac"/>
-    <cids:hasIdentifier>ps18</cids:hasIdentifier>
-    <prov:hadPrimarySource rdf:resource="https://laws-lois.justice.gc.ca/eng/acts/A-0.6/"/>
-  </rdf:Description>
-
-  <rdf:Description rdf:about="#ps19">
-    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#PopulationServed"/>
-    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:inScheme rdf:resource="https://codelist.commonapproach.org/codeLists/PopulationServed#dataset"/>
-    <rdfs:isDefinedBy rdf:resource="https://codelist.commonapproach.org/codeLists/PopulationServed#"/>
-    <cids:hasName xml:lang="en">People of Advanced Age (65+)</cids:hasName>
-    <rdfs:label xml:lang="en">People of Advanced Age (65+)</rdfs:label>
-    <skos:definition xml:lang="en">People who are 65 and older.</skos:definition>
-    <cids:hasDefinition xml:lang="en">People who are 65 and older.</cids:hasDefinition>
-    <cids:definedBy rdf:resource="https://ontology.commonapproach.org/cids#ac"/>
-    <cids:hasIdentifier>ps19</cids:hasIdentifier>
-  </rdf:Description>
-
-  <rdf:Description rdf:about="#ps20">
-    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#PopulationServed"/>
-    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:inScheme rdf:resource="https://codelist.commonapproach.org/codeLists/PopulationServed#dataset"/>
-    <rdfs:isDefinedBy rdf:resource="https://codelist.commonapproach.org/codeLists/PopulationServed#"/>
-    <cids:hasName xml:lang="en">People without Advanced Educational Qualification</cids:hasName>
-    <rdfs:label xml:lang="en">People without Advanced Educational Qualification</rdfs:label>
-    <skos:definition xml:lang="en">People that have not completed any university, college or other post-secondary qualification.</skos:definition>
-    <cids:hasDefinition xml:lang="en">People that have not completed any university, college or other post-secondary qualification.</cids:hasDefinition>
-    <cids:definedBy rdf:resource="https://ontology.commonapproach.org/cids#ac"/>
-    <cids:hasIdentifier>ps20</cids:hasIdentifier>
-  </rdf:Description>
-
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns="https://codelist.commonapproach.org/PopulationServed#"
+    xmlns:cids="https://ontology.commonapproach.org/cids#"
+    xmlns:voaf="http://purl.org/vocommons/voaf#"
+    xmlns:edg="https://codelist.commonapproach.org/EquityDeservingGroupsESDC#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:prov="http://www.w3.org/ns/prov#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:org="http://www.w3.org/ns/org#"
+    xmlns:vann="http://purl.org/vocab/vann/"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#" > 
   <rdf:Description rdf:about="#ps21">
-    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#PopulationServed"/>
-    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:inScheme rdf:resource="https://codelist.commonapproach.org/codeLists/PopulationServed#dataset"/>
-    <rdfs:isDefinedBy rdf:resource="https://codelist.commonapproach.org/codeLists/PopulationServed#"/>
-    <cids:hasName xml:lang="en">Survivors of Domestic Violence, Sexual assault, Abuse or Stalking</cids:hasName>
-    <rdfs:label xml:lang="en">Survivors of Domestic Violence, Sexual assault, Abuse or Stalking</rdfs:label>
+    <skos:inScheme rdf:resource=""/>
+    <rdfs:isDefinedBy rdf:resource=""/>
+    <cids:hasSpecification rdf:resource=""/>
+    <cids:definedBy rdf:resource="https://ontology.commonapproach.org/cids#esdc"/>
+    <skos:notation>ps21</skos:notation>
+    <org:hasIdentifier>ps21</org:hasIdentifier>
     <skos:definition xml:lang="en">People who identify as being survivors of domestic violence, including intimate partner violence, sexual assault, stalking and/or harassment.</skos:definition>
-    <cids:hasDefinition xml:lang="en">People who identify as being survivors of domestic violence, including intimate partner violence, sexual assault, stalking and/or harassment.</cids:hasDefinition>
-    <cids:definedBy rdf:resource="https://ontology.commonapproach.org/cids#ac"/>
-    <cids:hasIdentifier>ps21</cids:hasIdentifier>
-  </rdf:Description>
-
-  <rdf:Description rdf:about="#ps22">
+    <cids:hasDescription>People who identify as being survivors of domestic violence, including intimate partner violence, sexual assault, stalking and/or harassment.</cids:hasDescription>
+    <skos:prefLabel xml:lang="en">Survivors of Domestic Violence, Sexual assault, Abuse or Stalking</skos:prefLabel>
+    <org:hasName>Survivors of Domestic Violence, Sexual assault, Abuse or Stalking</org:hasName>
     <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#PopulationServed"/>
-    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:inScheme rdf:resource="https://codelist.commonapproach.org/codeLists/PopulationServed#dataset"/>
-    <rdfs:isDefinedBy rdf:resource="https://codelist.commonapproach.org/codeLists/PopulationServed#"/>
-    <cids:hasName xml:lang="en">Women (Cisgender and Transgender)</cids:hasName>
-    <rdfs:label xml:lang="en">Women (Cisgender and Transgender)</rdfs:label>
-    <skos:definition xml:lang="en">All people who identify as women, whether they are cisgender or transgender women.</skos:definition>
-    <cids:hasDefinition xml:lang="en">All people who identify as women, whether they are cisgender or transgender women.</cids:hasDefinition>
-    <cids:definedBy rdf:resource="https://ontology.commonapproach.org/cids#ac"/>
-    <cids:hasIdentifier>ps22</cids:hasIdentifier>
   </rdf:Description>
-  
-  <rdf:Description rdf:about="#ps23">
+  <rdf:Description rdf:about="#ps9">
+    <skos:exactMatch rdf:resource="EquityDeservingGroupsESDC#edg8"/>
+    <skos:inScheme rdf:resource=""/>
+    <rdfs:isDefinedBy rdf:resource=""/>
+    <cids:hasSpecification rdf:resource=""/>
+    <cids:definedBy rdf:resource="https://ontology.commonapproach.org/cids#esdc"/>
+    <skos:notation>ps9</skos:notation>
+    <org:hasIdentifier>ps9</org:hasIdentifier>
+    <skos:definition xml:lang="en">People other than Indigenous peoples or Black Canadians who are non-Caucasian in race or non-white in colour (refer to the Statistics Canada definition for “visible minorities”).</skos:definition>
+    <cids:hasDescription>People other than Indigenous peoples or Black Canadians who are non-Caucasian in race or non-white in colour (refer to the Statistics Canada definition for “visible minorities”).</cids:hasDescription>
+    <skos:prefLabel xml:lang="en">Other Racialized Peoples</skos:prefLabel>
+    <org:hasName>Other Racialized Peoples</org:hasName>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#EquityDeservingGroup"/>
     <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#PopulationServed"/>
-    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:inScheme rdf:resource="https://codelist.commonapproach.org/codeLists/PopulationServed#dataset"/>
-    <rdfs:isDefinedBy rdf:resource="https://codelist.commonapproach.org/codeLists/PopulationServed#"/>
-    <cids:hasName xml:lang="en">Children (Ages 0-15)</cids:hasName>
-    <rdfs:label xml:lang="en">Children (Ages 0-15)</rdfs:label>
-    <skos:definition xml:lang="en">Any person aged 0-15.</skos:definition>
-    <cids:hasDefinition xml:lang="en">Any person aged 0-15.</cids:hasDefinition>
-    <cids:definedBy rdf:resource="https://ontology.commonapproach.org/cids#ac"/>
-    <cids:hasIdentifier>ps23</cids:hasIdentifier>
   </rdf:Description>
-
-  <rdf:Description rdf:about="#ps24">
+  <rdf:Description rdf:about="#ps20">
+    <skos:inScheme rdf:resource=""/>
+    <rdfs:isDefinedBy rdf:resource=""/>
+    <cids:hasSpecification rdf:resource=""/>
+    <cids:definedBy rdf:resource="https://ontology.commonapproach.org/cids#esdc"/>
+    <skos:notation>ps20</skos:notation>
+    <org:hasIdentifier>ps20</org:hasIdentifier>
+    <skos:definition xml:lang="en">People that have not completed any university, college or other post-secondary qualification.</skos:definition>
+    <cids:hasDescription>People that have not completed any university, college or other post-secondary qualification.</cids:hasDescription>
+    <skos:prefLabel xml:lang="en">People without Advanced Educational Qualification</skos:prefLabel>
+    <org:hasName>People without Advanced Educational Qualification</org:hasName>
     <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#PopulationServed"/>
-    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:inScheme rdf:resource="https://codelist.commonapproach.org/codeLists/PopulationServed#dataset"/>
-    <rdfs:isDefinedBy rdf:resource="https://codelist.commonapproach.org/codeLists/PopulationServed#"/>
-    <cids:hasName xml:lang="en">Youth (Ages 15-24)</cids:hasName>
-    <rdfs:label xml:lang="en">Youth (Ages 15-24)</rdfs:label>
-    <skos:definition xml:lang="en">Any person aged 15-24.</skos:definition>
-    <cids:hasDefinition xml:lang="en">Any person aged 15-24.</cids:hasDefinition>
-    <cids:definedBy rdf:resource="https://ontology.commonapproach.org/cids#ac"/>
-    <cids:hasIdentifier>ps24</cids:hasIdentifier>
   </rdf:Description>
-
-
-  <rdf:Description rdf:about="#ps25">
-    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#PopulationServed"/>
-    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:inScheme rdf:resource="https://codelist.commonapproach.org/codeLists/PopulationServed#dataset"/>
-    <rdfs:isDefinedBy rdf:resource="https://codelist.commonapproach.org/codeLists/PopulationServed#"/>
-    <cids:hasName xml:lang="en">General Population</cids:hasName>
-    <rdfs:label xml:lang="en">General Population</rdfs:label>
-    <cids:definedBy rdf:resource="https://ontology.commonapproach.org/cids#ac"/>
-    <cids:hasIdentifier>ps25</cids:hasIdentifier>
-  </rdf:Description>
-
-  <rdf:Description rdf:about="#ps26">
-    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#PopulationServed"/>
-    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:inScheme rdf:resource="https://codelist.commonapproach.org/codeLists/PopulationServed#dataset"/>
-    <rdfs:isDefinedBy rdf:resource="https://codelist.commonapproach.org/codeLists/PopulationServed#"/>
-    <cids:hasName xml:lang="en">Indigenous Peoples: Not Otherwise Specified</cids:hasName>
-    <rdfs:label xml:lang="en">Indigenous Peoples: Not Otherwise Specified</rdfs:label>
-    <skos:definition xml:lang="en">In Canada, individuals who self-identify as Indigenous (First Nations, Inuit, or Métis) but do not specify their group affiliation, are unsure of their specific ancestry, or identify with another Indigenous community not listed separately.</skos:definition>
-    <cids:hasDefinition xml:lang="en">In Canada, individuals who self-identify as Indigenous (First Nations, Inuit, or Métis) but do not specify their group affiliation, are unsure of their specific ancestry, or identify with another Indigenous community not listed separately.</cids:hasDefinition>
-    <cids:definedBy rdf:resource="https://ontology.commonapproach.org/cids#ac"/>
-    <cids:hasIdentifier>ps26</cids:hasIdentifier>
+  <rdf:Description rdf:about="#ps8">
+    <skos:exactMatch rdf:resource="EquityDeservingGroupsESDC#edg6"/>
+    <skos:inScheme rdf:resource=""/>
+    <rdfs:isDefinedBy rdf:resource=""/>
+    <cids:hasSpecification rdf:resource=""/>
+    <cids:definedBy rdf:resource="https://ontology.commonapproach.org/cids#esdc"/>
     <prov:hadPrimarySource rdf:resource="https://www.noslangues-ourlanguages.gc.ca/en/publications/equite-diversite-inclusion-equity-diversity-inclusion-eng#notion-69399"/>
+    <skos:notation>ps8</skos:notation>
+    <org:hasIdentifier>ps8</org:hasIdentifier>
+    <skos:definition xml:lang="en">In Canada, Indigenous People whose members are of mixed First Nations and European ancestry, are united by a common origin, history and culture, and are generally accepted by the Métis Nation.</skos:definition>
+    <cids:hasDescription>In Canada, Indigenous People whose members are of mixed First Nations and European ancestry, are united by a common origin, history and culture, and are generally accepted by the Métis Nation.</cids:hasDescription>
+    <skos:prefLabel xml:lang="en">Indigenous Peoples: Métis</skos:prefLabel>
+    <org:hasName>Indigenous Peoples: Métis</org:hasName>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#EquityDeservingGroup"/>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#PopulationServed"/>
   </rdf:Description>
-
+  <rdf:Description rdf:about="#ps7">
+    <skos:exactMatch rdf:resource="EquityDeservingGroupsESDC#edg5"/>
+    <skos:inScheme rdf:resource=""/>
+    <rdfs:isDefinedBy rdf:resource=""/>
+    <cids:hasSpecification rdf:resource=""/>
+    <cids:definedBy rdf:resource="https://ontology.commonapproach.org/cids#esdc"/>
+    <prov:hadPrimarySource rdf:resource="https://www.noslangues-ourlanguages.gc.ca/en/publications/equite-diversite-inclusion-equity-diversity-inclusion-eng#notion-69399"/>
+    <skos:notation>ps7</skos:notation>
+    <org:hasIdentifier>ps7</org:hasIdentifier>
+    <skos:definition xml:lang="en">In Canada, Indigenous People that inhabit or that traditionally inhabited the northern regions and Arctic coasts of Canada known as Inuit Nunangat, and whose members are united by a common origin, history and culture.</skos:definition>
+    <cids:hasDescription>In Canada, Indigenous People that inhabit or that traditionally inhabited the northern regions and Arctic coasts of Canada known as Inuit Nunangat, and whose members are united by a common origin, history and culture.</cids:hasDescription>
+    <skos:prefLabel xml:lang="en">Indigenous Peoples: Inuit</skos:prefLabel>
+    <org:hasName>Indigenous Peoples: Inuit</org:hasName>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#EquityDeservingGroup"/>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#PopulationServed"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#ps6">
+    <skos:exactMatch rdf:resource="EquityDeservingGroupsESDC#edg4"/>
+    <skos:inScheme rdf:resource=""/>
+    <rdfs:isDefinedBy rdf:resource=""/>
+    <cids:hasSpecification rdf:resource=""/>
+    <cids:definedBy rdf:resource="https://ontology.commonapproach.org/cids#esdc"/>
+    <prov:hadPrimarySource rdf:resource="https://www.noslangues-ourlanguages.gc.ca/en/publications/equite-diversite-inclusion-equity-diversity-inclusion-eng#notion-69399"/>
+    <skos:notation>ps6</skos:notation>
+    <org:hasIdentifier>ps6</org:hasIdentifier>
+    <skos:definition xml:lang="en">In Canada, Indigenous people who are part of a First Nation or whose ancestors were part of a First Nation. A First Nation person can be a Status or Non-Status Indian.</skos:definition>
+    <cids:hasDescription>In Canada, Indigenous people who are part of a First Nation or whose ancestors were part of a First Nation. A First Nation person can be a Status or Non-Status Indian.</cids:hasDescription>
+    <skos:prefLabel xml:lang="en">Indigenous Peoples: First Nations</skos:prefLabel>
+    <org:hasName>Indigenous Peoples: First Nations</org:hasName>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#EquityDeservingGroup"/>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#PopulationServed"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#ps5">
+    <skos:exactMatch rdf:resource="EquityDeservingGroupsESDC#edg2"/>
+    <skos:inScheme rdf:resource=""/>
+    <rdfs:isDefinedBy rdf:resource=""/>
+    <cids:hasSpecification rdf:resource=""/>
+    <cids:definedBy rdf:resource="https://ontology.commonapproach.org/cids#esdc"/>
+    <prov:hadPrimarySource rdf:resource="https://www.noslangues-ourlanguages.gc.ca/en/publications/equite-diversite-inclusion-equity-diversity-inclusion-eng#notion-69399"/>
+    <skos:notation>ps5</skos:notation>
+    <org:hasIdentifier>ps5</org:hasIdentifier>
+    <skos:definition xml:lang="en">People belonging to any of various population groups of especially African ancestry often considered as having dark pigmentation of the skin but in fact having a wide range of skin colours.</skos:definition>
+    <cids:hasDescription>People belonging to any of various population groups of especially African ancestry often considered as having dark pigmentation of the skin but in fact having a wide range of skin colours.</cids:hasDescription>
+    <skos:prefLabel xml:lang="en">Black People</skos:prefLabel>
+    <org:hasName>Black People</org:hasName>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#EquityDeservingGroup"/>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#PopulationServed"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#ps4">
+    <skos:exactMatch rdf:resource="EquityDeservingGroupsESDC#edg13"/>
+    <skos:inScheme rdf:resource=""/>
+    <rdfs:isDefinedBy rdf:resource=""/>
+    <cids:hasSpecification rdf:resource=""/>
+    <cids:definedBy rdf:resource="https://ontology.commonapproach.org/cids#esdc"/>
+    <skos:notation>ps4</skos:notation>
+    <org:hasIdentifier>ps4</org:hasIdentifier>
+    <skos:definition xml:lang="en">People whose gender identity does not align with any of the other options provided.</skos:definition>
+    <cids:hasDescription>People whose gender identity does not align with any of the other options provided.</cids:hasDescription>
+    <skos:prefLabel xml:lang="en">Gender Diverse People: Other</skos:prefLabel>
+    <org:hasName>Gender Diverse People: Other</org:hasName>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#EquityDeservingGroup"/>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#PopulationServed"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#ps27">
+    <skos:exactMatch rdf:resource="EquityDeservingGroupsESDC#edg9"/>
+    <skos:narrower rdf:resource="#ps18"/>
+    <skos:narrower rdf:resource="#ps17"/>
+    <skos:narrower rdf:resource="#ps16"/>
+    <skos:inScheme rdf:resource=""/>
+    <rdfs:isDefinedBy rdf:resource=""/>
+    <cids:hasSpecification rdf:resource=""/>
+    <cids:definedBy rdf:resource="https://ontology.commonapproach.org/cids#esdc"/>
+    <skos:notation>ps27</skos:notation>
+    <org:hasIdentifier>ps27</org:hasIdentifier>
+    <skos:definition xml:lang="en">People Living with a Disability (including invisible and episodic disabilities)</skos:definition>
+    <cids:hasDescription>People Living with a Disability (including invisible and episodic disabilities)</cids:hasDescription>
+    <skos:prefLabel xml:lang="en">People Living with a Disability (including invisible and episodic disabilities)</skos:prefLabel>
+    <org:hasName>People Living with a Disability (including invisible and episodic disabilities)</org:hasName>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#EquityDeservingGroup"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#ps26">
+    <skos:inScheme rdf:resource=""/>
+    <rdfs:isDefinedBy rdf:resource=""/>
+    <cids:hasSpecification rdf:resource=""/>
+    <cids:definedBy rdf:resource="https://ontology.commonapproach.org/cids#esdc"/>
+    <skos:notation>ps26</skos:notation>
+    <org:hasIdentifier>ps26</org:hasIdentifier>
+    <skos:definition xml:lang="en">In Canada, individuals who self-identify as Indigenous (First Nations, Inuit, or Métis) but do not specify their group affiliation, are unsure of their specific ancestry, or identify with another Indigenous community not listed separately.</skos:definition>
+    <cids:hasDescription xml:lang="en">In Canada, individuals who self-identify as Indigenous (First Nations, Inuit, or Métis) but do not specify their group affiliation, are unsure of their specific ancestry, or identify with another Indigenous community not listed separately.</cids:hasDescription>
+    <skos:prefLabel xml:lang="en">Indigenous Peoples: Not Otherwise Specified</skos:prefLabel>
+    <org:hasName>Indigenous Peoples: Not Otherwise Specified</org:hasName>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#EquityDeservingGroup"/>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#PopulationServed"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#ps23">
+    <skos:inScheme rdf:resource=""/>
+    <rdfs:isDefinedBy rdf:resource=""/>
+    <cids:hasSpecification rdf:resource=""/>
+    <cids:definedBy rdf:resource="https://ontology.commonapproach.org/cids#esdc"/>
+    <skos:notation>ps23</skos:notation>
+    <org:hasIdentifier>ps23</org:hasIdentifier>
+    <skos:definition xml:lang="en">Any person aged 0-15.</skos:definition>
+    <cids:hasDescription>Any person aged 0-15.</cids:hasDescription>
+    <skos:prefLabel xml:lang="en">Children (Ages 0-15)</skos:prefLabel>
+    <org:hasName>Children (Ages 0-15)</org:hasName>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#PopulationServed"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#ps22">
+    <skos:exactMatch rdf:resource="EquityDeservingGroupsESDC#edg10"/>
+    <skos:inScheme rdf:resource=""/>
+    <rdfs:isDefinedBy rdf:resource=""/>
+    <cids:hasSpecification rdf:resource=""/>
+    <cids:definedBy rdf:resource="https://ontology.commonapproach.org/cids#esdc"/>
+    <skos:notation>ps22</skos:notation>
+    <org:hasIdentifier>ps22</org:hasIdentifier>
+    <skos:definition xml:lang="en">All people who identify as women, whether they are cisgender or transgender women.</skos:definition>
+    <cids:hasDescription>All people who identify as women, whether they are cisgender or transgender women.</cids:hasDescription>
+    <skos:prefLabel xml:lang="en">Women (Cisgender and Transgender)</skos:prefLabel>
+    <org:hasName>Women (Cisgender and Transgender)</org:hasName>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#EquityDeservingGroup"/>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#PopulationServed"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#ps25">
+    <skos:inScheme rdf:resource=""/>
+    <rdfs:isDefinedBy rdf:resource=""/>
+    <cids:hasSpecification rdf:resource=""/>
+    <cids:definedBy rdf:resource="https://ontology.commonapproach.org/cids#esdc"/>
+    <skos:notation>ps25</skos:notation>
+    <org:hasIdentifier>ps25</org:hasIdentifier>
+    <skos:prefLabel xml:lang="en">General Population</skos:prefLabel>
+    <org:hasName>General Population</org:hasName>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#PopulationServed"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#ps24">
+    <skos:inScheme rdf:resource=""/>
+    <rdfs:isDefinedBy rdf:resource=""/>
+    <cids:hasSpecification rdf:resource=""/>
+    <cids:definedBy rdf:resource="https://ontology.commonapproach.org/cids#esdc"/>
+    <skos:notation>ps24</skos:notation>
+    <org:hasIdentifier>ps24</org:hasIdentifier>
+    <skos:definition xml:lang="en">Any person aged 15-24.</skos:definition>
+    <cids:hasDescription>Any person aged 15-24.</cids:hasDescription>
+    <skos:prefLabel xml:lang="en">Youth (Ages 15-24)</skos:prefLabel>
+    <org:hasName>Youth (Ages 15-24)</org:hasName>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#PopulationServed"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#ps10">
+    <skos:exactMatch rdf:resource="EquityDeservingGroupsESDC#edg3"/>
+    <skos:inScheme rdf:resource=""/>
+    <rdfs:isDefinedBy rdf:resource=""/>
+    <cids:hasSpecification rdf:resource=""/>
+    <cids:definedBy rdf:resource="https://ontology.commonapproach.org/cids#esdc"/>
+    <skos:notation>ps10</skos:notation>
+    <org:hasIdentifier>ps10</org:hasIdentifier>
+    <skos:definition xml:lang="en">People who were born outside Canada. For the most part, these are people who are now, or once were, immigrants to Canada. People who were forced to flee from persecution in their home country. This includes Convention refugees (as defined by the Immigration and Refugee Protection Act (S.C. 2001, c. 27)) and asylum-seekers or refugee claimants. Immigrants and Refugees that have been in Canada for less than five years.</skos:definition>
+    <cids:hasDescription>People who were born outside Canada. For the most part, these are people who are now, or once were, immigrants to Canada. People who were forced to flee from persecution in their home country. This includes Convention refugees (as defined by the Immigration and Refugee Protection Act (S.C. 2001, c. 27)) and asylum-seekers or refugee claimants. Immigrants and Refugees that have been in Canada for less than five years.</cids:hasDescription>
+    <skos:prefLabel xml:lang="en">First Generation Immigrants, Refugees &amp; Newcomers</skos:prefLabel>
+    <org:hasName>First Generation Immigrants, Refugees &amp; Newcomers</org:hasName>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#EquityDeservingGroup"/>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#PopulationServed"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#ps16">
+    <skos:broadMatch rdf:resource="EquityDeservingGroupsESDC#edg9"/>
+    <skos:broader rdf:resource="#ps27"/>
+    <skos:inScheme rdf:resource=""/>
+    <rdfs:isDefinedBy rdf:resource=""/>
+    <cids:hasSpecification rdf:resource=""/>
+    <cids:definedBy rdf:resource="https://ontology.commonapproach.org/cids#esdc"/>
+    <prov:hadPrimarySource rdf:resource="https://laws-lois.justice.gc.ca/eng/acts/A-0.6/"/>
+    <skos:notation>ps16</skos:notation>
+    <org:hasIdentifier>ps16</org:hasIdentifier>
+    <skos:definition xml:lang="en">People living with disabilities, impairments, and/or functional limitations related to cognitive, learning, communication or mental health related issues, whether apparent or not, and permanent, temporary or episodic in nature, that hinders their full and equal participation in society when they face a barrier.</skos:definition>
+    <cids:hasDescription>People living with disabilities, impairments, and/or functional limitations related to cognitive, learning, communication or mental health related issues, whether apparent or not, and permanent, temporary or episodic in nature, that hinders their full and equal participation in society when they face a barrier.</cids:hasDescription>
+    <skos:prefLabel xml:lang="en">People Living with Cognitive or Mental Health Related Issues</skos:prefLabel>
+    <org:hasName>People Living with Cognitive or Mental Health Related Issues</org:hasName>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#PopulationServed"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#ps3">
+    <skos:exactMatch rdf:resource="EquityDeservingGroupsESDC#edg11"/>
+    <skos:inScheme rdf:resource=""/>
+    <rdfs:isDefinedBy rdf:resource=""/>
+    <cids:hasSpecification rdf:resource=""/>
+    <cids:definedBy rdf:resource="https://ontology.commonapproach.org/cids#esdc"/>
+    <prov:hadPrimarySource rdf:resource="https://www.canada.ca/en/women-gender-equality/free-to-be-me/2slgbtqi-plus-glossary.html"/>
+    <skos:notation>ps3</skos:notation>
+    <org:hasIdentifier>ps3</org:hasIdentifier>
+    <skos:definition xml:lang="en">People whose gender identity does not align with a binary understanding of gender such as man or woman. It is a gender identity which may include man and woman, androgynous, fluid, multiple, no gender, or a different gender outside of the “woman—man” spectrum.</skos:definition>
+    <cids:hasDescription>People whose gender identity does not align with a binary understanding of gender such as man or woman. It is a gender identity which may include man and woman, androgynous, fluid, multiple, no gender, or a different gender outside of the “woman—man” spectrum.</cids:hasDescription>
+    <skos:prefLabel xml:lang="en">Gender Diverse People: Non-Binary</skos:prefLabel>
+    <org:hasName>Gender Diverse People: Non-Binary</org:hasName>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#EquityDeservingGroup"/>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#PopulationServed"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#ps15">
+    <skos:inScheme rdf:resource=""/>
+    <rdfs:isDefinedBy rdf:resource=""/>
+    <cids:hasSpecification rdf:resource=""/>
+    <cids:definedBy rdf:resource="https://ontology.commonapproach.org/cids#esdc"/>
+    <prov:hadPrimarySource rdf:resource="https://www.canada.ca/en/employment-social-development/programs/poverty-reduction/backgrounder.html"/>
+    <skos:notation>ps15</skos:notation>
+    <org:hasIdentifier>ps15</org:hasIdentifier>
+    <skos:definition xml:lang="en">People living on low income as defined by any of several relative indicators/thresholds used by the Government of Canada to measure low income: low income cut-offs (LICOs), market basket measure (MBM), and/or low income measure (LIM).</skos:definition>
+    <cids:hasDescription>People living on low income as defined by any of several relative indicators/thresholds used by the Government of Canada to measure low income: low income cut-offs (LICOs), market basket measure (MBM), and/or low income measure (LIM).</cids:hasDescription>
+    <skos:prefLabel xml:lang="en">People Living on Low Income</skos:prefLabel>
+    <org:hasName>People Living on Low Income</org:hasName>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#PopulationServed"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#ps2">
+    <skos:exactMatch rdf:resource="EquityDeservingGroupsESDC#edg12"/>
+    <skos:inScheme rdf:resource=""/>
+    <rdfs:isDefinedBy rdf:resource=""/>
+    <cids:hasSpecification rdf:resource=""/>
+    <cids:definedBy rdf:resource="https://ontology.commonapproach.org/cids#esdc"/>
+    <prov:hadPrimarySource rdf:resource="https://dictionary.cambridge.org/dictionary/english/agender"/>
+    <skos:notation>ps2</skos:notation>
+    <org:hasIdentifier>ps2</org:hasIdentifier>
+    <skos:definition xml:lang="en">People who do not identify as, or with, any particular gender.</skos:definition>
+    <cids:hasDescription>People who do not identify as, or with, any particular gender.</cids:hasDescription>
+    <skos:prefLabel xml:lang="en">Gender Diverse People: Agender</skos:prefLabel>
+    <org:hasName>Gender Diverse People: Agender</org:hasName>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#EquityDeservingGroup"/>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#PopulationServed"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#ps18">
+    <skos:broadMatch rdf:resource="EquityDeservingGroupsESDC#edg9"/>
+    <skos:broader rdf:resource="#ps27"/>
+    <skos:inScheme rdf:resource=""/>
+    <rdfs:isDefinedBy rdf:resource=""/>
+    <cids:hasSpecification rdf:resource=""/>
+    <cids:definedBy rdf:resource="https://ontology.commonapproach.org/cids#esdc"/>
+    <prov:hadPrimarySource rdf:resource="https://laws-lois.justice.gc.ca/eng/acts/A-0.6/"/>
+    <skos:notation>ps18</skos:notation>
+    <org:hasIdentifier>ps18</org:hasIdentifier>
+    <skos:definition xml:lang="en">People living with disabilities, impairments, and/or functional limitations related to terminal or chronic illness/disease, whether apparent or not, and permanent, temporary or episodic in nature, that hinders their full and. equal participation in society when they face a barrier.</skos:definition>
+    <cids:hasDescription>People living with disabilities, impairments, and/or functional limitations related to terminal or chronic illness/disease, whether apparent or not, and permanent, temporary or episodic in nature, that hinders their full and equal participation in society when they face a barrier.</cids:hasDescription>
+    <skos:prefLabel xml:lang="en">People Living with Terminal or Chronic Illness/Diseases</skos:prefLabel>
+    <org:hasName>People Living with Terminal or Chronic Illness/Diseases</org:hasName>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#PopulationServed"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#ps1">
+    <skos:exactMatch rdf:resource="EquityDeservingGroupsESDC#edg1"/>
+    <skos:inScheme rdf:resource=""/>
+    <rdfs:isDefinedBy rdf:resource=""/>
+    <cids:hasSpecification rdf:resource=""/>
+    <cids:definedBy rdf:resource="https://ontology.commonapproach.org/cids#esdc"/>
+    <prov:hadPrimarySource rdf:resource="https://www.canada.ca/en/women-gender-equality/free-to-be-me/2slgbtqi-plus-glossary.html"/>
+    <skos:notation>ps1</skos:notation>
+    <org:hasIdentifier>ps1</org:hasIdentifier>
+    <skos:definition xml:lang="en">People who identify as being two-spirit, lesbian, gay, bisexual, transgender, queer, intersex, asexual and others (“+”).</skos:definition>
+    <cids:hasDescription>People who identify as being two-spirit, lesbian, gay, bisexual, transgender, queer, intersex, asexual and others (“+”).</cids:hasDescription>
+    <skos:prefLabel xml:lang="en">2SLGBTQIA+</skos:prefLabel>
+    <org:hasName>2SLGBTQIA+</org:hasName>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#EquityDeservingGroup"/>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#PopulationServed"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#ps17">
+    <skos:broadMatch rdf:resource="EquityDeservingGroupsESDC#edg9"/>
+    <skos:broader rdf:resource="#ps27"/>
+    <skos:inScheme rdf:resource=""/>
+    <rdfs:isDefinedBy rdf:resource=""/>
+    <cids:hasSpecification rdf:resource=""/>
+    <cids:definedBy rdf:resource="https://ontology.commonapproach.org/cids#esdc"/>
+    <prov:hadPrimarySource rdf:resource="https://laws-lois.justice.gc.ca/eng/acts/A-0.6/"/>
+    <skos:notation>ps17</skos:notation>
+    <org:hasIdentifier>ps17</org:hasIdentifier>
+    <skos:definition xml:lang="en">People living with disabilities, impairments, and/or functional limitations related to physical, sensory, or pain, whether apparent or not, and permanent, temporary or episodic in nature, that hinders their full and equal participation in society when they face a barrier.</skos:definition>
+    <cids:hasDescription>People living with disabilities, impairments, and/or functional limitations related to physical, sensory, or pain, whether apparent or not, and permanent, temporary or episodic in nature, that hinders their full and equal participation in society when they face a barrier.</cids:hasDescription>
+    <skos:prefLabel xml:lang="en">People Living with Physical,Sensory or Pain Related Disabilities</skos:prefLabel>
+    <org:hasName>People Living with Physical,Sensory or Pain Related Disabilities</org:hasName>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#PopulationServed"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#ps12">
+    <skos:inScheme rdf:resource=""/>
+    <rdfs:isDefinedBy rdf:resource=""/>
+    <cids:hasSpecification rdf:resource=""/>
+    <cids:definedBy rdf:resource="https://ontology.commonapproach.org/cids#esdc"/>
+    <skos:notation>ps12</skos:notation>
+    <org:hasIdentifier>ps12</org:hasIdentifier>
+    <skos:definition xml:lang="en">Communities located, and people living, in Northern Canada, which is defined as: The three Canadian territories (Yukon, Northwest Territories, and Nunavut), and the northern extent of Newfoundland and Labrador, Quebec, Ontario, Manitoba, Saskatchewan, Alberta and British Columbia. North is based on provincially determined definitions that generally reflect administrative regions.</skos:definition>
+    <cids:hasDescription>Communities located, and people living, in Northern Canada, which is defined as: The three Canadian territories (Yukon, Northwest Territories, and Nunavut), and the northern extent of Newfoundland and Labrador, Quebec, Ontario, Manitoba, Saskatchewan, Alberta and British Columbia. North is based on provincially determined definitions that generally reflect administrative regions.</cids:hasDescription>
+    <skos:prefLabel xml:lang="en">Northern Canadian Communities</skos:prefLabel>
+    <org:hasName>Northern Canadian Communities</org:hasName>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#PopulationServed"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#ps11">
+    <skos:inScheme rdf:resource=""/>
+    <rdfs:isDefinedBy rdf:resource=""/>
+    <cids:hasSpecification rdf:resource=""/>
+    <cids:definedBy rdf:resource="https://ontology.commonapproach.org/cids#esdc"/>
+    <skos:notation>ps11</skos:notation>
+    <org:hasIdentifier>ps11</org:hasIdentifier>
+    <skos:definition xml:lang="en">Families or homes where there is one parent present or living there. The lone, or single, parent can be any sex or gender, any ethnicity, and any sexuality. They do not have to be blood-related parents either to be classed as a parent.</skos:definition>
+    <cids:hasDescription>Families or homes where there is one parent present or living there. The lone, or single, parent can be any sex or gender, any ethnicity, and any sexuality. They do not have to be blood-related parents either to be classed as a parent.</cids:hasDescription>
+    <skos:prefLabel xml:lang="en">Lone Parent Families</skos:prefLabel>
+    <org:hasName>Lone Parent Families</org:hasName>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#PopulationServed"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#ps14">
+    <skos:inScheme rdf:resource=""/>
+    <rdfs:isDefinedBy rdf:resource=""/>
+    <cids:hasSpecification rdf:resource=""/>
+    <cids:definedBy rdf:resource="https://ontology.commonapproach.org/cids#esdc"/>
+    <prov:hadPrimarySource rdf:resource="https://www.homelesshub.ca/sites/default/files/COHhomelessdefinition.pdf"/>
+    <skos:notation>ps14</skos:notation>
+    <org:hasIdentifier>ps14</org:hasIdentifier>
+    <skos:definition xml:lang="en">People without stable, safe, permanent, appropriate housing, or the immediate prospect, means, and ability of acquiring it.</skos:definition>
+    <cids:hasDescription>People without stable, safe, permanent, appropriate housing, or the immediate prospect, means, and ability of acquiring it.</cids:hasDescription>
+    <skos:prefLabel xml:lang="en">People Experiencing Homelessness or Housing Insecurities</skos:prefLabel>
+    <org:hasName>People Experiencing Homelessness or Housing Insecurities</org:hasName>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#PopulationServed"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#ps13">
+    <skos:exactMatch rdf:resource="EquityDeservingGroupsESDC#edg7"/>
+    <skos:inScheme rdf:resource=""/>
+    <rdfs:isDefinedBy rdf:resource=""/>
+    <cids:hasSpecification rdf:resource=""/>
+    <cids:definedBy rdf:resource="https://ontology.commonapproach.org/cids#esdc"/>
+    <skos:notation>ps13</skos:notation>
+    <org:hasIdentifier>ps13</org:hasIdentifier>
+    <skos:definition xml:lang="en">In Canada, official-language minority communities are mainly French-speaking people living outside the province of Quebec and English-speaking people living in the province of Quebec.</skos:definition>
+    <cids:hasDescription>In Canada, official-language minority communities are mainly French-speaking people living outside the province of Quebec and English-speaking people living in the province of Quebec.</cids:hasDescription>
+    <skos:prefLabel xml:lang="en">Official Languages Minority Communities</skos:prefLabel>
+    <org:hasName>Official Languages Minority Communities</org:hasName>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#EquityDeservingGroup"/>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#PopulationServed"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="">
+    <dcterms:description xml:lang="en">A codelist vocabulary of Populations Served prescribed for Canada's Social Finance Fund by Employment Social Development Canada (ESDC).</dcterms:description>
+    <dcterms:title xml:lang="en">PopulationServed Codelist</dcterms:title>
+    <skos:prefLabel xml:lang="en">PopulationServed Codelist</skos:prefLabel>
+    <owl:versionInfo>2.0</owl:versionInfo>
+    <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-10-31</dcterms:date>
+    <dcterms:creator rdf:resource="https://ontology.commonapproach.org/cids#ac"/>
+    <vann:preferredNamespaceUri rdf:resource=""/>
+    <vann:preferredNamespacePrefix>ps</vann:preferredNamespacePrefix>
+    <owl:imports rdf:resource="https://ontology.commonapproach.org/cids"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
+    <rdf:type rdf:resource="http://purl.org/vocommons/voaf#Vocabulary"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#ps19">
+    <skos:inScheme rdf:resource=""/>
+    <rdfs:isDefinedBy rdf:resource=""/>
+    <cids:hasSpecification rdf:resource=""/>
+    <cids:definedBy rdf:resource="https://ontology.commonapproach.org/cids#esdc"/>
+    <skos:notation>ps19</skos:notation>
+    <org:hasIdentifier>ps19</org:hasIdentifier>
+    <skos:definition xml:lang="en">People who are 65 and older.</skos:definition>
+    <cids:hasDescription>People who are 65 and older.</cids:hasDescription>
+    <skos:prefLabel xml:lang="en">People of Advanced Age (65+)</skos:prefLabel>
+    <org:hasName>People of Advanced Age (65+)</org:hasName>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#PopulationServed"/>
+  </rdf:Description>
 </rdf:RDF>
