@@ -49,7 +49,7 @@
                 "@id": "cids:ac"
             },
             "owl:imports": {
-                "@id": "https://ontology.commonapproach.org/owl/cids"
+                "@id": "https://ontology.commonapproach.org/cids"
             },
             "@type": [
                 "skos:ConceptScheme",
