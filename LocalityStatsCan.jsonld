@@ -52,7 +52,7 @@
             },
             "owl:imports": [
                 {
-                    "@id": "https://ontology.commonapproach.org/owl/cids"
+                    "@id": "https://ontology.commonapproach.org/cids"
                 },
                 {
                     "@id": "http://www.w3.org/2006/time"

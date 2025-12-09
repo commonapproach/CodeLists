@@ -15,7 +15,7 @@
 
 <>
     a voaf:Vocabulary, owl:Ontology, skos:ConceptScheme ;
-    owl:imports <http://www.w3.org/2006/time>, <https://ontology.commonapproach.org/owl/cids> ;
+    owl:imports <http://www.w3.org/2006/time>, <https://ontology.commonapproach.org/cids> ;
 
     dcterms:creator cids:ac ;
     dcterms:date "2025-12-01"^^xsd:date ;
