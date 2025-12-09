@@ -82,7 +82,6 @@ td {
 <div id="topbanner">
 <button id="aboutbutton" class="button">About</button><button id="buttonfaq" class="button">FAQ</button>
 </div>
-<div id="headline">Common Approach Code List Server</div>
 
 <?php
 
