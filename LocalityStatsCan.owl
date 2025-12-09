@@ -57,7 +57,7 @@
     <owl:versionInfo>2.0</owl:versionInfo>
     <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-12-01</dcterms:date>
     <dcterms:creator rdf:resource="https://ontology.commonapproach.org/cids#ac"/>
-    <owl:imports rdf:resource="https://ontology.commonapproach.org/owl/cids"/>
+    <owl:imports rdf:resource="https://ontology.commonapproach.org/cids"/>
     <owl:imports rdf:resource="http://www.w3.org/2006/time"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
