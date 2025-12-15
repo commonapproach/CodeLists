@@ -80,7 +80,7 @@ td {
 </head>
 <body>
 <div id="topbanner">
-<button id="aboutbutton" class="button">About</button><button id="buttonfaq" class="button">FAQ</button>
+<!-- <button id="aboutbutton" class="button">About</button><button id="buttonfaq" class="button">FAQ</button> -->
 </div>
 
 <?php
@@ -157,7 +157,7 @@ foreach ($codelists as $list => $description) {
 <div style="margin-bottom:10px;"></div>
 <table id="mytable1" class="atable">
  <tr style="!important; color:#000000;empty-cells:show;">
-  <th style="text-align: center;">Documentation</th>
+  <!-- <th style="text-align: center;">Documentation</th> -->
  </tr>
  <tr><td> </td></tr>
  </table>
