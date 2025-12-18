@@ -19,7 +19,7 @@
 
     dcterms:creator cids:ac ;
     dcterms:date "2025-12-01"^^xsd:date ;
-    owl:versionInfo "2.0" ;
+    owl:versionInfo "5.3b" ;
 
     skos:prefLabel "IRIS+ Metrics"@en ;
     dcterms:title "IRIS+ Metrics"@en ;
