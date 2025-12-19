@@ -6,7 +6,7 @@
 @prefix cids: <https://ontology.commonapproach.org/cids#> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix fstate: <https://codelist.commonapproach.org/FundingState#> . # added prefix for the Common Approach funding state list, per the vann: recommended prefix in that file. 
-@prefix org: <http://www.w3.org/ns/org#> .
+@prefix org: <http://ontology.eil.utoronto.ca/tove/organization#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
