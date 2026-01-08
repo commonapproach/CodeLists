@@ -1,7 +1,8 @@
 <rdf:RDF
     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
     xmlns:dcterms="http://purl.org/dc/terms/"
-    xmlns:iriscategory="https://ontology.commonapproach.org/IRISImpactCategory#"
+    xmlns:org="http://ontology.eil.utoronto.ca/tove/organization#"
+    xmlns:iriscategory="https://codelist.commonapproach.org/IRISImpactCategory#"
     xmlns:owl="http://www.w3.org/2002/07/owl#"
     xmlns:prov="http://www.w3.org/ns/prov#"
     xmlns:cids="https://ontology.commonapproach.org/cids#"
@@ -9,7 +10,6 @@
     xmlns:voaf="http://purl.org/vocommons/voaf#"
     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
     xmlns="https://codelist.commonapproach.org/IRISImpactTheme#"
-    xmlns:org="http://www.w3.org/ns/org#"
     xmlns:xsd="http://www.w3.org/2001/XMLSchema#" > 
   <rdf:Description rdf:about="#MarineResourcesConservationandManagement">
     <skos:inScheme rdf:resource=""/>
@@ -21,7 +21,7 @@
     <org:hasIdentifier>MarineResourcesConservationandManagement</org:hasIdentifier>
     <skos:prefLabel xml:lang="en">Marine Resources Conservation &amp; Management</skos:prefLabel>
     <org:hasName>Marine Resources Conservation &amp; Management</org:hasName>
-    <skos:broader rdf:resource="https://ontology.commonapproach.org/IRISImpactCategory#OceansandCoastalZones"/>
+    <skos:broader rdf:resource="IRISImpactCategory#OceansandCoastalZones"/>
     <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
   </rdf:Description>
@@ -35,7 +35,7 @@
     <org:hasIdentifier>SustainableWaterManagement</org:hasIdentifier>
     <skos:prefLabel xml:lang="en">Sustainable Water Management</skos:prefLabel>
     <org:hasName>Sustainable Water Management</org:hasName>
-    <skos:broader rdf:resource="https://ontology.commonapproach.org/IRISImpactCategory#Water"/>
+    <skos:broader rdf:resource="IRISImpactCategory#Water"/>
     <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
   </rdf:Description>
@@ -49,7 +49,7 @@
     <org:hasIdentifier>ResilientInfrastructure</org:hasIdentifier>
     <skos:prefLabel xml:lang="en">Resilient Infrastructure</skos:prefLabel>
     <org:hasName>Resilient Infrastructure</org:hasName>
-    <skos:broader rdf:resource="https://ontology.commonapproach.org/IRISImpactCategory#Infrastructure"/>
+    <skos:broader rdf:resource="IRISImpactCategory#Infrastructure"/>
     <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
   </rdf:Description>
@@ -63,7 +63,7 @@
     <org:hasIdentifier>AccesstoQualityHealthcare</org:hasIdentifier>
     <skos:prefLabel xml:lang="en">Access to Quality Healthcare</skos:prefLabel>
     <org:hasName>Access to Quality Healthcare</org:hasName>
-    <skos:broader rdf:resource="https://ontology.commonapproach.org/IRISImpactCategory#Health"/>
+    <skos:broader rdf:resource="IRISImpactCategory#Health"/>
     <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
   </rdf:Description>
@@ -77,7 +77,7 @@
     <org:hasIdentifier>GenderLens</org:hasIdentifier>
     <skos:prefLabel xml:lang="en">Gender Lens</skos:prefLabel>
     <org:hasName>Gender Lens</org:hasName>
-    <skos:broader rdf:resource="https://ontology.commonapproach.org/IRISImpactCategory#DiversityandInclusion"/>
+    <skos:broader rdf:resource="IRISImpactCategory#DiversityandInclusion"/>
     <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
   </rdf:Description>
@@ -91,7 +91,7 @@
     <org:hasIdentifier>SustainableAgriculture</org:hasIdentifier>
     <skos:prefLabel xml:lang="en">Sustainable Agriculture</skos:prefLabel>
     <org:hasName>Sustainable Agriculture</org:hasName>
-    <skos:broader rdf:resource="https://ontology.commonapproach.org/IRISImpactCategory#Agriculture"/>
+    <skos:broader rdf:resource="IRISImpactCategory#Agriculture"/>
     <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
   </rdf:Description>
@@ -105,7 +105,7 @@
     <org:hasIdentifier>NaturalResourcesConservation</org:hasIdentifier>
     <skos:prefLabel xml:lang="en">Natural Resources Conservation</skos:prefLabel>
     <org:hasName>Natural Resources Conservation</org:hasName>
-    <skos:broader rdf:resource="https://ontology.commonapproach.org/IRISImpactCategory#Land"/>
+    <skos:broader rdf:resource="IRISImpactCategory#Land"/>
     <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
   </rdf:Description>
@@ -119,7 +119,7 @@
     <org:hasIdentifier>CleanEnergy</org:hasIdentifier>
     <skos:prefLabel xml:lang="en">Clean Energy</skos:prefLabel>
     <org:hasName>Clean Energy</org:hasName>
-    <skos:broader rdf:resource="https://ontology.commonapproach.org/IRISImpactCategory#Energy"/>
+    <skos:broader rdf:resource="IRISImpactCategory#Energy"/>
     <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
   </rdf:Description>
@@ -133,7 +133,7 @@
     <org:hasIdentifier>EnergyAccess</org:hasIdentifier>
     <skos:prefLabel xml:lang="en">Energy Access</skos:prefLabel>
     <org:hasName>Energy Access</org:hasName>
-    <skos:broader rdf:resource="https://ontology.commonapproach.org/IRISImpactCategory#Energy"/>
+    <skos:broader rdf:resource="IRISImpactCategory#Energy"/>
     <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
   </rdf:Description>
@@ -147,7 +147,7 @@
     <org:hasIdentifier>SustainableLandManagement</org:hasIdentifier>
     <skos:prefLabel xml:lang="en">Sustainable Land Management</skos:prefLabel>
     <org:hasName>Sustainable Land Management</org:hasName>
-    <skos:broader rdf:resource="https://ontology.commonapproach.org/IRISImpactCategory#Land"/>
+    <skos:broader rdf:resource="IRISImpactCategory#Land"/>
     <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
   </rdf:Description>
@@ -161,7 +161,7 @@
     <org:hasIdentifier>GreenBuildings</org:hasIdentifier>
     <skos:prefLabel xml:lang="en">Green Buildings</skos:prefLabel>
     <org:hasName>Green Buildings</org:hasName>
-    <skos:broader rdf:resource="https://ontology.commonapproach.org/IRISImpactCategory#RealEstate"/>
+    <skos:broader rdf:resource="IRISImpactCategory#RealEstate"/>
     <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
   </rdf:Description>
@@ -175,7 +175,7 @@
     <org:hasIdentifier>AccesstoQualityEducation</org:hasIdentifier>
     <skos:prefLabel xml:lang="en">Access to Quality Education</skos:prefLabel>
     <org:hasName>Access to Quality Education</org:hasName>
-    <skos:broader rdf:resource="https://ontology.commonapproach.org/IRISImpactCategory#Education"/>
+    <skos:broader rdf:resource="IRISImpactCategory#Education"/>
     <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
   </rdf:Description>
@@ -189,7 +189,7 @@
     <org:hasIdentifier>FinancialInclusion</org:hasIdentifier>
     <skos:prefLabel xml:lang="en">Financial Inclusion</skos:prefLabel>
     <org:hasName>Financial Inclusion</org:hasName>
-    <skos:broader rdf:resource="https://ontology.commonapproach.org/IRISImpactCategory#FinancialServices"/>
+    <skos:broader rdf:resource="IRISImpactCategory#FinancialServices"/>
     <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
   </rdf:Description>
@@ -203,7 +203,7 @@
     <org:hasIdentifier>ClimateResilienceandAdaptation</org:hasIdentifier>
     <skos:prefLabel xml:lang="en">Climate Resilience and Adaptation</skos:prefLabel>
     <org:hasName>Climate Resilience and Adaptation</org:hasName>
-    <skos:broader rdf:resource="https://ontology.commonapproach.org/IRISImpactCategory#Climate"/>
+    <skos:broader rdf:resource="IRISImpactCategory#Climate"/>
     <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
   </rdf:Description>
@@ -217,7 +217,7 @@
     <org:hasIdentifier>CleanAir</org:hasIdentifier>
     <skos:prefLabel xml:lang="en">Clean Air</skos:prefLabel>
     <org:hasName>Clean Air</org:hasName>
-    <skos:broader rdf:resource="https://ontology.commonapproach.org/IRISImpactCategory#Air"/>
+    <skos:broader rdf:resource="IRISImpactCategory#Air"/>
     <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
   </rdf:Description>
@@ -231,7 +231,7 @@
     <org:hasIdentifier>SustainableForestry</org:hasIdentifier>
     <skos:prefLabel xml:lang="en">Sustainable Forestry</skos:prefLabel>
     <org:hasName>Sustainable Forestry</org:hasName>
-    <skos:broader rdf:resource="https://ontology.commonapproach.org/IRISImpactCategory#Land"/>
+    <skos:broader rdf:resource="IRISImpactCategory#Land"/>
     <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
   </rdf:Description>
@@ -245,7 +245,7 @@
     <org:hasIdentifier>FoodSecurity</org:hasIdentifier>
     <skos:prefLabel xml:lang="en">Food Security</skos:prefLabel>
     <org:hasName>Food Security</org:hasName>
-    <skos:broader rdf:resource="https://ontology.commonapproach.org/IRISImpactCategory#Agriculture"/>
+    <skos:broader rdf:resource="IRISImpactCategory#Agriculture"/>
     <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
   </rdf:Description>
@@ -259,7 +259,7 @@
     <org:hasIdentifier>WasteManagement</org:hasIdentifier>
     <skos:prefLabel xml:lang="en">Waste Management</skos:prefLabel>
     <org:hasName>Waste Management</org:hasName>
-    <skos:broader rdf:resource="https://ontology.commonapproach.org/IRISImpactCategory#Waste"/>
+    <skos:broader rdf:resource="IRISImpactCategory#Waste"/>
     <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
   </rdf:Description>
@@ -273,7 +273,7 @@
     <org:hasIdentifier>WaterSanitationandHygiene</org:hasIdentifier>
     <skos:prefLabel xml:lang="en">Water Sanitation and Hygiene (WASH)</skos:prefLabel>
     <org:hasName>Water Sanitation and Hygiene (WASH)</org:hasName>
-    <skos:broader rdf:resource="https://ontology.commonapproach.org/IRISImpactCategory#Water"/>
+    <skos:broader rdf:resource="IRISImpactCategory#Water"/>
     <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
   </rdf:Description>
@@ -287,7 +287,7 @@
     <org:hasIdentifier>QualityJobs</org:hasIdentifier>
     <skos:prefLabel xml:lang="en">Quality Jobs</skos:prefLabel>
     <org:hasName>Quality Jobs</org:hasName>
-    <skos:broader rdf:resource="https://ontology.commonapproach.org/IRISImpactCategory#Employment"/>
+    <skos:broader rdf:resource="IRISImpactCategory#Employment"/>
     <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
   </rdf:Description>
@@ -301,7 +301,7 @@
     <org:hasIdentifier>ClimateChangeMitigation</org:hasIdentifier>
     <skos:prefLabel xml:lang="en">Climate Change Mitigation</skos:prefLabel>
     <org:hasName>Climate Change Mitigation</org:hasName>
-    <skos:broader rdf:resource="https://ontology.commonapproach.org/IRISImpactCategory#Climate"/>
+    <skos:broader rdf:resource="IRISImpactCategory#Climate"/>
     <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
   </rdf:Description>
@@ -315,7 +315,7 @@
     <org:hasIdentifier>AffordableQualityHousing</org:hasIdentifier>
     <skos:prefLabel xml:lang="en">Affordable Quality Housing</skos:prefLabel>
     <org:hasName>Affordable Quality Housing</org:hasName>
-    <skos:broader rdf:resource="https://ontology.commonapproach.org/IRISImpactCategory#RealEstate"/>
+    <skos:broader rdf:resource="IRISImpactCategory#RealEstate"/>
     <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
   </rdf:Description>
@@ -329,7 +329,7 @@
     <org:hasIdentifier>BiodiversityandEcosystemConservation</org:hasIdentifier>
     <skos:prefLabel xml:lang="en">Biodiversity and Ecosystem Conservation</skos:prefLabel>
     <org:hasName>Biodiversity and Ecosystem Conservation</org:hasName>
-    <skos:broader rdf:resource="https://ontology.commonapproach.org/IRISImpactCategory#BiodiversityandEcosystems"/>
+    <skos:broader rdf:resource="IRISImpactCategory#BiodiversityandEcosystems"/>
     <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
   </rdf:Description>
@@ -355,7 +355,7 @@
     <org:hasIdentifier>SmallholderAgriculture</org:hasIdentifier>
     <skos:prefLabel xml:lang="en">Smallholder Agriculture</skos:prefLabel>
     <org:hasName>Smallholder Agriculture</org:hasName>
-    <skos:broader rdf:resource="https://ontology.commonapproach.org/IRISImpactCategory#Agriculture"/>
+    <skos:broader rdf:resource="IRISImpactCategory#Agriculture"/>
     <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
   </rdf:Description>
@@ -369,7 +369,7 @@
     <org:hasIdentifier>Nutrition</org:hasIdentifier>
     <skos:prefLabel xml:lang="en">Nutrition</skos:prefLabel>
     <org:hasName>Nutrition</org:hasName>
-    <skos:broader rdf:resource="https://ontology.commonapproach.org/IRISImpactCategory#Health"/>
+    <skos:broader rdf:resource="IRISImpactCategory#Health"/>
     <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
   </rdf:Description>
@@ -383,7 +383,7 @@
     <org:hasIdentifier>PollutionPrevention</org:hasIdentifier>
     <skos:prefLabel xml:lang="en">Pollution Prevention</skos:prefLabel>
     <org:hasName>Pollution Prevention</org:hasName>
-    <skos:broader rdf:resource="https://ontology.commonapproach.org/IRISImpactCategory#Pollution"/>
+    <skos:broader rdf:resource="IRISImpactCategory#Pollution"/>
     <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
   </rdf:Description>
@@ -397,7 +397,7 @@
     <org:hasIdentifier>EnergyEfficiency</org:hasIdentifier>
     <skos:prefLabel xml:lang="en">Energy Efficiency</skos:prefLabel>
     <org:hasName>Energy Efficiency</org:hasName>
-    <skos:broader rdf:resource="https://ontology.commonapproach.org/IRISImpactCategory#Energy"/>
+    <skos:broader rdf:resource="IRISImpactCategory#Energy"/>
     <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
   </rdf:Description>
@@ -411,7 +411,7 @@
     <org:hasIdentifier>RacialEquity</org:hasIdentifier>
     <skos:prefLabel xml:lang="en">Racial Equity</skos:prefLabel>
     <org:hasName>Racial Equity</org:hasName>
-    <skos:broader rdf:resource="https://ontology.commonapproach.org/IRISImpactCategory#DiversityandInclusion"/>
+    <skos:broader rdf:resource="IRISImpactCategory#DiversityandInclusion"/>
     <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
   </rdf:Description>

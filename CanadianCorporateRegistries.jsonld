@@ -573,7 +573,7 @@
         }
     ],
     "@context": {
-        "org": "http://www.w3.org/ns/org#",
+        "org": "http://ontology.eil.utoronto.ca/tove/organization#",
         "owl": "http://www.w3.org/2002/07/owl#",
         "xsd": "http://www.w3.org/2001/XMLSchema#",
         "dcterms": "http://purl.org/dc/terms/",

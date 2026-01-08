@@ -1,6 +1,7 @@
 <rdf:RDF
     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
     xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:org="http://ontology.eil.utoronto.ca/tove/organization#"
     xmlns:owl="http://www.w3.org/2002/07/owl#"
     xmlns:prov="http://www.w3.org/ns/prov#"
     xmlns:cids="https://ontology.commonapproach.org/cids#"
@@ -8,7 +9,6 @@
     xmlns:voaf="http://purl.org/vocommons/voaf#"
     xmlns="https://codelist.commonapproach.org/EquityDeservingGroupsESDC#"
     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-    xmlns:org="http://www.w3.org/ns/org#"
     xmlns:xsd="http://www.w3.org/2001/XMLSchema#" > 
   <rdf:Description rdf:about="#edg10">
     <skos:inScheme rdf:resource=""/>

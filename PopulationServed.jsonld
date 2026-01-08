@@ -935,7 +935,7 @@
     ],
     "@context": {
         "owl": "http://www.w3.org/2002/07/owl#",
-        "org": "http://www.w3.org/ns/org#",
+        "org": "http://ontology.eil.utoronto.ca/tove/organization#",
         "xsd": "http://www.w3.org/2001/XMLSchema#",
         "edg": "https://codelist.commonapproach.org/EquityDeservingGroupsESDC#",
         "skos": "http://www.w3.org/2004/02/skos/core#",
