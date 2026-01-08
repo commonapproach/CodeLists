@@ -25,7 +25,7 @@
     dcterms:description "An RDF vocabulary of Canadian Corporate Registries."@en .
 
 :ca
-    a skos:Concept, cids:Code, cids:Organization ;
+    a skos:Concept, cids:Code, cids:Organization, org:Organization ;
     org:hasName "Corporations Canada" ;
     skos:prefLabel "Corporations Canada"@en ;
     org:hasLegalName "Corporations Canada"@en ;
@@ -41,7 +41,7 @@
     .
 
 :cra
-    a skos:Concept, cids:Code, cids:Organization ;
+    a skos:Concept, cids:Code, cids:Organization, org:Organization ;
     org:hasName "Canada Revenue Agency" ;
     skos:prefLabel "Canada Revenue Agency"@en ;
     org:hasLegalName "Canada Revenue Agency"@en ;
@@ -57,7 +57,7 @@
     .
 
 :ab
-    a skos:Concept, cids:Code, cids:Organization ;
+    a skos:Concept, cids:Code, cids:Organization, org:Organization ;
     org:hasName "Alberta" ;
     skos:prefLabel "Alberta"@en ;
     org:hasLegalName "Alberta"@en ;
@@ -73,7 +73,7 @@
     .
 
 :bc
-    a skos:Concept, cids:Code, cids:Organization ;
+    a skos:Concept, cids:Code, cids:Organization, org:Organization ;
     org:hasName "British Columbia" ;
     skos:prefLabel "British Columbia"@en ;
     org:hasLegalName "British Columbia"@en ;
@@ -89,7 +89,7 @@
     .
 
 :mb
-    a skos:Concept, cids:Code, cids:Organization ;
+    a skos:Concept, cids:Code, cids:Organization, org:Organization ;
     org:hasName "Manitoba" ;
     skos:prefLabel "Manitoba"@en ;
     org:hasLegalName "Manitoba"@en ;
@@ -105,7 +105,7 @@
     .
 
 :nb
-    a skos:Concept, cids:Code, cids:Organization ;
+    a skos:Concept, cids:Code, cids:Organization, org:Organization ;
     org:hasName "New Brunswick" ;
     skos:prefLabel "New Brunswick"@en ;
     org:hasLegalName "New Brunswick"@en ;
@@ -121,7 +121,7 @@
     .
 
 :nl
-    a skos:Concept, cids:Code, cids:Organization ;
+    a skos:Concept, cids:Code, cids:Organization, org:Organization ;
     org:hasName "Newfoundland and Labrador" ;
     skos:prefLabel "Newfoundland and Labrador"@en ;
     org:hasLegalName "Newfoundland and Labrador"@en ;
@@ -137,7 +137,7 @@
     .
 
 :nt
-    a skos:Concept, cids:Code, cids:Organization ;
+    a skos:Concept, cids:Code, cids:Organization, org:Organization ;
     org:hasName "Northwest Territories" ;
     skos:prefLabel "Northwest Territories"@en ;
     org:hasLegalName "Northwest Territories"@en ;
@@ -153,7 +153,7 @@
     .
 
 :ns
-    a skos:Concept, cids:Code, cids:Organization ;
+    a skos:Concept, cids:Code, cids:Organization, org:Organization ;
     org:hasName "Nova Scotia" ;
     skos:prefLabel "Nova Scotia"@en ;
     org:hasLegalName "Nova Scotia"@en ;
@@ -169,7 +169,7 @@
     .
 
 :nu
-    a skos:Concept, cids:Code, cids:Organization ;
+    a skos:Concept, cids:Code, cids:Organization, org:Organization ;
     org:hasName "Nunavut" ;
     skos:prefLabel "Nunavut"@en ;
     org:hasLegalName "Nunavut"@en ;
@@ -185,7 +185,7 @@
     .
 
 :on
-    a skos:Concept, cids:Code, cids:Organization ;
+    a skos:Concept, cids:Code, cids:Organization, org:Organization ;
     org:hasName "Ontario" ;
     skos:prefLabel "Ontario"@en ;
     org:hasLegalName "Ontario"@en ;
@@ -201,7 +201,7 @@
     .
 
 :pe
-    a skos:Concept, cids:Code, cids:Organization ;
+    a skos:Concept, cids:Code, cids:Organization, org:Organization ;
     org:hasName "Prince Edward Island" ;
     skos:prefLabel "Prince Edward Island"@en ;
     org:hasLegalName "Prince Edward Island"@en ;
@@ -217,7 +217,7 @@
     .
 
 :qc
-    a skos:Concept, cids:Code, cids:Organization ;
+    a skos:Concept, cids:Code, cids:Organization, org:Organization ;
     org:hasName "Quebec" ;
     skos:prefLabel "Quebec"@en ;
     org:hasLegalName "Quebec"@en ;
@@ -233,7 +233,7 @@
     .
 
 :sk
-    a skos:Concept, cids:Code, cids:Organization ;
+    a skos:Concept, cids:Code, cids:Organization, org:Organization ;
     org:hasName "Saskatchewan" ;
     skos:prefLabel "Saskatchewan"@en ;
     org:hasLegalName "Saskatchewan"@en ;
@@ -249,7 +249,7 @@
     .
 
 :yk
-    a skos:Concept, cids:Code, cids:Organization ;
+    a skos:Concept, cids:Code, cids:Organization, org:Organization ;
     org:hasName "Yukon" ;
     skos:prefLabel "Yukon"@en ;
     org:hasLegalName "Yukon"@en ;

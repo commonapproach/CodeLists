@@ -38,7 +38,7 @@
     skos:inScheme <> .
 
 iriscategory:Agriculture
-    a skos:Concept, cids:Code ;
+    a skos:Concept, cids:Code, cids:Sector ;
     org:hasName "Agriculture" ;
     skos:prefLabel "Agriculture"@en ;
     org:hasIdentifier "Agriculture" ;
@@ -51,7 +51,7 @@ iriscategory:Agriculture
     skos:inScheme <> .
 
 iriscategory:Air
-    a skos:Concept, cids:Code ;
+    a skos:Concept, cids:Code, cids:Sector ;
     org:hasName "Air" ;
     skos:prefLabel "Air"@en ;
     org:hasIdentifier "Air" ;
@@ -64,7 +64,7 @@ iriscategory:Air
     skos:inScheme <> .
 
 iriscategory:BiodiversityandEcosystems
-    a skos:Concept, cids:Code ;
+    a skos:Concept, cids:Code, cids:Sector ;
     org:hasName "Biodiversity and Ecosystems" ;
     skos:prefLabel "Biodiversity and Ecosystems"@en ;
     org:hasIdentifier "BiodiversityandEcosystems" ;
@@ -77,7 +77,7 @@ iriscategory:BiodiversityandEcosystems
     skos:inScheme <> .
 
 iriscategory:Climate
-    a skos:Concept, cids:Code ;
+    a skos:Concept, cids:Code, cids:Sector ;
     org:hasName "Climate" ;
     skos:prefLabel "Climate"@en ;
     org:hasIdentifier "Climate" ;
@@ -90,7 +90,7 @@ iriscategory:Climate
     skos:inScheme <> .
 
 iriscategory:DiversityandInclusion
-    a skos:Concept, cids:Code ;
+    a skos:Concept, cids:Code, cids:Sector ;
     org:hasName "Diversity and Inclusion" ;
     skos:prefLabel "Diversity and Inclusion"@en ;
     org:hasIdentifier "DiversityandInclusion" ;
@@ -103,7 +103,7 @@ iriscategory:DiversityandInclusion
     skos:inScheme <> .
 
 iriscategory:Education
-    a skos:Concept, cids:Code ;
+    a skos:Concept, cids:Code, cids:Sector ;
     org:hasName "Education" ;
     skos:prefLabel "Education"@en ;
     org:hasIdentifier "Education" ;
@@ -116,7 +116,7 @@ iriscategory:Education
     skos:inScheme <> .
 
 iriscategory:Employment
-    a skos:Concept, cids:Code ;
+    a skos:Concept, cids:Code, cids:Sector ;
     org:hasName "Employment" ;
     skos:prefLabel "Employment"@en ;
     org:hasIdentifier "Employment" ;
@@ -129,7 +129,7 @@ iriscategory:Employment
     skos:inScheme <> .
 
 iriscategory:Energy
-    a skos:Concept, cids:Code ;
+    a skos:Concept, cids:Code, cids:Sector ;
     org:hasName "Energy" ;
     skos:prefLabel "Energy"@en ;
     org:hasIdentifier "Energy" ;
@@ -142,7 +142,7 @@ iriscategory:Energy
     skos:inScheme <> .
 
 iriscategory:FinancialServices
-    a skos:Concept, cids:Code ;
+    a skos:Concept, cids:Code, cids:Sector ;
     org:hasName "Financial Services" ;
     skos:prefLabel "Financial Services"@en ;
     org:hasIdentifier "FinancialServices" ;
@@ -155,7 +155,7 @@ iriscategory:FinancialServices
     skos:inScheme <> .
 
 iriscategory:Health
-    a skos:Concept, cids:Code ;
+    a skos:Concept, cids:Code, cids:Sector ;
     org:hasName "Health" ;
     skos:prefLabel "Health"@en ;
     org:hasIdentifier "Health" ;
@@ -168,7 +168,7 @@ iriscategory:Health
     skos:inScheme <> .
 
 iriscategory:Infrastructure
-    a skos:Concept, cids:Code ;
+    a skos:Concept, cids:Code, cids:Sector ;
     org:hasName "Infrastructure" ;
     skos:prefLabel "Infrastructure"@en ;
     org:hasIdentifier "Infrastructure" ;
@@ -181,7 +181,7 @@ iriscategory:Infrastructure
     skos:inScheme <> .
 
 iriscategory:Land
-    a skos:Concept, cids:Code ;
+    a skos:Concept, cids:Code, cids:Sector ;
     org:hasName "Land" ;
     skos:prefLabel "Land"@en ;
     org:hasIdentifier "Land" ;
@@ -194,7 +194,7 @@ iriscategory:Land
     skos:inScheme <> .
 
 iriscategory:OceansandCoastalZones
-    a skos:Concept, cids:Code ;
+    a skos:Concept, cids:Code, cids:Sector ;
     org:hasName "Oceans and Coastal Zones" ;
     skos:prefLabel "Oceans and Coastal Zones"@en ;
     org:hasIdentifier "OceansandCoastalZones" ;
@@ -207,7 +207,7 @@ iriscategory:OceansandCoastalZones
     skos:inScheme <> .
 
 iriscategory:Pollution
-    a skos:Concept, cids:Code ;
+    a skos:Concept, cids:Code, cids:Sector ;
     org:hasName "Pollution" ;
     skos:prefLabel "Pollution"@en ;
     org:hasIdentifier "Pollution" ;
@@ -220,7 +220,7 @@ iriscategory:Pollution
     skos:inScheme <> .
 
 iriscategory:RealEstate
-    a skos:Concept, cids:Code ;
+    a skos:Concept, cids:Code, cids:Sector ;
     org:hasName "Real Estate" ;
     skos:prefLabel "Real Estate"@en ;
     org:hasIdentifier "RealEstate" ;
@@ -233,7 +233,7 @@ iriscategory:RealEstate
     skos:inScheme <> .
 
 iriscategory:Waste
-    a skos:Concept, cids:Code ;
+    a skos:Concept, cids:Code, cids:Sector ;
     org:hasName "Waste" ;
     skos:prefLabel "Waste"@en ;
     org:hasIdentifier "Waste" ;
@@ -246,7 +246,7 @@ iriscategory:Waste
     skos:inScheme <> .
 
 iriscategory:Water
-    a skos:Concept, cids:Code ;
+    a skos:Concept, cids:Code, cids:Sector ;
     org:hasName "Water" ;
     skos:prefLabel "Water"@en ;
     org:hasIdentifier "Water" ;
