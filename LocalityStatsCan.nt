@@ -10,21 +10,21 @@
 <https://codelist.commonapproach.org/LocalityStatsCan> <http://purl.org/dc/terms/title> "Locality Codelist"@en .
 <https://codelist.commonapproach.org/LocalityStatsCan> <http://purl.org/dc/terms/description> "A codelist vocabulary of Locality Codelists according to Statistics Canada definitions."@en .
 <https://codelist.commonapproach.org/LocalityStatsCan#loc1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#Locality> .
-<https://codelist.commonapproach.org/LocalityStatsCan#loc1> <http://www.w3.org/ns/org#hasName> "Large Urban Population Centre" .
+<https://codelist.commonapproach.org/LocalityStatsCan#loc1> <http://ontology.eil.utoronto.ca/tove/organization#hasName> "Large Urban Population Centre" .
 <https://codelist.commonapproach.org/LocalityStatsCan#loc1> <http://www.w3.org/2004/02/skos/core#prefLabel> "Large Urban Population Centre"@en .
 <https://codelist.commonapproach.org/LocalityStatsCan#loc1> <https://ontology.commonapproach.org/cids#hasDescription> "A large urban population centres, with a population of 100,000 or more." .
 <https://codelist.commonapproach.org/LocalityStatsCan#loc1> <http://www.w3.org/2004/02/skos/core#definition> "A large urban population centres, with a population of 100,000 or more."@en .
-<https://codelist.commonapproach.org/LocalityStatsCan#loc1> <http://www.w3.org/ns/org#hasIdentifier> "loc1" .
+<https://codelist.commonapproach.org/LocalityStatsCan#loc1> <http://ontology.eil.utoronto.ca/tove/organization#hasIdentifier> "loc1" .
 <https://codelist.commonapproach.org/LocalityStatsCan#loc1> <http://www.w3.org/2004/02/skos/core#notation> "loc1" .
 <https://codelist.commonapproach.org/LocalityStatsCan#loc1> <https://ontology.commonapproach.org/cids#definedBy> <https://ontology.commonapproach.org/cids#statsCan> .
 <https://codelist.commonapproach.org/LocalityStatsCan#loc1> <https://ontology.commonapproach.org/cids#hasSpecification> <https://codelist.commonapproach.org/LocalityStatsCan> .
 <https://codelist.commonapproach.org/LocalityStatsCan#loc1> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://codelist.commonapproach.org/LocalityStatsCan> .
 <https://codelist.commonapproach.org/LocalityStatsCan#loc1> <http://www.w3.org/2004/02/skos/core#inScheme> <https://codelist.commonapproach.org/LocalityStatsCan> .
 <https://codelist.commonapproach.org/LocalityStatsCan#loc2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#Locality> .
-<https://codelist.commonapproach.org/LocalityStatsCan#loc2> <http://www.w3.org/ns/org#hasName> "Medium Population Centre" .
+<https://codelist.commonapproach.org/LocalityStatsCan#loc2> <http://ontology.eil.utoronto.ca/tove/organization#hasName> "Medium Population Centre" .
 <https://codelist.commonapproach.org/LocalityStatsCan#loc2> <http://www.w3.org/2004/02/skos/core#prefLabel> "Medium Population Centre"@en .
 <https://codelist.commonapproach.org/LocalityStatsCan#loc2> <https://ontology.commonapproach.org/cids#hasDescription> "medium population centres, with a population between 30,000 and 99,999." .
-<https://codelist.commonapproach.org/LocalityStatsCan#loc2> <http://www.w3.org/ns/org#hasIdentifier> "loc2" .
+<https://codelist.commonapproach.org/LocalityStatsCan#loc2> <http://ontology.eil.utoronto.ca/tove/organization#hasIdentifier> "loc2" .
 <https://codelist.commonapproach.org/LocalityStatsCan#loc2> <http://www.w3.org/2004/02/skos/core#definition> "medium population centres, with a population between 30,000 and 99,999."@en .
 <https://codelist.commonapproach.org/LocalityStatsCan#loc2> <http://www.w3.org/2004/02/skos/core#notation> "loc2" .
 <https://codelist.commonapproach.org/LocalityStatsCan#loc2> <https://ontology.commonapproach.org/cids#definedBy> <https://ontology.commonapproach.org/cids#statsCan> .
@@ -32,10 +32,10 @@
 <https://codelist.commonapproach.org/LocalityStatsCan#loc2> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://codelist.commonapproach.org/LocalityStatsCan> .
 <https://codelist.commonapproach.org/LocalityStatsCan#loc2> <http://www.w3.org/2004/02/skos/core#inScheme> <https://codelist.commonapproach.org/LocalityStatsCan> .
 <https://codelist.commonapproach.org/LocalityStatsCan#loc3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#Locality> .
-<https://codelist.commonapproach.org/LocalityStatsCan#loc3> <http://www.w3.org/ns/org#hasName> "Small Population Centre" .
+<https://codelist.commonapproach.org/LocalityStatsCan#loc3> <http://ontology.eil.utoronto.ca/tove/organization#hasName> "Small Population Centre" .
 <https://codelist.commonapproach.org/LocalityStatsCan#loc3> <http://www.w3.org/2004/02/skos/core#prefLabel> "Small Population Centre"@en .
 <https://codelist.commonapproach.org/LocalityStatsCan#loc3> <https://ontology.commonapproach.org/cids#hasDescription> "A small population centres, with a population between 1,000 and 29,999." .
-<https://codelist.commonapproach.org/LocalityStatsCan#loc3> <http://www.w3.org/ns/org#hasIdentifier> "loc3" .
+<https://codelist.commonapproach.org/LocalityStatsCan#loc3> <http://ontology.eil.utoronto.ca/tove/organization#hasIdentifier> "loc3" .
 <https://codelist.commonapproach.org/LocalityStatsCan#loc3> <http://www.w3.org/2004/02/skos/core#definition> "A small population centres, with a population between 1,000 and 29,999."@en .
 <https://codelist.commonapproach.org/LocalityStatsCan#loc3> <http://www.w3.org/2004/02/skos/core#notation> "loc3" .
 <https://codelist.commonapproach.org/LocalityStatsCan#loc3> <https://ontology.commonapproach.org/cids#definedBy> <https://ontology.commonapproach.org/cids#statsCan> .
@@ -43,10 +43,10 @@
 <https://codelist.commonapproach.org/LocalityStatsCan#loc3> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://codelist.commonapproach.org/LocalityStatsCan> .
 <https://codelist.commonapproach.org/LocalityStatsCan#loc3> <http://www.w3.org/2004/02/skos/core#inScheme> <https://codelist.commonapproach.org/LocalityStatsCan> .
 <https://codelist.commonapproach.org/LocalityStatsCan#loc4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#Locality> .
-<https://codelist.commonapproach.org/LocalityStatsCan#loc4> <http://www.w3.org/ns/org#hasName> "Rural Areas" .
+<https://codelist.commonapproach.org/LocalityStatsCan#loc4> <http://ontology.eil.utoronto.ca/tove/organization#hasName> "Rural Areas" .
 <https://codelist.commonapproach.org/LocalityStatsCan#loc4> <http://www.w3.org/2004/02/skos/core#prefLabel> "Rural Areas"@en .
 <https://codelist.commonapproach.org/LocalityStatsCan#loc4> <https://ontology.commonapproach.org/cids#hasDescription> "All areas outside population centres are classified as rural areas." .
-<https://codelist.commonapproach.org/LocalityStatsCan#loc4> <http://www.w3.org/ns/org#hasIdentifier> "loc4" .
+<https://codelist.commonapproach.org/LocalityStatsCan#loc4> <http://ontology.eil.utoronto.ca/tove/organization#hasIdentifier> "loc4" .
 <https://codelist.commonapproach.org/LocalityStatsCan#loc4> <http://www.w3.org/2004/02/skos/core#definition> "All areas outside population centres are classified as rural areas."@en .
 <https://codelist.commonapproach.org/LocalityStatsCan#loc4> <http://www.w3.org/2004/02/skos/core#notation> "loc4" .
 <https://codelist.commonapproach.org/LocalityStatsCan#loc4> <https://ontology.commonapproach.org/cids#definedBy> <https://ontology.commonapproach.org/cids#statsCan> .
@@ -54,10 +54,10 @@
 <https://codelist.commonapproach.org/LocalityStatsCan#loc4> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://codelist.commonapproach.org/LocalityStatsCan> .
 <https://codelist.commonapproach.org/LocalityStatsCan#loc4> <http://www.w3.org/2004/02/skos/core#inScheme> <https://codelist.commonapproach.org/LocalityStatsCan> .
 <https://codelist.commonapproach.org/LocalityStatsCan#loc5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#Locality> .
-<https://codelist.commonapproach.org/LocalityStatsCan#loc5> <http://www.w3.org/ns/org#hasName> "Indigenous Communities and Lands" .
+<https://codelist.commonapproach.org/LocalityStatsCan#loc5> <http://ontology.eil.utoronto.ca/tove/organization#hasName> "Indigenous Communities and Lands" .
 <https://codelist.commonapproach.org/LocalityStatsCan#loc5> <http://www.w3.org/2004/02/skos/core#prefLabel> "Indigenous Communities and Lands"@en .
 <https://codelist.commonapproach.org/LocalityStatsCan#loc5> <https://ontology.commonapproach.org/cids#hasDescription> "" .
-<https://codelist.commonapproach.org/LocalityStatsCan#loc5> <http://www.w3.org/ns/org#hasIdentifier> "loc5" .
+<https://codelist.commonapproach.org/LocalityStatsCan#loc5> <http://ontology.eil.utoronto.ca/tove/organization#hasIdentifier> "loc5" .
 <https://codelist.commonapproach.org/LocalityStatsCan#loc5> <http://www.w3.org/2004/02/skos/core#definition> ""@en .
 <https://codelist.commonapproach.org/LocalityStatsCan#loc5> <http://www.w3.org/2004/02/skos/core#notation> "loc5" .
 <https://codelist.commonapproach.org/LocalityStatsCan#loc5> <https://ontology.commonapproach.org/cids#definedBy> <https://ontology.commonapproach.org/cids#statsCan> .
@@ -65,10 +65,10 @@
 <https://codelist.commonapproach.org/LocalityStatsCan#loc5> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://codelist.commonapproach.org/LocalityStatsCan> .
 <https://codelist.commonapproach.org/LocalityStatsCan#loc5> <http://www.w3.org/2004/02/skos/core#inScheme> <https://codelist.commonapproach.org/LocalityStatsCan> .
 <https://codelist.commonapproach.org/LocalityStatsCan#loc6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#Locality> .
-<https://codelist.commonapproach.org/LocalityStatsCan#loc6> <http://www.w3.org/ns/org#hasName> "Northern Canada" .
+<https://codelist.commonapproach.org/LocalityStatsCan#loc6> <http://ontology.eil.utoronto.ca/tove/organization#hasName> "Northern Canada" .
 <https://codelist.commonapproach.org/LocalityStatsCan#loc6> <http://www.w3.org/2004/02/skos/core#prefLabel> "Northern Canada"@en .
 <https://codelist.commonapproach.org/LocalityStatsCan#loc6> <https://ontology.commonapproach.org/cids#hasDescription> "" .
-<https://codelist.commonapproach.org/LocalityStatsCan#loc6> <http://www.w3.org/ns/org#hasIdentifier> "loc6" .
+<https://codelist.commonapproach.org/LocalityStatsCan#loc6> <http://ontology.eil.utoronto.ca/tove/organization#hasIdentifier> "loc6" .
 <https://codelist.commonapproach.org/LocalityStatsCan#loc6> <http://www.w3.org/2004/02/skos/core#definition> ""@en .
 <https://codelist.commonapproach.org/LocalityStatsCan#loc6> <http://www.w3.org/2004/02/skos/core#notation> "loc6" .
 <https://codelist.commonapproach.org/LocalityStatsCan#loc6> <https://ontology.commonapproach.org/cids#definedBy> <https://ontology.commonapproach.org/cids#statsCan> .
@@ -76,10 +76,10 @@
 <https://codelist.commonapproach.org/LocalityStatsCan#loc6> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://codelist.commonapproach.org/LocalityStatsCan> .
 <https://codelist.commonapproach.org/LocalityStatsCan#loc6> <http://www.w3.org/2004/02/skos/core#inScheme> <https://codelist.commonapproach.org/LocalityStatsCan> .
 <https://codelist.commonapproach.org/LocalityStatsCan#loc7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#Locality> .
-<https://codelist.commonapproach.org/LocalityStatsCan#loc7> <http://www.w3.org/ns/org#hasName> "All of Canada" .
+<https://codelist.commonapproach.org/LocalityStatsCan#loc7> <http://ontology.eil.utoronto.ca/tove/organization#hasName> "All of Canada" .
 <https://codelist.commonapproach.org/LocalityStatsCan#loc7> <http://www.w3.org/2004/02/skos/core#prefLabel> "All of Canada"@en .
 <https://codelist.commonapproach.org/LocalityStatsCan#loc7> <https://ontology.commonapproach.org/cids#hasDescription> "" .
-<https://codelist.commonapproach.org/LocalityStatsCan#loc7> <http://www.w3.org/ns/org#hasIdentifier> "loc7" .
+<https://codelist.commonapproach.org/LocalityStatsCan#loc7> <http://ontology.eil.utoronto.ca/tove/organization#hasIdentifier> "loc7" .
 <https://codelist.commonapproach.org/LocalityStatsCan#loc7> <http://www.w3.org/2004/02/skos/core#definition> ""@en .
 <https://codelist.commonapproach.org/LocalityStatsCan#loc7> <http://www.w3.org/2004/02/skos/core#notation> "loc7" .
 <https://codelist.commonapproach.org/LocalityStatsCan#loc7> <https://ontology.commonapproach.org/cids#definedBy> <https://ontology.commonapproach.org/cids#statsCan> .

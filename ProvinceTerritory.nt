@@ -10,7 +10,7 @@
 <https://codelist.commonapproach.org/ProvinceTerritory> <http://purl.org/dc/terms/description> "A codelist vocabulary of Province and Territory Codelists according to Statistics Canada definitions."@en .
 <https://codelist.commonapproach.org/ProvinceTerritory#AB> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#ProvinceTerritory> .
 <https://codelist.commonapproach.org/ProvinceTerritory#AB> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#Locality> .
-<https://codelist.commonapproach.org/ProvinceTerritory#AB> <http://www.w3.org/ns/org#hasName> "Alberta" .
+<https://codelist.commonapproach.org/ProvinceTerritory#AB> <http://ontology.eil.utoronto.ca/tove/organization#hasName> "Alberta" .
 <https://codelist.commonapproach.org/ProvinceTerritory#AB> <http://www.w3.org/2004/02/skos/core#prefLabel> "Alberta"@en .
 <https://codelist.commonapproach.org/ProvinceTerritory#AB> <https://ontology.commonapproach.org/cids#hasIdentifier> "AB" .
 <https://codelist.commonapproach.org/ProvinceTerritory#AB> <http://www.w3.org/2004/02/skos/core#notation> "AB" .
@@ -21,7 +21,7 @@
 <https://codelist.commonapproach.org/ProvinceTerritory#AB> <http://www.w3.org/2004/02/skos/core#inScheme> <https://codelist.commonapproach.org/ProvinceTerritory> .
 <https://codelist.commonapproach.org/ProvinceTerritory#BC> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#ProvinceTerritory> .
 <https://codelist.commonapproach.org/ProvinceTerritory#BC> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#Locality> .
-<https://codelist.commonapproach.org/ProvinceTerritory#BC> <http://www.w3.org/ns/org#hasName> "British Columbia" .
+<https://codelist.commonapproach.org/ProvinceTerritory#BC> <http://ontology.eil.utoronto.ca/tove/organization#hasName> "British Columbia" .
 <https://codelist.commonapproach.org/ProvinceTerritory#BC> <http://www.w3.org/2004/02/skos/core#prefLabel> "British Columbia"@en .
 <https://codelist.commonapproach.org/ProvinceTerritory#BC> <https://ontology.commonapproach.org/cids#hasIdentifier> "BC" .
 <https://codelist.commonapproach.org/ProvinceTerritory#BC> <http://www.w3.org/2004/02/skos/core#notation> "BC" .
@@ -31,7 +31,7 @@
 <https://codelist.commonapproach.org/ProvinceTerritory#BC> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://codelist.commonapproach.org/ProvinceTerritory> .
 <https://codelist.commonapproach.org/ProvinceTerritory#BC> <http://www.w3.org/2004/02/skos/core#inScheme> <https://codelist.commonapproach.org/ProvinceTerritory> .
 <https://codelist.commonapproach.org/ProvinceTerritory#CAN> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#Locality> .
-<https://codelist.commonapproach.org/ProvinceTerritory#CAN> <http://www.w3.org/ns/org#hasName> "All of Canada" .
+<https://codelist.commonapproach.org/ProvinceTerritory#CAN> <http://ontology.eil.utoronto.ca/tove/organization#hasName> "All of Canada" .
 <https://codelist.commonapproach.org/ProvinceTerritory#CAN> <http://www.w3.org/2004/02/skos/core#prefLabel> "All of Canada"@en .
 <https://codelist.commonapproach.org/ProvinceTerritory#CAN> <https://ontology.commonapproach.org/cids#hasIdentifier> "CAN" .
 <https://codelist.commonapproach.org/ProvinceTerritory#CAN> <http://www.w3.org/2004/02/skos/core#notation> "CAN" .
@@ -42,7 +42,7 @@
 <https://codelist.commonapproach.org/ProvinceTerritory#CAN> <http://www.w3.org/2004/02/skos/core#inScheme> <https://codelist.commonapproach.org/ProvinceTerritory> .
 <https://codelist.commonapproach.org/ProvinceTerritory#MB> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#ProvinceTerritory> .
 <https://codelist.commonapproach.org/ProvinceTerritory#MB> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#Locality> .
-<https://codelist.commonapproach.org/ProvinceTerritory#MB> <http://www.w3.org/ns/org#hasName> "Manitoba" .
+<https://codelist.commonapproach.org/ProvinceTerritory#MB> <http://ontology.eil.utoronto.ca/tove/organization#hasName> "Manitoba" .
 <https://codelist.commonapproach.org/ProvinceTerritory#MB> <http://www.w3.org/2004/02/skos/core#prefLabel> "Manitoba"@en .
 <https://codelist.commonapproach.org/ProvinceTerritory#MB> <https://ontology.commonapproach.org/cids#hasIdentifier> "MB" .
 <https://codelist.commonapproach.org/ProvinceTerritory#MB> <http://www.w3.org/2004/02/skos/core#notation> "MB" .
@@ -53,7 +53,7 @@
 <https://codelist.commonapproach.org/ProvinceTerritory#MB> <http://www.w3.org/2004/02/skos/core#inScheme> <https://codelist.commonapproach.org/ProvinceTerritory> .
 <https://codelist.commonapproach.org/ProvinceTerritory#NB> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#ProvinceTerritory> .
 <https://codelist.commonapproach.org/ProvinceTerritory#NB> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#Locality> .
-<https://codelist.commonapproach.org/ProvinceTerritory#NB> <http://www.w3.org/ns/org#hasName> "New Brunswick" .
+<https://codelist.commonapproach.org/ProvinceTerritory#NB> <http://ontology.eil.utoronto.ca/tove/organization#hasName> "New Brunswick" .
 <https://codelist.commonapproach.org/ProvinceTerritory#NB> <http://www.w3.org/2004/02/skos/core#prefLabel> "New Brunswick"@en .
 <https://codelist.commonapproach.org/ProvinceTerritory#NB> <https://ontology.commonapproach.org/cids#hasIdentifier> "NB" .
 <https://codelist.commonapproach.org/ProvinceTerritory#NB> <http://www.w3.org/2004/02/skos/core#notation> "NB" .
@@ -64,7 +64,7 @@
 <https://codelist.commonapproach.org/ProvinceTerritory#NB> <http://www.w3.org/2004/02/skos/core#inScheme> <https://codelist.commonapproach.org/ProvinceTerritory> .
 <https://codelist.commonapproach.org/ProvinceTerritory#NL> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#ProvinceTerritory> .
 <https://codelist.commonapproach.org/ProvinceTerritory#NL> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#Locality> .
-<https://codelist.commonapproach.org/ProvinceTerritory#NL> <http://www.w3.org/ns/org#hasName> "Newfoundland and Labrador" .
+<https://codelist.commonapproach.org/ProvinceTerritory#NL> <http://ontology.eil.utoronto.ca/tove/organization#hasName> "Newfoundland and Labrador" .
 <https://codelist.commonapproach.org/ProvinceTerritory#NL> <http://www.w3.org/2004/02/skos/core#prefLabel> "Newfoundland and Labrador"@en .
 <https://codelist.commonapproach.org/ProvinceTerritory#NL> <https://ontology.commonapproach.org/cids#hasIdentifier> "NL" .
 <https://codelist.commonapproach.org/ProvinceTerritory#NL> <http://www.w3.org/2004/02/skos/core#notation> "NL" .
@@ -75,7 +75,7 @@
 <https://codelist.commonapproach.org/ProvinceTerritory#NL> <http://www.w3.org/2004/02/skos/core#inScheme> <https://codelist.commonapproach.org/ProvinceTerritory> .
 <https://codelist.commonapproach.org/ProvinceTerritory#NS> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#ProvinceTerritory> .
 <https://codelist.commonapproach.org/ProvinceTerritory#NS> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#Locality> .
-<https://codelist.commonapproach.org/ProvinceTerritory#NS> <http://www.w3.org/ns/org#hasName> "Nova Scotia" .
+<https://codelist.commonapproach.org/ProvinceTerritory#NS> <http://ontology.eil.utoronto.ca/tove/organization#hasName> "Nova Scotia" .
 <https://codelist.commonapproach.org/ProvinceTerritory#NS> <http://www.w3.org/2004/02/skos/core#prefLabel> "Nova Scotia"@en .
 <https://codelist.commonapproach.org/ProvinceTerritory#NS> <https://ontology.commonapproach.org/cids#hasIdentifier> "NS" .
 <https://codelist.commonapproach.org/ProvinceTerritory#NS> <http://www.w3.org/2004/02/skos/core#notation> "NS" .
@@ -86,7 +86,7 @@
 <https://codelist.commonapproach.org/ProvinceTerritory#NS> <http://www.w3.org/2004/02/skos/core#inScheme> <https://codelist.commonapproach.org/ProvinceTerritory> .
 <https://codelist.commonapproach.org/ProvinceTerritory#NT> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#ProvinceTerritory> .
 <https://codelist.commonapproach.org/ProvinceTerritory#NT> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#Locality> .
-<https://codelist.commonapproach.org/ProvinceTerritory#NT> <http://www.w3.org/ns/org#hasName> "Northwest Territories" .
+<https://codelist.commonapproach.org/ProvinceTerritory#NT> <http://ontology.eil.utoronto.ca/tove/organization#hasName> "Northwest Territories" .
 <https://codelist.commonapproach.org/ProvinceTerritory#NT> <http://www.w3.org/2004/02/skos/core#prefLabel> "Northwest Territories"@en .
 <https://codelist.commonapproach.org/ProvinceTerritory#NT> <https://ontology.commonapproach.org/cids#hasIdentifier> "NT" .
 <https://codelist.commonapproach.org/ProvinceTerritory#NT> <http://www.w3.org/2004/02/skos/core#notation> "NT" .
@@ -97,7 +97,7 @@
 <https://codelist.commonapproach.org/ProvinceTerritory#NT> <http://www.w3.org/2004/02/skos/core#inScheme> <https://codelist.commonapproach.org/ProvinceTerritory> .
 <https://codelist.commonapproach.org/ProvinceTerritory#NU> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#ProvinceTerritory> .
 <https://codelist.commonapproach.org/ProvinceTerritory#NU> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#Locality> .
-<https://codelist.commonapproach.org/ProvinceTerritory#NU> <http://www.w3.org/ns/org#hasName> "Nunavut" .
+<https://codelist.commonapproach.org/ProvinceTerritory#NU> <http://ontology.eil.utoronto.ca/tove/organization#hasName> "Nunavut" .
 <https://codelist.commonapproach.org/ProvinceTerritory#NU> <http://www.w3.org/2004/02/skos/core#prefLabel> "Nunavut"@en .
 <https://codelist.commonapproach.org/ProvinceTerritory#NU> <https://ontology.commonapproach.org/cids#hasIdentifier> "NU" .
 <https://codelist.commonapproach.org/ProvinceTerritory#NU> <http://www.w3.org/2004/02/skos/core#notation> "NU" .
@@ -108,7 +108,7 @@
 <https://codelist.commonapproach.org/ProvinceTerritory#NU> <http://www.w3.org/2004/02/skos/core#inScheme> <https://codelist.commonapproach.org/ProvinceTerritory> .
 <https://codelist.commonapproach.org/ProvinceTerritory#ON> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#ProvinceTerritory> .
 <https://codelist.commonapproach.org/ProvinceTerritory#ON> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#Locality> .
-<https://codelist.commonapproach.org/ProvinceTerritory#ON> <http://www.w3.org/ns/org#hasName> "Ontario" .
+<https://codelist.commonapproach.org/ProvinceTerritory#ON> <http://ontology.eil.utoronto.ca/tove/organization#hasName> "Ontario" .
 <https://codelist.commonapproach.org/ProvinceTerritory#ON> <http://www.w3.org/2004/02/skos/core#prefLabel> "Ontario"@en .
 <https://codelist.commonapproach.org/ProvinceTerritory#ON> <https://ontology.commonapproach.org/cids#hasIdentifier> "ON" .
 <https://codelist.commonapproach.org/ProvinceTerritory#ON> <http://www.w3.org/2004/02/skos/core#notation> "ON" .
@@ -119,7 +119,7 @@
 <https://codelist.commonapproach.org/ProvinceTerritory#ON> <http://www.w3.org/2004/02/skos/core#inScheme> <https://codelist.commonapproach.org/ProvinceTerritory> .
 <https://codelist.commonapproach.org/ProvinceTerritory#PE> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#ProvinceTerritory> .
 <https://codelist.commonapproach.org/ProvinceTerritory#PE> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#Locality> .
-<https://codelist.commonapproach.org/ProvinceTerritory#PE> <http://www.w3.org/ns/org#hasName> "Prince Edward Island" .
+<https://codelist.commonapproach.org/ProvinceTerritory#PE> <http://ontology.eil.utoronto.ca/tove/organization#hasName> "Prince Edward Island" .
 <https://codelist.commonapproach.org/ProvinceTerritory#PE> <http://www.w3.org/2004/02/skos/core#prefLabel> "Prince Edward Island"@en .
 <https://codelist.commonapproach.org/ProvinceTerritory#PE> <https://ontology.commonapproach.org/cids#hasIdentifier> "PE" .
 <https://codelist.commonapproach.org/ProvinceTerritory#PE> <http://www.w3.org/2004/02/skos/core#notation> "PE" .
@@ -130,7 +130,7 @@
 <https://codelist.commonapproach.org/ProvinceTerritory#PE> <http://www.w3.org/2004/02/skos/core#inScheme> <https://codelist.commonapproach.org/ProvinceTerritory> .
 <https://codelist.commonapproach.org/ProvinceTerritory#QC> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#ProvinceTerritory> .
 <https://codelist.commonapproach.org/ProvinceTerritory#QC> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#Locality> .
-<https://codelist.commonapproach.org/ProvinceTerritory#QC> <http://www.w3.org/ns/org#hasName> "Quebec" .
+<https://codelist.commonapproach.org/ProvinceTerritory#QC> <http://ontology.eil.utoronto.ca/tove/organization#hasName> "Quebec" .
 <https://codelist.commonapproach.org/ProvinceTerritory#QC> <http://www.w3.org/2004/02/skos/core#prefLabel> "Quebec"@en .
 <https://codelist.commonapproach.org/ProvinceTerritory#QC> <https://ontology.commonapproach.org/cids#hasIdentifier> "QC" .
 <https://codelist.commonapproach.org/ProvinceTerritory#QC> <http://www.w3.org/2004/02/skos/core#notation> "QC" .
@@ -141,7 +141,7 @@
 <https://codelist.commonapproach.org/ProvinceTerritory#QC> <http://www.w3.org/2004/02/skos/core#inScheme> <https://codelist.commonapproach.org/ProvinceTerritory> .
 <https://codelist.commonapproach.org/ProvinceTerritory#SK> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#ProvinceTerritory> .
 <https://codelist.commonapproach.org/ProvinceTerritory#SK> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#Locality> .
-<https://codelist.commonapproach.org/ProvinceTerritory#SK> <http://www.w3.org/ns/org#hasName> "Saskatchewan" .
+<https://codelist.commonapproach.org/ProvinceTerritory#SK> <http://ontology.eil.utoronto.ca/tove/organization#hasName> "Saskatchewan" .
 <https://codelist.commonapproach.org/ProvinceTerritory#SK> <http://www.w3.org/2004/02/skos/core#prefLabel> "Saskatchewan"@en .
 <https://codelist.commonapproach.org/ProvinceTerritory#SK> <https://ontology.commonapproach.org/cids#hasIdentifier> "SK" .
 <https://codelist.commonapproach.org/ProvinceTerritory#SK> <http://www.w3.org/2004/02/skos/core#notation> "SK" .
@@ -152,7 +152,7 @@
 <https://codelist.commonapproach.org/ProvinceTerritory#SK> <http://www.w3.org/2004/02/skos/core#inScheme> <https://codelist.commonapproach.org/ProvinceTerritory> .
 <https://codelist.commonapproach.org/ProvinceTerritory#YT> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#ProvinceTerritory> .
 <https://codelist.commonapproach.org/ProvinceTerritory#YT> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#Locality> .
-<https://codelist.commonapproach.org/ProvinceTerritory#YT> <http://www.w3.org/ns/org#hasName> "Yukon" .
+<https://codelist.commonapproach.org/ProvinceTerritory#YT> <http://ontology.eil.utoronto.ca/tove/organization#hasName> "Yukon" .
 <https://codelist.commonapproach.org/ProvinceTerritory#YT> <http://www.w3.org/2004/02/skos/core#prefLabel> "Yukon"@en .
 <https://codelist.commonapproach.org/ProvinceTerritory#YT> <https://ontology.commonapproach.org/cids#hasIdentifier> "YT" .
 <https://codelist.commonapproach.org/ProvinceTerritory#YT> <http://www.w3.org/2004/02/skos/core#notation> "YT" .

@@ -5,12 +5,12 @@
     xmlns:voaf="http://purl.org/vocommons/voaf#"
     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
     xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:org="http://ontology.eil.utoronto.ca/tove/organization#"
     xmlns:owl="http://www.w3.org/2002/07/owl#"
     xmlns:prov="http://www.w3.org/ns/prov#"
     xmlns="https://codelist.commonapproach.org/RallyImpactArea#"
     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
     xmlns:iristheme="https://codelist.commonapproach.org/IRISImpactTheme#"
-    xmlns:org="http://www.w3.org/ns/org#"
     xmlns:xsd="http://www.w3.org/2001/XMLSchema#" > 
   <rdf:Description rdf:about="IRISImpactTheme#MarineResourcesConservationandManagement">
     <skos:inScheme rdf:resource=""/>

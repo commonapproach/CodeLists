@@ -13,7 +13,7 @@
 <https://codelist.commonapproach.org/SELI-GLI> <http://purl.org/dc/terms/description> "Social Equity and Gender-Lens Investment Assessment"@en .
 <https://codelist.commonapproach.org/SELI-GLI#Theme1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#Theme> .
 <https://codelist.commonapproach.org/SELI-GLI#Theme1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
-<https://codelist.commonapproach.org/SELI-GLI#Theme1> <http://www.w3.org/ns/org#hasName> "SELI-GLI Assessment" .
+<https://codelist.commonapproach.org/SELI-GLI#Theme1> <http://ontology.eil.utoronto.ca/tove/organization#hasName> "SELI-GLI Assessment" .
 <https://codelist.commonapproach.org/SELI-GLI#Theme1> <http://www.w3.org/2004/02/skos/core#prefLabel> "SELI-GLI Assessment"@en .
 <https://codelist.commonapproach.org/SELI-GLI#Theme1> <http://www.w3.org/2004/02/skos/core#prefLabel> "Évaluation IOES-IOG"@fr .
 <https://codelist.commonapproach.org/SELI-GLI#Theme1> <http://www.w3.org/2000/01/rdf-schema#label> "SELI-GLI Assessment"@en .
@@ -25,7 +25,7 @@
 <https://codelist.commonapproach.org/SELI-GLI#Theme1> <http://www.w3.org/2004/02/skos/core#inScheme> <https://codelist.commonapproach.org/SELI-GLI> .
 <https://codelist.commonapproach.org/SELI-GLI#Outcome1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#Outcome> .
 <https://codelist.commonapproach.org/SELI-GLI#Outcome1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
-<https://codelist.commonapproach.org/SELI-GLI#Outcome1> <http://www.w3.org/ns/org#hasName> "Mission Alignment" .
+<https://codelist.commonapproach.org/SELI-GLI#Outcome1> <http://ontology.eil.utoronto.ca/tove/organization#hasName> "Mission Alignment" .
 <https://codelist.commonapproach.org/SELI-GLI#Outcome1> <http://www.w3.org/2004/02/skos/core#prefLabel> "Mission Alignment"@en .
 <https://codelist.commonapproach.org/SELI-GLI#Outcome1> <http://www.w3.org/2004/02/skos/core#prefLabel> "Alignement de la mission"@fr .
 <https://codelist.commonapproach.org/SELI-GLI#Outcome1> <http://www.w3.org/2000/01/rdf-schema#label> "Mission Alignment"@en .
@@ -42,7 +42,7 @@
 <https://codelist.commonapproach.org/SELI-GLI#Outcome1> <http://www.w3.org/2004/02/skos/core#inScheme> <https://codelist.commonapproach.org/SELI-GLI> .
 <https://codelist.commonapproach.org/SELI-GLI#Outcome2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#Outcome> .
 <https://codelist.commonapproach.org/SELI-GLI#Outcome2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
-<https://codelist.commonapproach.org/SELI-GLI#Outcome2> <http://www.w3.org/ns/org#hasName> "Leadership" .
+<https://codelist.commonapproach.org/SELI-GLI#Outcome2> <http://ontology.eil.utoronto.ca/tove/organization#hasName> "Leadership" .
 <https://codelist.commonapproach.org/SELI-GLI#Outcome2> <http://www.w3.org/2004/02/skos/core#prefLabel> "Leadership"@en .
 <https://codelist.commonapproach.org/SELI-GLI#Outcome2> <http://www.w3.org/2004/02/skos/core#prefLabel> "Leadership"@fr .
 <https://codelist.commonapproach.org/SELI-GLI#Outcome2> <http://www.w3.org/2000/01/rdf-schema#label> "Leadership"@en .
@@ -58,7 +58,7 @@
 <https://codelist.commonapproach.org/SELI-GLI#Outcome2> <http://www.w3.org/2004/02/skos/core#inScheme> <https://codelist.commonapproach.org/SELI-GLI> .
 <https://codelist.commonapproach.org/SELI-GLI#Outcome3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#Outcome> .
 <https://codelist.commonapproach.org/SELI-GLI#Outcome3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
-<https://codelist.commonapproach.org/SELI-GLI#Outcome3> <http://www.w3.org/ns/org#hasName> "Culture and Practices" .
+<https://codelist.commonapproach.org/SELI-GLI#Outcome3> <http://ontology.eil.utoronto.ca/tove/organization#hasName> "Culture and Practices" .
 <https://codelist.commonapproach.org/SELI-GLI#Outcome3> <http://www.w3.org/2004/02/skos/core#prefLabel> "Culture and Practices"@en .
 <https://codelist.commonapproach.org/SELI-GLI#Outcome3> <http://www.w3.org/2004/02/skos/core#prefLabel> "Culture et pratiques organisationnelles"@fr .
 <https://codelist.commonapproach.org/SELI-GLI#Outcome3> <http://www.w3.org/2000/01/rdf-schema#label> "Culture and Practices"@en .
@@ -72,7 +72,7 @@
 <https://codelist.commonapproach.org/SELI-GLI#Outcome3> <http://www.w3.org/2004/02/skos/core#inScheme> <https://codelist.commonapproach.org/SELI-GLI> .
 <https://codelist.commonapproach.org/SELI-GLI#Outcome4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#Outcome> .
 <https://codelist.commonapproach.org/SELI-GLI#Outcome4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
-<https://codelist.commonapproach.org/SELI-GLI#Outcome4> <http://www.w3.org/ns/org#hasName> "Indigenous Reconciliation" .
+<https://codelist.commonapproach.org/SELI-GLI#Outcome4> <http://ontology.eil.utoronto.ca/tove/organization#hasName> "Indigenous Reconciliation" .
 <https://codelist.commonapproach.org/SELI-GLI#Outcome4> <http://www.w3.org/2004/02/skos/core#prefLabel> "Indigenous Reconciliation"@en .
 <https://codelist.commonapproach.org/SELI-GLI#Outcome4> <http://www.w3.org/2004/02/skos/core#prefLabel> "Réconciliation avec les Peuples Autochtones"@fr .
 <https://codelist.commonapproach.org/SELI-GLI#Outcome4> <http://www.w3.org/2000/01/rdf-schema#label> "Indigenous Reconciliation"@en .
@@ -86,7 +86,7 @@
 <https://codelist.commonapproach.org/SELI-GLI#Outcome4> <http://www.w3.org/2004/02/skos/core#inScheme> <https://codelist.commonapproach.org/SELI-GLI> .
 <https://codelist.commonapproach.org/SELI-GLI#Outcome5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#Outcome> .
 <https://codelist.commonapproach.org/SELI-GLI#Outcome5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
-<https://codelist.commonapproach.org/SELI-GLI#Outcome5> <http://www.w3.org/ns/org#hasName> "Aggregate SELI and GLI classification" .
+<https://codelist.commonapproach.org/SELI-GLI#Outcome5> <http://ontology.eil.utoronto.ca/tove/organization#hasName> "Aggregate SELI and GLI classification" .
 <https://codelist.commonapproach.org/SELI-GLI#Outcome5> <http://www.w3.org/2004/02/skos/core#prefLabel> "Aggregate SELI and GLI classification"@en .
 <https://codelist.commonapproach.org/SELI-GLI#Outcome5> <http://www.w3.org/2004/02/skos/core#prefLabel> "Classification globale SELI et GLI"@fr .
 <https://codelist.commonapproach.org/SELI-GLI#Outcome5> <http://www.w3.org/2000/01/rdf-schema#label> "Aggregate SELI and GLI classification"@en .
@@ -101,7 +101,7 @@
 <https://codelist.commonapproach.org/SELI-GLI#Outcome5> <http://www.w3.org/2004/02/skos/core#inScheme> <https://codelist.commonapproach.org/SELI-GLI> .
 <https://codelist.commonapproach.org/SELI-GLI#Indicator1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#Indicator> .
 <https://codelist.commonapproach.org/SELI-GLI#Indicator1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
-<https://codelist.commonapproach.org/SELI-GLI#Indicator1> <http://www.w3.org/ns/org#hasName> "Are your products/services designed to support equity-deserving groups, and promote social equity?" .
+<https://codelist.commonapproach.org/SELI-GLI#Indicator1> <http://ontology.eil.utoronto.ca/tove/organization#hasName> "Are your products/services designed to support equity-deserving groups, and promote social equity?" .
 <https://codelist.commonapproach.org/SELI-GLI#Indicator1> <http://www.w3.org/2004/02/skos/core#prefLabel> "Are your products/services designed to support equity-deserving groups, and promote social equity?"@en .
 <https://codelist.commonapproach.org/SELI-GLI#Indicator1> <http://www.w3.org/2004/02/skos/core#prefLabel> "Vos produits/services sont-ils conçus pour soutenir les groupes méritant l'équité et promouvoir l'équité sociale ?"@fr .
 <https://codelist.commonapproach.org/SELI-GLI#Indicator1> <http://www.w3.org/2000/01/rdf-schema#label> "Are your products/services designed to support equity-deserving groups, and promote social equity?"@en .
@@ -119,7 +119,7 @@
 <https://codelist.commonapproach.org/SELI-GLI#Indicator1> <http://www.w3.org/2004/02/skos/core#inScheme> <https://codelist.commonapproach.org/SELI-GLI> .
 <https://codelist.commonapproach.org/SELI-GLI#Indicator2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#Indicator> .
 <https://codelist.commonapproach.org/SELI-GLI#Indicator2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
-<https://codelist.commonapproach.org/SELI-GLI#Indicator2> <http://www.w3.org/ns/org#hasName> "Are your products/services designed to support women or/and gender-diverse people, and promote gender equality?" .
+<https://codelist.commonapproach.org/SELI-GLI#Indicator2> <http://ontology.eil.utoronto.ca/tove/organization#hasName> "Are your products/services designed to support women or/and gender-diverse people, and promote gender equality?" .
 <https://codelist.commonapproach.org/SELI-GLI#Indicator2> <http://www.w3.org/2004/02/skos/core#prefLabel> "Are your products/services designed to support women or/and gender-diverse people, and promote gender equality?"@en .
 <https://codelist.commonapproach.org/SELI-GLI#Indicator2> <http://www.w3.org/2004/02/skos/core#prefLabel> "Vos produits/services sont-ils conçus pour soutenir les femmes et/ou les  personnes de diverses identités de genre, et faire avancer l'égalité des genres?"@fr .
 <https://codelist.commonapproach.org/SELI-GLI#Indicator2> <http://www.w3.org/2000/01/rdf-schema#label> "Are your products/services designed to support women or/and gender-diverse people, and promote gender equality?"@en .
@@ -137,7 +137,7 @@
 <https://codelist.commonapproach.org/SELI-GLI#Indicator2> <http://www.w3.org/2004/02/skos/core#inScheme> <https://codelist.commonapproach.org/SELI-GLI> .
 <https://codelist.commonapproach.org/SELI-GLI#Indicator3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#Indicator> .
 <https://codelist.commonapproach.org/SELI-GLI#Indicator3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
-<https://codelist.commonapproach.org/SELI-GLI#Indicator3> <http://www.w3.org/ns/org#hasName> "Do you integrate a social equity analysis while developing your prodcts/services?" .
+<https://codelist.commonapproach.org/SELI-GLI#Indicator3> <http://ontology.eil.utoronto.ca/tove/organization#hasName> "Do you integrate a social equity analysis while developing your prodcts/services?" .
 <https://codelist.commonapproach.org/SELI-GLI#Indicator3> <http://www.w3.org/2004/02/skos/core#prefLabel> "Do you integrate a social equity analysis while developing your prodcts/services?"@en .
 <https://codelist.commonapproach.org/SELI-GLI#Indicator3> <http://www.w3.org/2004/02/skos/core#prefLabel> "Intégrez-vous une analyse d'équité sociale lors du développement de vos produits et/ou services?"@fr .
 <https://codelist.commonapproach.org/SELI-GLI#Indicator3> <http://www.w3.org/2000/01/rdf-schema#label> "Do you integrate a social equity analysis while developing your prodcts/services?"@en .
@@ -155,7 +155,7 @@
 <https://codelist.commonapproach.org/SELI-GLI#Indicator3> <http://www.w3.org/2004/02/skos/core#inScheme> <https://codelist.commonapproach.org/SELI-GLI> .
 <https://codelist.commonapproach.org/SELI-GLI#Indicator4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#Indicator> .
 <https://codelist.commonapproach.org/SELI-GLI#Indicator4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
-<https://codelist.commonapproach.org/SELI-GLI#Indicator4> <http://www.w3.org/ns/org#hasName> "Do you integrate a gender analysis while developing your products/services?" .
+<https://codelist.commonapproach.org/SELI-GLI#Indicator4> <http://ontology.eil.utoronto.ca/tove/organization#hasName> "Do you integrate a gender analysis while developing your products/services?" .
 <https://codelist.commonapproach.org/SELI-GLI#Indicator4> <http://www.w3.org/2004/02/skos/core#prefLabel> "Do you integrate a gender analysis while developing your products/services?"@en .
 <https://codelist.commonapproach.org/SELI-GLI#Indicator4> <http://www.w3.org/2004/02/skos/core#prefLabel> "Intégrez-vous une analyse de genre lors du développement de vos produits et services?"@fr .
 <https://codelist.commonapproach.org/SELI-GLI#Indicator4> <http://www.w3.org/2000/01/rdf-schema#label> "Do you integrate a gender analysis while developing your products/services?"@en .
@@ -173,7 +173,7 @@
 <https://codelist.commonapproach.org/SELI-GLI#Indicator4> <http://www.w3.org/2004/02/skos/core#inScheme> <https://codelist.commonapproach.org/SELI-GLI> .
 <https://codelist.commonapproach.org/SELI-GLI#Indicator5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#Indicator> .
 <https://codelist.commonapproach.org/SELI-GLI#Indicator5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
-<https://codelist.commonapproach.org/SELI-GLI#Indicator5> <http://www.w3.org/ns/org#hasName> "Is your leadership* (i.e. founder, owner, and/or senior management) composed of member(s) of an equity-deserving group?" .
+<https://codelist.commonapproach.org/SELI-GLI#Indicator5> <http://ontology.eil.utoronto.ca/tove/organization#hasName> "Is your leadership* (i.e. founder, owner, and/or senior management) composed of member(s) of an equity-deserving group?" .
 <https://codelist.commonapproach.org/SELI-GLI#Indicator5> <http://www.w3.org/2004/02/skos/core#prefLabel> "Is your leadership* (i.e. founder, owner, and/or senior management) composed of member(s) of an equity-deserving group?"@en .
 <https://codelist.commonapproach.org/SELI-GLI#Indicator5> <http://www.w3.org/2004/02/skos/core#prefLabel> "Votre leadership* (c'est-à-dire le fondateur, le propriétaire et/ou les cadres supérieurs) est-il composé de membre(s) issues de groupes méritant l'équité?"@fr .
 <https://codelist.commonapproach.org/SELI-GLI#Indicator5> <http://www.w3.org/2000/01/rdf-schema#label> "Is your leadership* (i.e. founder, owner, and/or senior management) composed of member(s) of an equity-deserving group?"@en .
@@ -191,7 +191,7 @@
 <https://codelist.commonapproach.org/SELI-GLI#Indicator5> <http://www.w3.org/2004/02/skos/core#inScheme> <https://codelist.commonapproach.org/SELI-GLI> .
 <https://codelist.commonapproach.org/SELI-GLI#Indicator6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#Indicator> .
 <https://codelist.commonapproach.org/SELI-GLI#Indicator6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
-<https://codelist.commonapproach.org/SELI-GLI#Indicator6> <http://www.w3.org/ns/org#hasName> "Is your leadership* (i.e. founder, owner, and/or senior management) composed of women or/and gender-diverse people?" .
+<https://codelist.commonapproach.org/SELI-GLI#Indicator6> <http://ontology.eil.utoronto.ca/tove/organization#hasName> "Is your leadership* (i.e. founder, owner, and/or senior management) composed of women or/and gender-diverse people?" .
 <https://codelist.commonapproach.org/SELI-GLI#Indicator6> <http://www.w3.org/2004/02/skos/core#prefLabel> "Is your leadership* (i.e. founder, owner, and/or senior management) composed of women or/and gender-diverse people?"@en .
 <https://codelist.commonapproach.org/SELI-GLI#Indicator6> <http://www.w3.org/2004/02/skos/core#prefLabel> "Votre leadership* (c'est-à-dire le fondateur, le propriétaire et/ou les cadres supérieurs)  est-il composé de femmes ou/et de personnes de diverses identités de genre ?"@fr .
 <https://codelist.commonapproach.org/SELI-GLI#Indicator6> <http://www.w3.org/2000/01/rdf-schema#label> "Is your leadership* (i.e. founder, owner, and/or senior management) composed of women or/and gender-diverse people?"@en .
@@ -209,7 +209,7 @@
 <https://codelist.commonapproach.org/SELI-GLI#Indicator6> <http://www.w3.org/2004/02/skos/core#inScheme> <https://codelist.commonapproach.org/SELI-GLI> .
 <https://codelist.commonapproach.org/SELI-GLI#Indicator7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#Indicator> .
 <https://codelist.commonapproach.org/SELI-GLI#Indicator7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
-<https://codelist.commonapproach.org/SELI-GLI#Indicator7> <http://www.w3.org/ns/org#hasName> "Do you provide formal or/and informal ways for your clients/customers to inform your product design, decision making, etc.?" .
+<https://codelist.commonapproach.org/SELI-GLI#Indicator7> <http://ontology.eil.utoronto.ca/tove/organization#hasName> "Do you provide formal or/and informal ways for your clients/customers to inform your product design, decision making, etc.?" .
 <https://codelist.commonapproach.org/SELI-GLI#Indicator7> <http://www.w3.org/2004/02/skos/core#prefLabel> "Do you provide formal or/and informal ways for your clients/customers to inform your product design, decision making, etc.?"@en .
 <https://codelist.commonapproach.org/SELI-GLI#Indicator7> <http://www.w3.org/2004/02/skos/core#prefLabel> "Offrez-vous à vos clients des moyens formels ou/et informels d'influencer la conception de vos produits, la prise de décision etc. ?"@fr .
 <https://codelist.commonapproach.org/SELI-GLI#Indicator7> <http://www.w3.org/2000/01/rdf-schema#label> "Do you provide formal or/and informal ways for your clients/customers to inform your product design, decision making, etc.?"@en .
@@ -227,7 +227,7 @@
 <https://codelist.commonapproach.org/SELI-GLI#Indicator7> <http://www.w3.org/2004/02/skos/core#inScheme> <https://codelist.commonapproach.org/SELI-GLI> .
 <https://codelist.commonapproach.org/SELI-GLI#Indicator8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#Indicator> .
 <https://codelist.commonapproach.org/SELI-GLI#Indicator8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
-<https://codelist.commonapproach.org/SELI-GLI#Indicator8> <http://www.w3.org/ns/org#hasName> "Have you built meaningful social equity practices within your internal organizational culture? (Assessed only for social purpose organizations in operation for over 2 years and employing 5 full-time staff or more.)" .
+<https://codelist.commonapproach.org/SELI-GLI#Indicator8> <http://ontology.eil.utoronto.ca/tove/organization#hasName> "Have you built meaningful social equity practices within your internal organizational culture? (Assessed only for social purpose organizations in operation for over 2 years and employing 5 full-time staff or more.)" .
 <https://codelist.commonapproach.org/SELI-GLI#Indicator8> <http://www.w3.org/2004/02/skos/core#prefLabel> "Have you built meaningful social equity practices within your internal organizational culture? (Assessed only for social purpose organizations in operation for over 2 years and employing 5 full-time staff or more.)"@en .
 <https://codelist.commonapproach.org/SELI-GLI#Indicator8> <http://www.w3.org/2004/02/skos/core#prefLabel> "Avez-vous mis en place des pratiques d'équité sociale significatives au sein de votre culture organisationnelle ? Vise les organismes à vocation sociale opérationnels depuis plus de 2 ans et embauchant 5 employés à temps plein ou plus."@fr .
 <https://codelist.commonapproach.org/SELI-GLI#Indicator8> <http://www.w3.org/2000/01/rdf-schema#label> "Have you built meaningful social equity practices within your internal organizational culture? (Assessed only for social purpose organizations in operation for over 2 years and employing 5 full-time staff or more.)"@en .
@@ -245,7 +245,7 @@
 <https://codelist.commonapproach.org/SELI-GLI#Indicator8> <http://www.w3.org/2004/02/skos/core#inScheme> <https://codelist.commonapproach.org/SELI-GLI> .
 <https://codelist.commonapproach.org/SELI-GLI#Indicator9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#Indicator> .
 <https://codelist.commonapproach.org/SELI-GLI#Indicator9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
-<https://codelist.commonapproach.org/SELI-GLI#Indicator9> <http://www.w3.org/ns/org#hasName> "How do you advance Indigenous Reconciliation within your work? (Not for assessment as part of SELI/GLI Thresholds)" .
+<https://codelist.commonapproach.org/SELI-GLI#Indicator9> <http://ontology.eil.utoronto.ca/tove/organization#hasName> "How do you advance Indigenous Reconciliation within your work? (Not for assessment as part of SELI/GLI Thresholds)" .
 <https://codelist.commonapproach.org/SELI-GLI#Indicator9> <http://www.w3.org/2004/02/skos/core#prefLabel> "How do you advance Indigenous Reconciliation within your work? (Not for assessment as part of SELI/GLI Thresholds)"@en .
 <https://codelist.commonapproach.org/SELI-GLI#Indicator9> <http://www.w3.org/2004/02/skos/core#prefLabel> "Comment votre organisation fait-elle progresser la Réconciliation avec les Peuples Autochtones dans le cadre de son travail ? (Non évalué dans le cadre des seuils de l'IOES et de l'IOG)"@fr .
 <https://codelist.commonapproach.org/SELI-GLI#Indicator9> <http://www.w3.org/2000/01/rdf-schema#label> "How do you advance Indigenous Reconciliation within your work? (Not for assessment as part of SELI/GLI Thresholds)"@en .
@@ -258,7 +258,7 @@
 <https://codelist.commonapproach.org/SELI-GLI#Indicator9> <http://www.w3.org/2004/02/skos/core#inScheme> <https://codelist.commonapproach.org/SELI-GLI> .
 <https://codelist.commonapproach.org/SELI-GLI#Indicator10> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#Indicator> .
 <https://codelist.commonapproach.org/SELI-GLI#Indicator10> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
-<https://codelist.commonapproach.org/SELI-GLI#Indicator10> <http://www.w3.org/ns/org#hasName> "Social Equity Lens Investment Assessment" .
+<https://codelist.commonapproach.org/SELI-GLI#Indicator10> <http://ontology.eil.utoronto.ca/tove/organization#hasName> "Social Equity Lens Investment Assessment" .
 <https://codelist.commonapproach.org/SELI-GLI#Indicator10> <http://www.w3.org/2004/02/skos/core#prefLabel> "Social Equity Lens Investment Assessment"@en .
 <https://codelist.commonapproach.org/SELI-GLI#Indicator10> <http://www.w3.org/2004/02/skos/core#prefLabel> "Évaluation de l'investissement dans une Optique d'Équité Sociale"@fr .
 <https://codelist.commonapproach.org/SELI-GLI#Indicator10> <http://www.w3.org/2000/01/rdf-schema#label> "Social Equity Lens Investment Assessment"@en .
@@ -271,7 +271,7 @@
 <https://codelist.commonapproach.org/SELI-GLI#Indicator10> <http://www.w3.org/2004/02/skos/core#inScheme> <https://codelist.commonapproach.org/SELI-GLI> .
 <https://codelist.commonapproach.org/SELI-GLI#Indicator11> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#Indicator> .
 <https://codelist.commonapproach.org/SELI-GLI#Indicator11> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
-<https://codelist.commonapproach.org/SELI-GLI#Indicator11> <http://www.w3.org/ns/org#hasName> "Gender Lens Investment Assessment" .
+<https://codelist.commonapproach.org/SELI-GLI#Indicator11> <http://ontology.eil.utoronto.ca/tove/organization#hasName> "Gender Lens Investment Assessment" .
 <https://codelist.commonapproach.org/SELI-GLI#Indicator11> <http://www.w3.org/2004/02/skos/core#prefLabel> "Gender Lens Investment Assessment"@en .
 <https://codelist.commonapproach.org/SELI-GLI#Indicator11> <http://www.w3.org/2004/02/skos/core#prefLabel> "Évaluation de l'Investissement dans une Optique de Genre"@fr .
 <https://codelist.commonapproach.org/SELI-GLI#Indicator11> <http://www.w3.org/2000/01/rdf-schema#label> "Gender Lens Investment Assessment"@en .
