@@ -441,10 +441,12 @@ iristheme:WasteManagement
     a skos:Concept, cids:Code ;
     skos:broader iriscategory:Waste ;
 
-    org:hasName "Waste Management" ;
-    skos:prefLabel "Waste Management"@en ;
+    org:hasName "Waste Management & Circularity" ;
+    skos:prefLabel "Waste Management & Circularity"@en ;
     org:hasIdentifier "WasteManagement" ;
     skos:notation "WasteManagement" ;
+    skos:altLabel "Waste Management"@en ; 
+    skos:changeNote "Name updated from 'Waste Management' to 'Waste Management & Circularity' by GIIN in version 5.3c."@en ;
     prov:hadPrimarySource <https://iris.thegiin.org/metrics/> ;
 
     cids:definedBy cids:giin ;
