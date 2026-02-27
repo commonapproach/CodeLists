@@ -12,16 +12,27 @@
 CODELISTS = CanadianCorporateRegistries EquityDeservingGroupsESDC ESDCSector FundingState ICNPOsector IRISImpactCategory IRISImpactTheme IrisMetric53 LocalityStatsCan OrgTypeGOC PopulationServed ProvinceTerritory RallyImpactArea SDGImpacts SELI-GLI SELI-GLI-SFI StatsCanSector UnitsOfMeasureList
 FORMATS  ?= owl jsonld nt csv html
 
-# We use WIDOCO to build HTML versions of the CodeLists. 
+WORK_DIR    = ./work
+SCRIPTS_DIR = $(WORK_DIR)/scripts
+
+# We use Apache JENA riot to build OWL, JSON-LD, and N-triples serializations of the CodeLists.
+# These variables configure a source and version of Apache-jena to intsall
+JENA_VERSION = 5.6.0
+JENA_NAME    = apache-jena-$(JENA_VERSION)
+JENA_TARBALL = $(WORK_DIR)/$(JENA_NAME).tar.gz
+JENA_URL     = https://archive.apache.org/dist/jena/binaries/$(JENA_NAME).tar.gz
+JENA_DIR     = $(SCRIPTS_DIR)/$(JENA_NAME)
+RIOT_BIN     = $(SCRIPTS_DIR)/$(JENA_NAME)/bin/riot
+
+# We use WIDOCO to build HTML serializations of the CodeLists. 
 # These variables configure where and how we invoke Widoco
-WIDOCO_WORK_DIR = ./work
 WIDOCO_OPTIONS  = -rewriteAll -uniteSections -getOntologyMetadata -noPlaceHolderText
 # These variables configure a source and version of Widoco to install
 WIDOCO_VERSION  = 1.4.25
 WIDOCO_JDK      = 11
 WIDOCO_BASE_URL = https://github.com/dgarijo/Widoco/releases/download/v$(WIDOCO_VERSION)
 WIDOCO_JAR      = widoco-$(WIDOCO_VERSION)-jar-with-dependencies_JDK-$(WIDOCO_JDK).jar
-WIDOCO_BIN      = $(WIDOCO_WORK_DIR)/scripts/$(WIDOCO_JAR)
+WIDOCO_BIN      = $(SCRIPTS_DIR)/$(WIDOCO_JAR)
 WIDOCO_URL      = $(WIDOCO_BASE_URL)/$(WIDOCO_JAR)
 ##
 ####
@@ -51,24 +62,24 @@ check-codelist: .checkvar-CODELIST ##@ Basic parsing sanity check with rdflib.
 ####
 ## These targets are the core of the Makefile, calling riot or python commands
 ## to generate alternate serialization formats.
-%.owl: %.ttl
-	riot --output=RDF/XML --base="https://codelist.commonapproach.org/$*#" $< > $@
+%.owl: %.ttl $(RIOT_BIN)
+	$(RIOT_BIN) --output=RDF/XML --base="https://codelist.commonapproach.org/$*#" $< > $@
 
-%.nt: %.ttl
-	riot --output=N-Triples $< > $@
+%.nt: %.ttl $(RIOT_BIN)
+	$(RIOT_BIN) --output=N-Triples $< > $@
 
-%.csv: %.ttl
+%.csv: %.ttl $(RIOT_BIN)
 	python rdflib-csv.py $<
 
-%.jsonld: %.ttl
-	riot --output=JSON-LD $< > $@
+%.jsonld: %.ttl $(RIOT_BIN)
+	$(RIOT_BIN) --output=JSON-LD $< > $@
 
 %.html: %.ttl $(WIDOCO_BIN)
-	@echo "Invoking Widoco to generate HTML docs for $< in $(WIDOCO_WORK_DIR)/$* ..."
-	mkdir -p $(WIDOCO_WORK_DIR)/$*                                                          # Ensure the working directory exists
-	java -jar $(WIDOCO_BIN) $(WIDOCO_OPTIONS) -outFolder $(WIDOCO_WORK_DIR)/$* -ontFile $<  # Invoke Widoco to generate single-page html page
-	mv $(WIDOCO_WORK_DIR)/$*/index-en.html $@                                               # Move it into place
-	sed -i 's!resources/!https://ontology.commonapproach.org/resources/!' $@                # Don't rely on local resources
+	@echo "Invoking Widoco to generate HTML docs for $< in $(WORK_DIR)/$* ..."
+	mkdir -p $(WORK_DIR)/$*                                                          # Ensure the working directory exists
+	java -jar $(WIDOCO_BIN) $(WIDOCO_OPTIONS) -outFolder $(WORK_DIR)/$* -ontFile $<  # Invoke Widoco to generate single-page html page
+	mv $(WORK_DIR)/$*/index-en.html $@                                        # Move it into place
+	sed -i 's!resources/!https://ontology.commonapproach.org/resources/!' $@         # Don't rely on local resources
 
 ##
 ####
@@ -88,11 +99,22 @@ check-codelist: .checkvar-CODELIST ##@ Basic parsing sanity check with rdflib.
 .PHONY: .checkvar
 .checkvar:
 
-# Install Widoco
-$(WIDOCO_WORK_DIR)/scripts:
-	        mkdir -p $(WIDOCO_WORK_DIR)/scripts
+# The entire WORK_DIR should be transient and easy to reproduce with targets in this Makefile.
+clean:
+	rm -rf $(WORK_DIR)
 
-$(WIDOCO_BIN): | $(WIDOCO_WORK_DIR)/scripts
+# Install Widoco
+$(SCRIPTS_DIR):
+	mkdir -p $(WORK_DIR)/scripts
+
+# Install Jena/Riot
+$(RIOT_BIN): | $(SCRIPTS_DIR) $(JENA_TARBALL)
+	tar xvfz $(JENA_TARBALL) --directory=$(SCRIPTS_DIR) 
+
+$(JENA_TARBALL):
+	wget -O $(JENA_TARBALL) $(JENA_URL)
+
+$(WIDOCO_BIN): | $(SCRIPTS_DIR)
 	wget -O $(WIDOCO_BIN) $(WIDOCO_URL)
 
 # Serve the local public folder using a simple Python webserver
