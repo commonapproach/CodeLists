@@ -1,0 +1,1203 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+<link rel="stylesheet" href="https://ontology.commonapproach.org/resources/primer.css" media="screen"/>
+<link rel="stylesheet" href="https://ontology.commonapproach.org/resources/rec.css" media="screen"/>
+<link rel="stylesheet" href="https://ontology.commonapproach.org/resources/extra.css" media="screen"/>
+<link rel="stylesheet" href="https://ontology.commonapproach.org/resources/owl.css" media="screen"/>
+<link rel="stylesheet" href="https://ontology.commonapproach.org/resources/dark.css" media="(prefers-color-scheme: dark)"/>
+<link rel="stylesheet" href="https://ontology.commonapproach.org/resources/light.css" media="(prefers-color-scheme: light)"/>
+<link rel="stylesheet" href="https://ontology.commonapproach.org/resources/slider.css" media="screen"/>
+<meta name="color-scheme" content="dark light">
+<script type="module" src="https://ontology.commonapproach.org/resources/dark-mode-toggle.mjs"></script><div class="darkmode">
+	<dark-mode-toggle class="slider"></dark-mode-toggle>
+</div>
+ <title>Canadian Corporate Registries</title>
+
+
+<!-- SCHEMA.ORG METADATA -->
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"TechArticle","url":"https://codelist.commonapproach.org/CanadianCorporateRegistries","image":"http://vowl.visualdataweb.org/webvowl/#iri=https://codelist.commonapproach.org/CanadianCorporateRegistries","name":"Canadian Corporate Registries", "headline":"Document describing the ontology https://codelist.commonapproach.org/CanadianCorporateRegistries", "dateReleased":"Fri Feb 27 15:56:55 EST 2026", "version":"2.0", "author":[{"@type":"Person","name":"https://ontology.commonapproach.org/cids#ac","url":"https://ontology.commonapproach.org/cids#ac"}]}</script>
+
+<script src="https://ontology.commonapproach.org/resources/jquery.js"></script> 
+<script src="https://ontology.commonapproach.org/resources/marked.min.js"></script> 
+    <script> 
+function loadHash() {
+  jQuery(".markdown").each(function(el){jQuery(this).after(marked.parse(jQuery(this).text())).remove()});
+	var hash = location.hash;
+	if($(hash).offset()!=null){
+	  $('html, body').animate({scrollTop: $(hash).offset().top}, 0);
+}
+	loadTOC();
+}
+function loadTOC(){
+	//process toc dynamically
+	  var t='<h2>Table of contents</h2><ul>';i = 1;j=0;
+	  jQuery(".list").each(function(){
+		if(jQuery(this).is('h2')){
+			if(j>0){
+				t+='</ul>';
+				j=0;
+			}
+			t+= '<li>'+i+'. <a href=#'+ jQuery(this).attr('id')+'>'+ jQuery(this).ignore("span").text()+'</a></li>';
+			i++;
+		}
+		if(jQuery(this).is('h3')){
+			if(j==0){
+				t+='<ul>';
+			}
+			j++;
+			t+= '<li>'+(i-1)+'.'+j+'. '+'<a href=#'+ jQuery(this).attr('id')+'>'+ jQuery(this).ignore("span").text()+'</a></li>';
+		}
+	  });
+	  t+='</ul>';
+	  $("#toc").html(t); 
+}
+$(function(){
+    loadHash();
+}); $.fn.ignore = function(sel){
+        return this.clone().find(sel||">*").remove().end();
+ }; 
+   </script> 
+  </head> 
+
+<body>
+<div class="container">
+<div class="head">
+<div style="float:right">language <a href="index-en.html"><b>en</b></a> </div>
+<h1>Canadian Corporate Registries</h1>
+
+
+<dl>
+<dt>Revision:</dt>
+<dd>2.0</dd>
+<dt>Authors:</dt>
+<dd><a href="https://ontology.commonapproach.org/cids#ac">https://ontology.commonapproach.org/cids#ac</a></dd>
+
+<dt>Download serialization:</dt><dd><span><a href="ontology.jsonld" target="_blank"><img src="https://img.shields.io/badge/Format-JSON_LD-blue.svg" alt="JSON-LD" /></a> </span><span><a href="ontology.owl" target="_blank"><img src="https://img.shields.io/badge/Format-RDF/XML-blue.svg" alt="RDF/XML" /></a> </span><span><a href="ontology.nt" target="_blank"><img src="https://img.shields.io/badge/Format-N_Triples-blue.svg" alt="N-Triples" /></a> </span><span><a href="ontology.ttl" target="_blank"><img src="https://img.shields.io/badge/Format-TTL-blue.svg" alt="TTL" /></a> </span></dd><dt>License:</dt><dd><a href="http://insertlicenseURIhere.example.org" target="_blank"><img src="https://img.shields.io/badge/License-license%20name%20goes%20here-blue.svg" alt="http://insertlicenseURIhere.example.org" /></a>
+</dd><!-- <dt>Evaluation:</dt><dd><a href="OOPSevaluation/oopsEval.html#" target="_blank"><img src="https://img.shields.io/badge/Evaluate_with-OOPS! (OntOlogy Pitfall Scanner!)-blue.svg" alt="Evaluate with OOPS!" /></a></dd> --><dt>Cite as:</dt>
+<dd>https://ontology.commonapproach.org/cids#ac. Canadian Corporate Registries. Revision: 2.0.</dd>
+</dl>
+
+<a href="provenance/provenance-en.html" target="_blank">Provenance of this page</a><hr/>
+</div>
+<div class="status">
+<div>
+<span>Ontology Specification Draft</span>
+</div>
+</div><div id="toc"></div>  
+
+<!--OVERVIEW SECTION-->
+    <div id="overview"><h2 id="overv" class="list">Canadian Corporate Registries: Overview <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>
+<span class="markdown">
+This ontology has the following classes and properties.</span>
+<h4>Named Individuals</h4><ul xmlns:widoco="https://w3id.org/widoco/vocab#"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    class="hlist">
+   <li>
+      <a href="#ab"
+         title="https://codelist.commonapproach.org/CanadianCorporateRegistries#ab">Alberta</a>
+   </li>
+   <li>
+      <a href="#bc"
+         title="https://codelist.commonapproach.org/CanadianCorporateRegistries#bc">British Columbia</a>
+   </li>
+   <li>
+      <a href="#cra"
+         title="https://codelist.commonapproach.org/CanadianCorporateRegistries#cra">Canada Revenue Agency</a>
+   </li>
+   <li>
+      <a href="#"
+         title="https://codelist.commonapproach.org/CanadianCorporateRegistries">
+         <span>Canadian Corporate Registries</span>
+      </a>
+   </li>
+   <li>
+      <a href="#ca"
+         title="https://codelist.commonapproach.org/CanadianCorporateRegistries#ca">Corporations Canada</a>
+   </li>
+   <li>
+      <a href="#mb"
+         title="https://codelist.commonapproach.org/CanadianCorporateRegistries#mb">Manitoba</a>
+   </li>
+   <li>
+      <a href="#nb"
+         title="https://codelist.commonapproach.org/CanadianCorporateRegistries#nb">New Brunswick</a>
+   </li>
+   <li>
+      <a href="#nl"
+         title="https://codelist.commonapproach.org/CanadianCorporateRegistries#nl">Newfoundland and Labrador</a>
+   </li>
+   <li>
+      <a href="#nt"
+         title="https://codelist.commonapproach.org/CanadianCorporateRegistries#nt">Northwest Territories</a>
+   </li>
+   <li>
+      <a href="#ns"
+         title="https://codelist.commonapproach.org/CanadianCorporateRegistries#ns">Nova Scotia</a>
+   </li>
+   <li>
+      <a href="#nu"
+         title="https://codelist.commonapproach.org/CanadianCorporateRegistries#nu">Nunavut</a>
+   </li>
+   <li>
+      <a href="#on"
+         title="https://codelist.commonapproach.org/CanadianCorporateRegistries#on">Ontario</a>
+   </li>
+   <li>
+      <a href="#pe"
+         title="https://codelist.commonapproach.org/CanadianCorporateRegistries#pe">Prince Edward Island</a>
+   </li>
+   <li>
+      <a href="#qc"
+         title="https://codelist.commonapproach.org/CanadianCorporateRegistries#qc">Quebec</a>
+   </li>
+   <li>
+      <a href="#sk"
+         title="https://codelist.commonapproach.org/CanadianCorporateRegistries#sk">Saskatchewan</a>
+   </li>
+   <li>
+      <a href="#yk"
+         title="https://codelist.commonapproach.org/CanadianCorporateRegistries#yk">Yukon</a>
+   </li>
+</ul>
+</div>
+  
+
+<!--DESCRIPTION SECTION-->
+    <div id="description"><h2 id="desc" class="list">Canadian Corporate Registries: Description <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>
+
+<span class="markdown">An RDF vocabulary of Canadian Corporate Registries.</span></div>
+   
+
+<!--CROSSREF SECTION-->
+   <div id="crossref"><h2 id="crossreference" class="list">Cross-reference for Canadian Corporate Registries classes, object properties and data properties <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>
+This section provides details for each class and property defined by Canadian Corporate Registries.
+<div xmlns:widoco="https://w3id.org/widoco/vocab#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="namedindividuals">
+ <h3 id="namedindividuals" class="list">Named Individuals</h3>
+ <ul class="hlist">
+  <li><a href="#ab" title="https://codelist.commonapproach.org/CanadianCorporateRegistries#ab">Alberta</a></li>
+  <li><a href="#bc" title="https://codelist.commonapproach.org/CanadianCorporateRegistries#bc">British Columbia</a></li>
+  <li><a href="#cra" title="https://codelist.commonapproach.org/CanadianCorporateRegistries#cra">Canada Revenue Agency</a></li>
+  <li><a href="#" title="https://codelist.commonapproach.org/CanadianCorporateRegistries"> <span>Canadian Corporate Registries</span> </a></li>
+  <li><a href="#ca" title="https://codelist.commonapproach.org/CanadianCorporateRegistries#ca">Corporations Canada</a></li>
+  <li><a href="#mb" title="https://codelist.commonapproach.org/CanadianCorporateRegistries#mb">Manitoba</a></li>
+  <li><a href="#nb" title="https://codelist.commonapproach.org/CanadianCorporateRegistries#nb">New Brunswick</a></li>
+  <li><a href="#nl" title="https://codelist.commonapproach.org/CanadianCorporateRegistries#nl">Newfoundland and Labrador</a></li>
+  <li><a href="#nt" title="https://codelist.commonapproach.org/CanadianCorporateRegistries#nt">Northwest Territories</a></li>
+  <li><a href="#ns" title="https://codelist.commonapproach.org/CanadianCorporateRegistries#ns">Nova Scotia</a></li>
+  <li><a href="#nu" title="https://codelist.commonapproach.org/CanadianCorporateRegistries#nu">Nunavut</a></li>
+  <li><a href="#on" title="https://codelist.commonapproach.org/CanadianCorporateRegistries#on">Ontario</a></li>
+  <li><a href="#pe" title="https://codelist.commonapproach.org/CanadianCorporateRegistries#pe">Prince Edward Island</a></li>
+  <li><a href="#qc" title="https://codelist.commonapproach.org/CanadianCorporateRegistries#qc">Quebec</a></li>
+  <li><a href="#sk" title="https://codelist.commonapproach.org/CanadianCorporateRegistries#sk">Saskatchewan</a></li>
+  <li><a href="#yk" title="https://codelist.commonapproach.org/CanadianCorporateRegistries#yk">Yukon</a></li>
+ </ul>
+ <div class="entity" id="ab">
+  <h3>Alberta<sup class="type-ni" title="named individual">ni</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a> </span></h3>
+  <p><strong>IRI:</strong> https://codelist.commonapproach.org/CanadianCorporateRegistries#ab</p>
+  <div class="comment">
+   <span class="markdown">Alberta Corporate Registry</span>
+  </div>
+  <dl class="definedBy">
+   <dt>
+    Is defined by
+   </dt>
+   <dd>
+    <a href="https://codelist.commonapproach.org/CanadianCorporateRegistries">https://codelist.commonapproach.org/CanadianCorporateRegistries</a>
+   </dd>
+  </dl>
+  <dl class="description">
+   <dt>
+    belongs to
+   </dt>
+   <dd>
+    <a href="http://ontology.eil.utoronto.ca/tove/organization#Organization" target="_blank" title="http://ontology.eil.utoronto.ca/tove/organization#Organization">Organization</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#Concept" target="_blank" title="http://www.w3.org/2004/02/skos/core#Concept">Concept</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#Code" target="_blank" title="https://ontology.commonapproach.org/cids#Code">Code</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#Organization" target="_blank" title="https://ontology.commonapproach.org/cids#Organization">Organization</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+   <dt>
+    has facts
+   </dt>
+   <dd>
+    <a href="http://ontology.eil.utoronto.ca/tove/organization#hasIdentifier" target="_blank" title="http://ontology.eil.utoronto.ca/tove/organization#hasIdentifier">has Identifier</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"ab"</span>
+   </dd>
+   <dd>
+    <a href="http://ontology.eil.utoronto.ca/tove/organization#hasLegalName" target="_blank" title="http://ontology.eil.utoronto.ca/tove/organization#hasLegalName">has Legal Name</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"Alberta"@en</span>
+   </dd>
+   <dd>
+    <a href="http://ontology.eil.utoronto.ca/tove/organization#hasName" target="_blank" title="http://ontology.eil.utoronto.ca/tove/organization#hasName">has Name</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"Alberta"</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#definition" target="_blank" title="http://www.w3.org/2004/02/skos/core#definition">definition</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"Alberta Corporate Registry"@en</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#notation" target="_blank" title="http://www.w3.org/2004/02/skos/core#notation">notation</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"ab"</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#prefLabel" target="_blank" title="http://www.w3.org/2004/02/skos/core#prefLabel">pref Label</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"Alberta"@en</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/ns/prov#hadPrimarySource" target="_blank" title="http://www.w3.org/ns/prov#hadPrimarySource">had Primary Source</a> <sup class="type-ap" title="annotation property">ap</sup> <a href="https://www.alberta.ca/business-licence-or-charitable-registration-in-alberta" target="_blank" title="https://www.alberta.ca/business-licence-or-charitable-registration-in-alberta">business licence or charitable registration in alberta</a> <sup class="type-ep" title="external property">ep</sup>
+   </dd>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#definedBy" target="_blank" title="https://ontology.commonapproach.org/cids#definedBy">defined By</a> <sup class="type-ap" title="annotation property">ap</sup> <a href="https://ontology.commonapproach.org/cids#esdc" target="_blank" title="https://ontology.commonapproach.org/cids#esdc">esdc</a> <sup class="type-ep" title="external property">ep</sup>
+   </dd>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#hasDescription" target="_blank" title="https://ontology.commonapproach.org/cids#hasDescription">has Description</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"Alberta Corporate Registry"</span>
+   </dd>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#hasSpecification" target="_blank" title="https://ontology.commonapproach.org/cids#hasSpecification">has Specification</a> <sup class="type-ap" title="annotation property">ap</sup> <a href="#d4e3" title="https://codelist.commonapproach.org/CanadianCorporateRegistries">Canadian Corporate Registries</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+  </dl>
+ </div>
+ <div class="entity" id="bc">
+  <h3>British Columbia<sup class="type-ni" title="named individual">ni</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a> </span></h3>
+  <p><strong>IRI:</strong> https://codelist.commonapproach.org/CanadianCorporateRegistries#bc</p>
+  <div class="comment">
+   <span class="markdown">BC Registries and Online Services</span>
+  </div>
+  <dl class="definedBy">
+   <dt>
+    Is defined by
+   </dt>
+   <dd>
+    <a href="https://codelist.commonapproach.org/CanadianCorporateRegistries">https://codelist.commonapproach.org/CanadianCorporateRegistries</a>
+   </dd>
+  </dl>
+  <dl class="description">
+   <dt>
+    belongs to
+   </dt>
+   <dd>
+    <a href="http://ontology.eil.utoronto.ca/tove/organization#Organization" target="_blank" title="http://ontology.eil.utoronto.ca/tove/organization#Organization">Organization</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#Concept" target="_blank" title="http://www.w3.org/2004/02/skos/core#Concept">Concept</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#Code" target="_blank" title="https://ontology.commonapproach.org/cids#Code">Code</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#Organization" target="_blank" title="https://ontology.commonapproach.org/cids#Organization">Organization</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+   <dt>
+    has facts
+   </dt>
+   <dd>
+    <a href="http://ontology.eil.utoronto.ca/tove/organization#hasIdentifier" target="_blank" title="http://ontology.eil.utoronto.ca/tove/organization#hasIdentifier">has Identifier</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"bc"</span>
+   </dd>
+   <dd>
+    <a href="http://ontology.eil.utoronto.ca/tove/organization#hasLegalName" target="_blank" title="http://ontology.eil.utoronto.ca/tove/organization#hasLegalName">has Legal Name</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"British Columbia"@en</span>
+   </dd>
+   <dd>
+    <a href="http://ontology.eil.utoronto.ca/tove/organization#hasName" target="_blank" title="http://ontology.eil.utoronto.ca/tove/organization#hasName">has Name</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"British Columbia"</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#definition" target="_blank" title="http://www.w3.org/2004/02/skos/core#definition">definition</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"BC Registries and Online Services"@en</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#notation" target="_blank" title="http://www.w3.org/2004/02/skos/core#notation">notation</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"bc"</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#prefLabel" target="_blank" title="http://www.w3.org/2004/02/skos/core#prefLabel">pref Label</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"British Columbia"@en</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/ns/prov#hadPrimarySource" target="_blank" title="http://www.w3.org/ns/prov#hadPrimarySource">had Primary Source</a> <sup class="type-ap" title="annotation property">ap</sup> <a href="https://www2.gov.bc.ca/gov/content/governments/organizational-structure/ministries-organizations/ministries/citizens-services/bc-registries-online-services" target="_blank" title="https://www2.gov.bc.ca/gov/content/governments/organizational-structure/ministries-organizations/ministries/citizens-services/bc-registries-online-services">bc registries online services</a> <sup class="type-ep" title="external property">ep</sup>
+   </dd>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#definedBy" target="_blank" title="https://ontology.commonapproach.org/cids#definedBy">defined By</a> <sup class="type-ap" title="annotation property">ap</sup> <a href="https://ontology.commonapproach.org/cids#esdc" target="_blank" title="https://ontology.commonapproach.org/cids#esdc">esdc</a> <sup class="type-ep" title="external property">ep</sup>
+   </dd>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#hasDescription" target="_blank" title="https://ontology.commonapproach.org/cids#hasDescription">has Description</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"BC Registries and Online Services"</span>
+   </dd>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#hasSpecification" target="_blank" title="https://ontology.commonapproach.org/cids#hasSpecification">has Specification</a> <sup class="type-ap" title="annotation property">ap</sup> <a href="#d4e3" title="https://codelist.commonapproach.org/CanadianCorporateRegistries">Canadian Corporate Registries</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+  </dl>
+ </div>
+ <div class="entity" id="cra">
+  <h3>Canada Revenue Agency<sup class="type-ni" title="named individual">ni</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a> </span></h3>
+  <p><strong>IRI:</strong> https://codelist.commonapproach.org/CanadianCorporateRegistries#cra</p>
+  <div class="comment">
+   <span class="markdown">Canada Revenue Agency</span>
+  </div>
+  <dl class="definedBy">
+   <dt>
+    Is defined by
+   </dt>
+   <dd>
+    <a href="https://codelist.commonapproach.org/CanadianCorporateRegistries">https://codelist.commonapproach.org/CanadianCorporateRegistries</a>
+   </dd>
+  </dl>
+  <dl class="description">
+   <dt>
+    belongs to
+   </dt>
+   <dd>
+    <a href="http://ontology.eil.utoronto.ca/tove/organization#Organization" target="_blank" title="http://ontology.eil.utoronto.ca/tove/organization#Organization">Organization</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#Concept" target="_blank" title="http://www.w3.org/2004/02/skos/core#Concept">Concept</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#Code" target="_blank" title="https://ontology.commonapproach.org/cids#Code">Code</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#Organization" target="_blank" title="https://ontology.commonapproach.org/cids#Organization">Organization</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+   <dt>
+    has facts
+   </dt>
+   <dd>
+    <a href="http://ontology.eil.utoronto.ca/tove/organization#hasIdentifier" target="_blank" title="http://ontology.eil.utoronto.ca/tove/organization#hasIdentifier">has Identifier</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"cra"</span>
+   </dd>
+   <dd>
+    <a href="http://ontology.eil.utoronto.ca/tove/organization#hasLegalName" target="_blank" title="http://ontology.eil.utoronto.ca/tove/organization#hasLegalName">has Legal Name</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"Canada Revenue Agency"@en</span>
+   </dd>
+   <dd>
+    <a href="http://ontology.eil.utoronto.ca/tove/organization#hasName" target="_blank" title="http://ontology.eil.utoronto.ca/tove/organization#hasName">has Name</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"Canada Revenue Agency"</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#definition" target="_blank" title="http://www.w3.org/2004/02/skos/core#definition">definition</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"Canada Revenue Agency"@en</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#notation" target="_blank" title="http://www.w3.org/2004/02/skos/core#notation">notation</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"cra"</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#prefLabel" target="_blank" title="http://www.w3.org/2004/02/skos/core#prefLabel">pref Label</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"Canada Revenue Agency"@en</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/ns/prov#hadPrimarySource" target="_blank" title="http://www.w3.org/ns/prov#hadPrimarySource">had Primary Source</a> <sup class="type-ap" title="annotation property">ap</sup> <a href="https://www.canada.ca/en/revenue-agency/" target="_blank" title="https://www.canada.ca/en/revenue-agency/">https://www.canada.ca/en/revenue-agency/</a> <sup class="type-ep" title="external property">ep</sup>
+   </dd>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#definedBy" target="_blank" title="https://ontology.commonapproach.org/cids#definedBy">defined By</a> <sup class="type-ap" title="annotation property">ap</sup> <a href="https://ontology.commonapproach.org/cids#esdc" target="_blank" title="https://ontology.commonapproach.org/cids#esdc">esdc</a> <sup class="type-ep" title="external property">ep</sup>
+   </dd>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#hasDescription" target="_blank" title="https://ontology.commonapproach.org/cids#hasDescription">has Description</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"Canada Revenue Agency"</span>
+   </dd>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#hasSpecification" target="_blank" title="https://ontology.commonapproach.org/cids#hasSpecification">has Specification</a> <sup class="type-ap" title="annotation property">ap</sup> <a href="#d4e3" title="https://codelist.commonapproach.org/CanadianCorporateRegistries">Canadian Corporate Registries</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+  </dl>
+ </div>
+ <div class="entity" id="">
+  <h3>Canadian Corporate Registries<sup class="type-ni" title="named individual">ni</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a> </span></h3>
+  <p><strong>IRI:</strong> https://codelist.commonapproach.org/CanadianCorporateRegistries</p>
+  <dl class="description">
+   <dt>
+    belongs to
+   </dt>
+   <dd>
+    <a href="http://purl.org/vocommons/voaf/Vocabulary" target="_blank" title="http://purl.org/vocommons/voaf/Vocabulary">Vocabulary</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#ConceptScheme" target="_blank" title="http://www.w3.org/2004/02/skos/core#ConceptScheme">Concept Scheme</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+  </dl>
+ </div>
+ <div class="entity" id="ca">
+  <h3>Corporations Canada<sup class="type-ni" title="named individual">ni</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a> </span></h3>
+  <p><strong>IRI:</strong> https://codelist.commonapproach.org/CanadianCorporateRegistries#ca</p>
+  <div class="comment">
+   <span class="markdown">Corporations Canada</span>
+  </div>
+  <dl class="definedBy">
+   <dt>
+    Is defined by
+   </dt>
+   <dd>
+    <a href="https://codelist.commonapproach.org/CanadianCorporateRegistries">https://codelist.commonapproach.org/CanadianCorporateRegistries</a>
+   </dd>
+  </dl>
+  <dl class="description">
+   <dt>
+    belongs to
+   </dt>
+   <dd>
+    <a href="http://ontology.eil.utoronto.ca/tove/organization#Organization" target="_blank" title="http://ontology.eil.utoronto.ca/tove/organization#Organization">Organization</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#Concept" target="_blank" title="http://www.w3.org/2004/02/skos/core#Concept">Concept</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#Code" target="_blank" title="https://ontology.commonapproach.org/cids#Code">Code</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#Organization" target="_blank" title="https://ontology.commonapproach.org/cids#Organization">Organization</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+   <dt>
+    has facts
+   </dt>
+   <dd>
+    <a href="http://ontology.eil.utoronto.ca/tove/organization#hasIdentifier" target="_blank" title="http://ontology.eil.utoronto.ca/tove/organization#hasIdentifier">has Identifier</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"ca"</span>
+   </dd>
+   <dd>
+    <a href="http://ontology.eil.utoronto.ca/tove/organization#hasLegalName" target="_blank" title="http://ontology.eil.utoronto.ca/tove/organization#hasLegalName">has Legal Name</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"Corporations Canada"@en</span>
+   </dd>
+   <dd>
+    <a href="http://ontology.eil.utoronto.ca/tove/organization#hasName" target="_blank" title="http://ontology.eil.utoronto.ca/tove/organization#hasName">has Name</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"Corporations Canada"</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#definition" target="_blank" title="http://www.w3.org/2004/02/skos/core#definition">definition</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"Corporations Canada"@en</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#notation" target="_blank" title="http://www.w3.org/2004/02/skos/core#notation">notation</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"ca"</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#prefLabel" target="_blank" title="http://www.w3.org/2004/02/skos/core#prefLabel">pref Label</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"Corporations Canada"@en</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/ns/prov#hadPrimarySource" target="_blank" title="http://www.w3.org/ns/prov#hadPrimarySource">had Primary Source</a> <sup class="type-ap" title="annotation property">ap</sup> <a href="https://ised-isde.canada.ca/cbr-rec/" target="_blank" title="https://ised-isde.canada.ca/cbr-rec/">https://ised-isde.canada.ca/cbr-rec/</a> <sup class="type-ep" title="external property">ep</sup>
+   </dd>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#definedBy" target="_blank" title="https://ontology.commonapproach.org/cids#definedBy">defined By</a> <sup class="type-ap" title="annotation property">ap</sup> <a href="https://ontology.commonapproach.org/cids#esdc" target="_blank" title="https://ontology.commonapproach.org/cids#esdc">esdc</a> <sup class="type-ep" title="external property">ep</sup>
+   </dd>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#hasDescription" target="_blank" title="https://ontology.commonapproach.org/cids#hasDescription">has Description</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"Corporations Canada"</span>
+   </dd>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#hasSpecification" target="_blank" title="https://ontology.commonapproach.org/cids#hasSpecification">has Specification</a> <sup class="type-ap" title="annotation property">ap</sup> <a href="#d4e3" title="https://codelist.commonapproach.org/CanadianCorporateRegistries">Canadian Corporate Registries</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+  </dl>
+ </div>
+ <div class="entity" id="mb">
+  <h3>Manitoba<sup class="type-ni" title="named individual">ni</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a> </span></h3>
+  <p><strong>IRI:</strong> https://codelist.commonapproach.org/CanadianCorporateRegistries#mb</p>
+  <div class="comment">
+   <span class="markdown">Manitoba Companies Office</span>
+  </div>
+  <dl class="definedBy">
+   <dt>
+    Is defined by
+   </dt>
+   <dd>
+    <a href="https://codelist.commonapproach.org/CanadianCorporateRegistries">https://codelist.commonapproach.org/CanadianCorporateRegistries</a>
+   </dd>
+  </dl>
+  <dl class="description">
+   <dt>
+    belongs to
+   </dt>
+   <dd>
+    <a href="http://ontology.eil.utoronto.ca/tove/organization#Organization" target="_blank" title="http://ontology.eil.utoronto.ca/tove/organization#Organization">Organization</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#Concept" target="_blank" title="http://www.w3.org/2004/02/skos/core#Concept">Concept</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#Code" target="_blank" title="https://ontology.commonapproach.org/cids#Code">Code</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#Organization" target="_blank" title="https://ontology.commonapproach.org/cids#Organization">Organization</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+   <dt>
+    has facts
+   </dt>
+   <dd>
+    <a href="http://ontology.eil.utoronto.ca/tove/organization#hasIdentifier" target="_blank" title="http://ontology.eil.utoronto.ca/tove/organization#hasIdentifier">has Identifier</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"mb"</span>
+   </dd>
+   <dd>
+    <a href="http://ontology.eil.utoronto.ca/tove/organization#hasLegalName" target="_blank" title="http://ontology.eil.utoronto.ca/tove/organization#hasLegalName">has Legal Name</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"Manitoba"@en</span>
+   </dd>
+   <dd>
+    <a href="http://ontology.eil.utoronto.ca/tove/organization#hasName" target="_blank" title="http://ontology.eil.utoronto.ca/tove/organization#hasName">has Name</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"Manitoba"</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#definition" target="_blank" title="http://www.w3.org/2004/02/skos/core#definition">definition</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"Manitoba Companies Office"@en</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#notation" target="_blank" title="http://www.w3.org/2004/02/skos/core#notation">notation</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"mb"</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#prefLabel" target="_blank" title="http://www.w3.org/2004/02/skos/core#prefLabel">pref Label</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"Manitoba"@en</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/ns/prov#hadPrimarySource" target="_blank" title="http://www.w3.org/ns/prov#hadPrimarySource">had Primary Source</a> <sup class="type-ap" title="annotation property">ap</sup> <a href="https://companiesoffice.gov.mb.ca/" target="_blank" title="https://companiesoffice.gov.mb.ca/">https://companiesoffice.gov.mb.ca/</a> <sup class="type-ep" title="external property">ep</sup>
+   </dd>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#definedBy" target="_blank" title="https://ontology.commonapproach.org/cids#definedBy">defined By</a> <sup class="type-ap" title="annotation property">ap</sup> <a href="https://ontology.commonapproach.org/cids#esdc" target="_blank" title="https://ontology.commonapproach.org/cids#esdc">esdc</a> <sup class="type-ep" title="external property">ep</sup>
+   </dd>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#hasDescription" target="_blank" title="https://ontology.commonapproach.org/cids#hasDescription">has Description</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"Manitoba Companies Office"</span>
+   </dd>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#hasSpecification" target="_blank" title="https://ontology.commonapproach.org/cids#hasSpecification">has Specification</a> <sup class="type-ap" title="annotation property">ap</sup> <a href="#d4e3" title="https://codelist.commonapproach.org/CanadianCorporateRegistries">Canadian Corporate Registries</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+  </dl>
+ </div>
+ <div class="entity" id="nb">
+  <h3>New Brunswick<sup class="type-ni" title="named individual">ni</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a> </span></h3>
+  <p><strong>IRI:</strong> https://codelist.commonapproach.org/CanadianCorporateRegistries#nb</p>
+  <div class="comment">
+   <span class="markdown">Corporate Registry - Service New Brunswick</span>
+  </div>
+  <dl class="definedBy">
+   <dt>
+    Is defined by
+   </dt>
+   <dd>
+    <a href="https://codelist.commonapproach.org/CanadianCorporateRegistries">https://codelist.commonapproach.org/CanadianCorporateRegistries</a>
+   </dd>
+  </dl>
+  <dl class="description">
+   <dt>
+    belongs to
+   </dt>
+   <dd>
+    <a href="http://ontology.eil.utoronto.ca/tove/organization#Organization" target="_blank" title="http://ontology.eil.utoronto.ca/tove/organization#Organization">Organization</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#Concept" target="_blank" title="http://www.w3.org/2004/02/skos/core#Concept">Concept</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#Code" target="_blank" title="https://ontology.commonapproach.org/cids#Code">Code</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#Organization" target="_blank" title="https://ontology.commonapproach.org/cids#Organization">Organization</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+   <dt>
+    has facts
+   </dt>
+   <dd>
+    <a href="http://ontology.eil.utoronto.ca/tove/organization#hasIdentifier" target="_blank" title="http://ontology.eil.utoronto.ca/tove/organization#hasIdentifier">has Identifier</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"nb"</span>
+   </dd>
+   <dd>
+    <a href="http://ontology.eil.utoronto.ca/tove/organization#hasLegalName" target="_blank" title="http://ontology.eil.utoronto.ca/tove/organization#hasLegalName">has Legal Name</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"New Brunswick"@en</span>
+   </dd>
+   <dd>
+    <a href="http://ontology.eil.utoronto.ca/tove/organization#hasName" target="_blank" title="http://ontology.eil.utoronto.ca/tove/organization#hasName">has Name</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"New Brunswick"</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#definition" target="_blank" title="http://www.w3.org/2004/02/skos/core#definition">definition</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"Corporate Registry - Service New Brunswick"@en</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#notation" target="_blank" title="http://www.w3.org/2004/02/skos/core#notation">notation</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"nb"</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#prefLabel" target="_blank" title="http://www.w3.org/2004/02/skos/core#prefLabel">pref Label</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"New Brunswick"@en</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/ns/prov#hadPrimarySource" target="_blank" title="http://www.w3.org/ns/prov#hadPrimarySource">had Primary Source</a> <sup class="type-ap" title="annotation property">ap</sup> <a href="https://www2.snb.ca/content/snb/en/sites/corporate-registry.html" target="_blank" title="https://www2.snb.ca/content/snb/en/sites/corporate-registry.html">corporate registry.html</a> <sup class="type-ep" title="external property">ep</sup>
+   </dd>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#definedBy" target="_blank" title="https://ontology.commonapproach.org/cids#definedBy">defined By</a> <sup class="type-ap" title="annotation property">ap</sup> <a href="https://ontology.commonapproach.org/cids#esdc" target="_blank" title="https://ontology.commonapproach.org/cids#esdc">esdc</a> <sup class="type-ep" title="external property">ep</sup>
+   </dd>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#hasDescription" target="_blank" title="https://ontology.commonapproach.org/cids#hasDescription">has Description</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"Corporate Registry - Service New Brunswick"</span>
+   </dd>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#hasSpecification" target="_blank" title="https://ontology.commonapproach.org/cids#hasSpecification">has Specification</a> <sup class="type-ap" title="annotation property">ap</sup> <a href="#d4e3" title="https://codelist.commonapproach.org/CanadianCorporateRegistries">Canadian Corporate Registries</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+  </dl>
+ </div>
+ <div class="entity" id="nl">
+  <h3>Newfoundland and Labrador<sup class="type-ni" title="named individual">ni</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a> </span></h3>
+  <p><strong>IRI:</strong> https://codelist.commonapproach.org/CanadianCorporateRegistries#nl</p>
+  <div class="comment">
+   <span class="markdown">Registry of Companies and Deeds</span>
+  </div>
+  <dl class="definedBy">
+   <dt>
+    Is defined by
+   </dt>
+   <dd>
+    <a href="https://codelist.commonapproach.org/CanadianCorporateRegistries">https://codelist.commonapproach.org/CanadianCorporateRegistries</a>
+   </dd>
+  </dl>
+  <dl class="description">
+   <dt>
+    belongs to
+   </dt>
+   <dd>
+    <a href="http://ontology.eil.utoronto.ca/tove/organization#Organization" target="_blank" title="http://ontology.eil.utoronto.ca/tove/organization#Organization">Organization</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#Concept" target="_blank" title="http://www.w3.org/2004/02/skos/core#Concept">Concept</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#Code" target="_blank" title="https://ontology.commonapproach.org/cids#Code">Code</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#Organization" target="_blank" title="https://ontology.commonapproach.org/cids#Organization">Organization</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+   <dt>
+    has facts
+   </dt>
+   <dd>
+    <a href="http://ontology.eil.utoronto.ca/tove/organization#hasIdentifier" target="_blank" title="http://ontology.eil.utoronto.ca/tove/organization#hasIdentifier">has Identifier</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"nl"</span>
+   </dd>
+   <dd>
+    <a href="http://ontology.eil.utoronto.ca/tove/organization#hasLegalName" target="_blank" title="http://ontology.eil.utoronto.ca/tove/organization#hasLegalName">has Legal Name</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"Newfoundland and Labrador"@en</span>
+   </dd>
+   <dd>
+    <a href="http://ontology.eil.utoronto.ca/tove/organization#hasName" target="_blank" title="http://ontology.eil.utoronto.ca/tove/organization#hasName">has Name</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"Newfoundland and Labrador"</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#definition" target="_blank" title="http://www.w3.org/2004/02/skos/core#definition">definition</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"Registry of Companies and Deeds"@en</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#notation" target="_blank" title="http://www.w3.org/2004/02/skos/core#notation">notation</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"nl"</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#prefLabel" target="_blank" title="http://www.w3.org/2004/02/skos/core#prefLabel">pref Label</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"Newfoundland and Labrador"@en</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/ns/prov#hadPrimarySource" target="_blank" title="http://www.w3.org/ns/prov#hadPrimarySource">had Primary Source</a> <sup class="type-ap" title="annotation property">ap</sup> <a href="https://www.gov.nl.ca/dgsnl/registries/companies/" target="_blank" title="https://www.gov.nl.ca/dgsnl/registries/companies/">https://www.gov.nl.ca/dgsnl/registries/companies/</a> <sup class="type-ep" title="external property">ep</sup>
+   </dd>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#definedBy" target="_blank" title="https://ontology.commonapproach.org/cids#definedBy">defined By</a> <sup class="type-ap" title="annotation property">ap</sup> <a href="https://ontology.commonapproach.org/cids#esdc" target="_blank" title="https://ontology.commonapproach.org/cids#esdc">esdc</a> <sup class="type-ep" title="external property">ep</sup>
+   </dd>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#hasDescription" target="_blank" title="https://ontology.commonapproach.org/cids#hasDescription">has Description</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"Registry of Companies and Deeds"</span>
+   </dd>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#hasSpecification" target="_blank" title="https://ontology.commonapproach.org/cids#hasSpecification">has Specification</a> <sup class="type-ap" title="annotation property">ap</sup> <a href="#d4e3" title="https://codelist.commonapproach.org/CanadianCorporateRegistries">Canadian Corporate Registries</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+  </dl>
+ </div>
+ <div class="entity" id="nt">
+  <h3>Northwest Territories<sup class="type-ni" title="named individual">ni</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a> </span></h3>
+  <p><strong>IRI:</strong> https://codelist.commonapproach.org/CanadianCorporateRegistries#nt</p>
+  <div class="comment">
+   <span class="markdown">Corporate Registries - Department of Justice</span>
+  </div>
+  <dl class="definedBy">
+   <dt>
+    Is defined by
+   </dt>
+   <dd>
+    <a href="https://codelist.commonapproach.org/CanadianCorporateRegistries">https://codelist.commonapproach.org/CanadianCorporateRegistries</a>
+   </dd>
+  </dl>
+  <dl class="description">
+   <dt>
+    belongs to
+   </dt>
+   <dd>
+    <a href="http://ontology.eil.utoronto.ca/tove/organization#Organization" target="_blank" title="http://ontology.eil.utoronto.ca/tove/organization#Organization">Organization</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#Concept" target="_blank" title="http://www.w3.org/2004/02/skos/core#Concept">Concept</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#Code" target="_blank" title="https://ontology.commonapproach.org/cids#Code">Code</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#Organization" target="_blank" title="https://ontology.commonapproach.org/cids#Organization">Organization</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+   <dt>
+    has facts
+   </dt>
+   <dd>
+    <a href="http://ontology.eil.utoronto.ca/tove/organization#hasIdentifier" target="_blank" title="http://ontology.eil.utoronto.ca/tove/organization#hasIdentifier">has Identifier</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"nt"</span>
+   </dd>
+   <dd>
+    <a href="http://ontology.eil.utoronto.ca/tove/organization#hasLegalName" target="_blank" title="http://ontology.eil.utoronto.ca/tove/organization#hasLegalName">has Legal Name</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"Northwest Territories"@en</span>
+   </dd>
+   <dd>
+    <a href="http://ontology.eil.utoronto.ca/tove/organization#hasName" target="_blank" title="http://ontology.eil.utoronto.ca/tove/organization#hasName">has Name</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"Northwest Territories"</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#definition" target="_blank" title="http://www.w3.org/2004/02/skos/core#definition">definition</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"Corporate Registries - Department of Justice"@en</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#notation" target="_blank" title="http://www.w3.org/2004/02/skos/core#notation">notation</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"nt"</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#prefLabel" target="_blank" title="http://www.w3.org/2004/02/skos/core#prefLabel">pref Label</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"Northwest Territories"@en</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/ns/prov#hadPrimarySource" target="_blank" title="http://www.w3.org/ns/prov#hadPrimarySource">had Primary Source</a> <sup class="type-ap" title="annotation property">ap</sup> <a href="https://www.justice.gov.nt.ca/en/boards-agencies/corporate-registries/" target="_blank" title="https://www.justice.gov.nt.ca/en/boards-agencies/corporate-registries/">https://www.justice.gov.nt.ca/en/boards-agencies/corporate-registries/</a> <sup class="type-ep" title="external property">ep</sup>
+   </dd>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#definedBy" target="_blank" title="https://ontology.commonapproach.org/cids#definedBy">defined By</a> <sup class="type-ap" title="annotation property">ap</sup> <a href="https://ontology.commonapproach.org/cids#esdc" target="_blank" title="https://ontology.commonapproach.org/cids#esdc">esdc</a> <sup class="type-ep" title="external property">ep</sup>
+   </dd>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#hasDescription" target="_blank" title="https://ontology.commonapproach.org/cids#hasDescription">has Description</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"Corporate Registries - Department of Justice"</span>
+   </dd>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#hasSpecification" target="_blank" title="https://ontology.commonapproach.org/cids#hasSpecification">has Specification</a> <sup class="type-ap" title="annotation property">ap</sup> <a href="#d4e3" title="https://codelist.commonapproach.org/CanadianCorporateRegistries">Canadian Corporate Registries</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+  </dl>
+ </div>
+ <div class="entity" id="ns">
+  <h3>Nova Scotia<sup class="type-ni" title="named individual">ni</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a> </span></h3>
+  <p><strong>IRI:</strong> https://codelist.commonapproach.org/CanadianCorporateRegistries#ns</p>
+  <div class="comment">
+   <span class="markdown">Nova Scotia Registry of Joint Stock Companies</span>
+  </div>
+  <dl class="definedBy">
+   <dt>
+    Is defined by
+   </dt>
+   <dd>
+    <a href="https://codelist.commonapproach.org/CanadianCorporateRegistries">https://codelist.commonapproach.org/CanadianCorporateRegistries</a>
+   </dd>
+  </dl>
+  <dl class="description">
+   <dt>
+    belongs to
+   </dt>
+   <dd>
+    <a href="http://ontology.eil.utoronto.ca/tove/organization#Organization" target="_blank" title="http://ontology.eil.utoronto.ca/tove/organization#Organization">Organization</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#Concept" target="_blank" title="http://www.w3.org/2004/02/skos/core#Concept">Concept</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#Code" target="_blank" title="https://ontology.commonapproach.org/cids#Code">Code</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#Organization" target="_blank" title="https://ontology.commonapproach.org/cids#Organization">Organization</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+   <dt>
+    has facts
+   </dt>
+   <dd>
+    <a href="http://ontology.eil.utoronto.ca/tove/organization#hasIdentifier" target="_blank" title="http://ontology.eil.utoronto.ca/tove/organization#hasIdentifier">has Identifier</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"ns"</span>
+   </dd>
+   <dd>
+    <a href="http://ontology.eil.utoronto.ca/tove/organization#hasLegalName" target="_blank" title="http://ontology.eil.utoronto.ca/tove/organization#hasLegalName">has Legal Name</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"Nova Scotia"@en</span>
+   </dd>
+   <dd>
+    <a href="http://ontology.eil.utoronto.ca/tove/organization#hasName" target="_blank" title="http://ontology.eil.utoronto.ca/tove/organization#hasName">has Name</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"Nova Scotia"</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#definition" target="_blank" title="http://www.w3.org/2004/02/skos/core#definition">definition</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"Nova Scotia Registry of Joint Stock Companies"@en</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#notation" target="_blank" title="http://www.w3.org/2004/02/skos/core#notation">notation</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"ns"</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#prefLabel" target="_blank" title="http://www.w3.org/2004/02/skos/core#prefLabel">pref Label</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"Nova Scotia"@en</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/ns/prov#hadPrimarySource" target="_blank" title="http://www.w3.org/ns/prov#hadPrimarySource">had Primary Source</a> <sup class="type-ap" title="annotation property">ap</sup> <a href="https://beta.novascotia.ca/programs-and-services/registry-joint-stock-companies" target="_blank" title="https://beta.novascotia.ca/programs-and-services/registry-joint-stock-companies">registry joint stock companies</a> <sup class="type-ep" title="external property">ep</sup>
+   </dd>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#definedBy" target="_blank" title="https://ontology.commonapproach.org/cids#definedBy">defined By</a> <sup class="type-ap" title="annotation property">ap</sup> <a href="https://ontology.commonapproach.org/cids#esdc" target="_blank" title="https://ontology.commonapproach.org/cids#esdc">esdc</a> <sup class="type-ep" title="external property">ep</sup>
+   </dd>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#hasDescription" target="_blank" title="https://ontology.commonapproach.org/cids#hasDescription">has Description</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"Nova Scotia Registry of Joint Stock Companies"</span>
+   </dd>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#hasSpecification" target="_blank" title="https://ontology.commonapproach.org/cids#hasSpecification">has Specification</a> <sup class="type-ap" title="annotation property">ap</sup> <a href="#d4e3" title="https://codelist.commonapproach.org/CanadianCorporateRegistries">Canadian Corporate Registries</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+  </dl>
+ </div>
+ <div class="entity" id="nu">
+  <h3>Nunavut<sup class="type-ni" title="named individual">ni</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a> </span></h3>
+  <p><strong>IRI:</strong> https://codelist.commonapproach.org/CanadianCorporateRegistries#nu</p>
+  <div class="comment">
+   <span class="markdown">Corporate Registries - Department of Justice</span>
+  </div>
+  <dl class="definedBy">
+   <dt>
+    Is defined by
+   </dt>
+   <dd>
+    <a href="https://codelist.commonapproach.org/CanadianCorporateRegistries">https://codelist.commonapproach.org/CanadianCorporateRegistries</a>
+   </dd>
+  </dl>
+  <dl class="description">
+   <dt>
+    belongs to
+   </dt>
+   <dd>
+    <a href="http://ontology.eil.utoronto.ca/tove/organization#Organization" target="_blank" title="http://ontology.eil.utoronto.ca/tove/organization#Organization">Organization</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#Concept" target="_blank" title="http://www.w3.org/2004/02/skos/core#Concept">Concept</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#Code" target="_blank" title="https://ontology.commonapproach.org/cids#Code">Code</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#Organization" target="_blank" title="https://ontology.commonapproach.org/cids#Organization">Organization</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+   <dt>
+    has facts
+   </dt>
+   <dd>
+    <a href="http://ontology.eil.utoronto.ca/tove/organization#hasIdentifier" target="_blank" title="http://ontology.eil.utoronto.ca/tove/organization#hasIdentifier">has Identifier</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"nu"</span>
+   </dd>
+   <dd>
+    <a href="http://ontology.eil.utoronto.ca/tove/organization#hasLegalName" target="_blank" title="http://ontology.eil.utoronto.ca/tove/organization#hasLegalName">has Legal Name</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"Nunavut"@en</span>
+   </dd>
+   <dd>
+    <a href="http://ontology.eil.utoronto.ca/tove/organization#hasName" target="_blank" title="http://ontology.eil.utoronto.ca/tove/organization#hasName">has Name</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"Nunavut"</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#definition" target="_blank" title="http://www.w3.org/2004/02/skos/core#definition">definition</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"Corporate Registries - Department of Justice"@en</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#notation" target="_blank" title="http://www.w3.org/2004/02/skos/core#notation">notation</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"nu"</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#prefLabel" target="_blank" title="http://www.w3.org/2004/02/skos/core#prefLabel">pref Label</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"Nunavut"@en</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/ns/prov#hadPrimarySource" target="_blank" title="http://www.w3.org/ns/prov#hadPrimarySource">had Primary Source</a> <sup class="type-ap" title="annotation property">ap</sup> <a href="https://www.gov.nu.ca/en/department-justice/corporate-and-securities-registries" target="_blank" title="https://www.gov.nu.ca/en/department-justice/corporate-and-securities-registries">corporate and securities registries</a> <sup class="type-ep" title="external property">ep</sup>
+   </dd>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#definedBy" target="_blank" title="https://ontology.commonapproach.org/cids#definedBy">defined By</a> <sup class="type-ap" title="annotation property">ap</sup> <a href="https://ontology.commonapproach.org/cids#esdc" target="_blank" title="https://ontology.commonapproach.org/cids#esdc">esdc</a> <sup class="type-ep" title="external property">ep</sup>
+   </dd>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#hasDescription" target="_blank" title="https://ontology.commonapproach.org/cids#hasDescription">has Description</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"Corporate Registries - Department of Justice"</span>
+   </dd>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#hasSpecification" target="_blank" title="https://ontology.commonapproach.org/cids#hasSpecification">has Specification</a> <sup class="type-ap" title="annotation property">ap</sup> <a href="#d4e3" title="https://codelist.commonapproach.org/CanadianCorporateRegistries">Canadian Corporate Registries</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+  </dl>
+ </div>
+ <div class="entity" id="on">
+  <h3>Ontario<sup class="type-ni" title="named individual">ni</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a> </span></h3>
+  <p><strong>IRI:</strong> https://codelist.commonapproach.org/CanadianCorporateRegistries#on</p>
+  <div class="comment">
+   <span class="markdown">Ontario Business Registry</span>
+  </div>
+  <dl class="definedBy">
+   <dt>
+    Is defined by
+   </dt>
+   <dd>
+    <a href="https://codelist.commonapproach.org/CanadianCorporateRegistries">https://codelist.commonapproach.org/CanadianCorporateRegistries</a>
+   </dd>
+  </dl>
+  <dl class="description">
+   <dt>
+    belongs to
+   </dt>
+   <dd>
+    <a href="http://ontology.eil.utoronto.ca/tove/organization#Organization" target="_blank" title="http://ontology.eil.utoronto.ca/tove/organization#Organization">Organization</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#Concept" target="_blank" title="http://www.w3.org/2004/02/skos/core#Concept">Concept</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#Code" target="_blank" title="https://ontology.commonapproach.org/cids#Code">Code</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#Organization" target="_blank" title="https://ontology.commonapproach.org/cids#Organization">Organization</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+   <dt>
+    has facts
+   </dt>
+   <dd>
+    <a href="http://ontology.eil.utoronto.ca/tove/organization#hasIdentifier" target="_blank" title="http://ontology.eil.utoronto.ca/tove/organization#hasIdentifier">has Identifier</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"on"</span>
+   </dd>
+   <dd>
+    <a href="http://ontology.eil.utoronto.ca/tove/organization#hasLegalName" target="_blank" title="http://ontology.eil.utoronto.ca/tove/organization#hasLegalName">has Legal Name</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"Ontario"@en</span>
+   </dd>
+   <dd>
+    <a href="http://ontology.eil.utoronto.ca/tove/organization#hasName" target="_blank" title="http://ontology.eil.utoronto.ca/tove/organization#hasName">has Name</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"Ontario"</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#definition" target="_blank" title="http://www.w3.org/2004/02/skos/core#definition">definition</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"Ontario Business Registry"@en</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#notation" target="_blank" title="http://www.w3.org/2004/02/skos/core#notation">notation</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"on"</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#prefLabel" target="_blank" title="http://www.w3.org/2004/02/skos/core#prefLabel">pref Label</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"Ontario"@en</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/ns/prov#hadPrimarySource" target="_blank" title="http://www.w3.org/ns/prov#hadPrimarySource">had Primary Source</a> <sup class="type-ap" title="annotation property">ap</sup> <a href="https://www.ontario.ca/page/ontario-business-registry" target="_blank" title="https://www.ontario.ca/page/ontario-business-registry">ontario business registry</a> <sup class="type-ep" title="external property">ep</sup>
+   </dd>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#definedBy" target="_blank" title="https://ontology.commonapproach.org/cids#definedBy">defined By</a> <sup class="type-ap" title="annotation property">ap</sup> <a href="https://ontology.commonapproach.org/cids#esdc" target="_blank" title="https://ontology.commonapproach.org/cids#esdc">esdc</a> <sup class="type-ep" title="external property">ep</sup>
+   </dd>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#hasDescription" target="_blank" title="https://ontology.commonapproach.org/cids#hasDescription">has Description</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"Ontario Business Registry"</span>
+   </dd>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#hasSpecification" target="_blank" title="https://ontology.commonapproach.org/cids#hasSpecification">has Specification</a> <sup class="type-ap" title="annotation property">ap</sup> <a href="#d4e3" title="https://codelist.commonapproach.org/CanadianCorporateRegistries">Canadian Corporate Registries</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+  </dl>
+ </div>
+ <div class="entity" id="pe">
+  <h3>Prince Edward Island<sup class="type-ni" title="named individual">ni</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a> </span></h3>
+  <p><strong>IRI:</strong> https://codelist.commonapproach.org/CanadianCorporateRegistries#pe</p>
+  <div class="comment">
+   <span class="markdown">Corporate Business Names Registry</span>
+  </div>
+  <dl class="definedBy">
+   <dt>
+    Is defined by
+   </dt>
+   <dd>
+    <a href="https://codelist.commonapproach.org/CanadianCorporateRegistries">https://codelist.commonapproach.org/CanadianCorporateRegistries</a>
+   </dd>
+  </dl>
+  <dl class="description">
+   <dt>
+    belongs to
+   </dt>
+   <dd>
+    <a href="http://ontology.eil.utoronto.ca/tove/organization#Organization" target="_blank" title="http://ontology.eil.utoronto.ca/tove/organization#Organization">Organization</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#Concept" target="_blank" title="http://www.w3.org/2004/02/skos/core#Concept">Concept</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#Code" target="_blank" title="https://ontology.commonapproach.org/cids#Code">Code</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#Organization" target="_blank" title="https://ontology.commonapproach.org/cids#Organization">Organization</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+   <dt>
+    has facts
+   </dt>
+   <dd>
+    <a href="http://ontology.eil.utoronto.ca/tove/organization#hasIdentifier" target="_blank" title="http://ontology.eil.utoronto.ca/tove/organization#hasIdentifier">has Identifier</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"pe"</span>
+   </dd>
+   <dd>
+    <a href="http://ontology.eil.utoronto.ca/tove/organization#hasLegalName" target="_blank" title="http://ontology.eil.utoronto.ca/tove/organization#hasLegalName">has Legal Name</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"Prince Edward Island"@en</span>
+   </dd>
+   <dd>
+    <a href="http://ontology.eil.utoronto.ca/tove/organization#hasName" target="_blank" title="http://ontology.eil.utoronto.ca/tove/organization#hasName">has Name</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"Prince Edward Island"</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#definition" target="_blank" title="http://www.w3.org/2004/02/skos/core#definition">definition</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"Corporate Business Names Registry"@en</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#notation" target="_blank" title="http://www.w3.org/2004/02/skos/core#notation">notation</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"pe"</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#prefLabel" target="_blank" title="http://www.w3.org/2004/02/skos/core#prefLabel">pref Label</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"Prince Edward Island"@en</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/ns/prov#hadPrimarySource" target="_blank" title="http://www.w3.org/ns/prov#hadPrimarySource">had Primary Source</a> <sup class="type-ap" title="annotation property">ap</sup> <a href="https://www.princeedwardisland.ca/en/feature/pei-business-corporate-registry/" target="_blank" title="https://www.princeedwardisland.ca/en/feature/pei-business-corporate-registry/">https://www.princeedwardisland.ca/en/feature/pei-business-corporate-registry/</a> <sup class="type-ep" title="external property">ep</sup>
+   </dd>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#definedBy" target="_blank" title="https://ontology.commonapproach.org/cids#definedBy">defined By</a> <sup class="type-ap" title="annotation property">ap</sup> <a href="https://ontology.commonapproach.org/cids#esdc" target="_blank" title="https://ontology.commonapproach.org/cids#esdc">esdc</a> <sup class="type-ep" title="external property">ep</sup>
+   </dd>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#hasDescription" target="_blank" title="https://ontology.commonapproach.org/cids#hasDescription">has Description</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"Corporate Business Names Registry"</span>
+   </dd>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#hasSpecification" target="_blank" title="https://ontology.commonapproach.org/cids#hasSpecification">has Specification</a> <sup class="type-ap" title="annotation property">ap</sup> <a href="#d4e3" title="https://codelist.commonapproach.org/CanadianCorporateRegistries">Canadian Corporate Registries</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+  </dl>
+ </div>
+ <div class="entity" id="qc">
+  <h3>Quebec<sup class="type-ni" title="named individual">ni</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a> </span></h3>
+  <p><strong>IRI:</strong> https://codelist.commonapproach.org/CanadianCorporateRegistries#qc</p>
+  <div class="comment">
+   <span class="markdown">Registraire des entreprises du Québec</span>
+  </div>
+  <dl class="definedBy">
+   <dt>
+    Is defined by
+   </dt>
+   <dd>
+    <a href="https://codelist.commonapproach.org/CanadianCorporateRegistries">https://codelist.commonapproach.org/CanadianCorporateRegistries</a>
+   </dd>
+  </dl>
+  <dl class="description">
+   <dt>
+    belongs to
+   </dt>
+   <dd>
+    <a href="http://ontology.eil.utoronto.ca/tove/organization#Organization" target="_blank" title="http://ontology.eil.utoronto.ca/tove/organization#Organization">Organization</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#Concept" target="_blank" title="http://www.w3.org/2004/02/skos/core#Concept">Concept</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#Code" target="_blank" title="https://ontology.commonapproach.org/cids#Code">Code</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#Organization" target="_blank" title="https://ontology.commonapproach.org/cids#Organization">Organization</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+   <dt>
+    has facts
+   </dt>
+   <dd>
+    <a href="http://ontology.eil.utoronto.ca/tove/organization#hasIdentifier" target="_blank" title="http://ontology.eil.utoronto.ca/tove/organization#hasIdentifier">has Identifier</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"qc"</span>
+   </dd>
+   <dd>
+    <a href="http://ontology.eil.utoronto.ca/tove/organization#hasLegalName" target="_blank" title="http://ontology.eil.utoronto.ca/tove/organization#hasLegalName">has Legal Name</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"Quebec"@en</span>
+   </dd>
+   <dd>
+    <a href="http://ontology.eil.utoronto.ca/tove/organization#hasName" target="_blank" title="http://ontology.eil.utoronto.ca/tove/organization#hasName">has Name</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"Quebec"</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#definition" target="_blank" title="http://www.w3.org/2004/02/skos/core#definition">definition</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"Registraire des entreprises du Québec"@en</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#notation" target="_blank" title="http://www.w3.org/2004/02/skos/core#notation">notation</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"qc"</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#prefLabel" target="_blank" title="http://www.w3.org/2004/02/skos/core#prefLabel">pref Label</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"Quebec"@en</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/ns/prov#hadPrimarySource" target="_blank" title="http://www.w3.org/ns/prov#hadPrimarySource">had Primary Source</a> <sup class="type-ap" title="annotation property">ap</sup> <a href="https://www.registreentreprises.gouv.qc.ca/" target="_blank" title="https://www.registreentreprises.gouv.qc.ca/">https://www.registreentreprises.gouv.qc.ca/</a> <sup class="type-ep" title="external property">ep</sup>
+   </dd>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#definedBy" target="_blank" title="https://ontology.commonapproach.org/cids#definedBy">defined By</a> <sup class="type-ap" title="annotation property">ap</sup> <a href="https://ontology.commonapproach.org/cids#esdc" target="_blank" title="https://ontology.commonapproach.org/cids#esdc">esdc</a> <sup class="type-ep" title="external property">ep</sup>
+   </dd>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#hasDescription" target="_blank" title="https://ontology.commonapproach.org/cids#hasDescription">has Description</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"Registraire des entreprises du Québec"</span>
+   </dd>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#hasSpecification" target="_blank" title="https://ontology.commonapproach.org/cids#hasSpecification">has Specification</a> <sup class="type-ap" title="annotation property">ap</sup> <a href="#d4e3" title="https://codelist.commonapproach.org/CanadianCorporateRegistries">Canadian Corporate Registries</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+  </dl>
+ </div>
+ <div class="entity" id="sk">
+  <h3>Saskatchewan<sup class="type-ni" title="named individual">ni</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a> </span></h3>
+  <p><strong>IRI:</strong> https://codelist.commonapproach.org/CanadianCorporateRegistries#sk</p>
+  <div class="comment">
+   <span class="markdown">Corporate Registry - Information Services Corporation (ISC)</span>
+  </div>
+  <dl class="definedBy">
+   <dt>
+    Is defined by
+   </dt>
+   <dd>
+    <a href="https://codelist.commonapproach.org/CanadianCorporateRegistries">https://codelist.commonapproach.org/CanadianCorporateRegistries</a>
+   </dd>
+  </dl>
+  <dl class="description">
+   <dt>
+    belongs to
+   </dt>
+   <dd>
+    <a href="http://ontology.eil.utoronto.ca/tove/organization#Organization" target="_blank" title="http://ontology.eil.utoronto.ca/tove/organization#Organization">Organization</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#Concept" target="_blank" title="http://www.w3.org/2004/02/skos/core#Concept">Concept</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#Code" target="_blank" title="https://ontology.commonapproach.org/cids#Code">Code</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#Organization" target="_blank" title="https://ontology.commonapproach.org/cids#Organization">Organization</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+   <dt>
+    has facts
+   </dt>
+   <dd>
+    <a href="http://ontology.eil.utoronto.ca/tove/organization#hasIdentifier" target="_blank" title="http://ontology.eil.utoronto.ca/tove/organization#hasIdentifier">has Identifier</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"sk"</span>
+   </dd>
+   <dd>
+    <a href="http://ontology.eil.utoronto.ca/tove/organization#hasLegalName" target="_blank" title="http://ontology.eil.utoronto.ca/tove/organization#hasLegalName">has Legal Name</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"Saskatchewan"@en</span>
+   </dd>
+   <dd>
+    <a href="http://ontology.eil.utoronto.ca/tove/organization#hasName" target="_blank" title="http://ontology.eil.utoronto.ca/tove/organization#hasName">has Name</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"Saskatchewan"</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#definition" target="_blank" title="http://www.w3.org/2004/02/skos/core#definition">definition</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"Corporate Registry - Information Services Corporation (ISC)"@en</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#notation" target="_blank" title="http://www.w3.org/2004/02/skos/core#notation">notation</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"sk"</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#prefLabel" target="_blank" title="http://www.w3.org/2004/02/skos/core#prefLabel">pref Label</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"Saskatchewan"@en</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/ns/prov#hadPrimarySource" target="_blank" title="http://www.w3.org/ns/prov#hadPrimarySource">had Primary Source</a> <sup class="type-ap" title="annotation property">ap</sup> <a href="https://www.isc.ca/CorporateRegistry" target="_blank" title="https://www.isc.ca/CorporateRegistry">Corporate Registry</a> <sup class="type-ep" title="external property">ep</sup>
+   </dd>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#definedBy" target="_blank" title="https://ontology.commonapproach.org/cids#definedBy">defined By</a> <sup class="type-ap" title="annotation property">ap</sup> <a href="https://ontology.commonapproach.org/cids#esdc" target="_blank" title="https://ontology.commonapproach.org/cids#esdc">esdc</a> <sup class="type-ep" title="external property">ep</sup>
+   </dd>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#hasDescription" target="_blank" title="https://ontology.commonapproach.org/cids#hasDescription">has Description</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"Corporate Registry - Information Services Corporation (ISC)"</span>
+   </dd>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#hasSpecification" target="_blank" title="https://ontology.commonapproach.org/cids#hasSpecification">has Specification</a> <sup class="type-ap" title="annotation property">ap</sup> <a href="#d4e3" title="https://codelist.commonapproach.org/CanadianCorporateRegistries">Canadian Corporate Registries</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+  </dl>
+ </div>
+ <div class="entity" id="yk">
+  <h3>Yukon<sup class="type-ni" title="named individual">ni</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a> </span></h3>
+  <p><strong>IRI:</strong> https://codelist.commonapproach.org/CanadianCorporateRegistries#yk</p>
+  <div class="comment">
+   <span class="markdown">Corporate Affairs - Department of Community Services</span>
+  </div>
+  <dl class="definedBy">
+   <dt>
+    Is defined by
+   </dt>
+   <dd>
+    <a href="https://codelist.commonapproach.org/CanadianCorporateRegistries">https://codelist.commonapproach.org/CanadianCorporateRegistries</a>
+   </dd>
+  </dl>
+  <dl class="description">
+   <dt>
+    belongs to
+   </dt>
+   <dd>
+    <a href="http://ontology.eil.utoronto.ca/tove/organization#Organization" target="_blank" title="http://ontology.eil.utoronto.ca/tove/organization#Organization">Organization</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#Concept" target="_blank" title="http://www.w3.org/2004/02/skos/core#Concept">Concept</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#Code" target="_blank" title="https://ontology.commonapproach.org/cids#Code">Code</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#Organization" target="_blank" title="https://ontology.commonapproach.org/cids#Organization">Organization</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+   <dt>
+    has facts
+   </dt>
+   <dd>
+    <a href="http://ontology.eil.utoronto.ca/tove/organization#hasIdentifier" target="_blank" title="http://ontology.eil.utoronto.ca/tove/organization#hasIdentifier">has Identifier</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"yk"</span>
+   </dd>
+   <dd>
+    <a href="http://ontology.eil.utoronto.ca/tove/organization#hasLegalName" target="_blank" title="http://ontology.eil.utoronto.ca/tove/organization#hasLegalName">has Legal Name</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"Yukon"@en</span>
+   </dd>
+   <dd>
+    <a href="http://ontology.eil.utoronto.ca/tove/organization#hasName" target="_blank" title="http://ontology.eil.utoronto.ca/tove/organization#hasName">has Name</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"Yukon"</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#definition" target="_blank" title="http://www.w3.org/2004/02/skos/core#definition">definition</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"Corporate Affairs - Department of Community Services"@en</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#notation" target="_blank" title="http://www.w3.org/2004/02/skos/core#notation">notation</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"yk"</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#prefLabel" target="_blank" title="http://www.w3.org/2004/02/skos/core#prefLabel">pref Label</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"Yukon"@en</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/ns/prov#hadPrimarySource" target="_blank" title="http://www.w3.org/ns/prov#hadPrimarySource">had Primary Source</a> <sup class="type-ap" title="annotation property">ap</sup> <a href="https://ycor-reey.gov.yk.ca/" target="_blank" title="https://ycor-reey.gov.yk.ca/">https://ycor-reey.gov.yk.ca/</a> <sup class="type-ep" title="external property">ep</sup>
+   </dd>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#definedBy" target="_blank" title="https://ontology.commonapproach.org/cids#definedBy">defined By</a> <sup class="type-ap" title="annotation property">ap</sup> <a href="https://ontology.commonapproach.org/cids#esdc" target="_blank" title="https://ontology.commonapproach.org/cids#esdc">esdc</a> <sup class="type-ep" title="external property">ep</sup>
+   </dd>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#hasDescription" target="_blank" title="https://ontology.commonapproach.org/cids#hasDescription">has Description</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"Corporate Affairs - Department of Community Services"</span>
+   </dd>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#hasSpecification" target="_blank" title="https://ontology.commonapproach.org/cids#hasSpecification">has Specification</a> <sup class="type-ap" title="annotation property">ap</sup> <a href="#d4e3" title="https://codelist.commonapproach.org/CanadianCorporateRegistries">Canadian Corporate Registries</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+  </dl>
+ </div>
+</div><div id="legend">
+<h2>Legend <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>
+<div   class="entity">
+<sup class="type-ni" title="Named Individuals">ni</sup>: Named Individuals <br/>
+<sup class="type-ep" title="External Properties">ep</sup>: External Properties
+</div>
+</div>
+</div>
+<div id="acknowledgments">
+<h2 id="ack" class="list">Acknowledgments <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>
+<p>
+The authors would like to thank <a href="http://www.essepuntato.it/">Silvio Peroni</a> for developing <a href="http://www.essepuntato.it/lode">LODE</a>, a Live OWL Documentation Environment, which is used for representing the Cross Referencing Section of this document and <a href="https://w3id.org/people/dgarijo">Daniel Garijo</a> for developing <a href="https://github.com/dgarijo/Widoco">Widoco</a>, the program used to create the template used in this documentation.</p>
+</div>
+
+
+</div>
+</body>
+</html>
