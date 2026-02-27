@@ -9,8 +9,8 @@
 
 ####
 ## Variables at the top set up a list of CodeLists, and the formats we publish.
-CODELISTS = CanadianCorporateRegistries EquityDeservingGroupsESDC ESDCSector FundingState ICNPOsector IRISImpactCategory IRISImpactTheme IrisMetric53 LocalityStatsCan OrgTypeGOC PopulationServed ProvinceTerritory RallyImpactArea SDGImpacts SELI-GLI StatsCanSector UnitsOfMeasureList
-FORMATS  ?= owl jsonld nt csv
+CODELISTS = CanadianCorporateRegistries EquityDeservingGroupsESDC ESDCSector FundingState ICNPOsector IRISImpactCategory IRISImpactTheme IrisMetric53 LocalityStatsCan OrgTypeGOC PopulationServed ProvinceTerritory RallyImpactArea SDGImpacts SELI-GLI SELI-GLI-SFI StatsCanSector UnitsOfMeasureList
+FORMATS  ?= owl jsonld nt csv html
 
 # We use WIDOCO to build HTML versions of the CodeLists. 
 # These variables configure where and how we invoke Widoco
