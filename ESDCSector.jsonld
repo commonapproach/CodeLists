@@ -25,6 +25,7 @@
             },
             "org:hasName": "Water",
             "@type": [
+                "cids:Sector",
                 "cids:Code",
                 "skos:Concept"
             ]
@@ -85,6 +86,7 @@
             },
             "org:hasName": "Waste",
             "@type": [
+                "cids:Sector",
                 "cids:Code",
                 "skos:Concept"
             ]
@@ -114,6 +116,7 @@
             },
             "org:hasName": "Real Estate",
             "@type": [
+                "cids:Sector",
                 "cids:Code",
                 "skos:Concept"
             ]
@@ -143,6 +146,7 @@
             },
             "org:hasName": "Pollution",
             "@type": [
+                "cids:Sector",
                 "cids:Code",
                 "skos:Concept"
             ]
@@ -172,6 +176,7 @@
             },
             "org:hasName": "Oceans and Coastal Zones",
             "@type": [
+                "cids:Sector",
                 "cids:Code",
                 "skos:Concept"
             ]
@@ -201,6 +206,7 @@
             },
             "org:hasName": "Land",
             "@type": [
+                "cids:Sector",
                 "cids:Code",
                 "skos:Concept"
             ]
@@ -230,6 +236,7 @@
             },
             "org:hasName": "Infrastructure",
             "@type": [
+                "cids:Sector",
                 "cids:Code",
                 "skos:Concept"
             ]
@@ -259,6 +266,7 @@
             },
             "org:hasName": "Health",
             "@type": [
+                "cids:Sector",
                 "cids:Code",
                 "skos:Concept"
             ]
@@ -288,6 +296,7 @@
             },
             "org:hasName": "Financial Services",
             "@type": [
+                "cids:Sector",
                 "cids:Code",
                 "skos:Concept"
             ]
@@ -317,6 +326,7 @@
             },
             "org:hasName": "Energy",
             "@type": [
+                "cids:Sector",
                 "cids:Code",
                 "skos:Concept"
             ]
@@ -346,6 +356,7 @@
             },
             "org:hasName": "Employment",
             "@type": [
+                "cids:Sector",
                 "cids:Code",
                 "skos:Concept"
             ]
@@ -375,6 +386,7 @@
             },
             "org:hasName": "Education",
             "@type": [
+                "cids:Sector",
                 "cids:Code",
                 "skos:Concept"
             ]
@@ -404,6 +416,7 @@
             },
             "org:hasName": "Diversity and Inclusion",
             "@type": [
+                "cids:Sector",
                 "cids:Code",
                 "skos:Concept"
             ]
@@ -433,6 +446,7 @@
             },
             "org:hasName": "Climate",
             "@type": [
+                "cids:Sector",
                 "cids:Code",
                 "skos:Concept"
             ]
@@ -462,6 +476,7 @@
             },
             "org:hasName": "Biodiversity and Ecosystems",
             "@type": [
+                "cids:Sector",
                 "cids:Code",
                 "skos:Concept"
             ]
@@ -491,6 +506,7 @@
             },
             "org:hasName": "Air",
             "@type": [
+                "cids:Sector",
                 "cids:Code",
                 "skos:Concept"
             ]
@@ -520,6 +536,7 @@
             },
             "org:hasName": "Agriculture",
             "@type": [
+                "cids:Sector",
                 "cids:Code",
                 "skos:Concept"
             ]
