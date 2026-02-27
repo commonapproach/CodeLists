@@ -132,14 +132,14 @@ $formats = [
 # Iterate over defined codelists, building a table row for each.
 foreach ($codelists as $list => $description) {
 
-  # Build line of links for each format
-  $links = sprintf('<strong>%s</strong> (', $list);
+  # Build line of links for each format (only when file exists)
+  $bits = [];
   foreach ($formats as $format => $extension) {
-    $links .= sprintf('<a href="%s%s">%s</a> / ', $list, $extension, $format);
+    if (file_exists($list . $extension)) {
+      $bits[] = sprintf('<a href="%s%s">%s</a>', $list, $extension, $format);
+    }
   }
-  # Remove trailing / and space from last iteration above
-  $links = rtrim($links, " /");
-  $links .= sprintf(')');
+  $links = sprintf('<strong>%s</strong> (%s)', $list, implode(' / ', $bits));
 
 # Now we go back to plain HTML, to emit the table row with our computed values.
 ?>
