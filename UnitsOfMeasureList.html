@@ -1,0 +1,670 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+<link rel="stylesheet" href="https://ontology.commonapproach.org/resources/primer.css" media="screen"/>
+<link rel="stylesheet" href="https://ontology.commonapproach.org/resources/rec.css" media="screen"/>
+<link rel="stylesheet" href="https://ontology.commonapproach.org/resources/extra.css" media="screen"/>
+<link rel="stylesheet" href="https://ontology.commonapproach.org/resources/owl.css" media="screen"/>
+<link rel="stylesheet" href="https://ontology.commonapproach.org/resources/dark.css" media="(prefers-color-scheme: dark)"/>
+<link rel="stylesheet" href="https://ontology.commonapproach.org/resources/light.css" media="(prefers-color-scheme: light)"/>
+<link rel="stylesheet" href="https://ontology.commonapproach.org/resources/slider.css" media="screen"/>
+<meta name="color-scheme" content="dark light">
+<script type="module" src="https://ontology.commonapproach.org/resources/dark-mode-toggle.mjs"></script><div class="darkmode">
+	<dark-mode-toggle class="slider"></dark-mode-toggle>
+</div>
+ <title>Units of Measure List</title>
+
+
+<!-- SCHEMA.ORG METADATA -->
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"TechArticle","url":"file:/home/dsl/src/cei/commonapproach/CodeLists.git/UnitsOfMeasureList.ttl","image":"http://vowl.visualdataweb.org/webvowl/#iri=file:/home/dsl/src/cei/commonapproach/CodeLists.git/UnitsOfMeasureList.ttl","name":"Units of Measure List", "headline":"Document describing the ontology file:/home/dsl/src/cei/commonapproach/CodeLists.git/UnitsOfMeasureList.ttl", "dateReleased":"Fri Feb 27 15:58:51 EST 2026", "version":"1.1", "author":[{"@type":"Person","name":"https://ontology.commonapproach.org/cids#ac","url":"https://ontology.commonapproach.org/cids#ac"}]}</script>
+
+<script src="https://ontology.commonapproach.org/resources/jquery.js"></script> 
+<script src="https://ontology.commonapproach.org/resources/marked.min.js"></script> 
+    <script> 
+function loadHash() {
+  jQuery(".markdown").each(function(el){jQuery(this).after(marked.parse(jQuery(this).text())).remove()});
+	var hash = location.hash;
+	if($(hash).offset()!=null){
+	  $('html, body').animate({scrollTop: $(hash).offset().top}, 0);
+}
+	loadTOC();
+}
+function loadTOC(){
+	//process toc dynamically
+	  var t='<h2>Table of contents</h2><ul>';i = 1;j=0;
+	  jQuery(".list").each(function(){
+		if(jQuery(this).is('h2')){
+			if(j>0){
+				t+='</ul>';
+				j=0;
+			}
+			t+= '<li>'+i+'. <a href=#'+ jQuery(this).attr('id')+'>'+ jQuery(this).ignore("span").text()+'</a></li>';
+			i++;
+		}
+		if(jQuery(this).is('h3')){
+			if(j==0){
+				t+='<ul>';
+			}
+			j++;
+			t+= '<li>'+(i-1)+'.'+j+'. '+'<a href=#'+ jQuery(this).attr('id')+'>'+ jQuery(this).ignore("span").text()+'</a></li>';
+		}
+	  });
+	  t+='</ul>';
+	  $("#toc").html(t); 
+}
+$(function(){
+    loadHash();
+}); $.fn.ignore = function(sel){
+        return this.clone().find(sel||">*").remove().end();
+ }; 
+   </script> 
+  </head> 
+
+<body>
+<div class="container">
+<div class="head">
+<div style="float:right">language <a href="index-en.html"><b>en</b></a> </div>
+<h1>Units of Measure List</h1>
+
+
+<dl>
+<dt>Revision:</dt>
+<dd>1.1</dd>
+<dt>Authors:</dt>
+<dd><a href="https://ontology.commonapproach.org/cids#ac">https://ontology.commonapproach.org/cids#ac</a></dd>
+
+<dt>Imported Ontologies:</dt>
+<dd><a href="http://ontology.eil.utoronto.ca/ISO21972/iso21972">iso21972</a></dd><dd><a href="http://ontology.eil.utoronto.ca/tove/activity">activity</a></dd><dd><a href="http://ontology.eil.utoronto.ca/tove/icontact">icontact</a></dd><dd><a href="http://ontology.eil.utoronto.ca/tove/organization">organization</a></dd><dd><a href="http://www.w3.org/2006/time">time</a></dd><dd><a href="https://ontology.commonapproach.org/cids">cids</a></dd><dd><a href="https://standards.iso.org/iso-iec/5087/-1/ed-1/en/ontology/Time/">&lt;https://standards.iso.org/iso-iec/5087/-1/ed-1/en/ontology/Time/&gt;</a></dd>
+
+<dt>Download serialization:</dt><dd><span><a href="ontology.jsonld" target="_blank"><img src="https://img.shields.io/badge/Format-JSON_LD-blue.svg" alt="JSON-LD" /></a> </span><span><a href="ontology.owl" target="_blank"><img src="https://img.shields.io/badge/Format-RDF/XML-blue.svg" alt="RDF/XML" /></a> </span><span><a href="ontology.nt" target="_blank"><img src="https://img.shields.io/badge/Format-N_Triples-blue.svg" alt="N-Triples" /></a> </span><span><a href="ontology.ttl" target="_blank"><img src="https://img.shields.io/badge/Format-TTL-blue.svg" alt="TTL" /></a> </span></dd><dt>License:</dt><dd><a href="http://insertlicenseURIhere.example.org" target="_blank"><img src="https://img.shields.io/badge/License-license%20name%20goes%20here-blue.svg" alt="http://insertlicenseURIhere.example.org" /></a>
+</dd><!-- <dt>Evaluation:</dt><dd><a href="OOPSevaluation/oopsEval.html#" target="_blank"><img src="https://img.shields.io/badge/Evaluate_with-OOPS! (OntOlogy Pitfall Scanner!)-blue.svg" alt="Evaluate with OOPS!" /></a></dd> --><dt>Cite as:</dt>
+<dd>https://ontology.commonapproach.org/cids#ac. Units of Measure List. Revision: 1.1.</dd>
+</dl>
+
+<a href="provenance/provenance-en.html" target="_blank">Provenance of this page</a><hr/>
+</div>
+<div class="status">
+<div>
+<span>Ontology Specification Draft</span>
+</div>
+</div><div id="toc"></div>  
+
+<!--OVERVIEW SECTION-->
+    <div id="overview"><h2 id="overv" class="list">Units of Measure List: Overview <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>
+<span class="markdown">
+This ontology has the following classes and properties.</span>
+<h4>Named Individuals</h4><ul xmlns:widoco="https://w3id.org/widoco/vocab#"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    class="hlist">
+   <li>
+      <a href="#https://ontology.commonapproach.org/cids#cad" title="https://ontology.commonapproach.org/cids#cad">Canadian Dollar</a>
+   </li>
+   <li>
+      <a href="#https://ontology.commonapproach.org/cids#countUnit"
+         title="https://ontology.commonapproach.org/cids#countUnit">Count</a>
+   </li>
+   <li>
+      <a href="#https://ontology.commonapproach.org/cids#cubicMeter"
+         title="https://ontology.commonapproach.org/cids#cubicMeter">Cubic Meter</a>
+   </li>
+   <li>
+      <a href="#https://ontology.commonapproach.org/cids#dayUnit" title="https://ontology.commonapproach.org/cids#dayUnit">Days</a>
+   </li>
+   <li>
+      <a href="#https://ontology.commonapproach.org/cids#foot" title="https://ontology.commonapproach.org/cids#foot">Foot</a>
+   </li>
+   <li>
+      <a href="#https://ontology.commonapproach.org/cids#kilogram"
+         title="https://ontology.commonapproach.org/cids#kilogram">Kilogram</a>
+   </li>
+   <li>
+      <a href="#https://ontology.commonapproach.org/cids#kilowattHour"
+         title="https://ontology.commonapproach.org/cids#kilowattHour">Kilowatt-hour</a>
+   </li>
+   <li>
+      <a href="#https://ontology.commonapproach.org/cids#megatonne"
+         title="https://ontology.commonapproach.org/cids#megatonne">Megatonne</a>
+   </li>
+   <li>
+      <a href="#https://ontology.commonapproach.org/cids#megawatt"
+         title="https://ontology.commonapproach.org/cids#megawatt">Megawatt</a>
+   </li>
+   <li>
+      <a href="#https://ontology.commonapproach.org/cids#megawattHour"
+         title="https://ontology.commonapproach.org/cids#megawattHour">Megawatt-hour</a>
+   </li>
+   <li>
+      <a href="#https://ontology.commonapproach.org/cids#cadMillions"
+         title="https://ontology.commonapproach.org/cids#cadMillions">Millions of Canadian Dollars</a>
+   </li>
+   <li>
+      <a href="#https://ontology.commonapproach.org/cids#percentUnit"
+         title="https://ontology.commonapproach.org/cids#percentUnit">Percent</a>
+   </li>
+   <li>
+      <a href="#https://ontology.commonapproach.org/cids#ratioUnit"
+         title="https://ontology.commonapproach.org/cids#ratioUnit">Ratio</a>
+   </li>
+   <li>
+      <a href="#https://ontology.commonapproach.org/cids#scoreUnit"
+         title="https://ontology.commonapproach.org/cids#scoreUnit">Score</a>
+   </li>
+   <li>
+      <a href="#https://ontology.commonapproach.org/cids#squareFoot"
+         title="https://ontology.commonapproach.org/cids#squareFoot">Square Foot</a>
+   </li>
+   <li>
+      <a href="#https://ontology.commonapproach.org/cids#squareMeter"
+         title="https://ontology.commonapproach.org/cids#squareMeter">Square Meter</a>
+   </li>
+   <li>
+      <a href="#https://ontology.commonapproach.org/cids#tonne" title="https://ontology.commonapproach.org/cids#tonne">Tonne</a>
+   </li>
+   <li>
+      <a href="#"
+         title="file:/home/dsl/src/cei/commonapproach/CodeLists.git/UnitsOfMeasureList.ttl">
+         <span>Units of Measure List</span>
+      </a>
+   </li>
+   <li>
+      <a href="#https://ontology.commonapproach.org/cids#unspecifiedUnit"
+         title="https://ontology.commonapproach.org/cids#unspecifiedUnit">Unspecified Unit</a>
+   </li>
+</ul>
+</div>
+  
+
+<!--DESCRIPTION SECTION-->
+    <div id="description"><h2 id="desc" class="list">Units of Measure List: Description <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>
+
+<span class="markdown">A codelist vocabulary of units of measure for use in CIDS-aligned software.</span></div>
+   
+
+<!--CROSSREF SECTION-->
+   <div id="crossref"><h2 id="crossreference" class="list">Cross-reference for Units of Measure List classes, object properties and data properties <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>
+This section provides details for each class and property defined by Units of Measure List.
+<div xmlns:widoco="https://w3id.org/widoco/vocab#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="namedindividuals">
+ <h3 id="namedindividuals" class="list">Named Individuals</h3>
+ <ul class="hlist">
+  <li><a href="#https://ontology.commonapproach.org/cids#cad" title="https://ontology.commonapproach.org/cids#cad">Canadian Dollar</a></li>
+  <li><a href="#https://ontology.commonapproach.org/cids#countUnit" title="https://ontology.commonapproach.org/cids#countUnit">Count</a></li>
+  <li><a href="#https://ontology.commonapproach.org/cids#cubicMeter" title="https://ontology.commonapproach.org/cids#cubicMeter">Cubic Meter</a></li>
+  <li><a href="#https://ontology.commonapproach.org/cids#dayUnit" title="https://ontology.commonapproach.org/cids#dayUnit">Days</a></li>
+  <li><a href="#https://ontology.commonapproach.org/cids#foot" title="https://ontology.commonapproach.org/cids#foot">Foot</a></li>
+  <li><a href="#https://ontology.commonapproach.org/cids#kilogram" title="https://ontology.commonapproach.org/cids#kilogram">Kilogram</a></li>
+  <li><a href="#https://ontology.commonapproach.org/cids#kilowattHour" title="https://ontology.commonapproach.org/cids#kilowattHour">Kilowatt-hour</a></li>
+  <li><a href="#https://ontology.commonapproach.org/cids#megatonne" title="https://ontology.commonapproach.org/cids#megatonne">Megatonne</a></li>
+  <li><a href="#https://ontology.commonapproach.org/cids#megawatt" title="https://ontology.commonapproach.org/cids#megawatt">Megawatt</a></li>
+  <li><a href="#https://ontology.commonapproach.org/cids#megawattHour" title="https://ontology.commonapproach.org/cids#megawattHour">Megawatt-hour</a></li>
+  <li><a href="#https://ontology.commonapproach.org/cids#cadMillions" title="https://ontology.commonapproach.org/cids#cadMillions">Millions of Canadian Dollars</a></li>
+  <li><a href="#https://ontology.commonapproach.org/cids#percentUnit" title="https://ontology.commonapproach.org/cids#percentUnit">Percent</a></li>
+  <li><a href="#https://ontology.commonapproach.org/cids#ratioUnit" title="https://ontology.commonapproach.org/cids#ratioUnit">Ratio</a></li>
+  <li><a href="#https://ontology.commonapproach.org/cids#scoreUnit" title="https://ontology.commonapproach.org/cids#scoreUnit">Score</a></li>
+  <li><a href="#https://ontology.commonapproach.org/cids#squareFoot" title="https://ontology.commonapproach.org/cids#squareFoot">Square Foot</a></li>
+  <li><a href="#https://ontology.commonapproach.org/cids#squareMeter" title="https://ontology.commonapproach.org/cids#squareMeter">Square Meter</a></li>
+  <li><a href="#https://ontology.commonapproach.org/cids#tonne" title="https://ontology.commonapproach.org/cids#tonne">Tonne</a></li>
+  <li><a href="#" title="file:/home/dsl/src/cei/commonapproach/CodeLists.git/UnitsOfMeasureList.ttl"> <span>Units of Measure List</span> </a></li>
+  <li><a href="#https://ontology.commonapproach.org/cids#unspecifiedUnit" title="https://ontology.commonapproach.org/cids#unspecifiedUnit">Unspecified Unit</a></li>
+ </ul>
+ <div class="entity" id="https://ontology.commonapproach.org/cids#cad">
+  <h3>Canadian Dollar<sup class="type-ni" title="named individual">ni</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a> </span></h3>
+  <p><strong>IRI:</strong> https://ontology.commonapproach.org/cids#cad</p>
+  <div class="comment">
+   <span class="markdown">Use for Indicators multi-typed as i72:Sum or i72:Mean, representing a financial value.</span>
+  </div>
+  <dl class="description">
+   <dt>
+    belongs to
+   </dt>
+   <dd>
+    <a href="http://ontology.eil.utoronto.ca/ISO21972/iso21972#Monetary_unit" target="_blank" title="http://ontology.eil.utoronto.ca/ISO21972/iso21972#Monetary_unit">Monetary unit</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+   <dt>
+    has facts
+   </dt>
+   <dd>
+    <a href="http://ontology.eil.utoronto.ca/ISO21972/iso21972#symbol" target="_blank" title="http://ontology.eil.utoronto.ca/ISO21972/iso21972#symbol">symbol</a> <sup class="type-dp" title="data property">dp</sup> <span class="literal">"$CAD"@en</span>
+   </dd>
+  </dl>
+ </div>
+ <div class="entity" id="https://ontology.commonapproach.org/cids#countUnit">
+  <h3>Count<sup class="type-ni" title="named individual">ni</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a> </span></h3>
+  <p><strong>IRI:</strong> https://ontology.commonapproach.org/cids#countUnit</p>
+  <div class="comment">
+   <span class="markdown">A count of discrete items. Use for Indicators multi-typed as i72:Cardinality. The 'unitDescription' should be used to create the i72:Population.</span>
+  </div>
+  <dl class="description">
+   <dt>
+    belongs to
+   </dt>
+   <dd>
+    <a href="http://ontology.eil.utoronto.ca/ISO21972/iso21972#Cardinality_unit" target="_blank" title="http://ontology.eil.utoronto.ca/ISO21972/iso21972#Cardinality_unit">Cardinality unit</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+   <dt>
+    has facts
+   </dt>
+   <dd>
+    <a href="http://ontology.eil.utoronto.ca/ISO21972/iso21972#symbol" target="_blank" title="http://ontology.eil.utoronto.ca/ISO21972/iso21972#symbol">symbol</a> <sup class="type-dp" title="data property">dp</sup> <span class="literal">"count"@en</span>
+   </dd>
+  </dl>
+ </div>
+ <div class="entity" id="https://ontology.commonapproach.org/cids#cubicMeter">
+  <h3>Cubic Meter<sup class="type-ni" title="named individual">ni</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a> </span></h3>
+  <p><strong>IRI:</strong> https://ontology.commonapproach.org/cids#cubicMeter</p>
+  <div class="comment">
+   <span class="markdown">A unit of volume. Use for Indicators multi-typed as i72:Sum or i72:Mean.</span>
+  </div>
+  <dl class="description">
+   <dt>
+    belongs to
+   </dt>
+   <dd>
+    <a href="http://ontology.eil.utoronto.ca/ISO21972/iso21972#Unit_exponentiation" target="_blank" title="http://ontology.eil.utoronto.ca/ISO21972/iso21972#Unit_exponentiation">unit exponentiation</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+   <dt>
+    has facts
+   </dt>
+   <dd>
+    <a href="http://ontology.eil.utoronto.ca/ISO21972/iso21972#base" target="_blank" title="http://ontology.eil.utoronto.ca/ISO21972/iso21972#base">base</a> <sup class="type-op" title="object property">op</sup> <a href="http://ontology.eil.utoronto.ca/ISO21972/iso21972#metre" target="_blank" title="http://ontology.eil.utoronto.ca/ISO21972/iso21972#metre">metre</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+   <dd>
+    <a href="http://ontology.eil.utoronto.ca/ISO21972/iso21972#exponent" target="_blank" title="http://ontology.eil.utoronto.ca/ISO21972/iso21972#exponent">exponent</a> <sup class="type-dp" title="data property">dp</sup> <span class="literal">"3"^^<a href="http://www.w3.org/2001/XMLSchema#integer" target="_blank" title="http://www.w3.org/2001/XMLSchema#integer">integer</a> </span>
+   </dd>
+   <dd>
+    <a href="http://ontology.eil.utoronto.ca/ISO21972/iso21972#symbol" target="_blank" title="http://ontology.eil.utoronto.ca/ISO21972/iso21972#symbol">symbol</a> <sup class="type-dp" title="data property">dp</sup> <span class="literal">"m^3"@en</span>
+   </dd>
+  </dl>
+ </div>
+ <div class="entity" id="https://ontology.commonapproach.org/cids#dayUnit">
+  <h3>Days<sup class="type-ni" title="named individual">ni</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a> </span></h3>
+  <p><strong>IRI:</strong> https://ontology.commonapproach.org/cids#dayUnit</p>
+  <div class="comment">
+   <span class="markdown">A unit of time. Use for Indicators multi-typed as i72:Sum or i72:Mean, representing a duration.</span>
+  </div>
+  <dl class="description">
+   <dt>
+    belongs to
+   </dt>
+   <dd>
+    <a href="http://ontology.eil.utoronto.ca/ISO21972/iso21972#Singular_unit" target="_blank" title="http://ontology.eil.utoronto.ca/ISO21972/iso21972#Singular_unit">Singular unit</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+   <dt>
+    has facts
+   </dt>
+   <dd>
+    <a href="http://ontology.eil.utoronto.ca/ISO21972/iso21972#symbol" target="_blank" title="http://ontology.eil.utoronto.ca/ISO21972/iso21972#symbol">symbol</a> <sup class="type-dp" title="data property">dp</sup> <span class="literal">"days"@en</span>
+   </dd>
+  </dl>
+ </div>
+ <div class="entity" id="https://ontology.commonapproach.org/cids#foot">
+  <h3>Foot<sup class="type-ni" title="named individual">ni</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a> </span></h3>
+  <p><strong>IRI:</strong> https://ontology.commonapproach.org/cids#foot</p>
+  <div class="comment">
+   <span class="markdown">A non-SI unit of length.</span>
+  </div>
+  <dl class="description">
+   <dt>
+    belongs to
+   </dt>
+   <dd>
+    <a href="http://ontology.eil.utoronto.ca/ISO21972/iso21972#Singular_unit" target="_blank" title="http://ontology.eil.utoronto.ca/ISO21972/iso21972#Singular_unit">Singular unit</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+   <dt>
+    has facts
+   </dt>
+   <dd>
+    <a href="http://ontology.eil.utoronto.ca/ISO21972/iso21972#symbol" target="_blank" title="http://ontology.eil.utoronto.ca/ISO21972/iso21972#symbol">symbol</a> <sup class="type-dp" title="data property">dp</sup> <span class="literal">"ft"@en</span>
+   </dd>
+  </dl>
+ </div>
+ <div class="entity" id="https://ontology.commonapproach.org/cids#kilogram">
+  <h3>Kilogram<sup class="type-ni" title="named individual">ni</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a> </span></h3>
+  <p><strong>IRI:</strong> https://ontology.commonapproach.org/cids#kilogram</p>
+  <div class="comment">
+   <span class="markdown">A unit of mass. Use for Indicators multi-typed as i72:Sum or i72:Mean.</span>
+  </div>
+  <dl class="description">
+   <dt>
+    belongs to
+   </dt>
+   <dd>
+    <a href="http://ontology.eil.utoronto.ca/ISO21972/iso21972#Unit_multiple_or_submultiple" target="_blank" title="http://ontology.eil.utoronto.ca/ISO21972/iso21972#Unit_multiple_or_submultiple">unit multiple or submultiple</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+   <dt>
+    has facts
+   </dt>
+   <dd>
+    <a href="http://ontology.eil.utoronto.ca/ISO21972/iso21972#prefix" target="_blank" title="http://ontology.eil.utoronto.ca/ISO21972/iso21972#prefix">prefix</a> <sup class="type-op" title="object property">op</sup> <a href="http://ontology.eil.utoronto.ca/ISO21972/iso21972#kilo" target="_blank" title="http://ontology.eil.utoronto.ca/ISO21972/iso21972#kilo">kilo</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+   <dd>
+    <a href="http://ontology.eil.utoronto.ca/ISO21972/iso21972#singular_unit" target="_blank" title="http://ontology.eil.utoronto.ca/ISO21972/iso21972#singular_unit">singular unit</a> <sup class="type-op" title="object property">op</sup> <a href="http://ontology.eil.utoronto.ca/ISO21972/iso21972#gram" target="_blank" title="http://ontology.eil.utoronto.ca/ISO21972/iso21972#gram">gram</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+   <dd>
+    <a href="http://ontology.eil.utoronto.ca/ISO21972/iso21972#symbol" target="_blank" title="http://ontology.eil.utoronto.ca/ISO21972/iso21972#symbol">symbol</a> <sup class="type-dp" title="data property">dp</sup> <span class="literal">"kg"@en</span>
+   </dd>
+  </dl>
+ </div>
+ <div class="entity" id="https://ontology.commonapproach.org/cids#kilowattHour">
+  <h3>Kilowatt-hour<sup class="type-ni" title="named individual">ni</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a> </span></h3>
+  <p><strong>IRI:</strong> https://ontology.commonapproach.org/cids#kilowattHour</p>
+  <div class="comment">
+   <span class="markdown">A unit of energy. Use for Indicators multi-typed as i72:Sum or i72:Mean.</span>
+  </div>
+  <dl class="description">
+   <dt>
+    belongs to
+   </dt>
+   <dd>
+    <a href="http://ontology.eil.utoronto.ca/ISO21972/iso21972#Unit_multiplication" target="_blank" title="http://ontology.eil.utoronto.ca/ISO21972/iso21972#Unit_multiplication">unit multiplication</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+   <dt>
+    has facts
+   </dt>
+   <dd>
+    <a href="http://ontology.eil.utoronto.ca/ISO21972/iso21972#term_1" target="_blank" title="http://ontology.eil.utoronto.ca/ISO21972/iso21972#term_1">term 1</a> <sup class="type-op" title="object property">op</sup> <a href="http://ontology.eil.utoronto.ca/ISO21972/iso21972#kilowatt" target="_blank" title="http://ontology.eil.utoronto.ca/ISO21972/iso21972#kilowatt">kilowatt</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+   <dd>
+    <a href="http://ontology.eil.utoronto.ca/ISO21972/iso21972#term_2" target="_blank" title="http://ontology.eil.utoronto.ca/ISO21972/iso21972#term_2">term 2</a> <sup class="type-op" title="object property">op</sup> <a href="http://ontology.eil.utoronto.ca/ISO21972/iso21972#hour" target="_blank" title="http://ontology.eil.utoronto.ca/ISO21972/iso21972#hour">hour</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+   <dd>
+    <a href="http://ontology.eil.utoronto.ca/ISO21972/iso21972#symbol" target="_blank" title="http://ontology.eil.utoronto.ca/ISO21972/iso21972#symbol">symbol</a> <sup class="type-dp" title="data property">dp</sup> <span class="literal">"kWh"@en</span>
+   </dd>
+  </dl>
+ </div>
+ <div class="entity" id="https://ontology.commonapproach.org/cids#megatonne">
+  <h3>Megatonne<sup class="type-ni" title="named individual">ni</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a> </span></h3>
+  <p><strong>IRI:</strong> https://ontology.commonapproach.org/cids#megatonne</p>
+  <div class="comment">
+   <span class="markdown">A unit of mass, typically for GHG emissions. Use for Indicators multi-typed as i72:Sum or i72:Mean.</span>
+  </div>
+  <dl class="description">
+   <dt>
+    belongs to
+   </dt>
+   <dd>
+    <a href="http://ontology.eil.utoronto.ca/ISO21972/iso21972#Unit_multiple_or_submultiple" target="_blank" title="http://ontology.eil.utoronto.ca/ISO21972/iso21972#Unit_multiple_or_submultiple">unit multiple or submultiple</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+   <dt>
+    has facts
+   </dt>
+   <dd>
+    <a href="http://ontology.eil.utoronto.ca/ISO21972/iso21972#prefix" target="_blank" title="http://ontology.eil.utoronto.ca/ISO21972/iso21972#prefix">prefix</a> <sup class="type-op" title="object property">op</sup> <a href="http://ontology.eil.utoronto.ca/ISO21972/iso21972#mega" target="_blank" title="http://ontology.eil.utoronto.ca/ISO21972/iso21972#mega">mega</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+   <dd>
+    <a href="http://ontology.eil.utoronto.ca/ISO21972/iso21972#singular_unit" target="_blank" title="http://ontology.eil.utoronto.ca/ISO21972/iso21972#singular_unit">singular unit</a> <sup class="type-op" title="object property">op</sup> <a href="#https://ontology.commonapproach.org/cids#tonne" title="https://ontology.commonapproach.org/cids#tonne">Tonne</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+   <dd>
+    <a href="http://ontology.eil.utoronto.ca/ISO21972/iso21972#symbol" target="_blank" title="http://ontology.eil.utoronto.ca/ISO21972/iso21972#symbol">symbol</a> <sup class="type-dp" title="data property">dp</sup> <span class="literal">"Mt"@en</span>
+   </dd>
+  </dl>
+ </div>
+ <div class="entity" id="https://ontology.commonapproach.org/cids#megawatt">
+  <h3>Megawatt<sup class="type-ni" title="named individual">ni</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a> </span></h3>
+  <p><strong>IRI:</strong> https://ontology.commonapproach.org/cids#megawatt</p>
+  <div class="comment">
+   <span class="markdown">A unit of power. Use for Indicators multi-typed as i72:Sum or i72:Mean.</span>
+  </div>
+  <dl class="description">
+   <dt>
+    belongs to
+   </dt>
+   <dd>
+    <a href="http://ontology.eil.utoronto.ca/ISO21972/iso21972#Unit_multiple_or_submultiple" target="_blank" title="http://ontology.eil.utoronto.ca/ISO21972/iso21972#Unit_multiple_or_submultiple">unit multiple or submultiple</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+   <dt>
+    has facts
+   </dt>
+   <dd>
+    <a href="http://ontology.eil.utoronto.ca/ISO21972/iso21972#prefix" target="_blank" title="http://ontology.eil.utoronto.ca/ISO21972/iso21972#prefix">prefix</a> <sup class="type-op" title="object property">op</sup> <a href="http://ontology.eil.utoronto.ca/ISO21972/iso21972#mega" target="_blank" title="http://ontology.eil.utoronto.ca/ISO21972/iso21972#mega">mega</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+   <dd>
+    <a href="http://ontology.eil.utoronto.ca/ISO21972/iso21972#singular_unit" target="_blank" title="http://ontology.eil.utoronto.ca/ISO21972/iso21972#singular_unit">singular unit</a> <sup class="type-op" title="object property">op</sup> <a href="http://ontology.eil.utoronto.ca/ISO21972/iso21972#watt" target="_blank" title="http://ontology.eil.utoronto.ca/ISO21972/iso21972#watt">watt</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+   <dd>
+    <a href="http://ontology.eil.utoronto.ca/ISO21972/iso21972#symbol" target="_blank" title="http://ontology.eil.utoronto.ca/ISO21972/iso21972#symbol">symbol</a> <sup class="type-dp" title="data property">dp</sup> <span class="literal">"MW"@en</span>
+   </dd>
+  </dl>
+ </div>
+ <div class="entity" id="https://ontology.commonapproach.org/cids#megawattHour">
+  <h3>Megawatt-hour<sup class="type-ni" title="named individual">ni</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a> </span></h3>
+  <p><strong>IRI:</strong> https://ontology.commonapproach.org/cids#megawattHour</p>
+  <div class="comment">
+   <span class="markdown">A unit of energy. Use for Indicators multi-typed as i72:Sum or i72:Mean.</span>
+  </div>
+  <dl class="description">
+   <dt>
+    belongs to
+   </dt>
+   <dd>
+    <a href="http://ontology.eil.utoronto.ca/ISO21972/iso21972#Unit_multiplication" target="_blank" title="http://ontology.eil.utoronto.ca/ISO21972/iso21972#Unit_multiplication">unit multiplication</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+   <dt>
+    has facts
+   </dt>
+   <dd>
+    <a href="http://ontology.eil.utoronto.ca/ISO21972/iso21972#term_1" target="_blank" title="http://ontology.eil.utoronto.ca/ISO21972/iso21972#term_1">term 1</a> <sup class="type-op" title="object property">op</sup> <a href="#https://ontology.commonapproach.org/cids#megawatt" title="https://ontology.commonapproach.org/cids#megawatt">Megawatt</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+   <dd>
+    <a href="http://ontology.eil.utoronto.ca/ISO21972/iso21972#term_2" target="_blank" title="http://ontology.eil.utoronto.ca/ISO21972/iso21972#term_2">term 2</a> <sup class="type-op" title="object property">op</sup> <a href="http://ontology.eil.utoronto.ca/ISO21972/iso21972#hour" target="_blank" title="http://ontology.eil.utoronto.ca/ISO21972/iso21972#hour">hour</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+   <dd>
+    <a href="http://ontology.eil.utoronto.ca/ISO21972/iso21972#symbol" target="_blank" title="http://ontology.eil.utoronto.ca/ISO21972/iso21972#symbol">symbol</a> <sup class="type-dp" title="data property">dp</sup> <span class="literal">"MWh"@en</span>
+   </dd>
+  </dl>
+ </div>
+ <div class="entity" id="https://ontology.commonapproach.org/cids#cadMillions">
+  <h3>Millions of Canadian Dollars<sup class="type-ni" title="named individual">ni</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a> </span></h3>
+  <p><strong>IRI:</strong> https://ontology.commonapproach.org/cids#cadMillions</p>
+  <div class="comment">
+   <span class="markdown">Use for Indicators multi-typed as i72:Sum or i72:Mean, representing a financial value.</span>
+  </div>
+  <dl class="description">
+   <dt>
+    belongs to
+   </dt>
+   <dd>
+    <a href="http://ontology.eil.utoronto.ca/ISO21972/iso21972#Unit_multiple_or_submultiple" target="_blank" title="http://ontology.eil.utoronto.ca/ISO21972/iso21972#Unit_multiple_or_submultiple">unit multiple or submultiple</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+   <dt>
+    has facts
+   </dt>
+   <dd>
+    <a href="http://ontology.eil.utoronto.ca/ISO21972/iso21972#prefix" target="_blank" title="http://ontology.eil.utoronto.ca/ISO21972/iso21972#prefix">prefix</a> <sup class="type-op" title="object property">op</sup> <a href="http://ontology.eil.utoronto.ca/ISO21972/iso21972#mega" target="_blank" title="http://ontology.eil.utoronto.ca/ISO21972/iso21972#mega">mega</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+   <dd>
+    <a href="http://ontology.eil.utoronto.ca/ISO21972/iso21972#singular_unit" target="_blank" title="http://ontology.eil.utoronto.ca/ISO21972/iso21972#singular_unit">singular unit</a> <sup class="type-op" title="object property">op</sup> <a href="#https://ontology.commonapproach.org/cids#cad" title="https://ontology.commonapproach.org/cids#cad">Canadian Dollar</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+   <dd>
+    <a href="http://ontology.eil.utoronto.ca/ISO21972/iso21972#symbol" target="_blank" title="http://ontology.eil.utoronto.ca/ISO21972/iso21972#symbol">symbol</a> <sup class="type-dp" title="data property">dp</sup> <span class="literal">"$CAD(M)"@en</span>
+   </dd>
+  </dl>
+ </div>
+ <div class="entity" id="https://ontology.commonapproach.org/cids#percentUnit">
+  <h3>Percent<sup class="type-ni" title="named individual">ni</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a> </span></h3>
+  <p><strong>IRI:</strong> https://ontology.commonapproach.org/cids#percentUnit</p>
+  <div class="comment">
+   <span class="markdown">A generic unit for percentages. The Indicator should be multi-typed as i72:RatioIndicator for clarity.</span>
+  </div>
+  <dl class="description">
+   <dt>
+    belongs to
+   </dt>
+   <dd>
+    <a href="http://ontology.eil.utoronto.ca/ISO21972/iso21972#Singular_unit" target="_blank" title="http://ontology.eil.utoronto.ca/ISO21972/iso21972#Singular_unit">Singular unit</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+   <dt>
+    has facts
+   </dt>
+   <dd>
+    <a href="http://ontology.eil.utoronto.ca/ISO21972/iso21972#symbol" target="_blank" title="http://ontology.eil.utoronto.ca/ISO21972/iso21972#symbol">symbol</a> <sup class="type-dp" title="data property">dp</sup> <span class="literal">"%"@en</span>
+   </dd>
+  </dl>
+ </div>
+ <div class="entity" id="https://ontology.commonapproach.org/cids#ratioUnit">
+  <h3>Ratio<sup class="type-ni" title="named individual">ni</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a> </span></h3>
+  <p><strong>IRI:</strong> https://ontology.commonapproach.org/cids#ratioUnit</p>
+  <div class="comment">
+   <span class="markdown">A generic unit for ratios where the numerator and denominator are not specified. The Indicator should be multi-typed as i72:RatioIndicator.</span>
+  </div>
+  <dl class="description">
+   <dt>
+    belongs to
+   </dt>
+   <dd>
+    <a href="http://ontology.eil.utoronto.ca/ISO21972/iso21972#Compound_unit" target="_blank" title="http://ontology.eil.utoronto.ca/ISO21972/iso21972#Compound_unit">compound unit</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+   <dt>
+    has facts
+   </dt>
+   <dd>
+    <a href="http://ontology.eil.utoronto.ca/ISO21972/iso21972#symbol" target="_blank" title="http://ontology.eil.utoronto.ca/ISO21972/iso21972#symbol">symbol</a> <sup class="type-dp" title="data property">dp</sup> <span class="literal">"ratio"@en</span>
+   </dd>
+  </dl>
+ </div>
+ <div class="entity" id="https://ontology.commonapproach.org/cids#scoreUnit">
+  <h3>Score<sup class="type-ni" title="named individual">ni</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a> </span></h3>
+  <p><strong>IRI:</strong> https://ontology.commonapproach.org/cids#scoreUnit</p>
+  <div class="comment">
+   <span class="markdown">A generic unit for scores or points. The Indicator should be linked to a formal scale definition (e.g., i72:Ordinal_scale or a cids:Code) via the i72:measurement_scale property.</span>
+  </div>
+  <dl class="description">
+   <dt>
+    belongs to
+   </dt>
+   <dd>
+    <a href="http://ontology.eil.utoronto.ca/ISO21972/iso21972#Singular_unit" target="_blank" title="http://ontology.eil.utoronto.ca/ISO21972/iso21972#Singular_unit">Singular unit</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+   <dt>
+    has facts
+   </dt>
+   <dd>
+    <a href="http://ontology.eil.utoronto.ca/ISO21972/iso21972#symbol" target="_blank" title="http://ontology.eil.utoronto.ca/ISO21972/iso21972#symbol">symbol</a> <sup class="type-dp" title="data property">dp</sup> <span class="literal">"score"@en</span>
+   </dd>
+  </dl>
+ </div>
+ <div class="entity" id="https://ontology.commonapproach.org/cids#squareFoot">
+  <h3>Square Foot<sup class="type-ni" title="named individual">ni</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a> </span></h3>
+  <p><strong>IRI:</strong> https://ontology.commonapproach.org/cids#squareFoot</p>
+  <div class="comment">
+   <span class="markdown">A non-SI unit of area. Use for Indicators multi-typed as i72:Sum or i72:Mean.</span>
+  </div>
+  <dl class="description">
+   <dt>
+    belongs to
+   </dt>
+   <dd>
+    <a href="http://ontology.eil.utoronto.ca/ISO21972/iso21972#Unit_exponentiation" target="_blank" title="http://ontology.eil.utoronto.ca/ISO21972/iso21972#Unit_exponentiation">unit exponentiation</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+   <dt>
+    has facts
+   </dt>
+   <dd>
+    <a href="http://ontology.eil.utoronto.ca/ISO21972/iso21972#base" target="_blank" title="http://ontology.eil.utoronto.ca/ISO21972/iso21972#base">base</a> <sup class="type-op" title="object property">op</sup> <a href="#https://ontology.commonapproach.org/cids#foot" title="https://ontology.commonapproach.org/cids#foot">Foot</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+   <dd>
+    <a href="http://ontology.eil.utoronto.ca/ISO21972/iso21972#exponent" target="_blank" title="http://ontology.eil.utoronto.ca/ISO21972/iso21972#exponent">exponent</a> <sup class="type-dp" title="data property">dp</sup> <span class="literal">"2"^^<a href="http://www.w3.org/2001/XMLSchema#integer" target="_blank" title="http://www.w3.org/2001/XMLSchema#integer">integer</a> </span>
+   </dd>
+   <dd>
+    <a href="http://ontology.eil.utoronto.ca/ISO21972/iso21972#symbol" target="_blank" title="http://ontology.eil.utoronto.ca/ISO21972/iso21972#symbol">symbol</a> <sup class="type-dp" title="data property">dp</sup> <span class="literal">"sq ft"@en</span>
+   </dd>
+  </dl>
+ </div>
+ <div class="entity" id="https://ontology.commonapproach.org/cids#squareMeter">
+  <h3>Square Meter<sup class="type-ni" title="named individual">ni</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a> </span></h3>
+  <p><strong>IRI:</strong> https://ontology.commonapproach.org/cids#squareMeter</p>
+  <div class="comment">
+   <span class="markdown">A unit of area. Use for Indicators multi-typed as i72:Sum or i72:Mean.</span>
+  </div>
+  <dl class="description">
+   <dt>
+    belongs to
+   </dt>
+   <dd>
+    <a href="http://ontology.eil.utoronto.ca/ISO21972/iso21972#Unit_exponentiation" target="_blank" title="http://ontology.eil.utoronto.ca/ISO21972/iso21972#Unit_exponentiation">unit exponentiation</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+   <dt>
+    has facts
+   </dt>
+   <dd>
+    <a href="http://ontology.eil.utoronto.ca/ISO21972/iso21972#base" target="_blank" title="http://ontology.eil.utoronto.ca/ISO21972/iso21972#base">base</a> <sup class="type-op" title="object property">op</sup> <a href="http://ontology.eil.utoronto.ca/ISO21972/iso21972#metre" target="_blank" title="http://ontology.eil.utoronto.ca/ISO21972/iso21972#metre">metre</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+   <dd>
+    <a href="http://ontology.eil.utoronto.ca/ISO21972/iso21972#exponent" target="_blank" title="http://ontology.eil.utoronto.ca/ISO21972/iso21972#exponent">exponent</a> <sup class="type-dp" title="data property">dp</sup> <span class="literal">"2"^^<a href="http://www.w3.org/2001/XMLSchema#integer" target="_blank" title="http://www.w3.org/2001/XMLSchema#integer">integer</a> </span>
+   </dd>
+   <dd>
+    <a href="http://ontology.eil.utoronto.ca/ISO21972/iso21972#symbol" target="_blank" title="http://ontology.eil.utoronto.ca/ISO21972/iso21972#symbol">symbol</a> <sup class="type-dp" title="data property">dp</sup> <span class="literal">"m^2"@en</span>
+   </dd>
+  </dl>
+ </div>
+ <div class="entity" id="https://ontology.commonapproach.org/cids#tonne">
+  <h3>Tonne<sup class="type-ni" title="named individual">ni</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a> </span></h3>
+  <p><strong>IRI:</strong> https://ontology.commonapproach.org/cids#tonne</p>
+  <div class="comment">
+   <span class="markdown">A unit of mass equivalent to 1,000 kilograms. Use for Indicators multi-typed as i72:Sum or i72:Mean. Pragmatically defined as a singular unit for ease of use.</span>
+  </div>
+  <dl class="description">
+   <dt>
+    belongs to
+   </dt>
+   <dd>
+    <a href="http://ontology.eil.utoronto.ca/ISO21972/iso21972#Singular_unit" target="_blank" title="http://ontology.eil.utoronto.ca/ISO21972/iso21972#Singular_unit">Singular unit</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+   <dt>
+    has facts
+   </dt>
+   <dd>
+    <a href="http://ontology.eil.utoronto.ca/ISO21972/iso21972#symbol" target="_blank" title="http://ontology.eil.utoronto.ca/ISO21972/iso21972#symbol">symbol</a> <sup class="type-dp" title="data property">dp</sup> <span class="literal">"t"@en</span>
+   </dd>
+  </dl>
+ </div>
+ <div class="entity" id="">
+  <h3>Units of Measure List<sup class="type-ni" title="named individual">ni</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a> </span></h3>
+  <p><strong>IRI:</strong> file:/home/dsl/src/cei/commonapproach/CodeLists.git/UnitsOfMeasureList.ttl</p>
+  <dl class="description">
+   <dt>
+    belongs to
+   </dt>
+   <dd>
+    <a href="http://purl.org/vocommons/voaf#Vocabulary" target="_blank" title="http://purl.org/vocommons/voaf#Vocabulary">Vocabulary</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#ConceptScheme" target="_blank" title="http://www.w3.org/2004/02/skos/core#ConceptScheme">Concept Scheme</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+  </dl>
+ </div>
+ <div class="entity" id="https://ontology.commonapproach.org/cids#unspecifiedUnit">
+  <h3>Unspecified Unit<sup class="type-ni" title="named individual">ni</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a> </span></h3>
+  <p><strong>IRI:</strong> https://ontology.commonapproach.org/cids#unspecifiedUnit</p>
+  <div class="comment">
+   <span class="markdown">A placeholder for unspecified units.</span>
+  </div>
+  <dl class="description">
+   <dt>
+    belongs to
+   </dt>
+   <dd>
+    <a href="http://ontology.eil.utoronto.ca/ISO21972/iso21972#Singular_unit" target="_blank" title="http://ontology.eil.utoronto.ca/ISO21972/iso21972#Singular_unit">Singular unit</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+  </dl>
+ </div>
+</div><div id="legend">
+<h2>Legend <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>
+<div   class="entity">
+<sup class="type-c" title="Classes">c</sup>: Classes <br/>
+<sup class="type-op" title="Object Properties">op</sup>: Object Properties <br/>
+<sup class="type-dp" title="Data Properties">dp</sup>: Data Properties <br/>
+<sup class="type-ni" title="Named Individuals">ni</sup>: Named Individuals <br/>
+</div>
+</div>
+</div>
+<div id="acknowledgments">
+<h2 id="ack" class="list">Acknowledgments <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>
+<p>
+The authors would like to thank <a href="http://www.essepuntato.it/">Silvio Peroni</a> for developing <a href="http://www.essepuntato.it/lode">LODE</a>, a Live OWL Documentation Environment, which is used for representing the Cross Referencing Section of this document and <a href="https://w3id.org/people/dgarijo">Daniel Garijo</a> for developing <a href="https://github.com/dgarijo/Widoco">Widoco</a>, the program used to create the template used in this documentation.</p>
+</div>
+
+
+</div>
+</body>
+</html>

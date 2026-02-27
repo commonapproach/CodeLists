@@ -343,6 +343,37 @@
                 "@value": "Days"
             },
             "@type": "i72:Singular_unit"
+        },
+        {
+            "@id": "file:///home/dsl/src/cei/commonapproach/CodeLists.git/UnitsOfMeasureList.ttl",
+            "dcterms:description": {
+                "@language": "en",
+                "@value": "A codelist vocabulary of units of measure for use in CIDS-aligned software."
+            },
+            "dcterms:title": {
+                "@language": "en",
+                "@value": "Units of Measure List"
+            },
+            "skos:prefLabel": {
+                "@language": "en",
+                "@value": "Units of Measure List"
+            },
+            "owl:versionInfo": "1.1",
+            "dcterms:date": {
+                "@value": "2025-10-31",
+                "@type": "xsd:date"
+            },
+            "dcterms:creator": {
+                "@id": "cids:ac"
+            },
+            "owl:imports": {
+                "@id": "https://ontology.commonapproach.org/cids"
+            },
+            "@type": [
+                "skos:ConceptScheme",
+                "owl:Ontology",
+                "voaf:Vocabulary"
+            ]
         }
     ],
     "@context": {
@@ -350,6 +381,9 @@
         "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
         "owl": "http://www.w3.org/2002/07/owl#",
         "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "voaf": "http://purl.org/vocommons/voaf#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
         "cids": "https://ontology.commonapproach.org/cids#"
     }
