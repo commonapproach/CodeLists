@@ -104,6 +104,7 @@ $codelists = [
   'RallyImpactArea' => 'A list of Impact Areas based on the IRIS+ taxonomy defined by Rally Assets.',
   'SDGImpacts' => 'The United Nations Sustainable Development Goals (SDGs).',
   'SELI-GLI' => 'The Social Equity and Gender-Lens Investment Assessment (SELI-GLI) questionnaire for use by Canada\'s Social Finance Fund.',
+  'SELI-GLI-SFI' => 'The Funder-specific version of the Social Equity and Gender-Lens Investment Assessment (SELI-GLI) questionnaire for use by Canada\'s Social Finance Fund.',  
   'StatsCanSector' => 'A list of economic sectors defined by Statistics Canada.' ,
   'UnitsOfMeasureList' => 'A list of units of measure for with the Common Impact Data Standard (CIDS).',
 ];
