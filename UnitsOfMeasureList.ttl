@@ -14,6 +14,17 @@
 # data entry from simple spreadsheet-based systems.
 #################################################################
 
+a voaf:Vocabulary, owl:Ontology, skos:ConceptScheme ;
+    owl:imports <https://ontology.commonapproach.org/cids> ;
+
+    dcterms:creator cids:ac ;
+    dcterms:date "2025-10-31"^^xsd:date ;
+    owl:versionInfo "1.1" ;
+
+    skos:prefLabel "Units of Measure List"@en ;
+    dcterms:title "Units of Measure List"@en ;
+    dcterms:description "A codelist vocabulary of units of measure for use in CIDS-aligned software."@en .
+
 
 #################################################################
 # 1. CIDS-defined Base Singular Units (for units not in i72:)
