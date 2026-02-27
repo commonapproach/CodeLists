@@ -41,8 +41,7 @@
     cids:definedBy cids:esdc ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    skos:inScheme <> ;
-    .
+    skos:inScheme <> .
 
 # -- Outcomes --
 
@@ -60,8 +59,7 @@
     cids:definedBy cids:esdc ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    skos:inScheme <> ;
-    .
+    skos:inScheme <> .
 
 :Outcome2SFI
     a cids:Outcome, skos:Concept ;
@@ -77,8 +75,7 @@
     cids:definedBy cids:esdc ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    skos:inScheme <> ;
-    .
+    skos:inScheme <> .
 
 :Outcome3SFI
     a cids:Outcome, skos:Concept ;
@@ -94,8 +91,7 @@
     cids:definedBy cids:esdc ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    skos:inScheme <> ;
-    .
+    skos:inScheme <> .
 
 :Outcome4SFI
     a cids:Outcome, skos:Concept ;
@@ -111,8 +107,7 @@
     cids:definedBy cids:esdc ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    skos:inScheme <> ;
-    .
+    skos:inScheme <> .
 
 :Outcome5SFI
     a cids:Outcome, skos:Concept ;
@@ -128,8 +123,7 @@
     cids:definedBy cids:esdc ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    skos:inScheme <> ;
-    .
+    skos:inScheme <> .
 
 :Outcome6SFI
     a cids:Outcome, skos:Concept ;
@@ -145,8 +139,7 @@
     cids:definedBy cids:esdc ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    skos:inScheme <> ;
-    .
+    skos:inScheme <> .
 
 # -- Indicators --
 
@@ -168,8 +161,7 @@
     cids:definedBy cids:esdc ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    skos:inScheme <> ;
-    .
+    skos:inScheme <> .
 
 :Indicator2SFI
     a cids:Indicator, skos:Concept ;
@@ -189,8 +181,7 @@
     cids:definedBy cids:esdc ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    skos:inScheme <> ;
-    .
+    skos:inScheme <> .
 
 :Indicator3SFI
     a cids:Indicator, skos:Concept ;
@@ -210,8 +201,7 @@
     cids:definedBy cids:esdc ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    skos:inScheme <> ;
-    .
+    skos:inScheme <> .
 
 :Indicator4SFI
     a cids:Indicator, skos:Concept ;
@@ -231,8 +221,7 @@
     cids:definedBy cids:esdc ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    skos:inScheme <> ;
-    .
+    skos:inScheme <> .
 
 :Indicator5SFI
     a cids:Indicator, skos:Concept ;
@@ -252,8 +241,7 @@
     cids:definedBy cids:esdc ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    skos:inScheme <> ;
-    .
+    skos:inScheme <> .
 
 :Indicator6SFI
     a cids:Indicator, skos:Concept ;
@@ -273,8 +261,7 @@
     cids:definedBy cids:esdc ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    skos:inScheme <> ;
-    .
+    skos:inScheme <> .
 
 :Indicator7SFI
     a cids:Indicator, skos:Concept ;
@@ -294,8 +281,7 @@
     cids:definedBy cids:esdc ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    skos:inScheme <> ;
-    .
+    skos:inScheme <> .
 
 :Indicator8SFI
     a cids:Indicator, skos:Concept ;
@@ -315,8 +301,7 @@
     cids:definedBy cids:esdc ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    skos:inScheme <> ;
-    .
+    skos:inScheme <> .
 
 :Indicator9SFI
     a cids:Indicator, skos:Concept ;
@@ -336,8 +321,7 @@
     cids:definedBy cids:esdc ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    skos:inScheme <> ;
-    .
+    skos:inScheme <> .
 
 :Indicator10SFI
     a cids:Indicator, skos:Concept ;
@@ -355,8 +339,7 @@
     cids:definedBy cids:esdc ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    skos:inScheme <> ;
-    .
+    skos:inScheme <> .
 
 :Indicator11SFI
     a cids:Indicator, skos:Concept ;
@@ -371,8 +354,7 @@
     cids:definedBy cids:esdc ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    skos:inScheme <> ;
-    .
+    skos:inScheme <> .
 
 :Indicator12SFI
     a cids:Indicator, skos:Concept ;
@@ -387,5 +369,8 @@
     cids:definedBy cids:esdc ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    skos:inScheme <> ;
-    .
+    skos:inScheme <> .
+
+cids:esdc
+    a cids:Organization ;
+    org:hasLegalName "Employment and Social Development Canada" .
