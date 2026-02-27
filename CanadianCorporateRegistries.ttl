@@ -38,7 +38,7 @@
     cids:definedBy cids:esdc;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    .
+    skos:inScheme <> .
 
 :cra
     a skos:Concept, cids:Code, cids:Organization, org:Organization ;
@@ -54,7 +54,7 @@
     cids:definedBy cids:esdc;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    .
+    skos:inScheme <> .
 
 :ab
     a skos:Concept, cids:Code, cids:Organization, org:Organization ;
@@ -70,7 +70,7 @@
     cids:definedBy cids:esdc;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    .
+    skos:inScheme <> .
 
 :bc
     a skos:Concept, cids:Code, cids:Organization, org:Organization ;
@@ -86,7 +86,7 @@
     cids:definedBy cids:esdc;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    .
+    skos:inScheme <> .
 
 :mb
     a skos:Concept, cids:Code, cids:Organization, org:Organization ;
@@ -102,7 +102,7 @@
     cids:definedBy cids:esdc;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    .
+    skos:inScheme <> .
 
 :nb
     a skos:Concept, cids:Code, cids:Organization, org:Organization ;
@@ -118,7 +118,7 @@
     cids:definedBy cids:esdc;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    .
+    skos:inScheme <> .
 
 :nl
     a skos:Concept, cids:Code, cids:Organization, org:Organization ;
@@ -134,7 +134,7 @@
     cids:definedBy cids:esdc;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    .
+    skos:inScheme <> .
 
 :nt
     a skos:Concept, cids:Code, cids:Organization, org:Organization ;
@@ -150,7 +150,7 @@
     cids:definedBy cids:esdc;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    .
+    skos:inScheme <> .
 
 :ns
     a skos:Concept, cids:Code, cids:Organization, org:Organization ;
@@ -166,7 +166,7 @@
     cids:definedBy cids:esdc;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    .
+    skos:inScheme <> .
 
 :nu
     a skos:Concept, cids:Code, cids:Organization, org:Organization ;
@@ -182,7 +182,7 @@
     cids:definedBy cids:esdc;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    .
+    skos:inScheme <> .
 
 :on
     a skos:Concept, cids:Code, cids:Organization, org:Organization ;
@@ -198,7 +198,7 @@
     cids:definedBy cids:esdc;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    .
+    skos:inScheme <> .
 
 :pe
     a skos:Concept, cids:Code, cids:Organization, org:Organization ;
@@ -214,7 +214,7 @@
     cids:definedBy cids:esdc;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    .
+    skos:inScheme <> .
 
 :qc
     a skos:Concept, cids:Code, cids:Organization, org:Organization ;
@@ -230,7 +230,7 @@
     cids:definedBy cids:esdc;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    .
+    skos:inScheme <> .
 
 :sk
     a skos:Concept, cids:Code, cids:Organization, org:Organization ;
@@ -246,7 +246,7 @@
     cids:definedBy cids:esdc;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    .
+    skos:inScheme <> .
 
 :yk
     a skos:Concept, cids:Code, cids:Organization, org:Organization ;
@@ -262,4 +262,4 @@
     cids:definedBy cids:esdc;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    .
+    skos:inScheme <> .
