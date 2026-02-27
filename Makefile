@@ -68,7 +68,7 @@ check-codelist: .checkvar-CODELIST ##@ Basic parsing sanity check with rdflib.
 	mkdir -p $(WIDOCO_WORK_DIR)/$*                                                          # Ensure the working directory exists
 	java -jar $(WIDOCO_BIN) $(WIDOCO_OPTIONS) -outFolder $(WIDOCO_WORK_DIR)/$* -ontFile $<  # Invoke Widoco to generate single-page html page
 	mv $(WIDOCO_WORK_DIR)/$*/index-en.html $@                                               # Move it into place
-	sed -ie 's!resources/!https://ontology.commonapproach.org/resources/!' $@               # Don't rely on local resources
+	sed -i 's!resources/!https://ontology.commonapproach.org/resources/!' $@                # Don't rely on local resources
 
 ##
 ####
