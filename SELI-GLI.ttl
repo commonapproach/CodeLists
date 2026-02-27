@@ -41,8 +41,7 @@
     cids:definedBy cids:esdc ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    skos:inScheme <> ;
-    .
+    skos:inScheme <> .
 
 # -- Outcomes --
 
@@ -60,8 +59,7 @@
     cids:definedBy cids:esdc ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    skos:inScheme <> ;
-    .
+    skos:inScheme <> .
 
 :Outcome2
     a cids:Outcome, skos:Concept ;
@@ -77,8 +75,7 @@
     cids:definedBy cids:esdc ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    skos:inScheme <> ;
-    .
+    skos:inScheme <> .
 
 :Outcome3
     a cids:Outcome, skos:Concept ;
@@ -94,8 +91,7 @@
     cids:definedBy cids:esdc ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    skos:inScheme <> ;
-    .
+    skos:inScheme <> .
 
 :Outcome4
     a cids:Outcome, skos:Concept ;
@@ -111,8 +107,7 @@
     cids:definedBy cids:esdc ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    skos:inScheme <> ;
-    .
+    skos:inScheme <> .
 
 :Outcome5
     a cids:Outcome, skos:Concept ;
@@ -128,8 +123,7 @@
     cids:definedBy cids:esdc ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    skos:inScheme <> ;
-    .
+    skos:inScheme <> .
 
 # -- Indicators --
 
@@ -151,8 +145,7 @@
     cids:definedBy cids:esdc ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    skos:inScheme <> ;
-    .
+    skos:inScheme <> .
 
 :Indicator2
     a cids:Indicator, skos:Concept ;
@@ -172,8 +165,7 @@
     cids:definedBy cids:esdc ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    skos:inScheme <> ;
-    .
+    skos:inScheme <> .
 
 :Indicator3
     a cids:Indicator, skos:Concept ;
@@ -193,8 +185,7 @@
     cids:definedBy cids:esdc ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    skos:inScheme <> ;
-    .
+    skos:inScheme <> .
 
 :Indicator4
     a cids:Indicator, skos:Concept ;
@@ -214,8 +205,7 @@
     cids:definedBy cids:esdc ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    skos:inScheme <> ;
-    .
+    skos:inScheme <> .
 
 :Indicator5
     a cids:Indicator, skos:Concept ;
@@ -235,8 +225,7 @@
     cids:definedBy cids:esdc ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    skos:inScheme <> ;
-    .
+    skos:inScheme <> .
 
 :Indicator6
     a cids:Indicator, skos:Concept ;
@@ -256,8 +245,7 @@
     cids:definedBy cids:esdc ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    skos:inScheme <> ;
-    .
+    skos:inScheme <> .
 
 :Indicator7
     a cids:Indicator, skos:Concept ;
@@ -277,8 +265,7 @@
     cids:definedBy cids:esdc ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    skos:inScheme <> ;
-    .
+    skos:inScheme <> .
 
 :Indicator8
     a cids:Indicator, skos:Concept ;
@@ -298,8 +285,7 @@
     cids:definedBy cids:esdc ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    skos:inScheme <> ;
-    .
+    skos:inScheme <> .
 
 :Indicator9
     a cids:Indicator, skos:Concept ;
@@ -314,8 +300,7 @@
     cids:definedBy cids:esdc ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    skos:inScheme <> ;
-    .
+    skos:inScheme <> .
 
 :Indicator10
     a cids:Indicator, skos:Concept ;
@@ -330,8 +315,7 @@
     cids:definedBy cids:esdc ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    skos:inScheme <> ;
-    .
+    skos:inScheme <> .
 
 :Indicator11
     a cids:Indicator, skos:Concept ;
@@ -346,10 +330,8 @@
     cids:definedBy cids:esdc ;
     cids:hasSpecification <> ;
     rdfs:isDefinedBy <> ;
-    skos:inScheme <> ;
-    .
+    skos:inScheme <> .
 
 cids:esdc
     a cids:Organization ;
-    org:hasLegalName "Employment and Social Development Canada"
-    .
+    org:hasLegalName "Employment and Social Development Canada" .
