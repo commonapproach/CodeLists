@@ -350,6 +350,6 @@
     .
 
 cids:esdc
-    a cids:Organization;
+    a cids:Organization ;
     org:hasLegalName "Employment and Social Development Canada"
     .
