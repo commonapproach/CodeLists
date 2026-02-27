@@ -101,7 +101,7 @@ check-codelist: .checkvar-CODELIST ##@ Basic parsing sanity check with rdflib.
 
 # The entire WORK_DIR should be transient and easy to reproduce with targets in this Makefile.
 clean:
-	rm -rf $(WORK_DIR)
+	rm -rf $(WORK_DIR) tmp*
 
 # Install Widoco
 $(SCRIPTS_DIR):
