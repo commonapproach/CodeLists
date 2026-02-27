@@ -348,3 +348,8 @@
     rdfs:isDefinedBy <> ;
     skos:inScheme <> ;
     .
+
+cids:esdc
+    a cids:Organization;
+    org:hasLegalName "Employment and Social Development Canada"
+    .
