@@ -1,8 +1,11 @@
 @prefix cids: <https://ontology.commonapproach.org/cids#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix i72: <http://ontology.eil.utoronto.ca/ISO21972/iso21972#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix voaf: <http://purl.org/vocommons/voaf#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 #################################################################
@@ -14,7 +17,8 @@
 # data entry from simple spreadsheet-based systems.
 #################################################################
 
-a voaf:Vocabulary, owl:Ontology, skos:ConceptScheme ;
+<>
+    a voaf:Vocabulary, owl:Ontology, skos:ConceptScheme ;
     owl:imports <https://ontology.commonapproach.org/cids> ;
 
     dcterms:creator cids:ac ;
