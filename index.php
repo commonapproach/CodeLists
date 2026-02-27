@@ -146,8 +146,7 @@ foreach ($codelists as $list => $description) {
  <tr>
   <td><?= $links ?></td>
   <td><?= $description ?></td>
-  <?php # @TODO: Make this dynamic? Either add date to the codelists dictionary above, look in the file for dcterms:date, or scan the filesystem for timestamp? ?>
-  <td style="text-align: center;">Dec 1, 2025</td>
+  <td style="text-align: center;"><?= (new DateTime(preg_replace('/.*dcterms:date\s+"(\d{4}-\d{2}-\d{2})".*/s', '$1', file_get_contents($list . '.ttl'))))->format('M j, Y') ?></td>
   <td style="text-align: center;">0</td>
  </tr>
 <?php
