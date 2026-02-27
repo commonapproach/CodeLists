@@ -1,0 +1,1162 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+<link rel="stylesheet" href="https://ontology.commonapproach.org/resources/primer.css" media="screen"/>
+<link rel="stylesheet" href="https://ontology.commonapproach.org/resources/rec.css" media="screen"/>
+<link rel="stylesheet" href="https://ontology.commonapproach.org/resources/extra.css" media="screen"/>
+<link rel="stylesheet" href="https://ontology.commonapproach.org/resources/owl.css" media="screen"/>
+<link rel="stylesheet" href="https://ontology.commonapproach.org/resources/dark.css" media="(prefers-color-scheme: dark)"/>
+<link rel="stylesheet" href="https://ontology.commonapproach.org/resources/light.css" media="(prefers-color-scheme: light)"/>
+<link rel="stylesheet" href="https://ontology.commonapproach.org/resources/slider.css" media="screen"/>
+<meta name="color-scheme" content="dark light">
+<script type="module" src="https://ontology.commonapproach.org/resources/dark-mode-toggle.mjs"></script><div class="darkmode">
+	<dark-mode-toggle class="slider"></dark-mode-toggle>
+</div>
+ <title>Statistics Canada Sectors</title>
+
+
+<!-- SCHEMA.ORG METADATA -->
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"TechArticle","url":"https://codelist.commonapproach.org/StatsCanSector","image":"http://vowl.visualdataweb.org/webvowl/#iri=https://codelist.commonapproach.org/StatsCanSector","name":"Statistics Canada Sectors", "headline":"Document describing the ontology https://codelist.commonapproach.org/StatsCanSector", "dateReleased":"Fri Feb 27 15:58:45 EST 2026", "version":"2.0", "author":[{"@type":"Person","name":"https://ontology.commonapproach.org/cids#ac","url":"https://ontology.commonapproach.org/cids#ac"}]}</script>
+
+<script src="https://ontology.commonapproach.org/resources/jquery.js"></script> 
+<script src="https://ontology.commonapproach.org/resources/marked.min.js"></script> 
+    <script> 
+function loadHash() {
+  jQuery(".markdown").each(function(el){jQuery(this).after(marked.parse(jQuery(this).text())).remove()});
+	var hash = location.hash;
+	if($(hash).offset()!=null){
+	  $('html, body').animate({scrollTop: $(hash).offset().top}, 0);
+}
+	loadTOC();
+}
+function loadTOC(){
+	//process toc dynamically
+	  var t='<h2>Table of contents</h2><ul>';i = 1;j=0;
+	  jQuery(".list").each(function(){
+		if(jQuery(this).is('h2')){
+			if(j>0){
+				t+='</ul>';
+				j=0;
+			}
+			t+= '<li>'+i+'. <a href=#'+ jQuery(this).attr('id')+'>'+ jQuery(this).ignore("span").text()+'</a></li>';
+			i++;
+		}
+		if(jQuery(this).is('h3')){
+			if(j==0){
+				t+='<ul>';
+			}
+			j++;
+			t+= '<li>'+(i-1)+'.'+j+'. '+'<a href=#'+ jQuery(this).attr('id')+'>'+ jQuery(this).ignore("span").text()+'</a></li>';
+		}
+	  });
+	  t+='</ul>';
+	  $("#toc").html(t); 
+}
+$(function(){
+    loadHash();
+}); $.fn.ignore = function(sel){
+        return this.clone().find(sel||">*").remove().end();
+ }; 
+   </script> 
+  </head> 
+
+<body>
+<div class="container">
+<div class="head">
+<div style="float:right">language <a href="index-en.html"><b>en</b></a> </div>
+<h1>Statistics Canada Sectors</h1>
+
+
+<dl>
+<dt>Revision:</dt>
+<dd>2.0</dd>
+<dt>Authors:</dt>
+<dd><a href="https://ontology.commonapproach.org/cids#ac">https://ontology.commonapproach.org/cids#ac</a></dd>
+
+<dt>Imported Ontologies:</dt>
+<dd><a href="http://ontology.eil.utoronto.ca/ISO21972/iso21972">iso21972</a></dd><dd><a href="http://ontology.eil.utoronto.ca/tove/activity">activity</a></dd><dd><a href="http://ontology.eil.utoronto.ca/tove/icontact">icontact</a></dd><dd><a href="http://ontology.eil.utoronto.ca/tove/organization">organization</a></dd><dd><a href="http://www.w3.org/2006/time">time</a></dd><dd><a href="https://ontology.commonapproach.org/cids">cids</a></dd><dd><a href="https://standards.iso.org/iso-iec/5087/-1/ed-1/en/ontology/Time/">&lt;https://standards.iso.org/iso-iec/5087/-1/ed-1/en/ontology/Time/&gt;</a></dd>
+
+<dt>Download serialization:</dt><dd><span><a href="ontology.jsonld" target="_blank"><img src="https://img.shields.io/badge/Format-JSON_LD-blue.svg" alt="JSON-LD" /></a> </span><span><a href="ontology.owl" target="_blank"><img src="https://img.shields.io/badge/Format-RDF/XML-blue.svg" alt="RDF/XML" /></a> </span><span><a href="ontology.nt" target="_blank"><img src="https://img.shields.io/badge/Format-N_Triples-blue.svg" alt="N-Triples" /></a> </span><span><a href="ontology.ttl" target="_blank"><img src="https://img.shields.io/badge/Format-TTL-blue.svg" alt="TTL" /></a> </span></dd><dt>License:</dt><dd><a href="http://insertlicenseURIhere.example.org" target="_blank"><img src="https://img.shields.io/badge/License-license%20name%20goes%20here-blue.svg" alt="http://insertlicenseURIhere.example.org" /></a>
+</dd><!-- <dt>Evaluation:</dt><dd><a href="OOPSevaluation/oopsEval.html#" target="_blank"><img src="https://img.shields.io/badge/Evaluate_with-OOPS! (OntOlogy Pitfall Scanner!)-blue.svg" alt="Evaluate with OOPS!" /></a></dd> --><dt>Cite as:</dt>
+<dd>https://ontology.commonapproach.org/cids#ac. Statistics Canada Sectors. Revision: 2.0.</dd>
+</dl>
+
+<a href="provenance/provenance-en.html" target="_blank">Provenance of this page</a><hr/>
+</div>
+<div class="status">
+<div>
+<span>Ontology Specification Draft</span>
+</div>
+</div><div id="toc"></div>  
+
+<!--OVERVIEW SECTION-->
+    <div id="overview"><h2 id="overv" class="list">Statistics Canada Sectors: Overview <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>
+<span class="markdown">
+This ontology has the following classes and properties.</span>
+<h4>Named Individuals</h4><ul xmlns:widoco="https://w3id.org/widoco/vocab#"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    class="hlist">
+   <li>
+      <a href="#sec18"
+         title="https://codelist.commonapproach.org/StatsCanSector#sec18">Accommodation and food services</a>
+   </li>
+   <li>
+      <a href="#sec14"
+         title="https://codelist.commonapproach.org/StatsCanSector#sec14">Administrative and support, waste management and remediation services</a>
+   </li>
+   <li>
+      <a href="#sec1"
+         title="https://codelist.commonapproach.org/StatsCanSector#sec1">Agriculture, forestry, fishing and hunting</a>
+   </li>
+   <li>
+      <a href="#sec17"
+         title="https://codelist.commonapproach.org/StatsCanSector#sec17">Arts, entertainment and recreation</a>
+   </li>
+   <li>
+      <a href="#sec4"
+         title="https://codelist.commonapproach.org/StatsCanSector#sec4">Construction</a>
+   </li>
+   <li>
+      <a href="#sec15"
+         title="https://codelist.commonapproach.org/StatsCanSector#sec15">Educational services</a>
+   </li>
+   <li>
+      <a href="#sec10"
+         title="https://codelist.commonapproach.org/StatsCanSector#sec10">Finance and insurance</a>
+   </li>
+   <li>
+      <a href="#sec16"
+         title="https://codelist.commonapproach.org/StatsCanSector#sec16">Health care and social assistance</a>
+   </li>
+   <li>
+      <a href="#sec9"
+         title="https://codelist.commonapproach.org/StatsCanSector#sec9">Information and cultural industries</a>
+   </li>
+   <li>
+      <a href="#sec13"
+         title="https://codelist.commonapproach.org/StatsCanSector#sec13">Management of companies and enterprises</a>
+   </li>
+   <li>
+      <a href="#sec5"
+         title="https://codelist.commonapproach.org/StatsCanSector#sec5">Manufacturing</a>
+   </li>
+   <li>
+      <a href="#sec2"
+         title="https://codelist.commonapproach.org/StatsCanSector#sec2">Mining, quarrying, and oil and gas extraction</a>
+   </li>
+   <li>
+      <a href="#sec19"
+         title="https://codelist.commonapproach.org/StatsCanSector#sec19">Other services (except public administration)</a>
+   </li>
+   <li>
+      <a href="#sec12"
+         title="https://codelist.commonapproach.org/StatsCanSector#sec12">Professional, scientific and technical services</a>
+   </li>
+   <li>
+      <a href="#sec20"
+         title="https://codelist.commonapproach.org/StatsCanSector#sec20">Public administration</a>
+   </li>
+   <li>
+      <a href="#sec11"
+         title="https://codelist.commonapproach.org/StatsCanSector#sec11">Real estate and rental and leasing</a>
+   </li>
+   <li>
+      <a href="#sec7"
+         title="https://codelist.commonapproach.org/StatsCanSector#sec7">Retail trade</a>
+   </li>
+   <li>
+      <a href="#"
+         title="https://codelist.commonapproach.org/StatsCanSector">
+         <span>Statistics Canada Sectors</span>
+      </a>
+   </li>
+   <li>
+      <a href="#sec8"
+         title="https://codelist.commonapproach.org/StatsCanSector#sec8">Transportation and warehousing</a>
+   </li>
+   <li>
+      <a href="#sec3"
+         title="https://codelist.commonapproach.org/StatsCanSector#sec3">Utilities</a>
+   </li>
+   <li>
+      <a href="#sec6"
+         title="https://codelist.commonapproach.org/StatsCanSector#sec6">Wholesale trade</a>
+   </li>
+</ul>
+</div>
+  
+
+<!--DESCRIPTION SECTION-->
+    <div id="description"><h2 id="desc" class="list">Statistics Canada Sectors: Description <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>
+
+<span class="markdown">A codelist vocabulary of Sectors as defined by Statistics Canada.</span></div>
+   
+
+<!--CROSSREF SECTION-->
+   <div id="crossref"><h2 id="crossreference" class="list">Cross-reference for Statistics Canada Sectors classes, object properties and data properties <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>
+This section provides details for each class and property defined by Statistics Canada Sectors.
+<div xmlns:widoco="https://w3id.org/widoco/vocab#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="namedindividuals">
+ <h3 id="namedindividuals" class="list">Named Individuals</h3>
+ <ul class="hlist">
+  <li><a href="#sec18" title="https://codelist.commonapproach.org/StatsCanSector#sec18">Accommodation and food services</a></li>
+  <li><a href="#sec14" title="https://codelist.commonapproach.org/StatsCanSector#sec14">Administrative and support, waste management and remediation services</a></li>
+  <li><a href="#sec1" title="https://codelist.commonapproach.org/StatsCanSector#sec1">Agriculture, forestry, fishing and hunting</a></li>
+  <li><a href="#sec17" title="https://codelist.commonapproach.org/StatsCanSector#sec17">Arts, entertainment and recreation</a></li>
+  <li><a href="#sec4" title="https://codelist.commonapproach.org/StatsCanSector#sec4">Construction</a></li>
+  <li><a href="#sec15" title="https://codelist.commonapproach.org/StatsCanSector#sec15">Educational services</a></li>
+  <li><a href="#sec10" title="https://codelist.commonapproach.org/StatsCanSector#sec10">Finance and insurance</a></li>
+  <li><a href="#sec16" title="https://codelist.commonapproach.org/StatsCanSector#sec16">Health care and social assistance</a></li>
+  <li><a href="#sec9" title="https://codelist.commonapproach.org/StatsCanSector#sec9">Information and cultural industries</a></li>
+  <li><a href="#sec13" title="https://codelist.commonapproach.org/StatsCanSector#sec13">Management of companies and enterprises</a></li>
+  <li><a href="#sec5" title="https://codelist.commonapproach.org/StatsCanSector#sec5">Manufacturing</a></li>
+  <li><a href="#sec2" title="https://codelist.commonapproach.org/StatsCanSector#sec2">Mining, quarrying, and oil and gas extraction</a></li>
+  <li><a href="#sec19" title="https://codelist.commonapproach.org/StatsCanSector#sec19">Other services (except public administration)</a></li>
+  <li><a href="#sec12" title="https://codelist.commonapproach.org/StatsCanSector#sec12">Professional, scientific and technical services</a></li>
+  <li><a href="#sec20" title="https://codelist.commonapproach.org/StatsCanSector#sec20">Public administration</a></li>
+  <li><a href="#sec11" title="https://codelist.commonapproach.org/StatsCanSector#sec11">Real estate and rental and leasing</a></li>
+  <li><a href="#sec7" title="https://codelist.commonapproach.org/StatsCanSector#sec7">Retail trade</a></li>
+  <li><a href="#" title="https://codelist.commonapproach.org/StatsCanSector"> <span>Statistics Canada Sectors</span> </a></li>
+  <li><a href="#sec8" title="https://codelist.commonapproach.org/StatsCanSector#sec8">Transportation and warehousing</a></li>
+  <li><a href="#sec3" title="https://codelist.commonapproach.org/StatsCanSector#sec3">Utilities</a></li>
+  <li><a href="#sec6" title="https://codelist.commonapproach.org/StatsCanSector#sec6">Wholesale trade</a></li>
+ </ul>
+ <div class="entity" id="sec18">
+  <h3>Accommodation and food services<sup class="type-ni" title="named individual">ni</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a> </span></h3>
+  <p><strong>IRI:</strong> https://codelist.commonapproach.org/StatsCanSector#sec18</p>
+  <dl class="definedBy">
+   <dt>
+    Is defined by
+   </dt>
+   <dd>
+    <a href="https://codelist.commonapproach.org/StatsCanSector">https://codelist.commonapproach.org/StatsCanSector</a>
+   </dd>
+  </dl>
+  <dl class="description">
+   <dt>
+    belongs to
+   </dt>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#Sector" target="_blank" title="https://ontology.commonapproach.org/cids#Sector">Sector</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+   <dt>
+    has facts
+   </dt>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#definedBy" target="_blank" title="https://ontology.commonapproach.org/cids#definedBy">defined By</a> <sup class="type-op" title="object property">op</sup> <a href="https://ontology.commonapproach.org/cids#statsCan" target="_blank" title="https://ontology.commonapproach.org/cids#statsCan">Statistics Canada</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+   <dd>
+    <a href="http://ontology.eil.utoronto.ca/tove/organization#hasIdentifier" target="_blank" title="http://ontology.eil.utoronto.ca/tove/organization#hasIdentifier">has Identifier</a> <sup class="type-dp" title="data property">dp</sup> <span class="literal">"72"</span>
+   </dd>
+   <dd>
+    <a href="http://ontology.eil.utoronto.ca/tove/organization#hasName" target="_blank" title="http://ontology.eil.utoronto.ca/tove/organization#hasName">has Name</a> <sup class="type-dp" title="data property">dp</sup> <span class="literal">"Accommodation and food services"</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#inScheme" target="_blank" title="http://www.w3.org/2004/02/skos/core#inScheme">in Scheme</a> <sup class="type-ap" title="annotation property">ap</sup> <a href="#d4e3" title="https://codelist.commonapproach.org/StatsCanSector">Statistics Canada Sectors</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#notation" target="_blank" title="http://www.w3.org/2004/02/skos/core#notation">notation</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"72"</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#prefLabel" target="_blank" title="http://www.w3.org/2004/02/skos/core#prefLabel">pref Label</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"Accommodation and food services"@en</span>
+   </dd>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#hasSpecification" target="_blank" title="https://ontology.commonapproach.org/cids#hasSpecification">has Specification</a> <sup class="type-dp" title="data property">dp</sup> <a href="#d4e3" title="https://codelist.commonapproach.org/StatsCanSector">Statistics Canada Sectors</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+  </dl>
+ </div>
+ <div class="entity" id="sec14">
+  <h3>Administrative and support, waste management and remediation services<sup class="type-ni" title="named individual">ni</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a> </span></h3>
+  <p><strong>IRI:</strong> https://codelist.commonapproach.org/StatsCanSector#sec14</p>
+  <dl class="definedBy">
+   <dt>
+    Is defined by
+   </dt>
+   <dd>
+    <a href="https://codelist.commonapproach.org/StatsCanSector">https://codelist.commonapproach.org/StatsCanSector</a>
+   </dd>
+  </dl>
+  <dl class="description">
+   <dt>
+    belongs to
+   </dt>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#Sector" target="_blank" title="https://ontology.commonapproach.org/cids#Sector">Sector</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+   <dt>
+    has facts
+   </dt>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#definedBy" target="_blank" title="https://ontology.commonapproach.org/cids#definedBy">defined By</a> <sup class="type-op" title="object property">op</sup> <a href="https://ontology.commonapproach.org/cids#statsCan" target="_blank" title="https://ontology.commonapproach.org/cids#statsCan">Statistics Canada</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+   <dd>
+    <a href="http://ontology.eil.utoronto.ca/tove/organization#hasIdentifier" target="_blank" title="http://ontology.eil.utoronto.ca/tove/organization#hasIdentifier">has Identifier</a> <sup class="type-dp" title="data property">dp</sup> <span class="literal">"56"</span>
+   </dd>
+   <dd>
+    <a href="http://ontology.eil.utoronto.ca/tove/organization#hasName" target="_blank" title="http://ontology.eil.utoronto.ca/tove/organization#hasName">has Name</a> <sup class="type-dp" title="data property">dp</sup> <span class="literal">"Administrative and support, waste management and remediation services"</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#inScheme" target="_blank" title="http://www.w3.org/2004/02/skos/core#inScheme">in Scheme</a> <sup class="type-ap" title="annotation property">ap</sup> <a href="#d4e3" title="https://codelist.commonapproach.org/StatsCanSector">Statistics Canada Sectors</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#notation" target="_blank" title="http://www.w3.org/2004/02/skos/core#notation">notation</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"56"</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#prefLabel" target="_blank" title="http://www.w3.org/2004/02/skos/core#prefLabel">pref Label</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"Administrative and support, waste management and remediation services"@en</span>
+   </dd>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#hasSpecification" target="_blank" title="https://ontology.commonapproach.org/cids#hasSpecification">has Specification</a> <sup class="type-dp" title="data property">dp</sup> <a href="#d4e3" title="https://codelist.commonapproach.org/StatsCanSector">Statistics Canada Sectors</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+  </dl>
+ </div>
+ <div class="entity" id="sec1">
+  <h3>Agriculture, forestry, fishing and hunting<sup class="type-ni" title="named individual">ni</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a> </span></h3>
+  <p><strong>IRI:</strong> https://codelist.commonapproach.org/StatsCanSector#sec1</p>
+  <dl class="definedBy">
+   <dt>
+    Is defined by
+   </dt>
+   <dd>
+    <a href="https://codelist.commonapproach.org/StatsCanSector">https://codelist.commonapproach.org/StatsCanSector</a>
+   </dd>
+  </dl>
+  <dl class="description">
+   <dt>
+    belongs to
+   </dt>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#Sector" target="_blank" title="https://ontology.commonapproach.org/cids#Sector">Sector</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+   <dt>
+    has facts
+   </dt>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#definedBy" target="_blank" title="https://ontology.commonapproach.org/cids#definedBy">defined By</a> <sup class="type-op" title="object property">op</sup> <a href="https://ontology.commonapproach.org/cids#statsCan" target="_blank" title="https://ontology.commonapproach.org/cids#statsCan">Statistics Canada</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+   <dd>
+    <a href="http://ontology.eil.utoronto.ca/tove/organization#hasIdentifier" target="_blank" title="http://ontology.eil.utoronto.ca/tove/organization#hasIdentifier">has Identifier</a> <sup class="type-dp" title="data property">dp</sup> <span class="literal">"11"</span>
+   </dd>
+   <dd>
+    <a href="http://ontology.eil.utoronto.ca/tove/organization#hasName" target="_blank" title="http://ontology.eil.utoronto.ca/tove/organization#hasName">has Name</a> <sup class="type-dp" title="data property">dp</sup> <span class="literal">"Agriculture, forestry, fishing and hunting"</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#inScheme" target="_blank" title="http://www.w3.org/2004/02/skos/core#inScheme">in Scheme</a> <sup class="type-ap" title="annotation property">ap</sup> <a href="#d4e3" title="https://codelist.commonapproach.org/StatsCanSector">Statistics Canada Sectors</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#notation" target="_blank" title="http://www.w3.org/2004/02/skos/core#notation">notation</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"11"</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#prefLabel" target="_blank" title="http://www.w3.org/2004/02/skos/core#prefLabel">pref Label</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"Agriculture, forestry, fishing and hunting"@en</span>
+   </dd>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#hasSpecification" target="_blank" title="https://ontology.commonapproach.org/cids#hasSpecification">has Specification</a> <sup class="type-dp" title="data property">dp</sup> <a href="#d4e3" title="https://codelist.commonapproach.org/StatsCanSector">Statistics Canada Sectors</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+  </dl>
+ </div>
+ <div class="entity" id="sec17">
+  <h3>Arts, entertainment and recreation<sup class="type-ni" title="named individual">ni</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a> </span></h3>
+  <p><strong>IRI:</strong> https://codelist.commonapproach.org/StatsCanSector#sec17</p>
+  <dl class="definedBy">
+   <dt>
+    Is defined by
+   </dt>
+   <dd>
+    <a href="https://codelist.commonapproach.org/StatsCanSector">https://codelist.commonapproach.org/StatsCanSector</a>
+   </dd>
+  </dl>
+  <dl class="description">
+   <dt>
+    belongs to
+   </dt>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#Sector" target="_blank" title="https://ontology.commonapproach.org/cids#Sector">Sector</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+   <dt>
+    has facts
+   </dt>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#definedBy" target="_blank" title="https://ontology.commonapproach.org/cids#definedBy">defined By</a> <sup class="type-op" title="object property">op</sup> <a href="https://ontology.commonapproach.org/cids#statsCan" target="_blank" title="https://ontology.commonapproach.org/cids#statsCan">Statistics Canada</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+   <dd>
+    <a href="http://ontology.eil.utoronto.ca/tove/organization#hasIdentifier" target="_blank" title="http://ontology.eil.utoronto.ca/tove/organization#hasIdentifier">has Identifier</a> <sup class="type-dp" title="data property">dp</sup> <span class="literal">"71"</span>
+   </dd>
+   <dd>
+    <a href="http://ontology.eil.utoronto.ca/tove/organization#hasName" target="_blank" title="http://ontology.eil.utoronto.ca/tove/organization#hasName">has Name</a> <sup class="type-dp" title="data property">dp</sup> <span class="literal">"Arts, entertainment and recreation"</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#inScheme" target="_blank" title="http://www.w3.org/2004/02/skos/core#inScheme">in Scheme</a> <sup class="type-ap" title="annotation property">ap</sup> <a href="#d4e3" title="https://codelist.commonapproach.org/StatsCanSector">Statistics Canada Sectors</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#notation" target="_blank" title="http://www.w3.org/2004/02/skos/core#notation">notation</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"71"</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#prefLabel" target="_blank" title="http://www.w3.org/2004/02/skos/core#prefLabel">pref Label</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"Arts, entertainment and recreation"@en</span>
+   </dd>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#hasSpecification" target="_blank" title="https://ontology.commonapproach.org/cids#hasSpecification">has Specification</a> <sup class="type-dp" title="data property">dp</sup> <a href="#d4e3" title="https://codelist.commonapproach.org/StatsCanSector">Statistics Canada Sectors</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+  </dl>
+ </div>
+ <div class="entity" id="sec4">
+  <h3>Construction<sup class="type-ni" title="named individual">ni</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a> </span></h3>
+  <p><strong>IRI:</strong> https://codelist.commonapproach.org/StatsCanSector#sec4</p>
+  <dl class="definedBy">
+   <dt>
+    Is defined by
+   </dt>
+   <dd>
+    <a href="https://codelist.commonapproach.org/StatsCanSector">https://codelist.commonapproach.org/StatsCanSector</a>
+   </dd>
+  </dl>
+  <dl class="description">
+   <dt>
+    belongs to
+   </dt>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#Sector" target="_blank" title="https://ontology.commonapproach.org/cids#Sector">Sector</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+   <dt>
+    has facts
+   </dt>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#definedBy" target="_blank" title="https://ontology.commonapproach.org/cids#definedBy">defined By</a> <sup class="type-op" title="object property">op</sup> <a href="https://ontology.commonapproach.org/cids#statsCan" target="_blank" title="https://ontology.commonapproach.org/cids#statsCan">Statistics Canada</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+   <dd>
+    <a href="http://ontology.eil.utoronto.ca/tove/organization#hasIdentifier" target="_blank" title="http://ontology.eil.utoronto.ca/tove/organization#hasIdentifier">has Identifier</a> <sup class="type-dp" title="data property">dp</sup> <span class="literal">"23"</span>
+   </dd>
+   <dd>
+    <a href="http://ontology.eil.utoronto.ca/tove/organization#hasName" target="_blank" title="http://ontology.eil.utoronto.ca/tove/organization#hasName">has Name</a> <sup class="type-dp" title="data property">dp</sup> <span class="literal">"Construction"</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#inScheme" target="_blank" title="http://www.w3.org/2004/02/skos/core#inScheme">in Scheme</a> <sup class="type-ap" title="annotation property">ap</sup> <a href="#d4e3" title="https://codelist.commonapproach.org/StatsCanSector">Statistics Canada Sectors</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#notation" target="_blank" title="http://www.w3.org/2004/02/skos/core#notation">notation</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"23"</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#prefLabel" target="_blank" title="http://www.w3.org/2004/02/skos/core#prefLabel">pref Label</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"Construction"@en</span>
+   </dd>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#hasSpecification" target="_blank" title="https://ontology.commonapproach.org/cids#hasSpecification">has Specification</a> <sup class="type-dp" title="data property">dp</sup> <a href="#d4e3" title="https://codelist.commonapproach.org/StatsCanSector">Statistics Canada Sectors</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+  </dl>
+ </div>
+ <div class="entity" id="sec15">
+  <h3>Educational services<sup class="type-ni" title="named individual">ni</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a> </span></h3>
+  <p><strong>IRI:</strong> https://codelist.commonapproach.org/StatsCanSector#sec15</p>
+  <dl class="definedBy">
+   <dt>
+    Is defined by
+   </dt>
+   <dd>
+    <a href="https://codelist.commonapproach.org/StatsCanSector">https://codelist.commonapproach.org/StatsCanSector</a>
+   </dd>
+  </dl>
+  <dl class="description">
+   <dt>
+    belongs to
+   </dt>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#Sector" target="_blank" title="https://ontology.commonapproach.org/cids#Sector">Sector</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+   <dt>
+    has facts
+   </dt>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#definedBy" target="_blank" title="https://ontology.commonapproach.org/cids#definedBy">defined By</a> <sup class="type-op" title="object property">op</sup> <a href="https://ontology.commonapproach.org/cids#statsCan" target="_blank" title="https://ontology.commonapproach.org/cids#statsCan">Statistics Canada</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+   <dd>
+    <a href="http://ontology.eil.utoronto.ca/tove/organization#hasIdentifier" target="_blank" title="http://ontology.eil.utoronto.ca/tove/organization#hasIdentifier">has Identifier</a> <sup class="type-dp" title="data property">dp</sup> <span class="literal">"61"</span>
+   </dd>
+   <dd>
+    <a href="http://ontology.eil.utoronto.ca/tove/organization#hasName" target="_blank" title="http://ontology.eil.utoronto.ca/tove/organization#hasName">has Name</a> <sup class="type-dp" title="data property">dp</sup> <span class="literal">"Educational services"</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#inScheme" target="_blank" title="http://www.w3.org/2004/02/skos/core#inScheme">in Scheme</a> <sup class="type-ap" title="annotation property">ap</sup> <a href="#d4e3" title="https://codelist.commonapproach.org/StatsCanSector">Statistics Canada Sectors</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#notation" target="_blank" title="http://www.w3.org/2004/02/skos/core#notation">notation</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"61"</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#prefLabel" target="_blank" title="http://www.w3.org/2004/02/skos/core#prefLabel">pref Label</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"Educational services"@en</span>
+   </dd>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#hasSpecification" target="_blank" title="https://ontology.commonapproach.org/cids#hasSpecification">has Specification</a> <sup class="type-dp" title="data property">dp</sup> <a href="#d4e3" title="https://codelist.commonapproach.org/StatsCanSector">Statistics Canada Sectors</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+  </dl>
+ </div>
+ <div class="entity" id="sec10">
+  <h3>Finance and insurance<sup class="type-ni" title="named individual">ni</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a> </span></h3>
+  <p><strong>IRI:</strong> https://codelist.commonapproach.org/StatsCanSector#sec10</p>
+  <dl class="definedBy">
+   <dt>
+    Is defined by
+   </dt>
+   <dd>
+    <a href="https://codelist.commonapproach.org/StatsCanSector">https://codelist.commonapproach.org/StatsCanSector</a>
+   </dd>
+  </dl>
+  <dl class="description">
+   <dt>
+    belongs to
+   </dt>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#Sector" target="_blank" title="https://ontology.commonapproach.org/cids#Sector">Sector</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+   <dt>
+    has facts
+   </dt>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#definedBy" target="_blank" title="https://ontology.commonapproach.org/cids#definedBy">defined By</a> <sup class="type-op" title="object property">op</sup> <a href="https://ontology.commonapproach.org/cids#statsCan" target="_blank" title="https://ontology.commonapproach.org/cids#statsCan">Statistics Canada</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+   <dd>
+    <a href="http://ontology.eil.utoronto.ca/tove/organization#hasIdentifier" target="_blank" title="http://ontology.eil.utoronto.ca/tove/organization#hasIdentifier">has Identifier</a> <sup class="type-dp" title="data property">dp</sup> <span class="literal">"52"</span>
+   </dd>
+   <dd>
+    <a href="http://ontology.eil.utoronto.ca/tove/organization#hasName" target="_blank" title="http://ontology.eil.utoronto.ca/tove/organization#hasName">has Name</a> <sup class="type-dp" title="data property">dp</sup> <span class="literal">"Finance and insurance"</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#inScheme" target="_blank" title="http://www.w3.org/2004/02/skos/core#inScheme">in Scheme</a> <sup class="type-ap" title="annotation property">ap</sup> <a href="#d4e3" title="https://codelist.commonapproach.org/StatsCanSector">Statistics Canada Sectors</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#notation" target="_blank" title="http://www.w3.org/2004/02/skos/core#notation">notation</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"52"</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#prefLabel" target="_blank" title="http://www.w3.org/2004/02/skos/core#prefLabel">pref Label</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"Finance and insurance"@en</span>
+   </dd>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#hasSpecification" target="_blank" title="https://ontology.commonapproach.org/cids#hasSpecification">has Specification</a> <sup class="type-dp" title="data property">dp</sup> <a href="#d4e3" title="https://codelist.commonapproach.org/StatsCanSector">Statistics Canada Sectors</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+  </dl>
+ </div>
+ <div class="entity" id="sec16">
+  <h3>Health care and social assistance<sup class="type-ni" title="named individual">ni</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a> </span></h3>
+  <p><strong>IRI:</strong> https://codelist.commonapproach.org/StatsCanSector#sec16</p>
+  <dl class="definedBy">
+   <dt>
+    Is defined by
+   </dt>
+   <dd>
+    <a href="https://codelist.commonapproach.org/StatsCanSector">https://codelist.commonapproach.org/StatsCanSector</a>
+   </dd>
+  </dl>
+  <dl class="description">
+   <dt>
+    belongs to
+   </dt>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#Sector" target="_blank" title="https://ontology.commonapproach.org/cids#Sector">Sector</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+   <dt>
+    has facts
+   </dt>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#definedBy" target="_blank" title="https://ontology.commonapproach.org/cids#definedBy">defined By</a> <sup class="type-op" title="object property">op</sup> <a href="https://ontology.commonapproach.org/cids#statsCan" target="_blank" title="https://ontology.commonapproach.org/cids#statsCan">Statistics Canada</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+   <dd>
+    <a href="http://ontology.eil.utoronto.ca/tove/organization#hasIdentifier" target="_blank" title="http://ontology.eil.utoronto.ca/tove/organization#hasIdentifier">has Identifier</a> <sup class="type-dp" title="data property">dp</sup> <span class="literal">"62"</span>
+   </dd>
+   <dd>
+    <a href="http://ontology.eil.utoronto.ca/tove/organization#hasName" target="_blank" title="http://ontology.eil.utoronto.ca/tove/organization#hasName">has Name</a> <sup class="type-dp" title="data property">dp</sup> <span class="literal">"Health care and social assistance"</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#inScheme" target="_blank" title="http://www.w3.org/2004/02/skos/core#inScheme">in Scheme</a> <sup class="type-ap" title="annotation property">ap</sup> <a href="#d4e3" title="https://codelist.commonapproach.org/StatsCanSector">Statistics Canada Sectors</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#notation" target="_blank" title="http://www.w3.org/2004/02/skos/core#notation">notation</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"62"</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#prefLabel" target="_blank" title="http://www.w3.org/2004/02/skos/core#prefLabel">pref Label</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"Health care and social assistance"@en</span>
+   </dd>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#hasSpecification" target="_blank" title="https://ontology.commonapproach.org/cids#hasSpecification">has Specification</a> <sup class="type-dp" title="data property">dp</sup> <a href="#d4e3" title="https://codelist.commonapproach.org/StatsCanSector">Statistics Canada Sectors</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+  </dl>
+ </div>
+ <div class="entity" id="sec9">
+  <h3>Information and cultural industries<sup class="type-ni" title="named individual">ni</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a> </span></h3>
+  <p><strong>IRI:</strong> https://codelist.commonapproach.org/StatsCanSector#sec9</p>
+  <dl class="definedBy">
+   <dt>
+    Is defined by
+   </dt>
+   <dd>
+    <a href="https://codelist.commonapproach.org/StatsCanSector">https://codelist.commonapproach.org/StatsCanSector</a>
+   </dd>
+  </dl>
+  <dl class="description">
+   <dt>
+    belongs to
+   </dt>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#Sector" target="_blank" title="https://ontology.commonapproach.org/cids#Sector">Sector</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+   <dt>
+    has facts
+   </dt>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#definedBy" target="_blank" title="https://ontology.commonapproach.org/cids#definedBy">defined By</a> <sup class="type-op" title="object property">op</sup> <a href="https://ontology.commonapproach.org/cids#statsCan" target="_blank" title="https://ontology.commonapproach.org/cids#statsCan">Statistics Canada</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+   <dd>
+    <a href="http://ontology.eil.utoronto.ca/tove/organization#hasIdentifier" target="_blank" title="http://ontology.eil.utoronto.ca/tove/organization#hasIdentifier">has Identifier</a> <sup class="type-dp" title="data property">dp</sup> <span class="literal">"51"</span>
+   </dd>
+   <dd>
+    <a href="http://ontology.eil.utoronto.ca/tove/organization#hasName" target="_blank" title="http://ontology.eil.utoronto.ca/tove/organization#hasName">has Name</a> <sup class="type-dp" title="data property">dp</sup> <span class="literal">"Information and cultural industries"</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#inScheme" target="_blank" title="http://www.w3.org/2004/02/skos/core#inScheme">in Scheme</a> <sup class="type-ap" title="annotation property">ap</sup> <a href="#d4e3" title="https://codelist.commonapproach.org/StatsCanSector">Statistics Canada Sectors</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#notation" target="_blank" title="http://www.w3.org/2004/02/skos/core#notation">notation</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"51"</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#prefLabel" target="_blank" title="http://www.w3.org/2004/02/skos/core#prefLabel">pref Label</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"Information and cultural industries"@en</span>
+   </dd>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#hasSpecification" target="_blank" title="https://ontology.commonapproach.org/cids#hasSpecification">has Specification</a> <sup class="type-dp" title="data property">dp</sup> <a href="#d4e3" title="https://codelist.commonapproach.org/StatsCanSector">Statistics Canada Sectors</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+  </dl>
+ </div>
+ <div class="entity" id="sec13">
+  <h3>Management of companies and enterprises<sup class="type-ni" title="named individual">ni</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a> </span></h3>
+  <p><strong>IRI:</strong> https://codelist.commonapproach.org/StatsCanSector#sec13</p>
+  <dl class="definedBy">
+   <dt>
+    Is defined by
+   </dt>
+   <dd>
+    <a href="https://codelist.commonapproach.org/StatsCanSector">https://codelist.commonapproach.org/StatsCanSector</a>
+   </dd>
+  </dl>
+  <dl class="description">
+   <dt>
+    belongs to
+   </dt>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#Sector" target="_blank" title="https://ontology.commonapproach.org/cids#Sector">Sector</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+   <dt>
+    has facts
+   </dt>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#definedBy" target="_blank" title="https://ontology.commonapproach.org/cids#definedBy">defined By</a> <sup class="type-op" title="object property">op</sup> <a href="https://ontology.commonapproach.org/cids#statsCan" target="_blank" title="https://ontology.commonapproach.org/cids#statsCan">Statistics Canada</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+   <dd>
+    <a href="http://ontology.eil.utoronto.ca/tove/organization#hasIdentifier" target="_blank" title="http://ontology.eil.utoronto.ca/tove/organization#hasIdentifier">has Identifier</a> <sup class="type-dp" title="data property">dp</sup> <span class="literal">"55"</span>
+   </dd>
+   <dd>
+    <a href="http://ontology.eil.utoronto.ca/tove/organization#hasName" target="_blank" title="http://ontology.eil.utoronto.ca/tove/organization#hasName">has Name</a> <sup class="type-dp" title="data property">dp</sup> <span class="literal">"Management of companies and enterprises"</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#inScheme" target="_blank" title="http://www.w3.org/2004/02/skos/core#inScheme">in Scheme</a> <sup class="type-ap" title="annotation property">ap</sup> <a href="#d4e3" title="https://codelist.commonapproach.org/StatsCanSector">Statistics Canada Sectors</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#notation" target="_blank" title="http://www.w3.org/2004/02/skos/core#notation">notation</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"55"</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#prefLabel" target="_blank" title="http://www.w3.org/2004/02/skos/core#prefLabel">pref Label</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"Management of companies and enterprises"@en</span>
+   </dd>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#hasSpecification" target="_blank" title="https://ontology.commonapproach.org/cids#hasSpecification">has Specification</a> <sup class="type-dp" title="data property">dp</sup> <a href="#d4e3" title="https://codelist.commonapproach.org/StatsCanSector">Statistics Canada Sectors</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+  </dl>
+ </div>
+ <div class="entity" id="sec5">
+  <h3>Manufacturing<sup class="type-ni" title="named individual">ni</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a> </span></h3>
+  <p><strong>IRI:</strong> https://codelist.commonapproach.org/StatsCanSector#sec5</p>
+  <dl class="definedBy">
+   <dt>
+    Is defined by
+   </dt>
+   <dd>
+    <a href="https://codelist.commonapproach.org/StatsCanSector">https://codelist.commonapproach.org/StatsCanSector</a>
+   </dd>
+  </dl>
+  <dl class="description">
+   <dt>
+    belongs to
+   </dt>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#Sector" target="_blank" title="https://ontology.commonapproach.org/cids#Sector">Sector</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+   <dt>
+    has facts
+   </dt>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#definedBy" target="_blank" title="https://ontology.commonapproach.org/cids#definedBy">defined By</a> <sup class="type-op" title="object property">op</sup> <a href="https://ontology.commonapproach.org/cids#statsCan" target="_blank" title="https://ontology.commonapproach.org/cids#statsCan">Statistics Canada</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+   <dd>
+    <a href="http://ontology.eil.utoronto.ca/tove/organization#hasIdentifier" target="_blank" title="http://ontology.eil.utoronto.ca/tove/organization#hasIdentifier">has Identifier</a> <sup class="type-dp" title="data property">dp</sup> <span class="literal">"31"</span>
+   </dd>
+   <dd>
+    <a href="http://ontology.eil.utoronto.ca/tove/organization#hasIdentifier" target="_blank" title="http://ontology.eil.utoronto.ca/tove/organization#hasIdentifier">has Identifier</a> <sup class="type-dp" title="data property">dp</sup> <span class="literal">"32"</span>
+   </dd>
+   <dd>
+    <a href="http://ontology.eil.utoronto.ca/tove/organization#hasIdentifier" target="_blank" title="http://ontology.eil.utoronto.ca/tove/organization#hasIdentifier">has Identifier</a> <sup class="type-dp" title="data property">dp</sup> <span class="literal">"33"</span>
+   </dd>
+   <dd>
+    <a href="http://ontology.eil.utoronto.ca/tove/organization#hasName" target="_blank" title="http://ontology.eil.utoronto.ca/tove/organization#hasName">has Name</a> <sup class="type-dp" title="data property">dp</sup> <span class="literal">"Manufacturing"</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#inScheme" target="_blank" title="http://www.w3.org/2004/02/skos/core#inScheme">in Scheme</a> <sup class="type-ap" title="annotation property">ap</sup> <a href="#d4e3" title="https://codelist.commonapproach.org/StatsCanSector">Statistics Canada Sectors</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#notation" target="_blank" title="http://www.w3.org/2004/02/skos/core#notation">notation</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"31"</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#notation" target="_blank" title="http://www.w3.org/2004/02/skos/core#notation">notation</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"32"</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#notation" target="_blank" title="http://www.w3.org/2004/02/skos/core#notation">notation</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"33"</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#prefLabel" target="_blank" title="http://www.w3.org/2004/02/skos/core#prefLabel">pref Label</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"Manufacturing"@en</span>
+   </dd>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#hasSpecification" target="_blank" title="https://ontology.commonapproach.org/cids#hasSpecification">has Specification</a> <sup class="type-dp" title="data property">dp</sup> <a href="#d4e3" title="https://codelist.commonapproach.org/StatsCanSector">Statistics Canada Sectors</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+  </dl>
+ </div>
+ <div class="entity" id="sec2">
+  <h3>Mining, quarrying, and oil and gas extraction<sup class="type-ni" title="named individual">ni</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a> </span></h3>
+  <p><strong>IRI:</strong> https://codelist.commonapproach.org/StatsCanSector#sec2</p>
+  <dl class="definedBy">
+   <dt>
+    Is defined by
+   </dt>
+   <dd>
+    <a href="https://codelist.commonapproach.org/StatsCanSector">https://codelist.commonapproach.org/StatsCanSector</a>
+   </dd>
+  </dl>
+  <dl class="description">
+   <dt>
+    belongs to
+   </dt>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#Sector" target="_blank" title="https://ontology.commonapproach.org/cids#Sector">Sector</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+   <dt>
+    has facts
+   </dt>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#definedBy" target="_blank" title="https://ontology.commonapproach.org/cids#definedBy">defined By</a> <sup class="type-op" title="object property">op</sup> <a href="https://ontology.commonapproach.org/cids#statsCan" target="_blank" title="https://ontology.commonapproach.org/cids#statsCan">Statistics Canada</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+   <dd>
+    <a href="http://ontology.eil.utoronto.ca/tove/organization#hasIdentifier" target="_blank" title="http://ontology.eil.utoronto.ca/tove/organization#hasIdentifier">has Identifier</a> <sup class="type-dp" title="data property">dp</sup> <span class="literal">"21"</span>
+   </dd>
+   <dd>
+    <a href="http://ontology.eil.utoronto.ca/tove/organization#hasName" target="_blank" title="http://ontology.eil.utoronto.ca/tove/organization#hasName">has Name</a> <sup class="type-dp" title="data property">dp</sup> <span class="literal">"Mining, quarrying, and oil and gas extraction"</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#inScheme" target="_blank" title="http://www.w3.org/2004/02/skos/core#inScheme">in Scheme</a> <sup class="type-ap" title="annotation property">ap</sup> <a href="#d4e3" title="https://codelist.commonapproach.org/StatsCanSector">Statistics Canada Sectors</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#notation" target="_blank" title="http://www.w3.org/2004/02/skos/core#notation">notation</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"21"</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#prefLabel" target="_blank" title="http://www.w3.org/2004/02/skos/core#prefLabel">pref Label</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"Mining, quarrying, and oil and gas extraction"@en</span>
+   </dd>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#hasSpecification" target="_blank" title="https://ontology.commonapproach.org/cids#hasSpecification">has Specification</a> <sup class="type-dp" title="data property">dp</sup> <a href="#d4e3" title="https://codelist.commonapproach.org/StatsCanSector">Statistics Canada Sectors</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+  </dl>
+ </div>
+ <div class="entity" id="sec19">
+  <h3>Other services (except public administration)<sup class="type-ni" title="named individual">ni</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a> </span></h3>
+  <p><strong>IRI:</strong> https://codelist.commonapproach.org/StatsCanSector#sec19</p>
+  <dl class="definedBy">
+   <dt>
+    Is defined by
+   </dt>
+   <dd>
+    <a href="https://codelist.commonapproach.org/StatsCanSector">https://codelist.commonapproach.org/StatsCanSector</a>
+   </dd>
+  </dl>
+  <dl class="description">
+   <dt>
+    belongs to
+   </dt>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#Sector" target="_blank" title="https://ontology.commonapproach.org/cids#Sector">Sector</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+   <dt>
+    has facts
+   </dt>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#definedBy" target="_blank" title="https://ontology.commonapproach.org/cids#definedBy">defined By</a> <sup class="type-op" title="object property">op</sup> <a href="https://ontology.commonapproach.org/cids#statsCan" target="_blank" title="https://ontology.commonapproach.org/cids#statsCan">Statistics Canada</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+   <dd>
+    <a href="http://ontology.eil.utoronto.ca/tove/organization#hasIdentifier" target="_blank" title="http://ontology.eil.utoronto.ca/tove/organization#hasIdentifier">has Identifier</a> <sup class="type-dp" title="data property">dp</sup> <span class="literal">"81"</span>
+   </dd>
+   <dd>
+    <a href="http://ontology.eil.utoronto.ca/tove/organization#hasName" target="_blank" title="http://ontology.eil.utoronto.ca/tove/organization#hasName">has Name</a> <sup class="type-dp" title="data property">dp</sup> <span class="literal">"Other services (except public administration)"</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#inScheme" target="_blank" title="http://www.w3.org/2004/02/skos/core#inScheme">in Scheme</a> <sup class="type-ap" title="annotation property">ap</sup> <a href="#d4e3" title="https://codelist.commonapproach.org/StatsCanSector">Statistics Canada Sectors</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#notation" target="_blank" title="http://www.w3.org/2004/02/skos/core#notation">notation</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"81"</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#prefLabel" target="_blank" title="http://www.w3.org/2004/02/skos/core#prefLabel">pref Label</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"Other services (except public administration)"@en</span>
+   </dd>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#hasSpecification" target="_blank" title="https://ontology.commonapproach.org/cids#hasSpecification">has Specification</a> <sup class="type-dp" title="data property">dp</sup> <a href="#d4e3" title="https://codelist.commonapproach.org/StatsCanSector">Statistics Canada Sectors</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+  </dl>
+ </div>
+ <div class="entity" id="sec12">
+  <h3>Professional, scientific and technical services<sup class="type-ni" title="named individual">ni</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a> </span></h3>
+  <p><strong>IRI:</strong> https://codelist.commonapproach.org/StatsCanSector#sec12</p>
+  <dl class="definedBy">
+   <dt>
+    Is defined by
+   </dt>
+   <dd>
+    <a href="https://codelist.commonapproach.org/StatsCanSector">https://codelist.commonapproach.org/StatsCanSector</a>
+   </dd>
+  </dl>
+  <dl class="description">
+   <dt>
+    belongs to
+   </dt>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#Sector" target="_blank" title="https://ontology.commonapproach.org/cids#Sector">Sector</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+   <dt>
+    has facts
+   </dt>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#definedBy" target="_blank" title="https://ontology.commonapproach.org/cids#definedBy">defined By</a> <sup class="type-op" title="object property">op</sup> <a href="https://ontology.commonapproach.org/cids#statsCan" target="_blank" title="https://ontology.commonapproach.org/cids#statsCan">Statistics Canada</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+   <dd>
+    <a href="http://ontology.eil.utoronto.ca/tove/organization#hasIdentifier" target="_blank" title="http://ontology.eil.utoronto.ca/tove/organization#hasIdentifier">has Identifier</a> <sup class="type-dp" title="data property">dp</sup> <span class="literal">"54"</span>
+   </dd>
+   <dd>
+    <a href="http://ontology.eil.utoronto.ca/tove/organization#hasName" target="_blank" title="http://ontology.eil.utoronto.ca/tove/organization#hasName">has Name</a> <sup class="type-dp" title="data property">dp</sup> <span class="literal">"Professional, scientific and technical services"</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#inScheme" target="_blank" title="http://www.w3.org/2004/02/skos/core#inScheme">in Scheme</a> <sup class="type-ap" title="annotation property">ap</sup> <a href="#d4e3" title="https://codelist.commonapproach.org/StatsCanSector">Statistics Canada Sectors</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#notation" target="_blank" title="http://www.w3.org/2004/02/skos/core#notation">notation</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"54"</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#prefLabel" target="_blank" title="http://www.w3.org/2004/02/skos/core#prefLabel">pref Label</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"Professional, scientific and technical services"@en</span>
+   </dd>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#hasSpecification" target="_blank" title="https://ontology.commonapproach.org/cids#hasSpecification">has Specification</a> <sup class="type-dp" title="data property">dp</sup> <a href="#d4e3" title="https://codelist.commonapproach.org/StatsCanSector">Statistics Canada Sectors</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+  </dl>
+ </div>
+ <div class="entity" id="sec20">
+  <h3>Public administration<sup class="type-ni" title="named individual">ni</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a> </span></h3>
+  <p><strong>IRI:</strong> https://codelist.commonapproach.org/StatsCanSector#sec20</p>
+  <dl class="definedBy">
+   <dt>
+    Is defined by
+   </dt>
+   <dd>
+    <a href="https://codelist.commonapproach.org/StatsCanSector">https://codelist.commonapproach.org/StatsCanSector</a>
+   </dd>
+  </dl>
+  <dl class="description">
+   <dt>
+    belongs to
+   </dt>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#Sector" target="_blank" title="https://ontology.commonapproach.org/cids#Sector">Sector</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+   <dt>
+    has facts
+   </dt>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#definedBy" target="_blank" title="https://ontology.commonapproach.org/cids#definedBy">defined By</a> <sup class="type-op" title="object property">op</sup> <a href="https://ontology.commonapproach.org/cids#statsCan" target="_blank" title="https://ontology.commonapproach.org/cids#statsCan">Statistics Canada</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+   <dd>
+    <a href="http://ontology.eil.utoronto.ca/tove/organization#hasIdentifier" target="_blank" title="http://ontology.eil.utoronto.ca/tove/organization#hasIdentifier">has Identifier</a> <sup class="type-dp" title="data property">dp</sup> <span class="literal">"91"</span>
+   </dd>
+   <dd>
+    <a href="http://ontology.eil.utoronto.ca/tove/organization#hasName" target="_blank" title="http://ontology.eil.utoronto.ca/tove/organization#hasName">has Name</a> <sup class="type-dp" title="data property">dp</sup> <span class="literal">"Public administration"</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#inScheme" target="_blank" title="http://www.w3.org/2004/02/skos/core#inScheme">in Scheme</a> <sup class="type-ap" title="annotation property">ap</sup> <a href="#d4e3" title="https://codelist.commonapproach.org/StatsCanSector">Statistics Canada Sectors</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#notation" target="_blank" title="http://www.w3.org/2004/02/skos/core#notation">notation</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"91"</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#prefLabel" target="_blank" title="http://www.w3.org/2004/02/skos/core#prefLabel">pref Label</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"Public administration"@en</span>
+   </dd>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#hasSpecification" target="_blank" title="https://ontology.commonapproach.org/cids#hasSpecification">has Specification</a> <sup class="type-dp" title="data property">dp</sup> <a href="#d4e3" title="https://codelist.commonapproach.org/StatsCanSector">Statistics Canada Sectors</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+  </dl>
+ </div>
+ <div class="entity" id="sec11">
+  <h3>Real estate and rental and leasing<sup class="type-ni" title="named individual">ni</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a> </span></h3>
+  <p><strong>IRI:</strong> https://codelist.commonapproach.org/StatsCanSector#sec11</p>
+  <dl class="definedBy">
+   <dt>
+    Is defined by
+   </dt>
+   <dd>
+    <a href="https://codelist.commonapproach.org/StatsCanSector">https://codelist.commonapproach.org/StatsCanSector</a>
+   </dd>
+  </dl>
+  <dl class="description">
+   <dt>
+    belongs to
+   </dt>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#Sector" target="_blank" title="https://ontology.commonapproach.org/cids#Sector">Sector</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+   <dt>
+    has facts
+   </dt>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#definedBy" target="_blank" title="https://ontology.commonapproach.org/cids#definedBy">defined By</a> <sup class="type-op" title="object property">op</sup> <a href="https://ontology.commonapproach.org/cids#statsCan" target="_blank" title="https://ontology.commonapproach.org/cids#statsCan">Statistics Canada</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+   <dd>
+    <a href="http://ontology.eil.utoronto.ca/tove/organization#hasIdentifier" target="_blank" title="http://ontology.eil.utoronto.ca/tove/organization#hasIdentifier">has Identifier</a> <sup class="type-dp" title="data property">dp</sup> <span class="literal">"53"</span>
+   </dd>
+   <dd>
+    <a href="http://ontology.eil.utoronto.ca/tove/organization#hasName" target="_blank" title="http://ontology.eil.utoronto.ca/tove/organization#hasName">has Name</a> <sup class="type-dp" title="data property">dp</sup> <span class="literal">"Real estate and rental and leasing"</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#inScheme" target="_blank" title="http://www.w3.org/2004/02/skos/core#inScheme">in Scheme</a> <sup class="type-ap" title="annotation property">ap</sup> <a href="#d4e3" title="https://codelist.commonapproach.org/StatsCanSector">Statistics Canada Sectors</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#notation" target="_blank" title="http://www.w3.org/2004/02/skos/core#notation">notation</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"53"</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#prefLabel" target="_blank" title="http://www.w3.org/2004/02/skos/core#prefLabel">pref Label</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"Real estate and rental and leasing"@en</span>
+   </dd>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#hasSpecification" target="_blank" title="https://ontology.commonapproach.org/cids#hasSpecification">has Specification</a> <sup class="type-dp" title="data property">dp</sup> <a href="#d4e3" title="https://codelist.commonapproach.org/StatsCanSector">Statistics Canada Sectors</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+  </dl>
+ </div>
+ <div class="entity" id="sec7">
+  <h3>Retail trade<sup class="type-ni" title="named individual">ni</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a> </span></h3>
+  <p><strong>IRI:</strong> https://codelist.commonapproach.org/StatsCanSector#sec7</p>
+  <dl class="definedBy">
+   <dt>
+    Is defined by
+   </dt>
+   <dd>
+    <a href="https://codelist.commonapproach.org/StatsCanSector">https://codelist.commonapproach.org/StatsCanSector</a>
+   </dd>
+  </dl>
+  <dl class="description">
+   <dt>
+    belongs to
+   </dt>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#Sector" target="_blank" title="https://ontology.commonapproach.org/cids#Sector">Sector</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+   <dt>
+    has facts
+   </dt>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#definedBy" target="_blank" title="https://ontology.commonapproach.org/cids#definedBy">defined By</a> <sup class="type-op" title="object property">op</sup> <a href="https://ontology.commonapproach.org/cids#statsCan" target="_blank" title="https://ontology.commonapproach.org/cids#statsCan">Statistics Canada</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+   <dd>
+    <a href="http://ontology.eil.utoronto.ca/tove/organization#hasIdentifier" target="_blank" title="http://ontology.eil.utoronto.ca/tove/organization#hasIdentifier">has Identifier</a> <sup class="type-dp" title="data property">dp</sup> <span class="literal">"44"</span>
+   </dd>
+   <dd>
+    <a href="http://ontology.eil.utoronto.ca/tove/organization#hasIdentifier" target="_blank" title="http://ontology.eil.utoronto.ca/tove/organization#hasIdentifier">has Identifier</a> <sup class="type-dp" title="data property">dp</sup> <span class="literal">"45"</span>
+   </dd>
+   <dd>
+    <a href="http://ontology.eil.utoronto.ca/tove/organization#hasName" target="_blank" title="http://ontology.eil.utoronto.ca/tove/organization#hasName">has Name</a> <sup class="type-dp" title="data property">dp</sup> <span class="literal">"Retail trade"</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#inScheme" target="_blank" title="http://www.w3.org/2004/02/skos/core#inScheme">in Scheme</a> <sup class="type-ap" title="annotation property">ap</sup> <a href="#d4e3" title="https://codelist.commonapproach.org/StatsCanSector">Statistics Canada Sectors</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#notation" target="_blank" title="http://www.w3.org/2004/02/skos/core#notation">notation</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"44"</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#notation" target="_blank" title="http://www.w3.org/2004/02/skos/core#notation">notation</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"45"</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#prefLabel" target="_blank" title="http://www.w3.org/2004/02/skos/core#prefLabel">pref Label</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"Retail trade"@en</span>
+   </dd>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#hasSpecification" target="_blank" title="https://ontology.commonapproach.org/cids#hasSpecification">has Specification</a> <sup class="type-dp" title="data property">dp</sup> <a href="#d4e3" title="https://codelist.commonapproach.org/StatsCanSector">Statistics Canada Sectors</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+  </dl>
+ </div>
+ <div class="entity" id="">
+  <h3>Statistics Canada Sectors<sup class="type-ni" title="named individual">ni</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a> </span></h3>
+  <p><strong>IRI:</strong> https://codelist.commonapproach.org/StatsCanSector</p>
+  <dl class="description">
+   <dt>
+    belongs to
+   </dt>
+   <dd>
+    <a href="http://purl.org/vocommons/voaf#Vocabulary" target="_blank" title="http://purl.org/vocommons/voaf#Vocabulary">Vocabulary</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#ConceptScheme" target="_blank" title="http://www.w3.org/2004/02/skos/core#ConceptScheme">Concept Scheme</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+  </dl>
+ </div>
+ <div class="entity" id="sec8">
+  <h3>Transportation and warehousing<sup class="type-ni" title="named individual">ni</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a> </span></h3>
+  <p><strong>IRI:</strong> https://codelist.commonapproach.org/StatsCanSector#sec8</p>
+  <dl class="definedBy">
+   <dt>
+    Is defined by
+   </dt>
+   <dd>
+    <a href="https://codelist.commonapproach.org/StatsCanSector">https://codelist.commonapproach.org/StatsCanSector</a>
+   </dd>
+  </dl>
+  <dl class="description">
+   <dt>
+    belongs to
+   </dt>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#Sector" target="_blank" title="https://ontology.commonapproach.org/cids#Sector">Sector</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+   <dt>
+    has facts
+   </dt>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#definedBy" target="_blank" title="https://ontology.commonapproach.org/cids#definedBy">defined By</a> <sup class="type-op" title="object property">op</sup> <a href="https://ontology.commonapproach.org/cids#statsCan" target="_blank" title="https://ontology.commonapproach.org/cids#statsCan">Statistics Canada</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+   <dd>
+    <a href="http://ontology.eil.utoronto.ca/tove/organization#hasIdentifier" target="_blank" title="http://ontology.eil.utoronto.ca/tove/organization#hasIdentifier">has Identifier</a> <sup class="type-dp" title="data property">dp</sup> <span class="literal">"48"</span>
+   </dd>
+   <dd>
+    <a href="http://ontology.eil.utoronto.ca/tove/organization#hasIdentifier" target="_blank" title="http://ontology.eil.utoronto.ca/tove/organization#hasIdentifier">has Identifier</a> <sup class="type-dp" title="data property">dp</sup> <span class="literal">"49"</span>
+   </dd>
+   <dd>
+    <a href="http://ontology.eil.utoronto.ca/tove/organization#hasName" target="_blank" title="http://ontology.eil.utoronto.ca/tove/organization#hasName">has Name</a> <sup class="type-dp" title="data property">dp</sup> <span class="literal">"Transportation and warehousing"</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#inScheme" target="_blank" title="http://www.w3.org/2004/02/skos/core#inScheme">in Scheme</a> <sup class="type-ap" title="annotation property">ap</sup> <a href="#d4e3" title="https://codelist.commonapproach.org/StatsCanSector">Statistics Canada Sectors</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#notation" target="_blank" title="http://www.w3.org/2004/02/skos/core#notation">notation</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"48"</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#notation" target="_blank" title="http://www.w3.org/2004/02/skos/core#notation">notation</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"49"</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#prefLabel" target="_blank" title="http://www.w3.org/2004/02/skos/core#prefLabel">pref Label</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"Transportation and warehousing"@en</span>
+   </dd>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#hasSpecification" target="_blank" title="https://ontology.commonapproach.org/cids#hasSpecification">has Specification</a> <sup class="type-dp" title="data property">dp</sup> <a href="#d4e3" title="https://codelist.commonapproach.org/StatsCanSector">Statistics Canada Sectors</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+  </dl>
+ </div>
+ <div class="entity" id="sec3">
+  <h3>Utilities<sup class="type-ni" title="named individual">ni</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a> </span></h3>
+  <p><strong>IRI:</strong> https://codelist.commonapproach.org/StatsCanSector#sec3</p>
+  <dl class="definedBy">
+   <dt>
+    Is defined by
+   </dt>
+   <dd>
+    <a href="https://codelist.commonapproach.org/StatsCanSector">https://codelist.commonapproach.org/StatsCanSector</a>
+   </dd>
+  </dl>
+  <dl class="description">
+   <dt>
+    belongs to
+   </dt>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#Sector" target="_blank" title="https://ontology.commonapproach.org/cids#Sector">Sector</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+   <dt>
+    has facts
+   </dt>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#definedBy" target="_blank" title="https://ontology.commonapproach.org/cids#definedBy">defined By</a> <sup class="type-op" title="object property">op</sup> <a href="https://ontology.commonapproach.org/cids#statsCan" target="_blank" title="https://ontology.commonapproach.org/cids#statsCan">Statistics Canada</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+   <dd>
+    <a href="http://ontology.eil.utoronto.ca/tove/organization#hasIdentifier" target="_blank" title="http://ontology.eil.utoronto.ca/tove/organization#hasIdentifier">has Identifier</a> <sup class="type-dp" title="data property">dp</sup> <span class="literal">"22"</span>
+   </dd>
+   <dd>
+    <a href="http://ontology.eil.utoronto.ca/tove/organization#hasName" target="_blank" title="http://ontology.eil.utoronto.ca/tove/organization#hasName">has Name</a> <sup class="type-dp" title="data property">dp</sup> <span class="literal">"Utilities"</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#inScheme" target="_blank" title="http://www.w3.org/2004/02/skos/core#inScheme">in Scheme</a> <sup class="type-ap" title="annotation property">ap</sup> <a href="#d4e3" title="https://codelist.commonapproach.org/StatsCanSector">Statistics Canada Sectors</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#notation" target="_blank" title="http://www.w3.org/2004/02/skos/core#notation">notation</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"22"</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#prefLabel" target="_blank" title="http://www.w3.org/2004/02/skos/core#prefLabel">pref Label</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"Utilities"@en</span>
+   </dd>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#hasSpecification" target="_blank" title="https://ontology.commonapproach.org/cids#hasSpecification">has Specification</a> <sup class="type-dp" title="data property">dp</sup> <a href="#d4e3" title="https://codelist.commonapproach.org/StatsCanSector">Statistics Canada Sectors</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+  </dl>
+ </div>
+ <div class="entity" id="sec6">
+  <h3>Wholesale trade<sup class="type-ni" title="named individual">ni</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a> </span></h3>
+  <p><strong>IRI:</strong> https://codelist.commonapproach.org/StatsCanSector#sec6</p>
+  <dl class="definedBy">
+   <dt>
+    Is defined by
+   </dt>
+   <dd>
+    <a href="https://codelist.commonapproach.org/StatsCanSector">https://codelist.commonapproach.org/StatsCanSector</a>
+   </dd>
+  </dl>
+  <dl class="description">
+   <dt>
+    belongs to
+   </dt>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#Sector" target="_blank" title="https://ontology.commonapproach.org/cids#Sector">Sector</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+   <dt>
+    has facts
+   </dt>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#definedBy" target="_blank" title="https://ontology.commonapproach.org/cids#definedBy">defined By</a> <sup class="type-op" title="object property">op</sup> <a href="https://ontology.commonapproach.org/cids#statsCan" target="_blank" title="https://ontology.commonapproach.org/cids#statsCan">Statistics Canada</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+   <dd>
+    <a href="http://ontology.eil.utoronto.ca/tove/organization#hasIdentifier" target="_blank" title="http://ontology.eil.utoronto.ca/tove/organization#hasIdentifier">has Identifier</a> <sup class="type-dp" title="data property">dp</sup> <span class="literal">"41"</span>
+   </dd>
+   <dd>
+    <a href="http://ontology.eil.utoronto.ca/tove/organization#hasName" target="_blank" title="http://ontology.eil.utoronto.ca/tove/organization#hasName">has Name</a> <sup class="type-dp" title="data property">dp</sup> <span class="literal">"Wholesale trade"</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#inScheme" target="_blank" title="http://www.w3.org/2004/02/skos/core#inScheme">in Scheme</a> <sup class="type-ap" title="annotation property">ap</sup> <a href="#d4e3" title="https://codelist.commonapproach.org/StatsCanSector">Statistics Canada Sectors</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#notation" target="_blank" title="http://www.w3.org/2004/02/skos/core#notation">notation</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"41"</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#prefLabel" target="_blank" title="http://www.w3.org/2004/02/skos/core#prefLabel">pref Label</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"Wholesale trade"@en</span>
+   </dd>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#hasSpecification" target="_blank" title="https://ontology.commonapproach.org/cids#hasSpecification">has Specification</a> <sup class="type-dp" title="data property">dp</sup> <a href="#d4e3" title="https://codelist.commonapproach.org/StatsCanSector">Statistics Canada Sectors</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+  </dl>
+ </div>
+</div><div id="legend">
+<h2>Legend <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>
+<div   class="entity">
+<sup class="type-c" title="Classes">c</sup>: Classes <br/>
+<sup class="type-op" title="Object Properties">op</sup>: Object Properties <br/>
+<sup class="type-dp" title="Data Properties">dp</sup>: Data Properties <br/>
+<sup class="type-ni" title="Named Individuals">ni</sup>: Named Individuals <br/>
+</div>
+</div>
+</div>
+<div id="acknowledgments">
+<h2 id="ack" class="list">Acknowledgments <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>
+<p>
+The authors would like to thank <a href="http://www.essepuntato.it/">Silvio Peroni</a> for developing <a href="http://www.essepuntato.it/lode">LODE</a>, a Live OWL Documentation Environment, which is used for representing the Cross Referencing Section of this document and <a href="https://w3id.org/people/dgarijo">Daniel Garijo</a> for developing <a href="https://github.com/dgarijo/Widoco">Widoco</a>, the program used to create the template used in this documentation.</p>
+</div>
+
+
+</div>
+</body>
+</html>
