@@ -290,10 +290,12 @@
     <cids:hasSpecification rdf:resource=""/>
     <cids:definedBy rdf:resource="https://ontology.commonapproach.org/cids#giin"/>
     <prov:hadPrimarySource rdf:resource="https://iris.thegiin.org/metrics/"/>
+    <skos:changeNote xml:lang="en">Name updated from 'Waste Management' to 'Waste Management &amp; Circularity' by GIIN in version 5.3c.</skos:changeNote>
+    <skos:altLabel xml:lang="en">Waste Management</skos:altLabel>
     <skos:notation>WasteManagement</skos:notation>
     <org:hasIdentifier>WasteManagement</org:hasIdentifier>
-    <skos:prefLabel xml:lang="en">Waste Management</skos:prefLabel>
-    <org:hasName>Waste Management</org:hasName>
+    <skos:prefLabel xml:lang="en">Waste Management &amp; Circularity</skos:prefLabel>
+    <org:hasName>Waste Management &amp; Circularity</org:hasName>
     <skos:broader rdf:resource="IRISImpactCategory#Waste"/>
     <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>

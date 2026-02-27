@@ -338,10 +338,12 @@
 <https://codelist.commonapproach.org/IRISImpactTheme#WasteManagement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://codelist.commonapproach.org/IRISImpactTheme#WasteManagement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontology.commonapproach.org/cids#Code> .
 <https://codelist.commonapproach.org/IRISImpactTheme#WasteManagement> <http://www.w3.org/2004/02/skos/core#broader> <https://codelist.commonapproach.org/IRISImpactCategory#Waste> .
-<https://codelist.commonapproach.org/IRISImpactTheme#WasteManagement> <http://ontology.eil.utoronto.ca/tove/organization#hasName> "Waste Management" .
-<https://codelist.commonapproach.org/IRISImpactTheme#WasteManagement> <http://www.w3.org/2004/02/skos/core#prefLabel> "Waste Management"@en .
+<https://codelist.commonapproach.org/IRISImpactTheme#WasteManagement> <http://ontology.eil.utoronto.ca/tove/organization#hasName> "Waste Management & Circularity" .
+<https://codelist.commonapproach.org/IRISImpactTheme#WasteManagement> <http://www.w3.org/2004/02/skos/core#prefLabel> "Waste Management & Circularity"@en .
 <https://codelist.commonapproach.org/IRISImpactTheme#WasteManagement> <http://ontology.eil.utoronto.ca/tove/organization#hasIdentifier> "WasteManagement" .
 <https://codelist.commonapproach.org/IRISImpactTheme#WasteManagement> <http://www.w3.org/2004/02/skos/core#notation> "WasteManagement" .
+<https://codelist.commonapproach.org/IRISImpactTheme#WasteManagement> <http://www.w3.org/2004/02/skos/core#altLabel> "Waste Management"@en .
+<https://codelist.commonapproach.org/IRISImpactTheme#WasteManagement> <http://www.w3.org/2004/02/skos/core#changeNote> "Name updated from 'Waste Management' to 'Waste Management & Circularity' by GIIN in version 5.3c."@en .
 <https://codelist.commonapproach.org/IRISImpactTheme#WasteManagement> <http://www.w3.org/ns/prov#hadPrimarySource> <https://iris.thegiin.org/metrics/> .
 <https://codelist.commonapproach.org/IRISImpactTheme#WasteManagement> <https://ontology.commonapproach.org/cids#definedBy> <https://ontology.commonapproach.org/cids#giin> .
 <https://codelist.commonapproach.org/IRISImpactTheme#WasteManagement> <https://ontology.commonapproach.org/cids#hasSpecification> <https://codelist.commonapproach.org/RallyImpactArea> .
