@@ -115,6 +115,7 @@ $formats = [
   'json-ld' => '.jsonld',
   'triples' => '.nt',
   'csv'     => '.csv',
+  'html'    => '.html',
 ];
 
 ## This is the table header, in plain HTML
