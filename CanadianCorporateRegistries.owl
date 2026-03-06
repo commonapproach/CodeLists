@@ -23,6 +23,7 @@
     <org:hasLegalName xml:lang="en">Canada Revenue Agency</org:hasLegalName>
     <skos:prefLabel xml:lang="en">Canada Revenue Agency</skos:prefLabel>
     <org:hasName>Canada Revenue Agency</org:hasName>
+    <rdf:type rdf:resource="http://ontology.eil.utoronto.ca/tove/organization#Organization"/>
     <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Organization"/>
     <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
@@ -39,6 +40,7 @@
     <org:hasLegalName xml:lang="en">New Brunswick</org:hasLegalName>
     <skos:prefLabel xml:lang="en">New Brunswick</skos:prefLabel>
     <org:hasName>New Brunswick</org:hasName>
+    <rdf:type rdf:resource="http://ontology.eil.utoronto.ca/tove/organization#Organization"/>
     <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Organization"/>
     <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
@@ -55,6 +57,7 @@
     <org:hasLegalName xml:lang="en">Prince Edward Island</org:hasLegalName>
     <skos:prefLabel xml:lang="en">Prince Edward Island</skos:prefLabel>
     <org:hasName>Prince Edward Island</org:hasName>
+    <rdf:type rdf:resource="http://ontology.eil.utoronto.ca/tove/organization#Organization"/>
     <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Organization"/>
     <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
@@ -71,6 +74,7 @@
     <org:hasLegalName xml:lang="en">Manitoba</org:hasLegalName>
     <skos:prefLabel xml:lang="en">Manitoba</skos:prefLabel>
     <org:hasName>Manitoba</org:hasName>
+    <rdf:type rdf:resource="http://ontology.eil.utoronto.ca/tove/organization#Organization"/>
     <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Organization"/>
     <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
@@ -87,6 +91,7 @@
     <org:hasLegalName xml:lang="en">Yukon</org:hasLegalName>
     <skos:prefLabel xml:lang="en">Yukon</skos:prefLabel>
     <org:hasName>Yukon</org:hasName>
+    <rdf:type rdf:resource="http://ontology.eil.utoronto.ca/tove/organization#Organization"/>
     <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Organization"/>
     <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
@@ -103,6 +108,7 @@
     <org:hasLegalName xml:lang="en">Quebec</org:hasLegalName>
     <skos:prefLabel xml:lang="en">Quebec</skos:prefLabel>
     <org:hasName>Quebec</org:hasName>
+    <rdf:type rdf:resource="http://ontology.eil.utoronto.ca/tove/organization#Organization"/>
     <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Organization"/>
     <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
@@ -119,6 +125,7 @@
     <org:hasLegalName xml:lang="en">Saskatchewan</org:hasLegalName>
     <skos:prefLabel xml:lang="en">Saskatchewan</skos:prefLabel>
     <org:hasName>Saskatchewan</org:hasName>
+    <rdf:type rdf:resource="http://ontology.eil.utoronto.ca/tove/organization#Organization"/>
     <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Organization"/>
     <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
@@ -135,6 +142,7 @@
     <org:hasLegalName xml:lang="en">British Columbia</org:hasLegalName>
     <skos:prefLabel xml:lang="en">British Columbia</skos:prefLabel>
     <org:hasName>British Columbia</org:hasName>
+    <rdf:type rdf:resource="http://ontology.eil.utoronto.ca/tove/organization#Organization"/>
     <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Organization"/>
     <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
@@ -151,6 +159,7 @@
     <org:hasLegalName xml:lang="en">Alberta</org:hasLegalName>
     <skos:prefLabel xml:lang="en">Alberta</skos:prefLabel>
     <org:hasName>Alberta</org:hasName>
+    <rdf:type rdf:resource="http://ontology.eil.utoronto.ca/tove/organization#Organization"/>
     <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Organization"/>
     <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
@@ -167,6 +176,7 @@
     <org:hasLegalName xml:lang="en">Newfoundland and Labrador</org:hasLegalName>
     <skos:prefLabel xml:lang="en">Newfoundland and Labrador</skos:prefLabel>
     <org:hasName>Newfoundland and Labrador</org:hasName>
+    <rdf:type rdf:resource="http://ontology.eil.utoronto.ca/tove/organization#Organization"/>
     <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Organization"/>
     <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
@@ -183,6 +193,7 @@
     <org:hasLegalName xml:lang="en">Corporations Canada</org:hasLegalName>
     <skos:prefLabel xml:lang="en">Corporations Canada</skos:prefLabel>
     <org:hasName>Corporations Canada</org:hasName>
+    <rdf:type rdf:resource="http://ontology.eil.utoronto.ca/tove/organization#Organization"/>
     <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Organization"/>
     <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
@@ -199,6 +210,7 @@
     <org:hasLegalName xml:lang="en">Ontario</org:hasLegalName>
     <skos:prefLabel xml:lang="en">Ontario</skos:prefLabel>
     <org:hasName>Ontario</org:hasName>
+    <rdf:type rdf:resource="http://ontology.eil.utoronto.ca/tove/organization#Organization"/>
     <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Organization"/>
     <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
@@ -227,6 +239,7 @@
     <org:hasLegalName xml:lang="en">Nova Scotia</org:hasLegalName>
     <skos:prefLabel xml:lang="en">Nova Scotia</skos:prefLabel>
     <org:hasName>Nova Scotia</org:hasName>
+    <rdf:type rdf:resource="http://ontology.eil.utoronto.ca/tove/organization#Organization"/>
     <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Organization"/>
     <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
@@ -243,6 +256,7 @@
     <org:hasLegalName xml:lang="en">Northwest Territories</org:hasLegalName>
     <skos:prefLabel xml:lang="en">Northwest Territories</skos:prefLabel>
     <org:hasName>Northwest Territories</org:hasName>
+    <rdf:type rdf:resource="http://ontology.eil.utoronto.ca/tove/organization#Organization"/>
     <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Organization"/>
     <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
@@ -259,6 +273,7 @@
     <org:hasLegalName xml:lang="en">Nunavut</org:hasLegalName>
     <skos:prefLabel xml:lang="en">Nunavut</skos:prefLabel>
     <org:hasName>Nunavut</org:hasName>
+    <rdf:type rdf:resource="http://ontology.eil.utoronto.ca/tove/organization#Organization"/>
     <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Organization"/>
     <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>

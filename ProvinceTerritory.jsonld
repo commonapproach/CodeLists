@@ -24,10 +24,7 @@
                 "@value": "Yukon"
             },
             "org:hasName": "Yukon",
-            "@type": [
-                "cids:Locality",
-                "cids:ProvinceTerritory"
-            ]
+            "@type": "cids:ProvinceTerritory"
         },
         {
             "@id": "https://codelist.commonapproach.org/ProvinceTerritory",
@@ -84,10 +81,7 @@
                 "@value": "Saskatchewan"
             },
             "org:hasName": "Saskatchewan",
-            "@type": [
-                "cids:Locality",
-                "cids:ProvinceTerritory"
-            ]
+            "@type": "cids:ProvinceTerritory"
         },
         {
             "@id": "https://codelist.commonapproach.org/ProvinceTerritory#QC",
@@ -113,10 +107,7 @@
                 "@value": "Quebec"
             },
             "org:hasName": "Quebec",
-            "@type": [
-                "cids:Locality",
-                "cids:ProvinceTerritory"
-            ]
+            "@type": "cids:ProvinceTerritory"
         },
         {
             "@id": "https://codelist.commonapproach.org/ProvinceTerritory#PE",
@@ -142,10 +133,7 @@
                 "@value": "Prince Edward Island"
             },
             "org:hasName": "Prince Edward Island",
-            "@type": [
-                "cids:Locality",
-                "cids:ProvinceTerritory"
-            ]
+            "@type": "cids:ProvinceTerritory"
         },
         {
             "@id": "https://codelist.commonapproach.org/ProvinceTerritory#ON",
@@ -171,10 +159,7 @@
                 "@value": "Ontario"
             },
             "org:hasName": "Ontario",
-            "@type": [
-                "cids:Locality",
-                "cids:ProvinceTerritory"
-            ]
+            "@type": "cids:ProvinceTerritory"
         },
         {
             "@id": "https://codelist.commonapproach.org/ProvinceTerritory#NU",
@@ -200,10 +185,7 @@
                 "@value": "Nunavut"
             },
             "org:hasName": "Nunavut",
-            "@type": [
-                "cids:Locality",
-                "cids:ProvinceTerritory"
-            ]
+            "@type": "cids:ProvinceTerritory"
         },
         {
             "@id": "https://codelist.commonapproach.org/ProvinceTerritory#NT",
@@ -229,10 +211,7 @@
                 "@value": "Northwest Territories"
             },
             "org:hasName": "Northwest Territories",
-            "@type": [
-                "cids:Locality",
-                "cids:ProvinceTerritory"
-            ]
+            "@type": "cids:ProvinceTerritory"
         },
         {
             "@id": "https://codelist.commonapproach.org/ProvinceTerritory#NS",
@@ -258,10 +237,7 @@
                 "@value": "Nova Scotia"
             },
             "org:hasName": "Nova Scotia",
-            "@type": [
-                "cids:Locality",
-                "cids:ProvinceTerritory"
-            ]
+            "@type": "cids:ProvinceTerritory"
         },
         {
             "@id": "https://codelist.commonapproach.org/ProvinceTerritory#NL",
@@ -287,10 +263,7 @@
                 "@value": "Newfoundland and Labrador"
             },
             "org:hasName": "Newfoundland and Labrador",
-            "@type": [
-                "cids:Locality",
-                "cids:ProvinceTerritory"
-            ]
+            "@type": "cids:ProvinceTerritory"
         },
         {
             "@id": "https://codelist.commonapproach.org/ProvinceTerritory#NB",
@@ -316,10 +289,7 @@
                 "@value": "New Brunswick"
             },
             "org:hasName": "New Brunswick",
-            "@type": [
-                "cids:Locality",
-                "cids:ProvinceTerritory"
-            ]
+            "@type": "cids:ProvinceTerritory"
         },
         {
             "@id": "https://codelist.commonapproach.org/ProvinceTerritory#MB",
@@ -345,10 +315,7 @@
                 "@value": "Manitoba"
             },
             "org:hasName": "Manitoba",
-            "@type": [
-                "cids:Locality",
-                "cids:ProvinceTerritory"
-            ]
+            "@type": "cids:ProvinceTerritory"
         },
         {
             "@id": "https://codelist.commonapproach.org/ProvinceTerritory#CAN",
@@ -374,7 +341,7 @@
                 "@value": "All of Canada"
             },
             "org:hasName": "All of Canada",
-            "@type": "cids:Locality"
+            "@type": "cids:ProvinceTerritory"
         },
         {
             "@id": "https://codelist.commonapproach.org/ProvinceTerritory#BC",
@@ -400,10 +367,7 @@
                 "@value": "British Columbia"
             },
             "org:hasName": "British Columbia",
-            "@type": [
-                "cids:Locality",
-                "cids:ProvinceTerritory"
-            ]
+            "@type": "cids:ProvinceTerritory"
         },
         {
             "@id": "https://codelist.commonapproach.org/ProvinceTerritory#AB",
@@ -429,10 +393,7 @@
                 "@value": "Alberta"
             },
             "org:hasName": "Alberta",
-            "@type": [
-                "cids:Locality",
-                "cids:ProvinceTerritory"
-            ]
+            "@type": "cids:ProvinceTerritory"
         }
     ],
     "@context": {

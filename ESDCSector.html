@@ -1,0 +1,1193 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+<link rel="stylesheet" href="https://ontology.commonapproach.org/resources/primer.css" media="screen"/>
+<link rel="stylesheet" href="https://ontology.commonapproach.org/resources/rec.css" media="screen"/>
+<link rel="stylesheet" href="https://ontology.commonapproach.org/resources/extra.css" media="screen"/>
+<link rel="stylesheet" href="https://ontology.commonapproach.org/resources/owl.css" media="screen"/>
+<link rel="stylesheet" href="https://ontology.commonapproach.org/resources/dark.css" media="(prefers-color-scheme: dark)"/>
+<link rel="stylesheet" href="https://ontology.commonapproach.org/resources/light.css" media="(prefers-color-scheme: light)"/>
+<link rel="stylesheet" href="https://ontology.commonapproach.org/resources/slider.css" media="screen"/>
+<meta name="color-scheme" content="dark light">
+<script type="module" src="https://ontology.commonapproach.org/resources/dark-mode-toggle.mjs"></script><div class="darkmode">
+	<dark-mode-toggle class="slider"></dark-mode-toggle>
+</div>
+ <title>ESDC Sectors</title>
+
+
+<!-- SCHEMA.ORG METADATA -->
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"TechArticle","url":"https://codelist.commonapproach.org/ESDCSector","image":"http://vowl.visualdataweb.org/webvowl/#iri=https://codelist.commonapproach.org/ESDCSector","name":"ESDC Sectors", "headline":"Document describing the ontology https://codelist.commonapproach.org/ESDCSector", "dateReleased":"Fri Feb 27 15:57:07 EST 2026", "version":"1.0", "author":[{"@type":"Person","name":"https://ontology.commonapproach.org/cids#ac","url":"https://ontology.commonapproach.org/cids#ac"}]}</script>
+
+<script src="https://ontology.commonapproach.org/resources/jquery.js"></script> 
+<script src="https://ontology.commonapproach.org/resources/marked.min.js"></script> 
+    <script> 
+function loadHash() {
+  jQuery(".markdown").each(function(el){jQuery(this).after(marked.parse(jQuery(this).text())).remove()});
+	var hash = location.hash;
+	if($(hash).offset()!=null){
+	  $('html, body').animate({scrollTop: $(hash).offset().top}, 0);
+}
+	loadTOC();
+}
+function loadTOC(){
+	//process toc dynamically
+	  var t='<h2>Table of contents</h2><ul>';i = 1;j=0;
+	  jQuery(".list").each(function(){
+		if(jQuery(this).is('h2')){
+			if(j>0){
+				t+='</ul>';
+				j=0;
+			}
+			t+= '<li>'+i+'. <a href=#'+ jQuery(this).attr('id')+'>'+ jQuery(this).ignore("span").text()+'</a></li>';
+			i++;
+		}
+		if(jQuery(this).is('h3')){
+			if(j==0){
+				t+='<ul>';
+			}
+			j++;
+			t+= '<li>'+(i-1)+'.'+j+'. '+'<a href=#'+ jQuery(this).attr('id')+'>'+ jQuery(this).ignore("span").text()+'</a></li>';
+		}
+	  });
+	  t+='</ul>';
+	  $("#toc").html(t); 
+}
+$(function(){
+    loadHash();
+}); $.fn.ignore = function(sel){
+        return this.clone().find(sel||">*").remove().end();
+ }; 
+   </script> 
+  </head> 
+
+<body>
+<div class="container">
+<div class="head">
+<div style="float:right">language <a href="index-en.html"><b>en</b></a> </div>
+<h1>ESDC Sectors</h1>
+
+
+<dl>
+<dt>Revision:</dt>
+<dd>1.0</dd>
+<dt>Authors:</dt>
+<dd><a href="https://ontology.commonapproach.org/cids#ac">https://ontology.commonapproach.org/cids#ac</a></dd>
+
+<dt>Imported Ontologies:</dt>
+<dd><a href="http://ontology.eil.utoronto.ca/ISO21972/iso21972">iso21972</a></dd><dd><a href="http://ontology.eil.utoronto.ca/tove/activity">activity</a></dd><dd><a href="http://ontology.eil.utoronto.ca/tove/icontact">icontact</a></dd><dd><a href="http://ontology.eil.utoronto.ca/tove/organization">organization</a></dd><dd><a href="http://www.w3.org/2006/time">time</a></dd><dd><a href="https://ontology.commonapproach.org/cids">cids</a></dd><dd><a href="https://standards.iso.org/iso-iec/5087/-1/ed-1/en/ontology/Time/">&lt;https://standards.iso.org/iso-iec/5087/-1/ed-1/en/ontology/Time/&gt;</a></dd>
+
+<dt>Download serialization:</dt><dd><span><a href="ontology.jsonld" target="_blank"><img src="https://img.shields.io/badge/Format-JSON_LD-blue.svg" alt="JSON-LD" /></a> </span><span><a href="ontology.owl" target="_blank"><img src="https://img.shields.io/badge/Format-RDF/XML-blue.svg" alt="RDF/XML" /></a> </span><span><a href="ontology.nt" target="_blank"><img src="https://img.shields.io/badge/Format-N_Triples-blue.svg" alt="N-Triples" /></a> </span><span><a href="ontology.ttl" target="_blank"><img src="https://img.shields.io/badge/Format-TTL-blue.svg" alt="TTL" /></a> </span></dd><dt>License:</dt><dd><a href="http://insertlicenseURIhere.example.org" target="_blank"><img src="https://img.shields.io/badge/License-license%20name%20goes%20here-blue.svg" alt="http://insertlicenseURIhere.example.org" /></a>
+</dd><!-- <dt>Evaluation:</dt><dd><a href="OOPSevaluation/oopsEval.html#" target="_blank"><img src="https://img.shields.io/badge/Evaluate_with-OOPS! (OntOlogy Pitfall Scanner!)-blue.svg" alt="Evaluate with OOPS!" /></a></dd> --><dt>Cite as:</dt>
+<dd>https://ontology.commonapproach.org/cids#ac. ESDC Sectors. Revision: 1.0.</dd>
+</dl>
+
+<a href="provenance/provenance-en.html" target="_blank">Provenance of this page</a><hr/>
+</div>
+<div class="status">
+<div>
+<span>Ontology Specification Draft</span>
+</div>
+</div><div id="toc"></div>  
+
+<!--OVERVIEW SECTION-->
+    <div id="overview"><h2 id="overv" class="list">ESDC Sectors: Overview <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>
+<span class="markdown">
+This ontology has the following classes and properties.</span>
+<h4>Named Individuals</h4><ul xmlns:widoco="https://w3id.org/widoco/vocab#"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    class="hlist">
+   <li>
+      <a href="#https://codelist.commonapproach.org/IRISImpactCategory#Agriculture"
+         title="https://codelist.commonapproach.org/IRISImpactCategory#Agriculture">Agriculture</a>
+   </li>
+   <li>
+      <a href="#https://codelist.commonapproach.org/IRISImpactCategory#Air"
+         title="https://codelist.commonapproach.org/IRISImpactCategory#Air">Air</a>
+   </li>
+   <li>
+      <a href="#https://codelist.commonapproach.org/IRISImpactCategory#BiodiversityandEcosystems"
+         title="https://codelist.commonapproach.org/IRISImpactCategory#BiodiversityandEcosystems">Biodiversity and Ecosystems</a>
+   </li>
+   <li>
+      <a href="#https://codelist.commonapproach.org/IRISImpactCategory#Climate"
+         title="https://codelist.commonapproach.org/IRISImpactCategory#Climate">Climate</a>
+   </li>
+   <li>
+      <a href="#https://codelist.commonapproach.org/IRISImpactCategory#DiversityandInclusion"
+         title="https://codelist.commonapproach.org/IRISImpactCategory#DiversityandInclusion">Diversity and Inclusion</a>
+   </li>
+   <li>
+      <a href="#https://codelist.commonapproach.org/IRISImpactCategory#Education"
+         title="https://codelist.commonapproach.org/IRISImpactCategory#Education">Education</a>
+   </li>
+   <li>
+      <a href="#https://codelist.commonapproach.org/IRISImpactCategory#Employment"
+         title="https://codelist.commonapproach.org/IRISImpactCategory#Employment">Employment</a>
+   </li>
+   <li>
+      <a href="#https://codelist.commonapproach.org/IRISImpactCategory#Energy"
+         title="https://codelist.commonapproach.org/IRISImpactCategory#Energy">Energy</a>
+   </li>
+   <li>
+      <a href="#" title="https://codelist.commonapproach.org/ESDCSector">
+         <span>ESDC Sectors</span>
+      </a>
+   </li>
+   <li>
+      <a href="#https://codelist.commonapproach.org/IRISImpactCategory#FinancialServices"
+         title="https://codelist.commonapproach.org/IRISImpactCategory#FinancialServices">Financial Services</a>
+   </li>
+   <li>
+      <a href="#https://codelist.commonapproach.org/IRISImpactCategory#Health"
+         title="https://codelist.commonapproach.org/IRISImpactCategory#Health">Health</a>
+   </li>
+   <li>
+      <a href="#https://codelist.commonapproach.org/IRISImpactCategory#Infrastructure"
+         title="https://codelist.commonapproach.org/IRISImpactCategory#Infrastructure">Infrastructure</a>
+   </li>
+   <li>
+      <a href="#https://codelist.commonapproach.org/IRISImpactCategory#Land"
+         title="https://codelist.commonapproach.org/IRISImpactCategory#Land">Land</a>
+   </li>
+   <li>
+      <a href="#https://codelist.commonapproach.org/IRISImpactCategory#OceansandCoastalZones"
+         title="https://codelist.commonapproach.org/IRISImpactCategory#OceansandCoastalZones">Oceans and Coastal Zones</a>
+   </li>
+   <li>
+      <a href="#Other"
+         title="https://codelist.commonapproach.org/ESDCSector#Other">Other</a>
+   </li>
+   <li>
+      <a href="#https://codelist.commonapproach.org/IRISImpactCategory#Pollution"
+         title="https://codelist.commonapproach.org/IRISImpactCategory#Pollution">Pollution</a>
+   </li>
+   <li>
+      <a href="#https://codelist.commonapproach.org/IRISImpactCategory#RealEstate"
+         title="https://codelist.commonapproach.org/IRISImpactCategory#RealEstate">Real Estate</a>
+   </li>
+   <li>
+      <a href="#https://codelist.commonapproach.org/IRISImpactCategory#Waste"
+         title="https://codelist.commonapproach.org/IRISImpactCategory#Waste">Waste</a>
+   </li>
+   <li>
+      <a href="#https://codelist.commonapproach.org/IRISImpactCategory#Water"
+         title="https://codelist.commonapproach.org/IRISImpactCategory#Water">Water</a>
+   </li>
+</ul>
+</div>
+  
+
+<!--DESCRIPTION SECTION-->
+    <div id="description"><h2 id="desc" class="list">ESDC Sectors: Description <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>
+
+<span class="markdown">An RDF vocabulary of ESDC Sectors.</span></div>
+   
+
+<!--CROSSREF SECTION-->
+   <div id="crossref"><h2 id="crossreference" class="list">Cross-reference for ESDC Sectors classes, object properties and data properties <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>
+This section provides details for each class and property defined by ESDC Sectors.
+<div xmlns:widoco="https://w3id.org/widoco/vocab#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="namedindividuals">
+ <h3 id="namedindividuals" class="list">Named Individuals</h3>
+ <ul class="hlist">
+  <li><a href="#https://codelist.commonapproach.org/IRISImpactCategory#Agriculture" title="https://codelist.commonapproach.org/IRISImpactCategory#Agriculture">Agriculture</a></li>
+  <li><a href="#https://codelist.commonapproach.org/IRISImpactCategory#Air" title="https://codelist.commonapproach.org/IRISImpactCategory#Air">Air</a></li>
+  <li><a href="#https://codelist.commonapproach.org/IRISImpactCategory#BiodiversityandEcosystems" title="https://codelist.commonapproach.org/IRISImpactCategory#BiodiversityandEcosystems">Biodiversity and Ecosystems</a></li>
+  <li><a href="#https://codelist.commonapproach.org/IRISImpactCategory#Climate" title="https://codelist.commonapproach.org/IRISImpactCategory#Climate">Climate</a></li>
+  <li><a href="#https://codelist.commonapproach.org/IRISImpactCategory#DiversityandInclusion" title="https://codelist.commonapproach.org/IRISImpactCategory#DiversityandInclusion">Diversity and Inclusion</a></li>
+  <li><a href="#https://codelist.commonapproach.org/IRISImpactCategory#Education" title="https://codelist.commonapproach.org/IRISImpactCategory#Education">Education</a></li>
+  <li><a href="#https://codelist.commonapproach.org/IRISImpactCategory#Employment" title="https://codelist.commonapproach.org/IRISImpactCategory#Employment">Employment</a></li>
+  <li><a href="#https://codelist.commonapproach.org/IRISImpactCategory#Energy" title="https://codelist.commonapproach.org/IRISImpactCategory#Energy">Energy</a></li>
+  <li><a href="#" title="https://codelist.commonapproach.org/ESDCSector"> <span>ESDC Sectors</span> </a></li>
+  <li><a href="#https://codelist.commonapproach.org/IRISImpactCategory#FinancialServices" title="https://codelist.commonapproach.org/IRISImpactCategory#FinancialServices">Financial Services</a></li>
+  <li><a href="#https://codelist.commonapproach.org/IRISImpactCategory#Health" title="https://codelist.commonapproach.org/IRISImpactCategory#Health">Health</a></li>
+  <li><a href="#https://codelist.commonapproach.org/IRISImpactCategory#Infrastructure" title="https://codelist.commonapproach.org/IRISImpactCategory#Infrastructure">Infrastructure</a></li>
+  <li><a href="#https://codelist.commonapproach.org/IRISImpactCategory#Land" title="https://codelist.commonapproach.org/IRISImpactCategory#Land">Land</a></li>
+  <li><a href="#https://codelist.commonapproach.org/IRISImpactCategory#OceansandCoastalZones" title="https://codelist.commonapproach.org/IRISImpactCategory#OceansandCoastalZones">Oceans and Coastal Zones</a></li>
+  <li><a href="#Other" title="https://codelist.commonapproach.org/ESDCSector#Other">Other</a></li>
+  <li><a href="#https://codelist.commonapproach.org/IRISImpactCategory#Pollution" title="https://codelist.commonapproach.org/IRISImpactCategory#Pollution">Pollution</a></li>
+  <li><a href="#https://codelist.commonapproach.org/IRISImpactCategory#RealEstate" title="https://codelist.commonapproach.org/IRISImpactCategory#RealEstate">Real Estate</a></li>
+  <li><a href="#https://codelist.commonapproach.org/IRISImpactCategory#Waste" title="https://codelist.commonapproach.org/IRISImpactCategory#Waste">Waste</a></li>
+  <li><a href="#https://codelist.commonapproach.org/IRISImpactCategory#Water" title="https://codelist.commonapproach.org/IRISImpactCategory#Water">Water</a></li>
+ </ul>
+ <div class="entity" id="https://codelist.commonapproach.org/IRISImpactCategory#Agriculture">
+  <h3>Agriculture<sup class="type-ni" title="named individual">ni</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a> </span></h3>
+  <p><strong>IRI:</strong> https://codelist.commonapproach.org/IRISImpactCategory#Agriculture</p>
+  <dl class="definedBy">
+   <dt>
+    Is defined by
+   </dt>
+   <dd>
+    <a href="https://codelist.commonapproach.org/ESDCSector">https://codelist.commonapproach.org/ESDCSector</a>
+   </dd>
+  </dl>
+  <dl class="description">
+   <dt>
+    belongs to
+   </dt>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#Concept" target="_blank" title="http://www.w3.org/2004/02/skos/core#Concept">Concept</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#Code" target="_blank" title="https://ontology.commonapproach.org/cids#Code">Code</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#Sector" target="_blank" title="https://ontology.commonapproach.org/cids#Sector">Sector</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+   <dt>
+    has facts
+   </dt>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#definedBy" target="_blank" title="https://ontology.commonapproach.org/cids#definedBy">defined By</a> <sup class="type-op" title="object property">op</sup> <a href="https://ontology.commonapproach.org/cids#giin" target="_blank" title="https://ontology.commonapproach.org/cids#giin">Global Impact Investing Network</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+   <dd>
+    <a href="http://ontology.eil.utoronto.ca/tove/organization#hasIdentifier" target="_blank" title="http://ontology.eil.utoronto.ca/tove/organization#hasIdentifier">has Identifier</a> <sup class="type-dp" title="data property">dp</sup> <span class="literal">"Agriculture"</span>
+   </dd>
+   <dd>
+    <a href="http://ontology.eil.utoronto.ca/tove/organization#hasName" target="_blank" title="http://ontology.eil.utoronto.ca/tove/organization#hasName">has Name</a> <sup class="type-dp" title="data property">dp</sup> <span class="literal">"Agriculture"</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#inScheme" target="_blank" title="http://www.w3.org/2004/02/skos/core#inScheme">in Scheme</a> <sup class="type-ap" title="annotation property">ap</sup> <a href="#d4e3" title="https://codelist.commonapproach.org/ESDCSector">ESDC Sectors</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#notation" target="_blank" title="http://www.w3.org/2004/02/skos/core#notation">notation</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"Agriculture"</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#prefLabel" target="_blank" title="http://www.w3.org/2004/02/skos/core#prefLabel">pref Label</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"Agriculture"@en</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/ns/prov#hadPrimarySource" target="_blank" title="http://www.w3.org/ns/prov#hadPrimarySource">had Primary Source</a> <sup class="type-ap" title="annotation property">ap</sup> <a href="https://iris.thegiin.org/metrics/" target="_blank" title="https://iris.thegiin.org/metrics/">https://iris.thegiin.org/metrics/</a> <sup class="type-ep" title="external property">ep</sup>
+   </dd>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#hasSpecification" target="_blank" title="https://ontology.commonapproach.org/cids#hasSpecification">has Specification</a> <sup class="type-dp" title="data property">dp</sup> <a href="#d4e3" title="https://codelist.commonapproach.org/ESDCSector">ESDC Sectors</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+  </dl>
+ </div>
+ <div class="entity" id="https://codelist.commonapproach.org/IRISImpactCategory#Air">
+  <h3>Air<sup class="type-ni" title="named individual">ni</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a> </span></h3>
+  <p><strong>IRI:</strong> https://codelist.commonapproach.org/IRISImpactCategory#Air</p>
+  <dl class="definedBy">
+   <dt>
+    Is defined by
+   </dt>
+   <dd>
+    <a href="https://codelist.commonapproach.org/ESDCSector">https://codelist.commonapproach.org/ESDCSector</a>
+   </dd>
+  </dl>
+  <dl class="description">
+   <dt>
+    belongs to
+   </dt>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#Concept" target="_blank" title="http://www.w3.org/2004/02/skos/core#Concept">Concept</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#Code" target="_blank" title="https://ontology.commonapproach.org/cids#Code">Code</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#Sector" target="_blank" title="https://ontology.commonapproach.org/cids#Sector">Sector</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+   <dt>
+    has facts
+   </dt>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#definedBy" target="_blank" title="https://ontology.commonapproach.org/cids#definedBy">defined By</a> <sup class="type-op" title="object property">op</sup> <a href="https://ontology.commonapproach.org/cids#giin" target="_blank" title="https://ontology.commonapproach.org/cids#giin">Global Impact Investing Network</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+   <dd>
+    <a href="http://ontology.eil.utoronto.ca/tove/organization#hasIdentifier" target="_blank" title="http://ontology.eil.utoronto.ca/tove/organization#hasIdentifier">has Identifier</a> <sup class="type-dp" title="data property">dp</sup> <span class="literal">"Air"</span>
+   </dd>
+   <dd>
+    <a href="http://ontology.eil.utoronto.ca/tove/organization#hasName" target="_blank" title="http://ontology.eil.utoronto.ca/tove/organization#hasName">has Name</a> <sup class="type-dp" title="data property">dp</sup> <span class="literal">"Air"</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#inScheme" target="_blank" title="http://www.w3.org/2004/02/skos/core#inScheme">in Scheme</a> <sup class="type-ap" title="annotation property">ap</sup> <a href="#d4e3" title="https://codelist.commonapproach.org/ESDCSector">ESDC Sectors</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#notation" target="_blank" title="http://www.w3.org/2004/02/skos/core#notation">notation</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"Air"</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#prefLabel" target="_blank" title="http://www.w3.org/2004/02/skos/core#prefLabel">pref Label</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"Air"@en</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/ns/prov#hadPrimarySource" target="_blank" title="http://www.w3.org/ns/prov#hadPrimarySource">had Primary Source</a> <sup class="type-ap" title="annotation property">ap</sup> <a href="https://iris.thegiin.org/metrics/" target="_blank" title="https://iris.thegiin.org/metrics/">https://iris.thegiin.org/metrics/</a> <sup class="type-ep" title="external property">ep</sup>
+   </dd>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#hasSpecification" target="_blank" title="https://ontology.commonapproach.org/cids#hasSpecification">has Specification</a> <sup class="type-dp" title="data property">dp</sup> <a href="#d4e3" title="https://codelist.commonapproach.org/ESDCSector">ESDC Sectors</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+  </dl>
+ </div>
+ <div class="entity" id="https://codelist.commonapproach.org/IRISImpactCategory#BiodiversityandEcosystems">
+  <h3>Biodiversity and Ecosystems<sup class="type-ni" title="named individual">ni</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a> </span></h3>
+  <p><strong>IRI:</strong> https://codelist.commonapproach.org/IRISImpactCategory#BiodiversityandEcosystems</p>
+  <dl class="definedBy">
+   <dt>
+    Is defined by
+   </dt>
+   <dd>
+    <a href="https://codelist.commonapproach.org/ESDCSector">https://codelist.commonapproach.org/ESDCSector</a>
+   </dd>
+  </dl>
+  <dl class="description">
+   <dt>
+    belongs to
+   </dt>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#Concept" target="_blank" title="http://www.w3.org/2004/02/skos/core#Concept">Concept</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#Code" target="_blank" title="https://ontology.commonapproach.org/cids#Code">Code</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#Sector" target="_blank" title="https://ontology.commonapproach.org/cids#Sector">Sector</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+   <dt>
+    has facts
+   </dt>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#definedBy" target="_blank" title="https://ontology.commonapproach.org/cids#definedBy">defined By</a> <sup class="type-op" title="object property">op</sup> <a href="https://ontology.commonapproach.org/cids#giin" target="_blank" title="https://ontology.commonapproach.org/cids#giin">Global Impact Investing Network</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+   <dd>
+    <a href="http://ontology.eil.utoronto.ca/tove/organization#hasIdentifier" target="_blank" title="http://ontology.eil.utoronto.ca/tove/organization#hasIdentifier">has Identifier</a> <sup class="type-dp" title="data property">dp</sup> <span class="literal">"BiodiversityandEcosystems"</span>
+   </dd>
+   <dd>
+    <a href="http://ontology.eil.utoronto.ca/tove/organization#hasName" target="_blank" title="http://ontology.eil.utoronto.ca/tove/organization#hasName">has Name</a> <sup class="type-dp" title="data property">dp</sup> <span class="literal">"Biodiversity and Ecosystems"</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#inScheme" target="_blank" title="http://www.w3.org/2004/02/skos/core#inScheme">in Scheme</a> <sup class="type-ap" title="annotation property">ap</sup> <a href="#d4e3" title="https://codelist.commonapproach.org/ESDCSector">ESDC Sectors</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#notation" target="_blank" title="http://www.w3.org/2004/02/skos/core#notation">notation</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"BiodiversityandEcosystems"</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#prefLabel" target="_blank" title="http://www.w3.org/2004/02/skos/core#prefLabel">pref Label</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"Biodiversity and Ecosystems"@en</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/ns/prov#hadPrimarySource" target="_blank" title="http://www.w3.org/ns/prov#hadPrimarySource">had Primary Source</a> <sup class="type-ap" title="annotation property">ap</sup> <a href="https://iris.thegiin.org/metrics/" target="_blank" title="https://iris.thegiin.org/metrics/">https://iris.thegiin.org/metrics/</a> <sup class="type-ep" title="external property">ep</sup>
+   </dd>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#hasSpecification" target="_blank" title="https://ontology.commonapproach.org/cids#hasSpecification">has Specification</a> <sup class="type-dp" title="data property">dp</sup> <a href="#d4e3" title="https://codelist.commonapproach.org/ESDCSector">ESDC Sectors</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+  </dl>
+ </div>
+ <div class="entity" id="https://codelist.commonapproach.org/IRISImpactCategory#Climate">
+  <h3>Climate<sup class="type-ni" title="named individual">ni</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a> </span></h3>
+  <p><strong>IRI:</strong> https://codelist.commonapproach.org/IRISImpactCategory#Climate</p>
+  <dl class="definedBy">
+   <dt>
+    Is defined by
+   </dt>
+   <dd>
+    <a href="https://codelist.commonapproach.org/ESDCSector">https://codelist.commonapproach.org/ESDCSector</a>
+   </dd>
+  </dl>
+  <dl class="description">
+   <dt>
+    belongs to
+   </dt>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#Concept" target="_blank" title="http://www.w3.org/2004/02/skos/core#Concept">Concept</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#Code" target="_blank" title="https://ontology.commonapproach.org/cids#Code">Code</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#Sector" target="_blank" title="https://ontology.commonapproach.org/cids#Sector">Sector</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+   <dt>
+    has facts
+   </dt>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#definedBy" target="_blank" title="https://ontology.commonapproach.org/cids#definedBy">defined By</a> <sup class="type-op" title="object property">op</sup> <a href="https://ontology.commonapproach.org/cids#giin" target="_blank" title="https://ontology.commonapproach.org/cids#giin">Global Impact Investing Network</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+   <dd>
+    <a href="http://ontology.eil.utoronto.ca/tove/organization#hasIdentifier" target="_blank" title="http://ontology.eil.utoronto.ca/tove/organization#hasIdentifier">has Identifier</a> <sup class="type-dp" title="data property">dp</sup> <span class="literal">"Climate"</span>
+   </dd>
+   <dd>
+    <a href="http://ontology.eil.utoronto.ca/tove/organization#hasName" target="_blank" title="http://ontology.eil.utoronto.ca/tove/organization#hasName">has Name</a> <sup class="type-dp" title="data property">dp</sup> <span class="literal">"Climate"</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#inScheme" target="_blank" title="http://www.w3.org/2004/02/skos/core#inScheme">in Scheme</a> <sup class="type-ap" title="annotation property">ap</sup> <a href="#d4e3" title="https://codelist.commonapproach.org/ESDCSector">ESDC Sectors</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#notation" target="_blank" title="http://www.w3.org/2004/02/skos/core#notation">notation</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"Climate"</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#prefLabel" target="_blank" title="http://www.w3.org/2004/02/skos/core#prefLabel">pref Label</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"Climate"@en</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/ns/prov#hadPrimarySource" target="_blank" title="http://www.w3.org/ns/prov#hadPrimarySource">had Primary Source</a> <sup class="type-ap" title="annotation property">ap</sup> <a href="https://iris.thegiin.org/metrics/" target="_blank" title="https://iris.thegiin.org/metrics/">https://iris.thegiin.org/metrics/</a> <sup class="type-ep" title="external property">ep</sup>
+   </dd>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#hasSpecification" target="_blank" title="https://ontology.commonapproach.org/cids#hasSpecification">has Specification</a> <sup class="type-dp" title="data property">dp</sup> <a href="#d4e3" title="https://codelist.commonapproach.org/ESDCSector">ESDC Sectors</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+  </dl>
+ </div>
+ <div class="entity" id="https://codelist.commonapproach.org/IRISImpactCategory#DiversityandInclusion">
+  <h3>Diversity and Inclusion<sup class="type-ni" title="named individual">ni</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a> </span></h3>
+  <p><strong>IRI:</strong> https://codelist.commonapproach.org/IRISImpactCategory#DiversityandInclusion</p>
+  <dl class="definedBy">
+   <dt>
+    Is defined by
+   </dt>
+   <dd>
+    <a href="https://codelist.commonapproach.org/ESDCSector">https://codelist.commonapproach.org/ESDCSector</a>
+   </dd>
+  </dl>
+  <dl class="description">
+   <dt>
+    belongs to
+   </dt>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#Concept" target="_blank" title="http://www.w3.org/2004/02/skos/core#Concept">Concept</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#Code" target="_blank" title="https://ontology.commonapproach.org/cids#Code">Code</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#Sector" target="_blank" title="https://ontology.commonapproach.org/cids#Sector">Sector</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+   <dt>
+    has facts
+   </dt>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#definedBy" target="_blank" title="https://ontology.commonapproach.org/cids#definedBy">defined By</a> <sup class="type-op" title="object property">op</sup> <a href="https://ontology.commonapproach.org/cids#giin" target="_blank" title="https://ontology.commonapproach.org/cids#giin">Global Impact Investing Network</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+   <dd>
+    <a href="http://ontology.eil.utoronto.ca/tove/organization#hasIdentifier" target="_blank" title="http://ontology.eil.utoronto.ca/tove/organization#hasIdentifier">has Identifier</a> <sup class="type-dp" title="data property">dp</sup> <span class="literal">"DiversityandInclusion"</span>
+   </dd>
+   <dd>
+    <a href="http://ontology.eil.utoronto.ca/tove/organization#hasName" target="_blank" title="http://ontology.eil.utoronto.ca/tove/organization#hasName">has Name</a> <sup class="type-dp" title="data property">dp</sup> <span class="literal">"Diversity and Inclusion"</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#inScheme" target="_blank" title="http://www.w3.org/2004/02/skos/core#inScheme">in Scheme</a> <sup class="type-ap" title="annotation property">ap</sup> <a href="#d4e3" title="https://codelist.commonapproach.org/ESDCSector">ESDC Sectors</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#notation" target="_blank" title="http://www.w3.org/2004/02/skos/core#notation">notation</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"DiversityandInclusion"</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#prefLabel" target="_blank" title="http://www.w3.org/2004/02/skos/core#prefLabel">pref Label</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"Diversity and Inclusion"@en</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/ns/prov#hadPrimarySource" target="_blank" title="http://www.w3.org/ns/prov#hadPrimarySource">had Primary Source</a> <sup class="type-ap" title="annotation property">ap</sup> <a href="https://iris.thegiin.org/metrics/" target="_blank" title="https://iris.thegiin.org/metrics/">https://iris.thegiin.org/metrics/</a> <sup class="type-ep" title="external property">ep</sup>
+   </dd>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#hasSpecification" target="_blank" title="https://ontology.commonapproach.org/cids#hasSpecification">has Specification</a> <sup class="type-dp" title="data property">dp</sup> <a href="#d4e3" title="https://codelist.commonapproach.org/ESDCSector">ESDC Sectors</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+  </dl>
+ </div>
+ <div class="entity" id="https://codelist.commonapproach.org/IRISImpactCategory#Education">
+  <h3>Education<sup class="type-ni" title="named individual">ni</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a> </span></h3>
+  <p><strong>IRI:</strong> https://codelist.commonapproach.org/IRISImpactCategory#Education</p>
+  <dl class="definedBy">
+   <dt>
+    Is defined by
+   </dt>
+   <dd>
+    <a href="https://codelist.commonapproach.org/ESDCSector">https://codelist.commonapproach.org/ESDCSector</a>
+   </dd>
+  </dl>
+  <dl class="description">
+   <dt>
+    belongs to
+   </dt>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#Concept" target="_blank" title="http://www.w3.org/2004/02/skos/core#Concept">Concept</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#Code" target="_blank" title="https://ontology.commonapproach.org/cids#Code">Code</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#Sector" target="_blank" title="https://ontology.commonapproach.org/cids#Sector">Sector</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+   <dt>
+    has facts
+   </dt>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#definedBy" target="_blank" title="https://ontology.commonapproach.org/cids#definedBy">defined By</a> <sup class="type-op" title="object property">op</sup> <a href="https://ontology.commonapproach.org/cids#giin" target="_blank" title="https://ontology.commonapproach.org/cids#giin">Global Impact Investing Network</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+   <dd>
+    <a href="http://ontology.eil.utoronto.ca/tove/organization#hasIdentifier" target="_blank" title="http://ontology.eil.utoronto.ca/tove/organization#hasIdentifier">has Identifier</a> <sup class="type-dp" title="data property">dp</sup> <span class="literal">"Education"</span>
+   </dd>
+   <dd>
+    <a href="http://ontology.eil.utoronto.ca/tove/organization#hasName" target="_blank" title="http://ontology.eil.utoronto.ca/tove/organization#hasName">has Name</a> <sup class="type-dp" title="data property">dp</sup> <span class="literal">"Education"</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#inScheme" target="_blank" title="http://www.w3.org/2004/02/skos/core#inScheme">in Scheme</a> <sup class="type-ap" title="annotation property">ap</sup> <a href="#d4e3" title="https://codelist.commonapproach.org/ESDCSector">ESDC Sectors</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#notation" target="_blank" title="http://www.w3.org/2004/02/skos/core#notation">notation</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"Education"</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#prefLabel" target="_blank" title="http://www.w3.org/2004/02/skos/core#prefLabel">pref Label</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"Education"@en</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/ns/prov#hadPrimarySource" target="_blank" title="http://www.w3.org/ns/prov#hadPrimarySource">had Primary Source</a> <sup class="type-ap" title="annotation property">ap</sup> <a href="https://iris.thegiin.org/metrics/" target="_blank" title="https://iris.thegiin.org/metrics/">https://iris.thegiin.org/metrics/</a> <sup class="type-ep" title="external property">ep</sup>
+   </dd>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#hasSpecification" target="_blank" title="https://ontology.commonapproach.org/cids#hasSpecification">has Specification</a> <sup class="type-dp" title="data property">dp</sup> <a href="#d4e3" title="https://codelist.commonapproach.org/ESDCSector">ESDC Sectors</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+  </dl>
+ </div>
+ <div class="entity" id="https://codelist.commonapproach.org/IRISImpactCategory#Employment">
+  <h3>Employment<sup class="type-ni" title="named individual">ni</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a> </span></h3>
+  <p><strong>IRI:</strong> https://codelist.commonapproach.org/IRISImpactCategory#Employment</p>
+  <dl class="definedBy">
+   <dt>
+    Is defined by
+   </dt>
+   <dd>
+    <a href="https://codelist.commonapproach.org/ESDCSector">https://codelist.commonapproach.org/ESDCSector</a>
+   </dd>
+  </dl>
+  <dl class="description">
+   <dt>
+    belongs to
+   </dt>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#Concept" target="_blank" title="http://www.w3.org/2004/02/skos/core#Concept">Concept</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#Code" target="_blank" title="https://ontology.commonapproach.org/cids#Code">Code</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#Sector" target="_blank" title="https://ontology.commonapproach.org/cids#Sector">Sector</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+   <dt>
+    has facts
+   </dt>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#definedBy" target="_blank" title="https://ontology.commonapproach.org/cids#definedBy">defined By</a> <sup class="type-op" title="object property">op</sup> <a href="https://ontology.commonapproach.org/cids#giin" target="_blank" title="https://ontology.commonapproach.org/cids#giin">Global Impact Investing Network</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+   <dd>
+    <a href="http://ontology.eil.utoronto.ca/tove/organization#hasIdentifier" target="_blank" title="http://ontology.eil.utoronto.ca/tove/organization#hasIdentifier">has Identifier</a> <sup class="type-dp" title="data property">dp</sup> <span class="literal">"Employment"</span>
+   </dd>
+   <dd>
+    <a href="http://ontology.eil.utoronto.ca/tove/organization#hasName" target="_blank" title="http://ontology.eil.utoronto.ca/tove/organization#hasName">has Name</a> <sup class="type-dp" title="data property">dp</sup> <span class="literal">"Employment"</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#inScheme" target="_blank" title="http://www.w3.org/2004/02/skos/core#inScheme">in Scheme</a> <sup class="type-ap" title="annotation property">ap</sup> <a href="#d4e3" title="https://codelist.commonapproach.org/ESDCSector">ESDC Sectors</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#notation" target="_blank" title="http://www.w3.org/2004/02/skos/core#notation">notation</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"Employment"</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#prefLabel" target="_blank" title="http://www.w3.org/2004/02/skos/core#prefLabel">pref Label</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"Employment"@en</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/ns/prov#hadPrimarySource" target="_blank" title="http://www.w3.org/ns/prov#hadPrimarySource">had Primary Source</a> <sup class="type-ap" title="annotation property">ap</sup> <a href="https://iris.thegiin.org/metrics/" target="_blank" title="https://iris.thegiin.org/metrics/">https://iris.thegiin.org/metrics/</a> <sup class="type-ep" title="external property">ep</sup>
+   </dd>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#hasSpecification" target="_blank" title="https://ontology.commonapproach.org/cids#hasSpecification">has Specification</a> <sup class="type-dp" title="data property">dp</sup> <a href="#d4e3" title="https://codelist.commonapproach.org/ESDCSector">ESDC Sectors</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+  </dl>
+ </div>
+ <div class="entity" id="https://codelist.commonapproach.org/IRISImpactCategory#Energy">
+  <h3>Energy<sup class="type-ni" title="named individual">ni</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a> </span></h3>
+  <p><strong>IRI:</strong> https://codelist.commonapproach.org/IRISImpactCategory#Energy</p>
+  <dl class="definedBy">
+   <dt>
+    Is defined by
+   </dt>
+   <dd>
+    <a href="https://codelist.commonapproach.org/ESDCSector">https://codelist.commonapproach.org/ESDCSector</a>
+   </dd>
+  </dl>
+  <dl class="description">
+   <dt>
+    belongs to
+   </dt>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#Concept" target="_blank" title="http://www.w3.org/2004/02/skos/core#Concept">Concept</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#Code" target="_blank" title="https://ontology.commonapproach.org/cids#Code">Code</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#Sector" target="_blank" title="https://ontology.commonapproach.org/cids#Sector">Sector</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+   <dt>
+    has facts
+   </dt>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#definedBy" target="_blank" title="https://ontology.commonapproach.org/cids#definedBy">defined By</a> <sup class="type-op" title="object property">op</sup> <a href="https://ontology.commonapproach.org/cids#giin" target="_blank" title="https://ontology.commonapproach.org/cids#giin">Global Impact Investing Network</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+   <dd>
+    <a href="http://ontology.eil.utoronto.ca/tove/organization#hasIdentifier" target="_blank" title="http://ontology.eil.utoronto.ca/tove/organization#hasIdentifier">has Identifier</a> <sup class="type-dp" title="data property">dp</sup> <span class="literal">"Energy"</span>
+   </dd>
+   <dd>
+    <a href="http://ontology.eil.utoronto.ca/tove/organization#hasName" target="_blank" title="http://ontology.eil.utoronto.ca/tove/organization#hasName">has Name</a> <sup class="type-dp" title="data property">dp</sup> <span class="literal">"Energy"</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#inScheme" target="_blank" title="http://www.w3.org/2004/02/skos/core#inScheme">in Scheme</a> <sup class="type-ap" title="annotation property">ap</sup> <a href="#d4e3" title="https://codelist.commonapproach.org/ESDCSector">ESDC Sectors</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#notation" target="_blank" title="http://www.w3.org/2004/02/skos/core#notation">notation</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"Energy"</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#prefLabel" target="_blank" title="http://www.w3.org/2004/02/skos/core#prefLabel">pref Label</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"Energy"@en</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/ns/prov#hadPrimarySource" target="_blank" title="http://www.w3.org/ns/prov#hadPrimarySource">had Primary Source</a> <sup class="type-ap" title="annotation property">ap</sup> <a href="https://iris.thegiin.org/metrics/" target="_blank" title="https://iris.thegiin.org/metrics/">https://iris.thegiin.org/metrics/</a> <sup class="type-ep" title="external property">ep</sup>
+   </dd>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#hasSpecification" target="_blank" title="https://ontology.commonapproach.org/cids#hasSpecification">has Specification</a> <sup class="type-dp" title="data property">dp</sup> <a href="#d4e3" title="https://codelist.commonapproach.org/ESDCSector">ESDC Sectors</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+  </dl>
+ </div>
+ <div class="entity" id="">
+  <h3>ESDC Sectors<sup class="type-ni" title="named individual">ni</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a> </span></h3>
+  <p><strong>IRI:</strong> https://codelist.commonapproach.org/ESDCSector</p>
+  <dl class="description">
+   <dt>
+    belongs to
+   </dt>
+   <dd>
+    <a href="http://purl.org/vocommons/voaf#Vocabulary" target="_blank" title="http://purl.org/vocommons/voaf#Vocabulary">Vocabulary</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#ConceptScheme" target="_blank" title="http://www.w3.org/2004/02/skos/core#ConceptScheme">Concept Scheme</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+  </dl>
+ </div>
+ <div class="entity" id="https://codelist.commonapproach.org/IRISImpactCategory#FinancialServices">
+  <h3>Financial Services<sup class="type-ni" title="named individual">ni</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a> </span></h3>
+  <p><strong>IRI:</strong> https://codelist.commonapproach.org/IRISImpactCategory#FinancialServices</p>
+  <dl class="definedBy">
+   <dt>
+    Is defined by
+   </dt>
+   <dd>
+    <a href="https://codelist.commonapproach.org/ESDCSector">https://codelist.commonapproach.org/ESDCSector</a>
+   </dd>
+  </dl>
+  <dl class="description">
+   <dt>
+    belongs to
+   </dt>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#Concept" target="_blank" title="http://www.w3.org/2004/02/skos/core#Concept">Concept</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#Code" target="_blank" title="https://ontology.commonapproach.org/cids#Code">Code</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#Sector" target="_blank" title="https://ontology.commonapproach.org/cids#Sector">Sector</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+   <dt>
+    has facts
+   </dt>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#definedBy" target="_blank" title="https://ontology.commonapproach.org/cids#definedBy">defined By</a> <sup class="type-op" title="object property">op</sup> <a href="https://ontology.commonapproach.org/cids#giin" target="_blank" title="https://ontology.commonapproach.org/cids#giin">Global Impact Investing Network</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+   <dd>
+    <a href="http://ontology.eil.utoronto.ca/tove/organization#hasIdentifier" target="_blank" title="http://ontology.eil.utoronto.ca/tove/organization#hasIdentifier">has Identifier</a> <sup class="type-dp" title="data property">dp</sup> <span class="literal">"FinancialServices"</span>
+   </dd>
+   <dd>
+    <a href="http://ontology.eil.utoronto.ca/tove/organization#hasName" target="_blank" title="http://ontology.eil.utoronto.ca/tove/organization#hasName">has Name</a> <sup class="type-dp" title="data property">dp</sup> <span class="literal">"Financial Services"</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#inScheme" target="_blank" title="http://www.w3.org/2004/02/skos/core#inScheme">in Scheme</a> <sup class="type-ap" title="annotation property">ap</sup> <a href="#d4e3" title="https://codelist.commonapproach.org/ESDCSector">ESDC Sectors</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#notation" target="_blank" title="http://www.w3.org/2004/02/skos/core#notation">notation</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"FinancialServices"</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#prefLabel" target="_blank" title="http://www.w3.org/2004/02/skos/core#prefLabel">pref Label</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"Financial Services"@en</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/ns/prov#hadPrimarySource" target="_blank" title="http://www.w3.org/ns/prov#hadPrimarySource">had Primary Source</a> <sup class="type-ap" title="annotation property">ap</sup> <a href="https://iris.thegiin.org/metrics/" target="_blank" title="https://iris.thegiin.org/metrics/">https://iris.thegiin.org/metrics/</a> <sup class="type-ep" title="external property">ep</sup>
+   </dd>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#hasSpecification" target="_blank" title="https://ontology.commonapproach.org/cids#hasSpecification">has Specification</a> <sup class="type-dp" title="data property">dp</sup> <a href="#d4e3" title="https://codelist.commonapproach.org/ESDCSector">ESDC Sectors</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+  </dl>
+ </div>
+ <div class="entity" id="https://codelist.commonapproach.org/IRISImpactCategory#Health">
+  <h3>Health<sup class="type-ni" title="named individual">ni</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a> </span></h3>
+  <p><strong>IRI:</strong> https://codelist.commonapproach.org/IRISImpactCategory#Health</p>
+  <dl class="definedBy">
+   <dt>
+    Is defined by
+   </dt>
+   <dd>
+    <a href="https://codelist.commonapproach.org/ESDCSector">https://codelist.commonapproach.org/ESDCSector</a>
+   </dd>
+  </dl>
+  <dl class="description">
+   <dt>
+    belongs to
+   </dt>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#Concept" target="_blank" title="http://www.w3.org/2004/02/skos/core#Concept">Concept</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#Code" target="_blank" title="https://ontology.commonapproach.org/cids#Code">Code</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#Sector" target="_blank" title="https://ontology.commonapproach.org/cids#Sector">Sector</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+   <dt>
+    has facts
+   </dt>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#definedBy" target="_blank" title="https://ontology.commonapproach.org/cids#definedBy">defined By</a> <sup class="type-op" title="object property">op</sup> <a href="https://ontology.commonapproach.org/cids#giin" target="_blank" title="https://ontology.commonapproach.org/cids#giin">Global Impact Investing Network</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+   <dd>
+    <a href="http://ontology.eil.utoronto.ca/tove/organization#hasIdentifier" target="_blank" title="http://ontology.eil.utoronto.ca/tove/organization#hasIdentifier">has Identifier</a> <sup class="type-dp" title="data property">dp</sup> <span class="literal">"Health"</span>
+   </dd>
+   <dd>
+    <a href="http://ontology.eil.utoronto.ca/tove/organization#hasName" target="_blank" title="http://ontology.eil.utoronto.ca/tove/organization#hasName">has Name</a> <sup class="type-dp" title="data property">dp</sup> <span class="literal">"Health"</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#inScheme" target="_blank" title="http://www.w3.org/2004/02/skos/core#inScheme">in Scheme</a> <sup class="type-ap" title="annotation property">ap</sup> <a href="#d4e3" title="https://codelist.commonapproach.org/ESDCSector">ESDC Sectors</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#notation" target="_blank" title="http://www.w3.org/2004/02/skos/core#notation">notation</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"Health"</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#prefLabel" target="_blank" title="http://www.w3.org/2004/02/skos/core#prefLabel">pref Label</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"Health"@en</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/ns/prov#hadPrimarySource" target="_blank" title="http://www.w3.org/ns/prov#hadPrimarySource">had Primary Source</a> <sup class="type-ap" title="annotation property">ap</sup> <a href="https://iris.thegiin.org/metrics/" target="_blank" title="https://iris.thegiin.org/metrics/">https://iris.thegiin.org/metrics/</a> <sup class="type-ep" title="external property">ep</sup>
+   </dd>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#hasSpecification" target="_blank" title="https://ontology.commonapproach.org/cids#hasSpecification">has Specification</a> <sup class="type-dp" title="data property">dp</sup> <a href="#d4e3" title="https://codelist.commonapproach.org/ESDCSector">ESDC Sectors</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+  </dl>
+ </div>
+ <div class="entity" id="https://codelist.commonapproach.org/IRISImpactCategory#Infrastructure">
+  <h3>Infrastructure<sup class="type-ni" title="named individual">ni</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a> </span></h3>
+  <p><strong>IRI:</strong> https://codelist.commonapproach.org/IRISImpactCategory#Infrastructure</p>
+  <dl class="definedBy">
+   <dt>
+    Is defined by
+   </dt>
+   <dd>
+    <a href="https://codelist.commonapproach.org/ESDCSector">https://codelist.commonapproach.org/ESDCSector</a>
+   </dd>
+  </dl>
+  <dl class="description">
+   <dt>
+    belongs to
+   </dt>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#Concept" target="_blank" title="http://www.w3.org/2004/02/skos/core#Concept">Concept</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#Code" target="_blank" title="https://ontology.commonapproach.org/cids#Code">Code</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#Sector" target="_blank" title="https://ontology.commonapproach.org/cids#Sector">Sector</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+   <dt>
+    has facts
+   </dt>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#definedBy" target="_blank" title="https://ontology.commonapproach.org/cids#definedBy">defined By</a> <sup class="type-op" title="object property">op</sup> <a href="https://ontology.commonapproach.org/cids#giin" target="_blank" title="https://ontology.commonapproach.org/cids#giin">Global Impact Investing Network</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+   <dd>
+    <a href="http://ontology.eil.utoronto.ca/tove/organization#hasIdentifier" target="_blank" title="http://ontology.eil.utoronto.ca/tove/organization#hasIdentifier">has Identifier</a> <sup class="type-dp" title="data property">dp</sup> <span class="literal">"Infrastructure"</span>
+   </dd>
+   <dd>
+    <a href="http://ontology.eil.utoronto.ca/tove/organization#hasName" target="_blank" title="http://ontology.eil.utoronto.ca/tove/organization#hasName">has Name</a> <sup class="type-dp" title="data property">dp</sup> <span class="literal">"Infrastructure"</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#inScheme" target="_blank" title="http://www.w3.org/2004/02/skos/core#inScheme">in Scheme</a> <sup class="type-ap" title="annotation property">ap</sup> <a href="#d4e3" title="https://codelist.commonapproach.org/ESDCSector">ESDC Sectors</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#notation" target="_blank" title="http://www.w3.org/2004/02/skos/core#notation">notation</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"Infrastructure"</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#prefLabel" target="_blank" title="http://www.w3.org/2004/02/skos/core#prefLabel">pref Label</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"Infrastructure"@en</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/ns/prov#hadPrimarySource" target="_blank" title="http://www.w3.org/ns/prov#hadPrimarySource">had Primary Source</a> <sup class="type-ap" title="annotation property">ap</sup> <a href="https://iris.thegiin.org/metrics/" target="_blank" title="https://iris.thegiin.org/metrics/">https://iris.thegiin.org/metrics/</a> <sup class="type-ep" title="external property">ep</sup>
+   </dd>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#hasSpecification" target="_blank" title="https://ontology.commonapproach.org/cids#hasSpecification">has Specification</a> <sup class="type-dp" title="data property">dp</sup> <a href="#d4e3" title="https://codelist.commonapproach.org/ESDCSector">ESDC Sectors</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+  </dl>
+ </div>
+ <div class="entity" id="https://codelist.commonapproach.org/IRISImpactCategory#Land">
+  <h3>Land<sup class="type-ni" title="named individual">ni</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a> </span></h3>
+  <p><strong>IRI:</strong> https://codelist.commonapproach.org/IRISImpactCategory#Land</p>
+  <dl class="definedBy">
+   <dt>
+    Is defined by
+   </dt>
+   <dd>
+    <a href="https://codelist.commonapproach.org/ESDCSector">https://codelist.commonapproach.org/ESDCSector</a>
+   </dd>
+  </dl>
+  <dl class="description">
+   <dt>
+    belongs to
+   </dt>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#Concept" target="_blank" title="http://www.w3.org/2004/02/skos/core#Concept">Concept</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#Code" target="_blank" title="https://ontology.commonapproach.org/cids#Code">Code</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#Sector" target="_blank" title="https://ontology.commonapproach.org/cids#Sector">Sector</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+   <dt>
+    has facts
+   </dt>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#definedBy" target="_blank" title="https://ontology.commonapproach.org/cids#definedBy">defined By</a> <sup class="type-op" title="object property">op</sup> <a href="https://ontology.commonapproach.org/cids#giin" target="_blank" title="https://ontology.commonapproach.org/cids#giin">Global Impact Investing Network</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+   <dd>
+    <a href="http://ontology.eil.utoronto.ca/tove/organization#hasIdentifier" target="_blank" title="http://ontology.eil.utoronto.ca/tove/organization#hasIdentifier">has Identifier</a> <sup class="type-dp" title="data property">dp</sup> <span class="literal">"Land"</span>
+   </dd>
+   <dd>
+    <a href="http://ontology.eil.utoronto.ca/tove/organization#hasName" target="_blank" title="http://ontology.eil.utoronto.ca/tove/organization#hasName">has Name</a> <sup class="type-dp" title="data property">dp</sup> <span class="literal">"Land"</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#inScheme" target="_blank" title="http://www.w3.org/2004/02/skos/core#inScheme">in Scheme</a> <sup class="type-ap" title="annotation property">ap</sup> <a href="#d4e3" title="https://codelist.commonapproach.org/ESDCSector">ESDC Sectors</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#notation" target="_blank" title="http://www.w3.org/2004/02/skos/core#notation">notation</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"Land"</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#prefLabel" target="_blank" title="http://www.w3.org/2004/02/skos/core#prefLabel">pref Label</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"Land"@en</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/ns/prov#hadPrimarySource" target="_blank" title="http://www.w3.org/ns/prov#hadPrimarySource">had Primary Source</a> <sup class="type-ap" title="annotation property">ap</sup> <a href="https://iris.thegiin.org/metrics/" target="_blank" title="https://iris.thegiin.org/metrics/">https://iris.thegiin.org/metrics/</a> <sup class="type-ep" title="external property">ep</sup>
+   </dd>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#hasSpecification" target="_blank" title="https://ontology.commonapproach.org/cids#hasSpecification">has Specification</a> <sup class="type-dp" title="data property">dp</sup> <a href="#d4e3" title="https://codelist.commonapproach.org/ESDCSector">ESDC Sectors</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+  </dl>
+ </div>
+ <div class="entity" id="https://codelist.commonapproach.org/IRISImpactCategory#OceansandCoastalZones">
+  <h3>Oceans and Coastal Zones<sup class="type-ni" title="named individual">ni</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a> </span></h3>
+  <p><strong>IRI:</strong> https://codelist.commonapproach.org/IRISImpactCategory#OceansandCoastalZones</p>
+  <dl class="definedBy">
+   <dt>
+    Is defined by
+   </dt>
+   <dd>
+    <a href="https://codelist.commonapproach.org/ESDCSector">https://codelist.commonapproach.org/ESDCSector</a>
+   </dd>
+  </dl>
+  <dl class="description">
+   <dt>
+    belongs to
+   </dt>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#Concept" target="_blank" title="http://www.w3.org/2004/02/skos/core#Concept">Concept</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#Code" target="_blank" title="https://ontology.commonapproach.org/cids#Code">Code</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#Sector" target="_blank" title="https://ontology.commonapproach.org/cids#Sector">Sector</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+   <dt>
+    has facts
+   </dt>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#definedBy" target="_blank" title="https://ontology.commonapproach.org/cids#definedBy">defined By</a> <sup class="type-op" title="object property">op</sup> <a href="https://ontology.commonapproach.org/cids#giin" target="_blank" title="https://ontology.commonapproach.org/cids#giin">Global Impact Investing Network</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+   <dd>
+    <a href="http://ontology.eil.utoronto.ca/tove/organization#hasIdentifier" target="_blank" title="http://ontology.eil.utoronto.ca/tove/organization#hasIdentifier">has Identifier</a> <sup class="type-dp" title="data property">dp</sup> <span class="literal">"OceansandCoastalZones"</span>
+   </dd>
+   <dd>
+    <a href="http://ontology.eil.utoronto.ca/tove/organization#hasName" target="_blank" title="http://ontology.eil.utoronto.ca/tove/organization#hasName">has Name</a> <sup class="type-dp" title="data property">dp</sup> <span class="literal">"Oceans and Coastal Zones"</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#inScheme" target="_blank" title="http://www.w3.org/2004/02/skos/core#inScheme">in Scheme</a> <sup class="type-ap" title="annotation property">ap</sup> <a href="#d4e3" title="https://codelist.commonapproach.org/ESDCSector">ESDC Sectors</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#notation" target="_blank" title="http://www.w3.org/2004/02/skos/core#notation">notation</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"OceansandCoastalZones"</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#prefLabel" target="_blank" title="http://www.w3.org/2004/02/skos/core#prefLabel">pref Label</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"Oceans and Coastal Zones"@en</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/ns/prov#hadPrimarySource" target="_blank" title="http://www.w3.org/ns/prov#hadPrimarySource">had Primary Source</a> <sup class="type-ap" title="annotation property">ap</sup> <a href="https://iris.thegiin.org/metrics/" target="_blank" title="https://iris.thegiin.org/metrics/">https://iris.thegiin.org/metrics/</a> <sup class="type-ep" title="external property">ep</sup>
+   </dd>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#hasSpecification" target="_blank" title="https://ontology.commonapproach.org/cids#hasSpecification">has Specification</a> <sup class="type-dp" title="data property">dp</sup> <a href="#d4e3" title="https://codelist.commonapproach.org/ESDCSector">ESDC Sectors</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+  </dl>
+ </div>
+ <div class="entity" id="Other">
+  <h3>Other<sup class="type-ni" title="named individual">ni</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a> </span></h3>
+  <p><strong>IRI:</strong> https://codelist.commonapproach.org/ESDCSector#Other</p>
+  <dl class="definedBy">
+   <dt>
+    Is defined by
+   </dt>
+   <dd>
+    <a href="https://codelist.commonapproach.org/ESDCSector">https://codelist.commonapproach.org/ESDCSector</a>
+   </dd>
+  </dl>
+  <dl class="description">
+   <dt>
+    belongs to
+   </dt>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#Sector" target="_blank" title="https://ontology.commonapproach.org/cids#Sector">Sector</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+   <dt>
+    has facts
+   </dt>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#definedBy" target="_blank" title="https://ontology.commonapproach.org/cids#definedBy">defined By</a> <sup class="type-op" title="object property">op</sup> <a href="https://ontology.commonapproach.org/cids#ac" target="_blank" title="https://ontology.commonapproach.org/cids#ac">Common Approach to Impact Measurement</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+   <dd>
+    <a href="http://ontology.eil.utoronto.ca/tove/organization#hasIdentifier" target="_blank" title="http://ontology.eil.utoronto.ca/tove/organization#hasIdentifier">has Identifier</a> <sup class="type-dp" title="data property">dp</sup> <span class="literal">"Other"</span>
+   </dd>
+   <dd>
+    <a href="http://ontology.eil.utoronto.ca/tove/organization#hasName" target="_blank" title="http://ontology.eil.utoronto.ca/tove/organization#hasName">has Name</a> <sup class="type-dp" title="data property">dp</sup> <span class="literal">"Other"</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#inScheme" target="_blank" title="http://www.w3.org/2004/02/skos/core#inScheme">in Scheme</a> <sup class="type-ap" title="annotation property">ap</sup> <a href="#d4e3" title="https://codelist.commonapproach.org/ESDCSector">ESDC Sectors</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#notation" target="_blank" title="http://www.w3.org/2004/02/skos/core#notation">notation</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"Other"</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#prefLabel" target="_blank" title="http://www.w3.org/2004/02/skos/core#prefLabel">pref Label</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"Other"@en</span>
+   </dd>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#hasSpecification" target="_blank" title="https://ontology.commonapproach.org/cids#hasSpecification">has Specification</a> <sup class="type-dp" title="data property">dp</sup> <a href="#d4e3" title="https://codelist.commonapproach.org/ESDCSector">ESDC Sectors</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+  </dl>
+ </div>
+ <div class="entity" id="https://codelist.commonapproach.org/IRISImpactCategory#Pollution">
+  <h3>Pollution<sup class="type-ni" title="named individual">ni</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a> </span></h3>
+  <p><strong>IRI:</strong> https://codelist.commonapproach.org/IRISImpactCategory#Pollution</p>
+  <dl class="definedBy">
+   <dt>
+    Is defined by
+   </dt>
+   <dd>
+    <a href="https://codelist.commonapproach.org/ESDCSector">https://codelist.commonapproach.org/ESDCSector</a>
+   </dd>
+  </dl>
+  <dl class="description">
+   <dt>
+    belongs to
+   </dt>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#Concept" target="_blank" title="http://www.w3.org/2004/02/skos/core#Concept">Concept</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#Code" target="_blank" title="https://ontology.commonapproach.org/cids#Code">Code</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#Sector" target="_blank" title="https://ontology.commonapproach.org/cids#Sector">Sector</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+   <dt>
+    has facts
+   </dt>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#definedBy" target="_blank" title="https://ontology.commonapproach.org/cids#definedBy">defined By</a> <sup class="type-op" title="object property">op</sup> <a href="https://ontology.commonapproach.org/cids#giin" target="_blank" title="https://ontology.commonapproach.org/cids#giin">Global Impact Investing Network</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+   <dd>
+    <a href="http://ontology.eil.utoronto.ca/tove/organization#hasIdentifier" target="_blank" title="http://ontology.eil.utoronto.ca/tove/organization#hasIdentifier">has Identifier</a> <sup class="type-dp" title="data property">dp</sup> <span class="literal">"Pollution"</span>
+   </dd>
+   <dd>
+    <a href="http://ontology.eil.utoronto.ca/tove/organization#hasName" target="_blank" title="http://ontology.eil.utoronto.ca/tove/organization#hasName">has Name</a> <sup class="type-dp" title="data property">dp</sup> <span class="literal">"Pollution"</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#inScheme" target="_blank" title="http://www.w3.org/2004/02/skos/core#inScheme">in Scheme</a> <sup class="type-ap" title="annotation property">ap</sup> <a href="#d4e3" title="https://codelist.commonapproach.org/ESDCSector">ESDC Sectors</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#notation" target="_blank" title="http://www.w3.org/2004/02/skos/core#notation">notation</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"Pollution"</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#prefLabel" target="_blank" title="http://www.w3.org/2004/02/skos/core#prefLabel">pref Label</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"Pollution"@en</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/ns/prov#hadPrimarySource" target="_blank" title="http://www.w3.org/ns/prov#hadPrimarySource">had Primary Source</a> <sup class="type-ap" title="annotation property">ap</sup> <a href="https://iris.thegiin.org/metrics/" target="_blank" title="https://iris.thegiin.org/metrics/">https://iris.thegiin.org/metrics/</a> <sup class="type-ep" title="external property">ep</sup>
+   </dd>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#hasSpecification" target="_blank" title="https://ontology.commonapproach.org/cids#hasSpecification">has Specification</a> <sup class="type-dp" title="data property">dp</sup> <a href="#d4e3" title="https://codelist.commonapproach.org/ESDCSector">ESDC Sectors</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+  </dl>
+ </div>
+ <div class="entity" id="https://codelist.commonapproach.org/IRISImpactCategory#RealEstate">
+  <h3>Real Estate<sup class="type-ni" title="named individual">ni</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a> </span></h3>
+  <p><strong>IRI:</strong> https://codelist.commonapproach.org/IRISImpactCategory#RealEstate</p>
+  <dl class="definedBy">
+   <dt>
+    Is defined by
+   </dt>
+   <dd>
+    <a href="https://codelist.commonapproach.org/ESDCSector">https://codelist.commonapproach.org/ESDCSector</a>
+   </dd>
+  </dl>
+  <dl class="description">
+   <dt>
+    belongs to
+   </dt>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#Concept" target="_blank" title="http://www.w3.org/2004/02/skos/core#Concept">Concept</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#Code" target="_blank" title="https://ontology.commonapproach.org/cids#Code">Code</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#Sector" target="_blank" title="https://ontology.commonapproach.org/cids#Sector">Sector</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+   <dt>
+    has facts
+   </dt>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#definedBy" target="_blank" title="https://ontology.commonapproach.org/cids#definedBy">defined By</a> <sup class="type-op" title="object property">op</sup> <a href="https://ontology.commonapproach.org/cids#giin" target="_blank" title="https://ontology.commonapproach.org/cids#giin">Global Impact Investing Network</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+   <dd>
+    <a href="http://ontology.eil.utoronto.ca/tove/organization#hasIdentifier" target="_blank" title="http://ontology.eil.utoronto.ca/tove/organization#hasIdentifier">has Identifier</a> <sup class="type-dp" title="data property">dp</sup> <span class="literal">"RealEstate"</span>
+   </dd>
+   <dd>
+    <a href="http://ontology.eil.utoronto.ca/tove/organization#hasName" target="_blank" title="http://ontology.eil.utoronto.ca/tove/organization#hasName">has Name</a> <sup class="type-dp" title="data property">dp</sup> <span class="literal">"Real Estate"</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#inScheme" target="_blank" title="http://www.w3.org/2004/02/skos/core#inScheme">in Scheme</a> <sup class="type-ap" title="annotation property">ap</sup> <a href="#d4e3" title="https://codelist.commonapproach.org/ESDCSector">ESDC Sectors</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#notation" target="_blank" title="http://www.w3.org/2004/02/skos/core#notation">notation</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"RealEstate"</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#prefLabel" target="_blank" title="http://www.w3.org/2004/02/skos/core#prefLabel">pref Label</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"Real Estate"@en</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/ns/prov#hadPrimarySource" target="_blank" title="http://www.w3.org/ns/prov#hadPrimarySource">had Primary Source</a> <sup class="type-ap" title="annotation property">ap</sup> <a href="https://iris.thegiin.org/metrics/" target="_blank" title="https://iris.thegiin.org/metrics/">https://iris.thegiin.org/metrics/</a> <sup class="type-ep" title="external property">ep</sup>
+   </dd>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#hasSpecification" target="_blank" title="https://ontology.commonapproach.org/cids#hasSpecification">has Specification</a> <sup class="type-dp" title="data property">dp</sup> <a href="#d4e3" title="https://codelist.commonapproach.org/ESDCSector">ESDC Sectors</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+  </dl>
+ </div>
+ <div class="entity" id="https://codelist.commonapproach.org/IRISImpactCategory#Waste">
+  <h3>Waste<sup class="type-ni" title="named individual">ni</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a> </span></h3>
+  <p><strong>IRI:</strong> https://codelist.commonapproach.org/IRISImpactCategory#Waste</p>
+  <dl class="definedBy">
+   <dt>
+    Is defined by
+   </dt>
+   <dd>
+    <a href="https://codelist.commonapproach.org/ESDCSector">https://codelist.commonapproach.org/ESDCSector</a>
+   </dd>
+  </dl>
+  <dl class="description">
+   <dt>
+    belongs to
+   </dt>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#Concept" target="_blank" title="http://www.w3.org/2004/02/skos/core#Concept">Concept</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#Code" target="_blank" title="https://ontology.commonapproach.org/cids#Code">Code</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#Sector" target="_blank" title="https://ontology.commonapproach.org/cids#Sector">Sector</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+   <dt>
+    has facts
+   </dt>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#definedBy" target="_blank" title="https://ontology.commonapproach.org/cids#definedBy">defined By</a> <sup class="type-op" title="object property">op</sup> <a href="https://ontology.commonapproach.org/cids#giin" target="_blank" title="https://ontology.commonapproach.org/cids#giin">Global Impact Investing Network</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+   <dd>
+    <a href="http://ontology.eil.utoronto.ca/tove/organization#hasIdentifier" target="_blank" title="http://ontology.eil.utoronto.ca/tove/organization#hasIdentifier">has Identifier</a> <sup class="type-dp" title="data property">dp</sup> <span class="literal">"Waste"</span>
+   </dd>
+   <dd>
+    <a href="http://ontology.eil.utoronto.ca/tove/organization#hasName" target="_blank" title="http://ontology.eil.utoronto.ca/tove/organization#hasName">has Name</a> <sup class="type-dp" title="data property">dp</sup> <span class="literal">"Waste"</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#inScheme" target="_blank" title="http://www.w3.org/2004/02/skos/core#inScheme">in Scheme</a> <sup class="type-ap" title="annotation property">ap</sup> <a href="#d4e3" title="https://codelist.commonapproach.org/ESDCSector">ESDC Sectors</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#notation" target="_blank" title="http://www.w3.org/2004/02/skos/core#notation">notation</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"Waste"</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#prefLabel" target="_blank" title="http://www.w3.org/2004/02/skos/core#prefLabel">pref Label</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"Waste"@en</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/ns/prov#hadPrimarySource" target="_blank" title="http://www.w3.org/ns/prov#hadPrimarySource">had Primary Source</a> <sup class="type-ap" title="annotation property">ap</sup> <a href="https://iris.thegiin.org/metrics/" target="_blank" title="https://iris.thegiin.org/metrics/">https://iris.thegiin.org/metrics/</a> <sup class="type-ep" title="external property">ep</sup>
+   </dd>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#hasSpecification" target="_blank" title="https://ontology.commonapproach.org/cids#hasSpecification">has Specification</a> <sup class="type-dp" title="data property">dp</sup> <a href="#d4e3" title="https://codelist.commonapproach.org/ESDCSector">ESDC Sectors</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+  </dl>
+ </div>
+ <div class="entity" id="https://codelist.commonapproach.org/IRISImpactCategory#Water">
+  <h3>Water<sup class="type-ni" title="named individual">ni</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a> </span></h3>
+  <p><strong>IRI:</strong> https://codelist.commonapproach.org/IRISImpactCategory#Water</p>
+  <dl class="definedBy">
+   <dt>
+    Is defined by
+   </dt>
+   <dd>
+    <a href="https://codelist.commonapproach.org/ESDCSector">https://codelist.commonapproach.org/ESDCSector</a>
+   </dd>
+  </dl>
+  <dl class="description">
+   <dt>
+    belongs to
+   </dt>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#Concept" target="_blank" title="http://www.w3.org/2004/02/skos/core#Concept">Concept</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#Code" target="_blank" title="https://ontology.commonapproach.org/cids#Code">Code</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#Sector" target="_blank" title="https://ontology.commonapproach.org/cids#Sector">Sector</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+   <dt>
+    has facts
+   </dt>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#definedBy" target="_blank" title="https://ontology.commonapproach.org/cids#definedBy">defined By</a> <sup class="type-op" title="object property">op</sup> <a href="https://ontology.commonapproach.org/cids#giin" target="_blank" title="https://ontology.commonapproach.org/cids#giin">Global Impact Investing Network</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+   <dd>
+    <a href="http://ontology.eil.utoronto.ca/tove/organization#hasIdentifier" target="_blank" title="http://ontology.eil.utoronto.ca/tove/organization#hasIdentifier">has Identifier</a> <sup class="type-dp" title="data property">dp</sup> <span class="literal">"Water"</span>
+   </dd>
+   <dd>
+    <a href="http://ontology.eil.utoronto.ca/tove/organization#hasName" target="_blank" title="http://ontology.eil.utoronto.ca/tove/organization#hasName">has Name</a> <sup class="type-dp" title="data property">dp</sup> <span class="literal">"Water"</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#inScheme" target="_blank" title="http://www.w3.org/2004/02/skos/core#inScheme">in Scheme</a> <sup class="type-ap" title="annotation property">ap</sup> <a href="#d4e3" title="https://codelist.commonapproach.org/ESDCSector">ESDC Sectors</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#notation" target="_blank" title="http://www.w3.org/2004/02/skos/core#notation">notation</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"Water"</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#prefLabel" target="_blank" title="http://www.w3.org/2004/02/skos/core#prefLabel">pref Label</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"Water"@en</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/ns/prov#hadPrimarySource" target="_blank" title="http://www.w3.org/ns/prov#hadPrimarySource">had Primary Source</a> <sup class="type-ap" title="annotation property">ap</sup> <a href="https://iris.thegiin.org/metrics/" target="_blank" title="https://iris.thegiin.org/metrics/">https://iris.thegiin.org/metrics/</a> <sup class="type-ep" title="external property">ep</sup>
+   </dd>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#hasSpecification" target="_blank" title="https://ontology.commonapproach.org/cids#hasSpecification">has Specification</a> <sup class="type-dp" title="data property">dp</sup> <a href="#d4e3" title="https://codelist.commonapproach.org/ESDCSector">ESDC Sectors</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+  </dl>
+ </div>
+</div><div id="legend">
+<h2>Legend <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>
+<div   class="entity">
+<sup class="type-c" title="Classes">c</sup>: Classes <br/>
+<sup class="type-op" title="Object Properties">op</sup>: Object Properties <br/>
+<sup class="type-dp" title="Data Properties">dp</sup>: Data Properties <br/>
+<sup class="type-ni" title="Named Individuals">ni</sup>: Named Individuals <br/>
+<sup class="type-ep" title="External Properties">ep</sup>: External Properties
+</div>
+</div>
+</div>
+<div id="acknowledgments">
+<h2 id="ack" class="list">Acknowledgments <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>
+<p>
+The authors would like to thank <a href="http://www.essepuntato.it/">Silvio Peroni</a> for developing <a href="http://www.essepuntato.it/lode">LODE</a>, a Live OWL Documentation Environment, which is used for representing the Cross Referencing Section of this document and <a href="https://w3id.org/people/dgarijo">Daniel Garijo</a> for developing <a href="https://github.com/dgarijo/Widoco">Widoco</a>, the program used to create the template used in this documentation.</p>
+</div>
+
+
+</div>
+</body>
+</html>

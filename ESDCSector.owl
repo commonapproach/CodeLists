@@ -21,6 +21,7 @@
     <org:hasIdentifier>OceansandCoastalZones</org:hasIdentifier>
     <skos:prefLabel xml:lang="en">Oceans and Coastal Zones</skos:prefLabel>
     <org:hasName>Oceans and Coastal Zones</org:hasName>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Sector"/>
     <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
   </rdf:Description>
@@ -34,6 +35,7 @@
     <org:hasIdentifier>Energy</org:hasIdentifier>
     <skos:prefLabel xml:lang="en">Energy</skos:prefLabel>
     <org:hasName>Energy</org:hasName>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Sector"/>
     <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
   </rdf:Description>
@@ -47,6 +49,7 @@
     <org:hasIdentifier>Infrastructure</org:hasIdentifier>
     <skos:prefLabel xml:lang="en">Infrastructure</skos:prefLabel>
     <org:hasName>Infrastructure</org:hasName>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Sector"/>
     <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
   </rdf:Description>
@@ -60,6 +63,7 @@
     <org:hasIdentifier>Agriculture</org:hasIdentifier>
     <skos:prefLabel xml:lang="en">Agriculture</skos:prefLabel>
     <org:hasName>Agriculture</org:hasName>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Sector"/>
     <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
   </rdf:Description>
@@ -73,6 +77,7 @@
     <org:hasIdentifier>Education</org:hasIdentifier>
     <skos:prefLabel xml:lang="en">Education</skos:prefLabel>
     <org:hasName>Education</org:hasName>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Sector"/>
     <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
   </rdf:Description>
@@ -86,6 +91,7 @@
     <org:hasIdentifier>FinancialServices</org:hasIdentifier>
     <skos:prefLabel xml:lang="en">Financial Services</skos:prefLabel>
     <org:hasName>Financial Services</org:hasName>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Sector"/>
     <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
   </rdf:Description>
@@ -99,6 +105,7 @@
     <org:hasIdentifier>RealEstate</org:hasIdentifier>
     <skos:prefLabel xml:lang="en">Real Estate</skos:prefLabel>
     <org:hasName>Real Estate</org:hasName>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Sector"/>
     <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
   </rdf:Description>
@@ -112,6 +119,7 @@
     <org:hasIdentifier>DiversityandInclusion</org:hasIdentifier>
     <skos:prefLabel xml:lang="en">Diversity and Inclusion</skos:prefLabel>
     <org:hasName>Diversity and Inclusion</org:hasName>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Sector"/>
     <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
   </rdf:Description>
@@ -125,6 +133,7 @@
     <org:hasIdentifier>Climate</org:hasIdentifier>
     <skos:prefLabel xml:lang="en">Climate</skos:prefLabel>
     <org:hasName>Climate</org:hasName>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Sector"/>
     <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
   </rdf:Description>
@@ -149,6 +158,7 @@
     <org:hasIdentifier>Land</org:hasIdentifier>
     <skos:prefLabel xml:lang="en">Land</skos:prefLabel>
     <org:hasName>Land</org:hasName>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Sector"/>
     <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
   </rdf:Description>
@@ -162,6 +172,7 @@
     <org:hasIdentifier>Pollution</org:hasIdentifier>
     <skos:prefLabel xml:lang="en">Pollution</skos:prefLabel>
     <org:hasName>Pollution</org:hasName>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Sector"/>
     <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
   </rdf:Description>
@@ -175,6 +186,7 @@
     <org:hasIdentifier>Health</org:hasIdentifier>
     <skos:prefLabel xml:lang="en">Health</skos:prefLabel>
     <org:hasName>Health</org:hasName>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Sector"/>
     <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
   </rdf:Description>
@@ -188,6 +200,7 @@
     <org:hasIdentifier>BiodiversityandEcosystems</org:hasIdentifier>
     <skos:prefLabel xml:lang="en">Biodiversity and Ecosystems</skos:prefLabel>
     <org:hasName>Biodiversity and Ecosystems</org:hasName>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Sector"/>
     <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
   </rdf:Description>
@@ -201,6 +214,7 @@
     <org:hasIdentifier>Waste</org:hasIdentifier>
     <skos:prefLabel xml:lang="en">Waste</skos:prefLabel>
     <org:hasName>Waste</org:hasName>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Sector"/>
     <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
   </rdf:Description>
@@ -214,6 +228,7 @@
     <org:hasIdentifier>Water</org:hasIdentifier>
     <skos:prefLabel xml:lang="en">Water</skos:prefLabel>
     <org:hasName>Water</org:hasName>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Sector"/>
     <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
   </rdf:Description>
@@ -227,6 +242,7 @@
     <org:hasIdentifier>Air</org:hasIdentifier>
     <skos:prefLabel xml:lang="en">Air</skos:prefLabel>
     <org:hasName>Air</org:hasName>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Sector"/>
     <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
   </rdf:Description>
@@ -252,6 +268,7 @@
     <org:hasIdentifier>Employment</org:hasIdentifier>
     <skos:prefLabel xml:lang="en">Employment</skos:prefLabel>
     <org:hasName>Employment</org:hasName>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Sector"/>
     <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Code"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
   </rdf:Description>

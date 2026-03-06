@@ -1,0 +1,2035 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+<link rel="stylesheet" href="https://ontology.commonapproach.org/resources/primer.css" media="screen"/>
+<link rel="stylesheet" href="https://ontology.commonapproach.org/resources/rec.css" media="screen"/>
+<link rel="stylesheet" href="https://ontology.commonapproach.org/resources/extra.css" media="screen"/>
+<link rel="stylesheet" href="https://ontology.commonapproach.org/resources/owl.css" media="screen"/>
+<link rel="stylesheet" href="https://ontology.commonapproach.org/resources/dark.css" media="(prefers-color-scheme: dark)"/>
+<link rel="stylesheet" href="https://ontology.commonapproach.org/resources/light.css" media="(prefers-color-scheme: light)"/>
+<link rel="stylesheet" href="https://ontology.commonapproach.org/resources/slider.css" media="screen"/>
+<meta name="color-scheme" content="dark light">
+<script type="module" src="https://ontology.commonapproach.org/resources/dark-mode-toggle.mjs"></script><div class="darkmode">
+	<dark-mode-toggle class="slider"></dark-mode-toggle>
+</div>
+ <title>Sustainable Development Goals Impact Themes</title>
+
+
+<!-- SCHEMA.ORG METADATA -->
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"TechArticle","url":"https://codelist.commonapproach.org/SDGImpacts","image":"http://vowl.visualdataweb.org/webvowl/#iri=https://codelist.commonapproach.org/SDGImpacts","name":"Sustainable Development Goals Impact Themes", "headline":"Document describing the ontology https://codelist.commonapproach.org/SDGImpacts", "dateReleased":"Fri Feb 27 15:58:28 EST 2026", "version":"2.0", "author":[{"@type":"Person","name":"https://ontology.commonapproach.org/cids#ac","url":"https://ontology.commonapproach.org/cids#ac"}]}</script>
+
+<script src="https://ontology.commonapproach.org/resources/jquery.js"></script> 
+<script src="https://ontology.commonapproach.org/resources/marked.min.js"></script> 
+    <script> 
+function loadHash() {
+  jQuery(".markdown").each(function(el){jQuery(this).after(marked.parse(jQuery(this).text())).remove()});
+	var hash = location.hash;
+	if($(hash).offset()!=null){
+	  $('html, body').animate({scrollTop: $(hash).offset().top}, 0);
+}
+	loadTOC();
+}
+function loadTOC(){
+	//process toc dynamically
+	  var t='<h2>Table of contents</h2><ul>';i = 1;j=0;
+	  jQuery(".list").each(function(){
+		if(jQuery(this).is('h2')){
+			if(j>0){
+				t+='</ul>';
+				j=0;
+			}
+			t+= '<li>'+i+'. <a href=#'+ jQuery(this).attr('id')+'>'+ jQuery(this).ignore("span").text()+'</a></li>';
+			i++;
+		}
+		if(jQuery(this).is('h3')){
+			if(j==0){
+				t+='<ul>';
+			}
+			j++;
+			t+= '<li>'+(i-1)+'.'+j+'. '+'<a href=#'+ jQuery(this).attr('id')+'>'+ jQuery(this).ignore("span").text()+'</a></li>';
+		}
+	  });
+	  t+='</ul>';
+	  $("#toc").html(t); 
+}
+$(function(){
+    loadHash();
+}); $.fn.ignore = function(sel){
+        return this.clone().find(sel||">*").remove().end();
+ }; 
+   </script> 
+  </head> 
+
+<body>
+<div class="container">
+<div class="head">
+<div style="float:right">language <a href="index-en.html"><b>en</b></a> </div>
+<h1>Sustainable Development Goals Impact Themes</h1>
+
+
+<dl>
+<dt>Revision:</dt>
+<dd>2.0</dd>
+<dt>Authors:</dt>
+<dd><a href="https://ontology.commonapproach.org/cids#ac">https://ontology.commonapproach.org/cids#ac</a></dd>
+
+<dt>Imported Ontologies:</dt>
+<dd><a href="http://ontology.eil.utoronto.ca/ISO21972/iso21972">iso21972</a></dd><dd><a href="http://ontology.eil.utoronto.ca/tove/activity">activity</a></dd><dd><a href="http://ontology.eil.utoronto.ca/tove/icontact">icontact</a></dd><dd><a href="http://ontology.eil.utoronto.ca/tove/organization">organization</a></dd><dd><a href="http://www.w3.org/2006/time">time</a></dd><dd><a href="https://ontology.commonapproach.org/cids">cids</a></dd><dd><a href="https://standards.iso.org/iso-iec/5087/-1/ed-1/en/ontology/Time/">&lt;https://standards.iso.org/iso-iec/5087/-1/ed-1/en/ontology/Time/&gt;</a></dd>
+
+<dt>Download serialization:</dt><dd><span><a href="ontology.jsonld" target="_blank"><img src="https://img.shields.io/badge/Format-JSON_LD-blue.svg" alt="JSON-LD" /></a> </span><span><a href="ontology.owl" target="_blank"><img src="https://img.shields.io/badge/Format-RDF/XML-blue.svg" alt="RDF/XML" /></a> </span><span><a href="ontology.nt" target="_blank"><img src="https://img.shields.io/badge/Format-N_Triples-blue.svg" alt="N-Triples" /></a> </span><span><a href="ontology.ttl" target="_blank"><img src="https://img.shields.io/badge/Format-TTL-blue.svg" alt="TTL" /></a> </span></dd><dt>License:</dt><dd><a href="http://insertlicenseURIhere.example.org" target="_blank"><img src="https://img.shields.io/badge/License-license%20name%20goes%20here-blue.svg" alt="http://insertlicenseURIhere.example.org" /></a>
+</dd><!-- <dt>Evaluation:</dt><dd><a href="OOPSevaluation/oopsEval.html#" target="_blank"><img src="https://img.shields.io/badge/Evaluate_with-OOPS! (OntOlogy Pitfall Scanner!)-blue.svg" alt="Evaluate with OOPS!" /></a></dd> --><dt>Cite as:</dt>
+<dd>https://ontology.commonapproach.org/cids#ac. Sustainable Development Goals Impact Themes. Revision: 2.0.</dd>
+</dl>
+
+<a href="provenance/provenance-en.html" target="_blank">Provenance of this page</a><hr/>
+</div>
+<div class="status">
+<div>
+<span>Ontology Specification Draft</span>
+</div>
+</div><div id="toc"></div>  
+
+<!--OVERVIEW SECTION-->
+    <div id="overview"><h2 id="overv" class="list">Sustainable Development Goals Impact Themes: Overview <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>
+<span class="markdown">
+This ontology has the following classes and properties.</span>
+<h4>Named Individuals</h4><ul xmlns:widoco="https://w3id.org/widoco/vocab#"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    class="hlist">
+   <li>
+      <a href="#https://metadata.un.org/sdg/4" title="https://metadata.un.org/sdg/4">Ensure inclusive and equitable quality education and promote lifelong learning opportunities for all.</a>
+   </li>
+   <li>
+      <a href="#https://metadata.un.org/sdg/10" title="https://metadata.un.org/sdg/10">Goal 10: Reduced inequalities</a>
+   </li>
+   <li>
+      <a href="#https://metadata.un.org/sdg/11" title="https://metadata.un.org/sdg/11">Goal 11: Sustainable cities and communities</a>
+   </li>
+   <li>
+      <a href="#https://metadata.un.org/sdg/12" title="https://metadata.un.org/sdg/12">Goal 12: Responsible consumption and production</a>
+   </li>
+   <li>
+      <a href="#https://metadata.un.org/sdg/13" title="https://metadata.un.org/sdg/13">Goal 13: Climate action</a>
+   </li>
+   <li>
+      <a href="#https://metadata.un.org/sdg/14" title="https://metadata.un.org/sdg/14">Goal 14: Life below water</a>
+   </li>
+   <li>
+      <a href="#https://metadata.un.org/sdg/15" title="https://metadata.un.org/sdg/15">Goal 15: Life on land</a>
+   </li>
+   <li>
+      <a href="#https://metadata.un.org/sdg/16" title="https://metadata.un.org/sdg/16">Goal 16: Peace, justice and strong institutions</a>
+   </li>
+   <li>
+      <a href="#https://metadata.un.org/sdg/17" title="https://metadata.un.org/sdg/17">Goal 17: Partnerships for the goals</a>
+   </li>
+   <li>
+      <a href="#https://metadata.un.org/sdg/1" title="https://metadata.un.org/sdg/1">Goal 1: No poverty</a>
+   </li>
+   <li>
+      <a href="#https://metadata.un.org/sdg/2" title="https://metadata.un.org/sdg/2">Goal 2: Zero hunger</a>
+   </li>
+   <li>
+      <a href="#https://metadata.un.org/sdg/3" title="https://metadata.un.org/sdg/3">Goal 3: Good health and well-being</a>
+   </li>
+   <li>
+      <a href="#https://metadata.un.org/sdg/5" title="https://metadata.un.org/sdg/5">Goal 5: Gender equality</a>
+   </li>
+   <li>
+      <a href="#https://metadata.un.org/sdg/6" title="https://metadata.un.org/sdg/6">Goal 6: Clean water and sanitation</a>
+   </li>
+   <li>
+      <a href="#https://metadata.un.org/sdg/7" title="https://metadata.un.org/sdg/7">Goal 7: Affordable and clean energy</a>
+   </li>
+   <li>
+      <a href="#https://metadata.un.org/sdg/8" title="https://metadata.un.org/sdg/8">Goal 8: Decent work and economic growth</a>
+   </li>
+   <li>
+      <a href="#https://metadata.un.org/sdg/9" title="https://metadata.un.org/sdg/9">Goal 9: Industry, innovation and infrastructure</a>
+   </li>
+   <li>
+      <a href="#SDG1"
+         title="https://codelist.commonapproach.org/SDGImpacts#SDG1">Legacy IRI for SDG 1</a>
+   </li>
+   <li>
+      <a href="#SDG10"
+         title="https://codelist.commonapproach.org/SDGImpacts#SDG10">Legacy IRI for SDG 10</a>
+   </li>
+   <li>
+      <a href="#SDG11"
+         title="https://codelist.commonapproach.org/SDGImpacts#SDG11">Legacy IRI for SDG 11</a>
+   </li>
+   <li>
+      <a href="#SDG12"
+         title="https://codelist.commonapproach.org/SDGImpacts#SDG12">Legacy IRI for SDG 12</a>
+   </li>
+   <li>
+      <a href="#SDG13"
+         title="https://codelist.commonapproach.org/SDGImpacts#SDG13">Legacy IRI for SDG 13</a>
+   </li>
+   <li>
+      <a href="#SDG14"
+         title="https://codelist.commonapproach.org/SDGImpacts#SDG14">Legacy IRI for SDG 14</a>
+   </li>
+   <li>
+      <a href="#SDG15"
+         title="https://codelist.commonapproach.org/SDGImpacts#SDG15">Legacy IRI for SDG 15</a>
+   </li>
+   <li>
+      <a href="#SDG16"
+         title="https://codelist.commonapproach.org/SDGImpacts#SDG16">Legacy IRI for SDG 16</a>
+   </li>
+   <li>
+      <a href="#SDG17"
+         title="https://codelist.commonapproach.org/SDGImpacts#SDG17">Legacy IRI for SDG 17</a>
+   </li>
+   <li>
+      <a href="#SDG2"
+         title="https://codelist.commonapproach.org/SDGImpacts#SDG2">Legacy IRI for SDG 2</a>
+   </li>
+   <li>
+      <a href="#SDG3"
+         title="https://codelist.commonapproach.org/SDGImpacts#SDG3">Legacy IRI for SDG 3</a>
+   </li>
+   <li>
+      <a href="#SDG4"
+         title="https://codelist.commonapproach.org/SDGImpacts#SDG4">Legacy IRI for SDG 4</a>
+   </li>
+   <li>
+      <a href="#SDG5"
+         title="https://codelist.commonapproach.org/SDGImpacts#SDG5">Legacy IRI for SDG 5</a>
+   </li>
+   <li>
+      <a href="#SDG6"
+         title="https://codelist.commonapproach.org/SDGImpacts#SDG6">Legacy IRI for SDG 6</a>
+   </li>
+   <li>
+      <a href="#SDG7"
+         title="https://codelist.commonapproach.org/SDGImpacts#SDG7">Legacy IRI for SDG 7</a>
+   </li>
+   <li>
+      <a href="#SDG8"
+         title="https://codelist.commonapproach.org/SDGImpacts#SDG8">Legacy IRI for SDG 8</a>
+   </li>
+   <li>
+      <a href="#SDG9"
+         title="https://codelist.commonapproach.org/SDGImpacts#SDG9">Legacy IRI for SDG 9</a>
+   </li>
+   <li>
+      <a href="#https://metadata.un.org/sdg" title="https://metadata.un.org/sdg">
+         <span>sdg</span>
+      </a>
+   </li>
+   <li>
+      <a href="#" title="https://codelist.commonapproach.org/SDGImpacts">
+         <span>Sustainable Development Goals Impact Themes</span>
+      </a>
+   </li>
+</ul>
+</div>
+  
+
+<!--DESCRIPTION SECTION-->
+    <div id="description"><h2 id="desc" class="list">Sustainable Development Goals Impact Themes: Description <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>
+
+<span class="markdown">A mirror of the official UN Sustainable Development Goals (SDGs) Taxonomy. This vocabulary uses the UN's official IRIs as the primary identifiers for each goal. It retains the original commonapproach.org IRIs, which are now marked as deprecated, for backward compatibility.</span></div>
+   
+
+<!--CROSSREF SECTION-->
+   <div id="crossref"><h2 id="crossreference" class="list">Cross-reference for Sustainable Development Goals Impact Themes classes, object properties and data properties <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>
+This section provides details for each class and property defined by Sustainable Development Goals Impact Themes.
+<div xmlns:widoco="https://w3id.org/widoco/vocab#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="namedindividuals">
+ <h3 id="namedindividuals" class="list">Named Individuals</h3>
+ <ul class="hlist">
+  <li><a href="#https://metadata.un.org/sdg/4" title="https://metadata.un.org/sdg/4">Ensure inclusive and equitable quality education and promote lifelong learning opportunities for all.</a></li>
+  <li><a href="#https://metadata.un.org/sdg/10" title="https://metadata.un.org/sdg/10">Goal 10: Reduced inequalities</a></li>
+  <li><a href="#https://metadata.un.org/sdg/11" title="https://metadata.un.org/sdg/11">Goal 11: Sustainable cities and communities</a></li>
+  <li><a href="#https://metadata.un.org/sdg/12" title="https://metadata.un.org/sdg/12">Goal 12: Responsible consumption and production</a></li>
+  <li><a href="#https://metadata.un.org/sdg/13" title="https://metadata.un.org/sdg/13">Goal 13: Climate action</a></li>
+  <li><a href="#https://metadata.un.org/sdg/14" title="https://metadata.un.org/sdg/14">Goal 14: Life below water</a></li>
+  <li><a href="#https://metadata.un.org/sdg/15" title="https://metadata.un.org/sdg/15">Goal 15: Life on land</a></li>
+  <li><a href="#https://metadata.un.org/sdg/16" title="https://metadata.un.org/sdg/16">Goal 16: Peace, justice and strong institutions</a></li>
+  <li><a href="#https://metadata.un.org/sdg/17" title="https://metadata.un.org/sdg/17">Goal 17: Partnerships for the goals</a></li>
+  <li><a href="#https://metadata.un.org/sdg/1" title="https://metadata.un.org/sdg/1">Goal 1: No poverty</a></li>
+  <li><a href="#https://metadata.un.org/sdg/2" title="https://metadata.un.org/sdg/2">Goal 2: Zero hunger</a></li>
+  <li><a href="#https://metadata.un.org/sdg/3" title="https://metadata.un.org/sdg/3">Goal 3: Good health and well-being</a></li>
+  <li><a href="#https://metadata.un.org/sdg/5" title="https://metadata.un.org/sdg/5">Goal 5: Gender equality</a></li>
+  <li><a href="#https://metadata.un.org/sdg/6" title="https://metadata.un.org/sdg/6">Goal 6: Clean water and sanitation</a></li>
+  <li><a href="#https://metadata.un.org/sdg/7" title="https://metadata.un.org/sdg/7">Goal 7: Affordable and clean energy</a></li>
+  <li><a href="#https://metadata.un.org/sdg/8" title="https://metadata.un.org/sdg/8">Goal 8: Decent work and economic growth</a></li>
+  <li><a href="#https://metadata.un.org/sdg/9" title="https://metadata.un.org/sdg/9">Goal 9: Industry, innovation and infrastructure</a></li>
+  <li><a href="#SDG1" title="https://codelist.commonapproach.org/SDGImpacts#SDG1">Legacy IRI for SDG 1</a></li>
+  <li><a href="#SDG10" title="https://codelist.commonapproach.org/SDGImpacts#SDG10">Legacy IRI for SDG 10</a></li>
+  <li><a href="#SDG11" title="https://codelist.commonapproach.org/SDGImpacts#SDG11">Legacy IRI for SDG 11</a></li>
+  <li><a href="#SDG12" title="https://codelist.commonapproach.org/SDGImpacts#SDG12">Legacy IRI for SDG 12</a></li>
+  <li><a href="#SDG13" title="https://codelist.commonapproach.org/SDGImpacts#SDG13">Legacy IRI for SDG 13</a></li>
+  <li><a href="#SDG14" title="https://codelist.commonapproach.org/SDGImpacts#SDG14">Legacy IRI for SDG 14</a></li>
+  <li><a href="#SDG15" title="https://codelist.commonapproach.org/SDGImpacts#SDG15">Legacy IRI for SDG 15</a></li>
+  <li><a href="#SDG16" title="https://codelist.commonapproach.org/SDGImpacts#SDG16">Legacy IRI for SDG 16</a></li>
+  <li><a href="#SDG17" title="https://codelist.commonapproach.org/SDGImpacts#SDG17">Legacy IRI for SDG 17</a></li>
+  <li><a href="#SDG2" title="https://codelist.commonapproach.org/SDGImpacts#SDG2">Legacy IRI for SDG 2</a></li>
+  <li><a href="#SDG3" title="https://codelist.commonapproach.org/SDGImpacts#SDG3">Legacy IRI for SDG 3</a></li>
+  <li><a href="#SDG4" title="https://codelist.commonapproach.org/SDGImpacts#SDG4">Legacy IRI for SDG 4</a></li>
+  <li><a href="#SDG5" title="https://codelist.commonapproach.org/SDGImpacts#SDG5">Legacy IRI for SDG 5</a></li>
+  <li><a href="#SDG6" title="https://codelist.commonapproach.org/SDGImpacts#SDG6">Legacy IRI for SDG 6</a></li>
+  <li><a href="#SDG7" title="https://codelist.commonapproach.org/SDGImpacts#SDG7">Legacy IRI for SDG 7</a></li>
+  <li><a href="#SDG8" title="https://codelist.commonapproach.org/SDGImpacts#SDG8">Legacy IRI for SDG 8</a></li>
+  <li><a href="#SDG9" title="https://codelist.commonapproach.org/SDGImpacts#SDG9">Legacy IRI for SDG 9</a></li>
+  <li><a href="#https://metadata.un.org/sdg" title="https://metadata.un.org/sdg"> <span>sdg</span> </a></li>
+  <li><a href="#" title="https://codelist.commonapproach.org/SDGImpacts"> <span>Sustainable Development Goals Impact Themes</span> </a></li>
+ </ul>
+ <div class="entity" id="https://metadata.un.org/sdg/4">
+  <h3>Ensure inclusive and equitable quality education and promote lifelong learning opportunities for all.<sup class="type-ni" title="named individual">ni</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a> </span></h3>
+  <p><strong>IRI:</strong> https://metadata.un.org/sdg/4</p>
+  <div class="comment">
+   <span class="markdown">Ensure inclusive and equitable quality education and promote lifelong learning opportunities for all</span>
+  </div>
+  <dl class="definedBy">
+   <dt>
+    Is defined by
+   </dt>
+   <dd>
+    <a href="https://codelist.commonapproach.org/SDGImpacts">https://codelist.commonapproach.org/SDGImpacts</a>
+   </dd>
+  </dl>
+  <dl class="description">
+   <dt>
+    belongs to
+   </dt>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#Concept" target="_blank" title="http://www.w3.org/2004/02/skos/core#Concept">Concept</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#Code" target="_blank" title="https://ontology.commonapproach.org/cids#Code">Code</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#Theme" target="_blank" title="https://ontology.commonapproach.org/cids#Theme">Theme</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+   <dt>
+    is same as
+   </dt>
+   <dd>
+    <a href="#SDG4" title="https://codelist.commonapproach.org/SDGImpacts#SDG4">Legacy IRI for SDG 4</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+   <dt>
+    has facts
+   </dt>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#definedBy" target="_blank" title="https://ontology.commonapproach.org/cids#definedBy">defined By</a> <sup class="type-op" title="object property">op</sup> <a href="https://ontology.commonapproach.org/cids#ac" target="_blank" title="https://ontology.commonapproach.org/cids#ac">Common Approach to Impact Measurement</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+   <dd>
+    <a href="http://ontology.eil.utoronto.ca/tove/organization#hasIdentifier" target="_blank" title="http://ontology.eil.utoronto.ca/tove/organization#hasIdentifier">has Identifier</a> <sup class="type-dp" title="data property">dp</sup> <span class="literal">"4"</span>
+   </dd>
+   <dd>
+    <a href="http://ontology.eil.utoronto.ca/tove/organization#hasName" target="_blank" title="http://ontology.eil.utoronto.ca/tove/organization#hasName">has Name</a> <sup class="type-dp" title="data property">dp</sup> <span class="literal">"Goal 4: Quality education"</span>
+   </dd>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#hasDescription" target="_blank" title="https://ontology.commonapproach.org/cids#hasDescription">has Description</a> <sup class="type-dp" title="data property">dp</sup> <span class="literal">"Ensure inclusive and equitable quality education and promote lifelong learning opportunities for all"</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#definition" target="_blank" title="http://www.w3.org/2004/02/skos/core#definition">definition</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"Ensure inclusive and equitable quality education and promote lifelong learning opportunities for all"@en</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#inScheme" target="_blank" title="http://www.w3.org/2004/02/skos/core#inScheme">in Scheme</a> <sup class="type-ap" title="annotation property">ap</sup> <a href="#https://metadata.un.org/sdg" title="https://metadata.un.org/sdg">sdg</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#notation" target="_blank" title="http://www.w3.org/2004/02/skos/core#notation">notation</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"4"</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#prefLabel" target="_blank" title="http://www.w3.org/2004/02/skos/core#prefLabel">pref Label</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"Goal 4: Quality education"@en</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/ns/prov#hadPrimarySource" target="_blank" title="http://www.w3.org/ns/prov#hadPrimarySource">had Primary Source</a> <sup class="type-ap" title="annotation property">ap</sup> <a href="https://sdgs.un.org/goals/goal4" target="_blank" title="https://sdgs.un.org/goals/goal4">goal4</a> <sup class="type-ep" title="external property">ep</sup>
+   </dd>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#hasSpecification" target="_blank" title="https://ontology.commonapproach.org/cids#hasSpecification">has Specification</a> <sup class="type-dp" title="data property">dp</sup> <a href="#d4e3" title="https://codelist.commonapproach.org/SDGImpacts">Sustainable Development Goals Impact Themes</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+  </dl>
+ </div>
+ <div class="entity" id="https://metadata.un.org/sdg/10">
+  <h3>Goal 10: Reduced inequalities<sup class="type-ni" title="named individual">ni</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a> </span></h3>
+  <p><strong>IRI:</strong> https://metadata.un.org/sdg/10</p>
+  <div class="comment">
+   <span class="markdown">Reduce inequality within and among countries</span>
+  </div>
+  <dl class="definedBy">
+   <dt>
+    Is defined by
+   </dt>
+   <dd>
+    <a href="https://codelist.commonapproach.org/SDGImpacts">https://codelist.commonapproach.org/SDGImpacts</a>
+   </dd>
+  </dl>
+  <dl class="description">
+   <dt>
+    belongs to
+   </dt>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#Concept" target="_blank" title="http://www.w3.org/2004/02/skos/core#Concept">Concept</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#Code" target="_blank" title="https://ontology.commonapproach.org/cids#Code">Code</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#Theme" target="_blank" title="https://ontology.commonapproach.org/cids#Theme">Theme</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+   <dt>
+    is same as
+   </dt>
+   <dd>
+    <a href="#SDG10" title="https://codelist.commonapproach.org/SDGImpacts#SDG10">Legacy IRI for SDG 10</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+   <dt>
+    has facts
+   </dt>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#definedBy" target="_blank" title="https://ontology.commonapproach.org/cids#definedBy">defined By</a> <sup class="type-op" title="object property">op</sup> <a href="https://ontology.commonapproach.org/cids#ac" target="_blank" title="https://ontology.commonapproach.org/cids#ac">Common Approach to Impact Measurement</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+   <dd>
+    <a href="http://ontology.eil.utoronto.ca/tove/organization#hasIdentifier" target="_blank" title="http://ontology.eil.utoronto.ca/tove/organization#hasIdentifier">has Identifier</a> <sup class="type-dp" title="data property">dp</sup> <span class="literal">"10"</span>
+   </dd>
+   <dd>
+    <a href="http://ontology.eil.utoronto.ca/tove/organization#hasName" target="_blank" title="http://ontology.eil.utoronto.ca/tove/organization#hasName">has Name</a> <sup class="type-dp" title="data property">dp</sup> <span class="literal">"Goal 10: Reduced inequalities"</span>
+   </dd>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#hasDescription" target="_blank" title="https://ontology.commonapproach.org/cids#hasDescription">has Description</a> <sup class="type-dp" title="data property">dp</sup> <span class="literal">"Reduce inequality within and among countries"</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#definition" target="_blank" title="http://www.w3.org/2004/02/skos/core#definition">definition</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"Reduce inequality within and among countries"@en</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#inScheme" target="_blank" title="http://www.w3.org/2004/02/skos/core#inScheme">in Scheme</a> <sup class="type-ap" title="annotation property">ap</sup> <a href="#https://metadata.un.org/sdg" title="https://metadata.un.org/sdg">sdg</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#notation" target="_blank" title="http://www.w3.org/2004/02/skos/core#notation">notation</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"10"</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#prefLabel" target="_blank" title="http://www.w3.org/2004/02/skos/core#prefLabel">pref Label</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"Goal 10: Reduced inequalities"@en</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/ns/prov#hadPrimarySource" target="_blank" title="http://www.w3.org/ns/prov#hadPrimarySource">had Primary Source</a> <sup class="type-ap" title="annotation property">ap</sup> <a href="https://sdgs.un.org/goals/goal10" target="_blank" title="https://sdgs.un.org/goals/goal10">goal10</a> <sup class="type-ep" title="external property">ep</sup>
+   </dd>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#hasSpecification" target="_blank" title="https://ontology.commonapproach.org/cids#hasSpecification">has Specification</a> <sup class="type-dp" title="data property">dp</sup> <a href="#d4e3" title="https://codelist.commonapproach.org/SDGImpacts">Sustainable Development Goals Impact Themes</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+  </dl>
+ </div>
+ <div class="entity" id="https://metadata.un.org/sdg/11">
+  <h3>Goal 11: Sustainable cities and communities<sup class="type-ni" title="named individual">ni</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a> </span></h3>
+  <p><strong>IRI:</strong> https://metadata.un.org/sdg/11</p>
+  <div class="comment">
+   <span class="markdown">Make cities and human settlements inclusive, safe, resilient and sustainable</span>
+  </div>
+  <dl class="definedBy">
+   <dt>
+    Is defined by
+   </dt>
+   <dd>
+    <a href="https://codelist.commonapproach.org/SDGImpacts">https://codelist.commonapproach.org/SDGImpacts</a>
+   </dd>
+  </dl>
+  <dl class="description">
+   <dt>
+    belongs to
+   </dt>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#Concept" target="_blank" title="http://www.w3.org/2004/02/skos/core#Concept">Concept</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#Code" target="_blank" title="https://ontology.commonapproach.org/cids#Code">Code</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#Theme" target="_blank" title="https://ontology.commonapproach.org/cids#Theme">Theme</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+   <dt>
+    is same as
+   </dt>
+   <dd>
+    <a href="#SDG11" title="https://codelist.commonapproach.org/SDGImpacts#SDG11">Legacy IRI for SDG 11</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+   <dt>
+    has facts
+   </dt>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#definedBy" target="_blank" title="https://ontology.commonapproach.org/cids#definedBy">defined By</a> <sup class="type-op" title="object property">op</sup> <a href="https://ontology.commonapproach.org/cids#ac" target="_blank" title="https://ontology.commonapproach.org/cids#ac">Common Approach to Impact Measurement</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+   <dd>
+    <a href="http://ontology.eil.utoronto.ca/tove/organization#hasIdentifier" target="_blank" title="http://ontology.eil.utoronto.ca/tove/organization#hasIdentifier">has Identifier</a> <sup class="type-dp" title="data property">dp</sup> <span class="literal">"11"</span>
+   </dd>
+   <dd>
+    <a href="http://ontology.eil.utoronto.ca/tove/organization#hasName" target="_blank" title="http://ontology.eil.utoronto.ca/tove/organization#hasName">has Name</a> <sup class="type-dp" title="data property">dp</sup> <span class="literal">"Goal 11: Sustainable cities and communities"</span>
+   </dd>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#hasDescription" target="_blank" title="https://ontology.commonapproach.org/cids#hasDescription">has Description</a> <sup class="type-dp" title="data property">dp</sup> <span class="literal">"Make cities and human settlements inclusive, safe, resilient and sustainable"</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#definition" target="_blank" title="http://www.w3.org/2004/02/skos/core#definition">definition</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"Make cities and human settlements inclusive, safe, resilient and sustainable"@en</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#inScheme" target="_blank" title="http://www.w3.org/2004/02/skos/core#inScheme">in Scheme</a> <sup class="type-ap" title="annotation property">ap</sup> <a href="#https://metadata.un.org/sdg" title="https://metadata.un.org/sdg">sdg</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#notation" target="_blank" title="http://www.w3.org/2004/02/skos/core#notation">notation</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"11"</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#prefLabel" target="_blank" title="http://www.w3.org/2004/02/skos/core#prefLabel">pref Label</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"Goal 11: Sustainable cities and communities"@en</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/ns/prov#hadPrimarySource" target="_blank" title="http://www.w3.org/ns/prov#hadPrimarySource">had Primary Source</a> <sup class="type-ap" title="annotation property">ap</sup> <a href="https://sdgs.un.org/goals/goal11" target="_blank" title="https://sdgs.un.org/goals/goal11">goal11</a> <sup class="type-ep" title="external property">ep</sup>
+   </dd>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#hasSpecification" target="_blank" title="https://ontology.commonapproach.org/cids#hasSpecification">has Specification</a> <sup class="type-dp" title="data property">dp</sup> <a href="#d4e3" title="https://codelist.commonapproach.org/SDGImpacts">Sustainable Development Goals Impact Themes</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+  </dl>
+ </div>
+ <div class="entity" id="https://metadata.un.org/sdg/12">
+  <h3>Goal 12: Responsible consumption and production<sup class="type-ni" title="named individual">ni</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a> </span></h3>
+  <p><strong>IRI:</strong> https://metadata.un.org/sdg/12</p>
+  <div class="comment">
+   <span class="markdown">Ensure sustainable consumption and production patterns</span>
+  </div>
+  <dl class="definedBy">
+   <dt>
+    Is defined by
+   </dt>
+   <dd>
+    <a href="https://codelist.commonapproach.org/SDGImpacts">https://codelist.commonapproach.org/SDGImpacts</a>
+   </dd>
+  </dl>
+  <dl class="description">
+   <dt>
+    belongs to
+   </dt>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#Concept" target="_blank" title="http://www.w3.org/2004/02/skos/core#Concept">Concept</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#Code" target="_blank" title="https://ontology.commonapproach.org/cids#Code">Code</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#Theme" target="_blank" title="https://ontology.commonapproach.org/cids#Theme">Theme</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+   <dt>
+    is same as
+   </dt>
+   <dd>
+    <a href="#SDG12" title="https://codelist.commonapproach.org/SDGImpacts#SDG12">Legacy IRI for SDG 12</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+   <dt>
+    has facts
+   </dt>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#definedBy" target="_blank" title="https://ontology.commonapproach.org/cids#definedBy">defined By</a> <sup class="type-op" title="object property">op</sup> <a href="https://ontology.commonapproach.org/cids#ac" target="_blank" title="https://ontology.commonapproach.org/cids#ac">Common Approach to Impact Measurement</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+   <dd>
+    <a href="http://ontology.eil.utoronto.ca/tove/organization#hasIdentifier" target="_blank" title="http://ontology.eil.utoronto.ca/tove/organization#hasIdentifier">has Identifier</a> <sup class="type-dp" title="data property">dp</sup> <span class="literal">"12"</span>
+   </dd>
+   <dd>
+    <a href="http://ontology.eil.utoronto.ca/tove/organization#hasName" target="_blank" title="http://ontology.eil.utoronto.ca/tove/organization#hasName">has Name</a> <sup class="type-dp" title="data property">dp</sup> <span class="literal">"Goal 12: Responsible consumption and production"</span>
+   </dd>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#hasDescription" target="_blank" title="https://ontology.commonapproach.org/cids#hasDescription">has Description</a> <sup class="type-dp" title="data property">dp</sup> <span class="literal">"Ensure sustainable consumption and production patterns"</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#definition" target="_blank" title="http://www.w3.org/2004/02/skos/core#definition">definition</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"Ensure sustainable consumption and production patterns"@en</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#inScheme" target="_blank" title="http://www.w3.org/2004/02/skos/core#inScheme">in Scheme</a> <sup class="type-ap" title="annotation property">ap</sup> <a href="#https://metadata.un.org/sdg" title="https://metadata.un.org/sdg">sdg</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#notation" target="_blank" title="http://www.w3.org/2004/02/skos/core#notation">notation</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"12"</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#prefLabel" target="_blank" title="http://www.w3.org/2004/02/skos/core#prefLabel">pref Label</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"Goal 12: Responsible consumption and production"@en</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/ns/prov#hadPrimarySource" target="_blank" title="http://www.w3.org/ns/prov#hadPrimarySource">had Primary Source</a> <sup class="type-ap" title="annotation property">ap</sup> <a href="https://sdgs.un.org/goals/goal12" target="_blank" title="https://sdgs.un.org/goals/goal12">goal12</a> <sup class="type-ep" title="external property">ep</sup>
+   </dd>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#hasSpecification" target="_blank" title="https://ontology.commonapproach.org/cids#hasSpecification">has Specification</a> <sup class="type-dp" title="data property">dp</sup> <a href="#d4e3" title="https://codelist.commonapproach.org/SDGImpacts">Sustainable Development Goals Impact Themes</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+  </dl>
+ </div>
+ <div class="entity" id="https://metadata.un.org/sdg/13">
+  <h3>Goal 13: Climate action<sup class="type-ni" title="named individual">ni</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a> </span></h3>
+  <p><strong>IRI:</strong> https://metadata.un.org/sdg/13</p>
+  <div class="comment">
+   <span class="markdown">Take urgent action to combat climate change and its impacts</span>
+  </div>
+  <dl class="definedBy">
+   <dt>
+    Is defined by
+   </dt>
+   <dd>
+    <a href="https://codelist.commonapproach.org/SDGImpacts">https://codelist.commonapproach.org/SDGImpacts</a>
+   </dd>
+  </dl>
+  <dl class="description">
+   <dt>
+    belongs to
+   </dt>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#Concept" target="_blank" title="http://www.w3.org/2004/02/skos/core#Concept">Concept</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#Code" target="_blank" title="https://ontology.commonapproach.org/cids#Code">Code</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#Theme" target="_blank" title="https://ontology.commonapproach.org/cids#Theme">Theme</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+   <dt>
+    is same as
+   </dt>
+   <dd>
+    <a href="#SDG13" title="https://codelist.commonapproach.org/SDGImpacts#SDG13">Legacy IRI for SDG 13</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+   <dt>
+    has facts
+   </dt>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#definedBy" target="_blank" title="https://ontology.commonapproach.org/cids#definedBy">defined By</a> <sup class="type-op" title="object property">op</sup> <a href="https://ontology.commonapproach.org/cids#ac" target="_blank" title="https://ontology.commonapproach.org/cids#ac">Common Approach to Impact Measurement</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+   <dd>
+    <a href="http://ontology.eil.utoronto.ca/tove/organization#hasIdentifier" target="_blank" title="http://ontology.eil.utoronto.ca/tove/organization#hasIdentifier">has Identifier</a> <sup class="type-dp" title="data property">dp</sup> <span class="literal">"13"</span>
+   </dd>
+   <dd>
+    <a href="http://ontology.eil.utoronto.ca/tove/organization#hasName" target="_blank" title="http://ontology.eil.utoronto.ca/tove/organization#hasName">has Name</a> <sup class="type-dp" title="data property">dp</sup> <span class="literal">"Goal 13: Climate action"</span>
+   </dd>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#hasDescription" target="_blank" title="https://ontology.commonapproach.org/cids#hasDescription">has Description</a> <sup class="type-dp" title="data property">dp</sup> <span class="literal">"Take urgent action to combat climate change and its impacts"</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#definition" target="_blank" title="http://www.w3.org/2004/02/skos/core#definition">definition</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"Take urgent action to combat climate change and its impacts"@en</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#inScheme" target="_blank" title="http://www.w3.org/2004/02/skos/core#inScheme">in Scheme</a> <sup class="type-ap" title="annotation property">ap</sup> <a href="#https://metadata.un.org/sdg" title="https://metadata.un.org/sdg">sdg</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#notation" target="_blank" title="http://www.w3.org/2004/02/skos/core#notation">notation</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"13"</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#prefLabel" target="_blank" title="http://www.w3.org/2004/02/skos/core#prefLabel">pref Label</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"Goal 13: Climate action"@en</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/ns/prov#hadPrimarySource" target="_blank" title="http://www.w3.org/ns/prov#hadPrimarySource">had Primary Source</a> <sup class="type-ap" title="annotation property">ap</sup> <a href="https://sdgs.un.org/goals/goal13" target="_blank" title="https://sdgs.un.org/goals/goal13">goal13</a> <sup class="type-ep" title="external property">ep</sup>
+   </dd>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#hasSpecification" target="_blank" title="https://ontology.commonapproach.org/cids#hasSpecification">has Specification</a> <sup class="type-dp" title="data property">dp</sup> <a href="#d4e3" title="https://codelist.commonapproach.org/SDGImpacts">Sustainable Development Goals Impact Themes</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+  </dl>
+ </div>
+ <div class="entity" id="https://metadata.un.org/sdg/14">
+  <h3>Goal 14: Life below water<sup class="type-ni" title="named individual">ni</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a> </span></h3>
+  <p><strong>IRI:</strong> https://metadata.un.org/sdg/14</p>
+  <div class="comment">
+   <span class="markdown">Conserve and sustainably use the oceans, seas and marine resources for sustainable development</span>
+  </div>
+  <dl class="definedBy">
+   <dt>
+    Is defined by
+   </dt>
+   <dd>
+    <a href="https://codelist.commonapproach.org/SDGImpacts">https://codelist.commonapproach.org/SDGImpacts</a>
+   </dd>
+  </dl>
+  <dl class="description">
+   <dt>
+    belongs to
+   </dt>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#Concept" target="_blank" title="http://www.w3.org/2004/02/skos/core#Concept">Concept</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#Code" target="_blank" title="https://ontology.commonapproach.org/cids#Code">Code</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#Theme" target="_blank" title="https://ontology.commonapproach.org/cids#Theme">Theme</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+   <dt>
+    is same as
+   </dt>
+   <dd>
+    <a href="#SDG14" title="https://codelist.commonapproach.org/SDGImpacts#SDG14">Legacy IRI for SDG 14</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+   <dt>
+    has facts
+   </dt>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#definedBy" target="_blank" title="https://ontology.commonapproach.org/cids#definedBy">defined By</a> <sup class="type-op" title="object property">op</sup> <a href="https://ontology.commonapproach.org/cids#ac" target="_blank" title="https://ontology.commonapproach.org/cids#ac">Common Approach to Impact Measurement</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+   <dd>
+    <a href="http://ontology.eil.utoronto.ca/tove/organization#hasIdentifier" target="_blank" title="http://ontology.eil.utoronto.ca/tove/organization#hasIdentifier">has Identifier</a> <sup class="type-dp" title="data property">dp</sup> <span class="literal">"14"</span>
+   </dd>
+   <dd>
+    <a href="http://ontology.eil.utoronto.ca/tove/organization#hasName" target="_blank" title="http://ontology.eil.utoronto.ca/tove/organization#hasName">has Name</a> <sup class="type-dp" title="data property">dp</sup> <span class="literal">"Goal 14: Life below water"</span>
+   </dd>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#hasDescription" target="_blank" title="https://ontology.commonapproach.org/cids#hasDescription">has Description</a> <sup class="type-dp" title="data property">dp</sup> <span class="literal">"Conserve and sustainably use the oceans, seas and marine resources for sustainable development"</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#definition" target="_blank" title="http://www.w3.org/2004/02/skos/core#definition">definition</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"Conserve and sustainably use the oceans, seas and marine resources for sustainable development"@en</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#inScheme" target="_blank" title="http://www.w3.org/2004/02/skos/core#inScheme">in Scheme</a> <sup class="type-ap" title="annotation property">ap</sup> <a href="#https://metadata.un.org/sdg" title="https://metadata.un.org/sdg">sdg</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#notation" target="_blank" title="http://www.w3.org/2004/02/skos/core#notation">notation</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"14"</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#prefLabel" target="_blank" title="http://www.w3.org/2004/02/skos/core#prefLabel">pref Label</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"Goal 14: Life below water"@en</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/ns/prov#hadPrimarySource" target="_blank" title="http://www.w3.org/ns/prov#hadPrimarySource">had Primary Source</a> <sup class="type-ap" title="annotation property">ap</sup> <a href="https://sdgs.un.org/goals/goal14" target="_blank" title="https://sdgs.un.org/goals/goal14">goal14</a> <sup class="type-ep" title="external property">ep</sup>
+   </dd>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#hasSpecification" target="_blank" title="https://ontology.commonapproach.org/cids#hasSpecification">has Specification</a> <sup class="type-dp" title="data property">dp</sup> <a href="#d4e3" title="https://codelist.commonapproach.org/SDGImpacts">Sustainable Development Goals Impact Themes</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+  </dl>
+ </div>
+ <div class="entity" id="https://metadata.un.org/sdg/15">
+  <h3>Goal 15: Life on land<sup class="type-ni" title="named individual">ni</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a> </span></h3>
+  <p><strong>IRI:</strong> https://metadata.un.org/sdg/15</p>
+  <div class="comment">
+   <span class="markdown">Protect, restore and promote sustainable use of terrestrial ecosystems, sustainably manage forests, combat desertification, and halt and reverse land degradation and halt biodiversity loss</span>
+  </div>
+  <dl class="definedBy">
+   <dt>
+    Is defined by
+   </dt>
+   <dd>
+    <a href="https://codelist.commonapproach.org/SDGImpacts">https://codelist.commonapproach.org/SDGImpacts</a>
+   </dd>
+  </dl>
+  <dl class="description">
+   <dt>
+    belongs to
+   </dt>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#Concept" target="_blank" title="http://www.w3.org/2004/02/skos/core#Concept">Concept</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#Code" target="_blank" title="https://ontology.commonapproach.org/cids#Code">Code</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#Theme" target="_blank" title="https://ontology.commonapproach.org/cids#Theme">Theme</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+   <dt>
+    is same as
+   </dt>
+   <dd>
+    <a href="#SDG15" title="https://codelist.commonapproach.org/SDGImpacts#SDG15">Legacy IRI for SDG 15</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+   <dt>
+    has facts
+   </dt>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#definedBy" target="_blank" title="https://ontology.commonapproach.org/cids#definedBy">defined By</a> <sup class="type-op" title="object property">op</sup> <a href="https://ontology.commonapproach.org/cids#ac" target="_blank" title="https://ontology.commonapproach.org/cids#ac">Common Approach to Impact Measurement</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+   <dd>
+    <a href="http://ontology.eil.utoronto.ca/tove/organization#hasIdentifier" target="_blank" title="http://ontology.eil.utoronto.ca/tove/organization#hasIdentifier">has Identifier</a> <sup class="type-dp" title="data property">dp</sup> <span class="literal">"15"</span>
+   </dd>
+   <dd>
+    <a href="http://ontology.eil.utoronto.ca/tove/organization#hasName" target="_blank" title="http://ontology.eil.utoronto.ca/tove/organization#hasName">has Name</a> <sup class="type-dp" title="data property">dp</sup> <span class="literal">"Goal 15: Life on land"</span>
+   </dd>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#hasDescription" target="_blank" title="https://ontology.commonapproach.org/cids#hasDescription">has Description</a> <sup class="type-dp" title="data property">dp</sup> <span class="literal">"Protect, restore and promote sustainable use of terrestrial ecosystems, sustainably manage forests, combat desertification, and halt and reverse land degradation and halt biodiversity loss"</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#definition" target="_blank" title="http://www.w3.org/2004/02/skos/core#definition">definition</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"Protect, restore and promote sustainable use of terrestrial ecosystems, sustainably manage forests, combat desertification, and halt and reverse land degradation and halt biodiversity loss"@en</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#inScheme" target="_blank" title="http://www.w3.org/2004/02/skos/core#inScheme">in Scheme</a> <sup class="type-ap" title="annotation property">ap</sup> <a href="#https://metadata.un.org/sdg" title="https://metadata.un.org/sdg">sdg</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#notation" target="_blank" title="http://www.w3.org/2004/02/skos/core#notation">notation</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"15"</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#prefLabel" target="_blank" title="http://www.w3.org/2004/02/skos/core#prefLabel">pref Label</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"Goal 15: Life on land"@en</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/ns/prov#hadPrimarySource" target="_blank" title="http://www.w3.org/ns/prov#hadPrimarySource">had Primary Source</a> <sup class="type-ap" title="annotation property">ap</sup> <a href="https://sdgs.un.org/goals/goal15" target="_blank" title="https://sdgs.un.org/goals/goal15">goal15</a> <sup class="type-ep" title="external property">ep</sup>
+   </dd>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#hasSpecification" target="_blank" title="https://ontology.commonapproach.org/cids#hasSpecification">has Specification</a> <sup class="type-dp" title="data property">dp</sup> <a href="#d4e3" title="https://codelist.commonapproach.org/SDGImpacts">Sustainable Development Goals Impact Themes</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+  </dl>
+ </div>
+ <div class="entity" id="https://metadata.un.org/sdg/16">
+  <h3>Goal 16: Peace, justice and strong institutions<sup class="type-ni" title="named individual">ni</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a> </span></h3>
+  <p><strong>IRI:</strong> https://metadata.un.org/sdg/16</p>
+  <div class="comment">
+   <span class="markdown">Promote peaceful and inclusive societies for sustainable development, provide access to justice for all and build effective, accountable and inclusive institutions at all levels</span>
+  </div>
+  <dl class="definedBy">
+   <dt>
+    Is defined by
+   </dt>
+   <dd>
+    <a href="https://codelist.commonapproach.org/SDGImpacts">https://codelist.commonapproach.org/SDGImpacts</a>
+   </dd>
+  </dl>
+  <dl class="description">
+   <dt>
+    belongs to
+   </dt>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#Concept" target="_blank" title="http://www.w3.org/2004/02/skos/core#Concept">Concept</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#Code" target="_blank" title="https://ontology.commonapproach.org/cids#Code">Code</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#Theme" target="_blank" title="https://ontology.commonapproach.org/cids#Theme">Theme</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+   <dt>
+    is same as
+   </dt>
+   <dd>
+    <a href="#SDG16" title="https://codelist.commonapproach.org/SDGImpacts#SDG16">Legacy IRI for SDG 16</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+   <dt>
+    has facts
+   </dt>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#definedBy" target="_blank" title="https://ontology.commonapproach.org/cids#definedBy">defined By</a> <sup class="type-op" title="object property">op</sup> <a href="https://ontology.commonapproach.org/cids#ac" target="_blank" title="https://ontology.commonapproach.org/cids#ac">Common Approach to Impact Measurement</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+   <dd>
+    <a href="http://ontology.eil.utoronto.ca/tove/organization#hasIdentifier" target="_blank" title="http://ontology.eil.utoronto.ca/tove/organization#hasIdentifier">has Identifier</a> <sup class="type-dp" title="data property">dp</sup> <span class="literal">"16"</span>
+   </dd>
+   <dd>
+    <a href="http://ontology.eil.utoronto.ca/tove/organization#hasName" target="_blank" title="http://ontology.eil.utoronto.ca/tove/organization#hasName">has Name</a> <sup class="type-dp" title="data property">dp</sup> <span class="literal">"Goal 16: Peace, justice and strong institutions"</span>
+   </dd>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#hasDescription" target="_blank" title="https://ontology.commonapproach.org/cids#hasDescription">has Description</a> <sup class="type-dp" title="data property">dp</sup> <span class="literal">"Promote peaceful and inclusive societies for sustainable development, provide access to justice for all and build effective, accountable and inclusive institutions at all levels"</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#definition" target="_blank" title="http://www.w3.org/2004/02/skos/core#definition">definition</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"Promote peaceful and inclusive societies for sustainable development, provide access to justice for all and build effective, accountable and inclusive institutions at all levels"@en</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#inScheme" target="_blank" title="http://www.w3.org/2004/02/skos/core#inScheme">in Scheme</a> <sup class="type-ap" title="annotation property">ap</sup> <a href="#https://metadata.un.org/sdg" title="https://metadata.un.org/sdg">sdg</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#notation" target="_blank" title="http://www.w3.org/2004/02/skos/core#notation">notation</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"16"</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#prefLabel" target="_blank" title="http://www.w3.org/2004/02/skos/core#prefLabel">pref Label</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"Goal 16: Peace, justice and strong institutions"@en</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/ns/prov#hadPrimarySource" target="_blank" title="http://www.w3.org/ns/prov#hadPrimarySource">had Primary Source</a> <sup class="type-ap" title="annotation property">ap</sup> <a href="https://sdgs.un.org/goals/goal16" target="_blank" title="https://sdgs.un.org/goals/goal16">goal16</a> <sup class="type-ep" title="external property">ep</sup>
+   </dd>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#hasSpecification" target="_blank" title="https://ontology.commonapproach.org/cids#hasSpecification">has Specification</a> <sup class="type-dp" title="data property">dp</sup> <a href="#d4e3" title="https://codelist.commonapproach.org/SDGImpacts">Sustainable Development Goals Impact Themes</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+  </dl>
+ </div>
+ <div class="entity" id="https://metadata.un.org/sdg/17">
+  <h3>Goal 17: Partnerships for the goals<sup class="type-ni" title="named individual">ni</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a> </span></h3>
+  <p><strong>IRI:</strong> https://metadata.un.org/sdg/17</p>
+  <div class="comment">
+   <span class="markdown">Strengthen the means of implementation and revitalize the Global Partnership for Sustainable Development</span>
+  </div>
+  <dl class="definedBy">
+   <dt>
+    Is defined by
+   </dt>
+   <dd>
+    <a href="https://codelist.commonapproach.org/SDGImpacts">https://codelist.commonapproach.org/SDGImpacts</a>
+   </dd>
+  </dl>
+  <dl class="description">
+   <dt>
+    belongs to
+   </dt>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#Concept" target="_blank" title="http://www.w3.org/2004/02/skos/core#Concept">Concept</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#Code" target="_blank" title="https://ontology.commonapproach.org/cids#Code">Code</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#Theme" target="_blank" title="https://ontology.commonapproach.org/cids#Theme">Theme</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+   <dt>
+    is same as
+   </dt>
+   <dd>
+    <a href="#SDG17" title="https://codelist.commonapproach.org/SDGImpacts#SDG17">Legacy IRI for SDG 17</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+   <dt>
+    has facts
+   </dt>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#definedBy" target="_blank" title="https://ontology.commonapproach.org/cids#definedBy">defined By</a> <sup class="type-op" title="object property">op</sup> <a href="https://ontology.commonapproach.org/cids#ac" target="_blank" title="https://ontology.commonapproach.org/cids#ac">Common Approach to Impact Measurement</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+   <dd>
+    <a href="http://ontology.eil.utoronto.ca/tove/organization#hasIdentifier" target="_blank" title="http://ontology.eil.utoronto.ca/tove/organization#hasIdentifier">has Identifier</a> <sup class="type-dp" title="data property">dp</sup> <span class="literal">"17"</span>
+   </dd>
+   <dd>
+    <a href="http://ontology.eil.utoronto.ca/tove/organization#hasName" target="_blank" title="http://ontology.eil.utoronto.ca/tove/organization#hasName">has Name</a> <sup class="type-dp" title="data property">dp</sup> <span class="literal">"Goal 17: Partnerships for the goals"</span>
+   </dd>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#hasDescription" target="_blank" title="https://ontology.commonapproach.org/cids#hasDescription">has Description</a> <sup class="type-dp" title="data property">dp</sup> <span class="literal">"Strengthen the means of implementation and revitalize the Global Partnership for Sustainable Development"</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#definition" target="_blank" title="http://www.w3.org/2004/02/skos/core#definition">definition</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"Strengthen the means of implementation and revitalize the Global Partnership for Sustainable Development"@en</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#inScheme" target="_blank" title="http://www.w3.org/2004/02/skos/core#inScheme">in Scheme</a> <sup class="type-ap" title="annotation property">ap</sup> <a href="#https://metadata.un.org/sdg" title="https://metadata.un.org/sdg">sdg</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#notation" target="_blank" title="http://www.w3.org/2004/02/skos/core#notation">notation</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"17"</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#prefLabel" target="_blank" title="http://www.w3.org/2004/02/skos/core#prefLabel">pref Label</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"Goal 17: Partnerships for the goals"@en</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/ns/prov#hadPrimarySource" target="_blank" title="http://www.w3.org/ns/prov#hadPrimarySource">had Primary Source</a> <sup class="type-ap" title="annotation property">ap</sup> <a href="https://sdgs.un.org/goals/goal17" target="_blank" title="https://sdgs.un.org/goals/goal17">goal17</a> <sup class="type-ep" title="external property">ep</sup>
+   </dd>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#hasSpecification" target="_blank" title="https://ontology.commonapproach.org/cids#hasSpecification">has Specification</a> <sup class="type-dp" title="data property">dp</sup> <a href="#d4e3" title="https://codelist.commonapproach.org/SDGImpacts">Sustainable Development Goals Impact Themes</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+  </dl>
+ </div>
+ <div class="entity" id="https://metadata.un.org/sdg/1">
+  <h3>Goal 1: No poverty<sup class="type-ni" title="named individual">ni</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a> </span></h3>
+  <p><strong>IRI:</strong> https://metadata.un.org/sdg/1</p>
+  <div class="comment">
+   <span class="markdown">End poverty in all its forms everywhere</span>
+  </div>
+  <dl class="definedBy">
+   <dt>
+    Is defined by
+   </dt>
+   <dd>
+    <a href="https://codelist.commonapproach.org/SDGImpacts">https://codelist.commonapproach.org/SDGImpacts</a>
+   </dd>
+  </dl>
+  <dl class="description">
+   <dt>
+    belongs to
+   </dt>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#Concept" target="_blank" title="http://www.w3.org/2004/02/skos/core#Concept">Concept</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#Code" target="_blank" title="https://ontology.commonapproach.org/cids#Code">Code</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#Theme" target="_blank" title="https://ontology.commonapproach.org/cids#Theme">Theme</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+   <dt>
+    is same as
+   </dt>
+   <dd>
+    <a href="#SDG1" title="https://codelist.commonapproach.org/SDGImpacts#SDG1">Legacy IRI for SDG 1</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+   <dt>
+    has facts
+   </dt>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#definedBy" target="_blank" title="https://ontology.commonapproach.org/cids#definedBy">defined By</a> <sup class="type-op" title="object property">op</sup> <a href="https://ontology.commonapproach.org/cids#ac" target="_blank" title="https://ontology.commonapproach.org/cids#ac">Common Approach to Impact Measurement</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+   <dd>
+    <a href="http://ontology.eil.utoronto.ca/tove/organization#hasIdentifier" target="_blank" title="http://ontology.eil.utoronto.ca/tove/organization#hasIdentifier">has Identifier</a> <sup class="type-dp" title="data property">dp</sup> <span class="literal">"1"</span>
+   </dd>
+   <dd>
+    <a href="http://ontology.eil.utoronto.ca/tove/organization#hasName" target="_blank" title="http://ontology.eil.utoronto.ca/tove/organization#hasName">has Name</a> <sup class="type-dp" title="data property">dp</sup> <span class="literal">"Goal 1: No poverty"</span>
+   </dd>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#hasDescription" target="_blank" title="https://ontology.commonapproach.org/cids#hasDescription">has Description</a> <sup class="type-dp" title="data property">dp</sup> <span class="literal">"End poverty in all its forms everywhere"</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#definition" target="_blank" title="http://www.w3.org/2004/02/skos/core#definition">definition</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"End poverty in all its forms everywhere"@en</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#inScheme" target="_blank" title="http://www.w3.org/2004/02/skos/core#inScheme">in Scheme</a> <sup class="type-ap" title="annotation property">ap</sup> <a href="#https://metadata.un.org/sdg" title="https://metadata.un.org/sdg">sdg</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#notation" target="_blank" title="http://www.w3.org/2004/02/skos/core#notation">notation</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"1"</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#prefLabel" target="_blank" title="http://www.w3.org/2004/02/skos/core#prefLabel">pref Label</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"Goal 1: No poverty"@en</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/ns/prov#hadPrimarySource" target="_blank" title="http://www.w3.org/ns/prov#hadPrimarySource">had Primary Source</a> <sup class="type-ap" title="annotation property">ap</sup> <a href="https://sdgs.un.org/goals/goal1" target="_blank" title="https://sdgs.un.org/goals/goal1">goal1</a> <sup class="type-ep" title="external property">ep</sup>
+   </dd>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#hasSpecification" target="_blank" title="https://ontology.commonapproach.org/cids#hasSpecification">has Specification</a> <sup class="type-dp" title="data property">dp</sup> <a href="#d4e3" title="https://codelist.commonapproach.org/SDGImpacts">Sustainable Development Goals Impact Themes</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+  </dl>
+ </div>
+ <div class="entity" id="https://metadata.un.org/sdg/2">
+  <h3>Goal 2: Zero hunger<sup class="type-ni" title="named individual">ni</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a> </span></h3>
+  <p><strong>IRI:</strong> https://metadata.un.org/sdg/2</p>
+  <div class="comment">
+   <span class="markdown">End hunger, achieve food security and improved nutrition and promote sustainable agriculture</span>
+  </div>
+  <dl class="definedBy">
+   <dt>
+    Is defined by
+   </dt>
+   <dd>
+    <a href="https://codelist.commonapproach.org/SDGImpact">https://codelist.commonapproach.org/SDGImpact</a>
+   </dd>
+  </dl>
+  <dl class="description">
+   <dt>
+    belongs to
+   </dt>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#Concept" target="_blank" title="http://www.w3.org/2004/02/skos/core#Concept">Concept</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#Code" target="_blank" title="https://ontology.commonapproach.org/cids#Code">Code</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#Theme" target="_blank" title="https://ontology.commonapproach.org/cids#Theme">Theme</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+   <dt>
+    is same as
+   </dt>
+   <dd>
+    <a href="#SDG2" title="https://codelist.commonapproach.org/SDGImpacts#SDG2">Legacy IRI for SDG 2</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+   <dt>
+    has facts
+   </dt>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#definedBy" target="_blank" title="https://ontology.commonapproach.org/cids#definedBy">defined By</a> <sup class="type-op" title="object property">op</sup> <a href="https://ontology.commonapproach.org/cids#ac" target="_blank" title="https://ontology.commonapproach.org/cids#ac">Common Approach to Impact Measurement</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+   <dd>
+    <a href="http://ontology.eil.utoronto.ca/tove/organization#hasName" target="_blank" title="http://ontology.eil.utoronto.ca/tove/organization#hasName">has Name</a> <sup class="type-dp" title="data property">dp</sup> <span class="literal">"Goal 2: Zero hunger"</span>
+   </dd>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#hasDescription" target="_blank" title="https://ontology.commonapproach.org/cids#hasDescription">has Description</a> <sup class="type-dp" title="data property">dp</sup> <span class="literal">"End hunger, achieve food security and improved nutrition and promote sustainable agriculture"</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#definition" target="_blank" title="http://www.w3.org/2004/02/skos/core#definition">definition</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"End hunger, achieve food security and improved nutrition and promote sustainable agriculture"@en</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#inScheme" target="_blank" title="http://www.w3.org/2004/02/skos/core#inScheme">in Scheme</a> <sup class="type-ap" title="annotation property">ap</sup> <a href="#https://metadata.un.org/sdg" title="https://metadata.un.org/sdg">sdg</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#notation" target="_blank" title="http://www.w3.org/2004/02/skos/core#notation">notation</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"2"</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#prefLabel" target="_blank" title="http://www.w3.org/2004/02/skos/core#prefLabel">pref Label</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"Goal 2: Zero hunger"@en</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/ns/prov#hadPrimarySource" target="_blank" title="http://www.w3.org/ns/prov#hadPrimarySource">had Primary Source</a> <sup class="type-ap" title="annotation property">ap</sup> <a href="https://sdgs.un.org/goals/goal2" target="_blank" title="https://sdgs.un.org/goals/goal2">goal2</a> <sup class="type-ep" title="external property">ep</sup>
+   </dd>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#hasIdentifier" target="_blank" title="https://ontology.commonapproach.org/cids#hasIdentifier">has Identifier</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"2"</span>
+   </dd>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#hasSpecification" target="_blank" title="https://ontology.commonapproach.org/cids#hasSpecification">has Specification</a> <sup class="type-dp" title="data property">dp</sup> <a href="#d4e3" title="https://codelist.commonapproach.org/SDGImpacts">Sustainable Development Goals Impact Themes</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+  </dl>
+ </div>
+ <div class="entity" id="https://metadata.un.org/sdg/3">
+  <h3>Goal 3: Good health and well-being<sup class="type-ni" title="named individual">ni</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a> </span></h3>
+  <p><strong>IRI:</strong> https://metadata.un.org/sdg/3</p>
+  <div class="comment">
+   <span class="markdown">Ensure healthy lives and promote well-being for all at all ages</span>
+  </div>
+  <dl class="definedBy">
+   <dt>
+    Is defined by
+   </dt>
+   <dd>
+    <a href="https://codelist.commonapproach.org/SDGImpacts">https://codelist.commonapproach.org/SDGImpacts</a>
+   </dd>
+  </dl>
+  <dl class="description">
+   <dt>
+    belongs to
+   </dt>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#Concept" target="_blank" title="http://www.w3.org/2004/02/skos/core#Concept">Concept</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#Code" target="_blank" title="https://ontology.commonapproach.org/cids#Code">Code</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#Theme" target="_blank" title="https://ontology.commonapproach.org/cids#Theme">Theme</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+   <dt>
+    is same as
+   </dt>
+   <dd>
+    <a href="#SDG3" title="https://codelist.commonapproach.org/SDGImpacts#SDG3">Legacy IRI for SDG 3</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+   <dt>
+    has facts
+   </dt>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#definedBy" target="_blank" title="https://ontology.commonapproach.org/cids#definedBy">defined By</a> <sup class="type-op" title="object property">op</sup> <a href="https://ontology.commonapproach.org/cids#ac" target="_blank" title="https://ontology.commonapproach.org/cids#ac">Common Approach to Impact Measurement</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+   <dd>
+    <a href="http://ontology.eil.utoronto.ca/tove/organization#hasName" target="_blank" title="http://ontology.eil.utoronto.ca/tove/organization#hasName">has Name</a> <sup class="type-dp" title="data property">dp</sup> <span class="literal">"Goal 3: Good health and well-being"</span>
+   </dd>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#hasDescription" target="_blank" title="https://ontology.commonapproach.org/cids#hasDescription">has Description</a> <sup class="type-dp" title="data property">dp</sup> <span class="literal">"Ensure healthy lives and promote well-being for all at all ages"</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#definition" target="_blank" title="http://www.w3.org/2004/02/skos/core#definition">definition</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"Ensure healthy lives and promote well-being for all at all ages"@en</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#inScheme" target="_blank" title="http://www.w3.org/2004/02/skos/core#inScheme">in Scheme</a> <sup class="type-ap" title="annotation property">ap</sup> <a href="#https://metadata.un.org/sdg" title="https://metadata.un.org/sdg">sdg</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#notation" target="_blank" title="http://www.w3.org/2004/02/skos/core#notation">notation</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"3"</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#prefLabel" target="_blank" title="http://www.w3.org/2004/02/skos/core#prefLabel">pref Label</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"Goal 3: Good health and well-being"@en</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/ns/prov#hadPrimarySource" target="_blank" title="http://www.w3.org/ns/prov#hadPrimarySource">had Primary Source</a> <sup class="type-ap" title="annotation property">ap</sup> <a href="https://sdgs.un.org/goals/goal3" target="_blank" title="https://sdgs.un.org/goals/goal3">goal3</a> <sup class="type-ep" title="external property">ep</sup>
+   </dd>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#hasIdentifier" target="_blank" title="https://ontology.commonapproach.org/cids#hasIdentifier">has Identifier</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"3"</span>
+   </dd>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#hasSpecification" target="_blank" title="https://ontology.commonapproach.org/cids#hasSpecification">has Specification</a> <sup class="type-dp" title="data property">dp</sup> <a href="#d4e3" title="https://codelist.commonapproach.org/SDGImpacts">Sustainable Development Goals Impact Themes</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+  </dl>
+ </div>
+ <div class="entity" id="https://metadata.un.org/sdg/5">
+  <h3>Goal 5: Gender equality<sup class="type-ni" title="named individual">ni</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a> </span></h3>
+  <p><strong>IRI:</strong> https://metadata.un.org/sdg/5</p>
+  <div class="comment">
+   <span class="markdown">Achieve gender equality and empower all women and girls</span>
+  </div>
+  <dl class="definedBy">
+   <dt>
+    Is defined by
+   </dt>
+   <dd>
+    <a href="https://codelist.commonapproach.org/SDGImpacts">https://codelist.commonapproach.org/SDGImpacts</a>
+   </dd>
+  </dl>
+  <dl class="description">
+   <dt>
+    belongs to
+   </dt>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#Concept" target="_blank" title="http://www.w3.org/2004/02/skos/core#Concept">Concept</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#Code" target="_blank" title="https://ontology.commonapproach.org/cids#Code">Code</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#Theme" target="_blank" title="https://ontology.commonapproach.org/cids#Theme">Theme</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+   <dt>
+    is same as
+   </dt>
+   <dd>
+    <a href="#SDG5" title="https://codelist.commonapproach.org/SDGImpacts#SDG5">Legacy IRI for SDG 5</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+   <dt>
+    has facts
+   </dt>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#definedBy" target="_blank" title="https://ontology.commonapproach.org/cids#definedBy">defined By</a> <sup class="type-op" title="object property">op</sup> <a href="https://ontology.commonapproach.org/cids#ac" target="_blank" title="https://ontology.commonapproach.org/cids#ac">Common Approach to Impact Measurement</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+   <dd>
+    <a href="http://ontology.eil.utoronto.ca/tove/organization#hasIdentifier" target="_blank" title="http://ontology.eil.utoronto.ca/tove/organization#hasIdentifier">has Identifier</a> <sup class="type-dp" title="data property">dp</sup> <span class="literal">"5"</span>
+   </dd>
+   <dd>
+    <a href="http://ontology.eil.utoronto.ca/tove/organization#hasName" target="_blank" title="http://ontology.eil.utoronto.ca/tove/organization#hasName">has Name</a> <sup class="type-dp" title="data property">dp</sup> <span class="literal">"Goal 5: Gender equality"</span>
+   </dd>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#hasDescription" target="_blank" title="https://ontology.commonapproach.org/cids#hasDescription">has Description</a> <sup class="type-dp" title="data property">dp</sup> <span class="literal">"Achieve gender equality and empower all women and girls"</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#definition" target="_blank" title="http://www.w3.org/2004/02/skos/core#definition">definition</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"Achieve gender equality and empower all women and girls"@en</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#inScheme" target="_blank" title="http://www.w3.org/2004/02/skos/core#inScheme">in Scheme</a> <sup class="type-ap" title="annotation property">ap</sup> <a href="#https://metadata.un.org/sdg" title="https://metadata.un.org/sdg">sdg</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#notation" target="_blank" title="http://www.w3.org/2004/02/skos/core#notation">notation</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"5"</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#prefLabel" target="_blank" title="http://www.w3.org/2004/02/skos/core#prefLabel">pref Label</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"Goal 5: Gender equality"@en</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/ns/prov#hadPrimarySource" target="_blank" title="http://www.w3.org/ns/prov#hadPrimarySource">had Primary Source</a> <sup class="type-ap" title="annotation property">ap</sup> <a href="https://sdgs.un.org/goals/goal5" target="_blank" title="https://sdgs.un.org/goals/goal5">goal5</a> <sup class="type-ep" title="external property">ep</sup>
+   </dd>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#hasSpecification" target="_blank" title="https://ontology.commonapproach.org/cids#hasSpecification">has Specification</a> <sup class="type-dp" title="data property">dp</sup> <a href="#d4e3" title="https://codelist.commonapproach.org/SDGImpacts">Sustainable Development Goals Impact Themes</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+  </dl>
+ </div>
+ <div class="entity" id="https://metadata.un.org/sdg/6">
+  <h3>Goal 6: Clean water and sanitation<sup class="type-ni" title="named individual">ni</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a> </span></h3>
+  <p><strong>IRI:</strong> https://metadata.un.org/sdg/6</p>
+  <div class="comment">
+   <span class="markdown">Ensure availability and sustainable management of water and sanitation for all</span>
+  </div>
+  <dl class="definedBy">
+   <dt>
+    Is defined by
+   </dt>
+   <dd>
+    <a href="https://codelist.commonapproach.org/SDGImpacts">https://codelist.commonapproach.org/SDGImpacts</a>
+   </dd>
+  </dl>
+  <dl class="description">
+   <dt>
+    belongs to
+   </dt>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#Concept" target="_blank" title="http://www.w3.org/2004/02/skos/core#Concept">Concept</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#Code" target="_blank" title="https://ontology.commonapproach.org/cids#Code">Code</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#Theme" target="_blank" title="https://ontology.commonapproach.org/cids#Theme">Theme</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+   <dt>
+    is same as
+   </dt>
+   <dd>
+    <a href="#SDG6" title="https://codelist.commonapproach.org/SDGImpacts#SDG6">Legacy IRI for SDG 6</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+   <dt>
+    has facts
+   </dt>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#definedBy" target="_blank" title="https://ontology.commonapproach.org/cids#definedBy">defined By</a> <sup class="type-op" title="object property">op</sup> <a href="https://ontology.commonapproach.org/cids#ac" target="_blank" title="https://ontology.commonapproach.org/cids#ac">Common Approach to Impact Measurement</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+   <dd>
+    <a href="http://ontology.eil.utoronto.ca/tove/organization#hasIdentifier" target="_blank" title="http://ontology.eil.utoronto.ca/tove/organization#hasIdentifier">has Identifier</a> <sup class="type-dp" title="data property">dp</sup> <span class="literal">"6"</span>
+   </dd>
+   <dd>
+    <a href="http://ontology.eil.utoronto.ca/tove/organization#hasName" target="_blank" title="http://ontology.eil.utoronto.ca/tove/organization#hasName">has Name</a> <sup class="type-dp" title="data property">dp</sup> <span class="literal">"Goal 6: Clean water and sanitation"</span>
+   </dd>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#hasDescription" target="_blank" title="https://ontology.commonapproach.org/cids#hasDescription">has Description</a> <sup class="type-dp" title="data property">dp</sup> <span class="literal">"Ensure availability and sustainable management of water and sanitation for all"</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#definition" target="_blank" title="http://www.w3.org/2004/02/skos/core#definition">definition</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"Ensure availability and sustainable management of water and sanitation for all"@en</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#inScheme" target="_blank" title="http://www.w3.org/2004/02/skos/core#inScheme">in Scheme</a> <sup class="type-ap" title="annotation property">ap</sup> <a href="#https://metadata.un.org/sdg" title="https://metadata.un.org/sdg">sdg</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#notation" target="_blank" title="http://www.w3.org/2004/02/skos/core#notation">notation</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"6"</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#prefLabel" target="_blank" title="http://www.w3.org/2004/02/skos/core#prefLabel">pref Label</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"Goal 6: Clean water and sanitation"@en</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/ns/prov#hadPrimarySource" target="_blank" title="http://www.w3.org/ns/prov#hadPrimarySource">had Primary Source</a> <sup class="type-ap" title="annotation property">ap</sup> <a href="https://sdgs.un.org/goals/goal6" target="_blank" title="https://sdgs.un.org/goals/goal6">goal6</a> <sup class="type-ep" title="external property">ep</sup>
+   </dd>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#hasSpecification" target="_blank" title="https://ontology.commonapproach.org/cids#hasSpecification">has Specification</a> <sup class="type-dp" title="data property">dp</sup> <a href="#d4e3" title="https://codelist.commonapproach.org/SDGImpacts">Sustainable Development Goals Impact Themes</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+  </dl>
+ </div>
+ <div class="entity" id="https://metadata.un.org/sdg/7">
+  <h3>Goal 7: Affordable and clean energy<sup class="type-ni" title="named individual">ni</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a> </span></h3>
+  <p><strong>IRI:</strong> https://metadata.un.org/sdg/7</p>
+  <div class="comment">
+   <span class="markdown">Ensure access to affordable, reliable, sustainable and modern energy for all</span>
+  </div>
+  <dl class="definedBy">
+   <dt>
+    Is defined by
+   </dt>
+   <dd>
+    <a href="https://codelist.commonapproach.org/SDGImpacts">https://codelist.commonapproach.org/SDGImpacts</a>
+   </dd>
+  </dl>
+  <dl class="description">
+   <dt>
+    belongs to
+   </dt>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#Concept" target="_blank" title="http://www.w3.org/2004/02/skos/core#Concept">Concept</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#Code" target="_blank" title="https://ontology.commonapproach.org/cids#Code">Code</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#Theme" target="_blank" title="https://ontology.commonapproach.org/cids#Theme">Theme</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+   <dt>
+    is same as
+   </dt>
+   <dd>
+    <a href="#SDG7" title="https://codelist.commonapproach.org/SDGImpacts#SDG7">Legacy IRI for SDG 7</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+   <dt>
+    has facts
+   </dt>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#definedBy" target="_blank" title="https://ontology.commonapproach.org/cids#definedBy">defined By</a> <sup class="type-op" title="object property">op</sup> <a href="https://ontology.commonapproach.org/cids#ac" target="_blank" title="https://ontology.commonapproach.org/cids#ac">Common Approach to Impact Measurement</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+   <dd>
+    <a href="http://ontology.eil.utoronto.ca/tove/organization#hasIdentifier" target="_blank" title="http://ontology.eil.utoronto.ca/tove/organization#hasIdentifier">has Identifier</a> <sup class="type-dp" title="data property">dp</sup> <span class="literal">"7"</span>
+   </dd>
+   <dd>
+    <a href="http://ontology.eil.utoronto.ca/tove/organization#hasName" target="_blank" title="http://ontology.eil.utoronto.ca/tove/organization#hasName">has Name</a> <sup class="type-dp" title="data property">dp</sup> <span class="literal">"Goal 7: Affordable and clean energy"</span>
+   </dd>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#hasDescription" target="_blank" title="https://ontology.commonapproach.org/cids#hasDescription">has Description</a> <sup class="type-dp" title="data property">dp</sup> <span class="literal">"Ensure access to affordable, reliable, sustainable and modern energy for all"</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#definition" target="_blank" title="http://www.w3.org/2004/02/skos/core#definition">definition</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"Ensure access to affordable, reliable, sustainable and modern energy for all"@en</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#inScheme" target="_blank" title="http://www.w3.org/2004/02/skos/core#inScheme">in Scheme</a> <sup class="type-ap" title="annotation property">ap</sup> <a href="#https://metadata.un.org/sdg" title="https://metadata.un.org/sdg">sdg</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#notation" target="_blank" title="http://www.w3.org/2004/02/skos/core#notation">notation</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"7"</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#prefLabel" target="_blank" title="http://www.w3.org/2004/02/skos/core#prefLabel">pref Label</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"Goal 7: Affordable and clean energy"@en</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/ns/prov#hadPrimarySource" target="_blank" title="http://www.w3.org/ns/prov#hadPrimarySource">had Primary Source</a> <sup class="type-ap" title="annotation property">ap</sup> <a href="https://sdgs.un.org/goals/goal7" target="_blank" title="https://sdgs.un.org/goals/goal7">goal7</a> <sup class="type-ep" title="external property">ep</sup>
+   </dd>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#hasSpecification" target="_blank" title="https://ontology.commonapproach.org/cids#hasSpecification">has Specification</a> <sup class="type-dp" title="data property">dp</sup> <a href="#d4e3" title="https://codelist.commonapproach.org/SDGImpacts">Sustainable Development Goals Impact Themes</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+  </dl>
+ </div>
+ <div class="entity" id="https://metadata.un.org/sdg/8">
+  <h3>Goal 8: Decent work and economic growth<sup class="type-ni" title="named individual">ni</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a> </span></h3>
+  <p><strong>IRI:</strong> https://metadata.un.org/sdg/8</p>
+  <div class="comment">
+   <span class="markdown">Promote sustained, inclusive and sustainable economic growth, full and productive employment and decent work for all</span>
+  </div>
+  <dl class="definedBy">
+   <dt>
+    Is defined by
+   </dt>
+   <dd>
+    <a href="https://codelist.commonapproach.org/SDGImpacts">https://codelist.commonapproach.org/SDGImpacts</a>
+   </dd>
+  </dl>
+  <dl class="description">
+   <dt>
+    belongs to
+   </dt>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#Concept" target="_blank" title="http://www.w3.org/2004/02/skos/core#Concept">Concept</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#Code" target="_blank" title="https://ontology.commonapproach.org/cids#Code">Code</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#Theme" target="_blank" title="https://ontology.commonapproach.org/cids#Theme">Theme</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+   <dt>
+    is same as
+   </dt>
+   <dd>
+    <a href="#SDG8" title="https://codelist.commonapproach.org/SDGImpacts#SDG8">Legacy IRI for SDG 8</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+   <dt>
+    has facts
+   </dt>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#definedBy" target="_blank" title="https://ontology.commonapproach.org/cids#definedBy">defined By</a> <sup class="type-op" title="object property">op</sup> <a href="https://ontology.commonapproach.org/cids#ac" target="_blank" title="https://ontology.commonapproach.org/cids#ac">Common Approach to Impact Measurement</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+   <dd>
+    <a href="http://ontology.eil.utoronto.ca/tove/organization#hasIdentifier" target="_blank" title="http://ontology.eil.utoronto.ca/tove/organization#hasIdentifier">has Identifier</a> <sup class="type-dp" title="data property">dp</sup> <span class="literal">"8"</span>
+   </dd>
+   <dd>
+    <a href="http://ontology.eil.utoronto.ca/tove/organization#hasName" target="_blank" title="http://ontology.eil.utoronto.ca/tove/organization#hasName">has Name</a> <sup class="type-dp" title="data property">dp</sup> <span class="literal">"Goal 8: Decent work and economic growth"</span>
+   </dd>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#hasDescription" target="_blank" title="https://ontology.commonapproach.org/cids#hasDescription">has Description</a> <sup class="type-dp" title="data property">dp</sup> <span class="literal">"Promote sustained, inclusive and sustainable economic growth, full and productive employment and decent work for all"</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#definition" target="_blank" title="http://www.w3.org/2004/02/skos/core#definition">definition</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"Promote sustained, inclusive and sustainable economic growth, full and productive employment and decent work for all"@en</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#inScheme" target="_blank" title="http://www.w3.org/2004/02/skos/core#inScheme">in Scheme</a> <sup class="type-ap" title="annotation property">ap</sup> <a href="#https://metadata.un.org/sdg" title="https://metadata.un.org/sdg">sdg</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#notation" target="_blank" title="http://www.w3.org/2004/02/skos/core#notation">notation</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"8"</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#prefLabel" target="_blank" title="http://www.w3.org/2004/02/skos/core#prefLabel">pref Label</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"Goal 8: Decent work and economic growth"@en</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/ns/prov#hadPrimarySource" target="_blank" title="http://www.w3.org/ns/prov#hadPrimarySource">had Primary Source</a> <sup class="type-ap" title="annotation property">ap</sup> <a href="https://sdgs.un.org/goals/goal8" target="_blank" title="https://sdgs.un.org/goals/goal8">goal8</a> <sup class="type-ep" title="external property">ep</sup>
+   </dd>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#hasSpecification" target="_blank" title="https://ontology.commonapproach.org/cids#hasSpecification">has Specification</a> <sup class="type-dp" title="data property">dp</sup> <a href="#d4e3" title="https://codelist.commonapproach.org/SDGImpacts">Sustainable Development Goals Impact Themes</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+  </dl>
+ </div>
+ <div class="entity" id="https://metadata.un.org/sdg/9">
+  <h3>Goal 9: Industry, innovation and infrastructure<sup class="type-ni" title="named individual">ni</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a> </span></h3>
+  <p><strong>IRI:</strong> https://metadata.un.org/sdg/9</p>
+  <div class="comment">
+   <span class="markdown">Build resilient infrastructure, promote inclusive and sustainable industrialization and foster innovation</span>
+  </div>
+  <dl class="definedBy">
+   <dt>
+    Is defined by
+   </dt>
+   <dd>
+    <a href="https://codelist.commonapproach.org/SDGImpacts">https://codelist.commonapproach.org/SDGImpacts</a>
+   </dd>
+  </dl>
+  <dl class="description">
+   <dt>
+    belongs to
+   </dt>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#Concept" target="_blank" title="http://www.w3.org/2004/02/skos/core#Concept">Concept</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#Code" target="_blank" title="https://ontology.commonapproach.org/cids#Code">Code</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#Theme" target="_blank" title="https://ontology.commonapproach.org/cids#Theme">Theme</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+   <dt>
+    is same as
+   </dt>
+   <dd>
+    <a href="#SDG9" title="https://codelist.commonapproach.org/SDGImpacts#SDG9">Legacy IRI for SDG 9</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+   <dt>
+    has facts
+   </dt>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#definedBy" target="_blank" title="https://ontology.commonapproach.org/cids#definedBy">defined By</a> <sup class="type-op" title="object property">op</sup> <a href="https://ontology.commonapproach.org/cids#ac" target="_blank" title="https://ontology.commonapproach.org/cids#ac">Common Approach to Impact Measurement</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+   <dd>
+    <a href="http://ontology.eil.utoronto.ca/tove/organization#hasIdentifier" target="_blank" title="http://ontology.eil.utoronto.ca/tove/organization#hasIdentifier">has Identifier</a> <sup class="type-dp" title="data property">dp</sup> <span class="literal">"9"</span>
+   </dd>
+   <dd>
+    <a href="http://ontology.eil.utoronto.ca/tove/organization#hasName" target="_blank" title="http://ontology.eil.utoronto.ca/tove/organization#hasName">has Name</a> <sup class="type-dp" title="data property">dp</sup> <span class="literal">"Goal 9: Industry, innovation and infrastructure"</span>
+   </dd>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#hasDescription" target="_blank" title="https://ontology.commonapproach.org/cids#hasDescription">has Description</a> <sup class="type-dp" title="data property">dp</sup> <span class="literal">"Build resilient infrastructure, promote inclusive and sustainable industrialization and foster innovation"</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#definition" target="_blank" title="http://www.w3.org/2004/02/skos/core#definition">definition</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"Build resilient infrastructure, promote inclusive and sustainable industrialization and foster innovation"@en</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#inScheme" target="_blank" title="http://www.w3.org/2004/02/skos/core#inScheme">in Scheme</a> <sup class="type-ap" title="annotation property">ap</sup> <a href="#https://metadata.un.org/sdg" title="https://metadata.un.org/sdg">sdg</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#notation" target="_blank" title="http://www.w3.org/2004/02/skos/core#notation">notation</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"9"</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#prefLabel" target="_blank" title="http://www.w3.org/2004/02/skos/core#prefLabel">pref Label</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"Goal 9: Industry, innovation and infrastructure"@en</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/ns/prov#hadPrimarySource" target="_blank" title="http://www.w3.org/ns/prov#hadPrimarySource">had Primary Source</a> <sup class="type-ap" title="annotation property">ap</sup> <a href="https://sdgs.un.org/goals/goal9" target="_blank" title="https://sdgs.un.org/goals/goal9">goal9</a> <sup class="type-ep" title="external property">ep</sup>
+   </dd>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#hasSpecification" target="_blank" title="https://ontology.commonapproach.org/cids#hasSpecification">has Specification</a> <sup class="type-dp" title="data property">dp</sup> <a href="#d4e3" title="https://codelist.commonapproach.org/SDGImpacts">Sustainable Development Goals Impact Themes</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+  </dl>
+ </div>
+ <div class="entity" id="SDG1">
+  <h3>Legacy IRI for SDG 1<sup class="type-ni" title="named individual">ni</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a> </span></h3>
+  <p><strong>IRI:</strong> https://codelist.commonapproach.org/SDGImpacts#SDG1</p>
+  <div class="comment">
+   <span class="markdown">This IRI is deprecated and has been replaced by https://metadata.un.org/sdg/1. It is retained for backward compatibility.</span>
+  </div>
+  <dl>
+   <dt>
+    Is deprecated
+   </dt>
+   <dd>
+    true
+   </dd>
+  </dl>
+  <dl class="description">
+   <dt>
+    is same as
+   </dt>
+   <dd>
+    <a href="#https://metadata.un.org/sdg/1" title="https://metadata.un.org/sdg/1">Goal 1: No poverty</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+   <dt>
+    has facts
+   </dt>
+   <dd>
+    <a href="http://www.w3.org/2002/07/owl#sameAs" target="_blank" title="http://www.w3.org/2002/07/owl#sameAs">same As</a> <sup class="type-ep" title="external property">ep</sup> <a href="#https://metadata.un.org/sdg/1" title="https://metadata.un.org/sdg/1">Goal 1: No poverty</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2002/07/owl#deprecated" target="_blank" title="http://www.w3.org/2002/07/owl#deprecated">deprecated</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"true"^^<a href="http://www.w3.org/2001/XMLSchema#boolean" target="_blank" title="http://www.w3.org/2001/XMLSchema#boolean">boolean</a> </span>
+   </dd>
+  </dl>
+ </div>
+ <div class="entity" id="SDG10">
+  <h3>Legacy IRI for SDG 10<sup class="type-ni" title="named individual">ni</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a> </span></h3>
+  <p><strong>IRI:</strong> https://codelist.commonapproach.org/SDGImpacts#SDG10</p>
+  <div class="comment">
+   <span class="markdown">This IRI is deprecated and has been replaced by https://metadata.un.org/sdg/10. It is retained for backward compatibility.</span>
+  </div>
+  <dl>
+   <dt>
+    Is deprecated
+   </dt>
+   <dd>
+    true
+   </dd>
+  </dl>
+  <dl class="description">
+   <dt>
+    is same as
+   </dt>
+   <dd>
+    <a href="#https://metadata.un.org/sdg/10" title="https://metadata.un.org/sdg/10">Goal 10: Reduced inequalities</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+   <dt>
+    has facts
+   </dt>
+   <dd>
+    <a href="http://www.w3.org/2002/07/owl#sameAs" target="_blank" title="http://www.w3.org/2002/07/owl#sameAs">same As</a> <sup class="type-ep" title="external property">ep</sup> <a href="#https://metadata.un.org/sdg/10" title="https://metadata.un.org/sdg/10">Goal 10: Reduced inequalities</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2002/07/owl#deprecated" target="_blank" title="http://www.w3.org/2002/07/owl#deprecated">deprecated</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"true"^^<a href="http://www.w3.org/2001/XMLSchema#boolean" target="_blank" title="http://www.w3.org/2001/XMLSchema#boolean">boolean</a> </span>
+   </dd>
+  </dl>
+ </div>
+ <div class="entity" id="SDG11">
+  <h3>Legacy IRI for SDG 11<sup class="type-ni" title="named individual">ni</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a> </span></h3>
+  <p><strong>IRI:</strong> https://codelist.commonapproach.org/SDGImpacts#SDG11</p>
+  <div class="comment">
+   <span class="markdown">This IRI is deprecated and has been replaced by https://metadata.un.org/sdg/11. It is retained for backward compatibility.</span>
+  </div>
+  <dl>
+   <dt>
+    Is deprecated
+   </dt>
+   <dd>
+    true
+   </dd>
+  </dl>
+  <dl class="description">
+   <dt>
+    is same as
+   </dt>
+   <dd>
+    <a href="#https://metadata.un.org/sdg/11" title="https://metadata.un.org/sdg/11">Goal 11: Sustainable cities and communities</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+   <dt>
+    has facts
+   </dt>
+   <dd>
+    <a href="http://www.w3.org/2002/07/owl#sameAs" target="_blank" title="http://www.w3.org/2002/07/owl#sameAs">same As</a> <sup class="type-ep" title="external property">ep</sup> <a href="#https://metadata.un.org/sdg/11" title="https://metadata.un.org/sdg/11">Goal 11: Sustainable cities and communities</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2002/07/owl#deprecated" target="_blank" title="http://www.w3.org/2002/07/owl#deprecated">deprecated</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"true"^^<a href="http://www.w3.org/2001/XMLSchema#boolean" target="_blank" title="http://www.w3.org/2001/XMLSchema#boolean">boolean</a> </span>
+   </dd>
+  </dl>
+ </div>
+ <div class="entity" id="SDG12">
+  <h3>Legacy IRI for SDG 12<sup class="type-ni" title="named individual">ni</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a> </span></h3>
+  <p><strong>IRI:</strong> https://codelist.commonapproach.org/SDGImpacts#SDG12</p>
+  <div class="comment">
+   <span class="markdown">This IRI is deprecated and has been replaced by https://metadata.un.org/sdg/12. It is retained for backward compatibility.</span>
+  </div>
+  <dl>
+   <dt>
+    Is deprecated
+   </dt>
+   <dd>
+    true
+   </dd>
+  </dl>
+  <dl class="description">
+   <dt>
+    is same as
+   </dt>
+   <dd>
+    <a href="#https://metadata.un.org/sdg/12" title="https://metadata.un.org/sdg/12">Goal 12: Responsible consumption and production</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+   <dt>
+    has facts
+   </dt>
+   <dd>
+    <a href="http://www.w3.org/2002/07/owl#sameAs" target="_blank" title="http://www.w3.org/2002/07/owl#sameAs">same As</a> <sup class="type-ep" title="external property">ep</sup> <a href="#https://metadata.un.org/sdg/12" title="https://metadata.un.org/sdg/12">Goal 12: Responsible consumption and production</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2002/07/owl#deprecated" target="_blank" title="http://www.w3.org/2002/07/owl#deprecated">deprecated</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"true"^^<a href="http://www.w3.org/2001/XMLSchema#boolean" target="_blank" title="http://www.w3.org/2001/XMLSchema#boolean">boolean</a> </span>
+   </dd>
+  </dl>
+ </div>
+ <div class="entity" id="SDG13">
+  <h3>Legacy IRI for SDG 13<sup class="type-ni" title="named individual">ni</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a> </span></h3>
+  <p><strong>IRI:</strong> https://codelist.commonapproach.org/SDGImpacts#SDG13</p>
+  <div class="comment">
+   <span class="markdown">This IRI is deprecated and has been replaced by https://metadata.un.org/sdg/13. It is retained for backward compatibility.</span>
+  </div>
+  <dl>
+   <dt>
+    Is deprecated
+   </dt>
+   <dd>
+    true
+   </dd>
+  </dl>
+  <dl class="description">
+   <dt>
+    is same as
+   </dt>
+   <dd>
+    <a href="#https://metadata.un.org/sdg/13" title="https://metadata.un.org/sdg/13">Goal 13: Climate action</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+   <dt>
+    has facts
+   </dt>
+   <dd>
+    <a href="http://www.w3.org/2002/07/owl#sameAs" target="_blank" title="http://www.w3.org/2002/07/owl#sameAs">same As</a> <sup class="type-ep" title="external property">ep</sup> <a href="#https://metadata.un.org/sdg/13" title="https://metadata.un.org/sdg/13">Goal 13: Climate action</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2002/07/owl#deprecated" target="_blank" title="http://www.w3.org/2002/07/owl#deprecated">deprecated</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"true"^^<a href="http://www.w3.org/2001/XMLSchema#boolean" target="_blank" title="http://www.w3.org/2001/XMLSchema#boolean">boolean</a> </span>
+   </dd>
+  </dl>
+ </div>
+ <div class="entity" id="SDG14">
+  <h3>Legacy IRI for SDG 14<sup class="type-ni" title="named individual">ni</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a> </span></h3>
+  <p><strong>IRI:</strong> https://codelist.commonapproach.org/SDGImpacts#SDG14</p>
+  <div class="comment">
+   <span class="markdown">This IRI is deprecated and has been replaced by https://metadata.un.org/sdg/14. It is retained for backward compatibility.</span>
+  </div>
+  <dl>
+   <dt>
+    Is deprecated
+   </dt>
+   <dd>
+    true
+   </dd>
+  </dl>
+  <dl class="description">
+   <dt>
+    is same as
+   </dt>
+   <dd>
+    <a href="#https://metadata.un.org/sdg/14" title="https://metadata.un.org/sdg/14">Goal 14: Life below water</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+   <dt>
+    has facts
+   </dt>
+   <dd>
+    <a href="http://www.w3.org/2002/07/owl#sameAs" target="_blank" title="http://www.w3.org/2002/07/owl#sameAs">same As</a> <sup class="type-ep" title="external property">ep</sup> <a href="#https://metadata.un.org/sdg/14" title="https://metadata.un.org/sdg/14">Goal 14: Life below water</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2002/07/owl#deprecated" target="_blank" title="http://www.w3.org/2002/07/owl#deprecated">deprecated</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"true"^^<a href="http://www.w3.org/2001/XMLSchema#boolean" target="_blank" title="http://www.w3.org/2001/XMLSchema#boolean">boolean</a> </span>
+   </dd>
+  </dl>
+ </div>
+ <div class="entity" id="SDG15">
+  <h3>Legacy IRI for SDG 15<sup class="type-ni" title="named individual">ni</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a> </span></h3>
+  <p><strong>IRI:</strong> https://codelist.commonapproach.org/SDGImpacts#SDG15</p>
+  <div class="comment">
+   <span class="markdown">This IRI is deprecated and has been replaced by https://metadata.un.org/sdg/15. It is retained for backward compatibility.</span>
+  </div>
+  <dl>
+   <dt>
+    Is deprecated
+   </dt>
+   <dd>
+    true
+   </dd>
+  </dl>
+  <dl class="description">
+   <dt>
+    is same as
+   </dt>
+   <dd>
+    <a href="#https://metadata.un.org/sdg/15" title="https://metadata.un.org/sdg/15">Goal 15: Life on land</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+   <dt>
+    has facts
+   </dt>
+   <dd>
+    <a href="http://www.w3.org/2002/07/owl#sameAs" target="_blank" title="http://www.w3.org/2002/07/owl#sameAs">same As</a> <sup class="type-ep" title="external property">ep</sup> <a href="#https://metadata.un.org/sdg/15" title="https://metadata.un.org/sdg/15">Goal 15: Life on land</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2002/07/owl#deprecated" target="_blank" title="http://www.w3.org/2002/07/owl#deprecated">deprecated</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"true"^^<a href="http://www.w3.org/2001/XMLSchema#boolean" target="_blank" title="http://www.w3.org/2001/XMLSchema#boolean">boolean</a> </span>
+   </dd>
+  </dl>
+ </div>
+ <div class="entity" id="SDG16">
+  <h3>Legacy IRI for SDG 16<sup class="type-ni" title="named individual">ni</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a> </span></h3>
+  <p><strong>IRI:</strong> https://codelist.commonapproach.org/SDGImpacts#SDG16</p>
+  <div class="comment">
+   <span class="markdown">This IRI is deprecated and has been replaced by https://metadata.un.org/sdg/16. It is retained for backward compatibility.</span>
+  </div>
+  <dl>
+   <dt>
+    Is deprecated
+   </dt>
+   <dd>
+    true
+   </dd>
+  </dl>
+  <dl class="description">
+   <dt>
+    is same as
+   </dt>
+   <dd>
+    <a href="#https://metadata.un.org/sdg/16" title="https://metadata.un.org/sdg/16">Goal 16: Peace, justice and strong institutions</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+   <dt>
+    has facts
+   </dt>
+   <dd>
+    <a href="http://www.w3.org/2002/07/owl#sameAs" target="_blank" title="http://www.w3.org/2002/07/owl#sameAs">same As</a> <sup class="type-ep" title="external property">ep</sup> <a href="#https://metadata.un.org/sdg/16" title="https://metadata.un.org/sdg/16">Goal 16: Peace, justice and strong institutions</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2002/07/owl#deprecated" target="_blank" title="http://www.w3.org/2002/07/owl#deprecated">deprecated</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"true"^^<a href="http://www.w3.org/2001/XMLSchema#boolean" target="_blank" title="http://www.w3.org/2001/XMLSchema#boolean">boolean</a> </span>
+   </dd>
+  </dl>
+ </div>
+ <div class="entity" id="SDG17">
+  <h3>Legacy IRI for SDG 17<sup class="type-ni" title="named individual">ni</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a> </span></h3>
+  <p><strong>IRI:</strong> https://codelist.commonapproach.org/SDGImpacts#SDG17</p>
+  <div class="comment">
+   <span class="markdown">This IRI is deprecated and has been replaced by https://metadata.un.org/sdg/17. It is retained for backward compatibility.</span>
+  </div>
+  <dl>
+   <dt>
+    Is deprecated
+   </dt>
+   <dd>
+    true
+   </dd>
+  </dl>
+  <dl class="description">
+   <dt>
+    is same as
+   </dt>
+   <dd>
+    <a href="#https://metadata.un.org/sdg/17" title="https://metadata.un.org/sdg/17">Goal 17: Partnerships for the goals</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+   <dt>
+    has facts
+   </dt>
+   <dd>
+    <a href="http://www.w3.org/2002/07/owl#sameAs" target="_blank" title="http://www.w3.org/2002/07/owl#sameAs">same As</a> <sup class="type-ep" title="external property">ep</sup> <a href="#https://metadata.un.org/sdg/17" title="https://metadata.un.org/sdg/17">Goal 17: Partnerships for the goals</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2002/07/owl#deprecated" target="_blank" title="http://www.w3.org/2002/07/owl#deprecated">deprecated</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"true"^^<a href="http://www.w3.org/2001/XMLSchema#boolean" target="_blank" title="http://www.w3.org/2001/XMLSchema#boolean">boolean</a> </span>
+   </dd>
+  </dl>
+ </div>
+ <div class="entity" id="SDG2">
+  <h3>Legacy IRI for SDG 2<sup class="type-ni" title="named individual">ni</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a> </span></h3>
+  <p><strong>IRI:</strong> https://codelist.commonapproach.org/SDGImpacts#SDG2</p>
+  <div class="comment">
+   <span class="markdown">This IRI is deprecated and has been replaced by https://metadata.un.org/sdg/2. It is retained for backward compatibility.</span>
+  </div>
+  <dl>
+   <dt>
+    Is deprecated
+   </dt>
+   <dd>
+    true
+   </dd>
+  </dl>
+  <dl class="description">
+   <dt>
+    is same as
+   </dt>
+   <dd>
+    <a href="#https://metadata.un.org/sdg/2" title="https://metadata.un.org/sdg/2">Goal 2: Zero hunger</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+   <dt>
+    has facts
+   </dt>
+   <dd>
+    <a href="http://www.w3.org/2002/07/owl#sameAs" target="_blank" title="http://www.w3.org/2002/07/owl#sameAs">same As</a> <sup class="type-ep" title="external property">ep</sup> <a href="#https://metadata.un.org/sdg/2" title="https://metadata.un.org/sdg/2">Goal 2: Zero hunger</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2002/07/owl#deprecated" target="_blank" title="http://www.w3.org/2002/07/owl#deprecated">deprecated</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"true"^^<a href="http://www.w3.org/2001/XMLSchema#boolean" target="_blank" title="http://www.w3.org/2001/XMLSchema#boolean">boolean</a> </span>
+   </dd>
+  </dl>
+ </div>
+ <div class="entity" id="SDG3">
+  <h3>Legacy IRI for SDG 3<sup class="type-ni" title="named individual">ni</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a> </span></h3>
+  <p><strong>IRI:</strong> https://codelist.commonapproach.org/SDGImpacts#SDG3</p>
+  <div class="comment">
+   <span class="markdown">This IRI is deprecated and has been replaced by https://metadata.un.org/sdg/3. It is retained for backward compatibility.</span>
+  </div>
+  <dl>
+   <dt>
+    Is deprecated
+   </dt>
+   <dd>
+    true
+   </dd>
+  </dl>
+  <dl class="description">
+   <dt>
+    is same as
+   </dt>
+   <dd>
+    <a href="#https://metadata.un.org/sdg/3" title="https://metadata.un.org/sdg/3">Goal 3: Good health and well-being</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+   <dt>
+    has facts
+   </dt>
+   <dd>
+    <a href="http://www.w3.org/2002/07/owl#sameAs" target="_blank" title="http://www.w3.org/2002/07/owl#sameAs">same As</a> <sup class="type-ep" title="external property">ep</sup> <a href="#https://metadata.un.org/sdg/3" title="https://metadata.un.org/sdg/3">Goal 3: Good health and well-being</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2002/07/owl#deprecated" target="_blank" title="http://www.w3.org/2002/07/owl#deprecated">deprecated</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"true"^^<a href="http://www.w3.org/2001/XMLSchema#boolean" target="_blank" title="http://www.w3.org/2001/XMLSchema#boolean">boolean</a> </span>
+   </dd>
+  </dl>
+ </div>
+ <div class="entity" id="SDG4">
+  <h3>Legacy IRI for SDG 4<sup class="type-ni" title="named individual">ni</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a> </span></h3>
+  <p><strong>IRI:</strong> https://codelist.commonapproach.org/SDGImpacts#SDG4</p>
+  <div class="comment">
+   <span class="markdown">This IRI is deprecated and has been replaced by https://metadata.un.org/sdg/4. It is retained for backward compatibility.</span>
+  </div>
+  <dl>
+   <dt>
+    Is deprecated
+   </dt>
+   <dd>
+    true
+   </dd>
+  </dl>
+  <dl class="description">
+   <dt>
+    is same as
+   </dt>
+   <dd>
+    <a href="#https://metadata.un.org/sdg/4" title="https://metadata.un.org/sdg/4">Ensure inclusive and equitable quality education and promote lifelong learning opportunities for all.</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+   <dt>
+    has facts
+   </dt>
+   <dd>
+    <a href="http://www.w3.org/2002/07/owl#sameAs" target="_blank" title="http://www.w3.org/2002/07/owl#sameAs">same As</a> <sup class="type-ep" title="external property">ep</sup> <a href="#https://metadata.un.org/sdg/4" title="https://metadata.un.org/sdg/4">Ensure inclusive and equitable quality education and promote lifelong learning opportunities for all.</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2002/07/owl#deprecated" target="_blank" title="http://www.w3.org/2002/07/owl#deprecated">deprecated</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"true"^^<a href="http://www.w3.org/2001/XMLSchema#boolean" target="_blank" title="http://www.w3.org/2001/XMLSchema#boolean">boolean</a> </span>
+   </dd>
+  </dl>
+ </div>
+ <div class="entity" id="SDG5">
+  <h3>Legacy IRI for SDG 5<sup class="type-ni" title="named individual">ni</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a> </span></h3>
+  <p><strong>IRI:</strong> https://codelist.commonapproach.org/SDGImpacts#SDG5</p>
+  <div class="comment">
+   <span class="markdown">This IRI is deprecated and has been replaced by https://metadata.un.org/sdg/5. It is retained for backward compatibility.</span>
+  </div>
+  <dl>
+   <dt>
+    Is deprecated
+   </dt>
+   <dd>
+    true
+   </dd>
+  </dl>
+  <dl class="description">
+   <dt>
+    is same as
+   </dt>
+   <dd>
+    <a href="#https://metadata.un.org/sdg/5" title="https://metadata.un.org/sdg/5">Goal 5: Gender equality</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+   <dt>
+    has facts
+   </dt>
+   <dd>
+    <a href="http://www.w3.org/2002/07/owl#sameAs" target="_blank" title="http://www.w3.org/2002/07/owl#sameAs">same As</a> <sup class="type-ep" title="external property">ep</sup> <a href="#https://metadata.un.org/sdg/5" title="https://metadata.un.org/sdg/5">Goal 5: Gender equality</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2002/07/owl#deprecated" target="_blank" title="http://www.w3.org/2002/07/owl#deprecated">deprecated</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"true"^^<a href="http://www.w3.org/2001/XMLSchema#boolean" target="_blank" title="http://www.w3.org/2001/XMLSchema#boolean">boolean</a> </span>
+   </dd>
+  </dl>
+ </div>
+ <div class="entity" id="SDG6">
+  <h3>Legacy IRI for SDG 6<sup class="type-ni" title="named individual">ni</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a> </span></h3>
+  <p><strong>IRI:</strong> https://codelist.commonapproach.org/SDGImpacts#SDG6</p>
+  <div class="comment">
+   <span class="markdown">This IRI is deprecated and has been replaced by https://metadata.un.org/sdg/6. It is retained for backward compatibility.</span>
+  </div>
+  <dl>
+   <dt>
+    Is deprecated
+   </dt>
+   <dd>
+    true
+   </dd>
+  </dl>
+  <dl class="description">
+   <dt>
+    is same as
+   </dt>
+   <dd>
+    <a href="#https://metadata.un.org/sdg/6" title="https://metadata.un.org/sdg/6">Goal 6: Clean water and sanitation</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+   <dt>
+    has facts
+   </dt>
+   <dd>
+    <a href="http://www.w3.org/2002/07/owl#sameAs" target="_blank" title="http://www.w3.org/2002/07/owl#sameAs">same As</a> <sup class="type-ep" title="external property">ep</sup> <a href="#https://metadata.un.org/sdg/6" title="https://metadata.un.org/sdg/6">Goal 6: Clean water and sanitation</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2002/07/owl#deprecated" target="_blank" title="http://www.w3.org/2002/07/owl#deprecated">deprecated</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"true"^^<a href="http://www.w3.org/2001/XMLSchema#boolean" target="_blank" title="http://www.w3.org/2001/XMLSchema#boolean">boolean</a> </span>
+   </dd>
+  </dl>
+ </div>
+ <div class="entity" id="SDG7">
+  <h3>Legacy IRI for SDG 7<sup class="type-ni" title="named individual">ni</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a> </span></h3>
+  <p><strong>IRI:</strong> https://codelist.commonapproach.org/SDGImpacts#SDG7</p>
+  <div class="comment">
+   <span class="markdown">This IRI is deprecated and has been replaced by https://metadata.un.org/sdg/7. It is retained for backward compatibility.</span>
+  </div>
+  <dl>
+   <dt>
+    Is deprecated
+   </dt>
+   <dd>
+    true
+   </dd>
+  </dl>
+  <dl class="description">
+   <dt>
+    is same as
+   </dt>
+   <dd>
+    <a href="#https://metadata.un.org/sdg/7" title="https://metadata.un.org/sdg/7">Goal 7: Affordable and clean energy</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+   <dt>
+    has facts
+   </dt>
+   <dd>
+    <a href="http://www.w3.org/2002/07/owl#sameAs" target="_blank" title="http://www.w3.org/2002/07/owl#sameAs">same As</a> <sup class="type-ep" title="external property">ep</sup> <a href="#https://metadata.un.org/sdg/7" title="https://metadata.un.org/sdg/7">Goal 7: Affordable and clean energy</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2002/07/owl#deprecated" target="_blank" title="http://www.w3.org/2002/07/owl#deprecated">deprecated</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"true"^^<a href="http://www.w3.org/2001/XMLSchema#boolean" target="_blank" title="http://www.w3.org/2001/XMLSchema#boolean">boolean</a> </span>
+   </dd>
+  </dl>
+ </div>
+ <div class="entity" id="SDG8">
+  <h3>Legacy IRI for SDG 8<sup class="type-ni" title="named individual">ni</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a> </span></h3>
+  <p><strong>IRI:</strong> https://codelist.commonapproach.org/SDGImpacts#SDG8</p>
+  <div class="comment">
+   <span class="markdown">This IRI is deprecated and has been replaced by https://metadata.un.org/sdg/8. It is retained for backward compatibility.</span>
+  </div>
+  <dl>
+   <dt>
+    Is deprecated
+   </dt>
+   <dd>
+    true
+   </dd>
+  </dl>
+  <dl class="description">
+   <dt>
+    is same as
+   </dt>
+   <dd>
+    <a href="#https://metadata.un.org/sdg/8" title="https://metadata.un.org/sdg/8">Goal 8: Decent work and economic growth</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+   <dt>
+    has facts
+   </dt>
+   <dd>
+    <a href="http://www.w3.org/2002/07/owl#sameAs" target="_blank" title="http://www.w3.org/2002/07/owl#sameAs">same As</a> <sup class="type-ep" title="external property">ep</sup> <a href="#https://metadata.un.org/sdg/8" title="https://metadata.un.org/sdg/8">Goal 8: Decent work and economic growth</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2002/07/owl#deprecated" target="_blank" title="http://www.w3.org/2002/07/owl#deprecated">deprecated</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"true"^^<a href="http://www.w3.org/2001/XMLSchema#boolean" target="_blank" title="http://www.w3.org/2001/XMLSchema#boolean">boolean</a> </span>
+   </dd>
+  </dl>
+ </div>
+ <div class="entity" id="SDG9">
+  <h3>Legacy IRI for SDG 9<sup class="type-ni" title="named individual">ni</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a> </span></h3>
+  <p><strong>IRI:</strong> https://codelist.commonapproach.org/SDGImpacts#SDG9</p>
+  <div class="comment">
+   <span class="markdown">This IRI is deprecated and has been replaced by https://metadata.un.org/sdg/9. It is retained for backward compatibility.</span>
+  </div>
+  <dl>
+   <dt>
+    Is deprecated
+   </dt>
+   <dd>
+    true
+   </dd>
+  </dl>
+  <dl class="description">
+   <dt>
+    is same as
+   </dt>
+   <dd>
+    <a href="#https://metadata.un.org/sdg/9" title="https://metadata.un.org/sdg/9">Goal 9: Industry, innovation and infrastructure</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+   <dt>
+    has facts
+   </dt>
+   <dd>
+    <a href="http://www.w3.org/2002/07/owl#sameAs" target="_blank" title="http://www.w3.org/2002/07/owl#sameAs">same As</a> <sup class="type-ep" title="external property">ep</sup> <a href="#https://metadata.un.org/sdg/9" title="https://metadata.un.org/sdg/9">Goal 9: Industry, innovation and infrastructure</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2002/07/owl#deprecated" target="_blank" title="http://www.w3.org/2002/07/owl#deprecated">deprecated</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"true"^^<a href="http://www.w3.org/2001/XMLSchema#boolean" target="_blank" title="http://www.w3.org/2001/XMLSchema#boolean">boolean</a> </span>
+   </dd>
+  </dl>
+ </div>
+ <div class="entity" id="https://metadata.un.org/sdg">
+  <h3>sdg<sup class="type-ni" title="named individual">ni</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a> </span></h3>
+  <p><strong>IRI:</strong> https://metadata.un.org/sdg</p>
+  <dl class="description">
+   <dt>
+    belongs to
+   </dt>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#ConceptScheme" target="_blank" title="http://www.w3.org/2004/02/skos/core#ConceptScheme">Concept Scheme</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+   <dt>
+    has facts
+   </dt>
+   <dd>
+    <a href="http://purl.org/dc/terms/title" target="_blank" title="http://purl.org/dc/terms/title">title</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"Sustainable Development Goals Taxonomy"@en</span>
+   </dd>
+  </dl>
+ </div>
+ <div class="entity" id="">
+  <h3>Sustainable Development Goals Impact Themes<sup class="type-ni" title="named individual">ni</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a> </span></h3>
+  <p><strong>IRI:</strong> https://codelist.commonapproach.org/SDGImpacts</p>
+  <dl class="description">
+   <dt>
+    belongs to
+   </dt>
+   <dd>
+    <a href="http://purl.org/vocommons/voaf#Vocabulary" target="_blank" title="http://purl.org/vocommons/voaf#Vocabulary">Vocabulary</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#ConceptScheme" target="_blank" title="http://www.w3.org/2004/02/skos/core#ConceptScheme">Concept Scheme</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+  </dl>
+ </div>
+</div><div id="legend">
+<h2>Legend <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>
+<div   class="entity">
+<sup class="type-c" title="Classes">c</sup>: Classes <br/>
+<sup class="type-op" title="Object Properties">op</sup>: Object Properties <br/>
+<sup class="type-dp" title="Data Properties">dp</sup>: Data Properties <br/>
+<sup class="type-ni" title="Named Individuals">ni</sup>: Named Individuals <br/>
+<sup class="type-ep" title="External Properties">ep</sup>: External Properties
+</div>
+</div>
+</div>
+<div id="acknowledgments">
+<h2 id="ack" class="list">Acknowledgments <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>
+<p>
+The authors would like to thank <a href="http://www.essepuntato.it/">Silvio Peroni</a> for developing <a href="http://www.essepuntato.it/lode">LODE</a>, a Live OWL Documentation Environment, which is used for representing the Cross Referencing Section of this document and <a href="https://w3id.org/people/dgarijo">Daniel Garijo</a> for developing <a href="https://github.com/dgarijo/Widoco">Widoco</a>, the program used to create the template used in this documentation.</p>
+</div>
+
+
+</div>
+</body>
+</html>

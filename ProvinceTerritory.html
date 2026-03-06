@@ -1,0 +1,887 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+<link rel="stylesheet" href="https://ontology.commonapproach.org/resources/primer.css" media="screen"/>
+<link rel="stylesheet" href="https://ontology.commonapproach.org/resources/rec.css" media="screen"/>
+<link rel="stylesheet" href="https://ontology.commonapproach.org/resources/extra.css" media="screen"/>
+<link rel="stylesheet" href="https://ontology.commonapproach.org/resources/owl.css" media="screen"/>
+<link rel="stylesheet" href="https://ontology.commonapproach.org/resources/dark.css" media="(prefers-color-scheme: dark)"/>
+<link rel="stylesheet" href="https://ontology.commonapproach.org/resources/light.css" media="(prefers-color-scheme: light)"/>
+<link rel="stylesheet" href="https://ontology.commonapproach.org/resources/slider.css" media="screen"/>
+<meta name="color-scheme" content="dark light">
+<script type="module" src="https://ontology.commonapproach.org/resources/dark-mode-toggle.mjs"></script><div class="darkmode">
+	<dark-mode-toggle class="slider"></dark-mode-toggle>
+</div>
+ <title>Province and Territory Codelist</title>
+
+
+<!-- SCHEMA.ORG METADATA -->
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"TechArticle","url":"https://codelist.commonapproach.org/ProvinceTerritory","image":"http://vowl.visualdataweb.org/webvowl/#iri=https://codelist.commonapproach.org/ProvinceTerritory","name":"Province and Territory Codelist", "headline":"Document describing the ontology https://codelist.commonapproach.org/ProvinceTerritory", "dateReleased":"Fri Feb 27 15:58:15 EST 2026", "version":"2.0", "author":[{"@type":"Person","name":"https://ontology.commonapproach.org/cids#ac","url":"https://ontology.commonapproach.org/cids#ac"}]}</script>
+
+<script src="https://ontology.commonapproach.org/resources/jquery.js"></script> 
+<script src="https://ontology.commonapproach.org/resources/marked.min.js"></script> 
+    <script> 
+function loadHash() {
+  jQuery(".markdown").each(function(el){jQuery(this).after(marked.parse(jQuery(this).text())).remove()});
+	var hash = location.hash;
+	if($(hash).offset()!=null){
+	  $('html, body').animate({scrollTop: $(hash).offset().top}, 0);
+}
+	loadTOC();
+}
+function loadTOC(){
+	//process toc dynamically
+	  var t='<h2>Table of contents</h2><ul>';i = 1;j=0;
+	  jQuery(".list").each(function(){
+		if(jQuery(this).is('h2')){
+			if(j>0){
+				t+='</ul>';
+				j=0;
+			}
+			t+= '<li>'+i+'. <a href=#'+ jQuery(this).attr('id')+'>'+ jQuery(this).ignore("span").text()+'</a></li>';
+			i++;
+		}
+		if(jQuery(this).is('h3')){
+			if(j==0){
+				t+='<ul>';
+			}
+			j++;
+			t+= '<li>'+(i-1)+'.'+j+'. '+'<a href=#'+ jQuery(this).attr('id')+'>'+ jQuery(this).ignore("span").text()+'</a></li>';
+		}
+	  });
+	  t+='</ul>';
+	  $("#toc").html(t); 
+}
+$(function(){
+    loadHash();
+}); $.fn.ignore = function(sel){
+        return this.clone().find(sel||">*").remove().end();
+ }; 
+   </script> 
+  </head> 
+
+<body>
+<div class="container">
+<div class="head">
+<div style="float:right">language <a href="index-en.html"><b>en</b></a> </div>
+<h1>Province and Territory Codelist</h1>
+
+
+<dl>
+<dt>Revision:</dt>
+<dd>2.0</dd>
+<dt>Authors:</dt>
+<dd><a href="https://ontology.commonapproach.org/cids#ac">https://ontology.commonapproach.org/cids#ac</a></dd>
+
+<dt>Imported Ontologies:</dt>
+<dd><a href="http://ontology.eil.utoronto.ca/ISO21972/iso21972">iso21972</a></dd><dd><a href="http://ontology.eil.utoronto.ca/tove/activity">activity</a></dd><dd><a href="http://ontology.eil.utoronto.ca/tove/icontact">icontact</a></dd><dd><a href="http://ontology.eil.utoronto.ca/tove/organization">organization</a></dd><dd><a href="http://www.w3.org/2006/time">time</a></dd><dd><a href="https://ontology.commonapproach.org/cids">cids</a></dd><dd><a href="https://standards.iso.org/iso-iec/5087/-1/ed-1/en/ontology/Time/">&lt;https://standards.iso.org/iso-iec/5087/-1/ed-1/en/ontology/Time/&gt;</a></dd>
+
+<dt>Download serialization:</dt><dd><span><a href="ontology.jsonld" target="_blank"><img src="https://img.shields.io/badge/Format-JSON_LD-blue.svg" alt="JSON-LD" /></a> </span><span><a href="ontology.owl" target="_blank"><img src="https://img.shields.io/badge/Format-RDF/XML-blue.svg" alt="RDF/XML" /></a> </span><span><a href="ontology.nt" target="_blank"><img src="https://img.shields.io/badge/Format-N_Triples-blue.svg" alt="N-Triples" /></a> </span><span><a href="ontology.ttl" target="_blank"><img src="https://img.shields.io/badge/Format-TTL-blue.svg" alt="TTL" /></a> </span></dd><dt>License:</dt><dd><a href="http://insertlicenseURIhere.example.org" target="_blank"><img src="https://img.shields.io/badge/License-license%20name%20goes%20here-blue.svg" alt="http://insertlicenseURIhere.example.org" /></a>
+</dd><!-- <dt>Evaluation:</dt><dd><a href="OOPSevaluation/oopsEval.html#" target="_blank"><img src="https://img.shields.io/badge/Evaluate_with-OOPS! (OntOlogy Pitfall Scanner!)-blue.svg" alt="Evaluate with OOPS!" /></a></dd> --><dt>Cite as:</dt>
+<dd>https://ontology.commonapproach.org/cids#ac. Province and Territory Codelist. Revision: 2.0.</dd>
+</dl>
+
+<a href="provenance/provenance-en.html" target="_blank">Provenance of this page</a><hr/>
+</div>
+<div class="status">
+<div>
+<span>Ontology Specification Draft</span>
+</div>
+</div><div id="toc"></div>  
+
+<!--OVERVIEW SECTION-->
+    <div id="overview"><h2 id="overv" class="list">Province and Territory Codelist: Overview <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>
+<span class="markdown">
+This ontology has the following classes and properties.</span>
+<h4>Named Individuals</h4><ul xmlns:widoco="https://w3id.org/widoco/vocab#"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    class="hlist">
+   <li>
+      <a href="#AB"
+         title="https://codelist.commonapproach.org/ProvinceTerritory#AB">Alberta</a>
+   </li>
+   <li>
+      <a href="#CAN"
+         title="https://codelist.commonapproach.org/ProvinceTerritory#CAN">All of Canada</a>
+   </li>
+   <li>
+      <a href="#BC"
+         title="https://codelist.commonapproach.org/ProvinceTerritory#BC">British Columbia</a>
+   </li>
+   <li>
+      <a href="#MB"
+         title="https://codelist.commonapproach.org/ProvinceTerritory#MB">Manitoba</a>
+   </li>
+   <li>
+      <a href="#NB"
+         title="https://codelist.commonapproach.org/ProvinceTerritory#NB">New Brunswick</a>
+   </li>
+   <li>
+      <a href="#NL"
+         title="https://codelist.commonapproach.org/ProvinceTerritory#NL">Newfoundland and Labrador</a>
+   </li>
+   <li>
+      <a href="#NT"
+         title="https://codelist.commonapproach.org/ProvinceTerritory#NT">Northwest Territories</a>
+   </li>
+   <li>
+      <a href="#NS"
+         title="https://codelist.commonapproach.org/ProvinceTerritory#NS">Nova Scotia</a>
+   </li>
+   <li>
+      <a href="#NU"
+         title="https://codelist.commonapproach.org/ProvinceTerritory#NU">Nunavut</a>
+   </li>
+   <li>
+      <a href="#ON"
+         title="https://codelist.commonapproach.org/ProvinceTerritory#ON">Ontario</a>
+   </li>
+   <li>
+      <a href="#PE"
+         title="https://codelist.commonapproach.org/ProvinceTerritory#PE">Prince Edward Island</a>
+   </li>
+   <li>
+      <a href="#"
+         title="https://codelist.commonapproach.org/ProvinceTerritory">
+         <span>Province and Territory Codelist</span>
+      </a>
+   </li>
+   <li>
+      <a href="#QC"
+         title="https://codelist.commonapproach.org/ProvinceTerritory#QC">Quebec</a>
+   </li>
+   <li>
+      <a href="#SK"
+         title="https://codelist.commonapproach.org/ProvinceTerritory#SK">Saskatchewan</a>
+   </li>
+   <li>
+      <a href="#YT"
+         title="https://codelist.commonapproach.org/ProvinceTerritory#YT">Yukon</a>
+   </li>
+</ul>
+</div>
+  
+
+<!--DESCRIPTION SECTION-->
+    <div id="description"><h2 id="desc" class="list">Province and Territory Codelist: Description <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>
+
+<span class="markdown">A codelist vocabulary of Province and Territory Codelists according to Statistics Canada definitions.</span></div>
+   
+
+<!--CROSSREF SECTION-->
+   <div id="crossref"><h2 id="crossreference" class="list">Cross-reference for Province and Territory Codelist classes, object properties and data properties <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>
+This section provides details for each class and property defined by Province and Territory Codelist.
+<div xmlns:widoco="https://w3id.org/widoco/vocab#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="namedindividuals">
+ <h3 id="namedindividuals" class="list">Named Individuals</h3>
+ <ul class="hlist">
+  <li><a href="#AB" title="https://codelist.commonapproach.org/ProvinceTerritory#AB">Alberta</a></li>
+  <li><a href="#CAN" title="https://codelist.commonapproach.org/ProvinceTerritory#CAN">All of Canada</a></li>
+  <li><a href="#BC" title="https://codelist.commonapproach.org/ProvinceTerritory#BC">British Columbia</a></li>
+  <li><a href="#MB" title="https://codelist.commonapproach.org/ProvinceTerritory#MB">Manitoba</a></li>
+  <li><a href="#NB" title="https://codelist.commonapproach.org/ProvinceTerritory#NB">New Brunswick</a></li>
+  <li><a href="#NL" title="https://codelist.commonapproach.org/ProvinceTerritory#NL">Newfoundland and Labrador</a></li>
+  <li><a href="#NT" title="https://codelist.commonapproach.org/ProvinceTerritory#NT">Northwest Territories</a></li>
+  <li><a href="#NS" title="https://codelist.commonapproach.org/ProvinceTerritory#NS">Nova Scotia</a></li>
+  <li><a href="#NU" title="https://codelist.commonapproach.org/ProvinceTerritory#NU">Nunavut</a></li>
+  <li><a href="#ON" title="https://codelist.commonapproach.org/ProvinceTerritory#ON">Ontario</a></li>
+  <li><a href="#PE" title="https://codelist.commonapproach.org/ProvinceTerritory#PE">Prince Edward Island</a></li>
+  <li><a href="#" title="https://codelist.commonapproach.org/ProvinceTerritory"> <span>Province and Territory Codelist</span> </a></li>
+  <li><a href="#QC" title="https://codelist.commonapproach.org/ProvinceTerritory#QC">Quebec</a></li>
+  <li><a href="#SK" title="https://codelist.commonapproach.org/ProvinceTerritory#SK">Saskatchewan</a></li>
+  <li><a href="#YT" title="https://codelist.commonapproach.org/ProvinceTerritory#YT">Yukon</a></li>
+ </ul>
+ <div class="entity" id="AB">
+  <h3>Alberta<sup class="type-ni" title="named individual">ni</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a> </span></h3>
+  <p><strong>IRI:</strong> https://codelist.commonapproach.org/ProvinceTerritory#AB</p>
+  <dl class="definedBy">
+   <dt>
+    Is defined by
+   </dt>
+   <dd>
+    <a href="https://codelist.commonapproach.org/ProvinceTerritory">https://codelist.commonapproach.org/ProvinceTerritory</a>
+   </dd>
+  </dl>
+  <dl class="description">
+   <dt>
+    belongs to
+   </dt>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#ProvinceTerritory" target="_blank" title="https://ontology.commonapproach.org/cids#ProvinceTerritory">Province Territory</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+   <dt>
+    has facts
+   </dt>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#definedBy" target="_blank" title="https://ontology.commonapproach.org/cids#definedBy">defined By</a> <sup class="type-op" title="object property">op</sup> <a href="https://ontology.commonapproach.org/cids#statsCan" target="_blank" title="https://ontology.commonapproach.org/cids#statsCan">Statistics Canada</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+   <dd>
+    <a href="http://ontology.eil.utoronto.ca/tove/organization#hasName" target="_blank" title="http://ontology.eil.utoronto.ca/tove/organization#hasName">has Name</a> <sup class="type-dp" title="data property">dp</sup> <span class="literal">"Alberta"</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#inScheme" target="_blank" title="http://www.w3.org/2004/02/skos/core#inScheme">in Scheme</a> <sup class="type-ap" title="annotation property">ap</sup> <a href="#d4e3" title="https://codelist.commonapproach.org/ProvinceTerritory">Province and Territory Codelist</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#notation" target="_blank" title="http://www.w3.org/2004/02/skos/core#notation">notation</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"AB"</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#prefLabel" target="_blank" title="http://www.w3.org/2004/02/skos/core#prefLabel">pref Label</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"Alberta"@en</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/ns/prov#hadPrimarySource" target="_blank" title="http://www.w3.org/ns/prov#hadPrimarySource">had Primary Source</a> <sup class="type-ap" title="annotation property">ap</sup> <a href="https://www12.statcan.gc.ca/census-recensement/2021/ref/dict/tab/index-eng.cfm?ID=t1_8" target="_blank" title="https://www12.statcan.gc.ca/census-recensement/2021/ref/dict/tab/index-eng.cfm?ID=t1_8">index eng.cfm? I D=t1 8</a> <sup class="type-ep" title="external property">ep</sup>
+   </dd>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#hasIdentifier" target="_blank" title="https://ontology.commonapproach.org/cids#hasIdentifier">has Identifier</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"AB"</span>
+   </dd>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#hasSpecification" target="_blank" title="https://ontology.commonapproach.org/cids#hasSpecification">has Specification</a> <sup class="type-dp" title="data property">dp</sup> <a href="#d4e3" title="https://codelist.commonapproach.org/ProvinceTerritory">Province and Territory Codelist</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+  </dl>
+ </div>
+ <div class="entity" id="CAN">
+  <h3>All of Canada<sup class="type-ni" title="named individual">ni</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a> </span></h3>
+  <p><strong>IRI:</strong> https://codelist.commonapproach.org/ProvinceTerritory#CAN</p>
+  <dl class="definedBy">
+   <dt>
+    Is defined by
+   </dt>
+   <dd>
+    <a href="https://codelist.commonapproach.org/ProvinceTerritory">https://codelist.commonapproach.org/ProvinceTerritory</a>
+   </dd>
+  </dl>
+  <dl class="description">
+   <dt>
+    belongs to
+   </dt>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#ProvinceTerritory" target="_blank" title="https://ontology.commonapproach.org/cids#ProvinceTerritory">Province Territory</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+   <dt>
+    has facts
+   </dt>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#definedBy" target="_blank" title="https://ontology.commonapproach.org/cids#definedBy">defined By</a> <sup class="type-op" title="object property">op</sup> <a href="https://ontology.commonapproach.org/cids#statsCan" target="_blank" title="https://ontology.commonapproach.org/cids#statsCan">Statistics Canada</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+   <dd>
+    <a href="http://ontology.eil.utoronto.ca/tove/organization#hasName" target="_blank" title="http://ontology.eil.utoronto.ca/tove/organization#hasName">has Name</a> <sup class="type-dp" title="data property">dp</sup> <span class="literal">"All of Canada"</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#inScheme" target="_blank" title="http://www.w3.org/2004/02/skos/core#inScheme">in Scheme</a> <sup class="type-ap" title="annotation property">ap</sup> <a href="#d4e3" title="https://codelist.commonapproach.org/ProvinceTerritory">Province and Territory Codelist</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#notation" target="_blank" title="http://www.w3.org/2004/02/skos/core#notation">notation</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"CAN"</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#prefLabel" target="_blank" title="http://www.w3.org/2004/02/skos/core#prefLabel">pref Label</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"All of Canada"@en</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/ns/prov#hadPrimarySource" target="_blank" title="http://www.w3.org/ns/prov#hadPrimarySource">had Primary Source</a> <sup class="type-ap" title="annotation property">ap</sup> <a href="https://www12.statcan.gc.ca/census-recensement/2021/ref/dict/tab/index-eng.cfm?ID=t1_8" target="_blank" title="https://www12.statcan.gc.ca/census-recensement/2021/ref/dict/tab/index-eng.cfm?ID=t1_8">index eng.cfm? I D=t1 8</a> <sup class="type-ep" title="external property">ep</sup>
+   </dd>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#hasIdentifier" target="_blank" title="https://ontology.commonapproach.org/cids#hasIdentifier">has Identifier</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"CAN"</span>
+   </dd>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#hasSpecification" target="_blank" title="https://ontology.commonapproach.org/cids#hasSpecification">has Specification</a> <sup class="type-dp" title="data property">dp</sup> <a href="#d4e3" title="https://codelist.commonapproach.org/ProvinceTerritory">Province and Territory Codelist</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+  </dl>
+ </div>
+ <div class="entity" id="BC">
+  <h3>British Columbia<sup class="type-ni" title="named individual">ni</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a> </span></h3>
+  <p><strong>IRI:</strong> https://codelist.commonapproach.org/ProvinceTerritory#BC</p>
+  <dl class="definedBy">
+   <dt>
+    Is defined by
+   </dt>
+   <dd>
+    <a href="https://codelist.commonapproach.org/ProvinceTerritory">https://codelist.commonapproach.org/ProvinceTerritory</a>
+   </dd>
+  </dl>
+  <dl class="description">
+   <dt>
+    belongs to
+   </dt>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#ProvinceTerritory" target="_blank" title="https://ontology.commonapproach.org/cids#ProvinceTerritory">Province Territory</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+   <dt>
+    has facts
+   </dt>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#definedBy" target="_blank" title="https://ontology.commonapproach.org/cids#definedBy">defined By</a> <sup class="type-op" title="object property">op</sup> <a href="https://ontology.commonapproach.org/cids#statsCan" target="_blank" title="https://ontology.commonapproach.org/cids#statsCan">Statistics Canada</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+   <dd>
+    <a href="http://ontology.eil.utoronto.ca/tove/organization#hasName" target="_blank" title="http://ontology.eil.utoronto.ca/tove/organization#hasName">has Name</a> <sup class="type-dp" title="data property">dp</sup> <span class="literal">"British Columbia"</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#inScheme" target="_blank" title="http://www.w3.org/2004/02/skos/core#inScheme">in Scheme</a> <sup class="type-ap" title="annotation property">ap</sup> <a href="#d4e3" title="https://codelist.commonapproach.org/ProvinceTerritory">Province and Territory Codelist</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#notation" target="_blank" title="http://www.w3.org/2004/02/skos/core#notation">notation</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"BC"</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#prefLabel" target="_blank" title="http://www.w3.org/2004/02/skos/core#prefLabel">pref Label</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"British Columbia"@en</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/ns/prov#hadPrimarySource" target="_blank" title="http://www.w3.org/ns/prov#hadPrimarySource">had Primary Source</a> <sup class="type-ap" title="annotation property">ap</sup> <a href="https://www12.statcan.gc.ca/census-recensement/2021/ref/dict/tab/index-eng.cfm?ID=t1_8" target="_blank" title="https://www12.statcan.gc.ca/census-recensement/2021/ref/dict/tab/index-eng.cfm?ID=t1_8">index eng.cfm? I D=t1 8</a> <sup class="type-ep" title="external property">ep</sup>
+   </dd>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#hasIdentifier" target="_blank" title="https://ontology.commonapproach.org/cids#hasIdentifier">has Identifier</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"BC"</span>
+   </dd>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#hasSpecification" target="_blank" title="https://ontology.commonapproach.org/cids#hasSpecification">has Specification</a> <sup class="type-dp" title="data property">dp</sup> <a href="#d4e3" title="https://codelist.commonapproach.org/ProvinceTerritory">Province and Territory Codelist</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+  </dl>
+ </div>
+ <div class="entity" id="MB">
+  <h3>Manitoba<sup class="type-ni" title="named individual">ni</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a> </span></h3>
+  <p><strong>IRI:</strong> https://codelist.commonapproach.org/ProvinceTerritory#MB</p>
+  <dl class="definedBy">
+   <dt>
+    Is defined by
+   </dt>
+   <dd>
+    <a href="https://codelist.commonapproach.org/ProvinceTerritory">https://codelist.commonapproach.org/ProvinceTerritory</a>
+   </dd>
+  </dl>
+  <dl class="description">
+   <dt>
+    belongs to
+   </dt>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#ProvinceTerritory" target="_blank" title="https://ontology.commonapproach.org/cids#ProvinceTerritory">Province Territory</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+   <dt>
+    has facts
+   </dt>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#definedBy" target="_blank" title="https://ontology.commonapproach.org/cids#definedBy">defined By</a> <sup class="type-op" title="object property">op</sup> <a href="https://ontology.commonapproach.org/cids#statsCan" target="_blank" title="https://ontology.commonapproach.org/cids#statsCan">Statistics Canada</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+   <dd>
+    <a href="http://ontology.eil.utoronto.ca/tove/organization#hasName" target="_blank" title="http://ontology.eil.utoronto.ca/tove/organization#hasName">has Name</a> <sup class="type-dp" title="data property">dp</sup> <span class="literal">"Manitoba"</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#inScheme" target="_blank" title="http://www.w3.org/2004/02/skos/core#inScheme">in Scheme</a> <sup class="type-ap" title="annotation property">ap</sup> <a href="#d4e3" title="https://codelist.commonapproach.org/ProvinceTerritory">Province and Territory Codelist</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#notation" target="_blank" title="http://www.w3.org/2004/02/skos/core#notation">notation</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"MB"</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#prefLabel" target="_blank" title="http://www.w3.org/2004/02/skos/core#prefLabel">pref Label</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"Manitoba"@en</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/ns/prov#hadPrimarySource" target="_blank" title="http://www.w3.org/ns/prov#hadPrimarySource">had Primary Source</a> <sup class="type-ap" title="annotation property">ap</sup> <a href="https://www12.statcan.gc.ca/census-recensement/2021/ref/dict/tab/index-eng.cfm?ID=t1_8" target="_blank" title="https://www12.statcan.gc.ca/census-recensement/2021/ref/dict/tab/index-eng.cfm?ID=t1_8">index eng.cfm? I D=t1 8</a> <sup class="type-ep" title="external property">ep</sup>
+   </dd>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#hasIdentifier" target="_blank" title="https://ontology.commonapproach.org/cids#hasIdentifier">has Identifier</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"MB"</span>
+   </dd>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#hasSpecification" target="_blank" title="https://ontology.commonapproach.org/cids#hasSpecification">has Specification</a> <sup class="type-dp" title="data property">dp</sup> <a href="#d4e3" title="https://codelist.commonapproach.org/ProvinceTerritory">Province and Territory Codelist</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+  </dl>
+ </div>
+ <div class="entity" id="NB">
+  <h3>New Brunswick<sup class="type-ni" title="named individual">ni</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a> </span></h3>
+  <p><strong>IRI:</strong> https://codelist.commonapproach.org/ProvinceTerritory#NB</p>
+  <dl class="definedBy">
+   <dt>
+    Is defined by
+   </dt>
+   <dd>
+    <a href="https://codelist.commonapproach.org/ProvinceTerritory">https://codelist.commonapproach.org/ProvinceTerritory</a>
+   </dd>
+  </dl>
+  <dl class="description">
+   <dt>
+    belongs to
+   </dt>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#ProvinceTerritory" target="_blank" title="https://ontology.commonapproach.org/cids#ProvinceTerritory">Province Territory</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+   <dt>
+    has facts
+   </dt>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#definedBy" target="_blank" title="https://ontology.commonapproach.org/cids#definedBy">defined By</a> <sup class="type-op" title="object property">op</sup> <a href="https://ontology.commonapproach.org/cids#statsCan" target="_blank" title="https://ontology.commonapproach.org/cids#statsCan">Statistics Canada</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+   <dd>
+    <a href="http://ontology.eil.utoronto.ca/tove/organization#hasName" target="_blank" title="http://ontology.eil.utoronto.ca/tove/organization#hasName">has Name</a> <sup class="type-dp" title="data property">dp</sup> <span class="literal">"New Brunswick"</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#inScheme" target="_blank" title="http://www.w3.org/2004/02/skos/core#inScheme">in Scheme</a> <sup class="type-ap" title="annotation property">ap</sup> <a href="#d4e3" title="https://codelist.commonapproach.org/ProvinceTerritory">Province and Territory Codelist</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#notation" target="_blank" title="http://www.w3.org/2004/02/skos/core#notation">notation</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"NB"</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#prefLabel" target="_blank" title="http://www.w3.org/2004/02/skos/core#prefLabel">pref Label</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"New Brunswick"@en</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/ns/prov#hadPrimarySource" target="_blank" title="http://www.w3.org/ns/prov#hadPrimarySource">had Primary Source</a> <sup class="type-ap" title="annotation property">ap</sup> <a href="https://www12.statcan.gc.ca/census-recensement/2021/ref/dict/tab/index-eng.cfm?ID=t1_8" target="_blank" title="https://www12.statcan.gc.ca/census-recensement/2021/ref/dict/tab/index-eng.cfm?ID=t1_8">index eng.cfm? I D=t1 8</a> <sup class="type-ep" title="external property">ep</sup>
+   </dd>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#hasIdentifier" target="_blank" title="https://ontology.commonapproach.org/cids#hasIdentifier">has Identifier</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"NB"</span>
+   </dd>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#hasSpecification" target="_blank" title="https://ontology.commonapproach.org/cids#hasSpecification">has Specification</a> <sup class="type-dp" title="data property">dp</sup> <a href="#d4e3" title="https://codelist.commonapproach.org/ProvinceTerritory">Province and Territory Codelist</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+  </dl>
+ </div>
+ <div class="entity" id="NL">
+  <h3>Newfoundland and Labrador<sup class="type-ni" title="named individual">ni</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a> </span></h3>
+  <p><strong>IRI:</strong> https://codelist.commonapproach.org/ProvinceTerritory#NL</p>
+  <dl class="definedBy">
+   <dt>
+    Is defined by
+   </dt>
+   <dd>
+    <a href="https://codelist.commonapproach.org/ProvinceTerritory">https://codelist.commonapproach.org/ProvinceTerritory</a>
+   </dd>
+  </dl>
+  <dl class="description">
+   <dt>
+    belongs to
+   </dt>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#ProvinceTerritory" target="_blank" title="https://ontology.commonapproach.org/cids#ProvinceTerritory">Province Territory</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+   <dt>
+    has facts
+   </dt>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#definedBy" target="_blank" title="https://ontology.commonapproach.org/cids#definedBy">defined By</a> <sup class="type-op" title="object property">op</sup> <a href="https://ontology.commonapproach.org/cids#statsCan" target="_blank" title="https://ontology.commonapproach.org/cids#statsCan">Statistics Canada</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+   <dd>
+    <a href="http://ontology.eil.utoronto.ca/tove/organization#hasName" target="_blank" title="http://ontology.eil.utoronto.ca/tove/organization#hasName">has Name</a> <sup class="type-dp" title="data property">dp</sup> <span class="literal">"Newfoundland and Labrador"</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#inScheme" target="_blank" title="http://www.w3.org/2004/02/skos/core#inScheme">in Scheme</a> <sup class="type-ap" title="annotation property">ap</sup> <a href="#d4e3" title="https://codelist.commonapproach.org/ProvinceTerritory">Province and Territory Codelist</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#notation" target="_blank" title="http://www.w3.org/2004/02/skos/core#notation">notation</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"NL"</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#prefLabel" target="_blank" title="http://www.w3.org/2004/02/skos/core#prefLabel">pref Label</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"Newfoundland and Labrador"@en</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/ns/prov#hadPrimarySource" target="_blank" title="http://www.w3.org/ns/prov#hadPrimarySource">had Primary Source</a> <sup class="type-ap" title="annotation property">ap</sup> <a href="https://www12.statcan.gc.ca/census-recensement/2021/ref/dict/tab/index-eng.cfm?ID=t1_8" target="_blank" title="https://www12.statcan.gc.ca/census-recensement/2021/ref/dict/tab/index-eng.cfm?ID=t1_8">index eng.cfm? I D=t1 8</a> <sup class="type-ep" title="external property">ep</sup>
+   </dd>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#hasIdentifier" target="_blank" title="https://ontology.commonapproach.org/cids#hasIdentifier">has Identifier</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"NL"</span>
+   </dd>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#hasSpecification" target="_blank" title="https://ontology.commonapproach.org/cids#hasSpecification">has Specification</a> <sup class="type-dp" title="data property">dp</sup> <a href="#d4e3" title="https://codelist.commonapproach.org/ProvinceTerritory">Province and Territory Codelist</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+  </dl>
+ </div>
+ <div class="entity" id="NT">
+  <h3>Northwest Territories<sup class="type-ni" title="named individual">ni</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a> </span></h3>
+  <p><strong>IRI:</strong> https://codelist.commonapproach.org/ProvinceTerritory#NT</p>
+  <dl class="definedBy">
+   <dt>
+    Is defined by
+   </dt>
+   <dd>
+    <a href="https://codelist.commonapproach.org/ProvinceTerritory">https://codelist.commonapproach.org/ProvinceTerritory</a>
+   </dd>
+  </dl>
+  <dl class="description">
+   <dt>
+    belongs to
+   </dt>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#ProvinceTerritory" target="_blank" title="https://ontology.commonapproach.org/cids#ProvinceTerritory">Province Territory</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+   <dt>
+    has facts
+   </dt>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#definedBy" target="_blank" title="https://ontology.commonapproach.org/cids#definedBy">defined By</a> <sup class="type-op" title="object property">op</sup> <a href="https://ontology.commonapproach.org/cids#statsCan" target="_blank" title="https://ontology.commonapproach.org/cids#statsCan">Statistics Canada</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+   <dd>
+    <a href="http://ontology.eil.utoronto.ca/tove/organization#hasName" target="_blank" title="http://ontology.eil.utoronto.ca/tove/organization#hasName">has Name</a> <sup class="type-dp" title="data property">dp</sup> <span class="literal">"Northwest Territories"</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#inScheme" target="_blank" title="http://www.w3.org/2004/02/skos/core#inScheme">in Scheme</a> <sup class="type-ap" title="annotation property">ap</sup> <a href="#d4e3" title="https://codelist.commonapproach.org/ProvinceTerritory">Province and Territory Codelist</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#notation" target="_blank" title="http://www.w3.org/2004/02/skos/core#notation">notation</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"NT"</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#prefLabel" target="_blank" title="http://www.w3.org/2004/02/skos/core#prefLabel">pref Label</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"Northwest Territories"@en</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/ns/prov#hadPrimarySource" target="_blank" title="http://www.w3.org/ns/prov#hadPrimarySource">had Primary Source</a> <sup class="type-ap" title="annotation property">ap</sup> <a href="https://www12.statcan.gc.ca/census-recensement/2021/ref/dict/tab/index-eng.cfm?ID=t1_8" target="_blank" title="https://www12.statcan.gc.ca/census-recensement/2021/ref/dict/tab/index-eng.cfm?ID=t1_8">index eng.cfm? I D=t1 8</a> <sup class="type-ep" title="external property">ep</sup>
+   </dd>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#hasIdentifier" target="_blank" title="https://ontology.commonapproach.org/cids#hasIdentifier">has Identifier</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"NT"</span>
+   </dd>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#hasSpecification" target="_blank" title="https://ontology.commonapproach.org/cids#hasSpecification">has Specification</a> <sup class="type-dp" title="data property">dp</sup> <a href="#d4e3" title="https://codelist.commonapproach.org/ProvinceTerritory">Province and Territory Codelist</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+  </dl>
+ </div>
+ <div class="entity" id="NS">
+  <h3>Nova Scotia<sup class="type-ni" title="named individual">ni</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a> </span></h3>
+  <p><strong>IRI:</strong> https://codelist.commonapproach.org/ProvinceTerritory#NS</p>
+  <dl class="definedBy">
+   <dt>
+    Is defined by
+   </dt>
+   <dd>
+    <a href="https://codelist.commonapproach.org/ProvinceTerritory">https://codelist.commonapproach.org/ProvinceTerritory</a>
+   </dd>
+  </dl>
+  <dl class="description">
+   <dt>
+    belongs to
+   </dt>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#ProvinceTerritory" target="_blank" title="https://ontology.commonapproach.org/cids#ProvinceTerritory">Province Territory</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+   <dt>
+    has facts
+   </dt>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#definedBy" target="_blank" title="https://ontology.commonapproach.org/cids#definedBy">defined By</a> <sup class="type-op" title="object property">op</sup> <a href="https://ontology.commonapproach.org/cids#statsCan" target="_blank" title="https://ontology.commonapproach.org/cids#statsCan">Statistics Canada</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+   <dd>
+    <a href="http://ontology.eil.utoronto.ca/tove/organization#hasName" target="_blank" title="http://ontology.eil.utoronto.ca/tove/organization#hasName">has Name</a> <sup class="type-dp" title="data property">dp</sup> <span class="literal">"Nova Scotia"</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#inScheme" target="_blank" title="http://www.w3.org/2004/02/skos/core#inScheme">in Scheme</a> <sup class="type-ap" title="annotation property">ap</sup> <a href="#d4e3" title="https://codelist.commonapproach.org/ProvinceTerritory">Province and Territory Codelist</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#notation" target="_blank" title="http://www.w3.org/2004/02/skos/core#notation">notation</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"NS"</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#prefLabel" target="_blank" title="http://www.w3.org/2004/02/skos/core#prefLabel">pref Label</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"Nova Scotia"@en</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/ns/prov#hadPrimarySource" target="_blank" title="http://www.w3.org/ns/prov#hadPrimarySource">had Primary Source</a> <sup class="type-ap" title="annotation property">ap</sup> <a href="https://www12.statcan.gc.ca/census-recensement/2021/ref/dict/tab/index-eng.cfm?ID=t1_8" target="_blank" title="https://www12.statcan.gc.ca/census-recensement/2021/ref/dict/tab/index-eng.cfm?ID=t1_8">index eng.cfm? I D=t1 8</a> <sup class="type-ep" title="external property">ep</sup>
+   </dd>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#hasIdentifier" target="_blank" title="https://ontology.commonapproach.org/cids#hasIdentifier">has Identifier</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"NS"</span>
+   </dd>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#hasSpecification" target="_blank" title="https://ontology.commonapproach.org/cids#hasSpecification">has Specification</a> <sup class="type-dp" title="data property">dp</sup> <a href="#d4e3" title="https://codelist.commonapproach.org/ProvinceTerritory">Province and Territory Codelist</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+  </dl>
+ </div>
+ <div class="entity" id="NU">
+  <h3>Nunavut<sup class="type-ni" title="named individual">ni</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a> </span></h3>
+  <p><strong>IRI:</strong> https://codelist.commonapproach.org/ProvinceTerritory#NU</p>
+  <dl class="definedBy">
+   <dt>
+    Is defined by
+   </dt>
+   <dd>
+    <a href="https://codelist.commonapproach.org/ProvinceTerritory">https://codelist.commonapproach.org/ProvinceTerritory</a>
+   </dd>
+  </dl>
+  <dl class="description">
+   <dt>
+    belongs to
+   </dt>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#ProvinceTerritory" target="_blank" title="https://ontology.commonapproach.org/cids#ProvinceTerritory">Province Territory</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+   <dt>
+    has facts
+   </dt>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#definedBy" target="_blank" title="https://ontology.commonapproach.org/cids#definedBy">defined By</a> <sup class="type-op" title="object property">op</sup> <a href="https://ontology.commonapproach.org/cids#statsCan" target="_blank" title="https://ontology.commonapproach.org/cids#statsCan">Statistics Canada</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+   <dd>
+    <a href="http://ontology.eil.utoronto.ca/tove/organization#hasName" target="_blank" title="http://ontology.eil.utoronto.ca/tove/organization#hasName">has Name</a> <sup class="type-dp" title="data property">dp</sup> <span class="literal">"Nunavut"</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#inScheme" target="_blank" title="http://www.w3.org/2004/02/skos/core#inScheme">in Scheme</a> <sup class="type-ap" title="annotation property">ap</sup> <a href="#d4e3" title="https://codelist.commonapproach.org/ProvinceTerritory">Province and Territory Codelist</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#notation" target="_blank" title="http://www.w3.org/2004/02/skos/core#notation">notation</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"NU"</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#prefLabel" target="_blank" title="http://www.w3.org/2004/02/skos/core#prefLabel">pref Label</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"Nunavut"@en</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/ns/prov#hadPrimarySource" target="_blank" title="http://www.w3.org/ns/prov#hadPrimarySource">had Primary Source</a> <sup class="type-ap" title="annotation property">ap</sup> <a href="https://www12.statcan.gc.ca/census-recensement/2021/ref/dict/tab/index-eng.cfm?ID=t1_8" target="_blank" title="https://www12.statcan.gc.ca/census-recensement/2021/ref/dict/tab/index-eng.cfm?ID=t1_8">index eng.cfm? I D=t1 8</a> <sup class="type-ep" title="external property">ep</sup>
+   </dd>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#hasIdentifier" target="_blank" title="https://ontology.commonapproach.org/cids#hasIdentifier">has Identifier</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"NU"</span>
+   </dd>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#hasSpecification" target="_blank" title="https://ontology.commonapproach.org/cids#hasSpecification">has Specification</a> <sup class="type-dp" title="data property">dp</sup> <a href="#d4e3" title="https://codelist.commonapproach.org/ProvinceTerritory">Province and Territory Codelist</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+  </dl>
+ </div>
+ <div class="entity" id="ON">
+  <h3>Ontario<sup class="type-ni" title="named individual">ni</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a> </span></h3>
+  <p><strong>IRI:</strong> https://codelist.commonapproach.org/ProvinceTerritory#ON</p>
+  <dl class="definedBy">
+   <dt>
+    Is defined by
+   </dt>
+   <dd>
+    <a href="https://codelist.commonapproach.org/ProvinceTerritory">https://codelist.commonapproach.org/ProvinceTerritory</a>
+   </dd>
+  </dl>
+  <dl class="description">
+   <dt>
+    belongs to
+   </dt>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#ProvinceTerritory" target="_blank" title="https://ontology.commonapproach.org/cids#ProvinceTerritory">Province Territory</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+   <dt>
+    has facts
+   </dt>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#definedBy" target="_blank" title="https://ontology.commonapproach.org/cids#definedBy">defined By</a> <sup class="type-op" title="object property">op</sup> <a href="https://ontology.commonapproach.org/cids#statsCan" target="_blank" title="https://ontology.commonapproach.org/cids#statsCan">Statistics Canada</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+   <dd>
+    <a href="http://ontology.eil.utoronto.ca/tove/organization#hasName" target="_blank" title="http://ontology.eil.utoronto.ca/tove/organization#hasName">has Name</a> <sup class="type-dp" title="data property">dp</sup> <span class="literal">"Ontario"</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#inScheme" target="_blank" title="http://www.w3.org/2004/02/skos/core#inScheme">in Scheme</a> <sup class="type-ap" title="annotation property">ap</sup> <a href="#d4e3" title="https://codelist.commonapproach.org/ProvinceTerritory">Province and Territory Codelist</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#notation" target="_blank" title="http://www.w3.org/2004/02/skos/core#notation">notation</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"ON"</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#prefLabel" target="_blank" title="http://www.w3.org/2004/02/skos/core#prefLabel">pref Label</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"Ontario"@en</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/ns/prov#hadPrimarySource" target="_blank" title="http://www.w3.org/ns/prov#hadPrimarySource">had Primary Source</a> <sup class="type-ap" title="annotation property">ap</sup> <a href="https://www12.statcan.gc.ca/census-recensement/2021/ref/dict/tab/index-eng.cfm?ID=t1_8" target="_blank" title="https://www12.statcan.gc.ca/census-recensement/2021/ref/dict/tab/index-eng.cfm?ID=t1_8">index eng.cfm? I D=t1 8</a> <sup class="type-ep" title="external property">ep</sup>
+   </dd>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#hasIdentifier" target="_blank" title="https://ontology.commonapproach.org/cids#hasIdentifier">has Identifier</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"ON"</span>
+   </dd>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#hasSpecification" target="_blank" title="https://ontology.commonapproach.org/cids#hasSpecification">has Specification</a> <sup class="type-dp" title="data property">dp</sup> <a href="#d4e3" title="https://codelist.commonapproach.org/ProvinceTerritory">Province and Territory Codelist</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+  </dl>
+ </div>
+ <div class="entity" id="PE">
+  <h3>Prince Edward Island<sup class="type-ni" title="named individual">ni</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a> </span></h3>
+  <p><strong>IRI:</strong> https://codelist.commonapproach.org/ProvinceTerritory#PE</p>
+  <dl class="definedBy">
+   <dt>
+    Is defined by
+   </dt>
+   <dd>
+    <a href="https://codelist.commonapproach.org/ProvinceTerritory">https://codelist.commonapproach.org/ProvinceTerritory</a>
+   </dd>
+  </dl>
+  <dl class="description">
+   <dt>
+    belongs to
+   </dt>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#ProvinceTerritory" target="_blank" title="https://ontology.commonapproach.org/cids#ProvinceTerritory">Province Territory</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+   <dt>
+    has facts
+   </dt>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#definedBy" target="_blank" title="https://ontology.commonapproach.org/cids#definedBy">defined By</a> <sup class="type-op" title="object property">op</sup> <a href="https://ontology.commonapproach.org/cids#statsCan" target="_blank" title="https://ontology.commonapproach.org/cids#statsCan">Statistics Canada</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+   <dd>
+    <a href="http://ontology.eil.utoronto.ca/tove/organization#hasName" target="_blank" title="http://ontology.eil.utoronto.ca/tove/organization#hasName">has Name</a> <sup class="type-dp" title="data property">dp</sup> <span class="literal">"Prince Edward Island"</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#inScheme" target="_blank" title="http://www.w3.org/2004/02/skos/core#inScheme">in Scheme</a> <sup class="type-ap" title="annotation property">ap</sup> <a href="#d4e3" title="https://codelist.commonapproach.org/ProvinceTerritory">Province and Territory Codelist</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#notation" target="_blank" title="http://www.w3.org/2004/02/skos/core#notation">notation</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"PE"</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#prefLabel" target="_blank" title="http://www.w3.org/2004/02/skos/core#prefLabel">pref Label</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"Prince Edward Island"@en</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/ns/prov#hadPrimarySource" target="_blank" title="http://www.w3.org/ns/prov#hadPrimarySource">had Primary Source</a> <sup class="type-ap" title="annotation property">ap</sup> <a href="https://www12.statcan.gc.ca/census-recensement/2021/ref/dict/tab/index-eng.cfm?ID=t1_8" target="_blank" title="https://www12.statcan.gc.ca/census-recensement/2021/ref/dict/tab/index-eng.cfm?ID=t1_8">index eng.cfm? I D=t1 8</a> <sup class="type-ep" title="external property">ep</sup>
+   </dd>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#hasIdentifier" target="_blank" title="https://ontology.commonapproach.org/cids#hasIdentifier">has Identifier</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"PE"</span>
+   </dd>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#hasSpecification" target="_blank" title="https://ontology.commonapproach.org/cids#hasSpecification">has Specification</a> <sup class="type-dp" title="data property">dp</sup> <a href="#d4e3" title="https://codelist.commonapproach.org/ProvinceTerritory">Province and Territory Codelist</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+  </dl>
+ </div>
+ <div class="entity" id="">
+  <h3>Province and Territory Codelist<sup class="type-ni" title="named individual">ni</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a> </span></h3>
+  <p><strong>IRI:</strong> https://codelist.commonapproach.org/ProvinceTerritory</p>
+  <dl class="description">
+   <dt>
+    belongs to
+   </dt>
+   <dd>
+    <a href="http://purl.org/vocommons/voaf#Vocabulary" target="_blank" title="http://purl.org/vocommons/voaf#Vocabulary">Vocabulary</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#ConceptScheme" target="_blank" title="http://www.w3.org/2004/02/skos/core#ConceptScheme">Concept Scheme</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+  </dl>
+ </div>
+ <div class="entity" id="QC">
+  <h3>Quebec<sup class="type-ni" title="named individual">ni</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a> </span></h3>
+  <p><strong>IRI:</strong> https://codelist.commonapproach.org/ProvinceTerritory#QC</p>
+  <dl class="definedBy">
+   <dt>
+    Is defined by
+   </dt>
+   <dd>
+    <a href="https://codelist.commonapproach.org/ProvinceTerritory">https://codelist.commonapproach.org/ProvinceTerritory</a>
+   </dd>
+  </dl>
+  <dl class="description">
+   <dt>
+    belongs to
+   </dt>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#ProvinceTerritory" target="_blank" title="https://ontology.commonapproach.org/cids#ProvinceTerritory">Province Territory</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+   <dt>
+    has facts
+   </dt>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#definedBy" target="_blank" title="https://ontology.commonapproach.org/cids#definedBy">defined By</a> <sup class="type-op" title="object property">op</sup> <a href="https://ontology.commonapproach.org/cids#statsCan" target="_blank" title="https://ontology.commonapproach.org/cids#statsCan">Statistics Canada</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+   <dd>
+    <a href="http://ontology.eil.utoronto.ca/tove/organization#hasName" target="_blank" title="http://ontology.eil.utoronto.ca/tove/organization#hasName">has Name</a> <sup class="type-dp" title="data property">dp</sup> <span class="literal">"Quebec"</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#inScheme" target="_blank" title="http://www.w3.org/2004/02/skos/core#inScheme">in Scheme</a> <sup class="type-ap" title="annotation property">ap</sup> <a href="#d4e3" title="https://codelist.commonapproach.org/ProvinceTerritory">Province and Territory Codelist</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#notation" target="_blank" title="http://www.w3.org/2004/02/skos/core#notation">notation</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"QC"</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#prefLabel" target="_blank" title="http://www.w3.org/2004/02/skos/core#prefLabel">pref Label</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"Quebec"@en</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/ns/prov#hadPrimarySource" target="_blank" title="http://www.w3.org/ns/prov#hadPrimarySource">had Primary Source</a> <sup class="type-ap" title="annotation property">ap</sup> <a href="https://www12.statcan.gc.ca/census-recensement/2021/ref/dict/tab/index-eng.cfm?ID=t1_8" target="_blank" title="https://www12.statcan.gc.ca/census-recensement/2021/ref/dict/tab/index-eng.cfm?ID=t1_8">index eng.cfm? I D=t1 8</a> <sup class="type-ep" title="external property">ep</sup>
+   </dd>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#hasIdentifier" target="_blank" title="https://ontology.commonapproach.org/cids#hasIdentifier">has Identifier</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"QC"</span>
+   </dd>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#hasSpecification" target="_blank" title="https://ontology.commonapproach.org/cids#hasSpecification">has Specification</a> <sup class="type-dp" title="data property">dp</sup> <a href="#d4e3" title="https://codelist.commonapproach.org/ProvinceTerritory">Province and Territory Codelist</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+  </dl>
+ </div>
+ <div class="entity" id="SK">
+  <h3>Saskatchewan<sup class="type-ni" title="named individual">ni</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a> </span></h3>
+  <p><strong>IRI:</strong> https://codelist.commonapproach.org/ProvinceTerritory#SK</p>
+  <dl class="definedBy">
+   <dt>
+    Is defined by
+   </dt>
+   <dd>
+    <a href="https://codelist.commonapproach.org/ProvinceTerritory">https://codelist.commonapproach.org/ProvinceTerritory</a>
+   </dd>
+  </dl>
+  <dl class="description">
+   <dt>
+    belongs to
+   </dt>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#ProvinceTerritory" target="_blank" title="https://ontology.commonapproach.org/cids#ProvinceTerritory">Province Territory</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+   <dt>
+    has facts
+   </dt>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#definedBy" target="_blank" title="https://ontology.commonapproach.org/cids#definedBy">defined By</a> <sup class="type-op" title="object property">op</sup> <a href="https://ontology.commonapproach.org/cids#statsCan" target="_blank" title="https://ontology.commonapproach.org/cids#statsCan">Statistics Canada</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+   <dd>
+    <a href="http://ontology.eil.utoronto.ca/tove/organization#hasName" target="_blank" title="http://ontology.eil.utoronto.ca/tove/organization#hasName">has Name</a> <sup class="type-dp" title="data property">dp</sup> <span class="literal">"Saskatchewan"</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#inScheme" target="_blank" title="http://www.w3.org/2004/02/skos/core#inScheme">in Scheme</a> <sup class="type-ap" title="annotation property">ap</sup> <a href="#d4e3" title="https://codelist.commonapproach.org/ProvinceTerritory">Province and Territory Codelist</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#notation" target="_blank" title="http://www.w3.org/2004/02/skos/core#notation">notation</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"SK"</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#prefLabel" target="_blank" title="http://www.w3.org/2004/02/skos/core#prefLabel">pref Label</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"Saskatchewan"@en</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/ns/prov#hadPrimarySource" target="_blank" title="http://www.w3.org/ns/prov#hadPrimarySource">had Primary Source</a> <sup class="type-ap" title="annotation property">ap</sup> <a href="https://www12.statcan.gc.ca/census-recensement/2021/ref/dict/tab/index-eng.cfm?ID=t1_8" target="_blank" title="https://www12.statcan.gc.ca/census-recensement/2021/ref/dict/tab/index-eng.cfm?ID=t1_8">index eng.cfm? I D=t1 8</a> <sup class="type-ep" title="external property">ep</sup>
+   </dd>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#hasIdentifier" target="_blank" title="https://ontology.commonapproach.org/cids#hasIdentifier">has Identifier</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"SK"</span>
+   </dd>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#hasSpecification" target="_blank" title="https://ontology.commonapproach.org/cids#hasSpecification">has Specification</a> <sup class="type-dp" title="data property">dp</sup> <a href="#d4e3" title="https://codelist.commonapproach.org/ProvinceTerritory">Province and Territory Codelist</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+  </dl>
+ </div>
+ <div class="entity" id="YT">
+  <h3>Yukon<sup class="type-ni" title="named individual">ni</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a> </span></h3>
+  <p><strong>IRI:</strong> https://codelist.commonapproach.org/ProvinceTerritory#YT</p>
+  <dl class="definedBy">
+   <dt>
+    Is defined by
+   </dt>
+   <dd>
+    <a href="https://codelist.commonapproach.org/ProvinceTerritory">https://codelist.commonapproach.org/ProvinceTerritory</a>
+   </dd>
+  </dl>
+  <dl class="description">
+   <dt>
+    belongs to
+   </dt>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#ProvinceTerritory" target="_blank" title="https://ontology.commonapproach.org/cids#ProvinceTerritory">Province Territory</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+   <dt>
+    has facts
+   </dt>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#definedBy" target="_blank" title="https://ontology.commonapproach.org/cids#definedBy">defined By</a> <sup class="type-op" title="object property">op</sup> <a href="https://ontology.commonapproach.org/cids#statsCan" target="_blank" title="https://ontology.commonapproach.org/cids#statsCan">Statistics Canada</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+   <dd>
+    <a href="http://ontology.eil.utoronto.ca/tove/organization#hasName" target="_blank" title="http://ontology.eil.utoronto.ca/tove/organization#hasName">has Name</a> <sup class="type-dp" title="data property">dp</sup> <span class="literal">"Yukon"</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#inScheme" target="_blank" title="http://www.w3.org/2004/02/skos/core#inScheme">in Scheme</a> <sup class="type-ap" title="annotation property">ap</sup> <a href="#d4e3" title="https://codelist.commonapproach.org/ProvinceTerritory">Province and Territory Codelist</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#notation" target="_blank" title="http://www.w3.org/2004/02/skos/core#notation">notation</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"YT"</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/2004/02/skos/core#prefLabel" target="_blank" title="http://www.w3.org/2004/02/skos/core#prefLabel">pref Label</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"Yukon"@en</span>
+   </dd>
+   <dd>
+    <a href="http://www.w3.org/ns/prov#hadPrimarySource" target="_blank" title="http://www.w3.org/ns/prov#hadPrimarySource">had Primary Source</a> <sup class="type-ap" title="annotation property">ap</sup> <a href="https://www12.statcan.gc.ca/census-recensement/2021/ref/dict/tab/index-eng.cfm?ID=t1_8" target="_blank" title="https://www12.statcan.gc.ca/census-recensement/2021/ref/dict/tab/index-eng.cfm?ID=t1_8">index eng.cfm? I D=t1 8</a> <sup class="type-ep" title="external property">ep</sup>
+   </dd>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#hasIdentifier" target="_blank" title="https://ontology.commonapproach.org/cids#hasIdentifier">has Identifier</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"YT"</span>
+   </dd>
+   <dd>
+    <a href="https://ontology.commonapproach.org/cids#hasSpecification" target="_blank" title="https://ontology.commonapproach.org/cids#hasSpecification">has Specification</a> <sup class="type-dp" title="data property">dp</sup> <a href="#d4e3" title="https://codelist.commonapproach.org/ProvinceTerritory">Province and Territory Codelist</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+  </dl>
+ </div>
+</div><div id="legend">
+<h2>Legend <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>
+<div   class="entity">
+<sup class="type-c" title="Classes">c</sup>: Classes <br/>
+<sup class="type-op" title="Object Properties">op</sup>: Object Properties <br/>
+<sup class="type-dp" title="Data Properties">dp</sup>: Data Properties <br/>
+<sup class="type-ni" title="Named Individuals">ni</sup>: Named Individuals <br/>
+<sup class="type-ep" title="External Properties">ep</sup>: External Properties
+</div>
+</div>
+</div>
+<div id="acknowledgments">
+<h2 id="ack" class="list">Acknowledgments <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>
+<p>
+The authors would like to thank <a href="http://www.essepuntato.it/">Silvio Peroni</a> for developing <a href="http://www.essepuntato.it/lode">LODE</a>, a Live OWL Documentation Environment, which is used for representing the Cross Referencing Section of this document and <a href="https://w3id.org/people/dgarijo">Daniel Garijo</a> for developing <a href="https://github.com/dgarijo/Widoco">Widoco</a>, the program used to create the template used in this documentation.</p>
+</div>
+
+
+</div>
+</body>
+</html>

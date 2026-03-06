@@ -1,8 +1,11 @@
 <rdf:RDF
     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dcterms="http://purl.org/dc/terms/"
     xmlns:i72="http://ontology.eil.utoronto.ca/ISO21972/iso21972#"
     xmlns:owl="http://www.w3.org/2002/07/owl#"
     xmlns:cids="https://ontology.commonapproach.org/cids#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:voaf="http://purl.org/vocommons/voaf#"
     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
     xmlns:xsd="http://www.w3.org/2001/XMLSchema#" > 
   <rdf:Description rdf:about="https://ontology.commonapproach.org/cids#countUnit">
@@ -111,6 +114,18 @@
     <i72:symbol xml:lang="en">m^3</i72:symbol>
     <rdfs:label xml:lang="en">Cubic Meter</rdfs:label>
     <rdf:type rdf:resource="http://ontology.eil.utoronto.ca/ISO21972/iso21972#Unit_exponentiation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="">
+    <dcterms:description xml:lang="en">A codelist vocabulary of units of measure for use in CIDS-aligned software.</dcterms:description>
+    <dcterms:title xml:lang="en">Units of Measure List</dcterms:title>
+    <skos:prefLabel xml:lang="en">Units of Measure List</skos:prefLabel>
+    <owl:versionInfo>1.1</owl:versionInfo>
+    <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-10-31</dcterms:date>
+    <dcterms:creator rdf:resource="https://ontology.commonapproach.org/cids#ac"/>
+    <owl:imports rdf:resource="https://ontology.commonapproach.org/cids"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
+    <rdf:type rdf:resource="http://purl.org/vocommons/voaf#Vocabulary"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://ontology.commonapproach.org/cids#unspecifiedUnit">
     <rdfs:comment xml:lang="en">A placeholder for unspecified units.</rdfs:comment>

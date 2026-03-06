@@ -1,3 +1,13 @@
+<file:///home/dsl/src/cei/commonapproach/CodeLists.git/UnitsOfMeasureList.ttl> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocommons/voaf#Vocabulary> .
+<file:///home/dsl/src/cei/commonapproach/CodeLists.git/UnitsOfMeasureList.ttl> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<file:///home/dsl/src/cei/commonapproach/CodeLists.git/UnitsOfMeasureList.ttl> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
+<file:///home/dsl/src/cei/commonapproach/CodeLists.git/UnitsOfMeasureList.ttl> <http://www.w3.org/2002/07/owl#imports> <https://ontology.commonapproach.org/cids> .
+<file:///home/dsl/src/cei/commonapproach/CodeLists.git/UnitsOfMeasureList.ttl> <http://purl.org/dc/terms/creator> <https://ontology.commonapproach.org/cids#ac> .
+<file:///home/dsl/src/cei/commonapproach/CodeLists.git/UnitsOfMeasureList.ttl> <http://purl.org/dc/terms/date> "2025-10-31"^^<http://www.w3.org/2001/XMLSchema#date> .
+<file:///home/dsl/src/cei/commonapproach/CodeLists.git/UnitsOfMeasureList.ttl> <http://www.w3.org/2002/07/owl#versionInfo> "1.1" .
+<file:///home/dsl/src/cei/commonapproach/CodeLists.git/UnitsOfMeasureList.ttl> <http://www.w3.org/2004/02/skos/core#prefLabel> "Units of Measure List"@en .
+<file:///home/dsl/src/cei/commonapproach/CodeLists.git/UnitsOfMeasureList.ttl> <http://purl.org/dc/terms/title> "Units of Measure List"@en .
+<file:///home/dsl/src/cei/commonapproach/CodeLists.git/UnitsOfMeasureList.ttl> <http://purl.org/dc/terms/description> "A codelist vocabulary of units of measure for use in CIDS-aligned software."@en .
 <https://ontology.commonapproach.org/cids#dayUnit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ontology.eil.utoronto.ca/ISO21972/iso21972#Singular_unit> .
 <https://ontology.commonapproach.org/cids#dayUnit> <http://www.w3.org/2000/01/rdf-schema#label> "Days"@en .
 <https://ontology.commonapproach.org/cids#dayUnit> <http://ontology.eil.utoronto.ca/ISO21972/iso21972#symbol> "days"@en .

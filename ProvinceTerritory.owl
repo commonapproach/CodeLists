@@ -20,7 +20,6 @@
     <cids:hasIdentifier>BC</cids:hasIdentifier>
     <skos:prefLabel xml:lang="en">British Columbia</skos:prefLabel>
     <org:hasName>British Columbia</org:hasName>
-    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Locality"/>
     <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#ProvinceTerritory"/>
   </rdf:Description>
   <rdf:Description rdf:about="#AB">
@@ -33,7 +32,6 @@
     <cids:hasIdentifier>AB</cids:hasIdentifier>
     <skos:prefLabel xml:lang="en">Alberta</skos:prefLabel>
     <org:hasName>Alberta</org:hasName>
-    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Locality"/>
     <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#ProvinceTerritory"/>
   </rdf:Description>
   <rdf:Description rdf:about="#ON">
@@ -46,7 +44,6 @@
     <cids:hasIdentifier>ON</cids:hasIdentifier>
     <skos:prefLabel xml:lang="en">Ontario</skos:prefLabel>
     <org:hasName>Ontario</org:hasName>
-    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Locality"/>
     <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#ProvinceTerritory"/>
   </rdf:Description>
   <rdf:Description rdf:about="#NT">
@@ -59,7 +56,6 @@
     <cids:hasIdentifier>NT</cids:hasIdentifier>
     <skos:prefLabel xml:lang="en">Northwest Territories</skos:prefLabel>
     <org:hasName>Northwest Territories</org:hasName>
-    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Locality"/>
     <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#ProvinceTerritory"/>
   </rdf:Description>
   <rdf:Description rdf:about="#NS">
@@ -72,7 +68,6 @@
     <cids:hasIdentifier>NS</cids:hasIdentifier>
     <skos:prefLabel xml:lang="en">Nova Scotia</skos:prefLabel>
     <org:hasName>Nova Scotia</org:hasName>
-    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Locality"/>
     <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#ProvinceTerritory"/>
   </rdf:Description>
   <rdf:Description rdf:about="#SK">
@@ -85,7 +80,6 @@
     <cids:hasIdentifier>SK</cids:hasIdentifier>
     <skos:prefLabel xml:lang="en">Saskatchewan</skos:prefLabel>
     <org:hasName>Saskatchewan</org:hasName>
-    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Locality"/>
     <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#ProvinceTerritory"/>
   </rdf:Description>
   <rdf:Description rdf:about="#NL">
@@ -98,7 +92,6 @@
     <cids:hasIdentifier>NL</cids:hasIdentifier>
     <skos:prefLabel xml:lang="en">Newfoundland and Labrador</skos:prefLabel>
     <org:hasName>Newfoundland and Labrador</org:hasName>
-    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Locality"/>
     <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#ProvinceTerritory"/>
   </rdf:Description>
   <rdf:Description rdf:about="#YT">
@@ -111,7 +104,6 @@
     <cids:hasIdentifier>YT</cids:hasIdentifier>
     <skos:prefLabel xml:lang="en">Yukon</skos:prefLabel>
     <org:hasName>Yukon</org:hasName>
-    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Locality"/>
     <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#ProvinceTerritory"/>
   </rdf:Description>
   <rdf:Description rdf:about="">
@@ -136,7 +128,6 @@
     <cids:hasIdentifier>QC</cids:hasIdentifier>
     <skos:prefLabel xml:lang="en">Quebec</skos:prefLabel>
     <org:hasName>Quebec</org:hasName>
-    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Locality"/>
     <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#ProvinceTerritory"/>
   </rdf:Description>
   <rdf:Description rdf:about="#PE">
@@ -149,7 +140,6 @@
     <cids:hasIdentifier>PE</cids:hasIdentifier>
     <skos:prefLabel xml:lang="en">Prince Edward Island</skos:prefLabel>
     <org:hasName>Prince Edward Island</org:hasName>
-    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Locality"/>
     <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#ProvinceTerritory"/>
   </rdf:Description>
   <rdf:Description rdf:about="#MB">
@@ -162,7 +152,6 @@
     <cids:hasIdentifier>MB</cids:hasIdentifier>
     <skos:prefLabel xml:lang="en">Manitoba</skos:prefLabel>
     <org:hasName>Manitoba</org:hasName>
-    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Locality"/>
     <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#ProvinceTerritory"/>
   </rdf:Description>
   <rdf:Description rdf:about="#NB">
@@ -175,7 +164,6 @@
     <cids:hasIdentifier>NB</cids:hasIdentifier>
     <skos:prefLabel xml:lang="en">New Brunswick</skos:prefLabel>
     <org:hasName>New Brunswick</org:hasName>
-    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Locality"/>
     <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#ProvinceTerritory"/>
   </rdf:Description>
   <rdf:Description rdf:about="#NU">
@@ -188,7 +176,6 @@
     <cids:hasIdentifier>NU</cids:hasIdentifier>
     <skos:prefLabel xml:lang="en">Nunavut</skos:prefLabel>
     <org:hasName>Nunavut</org:hasName>
-    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Locality"/>
     <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#ProvinceTerritory"/>
   </rdf:Description>
   <rdf:Description rdf:about="#CAN">
@@ -201,6 +188,6 @@
     <cids:hasIdentifier>CAN</cids:hasIdentifier>
     <skos:prefLabel xml:lang="en">All of Canada</skos:prefLabel>
     <org:hasName>All of Canada</org:hasName>
-    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Locality"/>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#ProvinceTerritory"/>
   </rdf:Description>
 </rdf:RDF>

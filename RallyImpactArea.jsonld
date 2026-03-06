@@ -112,13 +112,21 @@
             "prov:hadPrimarySource": {
                 "@id": "https://iris.thegiin.org/metrics/"
             },
+            "skos:changeNote": {
+                "@language": "en",
+                "@value": "Name updated from 'Waste Management' to 'Waste Management & Circularity' by GIIN in version 5.3c."
+            },
+            "skos:altLabel": {
+                "@language": "en",
+                "@value": "Waste Management"
+            },
             "skos:notation": "WasteManagement",
             "org:hasIdentifier": "WasteManagement",
             "skos:prefLabel": {
                 "@language": "en",
-                "@value": "Waste Management"
+                "@value": "Waste Management & Circularity"
             },
-            "org:hasName": "Waste Management",
+            "org:hasName": "Waste Management & Circularity",
             "skos:broader": {
                 "@id": "iriscategory:Waste"
             },
