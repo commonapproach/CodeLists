@@ -9,7 +9,7 @@ RewriteBase /
 RewriteCond %{HTTP_ACCEPT} text/html [OR]
 RewriteCond %{HTTP_ACCEPT} application/xhtml\+xml
 # Match any path consisting only of alphabetical characters
-RewriteRule ^/codeLists/([0-9a-zA-Z]+)$ /$1-en.html [R=303,L]
+RewriteRule ^/codeLists/([0-9a-zA-Z]+)$ /$1.html [R=303,L]
 # OWL
 RewriteCond %{HTTP_ACCEPT} application/rdf\+xml
 RewriteRule ^/codeLists/([0-9a-zA-Z]+)$ /$1.owl [R=303,L]
@@ -36,7 +36,7 @@ RewriteRule ^/codeLists/([A-ZA-Z]+)$ /$1.owl [R=303,L]
 RewriteCond %{HTTP_ACCEPT} text/html [OR]
 RewriteCond %{HTTP_ACCEPT} application/xhtml\+xml
 # Match any path consisting only of alphabetical characters
-RewriteRule ^([0-9a-zA-Z]+)/([0-9a-zA-Z]+)$ /$2-en.html [R=303,L]
+RewriteRule ^([0-9a-zA-Z]+)/([0-9a-zA-Z]+)$ /$2.html [R=303,L]
 # OWL
 RewriteCond %{HTTP_ACCEPT} application/rdf\+xml
 RewriteRule ^([0-9a-zA-Z]+)/([0-9a-zA-Z]+)$ /$2.owl [R=303,L]
@@ -64,7 +64,7 @@ RewriteRule ^([0-9a-zA-Z]+)/([0-9a-zA-Z]+)$ /$2.owl [R=303,L]
 RewriteCond %{HTTP_ACCEPT} text/html [OR]
 RewriteCond %{HTTP_ACCEPT} application/xhtml\+xml
 # Match any path consisting only of alphabetical characters
-RewriteRule ^([0-9a-zA-Z]+)$ /$1-en.html [R=303,L]
+RewriteRule ^([0-9a-zA-Z]+)$ /$1.html [R=303,L]
 # OWL
 RewriteCond %{HTTP_ACCEPT} application/rdf\+xml
 RewriteRule ^([0-9a-zA-Z]+)$ /$1.owl [R=303,L]
