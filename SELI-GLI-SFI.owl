@@ -50,14 +50,14 @@
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <org:hasName>Have you built meaningful social equity practices within your internal organizational culture?</org:hasName>
     <skos:prefLabel xml:lang="en">Have you built meaningful social equity practices within your internal organizational culture?</skos:prefLabel>
-    <skos:prefLabel xml:lang="fr">Avez-vous mis en place des pratiques d'équité sociale significatives au sein de votre culture organisationnelle ?</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Avez-vous mis en place des pratiques d'équité sociale au sein de votre culture organisationnelle?</skos:prefLabel>
     <rdfs:label xml:lang="en">Have you built meaningful social equity practices within your internal organizational culture?</rdfs:label>
-    <rdfs:label xml:lang="fr">Avez-vous mis en place des pratiques d'équité sociale significatives au sein de votre culture organisationnelle ?</rdfs:label>
+    <rdfs:label xml:lang="fr">Avez-vous mis en place des pratiques d'équité sociale au sein de votre culture organisationnelle?</rdfs:label>
     <cids:hasDescription>The Social Finance Intermediary meaningfully integrates social equity practices in its internal organizational culture.</cids:hasDescription>
     <skos:definition xml:lang="en">The Social Finance Intermediary meaningfully integrates social equity practices in its internal organizational culture.</skos:definition>
-    <skos:definition xml:lang="fr">L'intermédiaire en finance sociale intègre activement des pratiques d'équité sociale dans sa culture organisationnelle interne.</skos:definition>
+    <skos:definition xml:lang="fr">L'intermédiaire de finance sociale intègre activement des pratiques d'équité sociale dans sa culture organisationnelle.</skos:definition>
     <rdfs:comment xml:lang="en">The Social Finance Intermediary meaningfully integrates social equity practices in its internal organizational culture.</rdfs:comment>
-    <rdfs:comment xml:lang="fr">L'intermédiaire en finance sociale intègre activement des pratiques d'équité sociale dans sa culture organisationnelle interne.</rdfs:comment>
+    <rdfs:comment xml:lang="fr">L'intermédiaire de finance sociale intègre activement des pratiques d'équité sociale dans sa culture organisationnelle.</rdfs:comment>
     <cids:forOutcome rdf:resource="#Outcome3SFI"/>
     <cids:forOrganization rdf:resource="https://ontology.commonapproach.org/cids#esdc"/>
     <cids:definedBy rdf:resource="https://ontology.commonapproach.org/cids#esdc"/>
@@ -70,14 +70,14 @@
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <org:hasName>Have you built deal sourcing and due diligence practices which ensure inclusivity, transparency, and address barriers for equity-deserving groups?</org:hasName>
     <skos:prefLabel xml:lang="en">Have you built deal sourcing and due diligence practices which ensure inclusivity, transparency, and address barriers for equity-deserving groups?</skos:prefLabel>
-    <skos:prefLabel xml:lang="fr">Avez-vous mis en place des pratiques de sourçage et de diligence raisonnable qui assurent l'inclusivité, la transparence et qui réduisent les obstacles pour les groupes méritant l'équité ?</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Avez-vous mis en place des pratiques de prospection et de diligence raisonnables qui garantissent l'inclusion, la transparence et éliminent les obstacles pour les groupes méritant l'équité?</skos:prefLabel>
     <rdfs:label xml:lang="en">Have you built deal sourcing and due diligence practices which ensure inclusivity, transparency, and address barriers for equity-deserving groups?</rdfs:label>
-    <rdfs:label xml:lang="fr">Avez-vous mis en place des pratiques de sourçage et de diligence raisonnable qui assurent l'inclusivité, la transparence et qui réduisent les obstacles pour les groupes méritant l'équité ?</rdfs:label>
+    <rdfs:label xml:lang="fr">Avez-vous mis en place des pratiques de prospection et de diligence raisonnables qui garantissent l'inclusion, la transparence et éliminent les obstacles pour les groupes méritant l'équité?</rdfs:label>
     <cids:hasDescription>Deal sourcing and due diligence are conducted using inclusive and transparent practices, while recognizing power dynamics in the flow of social finance capital.</cids:hasDescription>
     <skos:definition xml:lang="en">Deal sourcing and due diligence are conducted using inclusive and transparent practices, while recognizing power dynamics in the flow of social finance capital.</skos:definition>
-    <skos:definition xml:lang="fr">Le sourçage des transactions et la diligence raisonnable sont menés selon des pratiques inclusives et transparentes, tout en tenant compte des dynamiques de pouvoir dans le flux de capital de finance sociale.</skos:definition>
+    <skos:definition xml:lang="fr">La prospection et la diligence raisonnable sont guidées par des pratiques transparentes et inclusives, tout en reconnaissant la dynamique du pouvoir dans le flux de capitaux de la finance sociale.</skos:definition>
     <rdfs:comment xml:lang="en">Deal sourcing and due diligence are conducted using inclusive and transparent practices, while recognizing power dynamics in the flow of social finance capital.</rdfs:comment>
-    <rdfs:comment xml:lang="fr">Le sourçage des transactions et la diligence raisonnable sont menés selon des pratiques inclusives et transparentes, tout en tenant compte des dynamiques de pouvoir dans le flux de capital de finance sociale.</rdfs:comment>
+    <rdfs:comment xml:lang="fr">La prospection et la diligence raisonnable sont guidées par des pratiques transparentes et inclusives, tout en reconnaissant la dynamique du pouvoir dans le flux de capitaux de la finance sociale.</rdfs:comment>
     <cids:forOutcome rdf:resource="#Outcome4SFI"/>
     <cids:forOrganization rdf:resource="https://ontology.commonapproach.org/cids#esdc"/>
     <cids:definedBy rdf:resource="https://ontology.commonapproach.org/cids#esdc"/>
@@ -90,14 +90,14 @@
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <org:hasName>Have you built in supports for capacity building and knowledge exchange to advance social equity and gender equality in the wider ecosystem?</org:hasName>
     <skos:prefLabel xml:lang="en">Have you built in supports for capacity building and knowledge exchange to advance social equity and gender equality in the wider ecosystem?</skos:prefLabel>
-    <skos:prefLabel xml:lang="fr">Avez-vous mis en place des mesures de soutien au renforcement des capacités et à l'échange de connaissances pour faire progresser l'équité sociale et l'égalité des genres dans l'écosystème élargi ?</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Avez-vous mis en place des mesures de soutien aux efforts de renforcement des capacités et d'échange de connaissances pour faire progresser l'équité sociale et l'égalité des genres dans l'écosystème au sens large?</skos:prefLabel>
     <rdfs:label xml:lang="en">Have you built in supports for capacity building and knowledge exchange to advance social equity and gender equality in the wider ecosystem?</rdfs:label>
-    <rdfs:label xml:lang="fr">Avez-vous mis en place des mesures de soutien au renforcement des capacités et à l'échange de connaissances pour faire progresser l'équité sociale et l'égalité des genres dans l'écosystème élargi ?</rdfs:label>
+    <rdfs:label xml:lang="fr">Avez-vous mis en place des mesures de soutien aux efforts de renforcement des capacités et d'échange de connaissances pour faire progresser l'équité sociale et l'égalité des genres dans l'écosystème au sens large?</rdfs:label>
     <cids:hasDescription>The Social Finance Intermediary demonstrates progress towards supporting capacity building and knowledge exchange efforts in social equity and/or gender equality practices in social finance.</cids:hasDescription>
     <skos:definition xml:lang="en">The Social Finance Intermediary demonstrates progress towards supporting capacity building and knowledge exchange efforts in social equity and/or gender equality practices in social finance.</skos:definition>
-    <skos:definition xml:lang="fr">L'intermédiaire en finance sociale démontre des progrès dans le soutien au renforcement des capacités et à l'échange de connaissances en matière d'équité sociale et/ou d'égalité des genres dans la finance sociale.</skos:definition>
+    <skos:definition xml:lang="fr">L'intermédiaire de finance sociale fait preuve de progrès dans son soutien aux efforts de renforcement des capacités et d'échange de connaissances en matière d'équité sociale ou/et d'égalité des genres dans le domaine de la finance sociale.</skos:definition>
     <rdfs:comment xml:lang="en">The Social Finance Intermediary demonstrates progress towards supporting capacity building and knowledge exchange efforts in social equity and/or gender equality practices in social finance.</rdfs:comment>
-    <rdfs:comment xml:lang="fr">L'intermédiaire en finance sociale démontre des progrès dans le soutien au renforcement des capacités et à l'échange de connaissances en matière d'équité sociale et/ou d'égalité des genres dans la finance sociale.</rdfs:comment>
+    <rdfs:comment xml:lang="fr">L'intermédiaire de finance sociale fait preuve de progrès dans son soutien aux efforts de renforcement des capacités et d'échange de connaissances en matière d'équité sociale ou/et d'égalité des genres dans le domaine de la finance sociale.</rdfs:comment>
     <cids:forOutcome rdf:resource="#Outcome4SFI"/>
     <cids:forOrganization rdf:resource="https://ontology.commonapproach.org/cids#esdc"/>
     <cids:definedBy rdf:resource="https://ontology.commonapproach.org/cids#esdc"/>
@@ -110,14 +110,14 @@
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <org:hasName>Does your leadership (i.e. senior management and governance bodies) include at least 50% of women and gender diverse people, who come from diverse backgrounds (e.g. age, race, geographic location, etc.)?</org:hasName>
     <skos:prefLabel xml:lang="en">Does your leadership (i.e. senior management and governance bodies) include at least 50% of women and gender diverse people, who come from diverse backgrounds (e.g. age, race, geographic location, etc.)?</skos:prefLabel>
-    <skos:prefLabel xml:lang="fr">Votre leadership (c'est-à-dire la direction et les instances de gouvernance) comprend-il au moins 50 % de femmes et de personnes de diverses identités de genre, issues de milieux divers (p. ex. âge, race, lieu géographique, etc.) ?</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Votre leadership (c'est-à-dire la haute direction et les organes de gouvernance) comprend-elle au moins 50 % de femmes et de personnes de diverses identités de genre et issues de milieux différents (âge, race, situation géographique, etc.)?</skos:prefLabel>
     <rdfs:label xml:lang="en">Does your leadership (i.e. senior management and governance bodies) include at least 50% of women and gender diverse people, who come from diverse backgrounds (e.g. age, race, geographic location, etc.)?</rdfs:label>
-    <rdfs:label xml:lang="fr">Votre leadership (c'est-à-dire la direction et les instances de gouvernance) comprend-il au moins 50 % de femmes et de personnes de diverses identités de genre, issues de milieux divers (p. ex. âge, race, lieu géographique, etc.) ?</rdfs:label>
+    <rdfs:label xml:lang="fr">Votre leadership (c'est-à-dire la haute direction et les organes de gouvernance) comprend-elle au moins 50 % de femmes et de personnes de diverses identités de genre et issues de milieux différents (âge, race, situation géographique, etc.)?</rdfs:label>
     <cids:hasDescription>Leadership of the Social Finance Intermediary is representative of equity-deserving groups.</cids:hasDescription>
     <skos:definition xml:lang="en">Leadership of the Social Finance Intermediary is representative of equity-deserving groups.</skos:definition>
-    <skos:definition xml:lang="fr">Le leadership de l'intermédiaire en finance sociale est représentatif des groupes méritant l'équité.</skos:definition>
+    <skos:definition xml:lang="fr">Le leadership de l'intermédiaire de finance sociale est représentatif des groupes méritant l'équité.</skos:definition>
     <rdfs:comment xml:lang="en">Leadership of the Social Finance Intermediary is representative of equity-deserving groups.</rdfs:comment>
-    <rdfs:comment xml:lang="fr">Le leadership de l'intermédiaire en finance sociale est représentatif des groupes méritant l'équité.</rdfs:comment>
+    <rdfs:comment xml:lang="fr">Le leadership de l'intermédiaire de finance sociale est représentatif des groupes méritant l'équité.</rdfs:comment>
     <cids:forOutcome rdf:resource="#Outcome2SFI"/>
     <cids:forOrganization rdf:resource="https://ontology.commonapproach.org/cids#esdc"/>
     <cids:definedBy rdf:resource="https://ontology.commonapproach.org/cids#esdc"/>
@@ -145,18 +145,22 @@
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <org:hasName>Have you built a two-way feedback process with successful and unsuccessful investees to demonstrate community accountability?</org:hasName>
     <skos:prefLabel xml:lang="en">Have you built a two-way feedback process with successful and unsuccessful investees to demonstrate community accountability?</skos:prefLabel>
-    <skos:prefLabel xml:lang="fr">Avez-vous mis en place un processus de rétroaction bidirectionnel avec les investis ayant réussi ou échoué pour démontrer l'obligation de rendre des comptes envers la communauté ?</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Avez-vous mis en place un processus de retour d'information réciproque avec les organismes à vocation sociales retenus et non retenus afin de faire preuve de responsabilité à l'égard des collectivité?</skos:prefLabel>
     <rdfs:label xml:lang="en">Have you built a two-way feedback process with successful and unsuccessful investees to demonstrate community accountability?</rdfs:label>
-    <rdfs:label xml:lang="fr">Avez-vous mis en place un processus de rétroaction bidirectionnel avec les investis ayant réussi ou échoué pour démontrer l'obligation de rendre des comptes envers la communauté ?</rdfs:label>
+    <rdfs:label xml:lang="fr">Avez-vous mis en place un processus de retour d'information réciproque avec les organismes à vocation sociales retenus et non retenus afin de faire preuve de responsabilité à l'égard des collectivité?</rdfs:label>
     <cids:hasDescription>The Social Finance Intermediary demonstrates community accountability and builds a two-way feedback process with both successful and unsuccessful social purpose organizations.</cids:hasDescription>
     <skos:definition xml:lang="en">The Social Finance Intermediary demonstrates community accountability and builds a two-way feedback process with both successful and unsuccessful social purpose organizations.</skos:definition>
-    <skos:definition xml:lang="fr">L'intermédiaire en finance sociale démontre une obligation de rendre des comptes envers la communauté et met en place un processus de rétroaction bidirectionnel avec les organismes à vocation sociale ayant réussi ou échoué.</skos:definition>
+    <skos:definition xml:lang="fr">L'intermédiaire de finance sociale fait preuve de responsabilité à l'égard des collectivités et met en place un processus de retour d'information réciproque avec les organismes à vocation sociale retenus et non retenus.</skos:definition>
     <rdfs:comment xml:lang="en">The Social Finance Intermediary demonstrates community accountability and builds a two-way feedback process with both successful and unsuccessful social purpose organizations.</rdfs:comment>
-    <rdfs:comment xml:lang="fr">L'intermédiaire en finance sociale démontre une obligation de rendre des comptes envers la communauté et met en place un processus de rétroaction bidirectionnel avec les organismes à vocation sociale ayant réussi ou échoué.</rdfs:comment>
+    <rdfs:comment xml:lang="fr">L'intermédiaire de finance sociale fait preuve de responsabilité à l'égard des collectivités et met en place un processus de retour d'information réciproque avec les organismes à vocation sociale retenus et non retenus.</rdfs:comment>
     <cids:forOutcome rdf:resource="#Outcome4SFI"/>
     <cids:forOrganization rdf:resource="https://ontology.commonapproach.org/cids#esdc"/>
     <cids:definedBy rdf:resource="https://ontology.commonapproach.org/cids#esdc"/>
     <cids:hasSpecification rdf:resource=""/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://ontology.commonapproach.org/cids#esdc">
+    <org:hasLegalName>Employment and Social Development Canada</org:hasLegalName>
+    <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Organization"/>
   </rdf:Description>
   <rdf:Description rdf:about="#Indicator5SFI">
     <skos:inScheme rdf:resource=""/>
@@ -165,14 +169,14 @@
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <org:hasName>Do you provide formal or/and informal ways for the communities you are targeting in your investment activities to participate in your leadership and decision-making?</org:hasName>
     <skos:prefLabel xml:lang="en">Do you provide formal or/and informal ways for the communities you are targeting in your investment activities to participate in your leadership and decision-making?</skos:prefLabel>
-    <skos:prefLabel xml:lang="fr">Offrez-vous aux communautés que vous ciblez dans vos activités d'investissement des moyens formels ou informels de participer à votre leadership et à votre prise de décision ?</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Offrez-vous des moyens formels ou/et informels aux populations ciblés par vos activités d'investissements pour qu'elles participent à votre leadership et à votre prise de décision?</skos:prefLabel>
     <rdfs:label xml:lang="en">Do you provide formal or/and informal ways for the communities you are targeting in your investment activities to participate in your leadership and decision-making?</rdfs:label>
-    <rdfs:label xml:lang="fr">Offrez-vous aux communautés que vous ciblez dans vos activités d'investissement des moyens formels ou informels de participer à votre leadership et à votre prise de décision ?</rdfs:label>
+    <rdfs:label xml:lang="fr">Offrez-vous des moyens formels ou/et informels aux populations ciblés par vos activités d'investissements pour qu'elles participent à votre leadership et à votre prise de décision?</rdfs:label>
     <cids:hasDescription>Community engagement and relationship-building is valued and included in the leadership or/and decision-making mechanisms of the Social Finance Intermediary. The Social Finance Intermediary strives for transparent and participatory decision-making processes and values the lived experience of target investees from equity-deserving groups.</cids:hasDescription>
     <skos:definition xml:lang="en">Community engagement and relationship-building is valued and included in the leadership or/and decision-making mechanisms of the Social Finance Intermediary. The Social Finance Intermediary strives for transparent and participatory decision-making processes and values the lived experience of target investees from equity-deserving groups.</skos:definition>
-    <skos:definition xml:lang="fr">L'engagement communautaire et l'établissement de relations sont valorisés et intégrés dans les mécanismes de leadership et/ou de prise de décision de l'intermédiaire en finance sociale. L'intermédiaire vise des processus de prise de décision transparents et participatifs et valorise l'expérience vécue des investis ciblés issus des groupes méritant l'équité.</skos:definition>
+    <skos:definition xml:lang="fr">La mobilisation communautaire et l'établissement de relations sont valorisés et inclus dans les mécanismes de leadership ou/et décisionnels de l'intermédiaire de finance sociale. L'intermédiaire de finance sociale s'efforce de mettre en place des processus décisionnels transparents et participatifs et considère l'expérience vécue par les membres des sociétés ciblées pour des investissements qui sont issus de groupes méritant l'équité comme importante.</skos:definition>
     <rdfs:comment xml:lang="en">Community engagement and relationship-building is valued and included in the leadership or/and decision-making mechanisms of the Social Finance Intermediary. The Social Finance Intermediary strives for transparent and participatory decision-making processes and values the lived experience of target investees from equity-deserving groups.</rdfs:comment>
-    <rdfs:comment xml:lang="fr">L'engagement communautaire et l'établissement de relations sont valorisés et intégrés dans les mécanismes de leadership et/ou de prise de décision de l'intermédiaire en finance sociale. L'intermédiaire vise des processus de prise de décision transparents et participatifs et valorise l'expérience vécue des investis ciblés issus des groupes méritant l'équité.</rdfs:comment>
+    <rdfs:comment xml:lang="fr">La mobilisation communautaire et l'établissement de relations sont valorisés et inclus dans les mécanismes de leadership ou/et décisionnels de l'intermédiaire de finance sociale. L'intermédiaire de finance sociale s'efforce de mettre en place des processus décisionnels transparents et participatifs et considère l'expérience vécue par les membres des sociétés ciblées pour des investissements qui sont issus de groupes méritant l'équité comme importante.</rdfs:comment>
     <cids:forOutcome rdf:resource="#Outcome2SFI"/>
     <cids:forOrganization rdf:resource="https://ontology.commonapproach.org/cids#esdc"/>
     <cids:definedBy rdf:resource="https://ontology.commonapproach.org/cids#esdc"/>
@@ -183,16 +187,16 @@
     <rdfs:isDefinedBy rdf:resource=""/>
     <rdf:type rdf:resource="https://ontology.commonapproach.org/cids#Indicator"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <org:hasName>Investment thesis or/and financial products of the Social Finance Intermediary are designed to target initiatives advancing gender equality and the well-being of women and gender diverse people.</org:hasName>
-    <skos:prefLabel xml:lang="en">Investment thesis or/and financial products of the Social Finance Intermediary are designed to target initiatives advancing gender equality and the well-being of women and gender diverse people.</skos:prefLabel>
-    <skos:prefLabel xml:lang="fr">La thèse d'investissement et/ou les produits financiers de l'intermédiaire en finance sociale sont conçus pour cibler des initiatives visant à promouvoir l'égalité des genres et le bien-être des femmes et des personnes de diverses identités de genre.</skos:prefLabel>
-    <rdfs:label xml:lang="en">Investment thesis or/and financial products of the Social Finance Intermediary are designed to target initiatives advancing gender equality and the well-being of women and gender diverse people.</rdfs:label>
-    <rdfs:label xml:lang="fr">La thèse d'investissement et/ou les produits financiers de l'intermédiaire en finance sociale sont conçus pour cibler des initiatives visant à promouvoir l'égalité des genres et le bien-être des femmes et des personnes de diverses identités de genre.</rdfs:label>
+    <org:hasName>Is your investment thesis or are your financial products designed to support women and gender-diverse people and promote gender equality?</org:hasName>
+    <skos:prefLabel xml:lang="en">Is your investment thesis or are your financial products designed to support women and gender-diverse people and promote gender equality?</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Votre thèse d'investissement ou vos produits financiers ciblent-ils les initiatives visant à promouvoir l'égalité des genres et le bien être des femmes et des personnes de diverses identités de genre?</skos:prefLabel>
+    <rdfs:label xml:lang="en">Is your investment thesis or are your financial products designed to support women and gender-diverse people and promote gender equality?</rdfs:label>
+    <rdfs:label xml:lang="fr">Votre thèse d'investissement ou vos produits financiers ciblent-ils les initiatives visant à promouvoir l'égalité des genres et le bien être des femmes et des personnes de diverses identités de genre?</rdfs:label>
     <cids:hasDescription>Investment thesis or/and financial products of the Social Finance Intermediary are designed to target initiatives advancing gender equality and the well-being of women and gender diverse people.</cids:hasDescription>
     <skos:definition xml:lang="en">Investment thesis or/and financial products of the Social Finance Intermediary are designed to target initiatives advancing gender equality and the well-being of women and gender diverse people.</skos:definition>
-    <skos:definition xml:lang="fr">La thèse d'investissement et/ou les produits financiers de l'intermédiaire en finance sociale sont conçus pour cibler des initiatives visant à promouvoir l'égalité des genres et le bien-être des femmes et des personnes de diverses identités de genre.</skos:definition>
+    <skos:definition xml:lang="fr">La thèse d'investissement ou/et les produits financiers de l'intermédiaire de finance sociale sont conçus pour cibler les initiatives visant à promouvoir l'égalité des genres et le bien-être des femmes et des personnes de diverses identités de genre.</skos:definition>
     <rdfs:comment xml:lang="en">Investment thesis or/and financial products of the Social Finance Intermediary are designed to target initiatives advancing gender equality and the well-being of women and gender diverse people.</rdfs:comment>
-    <rdfs:comment xml:lang="fr">La thèse d'investissement et/ou les produits financiers de l'intermédiaire en finance sociale sont conçus pour cibler des initiatives visant à promouvoir l'égalité des genres et le bien-être des femmes et des personnes de diverses identités de genre.</rdfs:comment>
+    <rdfs:comment xml:lang="fr">La thèse d'investissement ou/et les produits financiers de l'intermédiaire de finance sociale sont conçus pour cibler les initiatives visant à promouvoir l'égalité des genres et le bien-être des femmes et des personnes de diverses identités de genre.</rdfs:comment>
     <cids:forOutcome rdf:resource="#Outcome1SFI"/>
     <cids:forOrganization rdf:resource="https://ontology.commonapproach.org/cids#esdc"/>
     <cids:definedBy rdf:resource="https://ontology.commonapproach.org/cids#esdc"/>
@@ -205,14 +209,14 @@
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <org:hasName>Does your leadership (i.e. senior management and governance bodies) include at least 50% of women and gender diverse people, who come from diverse backgrounds (e.g. age, race, geographic location, etc.)?</org:hasName>
     <skos:prefLabel xml:lang="en">Does your leadership (i.e. senior management and governance bodies) include at least 50% of women and gender diverse people, who come from diverse backgrounds (e.g. age, race, geographic location, etc.)?</skos:prefLabel>
-    <skos:prefLabel xml:lang="fr">Votre leadership (c'est-à-dire la direction et les instances de gouvernance) comprend-il au moins 50 % de femmes et de personnes de diverses identités de genre, issues de milieux divers (p. ex. âge, race, lieu géographique, etc.) ?</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Votre leadership (c'est-à-dire la haute gestion supérieur et les organes de gouvernance) comprend-t-il au moins 50% de femmes et des personnes de diverses identités de genre, ayant diverses expériences vécues (par exemple, l'âge, l'ethnicité, la situation géographique etc.)?</skos:prefLabel>
     <rdfs:label xml:lang="en">Does your leadership (i.e. senior management and governance bodies) include at least 50% of women and gender diverse people, who come from diverse backgrounds (e.g. age, race, geographic location, etc.)?</rdfs:label>
-    <rdfs:label xml:lang="fr">Votre leadership (c'est-à-dire la direction et les instances de gouvernance) comprend-il au moins 50 % de femmes et de personnes de diverses identités de genre, issues de milieux divers (p. ex. âge, race, lieu géographique, etc.) ?</rdfs:label>
+    <rdfs:label xml:lang="fr">Votre leadership (c'est-à-dire la haute gestion supérieur et les organes de gouvernance) comprend-t-il au moins 50% de femmes et des personnes de diverses identités de genre, ayant diverses expériences vécues (par exemple, l'âge, l'ethnicité, la situation géographique etc.)?</rdfs:label>
     <cids:hasDescription>Leadership of the Social Finance Intermediary is representative of women and/or gender-diverse people.</cids:hasDescription>
     <skos:definition xml:lang="en">Leadership of the Social Finance Intermediary is representative of women and/or gender-diverse people.</skos:definition>
-    <skos:definition xml:lang="fr">Le leadership de l'intermédiaire en finance sociale est représentatif des femmes et/ou des personnes de diverses identités de genre.</skos:definition>
+    <skos:definition xml:lang="fr">Le leadership de l'intermédiaire de finance sociale est représentatif des femmes ou/et des personnes de diverses identités de genre.</skos:definition>
     <rdfs:comment xml:lang="en">Leadership of the Social Finance Intermediary is representative of women and/or gender-diverse people.</rdfs:comment>
-    <rdfs:comment xml:lang="fr">Le leadership de l'intermédiaire en finance sociale est représentatif des femmes et/ou des personnes de diverses identités de genre.</rdfs:comment>
+    <rdfs:comment xml:lang="fr">Le leadership de l'intermédiaire de finance sociale est représentatif des femmes ou/et des personnes de diverses identités de genre.</rdfs:comment>
     <cids:forOutcome rdf:resource="#Outcome2SFI"/>
     <cids:forOrganization rdf:resource="https://ontology.commonapproach.org/cids#esdc"/>
     <cids:definedBy rdf:resource="https://ontology.commonapproach.org/cids#esdc"/>
@@ -225,14 +229,14 @@
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <org:hasName>Is your investment thesis or are your financial products designed to support equity-deserving groups and promote social equity?</org:hasName>
     <skos:prefLabel xml:lang="en">Is your investment thesis or are your financial products designed to support equity-deserving groups and promote social equity?</skos:prefLabel>
-    <skos:prefLabel xml:lang="fr">Votre thèse d'investissement ou vos produits financiers sont-ils conçus pour soutenir les groupes méritant l'équité et promouvoir l'équité sociale ?</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Votre thèse d'investissement ou vos produits financiers ciblent-ils les initiatives visant à promouvoir l'équité sociale et le bien-être des groupes méritant l'équité?</skos:prefLabel>
     <rdfs:label xml:lang="en">Is your investment thesis or are your financial products designed to support equity-deserving groups and promote social equity?</rdfs:label>
-    <rdfs:label xml:lang="fr">Votre thèse d'investissement ou vos produits financiers sont-ils conçus pour soutenir les groupes méritant l'équité et promouvoir l'équité sociale ?</rdfs:label>
+    <rdfs:label xml:lang="fr">Votre thèse d'investissement ou vos produits financiers ciblent-ils les initiatives visant à promouvoir l'équité sociale et le bien-être des groupes méritant l'équité?</rdfs:label>
     <cids:hasDescription>Investment thesis or/and financial products of the Social Finance Intermediary are designed to target initiatives advancing social equity and the well-being of equity-deserving groups.</cids:hasDescription>
     <skos:definition xml:lang="en">Investment thesis or/and financial products of the Social Finance Intermediary are designed to target initiatives advancing social equity and the well-being of equity-deserving groups.</skos:definition>
-    <skos:definition xml:lang="fr">La thèse d'investissement et/ou les produits financiers de l'intermédiaire en finance sociale sont conçus pour cibler des initiatives visant à promouvoir l'équité sociale et le bien-être des groupes méritant l'équité.</skos:definition>
+    <skos:definition xml:lang="fr">La thèse d'investissement ou/et les produits financiers de l'intermédiaire de finance sociale sont conçus pour cibler les initiatives visant à promouvoir l'équité sociale et le bien-être des groupes méritant l'équité.</skos:definition>
     <rdfs:comment xml:lang="en">Investment thesis or/and financial products of the Social Finance Intermediary are designed to target initiatives advancing social equity and the well-being of equity-deserving groups.</rdfs:comment>
-    <rdfs:comment xml:lang="fr">La thèse d'investissement et/ou les produits financiers de l'intermédiaire en finance sociale sont conçus pour cibler des initiatives visant à promouvoir l'équité sociale et le bien-être des groupes méritant l'équité.</rdfs:comment>
+    <rdfs:comment xml:lang="fr">La thèse d'investissement ou/et les produits financiers de l'intermédiaire de finance sociale sont conçus pour cibler les initiatives visant à promouvoir l'équité sociale et le bien-être des groupes méritant l'équité.</rdfs:comment>
     <cids:forOutcome rdf:resource="#Outcome1SFI"/>
     <cids:forOrganization rdf:resource="https://ontology.commonapproach.org/cids#esdc"/>
     <cids:definedBy rdf:resource="https://ontology.commonapproach.org/cids#esdc"/>
@@ -245,9 +249,9 @@
     <cids:definedBy rdf:resource="https://ontology.commonapproach.org/cids#esdc"/>
     <cids:forOrganization rdf:resource="https://ontology.commonapproach.org/cids#esdc"/>
     <cids:forOutcome rdf:resource="#Outcome6SFI"/>
-    <rdfs:label xml:lang="fr">Évaluation de l'investissement dans une Optique d'Équité Sociale</rdfs:label>
+    <rdfs:label xml:lang="fr">Évaluation de l'Investissement dans une Optique d'Équité Sociale</rdfs:label>
     <rdfs:label xml:lang="en">Social Equity Lens Investment Assessment</rdfs:label>
-    <skos:prefLabel xml:lang="fr">Évaluation de l'investissement dans une Optique d'Équité Sociale</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Évaluation de l'Investissement dans une Optique d'Équité Sociale</skos:prefLabel>
     <skos:prefLabel xml:lang="en">Social Equity Lens Investment Assessment</skos:prefLabel>
     <org:hasName>Social Equity Lens Investment Assessment</org:hasName>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>

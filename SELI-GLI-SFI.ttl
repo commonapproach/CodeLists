@@ -165,10 +165,10 @@
 
 :Indicator2SFI
     a cids:Indicator, skos:Concept ;
-    org:hasName "Investment thesis or/and financial products of the Social Finance Intermediary are designed to target initiatives advancing gender equality and the well-being of women and gender diverse people." ;
-    skos:prefLabel "Investment thesis or/and financial products of the Social Finance Intermediary are designed to target initiatives advancing gender equality and the well-being of women and gender diverse people."@en ;
+    org:hasName "Is your investment thesis or are your financial products designed to support women and gender-diverse people and promote gender equality?" ;
+    skos:prefLabel "Is your investment thesis or are your financial products designed to support women and gender-diverse people and promote gender equality?"@en ;
     skos:prefLabel "Votre thèse d'investissement ou vos produits financiers ciblent-ils les initiatives visant à promouvoir l'égalité des genres et le bien être des femmes et des personnes de diverses identités de genre?"@fr ;
-    rdfs:label "Investment thesis or/and financial products of the Social Finance Intermediary are designed to target initiatives advancing gender equality and the well-being of women and gender diverse people."@en ;
+    rdfs:label "Is your investment thesis or are your financial products designed to support women and gender-diverse people and promote gender equality?"@en ;
     rdfs:label "Votre thèse d'investissement ou vos produits financiers ciblent-ils les initiatives visant à promouvoir l'égalité des genres et le bien être des femmes et des personnes de diverses identités de genre?"@fr ;
     cids:hasDescription "Investment thesis or/and financial products of the Social Finance Intermediary are designed to target initiatives advancing gender equality and the well-being of women and gender diverse people." ;
     skos:definition "Investment thesis or/and financial products of the Social Finance Intermediary are designed to target initiatives advancing gender equality and the well-being of women and gender diverse people."@en ;
