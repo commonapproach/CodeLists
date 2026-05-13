@@ -1,6 +1,11 @@
 {
     "@graph": [
         {
+            "@id": "cids:esdc",
+            "org:hasLegalName": "Employment and Social Development Canada",
+            "@type": "cids:Organization"
+        },
+        {
             "@id": "https://codelist.commonapproach.org/SELI-GLI-SFI#Indicator12SFI",
             "skos:inScheme": {
                 "@id": "https://codelist.commonapproach.org/SELI-GLI-SFI"
@@ -172,7 +177,7 @@
             "rdfs:label": [
                 {
                     "@language": "fr",
-                    "@value": "Évaluation de l'investissement dans une Optique d'Équité Sociale"
+                    "@value": "Évaluation de l'Investissement dans une Optique d'Équité Sociale"
                 },
                 {
                     "@language": "en",
@@ -182,7 +187,7 @@
             "skos:prefLabel": [
                 {
                     "@language": "fr",
-                    "@value": "Évaluation de l'investissement dans une Optique d'Équité Sociale"
+                    "@value": "Évaluation de l'Investissement dans une Optique d'Équité Sociale"
                 },
                 {
                     "@language": "en",
@@ -321,7 +326,7 @@
                 },
                 {
                     "@language": "fr",
-                    "@value": "Avez-vous mis en place des mesures de soutien au renforcement des capacités et à l'échange de connaissances pour faire progresser l'équité sociale et l'égalité des genres dans l'écosystème élargi ?"
+                    "@value": "Avez-vous mis en place des mesures de soutien aux efforts de renforcement des capacités et d'échange de connaissances pour faire progresser l'équité sociale et l'égalité des genres dans l'écosystème au sens large?"
                 }
             ],
             "rdfs:label": [
@@ -331,7 +336,7 @@
                 },
                 {
                     "@language": "fr",
-                    "@value": "Avez-vous mis en place des mesures de soutien au renforcement des capacités et à l'échange de connaissances pour faire progresser l'équité sociale et l'égalité des genres dans l'écosystème élargi ?"
+                    "@value": "Avez-vous mis en place des mesures de soutien aux efforts de renforcement des capacités et d'échange de connaissances pour faire progresser l'équité sociale et l'égalité des genres dans l'écosystème au sens large?"
                 }
             ],
             "cids:hasDescription": "The Social Finance Intermediary demonstrates progress towards supporting capacity building and knowledge exchange efforts in social equity and/or gender equality practices in social finance.",
@@ -342,7 +347,7 @@
                 },
                 {
                     "@language": "fr",
-                    "@value": "L'intermédiaire en finance sociale démontre des progrès dans le soutien au renforcement des capacités et à l'échange de connaissances en matière d'équité sociale et/ou d'égalité des genres dans la finance sociale."
+                    "@value": "L'intermédiaire de finance sociale fait preuve de progrès dans son soutien aux efforts de renforcement des capacités et d'échange de connaissances en matière d'équité sociale ou/et d'égalité des genres dans le domaine de la finance sociale."
                 }
             ],
             "rdfs:comment": [
@@ -352,7 +357,7 @@
                 },
                 {
                     "@language": "fr",
-                    "@value": "L'intermédiaire en finance sociale démontre des progrès dans le soutien au renforcement des capacités et à l'échange de connaissances en matière d'équité sociale et/ou d'égalité des genres dans la finance sociale."
+                    "@value": "L'intermédiaire de finance sociale fait preuve de progrès dans son soutien aux efforts de renforcement des capacités et d'échange de connaissances en matière d'équité sociale ou/et d'égalité des genres dans le domaine de la finance sociale."
                 }
             ],
             "cids:forOutcome": {
@@ -445,7 +450,7 @@
                 },
                 {
                     "@language": "fr",
-                    "@value": "Avez-vous mis en place un processus de rétroaction bidirectionnel avec les investis ayant réussi ou échoué pour démontrer l'obligation de rendre des comptes envers la communauté ?"
+                    "@value": "Avez-vous mis en place un processus de retour d'information réciproque avec les organismes à vocation sociales retenus et non retenus afin de faire preuve de responsabilité à l'égard des collectivité?"
                 }
             ],
             "rdfs:label": [
@@ -455,7 +460,7 @@
                 },
                 {
                     "@language": "fr",
-                    "@value": "Avez-vous mis en place un processus de rétroaction bidirectionnel avec les investis ayant réussi ou échoué pour démontrer l'obligation de rendre des comptes envers la communauté ?"
+                    "@value": "Avez-vous mis en place un processus de retour d'information réciproque avec les organismes à vocation sociales retenus et non retenus afin de faire preuve de responsabilité à l'égard des collectivité?"
                 }
             ],
             "cids:hasDescription": "The Social Finance Intermediary demonstrates community accountability and builds a two-way feedback process with both successful and unsuccessful social purpose organizations.",
@@ -466,7 +471,7 @@
                 },
                 {
                     "@language": "fr",
-                    "@value": "L'intermédiaire en finance sociale démontre une obligation de rendre des comptes envers la communauté et met en place un processus de rétroaction bidirectionnel avec les organismes à vocation sociale ayant réussi ou échoué."
+                    "@value": "L'intermédiaire de finance sociale fait preuve de responsabilité à l'égard des collectivités et met en place un processus de retour d'information réciproque avec les organismes à vocation sociale retenus et non retenus."
                 }
             ],
             "rdfs:comment": [
@@ -476,7 +481,7 @@
                 },
                 {
                     "@language": "fr",
-                    "@value": "L'intermédiaire en finance sociale démontre une obligation de rendre des comptes envers la communauté et met en place un processus de rétroaction bidirectionnel avec les organismes à vocation sociale ayant réussi ou échoué."
+                    "@value": "L'intermédiaire de finance sociale fait preuve de responsabilité à l'égard des collectivités et met en place un processus de retour d'information réciproque avec les organismes à vocation sociale retenus et non retenus."
                 }
             ],
             "cids:forOutcome": {
@@ -512,7 +517,7 @@
                 },
                 {
                     "@language": "fr",
-                    "@value": "Avez-vous mis en place des pratiques de sourçage et de diligence raisonnable qui assurent l'inclusivité, la transparence et qui réduisent les obstacles pour les groupes méritant l'équité ?"
+                    "@value": "Avez-vous mis en place des pratiques de prospection et de diligence raisonnables qui garantissent l'inclusion, la transparence et éliminent les obstacles pour les groupes méritant l'équité?"
                 }
             ],
             "rdfs:label": [
@@ -522,7 +527,7 @@
                 },
                 {
                     "@language": "fr",
-                    "@value": "Avez-vous mis en place des pratiques de sourçage et de diligence raisonnable qui assurent l'inclusivité, la transparence et qui réduisent les obstacles pour les groupes méritant l'équité ?"
+                    "@value": "Avez-vous mis en place des pratiques de prospection et de diligence raisonnables qui garantissent l'inclusion, la transparence et éliminent les obstacles pour les groupes méritant l'équité?"
                 }
             ],
             "cids:hasDescription": "Deal sourcing and due diligence are conducted using inclusive and transparent practices, while recognizing power dynamics in the flow of social finance capital.",
@@ -533,7 +538,7 @@
                 },
                 {
                     "@language": "fr",
-                    "@value": "Le sourçage des transactions et la diligence raisonnable sont menés selon des pratiques inclusives et transparentes, tout en tenant compte des dynamiques de pouvoir dans le flux de capital de finance sociale."
+                    "@value": "La prospection et la diligence raisonnable sont guidées par des pratiques transparentes et inclusives, tout en reconnaissant la dynamique du pouvoir dans le flux de capitaux de la finance sociale."
                 }
             ],
             "rdfs:comment": [
@@ -543,7 +548,7 @@
                 },
                 {
                     "@language": "fr",
-                    "@value": "Le sourçage des transactions et la diligence raisonnable sont menés selon des pratiques inclusives et transparentes, tout en tenant compte des dynamiques de pouvoir dans le flux de capital de finance sociale."
+                    "@value": "La prospection et la diligence raisonnable sont guidées par des pratiques transparentes et inclusives, tout en reconnaissant la dynamique du pouvoir dans le flux de capitaux de la finance sociale."
                 }
             ],
             "cids:forOutcome": {
@@ -579,7 +584,7 @@
                 },
                 {
                     "@language": "fr",
-                    "@value": "Avez-vous mis en place des pratiques d'équité sociale significatives au sein de votre culture organisationnelle ?"
+                    "@value": "Avez-vous mis en place des pratiques d'équité sociale au sein de votre culture organisationnelle?"
                 }
             ],
             "rdfs:label": [
@@ -589,7 +594,7 @@
                 },
                 {
                     "@language": "fr",
-                    "@value": "Avez-vous mis en place des pratiques d'équité sociale significatives au sein de votre culture organisationnelle ?"
+                    "@value": "Avez-vous mis en place des pratiques d'équité sociale au sein de votre culture organisationnelle?"
                 }
             ],
             "cids:hasDescription": "The Social Finance Intermediary meaningfully integrates social equity practices in its internal organizational culture.",
@@ -600,7 +605,7 @@
                 },
                 {
                     "@language": "fr",
-                    "@value": "L'intermédiaire en finance sociale intègre activement des pratiques d'équité sociale dans sa culture organisationnelle interne."
+                    "@value": "L'intermédiaire de finance sociale intègre activement des pratiques d'équité sociale dans sa culture organisationnelle."
                 }
             ],
             "rdfs:comment": [
@@ -610,7 +615,7 @@
                 },
                 {
                     "@language": "fr",
-                    "@value": "L'intermédiaire en finance sociale intègre activement des pratiques d'équité sociale dans sa culture organisationnelle interne."
+                    "@value": "L'intermédiaire de finance sociale intègre activement des pratiques d'équité sociale dans sa culture organisationnelle."
                 }
             ],
             "cids:forOutcome": {
@@ -695,7 +700,7 @@
                 },
                 {
                     "@language": "fr",
-                    "@value": "Offrez-vous aux communautés que vous ciblez dans vos activités d'investissement des moyens formels ou informels de participer à votre leadership et à votre prise de décision ?"
+                    "@value": "Offrez-vous des moyens formels ou/et informels aux populations ciblés par vos activités d'investissements pour qu'elles participent à votre leadership et à votre prise de décision?"
                 }
             ],
             "rdfs:label": [
@@ -705,7 +710,7 @@
                 },
                 {
                     "@language": "fr",
-                    "@value": "Offrez-vous aux communautés que vous ciblez dans vos activités d'investissement des moyens formels ou informels de participer à votre leadership et à votre prise de décision ?"
+                    "@value": "Offrez-vous des moyens formels ou/et informels aux populations ciblés par vos activités d'investissements pour qu'elles participent à votre leadership et à votre prise de décision?"
                 }
             ],
             "cids:hasDescription": "Community engagement and relationship-building is valued and included in the leadership or/and decision-making mechanisms of the Social Finance Intermediary. The Social Finance Intermediary strives for transparent and participatory decision-making processes and values the lived experience of target investees from equity-deserving groups.",
@@ -716,7 +721,7 @@
                 },
                 {
                     "@language": "fr",
-                    "@value": "L'engagement communautaire et l'établissement de relations sont valorisés et intégrés dans les mécanismes de leadership et/ou de prise de décision de l'intermédiaire en finance sociale. L'intermédiaire vise des processus de prise de décision transparents et participatifs et valorise l'expérience vécue des investis ciblés issus des groupes méritant l'équité."
+                    "@value": "La mobilisation communautaire et l'établissement de relations sont valorisés et inclus dans les mécanismes de leadership ou/et décisionnels de l'intermédiaire de finance sociale. L'intermédiaire de finance sociale s'efforce de mettre en place des processus décisionnels transparents et participatifs et considère l'expérience vécue par les membres des sociétés ciblées pour des investissements qui sont issus de groupes méritant l'équité comme importante."
                 }
             ],
             "rdfs:comment": [
@@ -726,7 +731,7 @@
                 },
                 {
                     "@language": "fr",
-                    "@value": "L'engagement communautaire et l'établissement de relations sont valorisés et intégrés dans les mécanismes de leadership et/ou de prise de décision de l'intermédiaire en finance sociale. L'intermédiaire vise des processus de prise de décision transparents et participatifs et valorise l'expérience vécue des investis ciblés issus des groupes méritant l'équité."
+                    "@value": "La mobilisation communautaire et l'établissement de relations sont valorisés et inclus dans les mécanismes de leadership ou/et décisionnels de l'intermédiaire de finance sociale. L'intermédiaire de finance sociale s'efforce de mettre en place des processus décisionnels transparents et participatifs et considère l'expérience vécue par les membres des sociétés ciblées pour des investissements qui sont issus de groupes méritant l'équité comme importante."
                 }
             ],
             "cids:forOutcome": {
@@ -819,7 +824,7 @@
                 },
                 {
                     "@language": "fr",
-                    "@value": "Votre leadership (c'est-à-dire la direction et les instances de gouvernance) comprend-il au moins 50 % de femmes et de personnes de diverses identités de genre, issues de milieux divers (p. ex. âge, race, lieu géographique, etc.) ?"
+                    "@value": "Votre leadership (c'est-à-dire la haute gestion supérieur et les organes de gouvernance) comprend-t-il au moins 50% de femmes et des personnes de diverses identités de genre, ayant diverses expériences vécues (par exemple, l'âge, l'ethnicité, la situation géographique etc.)?"
                 }
             ],
             "rdfs:label": [
@@ -829,7 +834,7 @@
                 },
                 {
                     "@language": "fr",
-                    "@value": "Votre leadership (c'est-à-dire la direction et les instances de gouvernance) comprend-il au moins 50 % de femmes et de personnes de diverses identités de genre, issues de milieux divers (p. ex. âge, race, lieu géographique, etc.) ?"
+                    "@value": "Votre leadership (c'est-à-dire la haute gestion supérieur et les organes de gouvernance) comprend-t-il au moins 50% de femmes et des personnes de diverses identités de genre, ayant diverses expériences vécues (par exemple, l'âge, l'ethnicité, la situation géographique etc.)?"
                 }
             ],
             "cids:hasDescription": "Leadership of the Social Finance Intermediary is representative of women and/or gender-diverse people.",
@@ -840,7 +845,7 @@
                 },
                 {
                     "@language": "fr",
-                    "@value": "Le leadership de l'intermédiaire en finance sociale est représentatif des femmes et/ou des personnes de diverses identités de genre."
+                    "@value": "Le leadership de l'intermédiaire de finance sociale est représentatif des femmes ou/et des personnes de diverses identités de genre."
                 }
             ],
             "rdfs:comment": [
@@ -850,7 +855,7 @@
                 },
                 {
                     "@language": "fr",
-                    "@value": "Le leadership de l'intermédiaire en finance sociale est représentatif des femmes et/ou des personnes de diverses identités de genre."
+                    "@value": "Le leadership de l'intermédiaire de finance sociale est représentatif des femmes ou/et des personnes de diverses identités de genre."
                 }
             ],
             "cids:forOutcome": {
@@ -886,7 +891,7 @@
                 },
                 {
                     "@language": "fr",
-                    "@value": "Votre leadership (c'est-à-dire la direction et les instances de gouvernance) comprend-il au moins 50 % de femmes et de personnes de diverses identités de genre, issues de milieux divers (p. ex. âge, race, lieu géographique, etc.) ?"
+                    "@value": "Votre leadership (c'est-à-dire la haute direction et les organes de gouvernance) comprend-elle au moins 50 % de femmes et de personnes de diverses identités de genre et issues de milieux différents (âge, race, situation géographique, etc.)?"
                 }
             ],
             "rdfs:label": [
@@ -896,7 +901,7 @@
                 },
                 {
                     "@language": "fr",
-                    "@value": "Votre leadership (c'est-à-dire la direction et les instances de gouvernance) comprend-il au moins 50 % de femmes et de personnes de diverses identités de genre, issues de milieux divers (p. ex. âge, race, lieu géographique, etc.) ?"
+                    "@value": "Votre leadership (c'est-à-dire la haute direction et les organes de gouvernance) comprend-elle au moins 50 % de femmes et de personnes de diverses identités de genre et issues de milieux différents (âge, race, situation géographique, etc.)?"
                 }
             ],
             "cids:hasDescription": "Leadership of the Social Finance Intermediary is representative of equity-deserving groups.",
@@ -907,7 +912,7 @@
                 },
                 {
                     "@language": "fr",
-                    "@value": "Le leadership de l'intermédiaire en finance sociale est représentatif des groupes méritant l'équité."
+                    "@value": "Le leadership de l'intermédiaire de finance sociale est représentatif des groupes méritant l'équité."
                 }
             ],
             "rdfs:comment": [
@@ -917,7 +922,7 @@
                 },
                 {
                     "@language": "fr",
-                    "@value": "Le leadership de l'intermédiaire en finance sociale est représentatif des groupes méritant l'équité."
+                    "@value": "Le leadership de l'intermédiaire de finance sociale est représentatif des groupes méritant l'équité."
                 }
             ],
             "cids:forOutcome": {
@@ -945,25 +950,25 @@
                 "cids:Indicator",
                 "skos:Concept"
             ],
-            "org:hasName": "Investment thesis or/and financial products of the Social Finance Intermediary are designed to target initiatives advancing gender equality and the well-being of women and gender diverse people.",
+            "org:hasName": "Is your investment thesis or are your financial products designed to support women and gender-diverse people and promote gender equality?",
             "skos:prefLabel": [
                 {
                     "@language": "en",
-                    "@value": "Investment thesis or/and financial products of the Social Finance Intermediary are designed to target initiatives advancing gender equality and the well-being of women and gender diverse people."
+                    "@value": "Is your investment thesis or are your financial products designed to support women and gender-diverse people and promote gender equality?"
                 },
                 {
                     "@language": "fr",
-                    "@value": "La thèse d'investissement et/ou les produits financiers de l'intermédiaire en finance sociale sont conçus pour cibler des initiatives visant à promouvoir l'égalité des genres et le bien-être des femmes et des personnes de diverses identités de genre."
+                    "@value": "Votre thèse d'investissement ou vos produits financiers ciblent-ils les initiatives visant à promouvoir l'égalité des genres et le bien être des femmes et des personnes de diverses identités de genre?"
                 }
             ],
             "rdfs:label": [
                 {
                     "@language": "en",
-                    "@value": "Investment thesis or/and financial products of the Social Finance Intermediary are designed to target initiatives advancing gender equality and the well-being of women and gender diverse people."
+                    "@value": "Is your investment thesis or are your financial products designed to support women and gender-diverse people and promote gender equality?"
                 },
                 {
                     "@language": "fr",
-                    "@value": "La thèse d'investissement et/ou les produits financiers de l'intermédiaire en finance sociale sont conçus pour cibler des initiatives visant à promouvoir l'égalité des genres et le bien-être des femmes et des personnes de diverses identités de genre."
+                    "@value": "Votre thèse d'investissement ou vos produits financiers ciblent-ils les initiatives visant à promouvoir l'égalité des genres et le bien être des femmes et des personnes de diverses identités de genre?"
                 }
             ],
             "cids:hasDescription": "Investment thesis or/and financial products of the Social Finance Intermediary are designed to target initiatives advancing gender equality and the well-being of women and gender diverse people.",
@@ -974,7 +979,7 @@
                 },
                 {
                     "@language": "fr",
-                    "@value": "La thèse d'investissement et/ou les produits financiers de l'intermédiaire en finance sociale sont conçus pour cibler des initiatives visant à promouvoir l'égalité des genres et le bien-être des femmes et des personnes de diverses identités de genre."
+                    "@value": "La thèse d'investissement ou/et les produits financiers de l'intermédiaire de finance sociale sont conçus pour cibler les initiatives visant à promouvoir l'égalité des genres et le bien-être des femmes et des personnes de diverses identités de genre."
                 }
             ],
             "rdfs:comment": [
@@ -984,7 +989,7 @@
                 },
                 {
                     "@language": "fr",
-                    "@value": "La thèse d'investissement et/ou les produits financiers de l'intermédiaire en finance sociale sont conçus pour cibler des initiatives visant à promouvoir l'égalité des genres et le bien-être des femmes et des personnes de diverses identités de genre."
+                    "@value": "La thèse d'investissement ou/et les produits financiers de l'intermédiaire de finance sociale sont conçus pour cibler les initiatives visant à promouvoir l'égalité des genres et le bien-être des femmes et des personnes de diverses identités de genre."
                 }
             ],
             "cids:forOutcome": {
@@ -1074,7 +1079,7 @@
                 },
                 {
                     "@language": "fr",
-                    "@value": "Votre thèse d'investissement ou vos produits financiers sont-ils conçus pour soutenir les groupes méritant l'équité et promouvoir l'équité sociale ?"
+                    "@value": "Votre thèse d'investissement ou vos produits financiers ciblent-ils les initiatives visant à promouvoir l'équité sociale et le bien-être des groupes méritant l'équité?"
                 }
             ],
             "rdfs:label": [
@@ -1084,7 +1089,7 @@
                 },
                 {
                     "@language": "fr",
-                    "@value": "Votre thèse d'investissement ou vos produits financiers sont-ils conçus pour soutenir les groupes méritant l'équité et promouvoir l'équité sociale ?"
+                    "@value": "Votre thèse d'investissement ou vos produits financiers ciblent-ils les initiatives visant à promouvoir l'équité sociale et le bien-être des groupes méritant l'équité?"
                 }
             ],
             "cids:hasDescription": "Investment thesis or/and financial products of the Social Finance Intermediary are designed to target initiatives advancing social equity and the well-being of equity-deserving groups.",
@@ -1095,7 +1100,7 @@
                 },
                 {
                     "@language": "fr",
-                    "@value": "La thèse d'investissement et/ou les produits financiers de l'intermédiaire en finance sociale sont conçus pour cibler des initiatives visant à promouvoir l'équité sociale et le bien-être des groupes méritant l'équité."
+                    "@value": "La thèse d'investissement ou/et les produits financiers de l'intermédiaire de finance sociale sont conçus pour cibler les initiatives visant à promouvoir l'équité sociale et le bien-être des groupes méritant l'équité."
                 }
             ],
             "rdfs:comment": [
@@ -1105,7 +1110,7 @@
                 },
                 {
                     "@language": "fr",
-                    "@value": "La thèse d'investissement et/ou les produits financiers de l'intermédiaire en finance sociale sont conçus pour cibler des initiatives visant à promouvoir l'équité sociale et le bien-être des groupes méritant l'équité."
+                    "@value": "La thèse d'investissement ou/et les produits financiers de l'intermédiaire de finance sociale sont conçus pour cibler les initiatives visant à promouvoir l'équité sociale et le bien-être des groupes méritant l'équité."
                 }
             ],
             "cids:forOutcome": {
