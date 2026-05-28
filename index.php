@@ -99,6 +99,7 @@ $codelists = [
   'IrisMetric53' => 'A list of the Global Impact Investment Network (GIIN) IRIS+ Impact Metrics.',
   'LocalityStatsCan' => 'A list Statistics Canada definitions of locality types for use by Canada\'s Social Finance Fund.',
   'OrgTypeGOC' => 'A list of Government of Canada definitions of organization types for use by Canada\'s Social Finance Fund.',
+  'PalierFixeElement' => 'A list of Palier Fixe measurement terms for use in CIDS-aligned software.',
   'PopulationServed' => 'A list of population demographic groups defined by Employment and Social Development Canada (ESDC) for use by Canada\'s Social Finance Fund.',
   'ProvinceTerritory' => 'A list of Canadian Province and Territory codes according to Statistics Canada definitions.',
   'RallyImpactArea' => 'A list of Impact Areas based on the IRIS+ taxonomy defined by Rally Assets.',
