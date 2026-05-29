@@ -17,15 +17,29 @@ g.parse(file, format="turtle")
 qres = g.query(
         """
         PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
-        SELECT ?URL ?CODE ?LABEL_EN ?DESCRIPTION_EN
+        SELECT ?URL ?CODE ?LABEL_EN ?DESCRIPTION_EN ?LABEL_FR ?DESCRIPTION_FR
         WHERE {
-            ?URL skos:prefLabel ?LABEL_EN .
             ?URL skos:notation ?CODE .
             OPTIONAL {
-                ?URL skos:definition ?definition .
+                ?URL skos:prefLabel ?lbl_en .
+                FILTER(LANG(?lbl_en) = "en")
             }
-            BIND(COALESCE(?definition, ""^^xsd:string) AS ?DESCRIPTION_EN)
-            FILTER(LANG(?LABEL_EN) = "en")
+            OPTIONAL {
+                ?URL skos:prefLabel ?lbl_fr .
+                FILTER(LANG(?lbl_fr) = "fr")
+            }
+            OPTIONAL {
+                ?URL skos:definition ?def_en .
+                FILTER(LANG(?def_en) = "en")
+            }
+            OPTIONAL {
+                ?URL skos:definition ?def_fr .
+                FILTER(LANG(?def_fr) = "fr")
+            }
+            BIND(COALESCE(?lbl_en, ""^^xsd:string) AS ?LABEL_EN)
+            BIND(COALESCE(?lbl_fr, ""^^xsd:string) AS ?LABEL_FR)
+            BIND(COALESCE(?def_en, ""^^xsd:string) AS ?DESCRIPTION_EN)
+            BIND(COALESCE(?def_fr, ""^^xsd:string) AS ?DESCRIPTION_FR)
         }
         ORDER BY ?CODE
         """
